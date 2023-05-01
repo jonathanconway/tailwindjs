@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": ["jest", "node"],
+    "lib": ["es2021"]
+  },
+  "files": [],
+  "include": ["**/*.test.ts", "**/*.d.ts"]
+}

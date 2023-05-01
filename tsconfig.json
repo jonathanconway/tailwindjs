@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2021",
+    "declaration": true,
+    "outDir": "./dist"
+  },
+  "include": ["lib/**/*", "build/**/*"]
+}

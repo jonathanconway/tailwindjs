@@ -1,0 +1,4 @@
+{
+    "jestrunner.jestCommand": "npm run test -- --watchAll=false",
+    "jestrunner.changeDirectoryToWorkspaceRoot": false
+}
