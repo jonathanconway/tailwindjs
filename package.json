@@ -7,6 +7,7 @@
   "scripts": {
     "build-tailwindcss-pages": "ts-node ./build/build-tailwindcss-pages/run-build-tailwindcss-pages",
     "build-lib": "ts-node ./build/build-lib/run-build-lib",
+    "build-docs": "ts-node ./build/build-docs/run-build-docs",
     "build": "tsc",
     "test": "jest"
   },
