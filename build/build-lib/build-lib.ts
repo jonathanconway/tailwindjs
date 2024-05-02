@@ -4,17 +4,25 @@ import { existsSync, mkdirSync, writeFileSync } from "fs";
 
 import * as pages from "../build-tailwindcss-pages/tailwindcss-pages";
 import { writeExportLineToIndex } from "../code-gen.utils";
-import { parseTailwindCssPages } from "../parse-tailwindcss-pages/parse-tailwindcss-pages";
+import { mkdirIfNotExistsSync } from "../dir.utils";
+import { Definition, parseTailwindCssPages } from "../parse-tailwindcss-pages";
 import { convertCodeNameToTitle } from "../utils";
 
 export function buildLib() {
-  const { areas } = parseTailwindCssPages();
+  const definition = parseTailwindCssPages();
+
+  mkdirIfNotExistsSync(`${__dirname}/../../lib`);
+
+  buildLibUtilities(definition);
+  buildLibModifiers(definition);
+}
+
+export function buildLibUtilities({ utilityAreas: areas }: Definition) {
+  mkdirIfNotExistsSync(`${__dirname}/../../lib/utilities`);
 
   for (const area of areas) {
-    const areaFolderPath = `${__dirname}/../../lib/${area.name}`;
-    if (!existsSync(areaFolderPath)) {
-      mkdirSync(areaFolderPath);
-    }
+    const areaFolderPath = `${__dirname}/../../lib/utilities/${area.name}`;
+    mkdirIfNotExistsSync(areaFolderPath);
 
     for (const group of area.groups) {
       const groupPrimitiveCodes = [];
@@ -24,10 +32,10 @@ export function buildLib() {
 /**
  * ${primitive.tailwindCssName}
  *
- * CSS properties:
-${primitive.cssProperties.map(
-  (cssProperty) => ` * - ${cssProperty.replaceAll("/", "\\/")}`
-)}
+ * CSS:
+${primitive.cssProperties
+  .map((cssProperty) => ` * - \`${cssProperty.replaceAll("/", "\\/")}\``)
+  .join("\n")}
  *
  * @see ${group.tailwindCssUrl}
  *
@@ -46,6 +54,8 @@ export const ${primitive.name} = "${primitive.tailwindCssName}";
  * ${group.arbitrary.description}
  *
  * @see ${group.tailwindCssUrl}${group.arbitrary.tailwindCssUrl}
+ *
+ * @type utility
  */
 export const ${group.arbitrary.name} = (value: string) => \`${group.arbitrary.tailwindCssName}-[\${value}]\`;
 `
@@ -59,7 +69,7 @@ export const ${group.arbitrary.name} = (value: string) => \`${group.arbitrary.ta
  *
  * @see ${group.tailwindCssUrl}
  */
-export const ${group.name} = {
+export const ${group.name}_utilities = {
 ${[
   ...group.primitives.map((primitive) => primitive.name),
   group.arbitrary ? group.arbitrary.name : undefined,
@@ -79,6 +89,79 @@ ${groupObjectCode}
       writeFileSync(`${areaFolderPath}/${group.name}.ts`, groupCode);
       writeExportLineToIndex(`${areaFolderPath}/index.ts`, group.name);
     }
-    writeExportLineToIndex(`${__dirname}/../../lib/index.ts`, areaFolderPath);
+    writeExportLineToIndex(
+      `${__dirname}/../../lib/utilities/index.ts`,
+      area.name
+    );
   }
+
+  writeExportLineToIndex(`${__dirname}/../../lib/index.ts`, "utilities");
+}
+
+function prepareCommentFragment(input: string) {
+  return input.replaceAll("*", "\\*").replaceAll("@", "\\@");
+}
+
+export function buildLibModifiers({ modifierGroups }: Definition) {
+  const modifiersFolderPath = `${__dirname}/../../lib/modifiers`;
+  mkdirIfNotExistsSync(modifiersFolderPath);
+
+  for (const modifierGroup of modifierGroups) {
+    const modifierGroupFilePathName = `${__dirname}/../../lib/modifiers/${modifierGroup.name}.ts`;
+
+    const modifierCode = `
+${modifierGroup.modifiers
+  .map((modifier) =>
+    modifier.arbitrary
+      ? `
+/**
+ * ${prepareCommentFragment(modifier.tailwindCssName)}
+ * 
+${modifier.description.trim() ? ` * ${modifier.description}\n *` : ""}
+ * CSS:
+ * - \`${modifier.cssCode}\`
+ * 
+ * @param arbitrary Custom value for modifier
+ * @param suffix Utility to modify
+ * 
+ * @see ${modifier.tailwindCssUrl}
+ *
+ * @type modifier
+ */
+export const ${
+          modifier.name
+        } = (arbitrary: string, suffix: string) => \`${modifier.tailwindCssName.replaceAll(
+          "[…]",
+          "[${arbitrary}]"
+        )}:\${suffix}\`;
+`
+      : `
+/**
+ * ${prepareCommentFragment(modifier.tailwindCssName)}
+ * 
+${modifier.description.trim() ? ` * ${modifier.description}\n *` : ""}
+ * CSS:
+ * - \`${modifier.cssCode}\`
+ *
+ * @param suffix Utility to modify
+ * 
+ * @see ${modifier.tailwindCssUrl}
+ *
+ * @type modifier
+ */
+export const ${modifier.name} = (suffix: string) => \`${
+          modifier.tailwindCssName
+        }:\${suffix}\`;
+`
+  )
+  .join("\n")} 
+`;
+
+    writeFileSync(modifierGroupFilePathName, modifierCode);
+    writeExportLineToIndex(
+      `${__dirname}/../../lib/modifiers/index.ts`,
+      modifierGroup.name
+    );
+  }
+  writeExportLineToIndex(`${__dirname}/../../lib/index.ts`, "modifiers");
 }

@@ -1,6 +1,6 @@
 {
-  "name": "tailwindjs",
-  "version": "1.0.2",
+  "name": "@jonathanconway/tailwindjs",
+  "version": "0.0.1",
   "description": "Tailwind as Javascript functions for code completion and type safety.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -52,6 +52,16 @@ export async function buildTailwindCSSPages() {
     UTILITY_AREAS.includes((h5.children[0] as any).data)
   );
 
+  await buildTailwindCSSModifiersPage();
+
+  // await buildTailwindCSSDocsPage(docsHtml);
+
+  // for await (const h5UtilityArea of h5sUtilityAreas) {
+  //   await buildTailwindCSSUtilityAreaPages(h5UtilityArea);
+  // }
+}
+
+async function buildTailwindCSSDocsPage(docsHtml: string) {
   writePage(
     TAILWIND_CSS_DOCS_URL,
     `${__dirname}/tailwindcss-pages/docs.ts`,
@@ -59,10 +69,6 @@ export async function buildTailwindCSSPages() {
     docsHtml
   );
   writeExportLineToIndex(`${__dirname}/tailwindcss-pages/index.ts`, "docs");
-
-  for await (const h5UtilityArea of h5sUtilityAreas) {
-    await buildTailwindCSSUtilityAreaPages(h5UtilityArea);
-  }
 }
 
 async function buildTailwindCSSUtilityAreaPages(h5UtilityArea: Element) {
@@ -127,4 +133,18 @@ async function buildTailwindCSSGroupPage(
     `${__dirname}/tailwindcss-pages/${areaName}/index.ts`,
     groupCodeName
   );
+}
+
+async function buildTailwindCSSModifiersPage() {
+  const statesUrl = `${TAILWIND_CSS_BASE_URL}/docs/hover-focus-and-other-states`;
+  const statesResponse = await fetch(statesUrl);
+  const statesHtml = await statesResponse.text();
+
+  writePage(
+    statesUrl,
+    `${__dirname}/tailwindcss-pages/states.ts`,
+    "states",
+    statesHtml
+  );
+  writeExportLineToIndex(`${__dirname}/tailwindcss-pages/index.ts`, "states");
 }
