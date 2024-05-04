@@ -707,7 +707,7 @@ export const h_max = "h-max";
 export const h_fit = "h-fit";
 
 /**
- * h-[:value]
+ * h-[{value}]
  *
  * If you need to use a one-off height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -35,7 +35,7 @@ export const list_disc = "list-disc";
 export const list_decimal = "list-decimal";
 
 /**
- * list-[:value]
+ * list-[{value}]
  *
  * If you need to use a one-off list-style-type value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

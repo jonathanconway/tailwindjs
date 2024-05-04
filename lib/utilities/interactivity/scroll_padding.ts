@@ -3849,7 +3849,7 @@ export const scroll_pb_96 = "scroll-pb-96";
 export const scroll_pl_96 = "scroll-pl-96";
 
 /**
- * scroll-p-[:value]
+ * scroll-p-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3858,6 +3858,102 @@ export const scroll_pl_96 = "scroll-pl-96";
  * @type utility
  */
 export const scroll_p_arbitrary = (value: string) => `scroll-p-[${value}]`;
+
+
+/**
+ * scroll-px-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_px_arbitrary = (value: string) => `scroll-px-[${value}]`;
+
+
+/**
+ * scroll-py-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_py_arbitrary = (value: string) => `scroll-py-[${value}]`;
+
+
+/**
+ * scroll-ps-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_ps_arbitrary = (value: string) => `scroll-ps-[${value}]`;
+
+
+/**
+ * scroll-pe-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_pe_arbitrary = (value: string) => `scroll-pe-[${value}]`;
+
+
+/**
+ * scroll-pt-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_pt_arbitrary = (value: string) => `scroll-pt-[${value}]`;
+
+
+/**
+ * scroll-pr-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_pr_arbitrary = (value: string) => `scroll-pr-[${value}]`;
+
+
+/**
+ * scroll-pb-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_pb_arbitrary = (value: string) => `scroll-pb-[${value}]`;
+
+
+/**
+ * scroll-pl-[{value}]
+ *
+ * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_pl_arbitrary = (value: string) => `scroll-pl-[${value}]`;
 
 /**
  * Scroll Padding
@@ -4182,5 +4278,13 @@ export const scroll_padding_utilities = {
   scroll_pr_96,
   scroll_pb_96,
   scroll_pl_96,
-  scroll_p_arbitrary
+  scroll_p_arbitrary,
+  scroll_px_arbitrary,
+  scroll_py_arbitrary,
+  scroll_ps_arbitrary,
+  scroll_pe_arbitrary,
+  scroll_pt_arbitrary,
+  scroll_pr_arbitrary,
+  scroll_pb_arbitrary,
+  scroll_pl_arbitrary
 };

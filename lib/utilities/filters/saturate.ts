@@ -59,7 +59,7 @@ export const saturate_150 = "saturate-150";
 export const saturate_200 = "saturate-200";
 
 /**
- * saturate-[:value]
+ * saturate-[{value}]
  *
  * If you need to use a one-off saturate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

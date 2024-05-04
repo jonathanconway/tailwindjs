@@ -71,7 +71,7 @@ export const underline_offset_4 = "underline-offset-4";
 export const underline_offset_8 = "underline-offset-8";
 
 /**
- * underline-offset-[:value]
+ * underline-offset-[{value}]
  *
  * If you need to use a one-off text-underline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

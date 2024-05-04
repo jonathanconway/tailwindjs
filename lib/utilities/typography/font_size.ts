@@ -168,7 +168,7 @@ export const text_8xl = "text-8xl";
 export const text_9xl = "text-9xl";
 
 /**
- * text-[:value]
+ * text-[{value}]
  *
  * If you need to use a one-off font-size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

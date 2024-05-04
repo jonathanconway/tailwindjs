@@ -2963,7 +2963,7 @@ export const divide_rose_900 = "divide-rose-900";
 export const divide_rose_950 = "divide-rose-950";
 
 /**
- * divide-[:value]
+ * divide-slate-[{value}]
  *
  * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2971,7 +2971,259 @@ export const divide_rose_950 = "divide-rose-950";
  *
  * @type utility
  */
-export const divide_arbitrary = (value: string) => `divide-[${value}]`;
+export const divide_slate_arbitrary = (value: string) => `divide-slate-[${value}]`;
+
+
+/**
+ * divide-gray-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_gray_arbitrary = (value: string) => `divide-gray-[${value}]`;
+
+
+/**
+ * divide-zinc-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_zinc_arbitrary = (value: string) => `divide-zinc-[${value}]`;
+
+
+/**
+ * divide-neutral-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_neutral_arbitrary = (value: string) => `divide-neutral-[${value}]`;
+
+
+/**
+ * divide-stone-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_stone_arbitrary = (value: string) => `divide-stone-[${value}]`;
+
+
+/**
+ * divide-red-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_red_arbitrary = (value: string) => `divide-red-[${value}]`;
+
+
+/**
+ * divide-orange-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_orange_arbitrary = (value: string) => `divide-orange-[${value}]`;
+
+
+/**
+ * divide-amber-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_amber_arbitrary = (value: string) => `divide-amber-[${value}]`;
+
+
+/**
+ * divide-yellow-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_yellow_arbitrary = (value: string) => `divide-yellow-[${value}]`;
+
+
+/**
+ * divide-lime-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_lime_arbitrary = (value: string) => `divide-lime-[${value}]`;
+
+
+/**
+ * divide-green-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_green_arbitrary = (value: string) => `divide-green-[${value}]`;
+
+
+/**
+ * divide-emerald-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_emerald_arbitrary = (value: string) => `divide-emerald-[${value}]`;
+
+
+/**
+ * divide-teal-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_teal_arbitrary = (value: string) => `divide-teal-[${value}]`;
+
+
+/**
+ * divide-cyan-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_cyan_arbitrary = (value: string) => `divide-cyan-[${value}]`;
+
+
+/**
+ * divide-sky-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_sky_arbitrary = (value: string) => `divide-sky-[${value}]`;
+
+
+/**
+ * divide-blue-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_blue_arbitrary = (value: string) => `divide-blue-[${value}]`;
+
+
+/**
+ * divide-indigo-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_indigo_arbitrary = (value: string) => `divide-indigo-[${value}]`;
+
+
+/**
+ * divide-violet-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_violet_arbitrary = (value: string) => `divide-violet-[${value}]`;
+
+
+/**
+ * divide-purple-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_purple_arbitrary = (value: string) => `divide-purple-[${value}]`;
+
+
+/**
+ * divide-fuchsia-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_fuchsia_arbitrary = (value: string) => `divide-fuchsia-[${value}]`;
+
+
+/**
+ * divide-pink-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_pink_arbitrary = (value: string) => `divide-pink-[${value}]`;
+
+
+/**
+ * divide-rose-[{value}]
+ *
+ * If you need to use a one-off divide color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_rose_arbitrary = (value: string) => `divide-rose-[${value}]`;
 
 /**
  * Divide Color
@@ -3228,5 +3480,26 @@ export const divide_color_utilities = {
   divide_rose_800,
   divide_rose_900,
   divide_rose_950,
-  divide_arbitrary
+  divide_slate_arbitrary,
+  divide_gray_arbitrary,
+  divide_zinc_arbitrary,
+  divide_neutral_arbitrary,
+  divide_stone_arbitrary,
+  divide_red_arbitrary,
+  divide_orange_arbitrary,
+  divide_amber_arbitrary,
+  divide_yellow_arbitrary,
+  divide_lime_arbitrary,
+  divide_green_arbitrary,
+  divide_emerald_arbitrary,
+  divide_teal_arbitrary,
+  divide_cyan_arbitrary,
+  divide_sky_arbitrary,
+  divide_blue_arbitrary,
+  divide_indigo_arbitrary,
+  divide_violet_arbitrary,
+  divide_purple_arbitrary,
+  divide_fuchsia_arbitrary,
+  divide_pink_arbitrary,
+  divide_rose_arbitrary
 };

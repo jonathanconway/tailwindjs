@@ -2963,6 +2963,269 @@ export const shadow_rose_900 = "shadow-rose-900";
 export const shadow_rose_950 = "shadow-rose-950";
 
 /**
+ * shadow-slate-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_slate_arbitrary = (value: string) => `shadow-slate-[${value}]`;
+
+
+/**
+ * shadow-gray-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_gray_arbitrary = (value: string) => `shadow-gray-[${value}]`;
+
+
+/**
+ * shadow-zinc-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-[${value}]`;
+
+
+/**
+ * shadow-neutral-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-[${value}]`;
+
+
+/**
+ * shadow-stone-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_stone_arbitrary = (value: string) => `shadow-stone-[${value}]`;
+
+
+/**
+ * shadow-red-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_red_arbitrary = (value: string) => `shadow-red-[${value}]`;
+
+
+/**
+ * shadow-orange-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_orange_arbitrary = (value: string) => `shadow-orange-[${value}]`;
+
+
+/**
+ * shadow-amber-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_amber_arbitrary = (value: string) => `shadow-amber-[${value}]`;
+
+
+/**
+ * shadow-yellow-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-[${value}]`;
+
+
+/**
+ * shadow-lime-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_lime_arbitrary = (value: string) => `shadow-lime-[${value}]`;
+
+
+/**
+ * shadow-green-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_green_arbitrary = (value: string) => `shadow-green-[${value}]`;
+
+
+/**
+ * shadow-emerald-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-[${value}]`;
+
+
+/**
+ * shadow-teal-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_teal_arbitrary = (value: string) => `shadow-teal-[${value}]`;
+
+
+/**
+ * shadow-cyan-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-[${value}]`;
+
+
+/**
+ * shadow-sky-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_sky_arbitrary = (value: string) => `shadow-sky-[${value}]`;
+
+
+/**
+ * shadow-blue-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_blue_arbitrary = (value: string) => `shadow-blue-[${value}]`;
+
+
+/**
+ * shadow-indigo-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-[${value}]`;
+
+
+/**
+ * shadow-violet-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_violet_arbitrary = (value: string) => `shadow-violet-[${value}]`;
+
+
+/**
+ * shadow-purple-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_purple_arbitrary = (value: string) => `shadow-purple-[${value}]`;
+
+
+/**
+ * shadow-fuchsia-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-[${value}]`;
+
+
+/**
+ * shadow-pink-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_pink_arbitrary = (value: string) => `shadow-pink-[${value}]`;
+
+
+/**
+ * shadow-rose-[{value}]
+ *
+ * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/box-shadow-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const shadow_rose_arbitrary = (value: string) => `shadow-rose-[${value}]`;
+
+/**
  * Box Shadow Color
  *
  * Utilities for controlling the color of a box shadow.
@@ -3216,5 +3479,27 @@ export const box_shadow_color_utilities = {
   shadow_rose_700,
   shadow_rose_800,
   shadow_rose_900,
-  shadow_rose_950
+  shadow_rose_950,
+  shadow_slate_arbitrary,
+  shadow_gray_arbitrary,
+  shadow_zinc_arbitrary,
+  shadow_neutral_arbitrary,
+  shadow_stone_arbitrary,
+  shadow_red_arbitrary,
+  shadow_orange_arbitrary,
+  shadow_amber_arbitrary,
+  shadow_yellow_arbitrary,
+  shadow_lime_arbitrary,
+  shadow_green_arbitrary,
+  shadow_emerald_arbitrary,
+  shadow_teal_arbitrary,
+  shadow_cyan_arbitrary,
+  shadow_sky_arbitrary,
+  shadow_blue_arbitrary,
+  shadow_indigo_arbitrary,
+  shadow_violet_arbitrary,
+  shadow_purple_arbitrary,
+  shadow_fuchsia_arbitrary,
+  shadow_pink_arbitrary,
+  shadow_rose_arbitrary
 };

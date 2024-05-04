@@ -2975,7 +2975,7 @@ export const fill_rose_900 = "fill-rose-900";
 export const fill_rose_950 = "fill-rose-950";
 
 /**
- * fill-[:value]
+ * fill-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2984,6 +2984,270 @@ export const fill_rose_950 = "fill-rose-950";
  * @type utility
  */
 export const fill_arbitrary = (value: string) => `fill-[${value}]`;
+
+
+/**
+ * fill-slate-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_slate_arbitrary = (value: string) => `fill-slate-[${value}]`;
+
+
+/**
+ * fill-gray-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_gray_arbitrary = (value: string) => `fill-gray-[${value}]`;
+
+
+/**
+ * fill-zinc-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_zinc_arbitrary = (value: string) => `fill-zinc-[${value}]`;
+
+
+/**
+ * fill-neutral-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_neutral_arbitrary = (value: string) => `fill-neutral-[${value}]`;
+
+
+/**
+ * fill-stone-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_stone_arbitrary = (value: string) => `fill-stone-[${value}]`;
+
+
+/**
+ * fill-red-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_red_arbitrary = (value: string) => `fill-red-[${value}]`;
+
+
+/**
+ * fill-orange-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_orange_arbitrary = (value: string) => `fill-orange-[${value}]`;
+
+
+/**
+ * fill-amber-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_amber_arbitrary = (value: string) => `fill-amber-[${value}]`;
+
+
+/**
+ * fill-yellow-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_yellow_arbitrary = (value: string) => `fill-yellow-[${value}]`;
+
+
+/**
+ * fill-lime-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_lime_arbitrary = (value: string) => `fill-lime-[${value}]`;
+
+
+/**
+ * fill-green-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_green_arbitrary = (value: string) => `fill-green-[${value}]`;
+
+
+/**
+ * fill-emerald-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_emerald_arbitrary = (value: string) => `fill-emerald-[${value}]`;
+
+
+/**
+ * fill-teal-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_teal_arbitrary = (value: string) => `fill-teal-[${value}]`;
+
+
+/**
+ * fill-cyan-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_cyan_arbitrary = (value: string) => `fill-cyan-[${value}]`;
+
+
+/**
+ * fill-sky-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_sky_arbitrary = (value: string) => `fill-sky-[${value}]`;
+
+
+/**
+ * fill-blue-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_blue_arbitrary = (value: string) => `fill-blue-[${value}]`;
+
+
+/**
+ * fill-indigo-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_indigo_arbitrary = (value: string) => `fill-indigo-[${value}]`;
+
+
+/**
+ * fill-violet-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_violet_arbitrary = (value: string) => `fill-violet-[${value}]`;
+
+
+/**
+ * fill-purple-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_purple_arbitrary = (value: string) => `fill-purple-[${value}]`;
+
+
+/**
+ * fill-fuchsia-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_fuchsia_arbitrary = (value: string) => `fill-fuchsia-[${value}]`;
+
+
+/**
+ * fill-pink-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_pink_arbitrary = (value: string) => `fill-pink-[${value}]`;
+
+
+/**
+ * fill-rose-[{value}]
+ *
+ * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/fill#arbitrary-values
+ *
+ * @type utility
+ */
+export const fill_rose_arbitrary = (value: string) => `fill-rose-[${value}]`;
 
 /**
  * Fill
@@ -3241,5 +3505,27 @@ export const fill_utilities = {
   fill_rose_800,
   fill_rose_900,
   fill_rose_950,
-  fill_arbitrary
+  fill_arbitrary,
+  fill_slate_arbitrary,
+  fill_gray_arbitrary,
+  fill_zinc_arbitrary,
+  fill_neutral_arbitrary,
+  fill_stone_arbitrary,
+  fill_red_arbitrary,
+  fill_orange_arbitrary,
+  fill_amber_arbitrary,
+  fill_yellow_arbitrary,
+  fill_lime_arbitrary,
+  fill_green_arbitrary,
+  fill_emerald_arbitrary,
+  fill_teal_arbitrary,
+  fill_cyan_arbitrary,
+  fill_sky_arbitrary,
+  fill_blue_arbitrary,
+  fill_indigo_arbitrary,
+  fill_violet_arbitrary,
+  fill_purple_arbitrary,
+  fill_fuchsia_arbitrary,
+  fill_pink_arbitrary,
+  fill_rose_arbitrary
 };

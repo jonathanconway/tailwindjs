@@ -2963,7 +2963,7 @@ export const bg_rose_900 = "bg-rose-900";
 export const bg_rose_950 = "bg-rose-950";
 
 /**
- * bg-[:value]
+ * bg-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2972,6 +2972,270 @@ export const bg_rose_950 = "bg-rose-950";
  * @type utility
  */
 export const bg_arbitrary = (value: string) => `bg-[${value}]`;
+
+
+/**
+ * bg-slate-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_slate_arbitrary = (value: string) => `bg-slate-[${value}]`;
+
+
+/**
+ * bg-gray-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_gray_arbitrary = (value: string) => `bg-gray-[${value}]`;
+
+
+/**
+ * bg-zinc-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_zinc_arbitrary = (value: string) => `bg-zinc-[${value}]`;
+
+
+/**
+ * bg-neutral-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_neutral_arbitrary = (value: string) => `bg-neutral-[${value}]`;
+
+
+/**
+ * bg-stone-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_stone_arbitrary = (value: string) => `bg-stone-[${value}]`;
+
+
+/**
+ * bg-red-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_red_arbitrary = (value: string) => `bg-red-[${value}]`;
+
+
+/**
+ * bg-orange-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_orange_arbitrary = (value: string) => `bg-orange-[${value}]`;
+
+
+/**
+ * bg-amber-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_amber_arbitrary = (value: string) => `bg-amber-[${value}]`;
+
+
+/**
+ * bg-yellow-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_yellow_arbitrary = (value: string) => `bg-yellow-[${value}]`;
+
+
+/**
+ * bg-lime-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_lime_arbitrary = (value: string) => `bg-lime-[${value}]`;
+
+
+/**
+ * bg-green-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_green_arbitrary = (value: string) => `bg-green-[${value}]`;
+
+
+/**
+ * bg-emerald-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_emerald_arbitrary = (value: string) => `bg-emerald-[${value}]`;
+
+
+/**
+ * bg-teal-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_teal_arbitrary = (value: string) => `bg-teal-[${value}]`;
+
+
+/**
+ * bg-cyan-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_cyan_arbitrary = (value: string) => `bg-cyan-[${value}]`;
+
+
+/**
+ * bg-sky-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_sky_arbitrary = (value: string) => `bg-sky-[${value}]`;
+
+
+/**
+ * bg-blue-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_blue_arbitrary = (value: string) => `bg-blue-[${value}]`;
+
+
+/**
+ * bg-indigo-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_indigo_arbitrary = (value: string) => `bg-indigo-[${value}]`;
+
+
+/**
+ * bg-violet-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_violet_arbitrary = (value: string) => `bg-violet-[${value}]`;
+
+
+/**
+ * bg-purple-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_purple_arbitrary = (value: string) => `bg-purple-[${value}]`;
+
+
+/**
+ * bg-fuchsia-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_fuchsia_arbitrary = (value: string) => `bg-fuchsia-[${value}]`;
+
+
+/**
+ * bg-pink-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_pink_arbitrary = (value: string) => `bg-pink-[${value}]`;
+
+
+/**
+ * bg-rose-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_rose_arbitrary = (value: string) => `bg-rose-[${value}]`;
 
 /**
  * Background Color
@@ -3228,5 +3492,27 @@ export const background_color_utilities = {
   bg_rose_800,
   bg_rose_900,
   bg_rose_950,
-  bg_arbitrary
+  bg_arbitrary,
+  bg_slate_arbitrary,
+  bg_gray_arbitrary,
+  bg_zinc_arbitrary,
+  bg_neutral_arbitrary,
+  bg_stone_arbitrary,
+  bg_red_arbitrary,
+  bg_orange_arbitrary,
+  bg_amber_arbitrary,
+  bg_yellow_arbitrary,
+  bg_lime_arbitrary,
+  bg_green_arbitrary,
+  bg_emerald_arbitrary,
+  bg_teal_arbitrary,
+  bg_cyan_arbitrary,
+  bg_sky_arbitrary,
+  bg_blue_arbitrary,
+  bg_indigo_arbitrary,
+  bg_violet_arbitrary,
+  bg_purple_arbitrary,
+  bg_fuchsia_arbitrary,
+  bg_pink_arbitrary,
+  bg_rose_arbitrary
 };

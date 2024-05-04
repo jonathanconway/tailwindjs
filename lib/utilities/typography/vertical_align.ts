@@ -95,7 +95,7 @@ export const align_sub = "align-sub";
 export const align_super = "align-super";
 
 /**
- * align-[:value]
+ * align-[{value}]
  *
  * If you need to use a one-off vertical-align value that isn't included in Tailwind by default, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -104,6 +104,18 @@ export const align_super = "align-super";
  * @type utility
  */
 export const align_arbitrary = (value: string) => `align-[${value}]`;
+
+
+/**
+ * align-text-[{value}]
+ *
+ * If you need to use a one-off vertical-align value that isn't included in Tailwind by default, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/vertical-align#arbitrary-values
+ *
+ * @type utility
+ */
+export const align_text_arbitrary = (value: string) => `align-text-[${value}]`;
 
 /**
  * Vertical Align
@@ -121,5 +133,6 @@ export const vertical_align_utilities = {
   align_text_bottom,
   align_sub,
   align_super,
-  align_arbitrary
+  align_arbitrary,
+  align_text_arbitrary
 };

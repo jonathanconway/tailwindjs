@@ -2963,6 +2963,269 @@ export const outline_rose_900 = "outline-rose-900";
 export const outline_rose_950 = "outline-rose-950";
 
 /**
+ * outline-slate-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_slate_arbitrary = (value: string) => `outline-slate-[${value}]`;
+
+
+/**
+ * outline-gray-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_gray_arbitrary = (value: string) => `outline-gray-[${value}]`;
+
+
+/**
+ * outline-zinc-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_zinc_arbitrary = (value: string) => `outline-zinc-[${value}]`;
+
+
+/**
+ * outline-neutral-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_neutral_arbitrary = (value: string) => `outline-neutral-[${value}]`;
+
+
+/**
+ * outline-stone-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_stone_arbitrary = (value: string) => `outline-stone-[${value}]`;
+
+
+/**
+ * outline-red-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_red_arbitrary = (value: string) => `outline-red-[${value}]`;
+
+
+/**
+ * outline-orange-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_orange_arbitrary = (value: string) => `outline-orange-[${value}]`;
+
+
+/**
+ * outline-amber-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_amber_arbitrary = (value: string) => `outline-amber-[${value}]`;
+
+
+/**
+ * outline-yellow-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_yellow_arbitrary = (value: string) => `outline-yellow-[${value}]`;
+
+
+/**
+ * outline-lime-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_lime_arbitrary = (value: string) => `outline-lime-[${value}]`;
+
+
+/**
+ * outline-green-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_green_arbitrary = (value: string) => `outline-green-[${value}]`;
+
+
+/**
+ * outline-emerald-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_emerald_arbitrary = (value: string) => `outline-emerald-[${value}]`;
+
+
+/**
+ * outline-teal-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_teal_arbitrary = (value: string) => `outline-teal-[${value}]`;
+
+
+/**
+ * outline-cyan-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_cyan_arbitrary = (value: string) => `outline-cyan-[${value}]`;
+
+
+/**
+ * outline-sky-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_sky_arbitrary = (value: string) => `outline-sky-[${value}]`;
+
+
+/**
+ * outline-blue-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_blue_arbitrary = (value: string) => `outline-blue-[${value}]`;
+
+
+/**
+ * outline-indigo-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_indigo_arbitrary = (value: string) => `outline-indigo-[${value}]`;
+
+
+/**
+ * outline-violet-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_violet_arbitrary = (value: string) => `outline-violet-[${value}]`;
+
+
+/**
+ * outline-purple-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_purple_arbitrary = (value: string) => `outline-purple-[${value}]`;
+
+
+/**
+ * outline-fuchsia-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-[${value}]`;
+
+
+/**
+ * outline-pink-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_pink_arbitrary = (value: string) => `outline-pink-[${value}]`;
+
+
+/**
+ * outline-rose-[{value}]
+ *
+ * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/outline-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const outline_rose_arbitrary = (value: string) => `outline-rose-[${value}]`;
+
+/**
  * Outline Color
  *
  * Utilities for controlling the color of an element's outline.
@@ -3216,5 +3479,27 @@ export const outline_color_utilities = {
   outline_rose_700,
   outline_rose_800,
   outline_rose_900,
-  outline_rose_950
+  outline_rose_950,
+  outline_slate_arbitrary,
+  outline_gray_arbitrary,
+  outline_zinc_arbitrary,
+  outline_neutral_arbitrary,
+  outline_stone_arbitrary,
+  outline_red_arbitrary,
+  outline_orange_arbitrary,
+  outline_amber_arbitrary,
+  outline_yellow_arbitrary,
+  outline_lime_arbitrary,
+  outline_green_arbitrary,
+  outline_emerald_arbitrary,
+  outline_teal_arbitrary,
+  outline_cyan_arbitrary,
+  outline_sky_arbitrary,
+  outline_blue_arbitrary,
+  outline_indigo_arbitrary,
+  outline_violet_arbitrary,
+  outline_purple_arbitrary,
+  outline_fuchsia_arbitrary,
+  outline_pink_arbitrary,
+  outline_rose_arbitrary
 };

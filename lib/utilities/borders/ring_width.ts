@@ -83,7 +83,7 @@ export const ring_8 = "ring-8";
 export const ring_inset = "ring-inset";
 
 /**
- * ring-[:value]
+ * ring-[{value}]
  *
  * If you need to use a one-off ring value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

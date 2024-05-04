@@ -755,7 +755,7 @@ export const basis_11_on_12 = "basis-11/12";
 export const basis_full = "basis-full";
 
 /**
- * basis-[:value]
+ * basis-[{value}]
  *
  * If you need to use a one-off flex-basis value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

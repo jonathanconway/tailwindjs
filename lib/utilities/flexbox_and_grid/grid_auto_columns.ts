@@ -47,7 +47,7 @@ export const auto_cols_max = "auto-cols-max";
 export const auto_cols_fr = "auto-cols-fr";
 
 /**
- * auto-cols-[:value]
+ * auto-cols-[{value}]
  *
  * If you need to use a one-off grid-auto-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

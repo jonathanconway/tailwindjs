@@ -23,7 +23,7 @@ export const backdrop_invert_0 = "backdrop-invert-0";
 export const backdrop_invert = "backdrop-invert";
 
 /**
- * backdrop-invert-[:value]
+ * backdrop-invert-[{value}]
  *
  * If you need to use a one-off backdrop-invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -107,7 +107,7 @@ export const object_right_top = "object-right-top";
 export const object_top = "object-top";
 
 /**
- * object-[:value]
+ * object-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -116,6 +116,30 @@ export const object_top = "object-top";
  * @type utility
  */
 export const object_arbitrary = (value: string) => `object-[${value}]`;
+
+
+/**
+ * object-left-[{value}]
+ *
+ * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/object-position#arbitrary-values
+ *
+ * @type utility
+ */
+export const object_left_arbitrary = (value: string) => `object-left-[${value}]`;
+
+
+/**
+ * object-right-[{value}]
+ *
+ * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/object-position#arbitrary-values
+ *
+ * @type utility
+ */
+export const object_right_arbitrary = (value: string) => `object-right-[${value}]`;
 
 /**
  * Object Position
@@ -134,5 +158,7 @@ export const object_position_utilities = {
   object_right_bottom,
   object_right_top,
   object_top,
-  object_arbitrary
+  object_arbitrary,
+  object_left_arbitrary,
+  object_right_arbitrary
 };

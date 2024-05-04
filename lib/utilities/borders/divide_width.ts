@@ -153,7 +153,7 @@ export const divide_y_reverse = "divide-y-reverse";
 export const divide_x_reverse = "divide-x-reverse";
 
 /**
- * divide-x-[:value]
+ * divide-x-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -162,6 +162,30 @@ export const divide_x_reverse = "divide-x-reverse";
  * @type utility
  */
 export const divide_x_arbitrary = (value: string) => `divide-x-[${value}]`;
+
+
+/**
+ * divide-[{value}]
+ *
+ * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_arbitrary = (value: string) => `divide-[${value}]`;
+
+
+/**
+ * divide-y-[{value}]
+ *
+ * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
+ *
+ * @type utility
+ */
+export const divide_y_arbitrary = (value: string) => `divide-y-[${value}]`;
 
 /**
  * Divide Width
@@ -183,5 +207,7 @@ export const divide_width_utilities = {
   divide_y,
   divide_y_reverse,
   divide_x_reverse,
-  divide_x_arbitrary
+  divide_x_arbitrary,
+  divide_arbitrary,
+  divide_y_arbitrary
 };

@@ -59,7 +59,7 @@ export const backdrop_saturate_150 = "backdrop-saturate-150";
 export const backdrop_saturate_200 = "backdrop-saturate-200";
 
 /**
- * backdrop-saturate-[:value]
+ * backdrop-saturate-[{value}]
  *
  * If you need to use a one-off backdrop-saturate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

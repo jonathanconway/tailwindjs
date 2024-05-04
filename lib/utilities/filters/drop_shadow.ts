@@ -83,7 +83,7 @@ export const drop_shadow_2xl = "drop-shadow-2xl";
 export const drop_shadow_none = "drop-shadow-none";
 
 /**
- * drop-shadow-[:value]
+ * drop-shadow-[{value}]
  *
  * If you need to use a one-off drop-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -92,6 +92,18 @@ export const drop_shadow_none = "drop-shadow-none";
  * @type utility
  */
 export const drop_shadow_arbitrary = (value: string) => `drop-shadow-[${value}]`;
+
+
+/**
+ * drop-[{value}]
+ *
+ * If you need to use a one-off drop-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/drop-shadow#arbitrary-values
+ *
+ * @type utility
+ */
+export const drop_arbitrary = (value: string) => `drop-[${value}]`;
 
 /**
  * Drop Shadow
@@ -108,5 +120,6 @@ export const drop_shadow_utilities = {
   drop_shadow_xl,
   drop_shadow_2xl,
   drop_shadow_none,
-  drop_shadow_arbitrary
+  drop_shadow_arbitrary,
+  drop_arbitrary
 };

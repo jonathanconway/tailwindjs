@@ -359,7 +359,7 @@ export const scale_x_150 = "scale-x-150";
 export const scale_y_150 = "scale-y-150";
 
 /**
- * scale-[:value]
+ * scale-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -368,6 +368,30 @@ export const scale_y_150 = "scale-y-150";
  * @type utility
  */
 export const scale_arbitrary = (value: string) => `scale-[${value}]`;
+
+
+/**
+ * scale-x-[{value}]
+ *
+ * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scale#arbitrary-values
+ *
+ * @type utility
+ */
+export const scale_x_arbitrary = (value: string) => `scale-x-[${value}]`;
+
+
+/**
+ * scale-y-[{value}]
+ *
+ * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scale#arbitrary-values
+ *
+ * @type utility
+ */
+export const scale_y_arbitrary = (value: string) => `scale-y-[${value}]`;
 
 /**
  * Scale
@@ -407,5 +431,7 @@ export const scale_utilities = {
   scale_150,
   scale_x_150,
   scale_y_150,
-  scale_arbitrary
+  scale_arbitrary,
+  scale_x_arbitrary,
+  scale_y_arbitrary
 };

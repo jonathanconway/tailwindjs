@@ -131,7 +131,7 @@ export const backdrop_brightness_150 = "backdrop-brightness-150";
 export const backdrop_brightness_200 = "backdrop-brightness-200";
 
 /**
- * backdrop-brightness-[:value]
+ * backdrop-brightness-[{value}]
  *
  * If you need to use a one-off backdrop-brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

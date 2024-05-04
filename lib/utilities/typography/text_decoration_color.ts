@@ -2963,7 +2963,7 @@ export const decoration_rose_900 = "decoration-rose-900";
 export const decoration_rose_950 = "decoration-rose-950";
 
 /**
- * decoration-[:value]
+ * decoration-[{value}]
  *
  * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2972,6 +2972,270 @@ export const decoration_rose_950 = "decoration-rose-950";
  * @type utility
  */
 export const decoration_arbitrary = (value: string) => `decoration-[${value}]`;
+
+
+/**
+ * decoration-slate-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_slate_arbitrary = (value: string) => `decoration-slate-[${value}]`;
+
+
+/**
+ * decoration-gray-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_gray_arbitrary = (value: string) => `decoration-gray-[${value}]`;
+
+
+/**
+ * decoration-zinc-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_zinc_arbitrary = (value: string) => `decoration-zinc-[${value}]`;
+
+
+/**
+ * decoration-neutral-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_neutral_arbitrary = (value: string) => `decoration-neutral-[${value}]`;
+
+
+/**
+ * decoration-stone-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_stone_arbitrary = (value: string) => `decoration-stone-[${value}]`;
+
+
+/**
+ * decoration-red-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_red_arbitrary = (value: string) => `decoration-red-[${value}]`;
+
+
+/**
+ * decoration-orange-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_orange_arbitrary = (value: string) => `decoration-orange-[${value}]`;
+
+
+/**
+ * decoration-amber-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_amber_arbitrary = (value: string) => `decoration-amber-[${value}]`;
+
+
+/**
+ * decoration-yellow-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_yellow_arbitrary = (value: string) => `decoration-yellow-[${value}]`;
+
+
+/**
+ * decoration-lime-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_lime_arbitrary = (value: string) => `decoration-lime-[${value}]`;
+
+
+/**
+ * decoration-green-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_green_arbitrary = (value: string) => `decoration-green-[${value}]`;
+
+
+/**
+ * decoration-emerald-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_emerald_arbitrary = (value: string) => `decoration-emerald-[${value}]`;
+
+
+/**
+ * decoration-teal-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_teal_arbitrary = (value: string) => `decoration-teal-[${value}]`;
+
+
+/**
+ * decoration-cyan-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_cyan_arbitrary = (value: string) => `decoration-cyan-[${value}]`;
+
+
+/**
+ * decoration-sky-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_sky_arbitrary = (value: string) => `decoration-sky-[${value}]`;
+
+
+/**
+ * decoration-blue-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_blue_arbitrary = (value: string) => `decoration-blue-[${value}]`;
+
+
+/**
+ * decoration-indigo-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_indigo_arbitrary = (value: string) => `decoration-indigo-[${value}]`;
+
+
+/**
+ * decoration-violet-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_violet_arbitrary = (value: string) => `decoration-violet-[${value}]`;
+
+
+/**
+ * decoration-purple-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_purple_arbitrary = (value: string) => `decoration-purple-[${value}]`;
+
+
+/**
+ * decoration-fuchsia-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_fuchsia_arbitrary = (value: string) => `decoration-fuchsia-[${value}]`;
+
+
+/**
+ * decoration-pink-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_pink_arbitrary = (value: string) => `decoration-pink-[${value}]`;
+
+
+/**
+ * decoration-rose-[{value}]
+ *
+ * If you need to use a one-off text-decoration-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_rose_arbitrary = (value: string) => `decoration-rose-[${value}]`;
 
 /**
  * Text Decoration Color
@@ -3228,5 +3492,27 @@ export const text_decoration_color_utilities = {
   decoration_rose_800,
   decoration_rose_900,
   decoration_rose_950,
-  decoration_arbitrary
+  decoration_arbitrary,
+  decoration_slate_arbitrary,
+  decoration_gray_arbitrary,
+  decoration_zinc_arbitrary,
+  decoration_neutral_arbitrary,
+  decoration_stone_arbitrary,
+  decoration_red_arbitrary,
+  decoration_orange_arbitrary,
+  decoration_amber_arbitrary,
+  decoration_yellow_arbitrary,
+  decoration_lime_arbitrary,
+  decoration_green_arbitrary,
+  decoration_emerald_arbitrary,
+  decoration_teal_arbitrary,
+  decoration_cyan_arbitrary,
+  decoration_sky_arbitrary,
+  decoration_blue_arbitrary,
+  decoration_indigo_arbitrary,
+  decoration_violet_arbitrary,
+  decoration_purple_arbitrary,
+  decoration_fuchsia_arbitrary,
+  decoration_pink_arbitrary,
+  decoration_rose_arbitrary
 };

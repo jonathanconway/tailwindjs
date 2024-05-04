@@ -23,7 +23,7 @@ export const shrink = "shrink";
 export const shrink_0 = "shrink-0";
 
 /**
- * shrink-[:value]
+ * shrink-[{value}]
  *
  * If you need to use a one-off flex-shrink value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

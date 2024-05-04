@@ -107,7 +107,7 @@ export const delay_700 = "delay-700";
 export const delay_1000 = "delay-1000";
 
 /**
- * delay-[:value]
+ * delay-[{value}]
  *
  * If you need to use a one-off transition-delay value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -857,7 +857,7 @@ export const size_max = "size-max";
 export const size_fit = "size-fit";
 
 /**
- * size-[:value]
+ * size-[{value}]
  *
  * If you need to use a one-off size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

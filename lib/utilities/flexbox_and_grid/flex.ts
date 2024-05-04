@@ -47,7 +47,7 @@ export const flex_initial = "flex-initial";
 export const flex_none = "flex-none";
 
 /**
- * flex-[:value]
+ * flex-[{value}]
  *
  * If you need to use a one-off flex value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -107,7 +107,7 @@ export const origin_left = "origin-left";
 export const origin_top_left = "origin-top-left";
 
 /**
- * origin-[:value]
+ * origin-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -116,6 +116,30 @@ export const origin_top_left = "origin-top-left";
  * @type utility
  */
 export const origin_arbitrary = (value: string) => `origin-[${value}]`;
+
+
+/**
+ * origin-top-[{value}]
+ *
+ * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/transform-origin#arbitrary-values
+ *
+ * @type utility
+ */
+export const origin_top_arbitrary = (value: string) => `origin-top-[${value}]`;
+
+
+/**
+ * origin-bottom-[{value}]
+ *
+ * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/transform-origin#arbitrary-values
+ *
+ * @type utility
+ */
+export const origin_bottom_arbitrary = (value: string) => `origin-bottom-[${value}]`;
 
 /**
  * Transform Origin
@@ -134,5 +158,7 @@ export const transform_origin_utilities = {
   origin_bottom_left,
   origin_left,
   origin_top_left,
-  origin_arbitrary
+  origin_arbitrary,
+  origin_top_arbitrary,
+  origin_bottom_arbitrary
 };

@@ -23,7 +23,7 @@ export const invert_0 = "invert-0";
 export const invert = "invert";
 
 /**
- * invert-[:value]
+ * invert-[{value}]
  *
  * If you need to use a one-off invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

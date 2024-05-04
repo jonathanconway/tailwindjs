@@ -10388,7 +10388,7 @@ export const to_95_pc = "to-95%";
 export const to_100_pc = "to-100%";
 
 /**
- * from-[:value]
+ * from-[{value}]
  *
  * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -10397,6 +10397,822 @@ export const to_100_pc = "to-100%";
  * @type utility
  */
 export const from_arbitrary = (value: string) => `from-[${value}]`;
+
+
+/**
+ * from-slate-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_slate_arbitrary = (value: string) => `from-slate-[${value}]`;
+
+
+/**
+ * from-gray-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_gray_arbitrary = (value: string) => `from-gray-[${value}]`;
+
+
+/**
+ * from-zinc-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_zinc_arbitrary = (value: string) => `from-zinc-[${value}]`;
+
+
+/**
+ * from-neutral-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_neutral_arbitrary = (value: string) => `from-neutral-[${value}]`;
+
+
+/**
+ * from-stone-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_stone_arbitrary = (value: string) => `from-stone-[${value}]`;
+
+
+/**
+ * from-red-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_red_arbitrary = (value: string) => `from-red-[${value}]`;
+
+
+/**
+ * from-orange-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_orange_arbitrary = (value: string) => `from-orange-[${value}]`;
+
+
+/**
+ * from-amber-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_amber_arbitrary = (value: string) => `from-amber-[${value}]`;
+
+
+/**
+ * from-yellow-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_yellow_arbitrary = (value: string) => `from-yellow-[${value}]`;
+
+
+/**
+ * from-lime-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_lime_arbitrary = (value: string) => `from-lime-[${value}]`;
+
+
+/**
+ * from-green-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_green_arbitrary = (value: string) => `from-green-[${value}]`;
+
+
+/**
+ * from-emerald-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_emerald_arbitrary = (value: string) => `from-emerald-[${value}]`;
+
+
+/**
+ * from-teal-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_teal_arbitrary = (value: string) => `from-teal-[${value}]`;
+
+
+/**
+ * from-cyan-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_cyan_arbitrary = (value: string) => `from-cyan-[${value}]`;
+
+
+/**
+ * from-sky-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_sky_arbitrary = (value: string) => `from-sky-[${value}]`;
+
+
+/**
+ * from-blue-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_blue_arbitrary = (value: string) => `from-blue-[${value}]`;
+
+
+/**
+ * from-indigo-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_indigo_arbitrary = (value: string) => `from-indigo-[${value}]`;
+
+
+/**
+ * from-violet-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_violet_arbitrary = (value: string) => `from-violet-[${value}]`;
+
+
+/**
+ * from-purple-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_purple_arbitrary = (value: string) => `from-purple-[${value}]`;
+
+
+/**
+ * from-fuchsia-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_fuchsia_arbitrary = (value: string) => `from-fuchsia-[${value}]`;
+
+
+/**
+ * from-pink-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_pink_arbitrary = (value: string) => `from-pink-[${value}]`;
+
+
+/**
+ * from-rose-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const from_rose_arbitrary = (value: string) => `from-rose-[${value}]`;
+
+
+/**
+ * via-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_arbitrary = (value: string) => `via-[${value}]`;
+
+
+/**
+ * via-slate-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_slate_arbitrary = (value: string) => `via-slate-[${value}]`;
+
+
+/**
+ * via-gray-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_gray_arbitrary = (value: string) => `via-gray-[${value}]`;
+
+
+/**
+ * via-zinc-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_zinc_arbitrary = (value: string) => `via-zinc-[${value}]`;
+
+
+/**
+ * via-neutral-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_neutral_arbitrary = (value: string) => `via-neutral-[${value}]`;
+
+
+/**
+ * via-stone-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_stone_arbitrary = (value: string) => `via-stone-[${value}]`;
+
+
+/**
+ * via-red-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_red_arbitrary = (value: string) => `via-red-[${value}]`;
+
+
+/**
+ * via-orange-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_orange_arbitrary = (value: string) => `via-orange-[${value}]`;
+
+
+/**
+ * via-amber-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_amber_arbitrary = (value: string) => `via-amber-[${value}]`;
+
+
+/**
+ * via-yellow-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_yellow_arbitrary = (value: string) => `via-yellow-[${value}]`;
+
+
+/**
+ * via-lime-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_lime_arbitrary = (value: string) => `via-lime-[${value}]`;
+
+
+/**
+ * via-green-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_green_arbitrary = (value: string) => `via-green-[${value}]`;
+
+
+/**
+ * via-emerald-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_emerald_arbitrary = (value: string) => `via-emerald-[${value}]`;
+
+
+/**
+ * via-teal-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_teal_arbitrary = (value: string) => `via-teal-[${value}]`;
+
+
+/**
+ * via-cyan-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_cyan_arbitrary = (value: string) => `via-cyan-[${value}]`;
+
+
+/**
+ * via-sky-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_sky_arbitrary = (value: string) => `via-sky-[${value}]`;
+
+
+/**
+ * via-blue-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_blue_arbitrary = (value: string) => `via-blue-[${value}]`;
+
+
+/**
+ * via-indigo-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_indigo_arbitrary = (value: string) => `via-indigo-[${value}]`;
+
+
+/**
+ * via-violet-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_violet_arbitrary = (value: string) => `via-violet-[${value}]`;
+
+
+/**
+ * via-purple-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_purple_arbitrary = (value: string) => `via-purple-[${value}]`;
+
+
+/**
+ * via-fuchsia-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_fuchsia_arbitrary = (value: string) => `via-fuchsia-[${value}]`;
+
+
+/**
+ * via-pink-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_pink_arbitrary = (value: string) => `via-pink-[${value}]`;
+
+
+/**
+ * via-rose-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const via_rose_arbitrary = (value: string) => `via-rose-[${value}]`;
+
+
+/**
+ * to-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_arbitrary = (value: string) => `to-[${value}]`;
+
+
+/**
+ * to-slate-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_slate_arbitrary = (value: string) => `to-slate-[${value}]`;
+
+
+/**
+ * to-gray-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_gray_arbitrary = (value: string) => `to-gray-[${value}]`;
+
+
+/**
+ * to-zinc-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_zinc_arbitrary = (value: string) => `to-zinc-[${value}]`;
+
+
+/**
+ * to-neutral-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_neutral_arbitrary = (value: string) => `to-neutral-[${value}]`;
+
+
+/**
+ * to-stone-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_stone_arbitrary = (value: string) => `to-stone-[${value}]`;
+
+
+/**
+ * to-red-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_red_arbitrary = (value: string) => `to-red-[${value}]`;
+
+
+/**
+ * to-orange-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_orange_arbitrary = (value: string) => `to-orange-[${value}]`;
+
+
+/**
+ * to-amber-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_amber_arbitrary = (value: string) => `to-amber-[${value}]`;
+
+
+/**
+ * to-yellow-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_yellow_arbitrary = (value: string) => `to-yellow-[${value}]`;
+
+
+/**
+ * to-lime-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_lime_arbitrary = (value: string) => `to-lime-[${value}]`;
+
+
+/**
+ * to-green-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_green_arbitrary = (value: string) => `to-green-[${value}]`;
+
+
+/**
+ * to-emerald-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_emerald_arbitrary = (value: string) => `to-emerald-[${value}]`;
+
+
+/**
+ * to-teal-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_teal_arbitrary = (value: string) => `to-teal-[${value}]`;
+
+
+/**
+ * to-cyan-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_cyan_arbitrary = (value: string) => `to-cyan-[${value}]`;
+
+
+/**
+ * to-sky-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_sky_arbitrary = (value: string) => `to-sky-[${value}]`;
+
+
+/**
+ * to-blue-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_blue_arbitrary = (value: string) => `to-blue-[${value}]`;
+
+
+/**
+ * to-indigo-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_indigo_arbitrary = (value: string) => `to-indigo-[${value}]`;
+
+
+/**
+ * to-violet-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_violet_arbitrary = (value: string) => `to-violet-[${value}]`;
+
+
+/**
+ * to-purple-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_purple_arbitrary = (value: string) => `to-purple-[${value}]`;
+
+
+/**
+ * to-fuchsia-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_fuchsia_arbitrary = (value: string) => `to-fuchsia-[${value}]`;
+
+
+/**
+ * to-pink-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_pink_arbitrary = (value: string) => `to-pink-[${value}]`;
+
+
+/**
+ * to-rose-[{value}]
+ *
+ * If you need to use a one-off gradient color stop value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values
+ *
+ * @type utility
+ */
+export const to_rose_arbitrary = (value: string) => `to-rose-[${value}]`;
 
 /**
  * Gradient Color Stops
@@ -11210,5 +12026,73 @@ export const gradient_color_stops_utilities = {
   to_90_pc,
   to_95_pc,
   to_100_pc,
-  from_arbitrary
+  from_arbitrary,
+  from_slate_arbitrary,
+  from_gray_arbitrary,
+  from_zinc_arbitrary,
+  from_neutral_arbitrary,
+  from_stone_arbitrary,
+  from_red_arbitrary,
+  from_orange_arbitrary,
+  from_amber_arbitrary,
+  from_yellow_arbitrary,
+  from_lime_arbitrary,
+  from_green_arbitrary,
+  from_emerald_arbitrary,
+  from_teal_arbitrary,
+  from_cyan_arbitrary,
+  from_sky_arbitrary,
+  from_blue_arbitrary,
+  from_indigo_arbitrary,
+  from_violet_arbitrary,
+  from_purple_arbitrary,
+  from_fuchsia_arbitrary,
+  from_pink_arbitrary,
+  from_rose_arbitrary,
+  via_arbitrary,
+  via_slate_arbitrary,
+  via_gray_arbitrary,
+  via_zinc_arbitrary,
+  via_neutral_arbitrary,
+  via_stone_arbitrary,
+  via_red_arbitrary,
+  via_orange_arbitrary,
+  via_amber_arbitrary,
+  via_yellow_arbitrary,
+  via_lime_arbitrary,
+  via_green_arbitrary,
+  via_emerald_arbitrary,
+  via_teal_arbitrary,
+  via_cyan_arbitrary,
+  via_sky_arbitrary,
+  via_blue_arbitrary,
+  via_indigo_arbitrary,
+  via_violet_arbitrary,
+  via_purple_arbitrary,
+  via_fuchsia_arbitrary,
+  via_pink_arbitrary,
+  via_rose_arbitrary,
+  to_arbitrary,
+  to_slate_arbitrary,
+  to_gray_arbitrary,
+  to_zinc_arbitrary,
+  to_neutral_arbitrary,
+  to_stone_arbitrary,
+  to_red_arbitrary,
+  to_orange_arbitrary,
+  to_amber_arbitrary,
+  to_yellow_arbitrary,
+  to_lime_arbitrary,
+  to_green_arbitrary,
+  to_emerald_arbitrary,
+  to_teal_arbitrary,
+  to_cyan_arbitrary,
+  to_sky_arbitrary,
+  to_blue_arbitrary,
+  to_indigo_arbitrary,
+  to_violet_arbitrary,
+  to_purple_arbitrary,
+  to_fuchsia_arbitrary,
+  to_pink_arbitrary,
+  to_rose_arbitrary
 };

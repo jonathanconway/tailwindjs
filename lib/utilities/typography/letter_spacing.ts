@@ -71,7 +71,7 @@ export const tracking_wider = "tracking-wider";
 export const tracking_widest = "tracking-widest";
 
 /**
- * tracking-[:value]
+ * tracking-[{value}]
  *
  * If you need to use a one-off letter-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -1259,7 +1259,7 @@ export const border_spacing_x_96 = "border-spacing-x-96";
 export const border_spacing_y_96 = "border-spacing-y-96";
 
 /**
- * border-spacing-[:value]
+ * border-spacing-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1268,6 +1268,30 @@ export const border_spacing_y_96 = "border-spacing-y-96";
  * @type utility
  */
 export const border_spacing_arbitrary = (value: string) => `border-spacing-[${value}]`;
+
+
+/**
+ * border-spacing-x-[{value}]
+ *
+ * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-[${value}]`;
+
+
+/**
+ * border-spacing-y-[{value}]
+ *
+ * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-[${value}]`;
 
 /**
  * Border Spacing
@@ -1382,5 +1406,7 @@ export const border_spacing_utilities = {
   border_spacing_96,
   border_spacing_x_96,
   border_spacing_y_96,
-  border_spacing_arbitrary
+  border_spacing_arbitrary,
+  border_spacing_x_arbitrary,
+  border_spacing_y_arbitrary
 };

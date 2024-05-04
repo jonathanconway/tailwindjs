@@ -23,7 +23,7 @@ export const grow = "grow";
 export const grow_0 = "grow-0";
 
 /**
- * grow-[:value]
+ * grow-[{value}]
  *
  * If you need to use a one-off flex-grow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

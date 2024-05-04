@@ -95,7 +95,7 @@ export const blur_2xl = "blur-2xl";
 export const blur_3xl = "blur-3xl";
 
 /**
- * blur-[:value]
+ * blur-[{value}]
  *
  * If you need to use a one-off blur value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

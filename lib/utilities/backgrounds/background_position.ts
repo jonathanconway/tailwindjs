@@ -107,6 +107,29 @@ export const bg_right_top = "bg-right-top";
 export const bg_top = "bg-top";
 
 /**
+ * bg-left-[{value}]
+ *
+ * If you need to use a one-off background-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-position#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_left_arbitrary = (value: string) => `bg-left-[${value}]`;
+
+
+/**
+ * bg-right-[{value}]
+ *
+ * If you need to use a one-off background-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-position#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_right_arbitrary = (value: string) => `bg-right-[${value}]`;
+
+/**
  * Background Position
  *
  * Utilities for controlling the position of an element's background image.
@@ -122,5 +145,7 @@ export const background_position_utilities = {
   bg_right,
   bg_right_bottom,
   bg_right_top,
-  bg_top
+  bg_top,
+  bg_left_arbitrary,
+  bg_right_arbitrary
 };

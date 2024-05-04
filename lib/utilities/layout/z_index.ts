@@ -83,7 +83,7 @@ export const z_50 = "z-50";
 export const z_auto = "z-auto";
 
 /**
- * z-[:value]
+ * z-[{value}]
  *
  * If you need to use a one-off z-index value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

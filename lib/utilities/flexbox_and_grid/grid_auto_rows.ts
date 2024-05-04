@@ -47,7 +47,7 @@ export const auto_rows_max = "auto-rows-max";
 export const auto_rows_fr = "auto-rows-fr";
 
 /**
- * auto-rows-[:value]
+ * auto-rows-[{value}]
  *
  * If you need to use a one-off grid-auto-rows value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

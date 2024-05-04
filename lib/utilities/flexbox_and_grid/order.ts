@@ -179,7 +179,7 @@ export const order_last = "order-last";
 export const order_none = "order-none";
 
 /**
- * order-[:value]
+ * order-[{value}]
  *
  * If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

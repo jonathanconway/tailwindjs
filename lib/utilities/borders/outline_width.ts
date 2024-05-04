@@ -59,7 +59,7 @@ export const outline_4 = "outline-4";
 export const outline_8 = "outline-8";
 
 /**
- * outline-[:value]
+ * outline-[{value}]
  *
  * If you need to use a one-off outline-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

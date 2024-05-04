@@ -35,7 +35,7 @@ export const font_serif = "font-serif";
 export const font_mono = "font-mono";
 
 /**
- * font-[:value]
+ * font-[{value}]
  *
  * If you need to use a one-off font-family value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

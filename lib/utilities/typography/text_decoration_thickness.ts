@@ -83,6 +83,17 @@ export const decoration_4 = "decoration-4";
 export const decoration_8 = "decoration-8";
 
 /**
+ * decoration-from-[{value}]
+ *
+ * If you need to use a one-off text-decoration-thickness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-decoration-thickness#arbitrary-values
+ *
+ * @type utility
+ */
+export const decoration_from_arbitrary = (value: string) => `decoration-from-[${value}]`;
+
+/**
  * Text Decoration Thickness
  *
  * Utilities for controlling the thickness of text decorations.
@@ -96,5 +107,6 @@ export const text_decoration_thickness_utilities = {
   decoration_1,
   decoration_2,
   decoration_4,
-  decoration_8
+  decoration_8,
+  decoration_from_arbitrary
 };

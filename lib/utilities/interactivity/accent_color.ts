@@ -2975,7 +2975,7 @@ export const accent_rose_950 = "accent-rose-950";
 export const accent_auto = "accent-auto";
 
 /**
- * accent-[:value]
+ * accent-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2984,6 +2984,270 @@ export const accent_auto = "accent-auto";
  * @type utility
  */
 export const accent_arbitrary = (value: string) => `accent-[${value}]`;
+
+
+/**
+ * accent-slate-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_slate_arbitrary = (value: string) => `accent-slate-[${value}]`;
+
+
+/**
+ * accent-gray-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_gray_arbitrary = (value: string) => `accent-gray-[${value}]`;
+
+
+/**
+ * accent-zinc-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_zinc_arbitrary = (value: string) => `accent-zinc-[${value}]`;
+
+
+/**
+ * accent-neutral-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_neutral_arbitrary = (value: string) => `accent-neutral-[${value}]`;
+
+
+/**
+ * accent-stone-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_stone_arbitrary = (value: string) => `accent-stone-[${value}]`;
+
+
+/**
+ * accent-red-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_red_arbitrary = (value: string) => `accent-red-[${value}]`;
+
+
+/**
+ * accent-orange-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_orange_arbitrary = (value: string) => `accent-orange-[${value}]`;
+
+
+/**
+ * accent-amber-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_amber_arbitrary = (value: string) => `accent-amber-[${value}]`;
+
+
+/**
+ * accent-yellow-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_yellow_arbitrary = (value: string) => `accent-yellow-[${value}]`;
+
+
+/**
+ * accent-lime-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_lime_arbitrary = (value: string) => `accent-lime-[${value}]`;
+
+
+/**
+ * accent-green-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_green_arbitrary = (value: string) => `accent-green-[${value}]`;
+
+
+/**
+ * accent-emerald-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_emerald_arbitrary = (value: string) => `accent-emerald-[${value}]`;
+
+
+/**
+ * accent-teal-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_teal_arbitrary = (value: string) => `accent-teal-[${value}]`;
+
+
+/**
+ * accent-cyan-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_cyan_arbitrary = (value: string) => `accent-cyan-[${value}]`;
+
+
+/**
+ * accent-sky-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_sky_arbitrary = (value: string) => `accent-sky-[${value}]`;
+
+
+/**
+ * accent-blue-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_blue_arbitrary = (value: string) => `accent-blue-[${value}]`;
+
+
+/**
+ * accent-indigo-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_indigo_arbitrary = (value: string) => `accent-indigo-[${value}]`;
+
+
+/**
+ * accent-violet-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_violet_arbitrary = (value: string) => `accent-violet-[${value}]`;
+
+
+/**
+ * accent-purple-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_purple_arbitrary = (value: string) => `accent-purple-[${value}]`;
+
+
+/**
+ * accent-fuchsia-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-[${value}]`;
+
+
+/**
+ * accent-pink-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_pink_arbitrary = (value: string) => `accent-pink-[${value}]`;
+
+
+/**
+ * accent-rose-[{value}]
+ *
+ * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const accent_rose_arbitrary = (value: string) => `accent-rose-[${value}]`;
 
 /**
  * Accent Color
@@ -3241,5 +3505,27 @@ export const accent_color_utilities = {
   accent_rose_900,
   accent_rose_950,
   accent_auto,
-  accent_arbitrary
+  accent_arbitrary,
+  accent_slate_arbitrary,
+  accent_gray_arbitrary,
+  accent_zinc_arbitrary,
+  accent_neutral_arbitrary,
+  accent_stone_arbitrary,
+  accent_red_arbitrary,
+  accent_orange_arbitrary,
+  accent_amber_arbitrary,
+  accent_yellow_arbitrary,
+  accent_lime_arbitrary,
+  accent_green_arbitrary,
+  accent_emerald_arbitrary,
+  accent_teal_arbitrary,
+  accent_cyan_arbitrary,
+  accent_sky_arbitrary,
+  accent_blue_arbitrary,
+  accent_indigo_arbitrary,
+  accent_violet_arbitrary,
+  accent_purple_arbitrary,
+  accent_fuchsia_arbitrary,
+  accent_pink_arbitrary,
+  accent_rose_arbitrary
 };

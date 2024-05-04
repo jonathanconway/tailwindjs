@@ -11,7 +11,7 @@
 export const list_image_none = "list-image-none";
 
 /**
- * list-image-[:value]
+ * list-image-[{value}]
  *
  * If you need to use a one-off list-style-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

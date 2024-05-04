@@ -71,7 +71,7 @@ export const hue_rotate_90 = "hue-rotate-90";
 export const hue_rotate_180 = "hue-rotate-180";
 
 /**
- * hue-rotate-[:value]
+ * hue-rotate-[{value}]
  *
  * If you need to use a one-off hue-rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -95,7 +95,7 @@ export const backdrop_blur_2xl = "backdrop-blur-2xl";
 export const backdrop_blur_3xl = "backdrop-blur-3xl";
 
 /**
- * backdrop-blur-[:value]
+ * backdrop-blur-[{value}]
  *
  * If you need to use a one-off backdrop-blur value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -104,6 +104,18 @@ export const backdrop_blur_3xl = "backdrop-blur-3xl";
  * @type utility
  */
 export const backdrop_blur_arbitrary = (value: string) => `backdrop-blur-[${value}]`;
+
+
+/**
+ * backdrop-[{value}]
+ *
+ * If you need to use a one-off backdrop-blur value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/backdrop-blur#arbitrary-values
+ *
+ * @type utility
+ */
+export const backdrop_arbitrary = (value: string) => `backdrop-[${value}]`;
 
 /**
  * Backdrop Blur
@@ -121,5 +133,6 @@ export const backdrop_blur_utilities = {
   backdrop_blur_xl,
   backdrop_blur_2xl,
   backdrop_blur_3xl,
-  backdrop_blur_arbitrary
+  backdrop_blur_arbitrary,
+  backdrop_arbitrary
 };

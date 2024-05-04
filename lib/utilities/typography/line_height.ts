@@ -167,7 +167,7 @@ export const leading_relaxed = "leading-relaxed";
 export const leading_loose = "leading-loose";
 
 /**
- * leading-[:value]
+ * leading-[{value}]
  *
  * If you need to use a one-off line-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

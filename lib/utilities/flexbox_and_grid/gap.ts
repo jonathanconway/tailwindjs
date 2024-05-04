@@ -1259,7 +1259,7 @@ export const gap_x_96 = "gap-x-96";
 export const gap_y_96 = "gap-y-96";
 
 /**
- * gap-[:value]
+ * gap-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1268,6 +1268,30 @@ export const gap_y_96 = "gap-y-96";
  * @type utility
  */
 export const gap_arbitrary = (value: string) => `gap-[${value}]`;
+
+
+/**
+ * gap-x-[{value}]
+ *
+ * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gap#arbitrary-values
+ *
+ * @type utility
+ */
+export const gap_x_arbitrary = (value: string) => `gap-x-[${value}]`;
+
+
+/**
+ * gap-y-[{value}]
+ *
+ * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/gap#arbitrary-values
+ *
+ * @type utility
+ */
+export const gap_y_arbitrary = (value: string) => `gap-y-[${value}]`;
 
 /**
  * Gap
@@ -1382,5 +1406,7 @@ export const gap_utilities = {
   gap_96,
   gap_x_96,
   gap_y_96,
-  gap_arbitrary
+  gap_arbitrary,
+  gap_x_arbitrary,
+  gap_y_arbitrary
 };

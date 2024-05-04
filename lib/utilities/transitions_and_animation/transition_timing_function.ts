@@ -47,7 +47,7 @@ export const ease_out = "ease-out";
 export const ease_in_out = "ease-in-out";
 
 /**
- * ease-[:value]
+ * ease-[{value}]
  *
  * If you need to use a one-off transition-timing-function value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -56,6 +56,18 @@ export const ease_in_out = "ease-in-out";
  * @type utility
  */
 export const ease_arbitrary = (value: string) => `ease-[${value}]`;
+
+
+/**
+ * ease-in-[{value}]
+ *
+ * If you need to use a one-off transition-timing-function value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/transition-timing-function#arbitrary-values
+ *
+ * @type utility
+ */
+export const ease_in_arbitrary = (value: string) => `ease-in-[${value}]`;
 
 /**
  * Transition Timing Function
@@ -69,5 +81,6 @@ export const transition_timing_function_utilities = {
   ease_in,
   ease_out,
   ease_in_out,
-  ease_arbitrary
+  ease_arbitrary,
+  ease_in_arbitrary
 };

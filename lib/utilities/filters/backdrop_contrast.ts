@@ -83,7 +83,7 @@ export const backdrop_contrast_150 = "backdrop-contrast-150";
 export const backdrop_contrast_200 = "backdrop-contrast-200";
 
 /**
- * backdrop-contrast-[:value]
+ * backdrop-contrast-[{value}]
  *
  * If you need to use a one-off backdrop-contrast value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

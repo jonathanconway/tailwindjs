@@ -35,7 +35,7 @@ export const aspect_square = "aspect-square";
 export const aspect_video = "aspect-video";
 
 /**
- * aspect-[:value]
+ * aspect-[{value}]
  *
  * If you need to use a one-off aspect-ratio value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

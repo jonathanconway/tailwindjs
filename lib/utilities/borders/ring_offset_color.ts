@@ -3210,6 +3210,269 @@ export const ring_offset_rose_900 = "ring-offset-rose-900";
 export const ring_offset_rose_950 = "ring-offset-rose-950";
 
 /**
+ * ring-offset-slate-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate-[${value}]`;
+
+
+/**
+ * ring-offset-gray-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-[${value}]`;
+
+
+/**
+ * ring-offset-zinc-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-[${value}]`;
+
+
+/**
+ * ring-offset-neutral-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neutral-[${value}]`;
+
+
+/**
+ * ring-offset-stone-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone-[${value}]`;
+
+
+/**
+ * ring-offset-red-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-[${value}]`;
+
+
+/**
+ * ring-offset-orange-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-orange-[${value}]`;
+
+
+/**
+ * ring-offset-amber-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber-[${value}]`;
+
+
+/**
+ * ring-offset-yellow-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yellow-[${value}]`;
+
+
+/**
+ * ring-offset-lime-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-[${value}]`;
+
+
+/**
+ * ring-offset-green-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green-[${value}]`;
+
+
+/**
+ * ring-offset-emerald-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-emerald-[${value}]`;
+
+
+/**
+ * ring-offset-teal-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-[${value}]`;
+
+
+/**
+ * ring-offset-cyan-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-[${value}]`;
+
+
+/**
+ * ring-offset-sky-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-[${value}]`;
+
+
+/**
+ * ring-offset-blue-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-[${value}]`;
+
+
+/**
+ * ring-offset-indigo-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indigo-[${value}]`;
+
+
+/**
+ * ring-offset-violet-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-violet-[${value}]`;
+
+
+/**
+ * ring-offset-purple-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purple-[${value}]`;
+
+
+/**
+ * ring-offset-fuchsia-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuchsia-[${value}]`;
+
+
+/**
+ * ring-offset-pink-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-[${value}]`;
+
+
+/**
+ * ring-offset-rose-[{value}]
+ *
+ * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/ring-offset-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-[${value}]`;
+
+/**
  * Ring Offset Color
  *
  * Utilities for setting the color of outline ring offsets.
@@ -3463,5 +3726,27 @@ export const ring_offset_color_utilities = {
   ring_offset_rose_700,
   ring_offset_rose_800,
   ring_offset_rose_900,
-  ring_offset_rose_950
+  ring_offset_rose_950,
+  ring_offset_slate_arbitrary,
+  ring_offset_gray_arbitrary,
+  ring_offset_zinc_arbitrary,
+  ring_offset_neutral_arbitrary,
+  ring_offset_stone_arbitrary,
+  ring_offset_red_arbitrary,
+  ring_offset_orange_arbitrary,
+  ring_offset_amber_arbitrary,
+  ring_offset_yellow_arbitrary,
+  ring_offset_lime_arbitrary,
+  ring_offset_green_arbitrary,
+  ring_offset_emerald_arbitrary,
+  ring_offset_teal_arbitrary,
+  ring_offset_cyan_arbitrary,
+  ring_offset_sky_arbitrary,
+  ring_offset_blue_arbitrary,
+  ring_offset_indigo_arbitrary,
+  ring_offset_violet_arbitrary,
+  ring_offset_purple_arbitrary,
+  ring_offset_fuchsia_arbitrary,
+  ring_offset_pink_arbitrary,
+  ring_offset_rose_arbitrary
 };

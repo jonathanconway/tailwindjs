@@ -3849,7 +3849,7 @@ export const scroll_mb_96 = "scroll-mb-96";
 export const scroll_ml_96 = "scroll-ml-96";
 
 /**
- * scroll-m-[:value]
+ * scroll-m-[{value}]
  *
  * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3858,6 +3858,102 @@ export const scroll_ml_96 = "scroll-ml-96";
  * @type utility
  */
 export const scroll_m_arbitrary = (value: string) => `scroll-m-[${value}]`;
+
+
+/**
+ * scroll-mx-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_mx_arbitrary = (value: string) => `scroll-mx-[${value}]`;
+
+
+/**
+ * scroll-my-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_my_arbitrary = (value: string) => `scroll-my-[${value}]`;
+
+
+/**
+ * scroll-ms-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_ms_arbitrary = (value: string) => `scroll-ms-[${value}]`;
+
+
+/**
+ * scroll-me-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_me_arbitrary = (value: string) => `scroll-me-[${value}]`;
+
+
+/**
+ * scroll-mt-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_mt_arbitrary = (value: string) => `scroll-mt-[${value}]`;
+
+
+/**
+ * scroll-mr-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_mr_arbitrary = (value: string) => `scroll-mr-[${value}]`;
+
+
+/**
+ * scroll-mb-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_mb_arbitrary = (value: string) => `scroll-mb-[${value}]`;
+
+
+/**
+ * scroll-ml-[{value}]
+ *
+ * If you need to use a one-off scroll-margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/scroll-margin#arbitrary-values
+ *
+ * @type utility
+ */
+export const scroll_ml_arbitrary = (value: string) => `scroll-ml-[${value}]`;
 
 /**
  * Scroll Margin
@@ -4182,5 +4278,13 @@ export const scroll_margin_utilities = {
   scroll_mr_96,
   scroll_mb_96,
   scroll_ml_96,
-  scroll_m_arbitrary
+  scroll_m_arbitrary,
+  scroll_mx_arbitrary,
+  scroll_my_arbitrary,
+  scroll_ms_arbitrary,
+  scroll_me_arbitrary,
+  scroll_mt_arbitrary,
+  scroll_mr_arbitrary,
+  scroll_mb_arbitrary,
+  scroll_ml_arbitrary
 };

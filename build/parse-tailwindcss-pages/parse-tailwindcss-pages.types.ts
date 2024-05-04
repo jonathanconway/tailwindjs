@@ -15,7 +15,7 @@ export interface UtilityGroup {
   readonly tailwindCssUrl: string;
   readonly description: string;
   readonly primitives: readonly UtilityPrimitive[];
-  readonly arbitrary?: UtilityGroupArbitrary;
+  readonly arbitraries: readonly UtilityGroupArbitrary[];
 }
 
 export interface UtilityGroupArbitrary {

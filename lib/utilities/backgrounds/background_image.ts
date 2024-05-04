@@ -107,6 +107,17 @@ export const bg_gradient_to_l = "bg-gradient-to-l";
 export const bg_gradient_to_tl = "bg-gradient-to-tl";
 
 /**
+ * bg-gradient-to-[{value}]
+ *
+ * If you need to use a one-off background-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/background-image#arbitrary-values
+ *
+ * @type utility
+ */
+export const bg_gradient_to_arbitrary = (value: string) => `bg-gradient-to-[${value}]`;
+
+/**
  * Background Image
  *
  * Utilities for controlling an element's background image.
@@ -122,5 +133,6 @@ export const background_image_utilities = {
   bg_gradient_to_b,
   bg_gradient_to_bl,
   bg_gradient_to_l,
-  bg_gradient_to_tl
+  bg_gradient_to_tl,
+  bg_gradient_to_arbitrary
 };

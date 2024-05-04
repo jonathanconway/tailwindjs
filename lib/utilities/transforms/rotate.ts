@@ -107,7 +107,7 @@ export const rotate_90 = "rotate-90";
 export const rotate_180 = "rotate-180";
 
 /**
- * rotate-[:value]
+ * rotate-[{value}]
  *
  * If you need to use a one-off rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -64,3 +64,11 @@ export function convertTitleToMdLinkHashName(title: string) {
     .filter(Boolean)
     .join("-");
 }
+
+export function uniq<T extends string | number | symbol>(array: T[]) {
+  const map: Partial<Record<T, boolean>> = {};
+  for (const item of array) {
+    map[item] = true;
+  }
+  return Object.keys(map) as T[];
+}

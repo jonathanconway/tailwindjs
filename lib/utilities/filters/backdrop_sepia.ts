@@ -23,7 +23,7 @@ export const backdrop_sepia_0 = "backdrop-sepia-0";
 export const backdrop_sepia = "backdrop-sepia";
 
 /**
- * backdrop-sepia-[:value]
+ * backdrop-sepia-[{value}]
  *
  * If you need to use a one-off backdrop-sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

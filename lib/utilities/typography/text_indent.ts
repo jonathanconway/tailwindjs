@@ -419,7 +419,7 @@ export const indent_80 = "indent-80";
 export const indent_96 = "indent-96";
 
 /**
- * indent-[:value]
+ * indent-[{value}]
  *
  * If you need to use a one-off text-indent value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

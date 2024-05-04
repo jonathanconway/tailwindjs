@@ -7,6 +7,7 @@ import { writeExportLineToIndex } from "../code-gen.utils";
 import {
   convertCodeNameToTitle,
   convertTailwindCssNameToCodeName,
+  uniq,
 } from "../utils";
 import {
   Definition,
@@ -84,51 +85,71 @@ function parseLibGroup(
     container: parseLibPrimitivesContainer,
   };
 
-  return {
-    name: groupName,
-    title,
-    description,
-    primitives: buildPrimitives[classTableType](classTableRows, $),
-    tailwindCssUrl,
-    arbitrary: parseLibGroupArbitrary($),
-  };
-}
+  const name = groupName;
 
-function parseLibGroupArbitrary(
-  $: CheerioAPI
-): UtilityGroupArbitrary | undefined {
-  const arbitraryHeadingElement = $("#arbitrary-values");
-  if (arbitraryHeadingElement.length === 0) {
-    return undefined;
-  }
+  const primitives = buildPrimitives[classTableType](classTableRows, $);
 
-  const nextP = arbitraryHeadingElement.next("p");
-  const description = nextP.text().toString();
-
-  const arbitrarySampleText = nextP
-    .next("pre")
-    .find("span.code-highlight")
-    .text();
-  const tailwindCssName = arbitrarySampleText.split("-[")[0];
-  const name = `${convertTailwindCssNameToCodeName(tailwindCssName)}_arbitrary`;
-
-  if (utilityArbitraryNames[name]) {
-    // Avoid duplicating
-    return undefined;
-  }
-  utilityArbitraryNames[name] = true;
-
-  const tailwindCssUrl = arbitraryHeadingElement
-    .find("a")
-    .attr("href")
-    .toString();
+  const arbitraries = parseLibGroupArbitraries($, primitives, tailwindCssUrl);
 
   return {
     name,
+    title,
     description,
-    tailwindCssName,
+    primitives,
     tailwindCssUrl,
+    arbitraries,
   };
+}
+
+function parseLibGroupArbitraries(
+  $: CheerioAPI,
+  primitives: readonly UtilityPrimitive[],
+  tailwindCssGroupUrl: string
+): readonly UtilityGroupArbitrary[] {
+  const arbitraryHeadingElement = $("#arbitrary-values");
+  if (arbitraryHeadingElement.length === 0) {
+    return [];
+  }
+
+  const nextP = arbitraryHeadingElement.next("p");
+
+  const nextCode = arbitraryHeadingElement.next("code");
+  const nextCodeHighlight = nextCode.find("code-highlight").text().toString();
+  const nextCodeHighlightPrefix = nextCodeHighlight.split("-[")[0];
+
+  const description = nextP.text().toString();
+
+  const primitiveNames = primitives.map(
+    (primitive) => primitive.tailwindCssName
+  );
+  const primitivePrefixes = primitiveNames.map((name) =>
+    name.split("-").slice(0, -1).join("-")
+  );
+
+  const names = [...primitivePrefixes, nextCodeHighlightPrefix].filter((name) =>
+    name.trim()
+  );
+
+  const namesUniq = uniq(names);
+
+  const namesUniqNotAlreadyUsed = namesUniq.filter(
+    (name) => !utilityArbitraryNames[name]
+  );
+
+  const tailwindCssUrl = `${tailwindCssGroupUrl}#arbitrary-values`;
+
+  const arbitraries = namesUniqNotAlreadyUsed.map((name) => ({
+    name: name.replaceAll("-", "_"),
+    description,
+    tailwindCssUrl,
+    tailwindCssName: name,
+  }));
+
+  for (const nameNowUsed of namesUniqNotAlreadyUsed) {
+    utilityArbitraryNames[nameNowUsed] = true;
+  }
+
+  return arbitraries;
 }
 
 function parseLibPrimitives(

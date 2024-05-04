@@ -527,7 +527,7 @@ export const max_h_max = "max-h-max";
 export const max_h_fit = "max-h-fit";
 
 /**
- * max-h-[:value]
+ * max-h-[{value}]
  *
  * If you need to use a one-off max-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

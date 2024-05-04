@@ -2963,6 +2963,269 @@ export const text_rose_900 = "text-rose-900";
 export const text_rose_950 = "text-rose-950";
 
 /**
+ * text-slate-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_slate_arbitrary = (value: string) => `text-slate-[${value}]`;
+
+
+/**
+ * text-gray-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_gray_arbitrary = (value: string) => `text-gray-[${value}]`;
+
+
+/**
+ * text-zinc-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_zinc_arbitrary = (value: string) => `text-zinc-[${value}]`;
+
+
+/**
+ * text-neutral-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_neutral_arbitrary = (value: string) => `text-neutral-[${value}]`;
+
+
+/**
+ * text-stone-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_stone_arbitrary = (value: string) => `text-stone-[${value}]`;
+
+
+/**
+ * text-red-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_red_arbitrary = (value: string) => `text-red-[${value}]`;
+
+
+/**
+ * text-orange-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_orange_arbitrary = (value: string) => `text-orange-[${value}]`;
+
+
+/**
+ * text-amber-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_amber_arbitrary = (value: string) => `text-amber-[${value}]`;
+
+
+/**
+ * text-yellow-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_yellow_arbitrary = (value: string) => `text-yellow-[${value}]`;
+
+
+/**
+ * text-lime-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_lime_arbitrary = (value: string) => `text-lime-[${value}]`;
+
+
+/**
+ * text-green-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_green_arbitrary = (value: string) => `text-green-[${value}]`;
+
+
+/**
+ * text-emerald-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_emerald_arbitrary = (value: string) => `text-emerald-[${value}]`;
+
+
+/**
+ * text-teal-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_teal_arbitrary = (value: string) => `text-teal-[${value}]`;
+
+
+/**
+ * text-cyan-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_cyan_arbitrary = (value: string) => `text-cyan-[${value}]`;
+
+
+/**
+ * text-sky-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_sky_arbitrary = (value: string) => `text-sky-[${value}]`;
+
+
+/**
+ * text-blue-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_blue_arbitrary = (value: string) => `text-blue-[${value}]`;
+
+
+/**
+ * text-indigo-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_indigo_arbitrary = (value: string) => `text-indigo-[${value}]`;
+
+
+/**
+ * text-violet-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_violet_arbitrary = (value: string) => `text-violet-[${value}]`;
+
+
+/**
+ * text-purple-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_purple_arbitrary = (value: string) => `text-purple-[${value}]`;
+
+
+/**
+ * text-fuchsia-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_fuchsia_arbitrary = (value: string) => `text-fuchsia-[${value}]`;
+
+
+/**
+ * text-pink-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_pink_arbitrary = (value: string) => `text-pink-[${value}]`;
+
+
+/**
+ * text-rose-[{value}]
+ *
+ * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/text-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const text_rose_arbitrary = (value: string) => `text-rose-[${value}]`;
+
+/**
  * Text Color
  *
  * Utilities for controlling the text color of an element.
@@ -3216,5 +3479,27 @@ export const text_color_utilities = {
   text_rose_700,
   text_rose_800,
   text_rose_900,
-  text_rose_950
+  text_rose_950,
+  text_slate_arbitrary,
+  text_gray_arbitrary,
+  text_zinc_arbitrary,
+  text_neutral_arbitrary,
+  text_stone_arbitrary,
+  text_red_arbitrary,
+  text_orange_arbitrary,
+  text_amber_arbitrary,
+  text_yellow_arbitrary,
+  text_lime_arbitrary,
+  text_green_arbitrary,
+  text_emerald_arbitrary,
+  text_teal_arbitrary,
+  text_cyan_arbitrary,
+  text_sky_arbitrary,
+  text_blue_arbitrary,
+  text_indigo_arbitrary,
+  text_violet_arbitrary,
+  text_purple_arbitrary,
+  text_fuchsia_arbitrary,
+  text_pink_arbitrary,
+  text_rose_arbitrary
 };

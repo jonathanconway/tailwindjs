@@ -64,7 +64,7 @@ export const ring_offset_4 = "ring-offset-4";
 export const ring_offset_8 = "ring-offset-8";
 
 /**
- * ring-offset-[:value]
+ * ring-offset-[{value}]
  *
  * If you need to use a one-off ring-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

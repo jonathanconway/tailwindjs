@@ -27169,7 +27169,7 @@ export const border_l_rose_900 = "border-l-rose-900";
 export const border_l_rose_950 = "border-l-rose-950";
 
 /**
- * border-[:value]
+ * border-slate-[{value}]
  *
  * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -27177,7 +27177,2371 @@ export const border_l_rose_950 = "border-l-rose-950";
  *
  * @type utility
  */
-export const border_arbitrary = (value: string) => `border-[${value}]`;
+export const border_slate_arbitrary = (value: string) => `border-slate-[${value}]`;
+
+
+/**
+ * border-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_gray_arbitrary = (value: string) => `border-gray-[${value}]`;
+
+
+/**
+ * border-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_zinc_arbitrary = (value: string) => `border-zinc-[${value}]`;
+
+
+/**
+ * border-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_neutral_arbitrary = (value: string) => `border-neutral-[${value}]`;
+
+
+/**
+ * border-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_stone_arbitrary = (value: string) => `border-stone-[${value}]`;
+
+
+/**
+ * border-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_red_arbitrary = (value: string) => `border-red-[${value}]`;
+
+
+/**
+ * border-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_orange_arbitrary = (value: string) => `border-orange-[${value}]`;
+
+
+/**
+ * border-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_amber_arbitrary = (value: string) => `border-amber-[${value}]`;
+
+
+/**
+ * border-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_yellow_arbitrary = (value: string) => `border-yellow-[${value}]`;
+
+
+/**
+ * border-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_lime_arbitrary = (value: string) => `border-lime-[${value}]`;
+
+
+/**
+ * border-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_green_arbitrary = (value: string) => `border-green-[${value}]`;
+
+
+/**
+ * border-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_emerald_arbitrary = (value: string) => `border-emerald-[${value}]`;
+
+
+/**
+ * border-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_teal_arbitrary = (value: string) => `border-teal-[${value}]`;
+
+
+/**
+ * border-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_cyan_arbitrary = (value: string) => `border-cyan-[${value}]`;
+
+
+/**
+ * border-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_sky_arbitrary = (value: string) => `border-sky-[${value}]`;
+
+
+/**
+ * border-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_blue_arbitrary = (value: string) => `border-blue-[${value}]`;
+
+
+/**
+ * border-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_indigo_arbitrary = (value: string) => `border-indigo-[${value}]`;
+
+
+/**
+ * border-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_violet_arbitrary = (value: string) => `border-violet-[${value}]`;
+
+
+/**
+ * border-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_purple_arbitrary = (value: string) => `border-purple-[${value}]`;
+
+
+/**
+ * border-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_fuchsia_arbitrary = (value: string) => `border-fuchsia-[${value}]`;
+
+
+/**
+ * border-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_pink_arbitrary = (value: string) => `border-pink-[${value}]`;
+
+
+/**
+ * border-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_rose_arbitrary = (value: string) => `border-rose-[${value}]`;
+
+
+/**
+ * border-x-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_slate_arbitrary = (value: string) => `border-x-slate-[${value}]`;
+
+
+/**
+ * border-x-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_gray_arbitrary = (value: string) => `border-x-gray-[${value}]`;
+
+
+/**
+ * border-x-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_zinc_arbitrary = (value: string) => `border-x-zinc-[${value}]`;
+
+
+/**
+ * border-x-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_neutral_arbitrary = (value: string) => `border-x-neutral-[${value}]`;
+
+
+/**
+ * border-x-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_stone_arbitrary = (value: string) => `border-x-stone-[${value}]`;
+
+
+/**
+ * border-x-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_red_arbitrary = (value: string) => `border-x-red-[${value}]`;
+
+
+/**
+ * border-x-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_orange_arbitrary = (value: string) => `border-x-orange-[${value}]`;
+
+
+/**
+ * border-x-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_amber_arbitrary = (value: string) => `border-x-amber-[${value}]`;
+
+
+/**
+ * border-x-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_yellow_arbitrary = (value: string) => `border-x-yellow-[${value}]`;
+
+
+/**
+ * border-x-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_lime_arbitrary = (value: string) => `border-x-lime-[${value}]`;
+
+
+/**
+ * border-x-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_green_arbitrary = (value: string) => `border-x-green-[${value}]`;
+
+
+/**
+ * border-x-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_emerald_arbitrary = (value: string) => `border-x-emerald-[${value}]`;
+
+
+/**
+ * border-x-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_teal_arbitrary = (value: string) => `border-x-teal-[${value}]`;
+
+
+/**
+ * border-x-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_cyan_arbitrary = (value: string) => `border-x-cyan-[${value}]`;
+
+
+/**
+ * border-x-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_sky_arbitrary = (value: string) => `border-x-sky-[${value}]`;
+
+
+/**
+ * border-x-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_blue_arbitrary = (value: string) => `border-x-blue-[${value}]`;
+
+
+/**
+ * border-x-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_indigo_arbitrary = (value: string) => `border-x-indigo-[${value}]`;
+
+
+/**
+ * border-x-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_violet_arbitrary = (value: string) => `border-x-violet-[${value}]`;
+
+
+/**
+ * border-x-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_purple_arbitrary = (value: string) => `border-x-purple-[${value}]`;
+
+
+/**
+ * border-x-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_fuchsia_arbitrary = (value: string) => `border-x-fuchsia-[${value}]`;
+
+
+/**
+ * border-x-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_pink_arbitrary = (value: string) => `border-x-pink-[${value}]`;
+
+
+/**
+ * border-x-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_x_rose_arbitrary = (value: string) => `border-x-rose-[${value}]`;
+
+
+/**
+ * border-y-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_slate_arbitrary = (value: string) => `border-y-slate-[${value}]`;
+
+
+/**
+ * border-y-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_gray_arbitrary = (value: string) => `border-y-gray-[${value}]`;
+
+
+/**
+ * border-y-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_zinc_arbitrary = (value: string) => `border-y-zinc-[${value}]`;
+
+
+/**
+ * border-y-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_neutral_arbitrary = (value: string) => `border-y-neutral-[${value}]`;
+
+
+/**
+ * border-y-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_stone_arbitrary = (value: string) => `border-y-stone-[${value}]`;
+
+
+/**
+ * border-y-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_red_arbitrary = (value: string) => `border-y-red-[${value}]`;
+
+
+/**
+ * border-y-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_orange_arbitrary = (value: string) => `border-y-orange-[${value}]`;
+
+
+/**
+ * border-y-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_amber_arbitrary = (value: string) => `border-y-amber-[${value}]`;
+
+
+/**
+ * border-y-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_yellow_arbitrary = (value: string) => `border-y-yellow-[${value}]`;
+
+
+/**
+ * border-y-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_lime_arbitrary = (value: string) => `border-y-lime-[${value}]`;
+
+
+/**
+ * border-y-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_green_arbitrary = (value: string) => `border-y-green-[${value}]`;
+
+
+/**
+ * border-y-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_emerald_arbitrary = (value: string) => `border-y-emerald-[${value}]`;
+
+
+/**
+ * border-y-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_teal_arbitrary = (value: string) => `border-y-teal-[${value}]`;
+
+
+/**
+ * border-y-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_cyan_arbitrary = (value: string) => `border-y-cyan-[${value}]`;
+
+
+/**
+ * border-y-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_sky_arbitrary = (value: string) => `border-y-sky-[${value}]`;
+
+
+/**
+ * border-y-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_blue_arbitrary = (value: string) => `border-y-blue-[${value}]`;
+
+
+/**
+ * border-y-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_indigo_arbitrary = (value: string) => `border-y-indigo-[${value}]`;
+
+
+/**
+ * border-y-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_violet_arbitrary = (value: string) => `border-y-violet-[${value}]`;
+
+
+/**
+ * border-y-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_purple_arbitrary = (value: string) => `border-y-purple-[${value}]`;
+
+
+/**
+ * border-y-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_fuchsia_arbitrary = (value: string) => `border-y-fuchsia-[${value}]`;
+
+
+/**
+ * border-y-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_pink_arbitrary = (value: string) => `border-y-pink-[${value}]`;
+
+
+/**
+ * border-y-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_y_rose_arbitrary = (value: string) => `border-y-rose-[${value}]`;
+
+
+/**
+ * border-s-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_slate_arbitrary = (value: string) => `border-s-slate-[${value}]`;
+
+
+/**
+ * border-s-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_gray_arbitrary = (value: string) => `border-s-gray-[${value}]`;
+
+
+/**
+ * border-s-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_zinc_arbitrary = (value: string) => `border-s-zinc-[${value}]`;
+
+
+/**
+ * border-s-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_neutral_arbitrary = (value: string) => `border-s-neutral-[${value}]`;
+
+
+/**
+ * border-s-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_stone_arbitrary = (value: string) => `border-s-stone-[${value}]`;
+
+
+/**
+ * border-s-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_red_arbitrary = (value: string) => `border-s-red-[${value}]`;
+
+
+/**
+ * border-s-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_orange_arbitrary = (value: string) => `border-s-orange-[${value}]`;
+
+
+/**
+ * border-s-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_amber_arbitrary = (value: string) => `border-s-amber-[${value}]`;
+
+
+/**
+ * border-s-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_yellow_arbitrary = (value: string) => `border-s-yellow-[${value}]`;
+
+
+/**
+ * border-s-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_lime_arbitrary = (value: string) => `border-s-lime-[${value}]`;
+
+
+/**
+ * border-s-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_green_arbitrary = (value: string) => `border-s-green-[${value}]`;
+
+
+/**
+ * border-s-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_emerald_arbitrary = (value: string) => `border-s-emerald-[${value}]`;
+
+
+/**
+ * border-s-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_teal_arbitrary = (value: string) => `border-s-teal-[${value}]`;
+
+
+/**
+ * border-s-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_cyan_arbitrary = (value: string) => `border-s-cyan-[${value}]`;
+
+
+/**
+ * border-s-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_sky_arbitrary = (value: string) => `border-s-sky-[${value}]`;
+
+
+/**
+ * border-s-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_blue_arbitrary = (value: string) => `border-s-blue-[${value}]`;
+
+
+/**
+ * border-s-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_indigo_arbitrary = (value: string) => `border-s-indigo-[${value}]`;
+
+
+/**
+ * border-s-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_violet_arbitrary = (value: string) => `border-s-violet-[${value}]`;
+
+
+/**
+ * border-s-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_purple_arbitrary = (value: string) => `border-s-purple-[${value}]`;
+
+
+/**
+ * border-s-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_fuchsia_arbitrary = (value: string) => `border-s-fuchsia-[${value}]`;
+
+
+/**
+ * border-s-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_pink_arbitrary = (value: string) => `border-s-pink-[${value}]`;
+
+
+/**
+ * border-s-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_s_rose_arbitrary = (value: string) => `border-s-rose-[${value}]`;
+
+
+/**
+ * border-e-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_slate_arbitrary = (value: string) => `border-e-slate-[${value}]`;
+
+
+/**
+ * border-e-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_gray_arbitrary = (value: string) => `border-e-gray-[${value}]`;
+
+
+/**
+ * border-e-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_zinc_arbitrary = (value: string) => `border-e-zinc-[${value}]`;
+
+
+/**
+ * border-e-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_neutral_arbitrary = (value: string) => `border-e-neutral-[${value}]`;
+
+
+/**
+ * border-e-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_stone_arbitrary = (value: string) => `border-e-stone-[${value}]`;
+
+
+/**
+ * border-e-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_red_arbitrary = (value: string) => `border-e-red-[${value}]`;
+
+
+/**
+ * border-e-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_orange_arbitrary = (value: string) => `border-e-orange-[${value}]`;
+
+
+/**
+ * border-e-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_amber_arbitrary = (value: string) => `border-e-amber-[${value}]`;
+
+
+/**
+ * border-e-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_yellow_arbitrary = (value: string) => `border-e-yellow-[${value}]`;
+
+
+/**
+ * border-e-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_lime_arbitrary = (value: string) => `border-e-lime-[${value}]`;
+
+
+/**
+ * border-e-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_green_arbitrary = (value: string) => `border-e-green-[${value}]`;
+
+
+/**
+ * border-e-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_emerald_arbitrary = (value: string) => `border-e-emerald-[${value}]`;
+
+
+/**
+ * border-e-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_teal_arbitrary = (value: string) => `border-e-teal-[${value}]`;
+
+
+/**
+ * border-e-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_cyan_arbitrary = (value: string) => `border-e-cyan-[${value}]`;
+
+
+/**
+ * border-e-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_sky_arbitrary = (value: string) => `border-e-sky-[${value}]`;
+
+
+/**
+ * border-e-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_blue_arbitrary = (value: string) => `border-e-blue-[${value}]`;
+
+
+/**
+ * border-e-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_indigo_arbitrary = (value: string) => `border-e-indigo-[${value}]`;
+
+
+/**
+ * border-e-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_violet_arbitrary = (value: string) => `border-e-violet-[${value}]`;
+
+
+/**
+ * border-e-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_purple_arbitrary = (value: string) => `border-e-purple-[${value}]`;
+
+
+/**
+ * border-e-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_fuchsia_arbitrary = (value: string) => `border-e-fuchsia-[${value}]`;
+
+
+/**
+ * border-e-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_pink_arbitrary = (value: string) => `border-e-pink-[${value}]`;
+
+
+/**
+ * border-e-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_e_rose_arbitrary = (value: string) => `border-e-rose-[${value}]`;
+
+
+/**
+ * border-t-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_slate_arbitrary = (value: string) => `border-t-slate-[${value}]`;
+
+
+/**
+ * border-t-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_gray_arbitrary = (value: string) => `border-t-gray-[${value}]`;
+
+
+/**
+ * border-t-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_zinc_arbitrary = (value: string) => `border-t-zinc-[${value}]`;
+
+
+/**
+ * border-t-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_neutral_arbitrary = (value: string) => `border-t-neutral-[${value}]`;
+
+
+/**
+ * border-t-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_stone_arbitrary = (value: string) => `border-t-stone-[${value}]`;
+
+
+/**
+ * border-t-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_red_arbitrary = (value: string) => `border-t-red-[${value}]`;
+
+
+/**
+ * border-t-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_orange_arbitrary = (value: string) => `border-t-orange-[${value}]`;
+
+
+/**
+ * border-t-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_amber_arbitrary = (value: string) => `border-t-amber-[${value}]`;
+
+
+/**
+ * border-t-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_yellow_arbitrary = (value: string) => `border-t-yellow-[${value}]`;
+
+
+/**
+ * border-t-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_lime_arbitrary = (value: string) => `border-t-lime-[${value}]`;
+
+
+/**
+ * border-t-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_green_arbitrary = (value: string) => `border-t-green-[${value}]`;
+
+
+/**
+ * border-t-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_emerald_arbitrary = (value: string) => `border-t-emerald-[${value}]`;
+
+
+/**
+ * border-t-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_teal_arbitrary = (value: string) => `border-t-teal-[${value}]`;
+
+
+/**
+ * border-t-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_cyan_arbitrary = (value: string) => `border-t-cyan-[${value}]`;
+
+
+/**
+ * border-t-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_sky_arbitrary = (value: string) => `border-t-sky-[${value}]`;
+
+
+/**
+ * border-t-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_blue_arbitrary = (value: string) => `border-t-blue-[${value}]`;
+
+
+/**
+ * border-t-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_indigo_arbitrary = (value: string) => `border-t-indigo-[${value}]`;
+
+
+/**
+ * border-t-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_violet_arbitrary = (value: string) => `border-t-violet-[${value}]`;
+
+
+/**
+ * border-t-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_purple_arbitrary = (value: string) => `border-t-purple-[${value}]`;
+
+
+/**
+ * border-t-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_fuchsia_arbitrary = (value: string) => `border-t-fuchsia-[${value}]`;
+
+
+/**
+ * border-t-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_pink_arbitrary = (value: string) => `border-t-pink-[${value}]`;
+
+
+/**
+ * border-t-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_t_rose_arbitrary = (value: string) => `border-t-rose-[${value}]`;
+
+
+/**
+ * border-r-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_slate_arbitrary = (value: string) => `border-r-slate-[${value}]`;
+
+
+/**
+ * border-r-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_gray_arbitrary = (value: string) => `border-r-gray-[${value}]`;
+
+
+/**
+ * border-r-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_zinc_arbitrary = (value: string) => `border-r-zinc-[${value}]`;
+
+
+/**
+ * border-r-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_neutral_arbitrary = (value: string) => `border-r-neutral-[${value}]`;
+
+
+/**
+ * border-r-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_stone_arbitrary = (value: string) => `border-r-stone-[${value}]`;
+
+
+/**
+ * border-r-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_red_arbitrary = (value: string) => `border-r-red-[${value}]`;
+
+
+/**
+ * border-r-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_orange_arbitrary = (value: string) => `border-r-orange-[${value}]`;
+
+
+/**
+ * border-r-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_amber_arbitrary = (value: string) => `border-r-amber-[${value}]`;
+
+
+/**
+ * border-r-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_yellow_arbitrary = (value: string) => `border-r-yellow-[${value}]`;
+
+
+/**
+ * border-r-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_lime_arbitrary = (value: string) => `border-r-lime-[${value}]`;
+
+
+/**
+ * border-r-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_green_arbitrary = (value: string) => `border-r-green-[${value}]`;
+
+
+/**
+ * border-r-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_emerald_arbitrary = (value: string) => `border-r-emerald-[${value}]`;
+
+
+/**
+ * border-r-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_teal_arbitrary = (value: string) => `border-r-teal-[${value}]`;
+
+
+/**
+ * border-r-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_cyan_arbitrary = (value: string) => `border-r-cyan-[${value}]`;
+
+
+/**
+ * border-r-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_sky_arbitrary = (value: string) => `border-r-sky-[${value}]`;
+
+
+/**
+ * border-r-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_blue_arbitrary = (value: string) => `border-r-blue-[${value}]`;
+
+
+/**
+ * border-r-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_indigo_arbitrary = (value: string) => `border-r-indigo-[${value}]`;
+
+
+/**
+ * border-r-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_violet_arbitrary = (value: string) => `border-r-violet-[${value}]`;
+
+
+/**
+ * border-r-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_purple_arbitrary = (value: string) => `border-r-purple-[${value}]`;
+
+
+/**
+ * border-r-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_fuchsia_arbitrary = (value: string) => `border-r-fuchsia-[${value}]`;
+
+
+/**
+ * border-r-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_pink_arbitrary = (value: string) => `border-r-pink-[${value}]`;
+
+
+/**
+ * border-r-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_r_rose_arbitrary = (value: string) => `border-r-rose-[${value}]`;
+
+
+/**
+ * border-b-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_slate_arbitrary = (value: string) => `border-b-slate-[${value}]`;
+
+
+/**
+ * border-b-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_gray_arbitrary = (value: string) => `border-b-gray-[${value}]`;
+
+
+/**
+ * border-b-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_zinc_arbitrary = (value: string) => `border-b-zinc-[${value}]`;
+
+
+/**
+ * border-b-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_neutral_arbitrary = (value: string) => `border-b-neutral-[${value}]`;
+
+
+/**
+ * border-b-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_stone_arbitrary = (value: string) => `border-b-stone-[${value}]`;
+
+
+/**
+ * border-b-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_red_arbitrary = (value: string) => `border-b-red-[${value}]`;
+
+
+/**
+ * border-b-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_orange_arbitrary = (value: string) => `border-b-orange-[${value}]`;
+
+
+/**
+ * border-b-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_amber_arbitrary = (value: string) => `border-b-amber-[${value}]`;
+
+
+/**
+ * border-b-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_yellow_arbitrary = (value: string) => `border-b-yellow-[${value}]`;
+
+
+/**
+ * border-b-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_lime_arbitrary = (value: string) => `border-b-lime-[${value}]`;
+
+
+/**
+ * border-b-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_green_arbitrary = (value: string) => `border-b-green-[${value}]`;
+
+
+/**
+ * border-b-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_emerald_arbitrary = (value: string) => `border-b-emerald-[${value}]`;
+
+
+/**
+ * border-b-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_teal_arbitrary = (value: string) => `border-b-teal-[${value}]`;
+
+
+/**
+ * border-b-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_cyan_arbitrary = (value: string) => `border-b-cyan-[${value}]`;
+
+
+/**
+ * border-b-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_sky_arbitrary = (value: string) => `border-b-sky-[${value}]`;
+
+
+/**
+ * border-b-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_blue_arbitrary = (value: string) => `border-b-blue-[${value}]`;
+
+
+/**
+ * border-b-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_indigo_arbitrary = (value: string) => `border-b-indigo-[${value}]`;
+
+
+/**
+ * border-b-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_violet_arbitrary = (value: string) => `border-b-violet-[${value}]`;
+
+
+/**
+ * border-b-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_purple_arbitrary = (value: string) => `border-b-purple-[${value}]`;
+
+
+/**
+ * border-b-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_fuchsia_arbitrary = (value: string) => `border-b-fuchsia-[${value}]`;
+
+
+/**
+ * border-b-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_pink_arbitrary = (value: string) => `border-b-pink-[${value}]`;
+
+
+/**
+ * border-b-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_b_rose_arbitrary = (value: string) => `border-b-rose-[${value}]`;
+
+
+/**
+ * border-l-slate-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_slate_arbitrary = (value: string) => `border-l-slate-[${value}]`;
+
+
+/**
+ * border-l-gray-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_gray_arbitrary = (value: string) => `border-l-gray-[${value}]`;
+
+
+/**
+ * border-l-zinc-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_zinc_arbitrary = (value: string) => `border-l-zinc-[${value}]`;
+
+
+/**
+ * border-l-neutral-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_neutral_arbitrary = (value: string) => `border-l-neutral-[${value}]`;
+
+
+/**
+ * border-l-stone-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_stone_arbitrary = (value: string) => `border-l-stone-[${value}]`;
+
+
+/**
+ * border-l-red-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_red_arbitrary = (value: string) => `border-l-red-[${value}]`;
+
+
+/**
+ * border-l-orange-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_orange_arbitrary = (value: string) => `border-l-orange-[${value}]`;
+
+
+/**
+ * border-l-amber-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_amber_arbitrary = (value: string) => `border-l-amber-[${value}]`;
+
+
+/**
+ * border-l-yellow-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_yellow_arbitrary = (value: string) => `border-l-yellow-[${value}]`;
+
+
+/**
+ * border-l-lime-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_lime_arbitrary = (value: string) => `border-l-lime-[${value}]`;
+
+
+/**
+ * border-l-green-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_green_arbitrary = (value: string) => `border-l-green-[${value}]`;
+
+
+/**
+ * border-l-emerald-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_emerald_arbitrary = (value: string) => `border-l-emerald-[${value}]`;
+
+
+/**
+ * border-l-teal-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_teal_arbitrary = (value: string) => `border-l-teal-[${value}]`;
+
+
+/**
+ * border-l-cyan-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_cyan_arbitrary = (value: string) => `border-l-cyan-[${value}]`;
+
+
+/**
+ * border-l-sky-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_sky_arbitrary = (value: string) => `border-l-sky-[${value}]`;
+
+
+/**
+ * border-l-blue-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_blue_arbitrary = (value: string) => `border-l-blue-[${value}]`;
+
+
+/**
+ * border-l-indigo-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_indigo_arbitrary = (value: string) => `border-l-indigo-[${value}]`;
+
+
+/**
+ * border-l-violet-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_violet_arbitrary = (value: string) => `border-l-violet-[${value}]`;
+
+
+/**
+ * border-l-purple-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_purple_arbitrary = (value: string) => `border-l-purple-[${value}]`;
+
+
+/**
+ * border-l-fuchsia-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_fuchsia_arbitrary = (value: string) => `border-l-fuchsia-[${value}]`;
+
+
+/**
+ * border-l-pink-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_pink_arbitrary = (value: string) => `border-l-pink-[${value}]`;
+
+
+/**
+ * border-l-rose-[{value}]
+ *
+ * If you need to use a one-off border-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const border_l_rose_arbitrary = (value: string) => `border-l-rose-[${value}]`;
 
 /**
  * Border Color
@@ -29410,5 +31774,202 @@ export const border_color_utilities = {
   border_l_rose_800,
   border_l_rose_900,
   border_l_rose_950,
-  border_arbitrary
+  border_slate_arbitrary,
+  border_gray_arbitrary,
+  border_zinc_arbitrary,
+  border_neutral_arbitrary,
+  border_stone_arbitrary,
+  border_red_arbitrary,
+  border_orange_arbitrary,
+  border_amber_arbitrary,
+  border_yellow_arbitrary,
+  border_lime_arbitrary,
+  border_green_arbitrary,
+  border_emerald_arbitrary,
+  border_teal_arbitrary,
+  border_cyan_arbitrary,
+  border_sky_arbitrary,
+  border_blue_arbitrary,
+  border_indigo_arbitrary,
+  border_violet_arbitrary,
+  border_purple_arbitrary,
+  border_fuchsia_arbitrary,
+  border_pink_arbitrary,
+  border_rose_arbitrary,
+  border_x_slate_arbitrary,
+  border_x_gray_arbitrary,
+  border_x_zinc_arbitrary,
+  border_x_neutral_arbitrary,
+  border_x_stone_arbitrary,
+  border_x_red_arbitrary,
+  border_x_orange_arbitrary,
+  border_x_amber_arbitrary,
+  border_x_yellow_arbitrary,
+  border_x_lime_arbitrary,
+  border_x_green_arbitrary,
+  border_x_emerald_arbitrary,
+  border_x_teal_arbitrary,
+  border_x_cyan_arbitrary,
+  border_x_sky_arbitrary,
+  border_x_blue_arbitrary,
+  border_x_indigo_arbitrary,
+  border_x_violet_arbitrary,
+  border_x_purple_arbitrary,
+  border_x_fuchsia_arbitrary,
+  border_x_pink_arbitrary,
+  border_x_rose_arbitrary,
+  border_y_slate_arbitrary,
+  border_y_gray_arbitrary,
+  border_y_zinc_arbitrary,
+  border_y_neutral_arbitrary,
+  border_y_stone_arbitrary,
+  border_y_red_arbitrary,
+  border_y_orange_arbitrary,
+  border_y_amber_arbitrary,
+  border_y_yellow_arbitrary,
+  border_y_lime_arbitrary,
+  border_y_green_arbitrary,
+  border_y_emerald_arbitrary,
+  border_y_teal_arbitrary,
+  border_y_cyan_arbitrary,
+  border_y_sky_arbitrary,
+  border_y_blue_arbitrary,
+  border_y_indigo_arbitrary,
+  border_y_violet_arbitrary,
+  border_y_purple_arbitrary,
+  border_y_fuchsia_arbitrary,
+  border_y_pink_arbitrary,
+  border_y_rose_arbitrary,
+  border_s_slate_arbitrary,
+  border_s_gray_arbitrary,
+  border_s_zinc_arbitrary,
+  border_s_neutral_arbitrary,
+  border_s_stone_arbitrary,
+  border_s_red_arbitrary,
+  border_s_orange_arbitrary,
+  border_s_amber_arbitrary,
+  border_s_yellow_arbitrary,
+  border_s_lime_arbitrary,
+  border_s_green_arbitrary,
+  border_s_emerald_arbitrary,
+  border_s_teal_arbitrary,
+  border_s_cyan_arbitrary,
+  border_s_sky_arbitrary,
+  border_s_blue_arbitrary,
+  border_s_indigo_arbitrary,
+  border_s_violet_arbitrary,
+  border_s_purple_arbitrary,
+  border_s_fuchsia_arbitrary,
+  border_s_pink_arbitrary,
+  border_s_rose_arbitrary,
+  border_e_slate_arbitrary,
+  border_e_gray_arbitrary,
+  border_e_zinc_arbitrary,
+  border_e_neutral_arbitrary,
+  border_e_stone_arbitrary,
+  border_e_red_arbitrary,
+  border_e_orange_arbitrary,
+  border_e_amber_arbitrary,
+  border_e_yellow_arbitrary,
+  border_e_lime_arbitrary,
+  border_e_green_arbitrary,
+  border_e_emerald_arbitrary,
+  border_e_teal_arbitrary,
+  border_e_cyan_arbitrary,
+  border_e_sky_arbitrary,
+  border_e_blue_arbitrary,
+  border_e_indigo_arbitrary,
+  border_e_violet_arbitrary,
+  border_e_purple_arbitrary,
+  border_e_fuchsia_arbitrary,
+  border_e_pink_arbitrary,
+  border_e_rose_arbitrary,
+  border_t_slate_arbitrary,
+  border_t_gray_arbitrary,
+  border_t_zinc_arbitrary,
+  border_t_neutral_arbitrary,
+  border_t_stone_arbitrary,
+  border_t_red_arbitrary,
+  border_t_orange_arbitrary,
+  border_t_amber_arbitrary,
+  border_t_yellow_arbitrary,
+  border_t_lime_arbitrary,
+  border_t_green_arbitrary,
+  border_t_emerald_arbitrary,
+  border_t_teal_arbitrary,
+  border_t_cyan_arbitrary,
+  border_t_sky_arbitrary,
+  border_t_blue_arbitrary,
+  border_t_indigo_arbitrary,
+  border_t_violet_arbitrary,
+  border_t_purple_arbitrary,
+  border_t_fuchsia_arbitrary,
+  border_t_pink_arbitrary,
+  border_t_rose_arbitrary,
+  border_r_slate_arbitrary,
+  border_r_gray_arbitrary,
+  border_r_zinc_arbitrary,
+  border_r_neutral_arbitrary,
+  border_r_stone_arbitrary,
+  border_r_red_arbitrary,
+  border_r_orange_arbitrary,
+  border_r_amber_arbitrary,
+  border_r_yellow_arbitrary,
+  border_r_lime_arbitrary,
+  border_r_green_arbitrary,
+  border_r_emerald_arbitrary,
+  border_r_teal_arbitrary,
+  border_r_cyan_arbitrary,
+  border_r_sky_arbitrary,
+  border_r_blue_arbitrary,
+  border_r_indigo_arbitrary,
+  border_r_violet_arbitrary,
+  border_r_purple_arbitrary,
+  border_r_fuchsia_arbitrary,
+  border_r_pink_arbitrary,
+  border_r_rose_arbitrary,
+  border_b_slate_arbitrary,
+  border_b_gray_arbitrary,
+  border_b_zinc_arbitrary,
+  border_b_neutral_arbitrary,
+  border_b_stone_arbitrary,
+  border_b_red_arbitrary,
+  border_b_orange_arbitrary,
+  border_b_amber_arbitrary,
+  border_b_yellow_arbitrary,
+  border_b_lime_arbitrary,
+  border_b_green_arbitrary,
+  border_b_emerald_arbitrary,
+  border_b_teal_arbitrary,
+  border_b_cyan_arbitrary,
+  border_b_sky_arbitrary,
+  border_b_blue_arbitrary,
+  border_b_indigo_arbitrary,
+  border_b_violet_arbitrary,
+  border_b_purple_arbitrary,
+  border_b_fuchsia_arbitrary,
+  border_b_pink_arbitrary,
+  border_b_rose_arbitrary,
+  border_l_slate_arbitrary,
+  border_l_gray_arbitrary,
+  border_l_zinc_arbitrary,
+  border_l_neutral_arbitrary,
+  border_l_stone_arbitrary,
+  border_l_red_arbitrary,
+  border_l_orange_arbitrary,
+  border_l_amber_arbitrary,
+  border_l_yellow_arbitrary,
+  border_l_lime_arbitrary,
+  border_l_green_arbitrary,
+  border_l_emerald_arbitrary,
+  border_l_teal_arbitrary,
+  border_l_cyan_arbitrary,
+  border_l_sky_arbitrary,
+  border_l_blue_arbitrary,
+  border_l_indigo_arbitrary,
+  border_l_violet_arbitrary,
+  border_l_purple_arbitrary,
+  border_l_fuchsia_arbitrary,
+  border_l_pink_arbitrary,
+  border_l_rose_arbitrary
 };

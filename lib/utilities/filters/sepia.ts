@@ -23,7 +23,7 @@ export const sepia_0 = "sepia-0";
 export const sepia = "sepia";
 
 /**
- * sepia-[:value]
+ * sepia-[{value}]
  *
  * If you need to use a one-off sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

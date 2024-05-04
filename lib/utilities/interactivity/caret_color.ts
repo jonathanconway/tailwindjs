@@ -2963,7 +2963,7 @@ export const caret_rose_900 = "caret-rose-900";
 export const caret_rose_950 = "caret-rose-950";
 
 /**
- * caret-[:value]
+ * caret-[{value}]
  *
  * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2972,6 +2972,270 @@ export const caret_rose_950 = "caret-rose-950";
  * @type utility
  */
 export const caret_arbitrary = (value: string) => `caret-[${value}]`;
+
+
+/**
+ * caret-slate-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_slate_arbitrary = (value: string) => `caret-slate-[${value}]`;
+
+
+/**
+ * caret-gray-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_gray_arbitrary = (value: string) => `caret-gray-[${value}]`;
+
+
+/**
+ * caret-zinc-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_zinc_arbitrary = (value: string) => `caret-zinc-[${value}]`;
+
+
+/**
+ * caret-neutral-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_neutral_arbitrary = (value: string) => `caret-neutral-[${value}]`;
+
+
+/**
+ * caret-stone-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_stone_arbitrary = (value: string) => `caret-stone-[${value}]`;
+
+
+/**
+ * caret-red-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_red_arbitrary = (value: string) => `caret-red-[${value}]`;
+
+
+/**
+ * caret-orange-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_orange_arbitrary = (value: string) => `caret-orange-[${value}]`;
+
+
+/**
+ * caret-amber-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_amber_arbitrary = (value: string) => `caret-amber-[${value}]`;
+
+
+/**
+ * caret-yellow-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_yellow_arbitrary = (value: string) => `caret-yellow-[${value}]`;
+
+
+/**
+ * caret-lime-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_lime_arbitrary = (value: string) => `caret-lime-[${value}]`;
+
+
+/**
+ * caret-green-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_green_arbitrary = (value: string) => `caret-green-[${value}]`;
+
+
+/**
+ * caret-emerald-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_emerald_arbitrary = (value: string) => `caret-emerald-[${value}]`;
+
+
+/**
+ * caret-teal-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_teal_arbitrary = (value: string) => `caret-teal-[${value}]`;
+
+
+/**
+ * caret-cyan-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_cyan_arbitrary = (value: string) => `caret-cyan-[${value}]`;
+
+
+/**
+ * caret-sky-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_sky_arbitrary = (value: string) => `caret-sky-[${value}]`;
+
+
+/**
+ * caret-blue-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_blue_arbitrary = (value: string) => `caret-blue-[${value}]`;
+
+
+/**
+ * caret-indigo-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_indigo_arbitrary = (value: string) => `caret-indigo-[${value}]`;
+
+
+/**
+ * caret-violet-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_violet_arbitrary = (value: string) => `caret-violet-[${value}]`;
+
+
+/**
+ * caret-purple-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_purple_arbitrary = (value: string) => `caret-purple-[${value}]`;
+
+
+/**
+ * caret-fuchsia-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_fuchsia_arbitrary = (value: string) => `caret-fuchsia-[${value}]`;
+
+
+/**
+ * caret-pink-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_pink_arbitrary = (value: string) => `caret-pink-[${value}]`;
+
+
+/**
+ * caret-rose-[{value}]
+ *
+ * If you need to use a one-off caret-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/caret-color#arbitrary-values
+ *
+ * @type utility
+ */
+export const caret_rose_arbitrary = (value: string) => `caret-rose-[${value}]`;
 
 /**
  * Caret Color
@@ -3228,5 +3492,27 @@ export const caret_color_utilities = {
   caret_rose_800,
   caret_rose_900,
   caret_rose_950,
-  caret_arbitrary
+  caret_arbitrary,
+  caret_slate_arbitrary,
+  caret_gray_arbitrary,
+  caret_zinc_arbitrary,
+  caret_neutral_arbitrary,
+  caret_stone_arbitrary,
+  caret_red_arbitrary,
+  caret_orange_arbitrary,
+  caret_amber_arbitrary,
+  caret_yellow_arbitrary,
+  caret_lime_arbitrary,
+  caret_green_arbitrary,
+  caret_emerald_arbitrary,
+  caret_teal_arbitrary,
+  caret_cyan_arbitrary,
+  caret_sky_arbitrary,
+  caret_blue_arbitrary,
+  caret_indigo_arbitrary,
+  caret_violet_arbitrary,
+  caret_purple_arbitrary,
+  caret_fuchsia_arbitrary,
+  caret_pink_arbitrary,
+  caret_rose_arbitrary
 };

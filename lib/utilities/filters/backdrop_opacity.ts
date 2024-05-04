@@ -251,7 +251,7 @@ export const backdrop_opacity_95 = "backdrop-opacity-95";
 export const backdrop_opacity_100 = "backdrop-opacity-100";
 
 /**
- * backdrop-opacity-[:value]
+ * backdrop-opacity-[{value}]
  *
  * If you need to use a one-off backdrop-opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

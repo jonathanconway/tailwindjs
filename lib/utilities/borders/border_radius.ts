@@ -1673,7 +1673,7 @@ export const rounded_bl_3xl = "rounded-bl-3xl";
 export const rounded_bl_full = "rounded-bl-full";
 
 /**
- * rounded-[:value]
+ * rounded-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1682,6 +1682,174 @@ export const rounded_bl_full = "rounded-bl-full";
  * @type utility
  */
 export const rounded_arbitrary = (value: string) => `rounded-[${value}]`;
+
+
+/**
+ * rounded-s-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_s_arbitrary = (value: string) => `rounded-s-[${value}]`;
+
+
+/**
+ * rounded-e-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_e_arbitrary = (value: string) => `rounded-e-[${value}]`;
+
+
+/**
+ * rounded-t-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_t_arbitrary = (value: string) => `rounded-t-[${value}]`;
+
+
+/**
+ * rounded-r-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_r_arbitrary = (value: string) => `rounded-r-[${value}]`;
+
+
+/**
+ * rounded-b-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_b_arbitrary = (value: string) => `rounded-b-[${value}]`;
+
+
+/**
+ * rounded-l-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_l_arbitrary = (value: string) => `rounded-l-[${value}]`;
+
+
+/**
+ * rounded-ss-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_ss_arbitrary = (value: string) => `rounded-ss-[${value}]`;
+
+
+/**
+ * rounded-se-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_se_arbitrary = (value: string) => `rounded-se-[${value}]`;
+
+
+/**
+ * rounded-ee-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_ee_arbitrary = (value: string) => `rounded-ee-[${value}]`;
+
+
+/**
+ * rounded-es-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_es_arbitrary = (value: string) => `rounded-es-[${value}]`;
+
+
+/**
+ * rounded-tl-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_tl_arbitrary = (value: string) => `rounded-tl-[${value}]`;
+
+
+/**
+ * rounded-tr-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_tr_arbitrary = (value: string) => `rounded-tr-[${value}]`;
+
+
+/**
+ * rounded-br-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_br_arbitrary = (value: string) => `rounded-br-[${value}]`;
+
+
+/**
+ * rounded-bl-[{value}]
+ *
+ * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
+ *
+ * @type utility
+ */
+export const rounded_bl_arbitrary = (value: string) => `rounded-bl-[${value}]`;
 
 /**
  * Border Radius
@@ -1826,5 +1994,19 @@ export const border_radius_utilities = {
   rounded_bl_2xl,
   rounded_bl_3xl,
   rounded_bl_full,
-  rounded_arbitrary
+  rounded_arbitrary,
+  rounded_s_arbitrary,
+  rounded_e_arbitrary,
+  rounded_t_arbitrary,
+  rounded_r_arbitrary,
+  rounded_b_arbitrary,
+  rounded_l_arbitrary,
+  rounded_ss_arbitrary,
+  rounded_se_arbitrary,
+  rounded_ee_arbitrary,
+  rounded_es_arbitrary,
+  rounded_tl_arbitrary,
+  rounded_tr_arbitrary,
+  rounded_br_arbitrary,
+  rounded_bl_arbitrary
 };

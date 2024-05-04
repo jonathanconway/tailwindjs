@@ -91,7 +91,7 @@ export const animate_pulse = "animate-pulse";
 export const animate_bounce = "animate-bounce";
 
 /**
- * animate-[:value]
+ * animate-[{value}]
  *
  * If you need to use a one-off animation value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

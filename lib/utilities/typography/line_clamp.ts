@@ -104,7 +104,7 @@ export const line_clamp_6 = "line-clamp-6";
 export const line_clamp_none = "line-clamp-none";
 
 /**
- * line-clamp-[:value]
+ * line-clamp-[{value}]
  *
  * If you need to use a one-off line-clamp value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

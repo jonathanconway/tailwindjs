@@ -5,7 +5,11 @@ import { existsSync, mkdirSync, writeFileSync } from "fs";
 import * as pages from "../build-tailwindcss-pages/tailwindcss-pages";
 import { writeExportLineToIndex } from "../code-gen.utils";
 import { mkdirIfNotExistsSync } from "../dir.utils";
-import { Definition, parseTailwindCssPages } from "../parse-tailwindcss-pages";
+import {
+  Definition,
+  UtilityGroup,
+  parseTailwindCssPages,
+} from "../parse-tailwindcss-pages";
 import { convertCodeNameToTitle } from "../utils";
 
 export function buildLib() {
@@ -15,6 +19,25 @@ export function buildLib() {
 
   buildLibUtilities(definition);
   buildLibModifiers(definition);
+}
+
+function genLibUtilityGroupArbitrariesCode(group: UtilityGroup): string {
+  const arbitraries = [];
+  for (const arbitrary of group.arbitraries) {
+    arbitraries.push(`
+/**
+ * ${arbitrary.tailwindCssName}-[{value}]
+ *
+ * ${arbitrary.description}
+ *
+ * @see ${arbitrary.tailwindCssUrl}
+ *
+ * @type utility
+ */
+export const ${arbitrary.name}_arbitrary = (value: string) => \`${arbitrary.tailwindCssName}-[\${value}]\`;
+`);
+  }
+  return arbitraries.join("\n");
 }
 
 export function buildLibUtilities({ utilityAreas: areas }: Definition) {
@@ -27,7 +50,6 @@ export function buildLibUtilities({ utilityAreas: areas }: Definition) {
     for (const group of area.groups) {
       const groupPrimitiveCodes = [];
       for (const primitive of group.primitives) {
-        // { name ,tailwindCssName, cssProperties }
         const primitiveCode = `
 /**
  * ${primitive.tailwindCssName}
@@ -46,20 +68,7 @@ export const ${primitive.name} = "${primitive.tailwindCssName}";
         groupPrimitiveCodes.push(primitiveCode);
       }
 
-      const groupArbitraryCode = group.arbitrary
-        ? `
-/**
- * ${group.arbitrary.tailwindCssName}-[:value]
- *
- * ${group.arbitrary.description}
- *
- * @see ${group.tailwindCssUrl}${group.arbitrary.tailwindCssUrl}
- *
- * @type utility
- */
-export const ${group.arbitrary.name} = (value: string) => \`${group.arbitrary.tailwindCssName}-[\${value}]\`;
-`
-        : "";
+      const groupArbitraryCodes = genLibUtilityGroupArbitrariesCode(group);
 
       const groupObjectCode = `
 /**
@@ -72,7 +81,7 @@ export const ${group.arbitrary.name} = (value: string) => \`${group.arbitrary.ta
 export const ${group.name}_utilities = {
 ${[
   ...group.primitives.map((primitive) => primitive.name),
-  group.arbitrary ? group.arbitrary.name : undefined,
+  ...group.arbitraries.map((arbitrary) => `${arbitrary.name}_arbitrary`),
 ]
   .filter(Boolean)
   .map((name) => `  ${name}`)
@@ -82,7 +91,7 @@ ${[
 
       const groupCode = `
 ${groupPrimitiveCodes.join("\n\n")}
-${groupArbitraryCode}
+${groupArbitraryCodes}
 ${groupObjectCode}
 `.trim();
 

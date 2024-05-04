@@ -107,7 +107,7 @@ export const duration_700 = "duration-700";
 export const duration_1000 = "duration-1000";
 
 /**
- * duration-[:value]
+ * duration-[{value}]
  *
  * If you need to use a one-off transition-duration value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

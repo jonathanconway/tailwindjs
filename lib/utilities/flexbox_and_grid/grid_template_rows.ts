@@ -167,7 +167,7 @@ export const grid_rows_none = "grid-rows-none";
 export const grid_rows_subgrid = "grid-rows-subgrid";
 
 /**
- * grid-rows-[:value]
+ * grid-rows-[{value}]
  *
  * If you need to use a one-off grid-template-rows value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

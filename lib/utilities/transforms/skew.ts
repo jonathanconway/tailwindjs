@@ -143,7 +143,19 @@ export const skew_x_12 = "skew-x-12";
 export const skew_y_12 = "skew-y-12";
 
 /**
- * skew-y-[:value]
+ * skew-x-[{value}]
+ *
+ * If you need to use a one-off skew value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/skew#arbitrary-values
+ *
+ * @type utility
+ */
+export const skew_x_arbitrary = (value: string) => `skew-x-[${value}]`;
+
+
+/**
+ * skew-y-[{value}]
  *
  * If you need to use a one-off skew value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -173,5 +185,6 @@ export const skew_utilities = {
   skew_y_6,
   skew_x_12,
   skew_y_12,
+  skew_x_arbitrary,
   skew_y_arbitrary
 };

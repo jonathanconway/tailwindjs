@@ -83,7 +83,7 @@ export const contrast_150 = "contrast-150";
 export const contrast_200 = "contrast-200";
 
 /**
- * contrast-[:value]
+ * contrast-[{value}]
  *
  * If you need to use a one-off contrast value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

@@ -11,7 +11,7 @@
 export const content_none = "content-none";
 
 /**
- * before:content-[:value]
+ * content-[{value}]
  *
  * If you need to use a one-off content value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -19,7 +19,7 @@ export const content_none = "content-none";
  *
  * @type utility
  */
-export const before_content_arbitrary = (value: string) => `before:content-[${value}]`;
+export const content_arbitrary = (value: string) => `content-[${value}]`;
 
 /**
  * Content
@@ -30,5 +30,5 @@ export const before_content_arbitrary = (value: string) => `before:content-[${va
  */
 export const content_utilities = {
   content_none,
-  before_content_arbitrary
+  content_arbitrary
 };

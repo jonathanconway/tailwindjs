@@ -71,7 +71,7 @@ export const backdrop_hue_rotate_90 = "backdrop-hue-rotate-90";
 export const backdrop_hue_rotate_180 = "backdrop-hue-rotate-180";
 
 /**
- * backdrop-hue-rotate-[:value]
+ * backdrop-hue-rotate-[{value}]
  *
  * If you need to use a one-off backdrop-hue-rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *

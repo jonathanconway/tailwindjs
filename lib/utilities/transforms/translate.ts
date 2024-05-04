@@ -1007,7 +1007,19 @@ export const translate_y_3_on_4 = "translate-y-3/4";
 export const translate_y_full = "translate-y-full";
 
 /**
- * translate-y-[:value]
+ * translate-x-[{value}]
+ *
+ * If you need to use a one-off translate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/translate#arbitrary-values
+ *
+ * @type utility
+ */
+export const translate_x_arbitrary = (value: string) => `translate-x-[${value}]`;
+
+
+/**
+ * translate-y-[{value}]
  *
  * If you need to use a one-off translate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1109,5 +1121,6 @@ export const translate_utilities = {
   translate_y_2_on_4,
   translate_y_3_on_4,
   translate_y_full,
+  translate_x_arbitrary,
   translate_y_arbitrary
 };

@@ -683,7 +683,7 @@ export const max_w_screen_xl = "max-w-screen-xl";
 export const max_w_screen_2xl = "max-w-screen-2xl";
 
 /**
- * max-w-[:value]
+ * max-w-[{value}]
  *
  * If you need to use a one-off max-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -692,6 +692,18 @@ export const max_w_screen_2xl = "max-w-screen-2xl";
  * @type utility
  */
 export const max_w_arbitrary = (value: string) => `max-w-[${value}]`;
+
+
+/**
+ * max-w-screen-[{value}]
+ *
+ * If you need to use a one-off max-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/max-width#arbitrary-values
+ *
+ * @type utility
+ */
+export const max_w_screen_arbitrary = (value: string) => `max-w-screen-[${value}]`;
 
 /**
  * Max-Width
@@ -758,5 +770,6 @@ export const max_width_utilities = {
   max_w_screen_lg,
   max_w_screen_xl,
   max_w_screen_2xl,
-  max_w_arbitrary
+  max_w_arbitrary,
+  max_w_screen_arbitrary
 };
