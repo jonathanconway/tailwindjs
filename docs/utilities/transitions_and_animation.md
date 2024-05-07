@@ -1,12 +1,115 @@
 
-# Transitions & animation
+# Transitions and animation
 
-- [Transition Property](#transition-property)
-- [Transition Duration](#transition-duration)
-- [Transition Timing Function](#transition-timing-function)
-- [Transition Delay](#transition-delay)
-- [Animation](#animation)
+- [Animation](animation)
+- [Transition Delay](transition-delay)
+- [Transition Duration](transition-duration)
+- [Transition Property](transition-property)
+- [Transition Timing Function](transition-timing-function)
+
 -----
+
+
+## Animation
+
+Utilities for animating elements with CSS animations.
+
+### Group
+
+| TailwindJS token |
+| ----- |
+| `animation` |
+
+
+### Utilities
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `animate_bounce` | [animate-bounce](animation) |
+| `animate_none` | [animate-none](animation) |
+| `animate_ping` | [animate-ping](animation) |
+| `animate_pulse` | [animate-pulse](animation) |
+| `animate_spin` | [animate-spin](animation) |
+
+
+
+### Arbitraries
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `animate` | [animate](https://tailwindcss.com/docs/animation#arbitrary-values) |
+
+
+
+## Transition Delay
+
+Utilities for controlling the delay of CSS transitions.
+
+### Group
+
+| TailwindJS token |
+| ----- |
+| `transition_delay` |
+
+
+### Utilities
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `delay_0` | [delay-0](transition_delay) |
+| `delay_100` | [delay-100](transition_delay) |
+| `delay_1000` | [delay-1000](transition_delay) |
+| `delay_150` | [delay-150](transition_delay) |
+| `delay_200` | [delay-200](transition_delay) |
+| `delay_300` | [delay-300](transition_delay) |
+| `delay_500` | [delay-500](transition_delay) |
+| `delay_700` | [delay-700](transition_delay) |
+| `delay_75` | [delay-75](transition_delay) |
+
+
+
+### Arbitraries
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `delay` | [delay](https://tailwindcss.com/docs/transition-delay#arbitrary-values) |
+
+
+
+## Transition Duration
+
+Utilities for controlling the duration of CSS transitions.
+
+### Group
+
+| TailwindJS token |
+| ----- |
+| `transition_duration` |
+
+
+### Utilities
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `duration_0` | [duration-0](transition_duration) |
+| `duration_100` | [duration-100](transition_duration) |
+| `duration_1000` | [duration-1000](transition_duration) |
+| `duration_150` | [duration-150](transition_duration) |
+| `duration_200` | [duration-200](transition_duration) |
+| `duration_300` | [duration-300](transition_duration) |
+| `duration_500` | [duration-500](transition_duration) |
+| `duration_700` | [duration-700](transition_duration) |
+| `duration_75` | [duration-75](transition_duration) |
+
+
+
+### Arbitraries
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `duration` | [duration](https://tailwindcss.com/docs/transition-duration#arbitrary-values) |
+
+
 
 ## Transition Property
 
@@ -18,40 +121,29 @@ Utilities for controlling which CSS properties transition.
 | ----- |
 | `transition_property` |
 
-### Utilities
-
-| TailwindJS token | TailwindCSS token |
-| ----- | ----- |
-| `transition_none` | [transition-none](https://tailwindcss.com/docs/transition-property) |
-| `transition_all` | [transition-all](https://tailwindcss.com/docs/transition-property) |
-| `transition` | [transition](https://tailwindcss.com/docs/transition-property) |
-| `transition_colors` | [transition-colors](https://tailwindcss.com/docs/transition-property) |
-| `transition_opacity` | [transition-opacity](https://tailwindcss.com/docs/transition-property) |
-| `transition_shadow` | [transition-shadow](https://tailwindcss.com/docs/transition-property) |
-| `transition_transform` | [transition-transform](https://tailwindcss.com/docs/transition-property) |
-## Transition Duration
-
-Utilities for controlling the duration of CSS transitions.
-
-### Group
-
-| TailwindJS token |
-| ----- |
-| `transition_duration` |
 
 ### Utilities
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `duration_0` | [duration-0](https://tailwindcss.com/docs/transition-duration) |
-| `duration_75` | [duration-75](https://tailwindcss.com/docs/transition-duration) |
-| `duration_100` | [duration-100](https://tailwindcss.com/docs/transition-duration) |
-| `duration_150` | [duration-150](https://tailwindcss.com/docs/transition-duration) |
-| `duration_200` | [duration-200](https://tailwindcss.com/docs/transition-duration) |
-| `duration_300` | [duration-300](https://tailwindcss.com/docs/transition-duration) |
-| `duration_500` | [duration-500](https://tailwindcss.com/docs/transition-duration) |
-| `duration_700` | [duration-700](https://tailwindcss.com/docs/transition-duration) |
-| `duration_1000` | [duration-1000](https://tailwindcss.com/docs/transition-duration) |
+| `transition` | [transition](transition_property) |
+| `transition_all` | [transition-all](transition_property) |
+| `transition_colors` | [transition-colors](transition_property) |
+| `transition_none` | [transition-none](transition_property) |
+| `transition_opacity` | [transition-opacity](transition_property) |
+| `transition_shadow` | [transition-shadow](transition_property) |
+| `transition_transform` | [transition-transform](transition_property) |
+
+
+
+### Arbitraries
+
+| TailwindJS token | TailwindCSS token |
+| ----- | ----- |
+| `transition` | [transition](https://tailwindcss.com/docs/transition-property#arbitrary-values) |
+
+
+
 ## Transition Timing Function
 
 Utilities for controlling the easing of CSS transitions.
@@ -62,53 +154,23 @@ Utilities for controlling the easing of CSS transitions.
 | ----- |
 | `transition_timing_function` |
 
-### Utilities
-
-| TailwindJS token | TailwindCSS token |
-| ----- | ----- |
-| `ease_linear` | [ease-linear](https://tailwindcss.com/docs/transition-timing-function) |
-| `ease_in` | [ease-in](https://tailwindcss.com/docs/transition-timing-function) |
-| `ease_out` | [ease-out](https://tailwindcss.com/docs/transition-timing-function) |
-| `ease_in_out` | [ease-in-out](https://tailwindcss.com/docs/transition-timing-function) |
-## Transition Delay
-
-Utilities for controlling the delay of CSS transitions.
-
-### Group
-
-| TailwindJS token |
-| ----- |
-| `transition_delay` |
 
 ### Utilities
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `delay_0` | [delay-0](https://tailwindcss.com/docs/transition-delay) |
-| `delay_75` | [delay-75](https://tailwindcss.com/docs/transition-delay) |
-| `delay_100` | [delay-100](https://tailwindcss.com/docs/transition-delay) |
-| `delay_150` | [delay-150](https://tailwindcss.com/docs/transition-delay) |
-| `delay_200` | [delay-200](https://tailwindcss.com/docs/transition-delay) |
-| `delay_300` | [delay-300](https://tailwindcss.com/docs/transition-delay) |
-| `delay_500` | [delay-500](https://tailwindcss.com/docs/transition-delay) |
-| `delay_700` | [delay-700](https://tailwindcss.com/docs/transition-delay) |
-| `delay_1000` | [delay-1000](https://tailwindcss.com/docs/transition-delay) |
-## Animation
+| `ease_in` | [ease-in](transition_timing_function) |
+| `ease_in_out` | [ease-in-out](transition_timing_function) |
+| `ease_linear` | [ease-linear](transition_timing_function) |
+| `ease_out` | [ease-out](transition_timing_function) |
 
-Utilities for animating elements with CSS animations.
 
-### Group
 
-| TailwindJS token |
-| ----- |
-| `animation` |
-
-### Utilities
+### Arbitraries
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `animate_none` | [animate-none](https://tailwindcss.com/docs/animation) |
-| `animate_spin` | [animate-spin](https://tailwindcss.com/docs/animation) |
-| `animate_ping` | [animate-ping](https://tailwindcss.com/docs/animation) |
-| `animate_pulse` | [animate-pulse](https://tailwindcss.com/docs/animation) |
-| `animate_bounce` | [animate-bounce](https://tailwindcss.com/docs/animation) |
+| `ease` | [ease](https://tailwindcss.com/docs/transition-timing-function#arbitrary-values) |
+| `ease_in` | [ease-in](https://tailwindcss.com/docs/transition-timing-function#arbitrary-values) |
+
+

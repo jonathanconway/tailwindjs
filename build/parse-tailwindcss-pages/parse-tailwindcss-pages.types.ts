@@ -14,20 +14,24 @@ export interface UtilityGroup {
   readonly title: string;
   readonly tailwindCssUrl: string;
   readonly description: string;
-  readonly primitives: readonly UtilityPrimitive[];
-  readonly arbitraries: readonly UtilityGroupArbitrary[];
+  readonly utilities: readonly Utility[];
+  readonly arbitraries: readonly UtilityArbitrary[];
 }
 
-export interface UtilityGroupArbitrary {
+export interface UtilityArbitrary {
   readonly name: string;
-  readonly tailwindCssName: string;
   readonly description: string;
+  readonly tailwindCssName: string;
   readonly tailwindCssUrl: string;
 }
 
-export interface UtilityPrimitive {
+export interface Primitive {
   readonly name: string;
   readonly tailwindCssName: string;
+  readonly tailwindCssUrl: string;
+}
+
+export interface Utility extends Primitive {
   readonly cssProperties: readonly string[];
 }
 
@@ -35,13 +39,14 @@ export interface ModifierGroup {
   readonly name: string;
   readonly tailwindCssUrl: string;
   readonly modifiers: readonly Modifier[];
+  readonly arbitraries: readonly ModifierArbitrary[];
 }
 
-export interface Modifier {
-  readonly name: string;
-  readonly tailwindCssName: string;
+export interface Modifier extends Primitive {
   readonly cssCode: string;
   readonly description: string;
-  readonly tailwindCssUrl: string;
-  readonly arbitrary: boolean;
+}
+
+export interface ModifierArbitrary extends Primitive {
+  readonly description: string;
 }

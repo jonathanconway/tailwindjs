@@ -1,182 +1,199 @@
+
+
 /**
  * order-1
  *
  * CSS:
  * - `order: 1;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_1 = "order-1";
+
 
 /**
  * order-2
  *
  * CSS:
  * - `order: 2;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_2 = "order-2";
+
 
 /**
  * order-3
  *
  * CSS:
  * - `order: 3;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_3 = "order-3";
+
 
 /**
  * order-4
  *
  * CSS:
  * - `order: 4;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_4 = "order-4";
+
 
 /**
  * order-5
  *
  * CSS:
  * - `order: 5;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_5 = "order-5";
+
 
 /**
  * order-6
  *
  * CSS:
  * - `order: 6;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_6 = "order-6";
+
 
 /**
  * order-7
  *
  * CSS:
  * - `order: 7;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_7 = "order-7";
+
 
 /**
  * order-8
  *
  * CSS:
  * - `order: 8;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_8 = "order-8";
+
 
 /**
  * order-9
  *
  * CSS:
  * - `order: 9;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_9 = "order-9";
+
 
 /**
  * order-10
  *
  * CSS:
  * - `order: 10;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_10 = "order-10";
+
 
 /**
  * order-11
  *
  * CSS:
  * - `order: 11;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_11 = "order-11";
+
 
 /**
  * order-12
  *
  * CSS:
  * - `order: 12;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_12 = "order-12";
+
 
 /**
  * order-first
  *
  * CSS:
  * - `order: -9999;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_first = "order-first";
+
 
 /**
  * order-last
  *
  * CSS:
  * - `order: 9999;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_last = "order-last";
+
 
 /**
  * order-none
  *
  * CSS:
  * - `order: 0;`
- *
- * @see https://tailwindcss.com/docs/order
- *
- * @type utility
- */
+  *
+  * @see order
+  *
+  * @type utility
+  */
 export const order_none = "order-none";
+
 
 /**
  * order-[{value}]
@@ -188,6 +205,19 @@ export const order_none = "order-none";
  * @type utility
  */
 export const order_arbitrary = (value: string) => `order-[${value}]`;
+
+
+/**
+ * order-[{value}]
+ *
+ * If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/order#arbitrary-values
+ *
+ * @type utility
+ */
+export const order_arb = (value: string) => `order-[${value}]`;
+
 
 /**
  * Order
@@ -214,3 +244,4 @@ export const order_utilities = {
   order_none,
   order_arbitrary
 };
+

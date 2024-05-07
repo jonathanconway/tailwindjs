@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const empty = (suffix: string) => `empty:${suffix}`;
- 
+
+

@@ -1,26 +1,31 @@
+
+
 /**
  * box-decoration-clone
  *
  * CSS:
  * - `box-decoration-break: clone;`
- *
- * @see https://tailwindcss.com/docs/box-decoration-break
- *
- * @type utility
- */
+  *
+  * @see box_decoration_break
+  *
+  * @type utility
+  */
 export const box_decoration_clone = "box-decoration-clone";
+
 
 /**
  * box-decoration-slice
  *
  * CSS:
  * - `box-decoration-break: slice;`
- *
- * @see https://tailwindcss.com/docs/box-decoration-break
- *
- * @type utility
- */
+  *
+  * @see box_decoration_break
+  *
+  * @type utility
+  */
 export const box_decoration_slice = "box-decoration-slice";
+
+
 
 /**
  * Box Decoration Break
@@ -33,3 +38,4 @@ export const box_decoration_break_utilities = {
   box_decoration_clone,
   box_decoration_slice
 };
+

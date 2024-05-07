@@ -1,14 +1,17 @@
+
+
 /**
  * transition-none
  *
  * CSS:
  * - `transition-property: none;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition_none = "transition-none";
+
 
 /**
  * transition-all
@@ -17,12 +20,13 @@ export const transition_none = "transition-none";
  * - `transition-property: all;`
  * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
  * - `transition-duration: 150ms;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition_all = "transition-all";
+
 
 /**
  * transition
@@ -31,12 +35,13 @@ export const transition_all = "transition-all";
  * - `transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;`
  * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
  * - `transition-duration: 150ms;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition = "transition";
+
 
 /**
  * transition-colors
@@ -45,12 +50,13 @@ export const transition = "transition";
  * - `transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;`
  * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
  * - `transition-duration: 150ms;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition_colors = "transition-colors";
+
 
 /**
  * transition-opacity
@@ -59,12 +65,13 @@ export const transition_colors = "transition-colors";
  * - `transition-property: opacity;`
  * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
  * - `transition-duration: 150ms;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition_opacity = "transition-opacity";
+
 
 /**
  * transition-shadow
@@ -73,12 +80,13 @@ export const transition_opacity = "transition-opacity";
  * - `transition-property: box-shadow;`
  * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
  * - `transition-duration: 150ms;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition_shadow = "transition-shadow";
+
 
 /**
  * transition-transform
@@ -87,12 +95,13 @@ export const transition_shadow = "transition-shadow";
  * - `transition-property: transform;`
  * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
  * - `transition-duration: 150ms;`
- *
- * @see https://tailwindcss.com/docs/transition-property
- *
- * @type utility
- */
+  *
+  * @see transition_property
+  *
+  * @type utility
+  */
 export const transition_transform = "transition-transform";
+
 
 /**
  * transition-[{value}]
@@ -104,6 +113,19 @@ export const transition_transform = "transition-transform";
  * @type utility
  */
 export const transition_arbitrary = (value: string) => `transition-[${value}]`;
+
+
+/**
+ * transition-[{value}]
+ *
+ * If you need to use a one-off transition-property value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/transition-property#arbitrary-values
+ *
+ * @type utility
+ */
+export const transition_arb = (value: string) => `transition-[${value}]`;
+
 
 /**
  * Transition Property
@@ -122,3 +144,4 @@ export const transition_property_utilities = {
   transition_transform,
   transition_arbitrary
 };
+

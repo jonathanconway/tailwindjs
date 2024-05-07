@@ -1,3 +1,5 @@
+
+
 /**
  * container
  *
@@ -8,12 +10,14 @@
  * - `max-width: 1024px; \/* Breakpoint: lg (1024px) *\/`
  * - `max-width: 1280px; \/* Breakpoint: xl (1280px) *\/`
  * - `max-width: 1536px; \/* Breakpoint: 2xl (1536px) *\/`
- *
- * @see https://tailwindcss.com/docs/container
- *
- * @type utility
- */
+  *
+  * @see container
+  *
+  * @type utility
+  */
 export const container = "container";
+
+
 
 /**
  * Container
@@ -25,3 +29,4 @@ export const container = "container";
 export const container_utilities = {
   container
 };
+

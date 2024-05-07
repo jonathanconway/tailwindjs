@@ -1,15 +1,18 @@
+
+
 /**
  * antialiased
  *
  * CSS:
  * - `-webkit-font-smoothing: antialiased;`
  * - `-moz-osx-font-smoothing: grayscale;`
- *
- * @see https://tailwindcss.com/docs/font-smoothing
- *
- * @type utility
- */
+  *
+  * @see font_smoothing
+  *
+  * @type utility
+  */
 export const antialiased = "antialiased";
+
 
 /**
  * subpixel-antialiased
@@ -17,12 +20,14 @@ export const antialiased = "antialiased";
  * CSS:
  * - `-webkit-font-smoothing: auto;`
  * - `-moz-osx-font-smoothing: auto;`
- *
- * @see https://tailwindcss.com/docs/font-smoothing
- *
- * @type utility
- */
+  *
+  * @see font_smoothing
+  *
+  * @type utility
+  */
 export const subpixel_antialiased = "subpixel-antialiased";
+
+
 
 /**
  * Font Smoothing
@@ -35,3 +40,4 @@ export const font_smoothing_utilities = {
   antialiased,
   subpixel_antialiased
 };
+

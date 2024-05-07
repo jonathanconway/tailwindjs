@@ -1,62 +1,70 @@
+
+
 /**
  * float-start
  *
  * CSS:
  * - `float: inline-start;`
- *
- * @see https://tailwindcss.com/docs/float
- *
- * @type utility
- */
+  *
+  * @see floats
+  *
+  * @type utility
+  */
 export const float_start = "float-start";
+
 
 /**
  * float-end
  *
  * CSS:
  * - `float: inline-end;`
- *
- * @see https://tailwindcss.com/docs/float
- *
- * @type utility
- */
+  *
+  * @see floats
+  *
+  * @type utility
+  */
 export const float_end = "float-end";
+
 
 /**
  * float-right
  *
  * CSS:
  * - `float: right;`
- *
- * @see https://tailwindcss.com/docs/float
- *
- * @type utility
- */
+  *
+  * @see floats
+  *
+  * @type utility
+  */
 export const float_right = "float-right";
+
 
 /**
  * float-left
  *
  * CSS:
  * - `float: left;`
- *
- * @see https://tailwindcss.com/docs/float
- *
- * @type utility
- */
+  *
+  * @see floats
+  *
+  * @type utility
+  */
 export const float_left = "float-left";
+
 
 /**
  * float-none
  *
  * CSS:
  * - `float: none;`
- *
- * @see https://tailwindcss.com/docs/float
- *
- * @type utility
- */
+  *
+  * @see floats
+  *
+  * @type utility
+  */
 export const float_none = "float-none";
+
+
 
 /**
  * Floats
@@ -72,3 +80,4 @@ export const floats_utilities = {
   float_left,
   float_none
 };
+

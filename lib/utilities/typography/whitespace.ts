@@ -1,74 +1,83 @@
+
+
 /**
  * whitespace-normal
  *
  * CSS:
  * - `white-space: normal;`
- *
- * @see https://tailwindcss.com/docs/whitespace
- *
- * @type utility
- */
+  *
+  * @see whitespace
+  *
+  * @type utility
+  */
 export const whitespace_normal = "whitespace-normal";
+
 
 /**
  * whitespace-nowrap
  *
  * CSS:
  * - `white-space: nowrap;`
- *
- * @see https://tailwindcss.com/docs/whitespace
- *
- * @type utility
- */
+  *
+  * @see whitespace
+  *
+  * @type utility
+  */
 export const whitespace_nowrap = "whitespace-nowrap";
+
 
 /**
  * whitespace-pre
  *
  * CSS:
  * - `white-space: pre;`
- *
- * @see https://tailwindcss.com/docs/whitespace
- *
- * @type utility
- */
+  *
+  * @see whitespace
+  *
+  * @type utility
+  */
 export const whitespace_pre = "whitespace-pre";
+
 
 /**
  * whitespace-pre-line
  *
  * CSS:
  * - `white-space: pre-line;`
- *
- * @see https://tailwindcss.com/docs/whitespace
- *
- * @type utility
- */
+  *
+  * @see whitespace
+  *
+  * @type utility
+  */
 export const whitespace_pre_line = "whitespace-pre-line";
+
 
 /**
  * whitespace-pre-wrap
  *
  * CSS:
  * - `white-space: pre-wrap;`
- *
- * @see https://tailwindcss.com/docs/whitespace
- *
- * @type utility
- */
+  *
+  * @see whitespace
+  *
+  * @type utility
+  */
 export const whitespace_pre_wrap = "whitespace-pre-wrap";
+
 
 /**
  * whitespace-break-spaces
  *
  * CSS:
  * - `white-space: break-spaces;`
- *
- * @see https://tailwindcss.com/docs/whitespace
- *
- * @type utility
- */
+  *
+  * @see whitespace
+  *
+  * @type utility
+  */
 export const whitespace_break_spaces = "whitespace-break-spaces";
+
+
 
 /**
  * Whitespace
@@ -85,3 +94,4 @@ export const whitespace_utilities = {
   whitespace_pre_wrap,
   whitespace_break_spaces
 };
+

@@ -1,3 +1,5 @@
+
+
 /**
  * line-clamp-1
  *
@@ -6,12 +8,13 @@
  * - `display: -webkit-box;`
  * - `-webkit-box-orient: vertical;`
  * - `-webkit-line-clamp: 1;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_1 = "line-clamp-1";
+
 
 /**
  * line-clamp-2
@@ -21,12 +24,13 @@ export const line_clamp_1 = "line-clamp-1";
  * - `display: -webkit-box;`
  * - `-webkit-box-orient: vertical;`
  * - `-webkit-line-clamp: 2;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_2 = "line-clamp-2";
+
 
 /**
  * line-clamp-3
@@ -36,12 +40,13 @@ export const line_clamp_2 = "line-clamp-2";
  * - `display: -webkit-box;`
  * - `-webkit-box-orient: vertical;`
  * - `-webkit-line-clamp: 3;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_3 = "line-clamp-3";
+
 
 /**
  * line-clamp-4
@@ -51,12 +56,13 @@ export const line_clamp_3 = "line-clamp-3";
  * - `display: -webkit-box;`
  * - `-webkit-box-orient: vertical;`
  * - `-webkit-line-clamp: 4;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_4 = "line-clamp-4";
+
 
 /**
  * line-clamp-5
@@ -66,12 +72,13 @@ export const line_clamp_4 = "line-clamp-4";
  * - `display: -webkit-box;`
  * - `-webkit-box-orient: vertical;`
  * - `-webkit-line-clamp: 5;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_5 = "line-clamp-5";
+
 
 /**
  * line-clamp-6
@@ -81,12 +88,13 @@ export const line_clamp_5 = "line-clamp-5";
  * - `display: -webkit-box;`
  * - `-webkit-box-orient: vertical;`
  * - `-webkit-line-clamp: 6;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_6 = "line-clamp-6";
+
 
 /**
  * line-clamp-none
@@ -96,12 +104,13 @@ export const line_clamp_6 = "line-clamp-6";
  * - `display: block;`
  * - `-webkit-box-orient: horizontal;`
  * - `-webkit-line-clamp: none;`
- *
- * @see https://tailwindcss.com/docs/line-clamp
- *
- * @type utility
- */
+  *
+  * @see line_clamp
+  *
+  * @type utility
+  */
 export const line_clamp_none = "line-clamp-none";
+
 
 /**
  * line-clamp-[{value}]
@@ -113,6 +122,19 @@ export const line_clamp_none = "line-clamp-none";
  * @type utility
  */
 export const line_clamp_arbitrary = (value: string) => `line-clamp-[${value}]`;
+
+
+/**
+ * line-clamp-[{value}]
+ *
+ * If you need to use a one-off line-clamp value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/line-clamp#arbitrary-values
+ *
+ * @type utility
+ */
+export const line_clamp_arb = (value: string) => `line-clamp-[${value}]`;
+
 
 /**
  * Line Clamp
@@ -131,3 +153,4 @@ export const line_clamp_utilities = {
   line_clamp_none,
   line_clamp_arbitrary
 };
+

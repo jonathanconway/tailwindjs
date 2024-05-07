@@ -1,62 +1,70 @@
+
+
 /**
  * decoration-solid
  *
  * CSS:
  * - `text-decoration-style: solid;`
- *
- * @see https://tailwindcss.com/docs/text-decoration-style
- *
- * @type utility
- */
+  *
+  * @see text_decoration_style
+  *
+  * @type utility
+  */
 export const decoration_solid = "decoration-solid";
+
 
 /**
  * decoration-double
  *
  * CSS:
  * - `text-decoration-style: double;`
- *
- * @see https://tailwindcss.com/docs/text-decoration-style
- *
- * @type utility
- */
+  *
+  * @see text_decoration_style
+  *
+  * @type utility
+  */
 export const decoration_double = "decoration-double";
+
 
 /**
  * decoration-dotted
  *
  * CSS:
  * - `text-decoration-style: dotted;`
- *
- * @see https://tailwindcss.com/docs/text-decoration-style
- *
- * @type utility
- */
+  *
+  * @see text_decoration_style
+  *
+  * @type utility
+  */
 export const decoration_dotted = "decoration-dotted";
+
 
 /**
  * decoration-dashed
  *
  * CSS:
  * - `text-decoration-style: dashed;`
- *
- * @see https://tailwindcss.com/docs/text-decoration-style
- *
- * @type utility
- */
+  *
+  * @see text_decoration_style
+  *
+  * @type utility
+  */
 export const decoration_dashed = "decoration-dashed";
+
 
 /**
  * decoration-wavy
  *
  * CSS:
  * - `text-decoration-style: wavy;`
- *
- * @see https://tailwindcss.com/docs/text-decoration-style
- *
- * @type utility
- */
+  *
+  * @see text_decoration_style
+  *
+  * @type utility
+  */
 export const decoration_wavy = "decoration-wavy";
+
+
 
 /**
  * Text Decoration Style
@@ -72,3 +80,4 @@ export const text_decoration_style_utilities = {
   decoration_dashed,
   decoration_wavy
 };
+

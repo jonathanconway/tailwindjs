@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const checked = (suffix: string) => `checked:${suffix}`;
- 
+
+

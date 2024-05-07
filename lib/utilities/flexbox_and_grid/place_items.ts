@@ -1,62 +1,70 @@
+
+
 /**
  * place-items-start
  *
  * CSS:
  * - `place-items: start;`
- *
- * @see https://tailwindcss.com/docs/place-items
- *
- * @type utility
- */
+  *
+  * @see place_items
+  *
+  * @type utility
+  */
 export const place_items_start = "place-items-start";
+
 
 /**
  * place-items-end
  *
  * CSS:
  * - `place-items: end;`
- *
- * @see https://tailwindcss.com/docs/place-items
- *
- * @type utility
- */
+  *
+  * @see place_items
+  *
+  * @type utility
+  */
 export const place_items_end = "place-items-end";
+
 
 /**
  * place-items-center
  *
  * CSS:
  * - `place-items: center;`
- *
- * @see https://tailwindcss.com/docs/place-items
- *
- * @type utility
- */
+  *
+  * @see place_items
+  *
+  * @type utility
+  */
 export const place_items_center = "place-items-center";
+
 
 /**
  * place-items-baseline
  *
  * CSS:
  * - `place-items: baseline;`
- *
- * @see https://tailwindcss.com/docs/place-items
- *
- * @type utility
- */
+  *
+  * @see place_items
+  *
+  * @type utility
+  */
 export const place_items_baseline = "place-items-baseline";
+
 
 /**
  * place-items-stretch
  *
  * CSS:
  * - `place-items: stretch;`
- *
- * @see https://tailwindcss.com/docs/place-items
- *
- * @type utility
- */
+  *
+  * @see place_items
+  *
+  * @type utility
+  */
 export const place_items_stretch = "place-items-stretch";
+
+
 
 /**
  * Place Items
@@ -72,3 +80,4 @@ export const place_items_utilities = {
   place_items_baseline,
   place_items_stretch
 };
+

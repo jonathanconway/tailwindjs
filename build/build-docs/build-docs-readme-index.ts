@@ -1,28 +1,49 @@
 import { Definition } from "../parse-tailwindcss-pages";
-import { convertCodeNameToTitle } from "../utils";
+import { convertCodeNameToTitle, genMdLink } from "../utils";
+import "../utils/array.utils";
 import { interpolate } from "./interpolate";
 
 export function buildDocsReadmeIndex(definition: Definition) {
-  const readmeIndexUtilityAreasContent = definition.utilityAreas
-    .map((area) => `- [${area.title}](./docs/utilities/${area.name}.md)`)
-    .join("\n");
+  const readmeIndexContent = `
+${genDocsReadmeIndexUtilities(definition)}
 
+${genDocsReadmeIndexModifiers(definition)}
+`;
+
+  interpolate(`${__dirname}/../../README.md`, "api", readmeIndexContent);
+}
+
+function genDocsReadmeIndexModifiers(definition: Definition) {
   const readmeIndexModifierGroupsContent = definition.modifierGroups
+    .sortBy("name")
     .map(
       (group) =>
-        `- [${convertCodeNameToTitle(group.name)}](./docs/modifiers/${
-          group.name
-        }.md)`
+        `- ${genMdLink(group.name, `./docs/modifiers/${group.name}.md`)}`
+    )
+    .join("\n");
+
+  const readmeIndexContent = `
+### Modifiers
+
+${readmeIndexModifierGroupsContent}
+`;
+
+  return readmeIndexContent;
+}
+
+function genDocsReadmeIndexUtilities(definition: Definition) {
+  const readmeIndexUtilityAreasContent = definition.utilityAreas
+    .sortBy("name")
+    .map(
+      (area) => `- ${genMdLink(area.title, `./docs/utilities/${area.name}.md`)}`
     )
     .join("\n");
 
   const readmeIndexContent = `
 ### Utilities
-${readmeIndexUtilityAreasContent}
 
-### Modifiers
-${readmeIndexModifierGroupsContent}
+${readmeIndexUtilityAreasContent}
 `;
 
-  interpolate(`${__dirname}/../../README.md`, "api", readmeIndexContent);
+  return readmeIndexContent;
 }

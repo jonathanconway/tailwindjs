@@ -1,50 +1,57 @@
+
+
 /**
  * snap-start
  *
  * CSS:
  * - `scroll-snap-align: start;`
- *
- * @see https://tailwindcss.com/docs/scroll-snap-align
- *
- * @type utility
- */
+  *
+  * @see scroll_snap_align
+  *
+  * @type utility
+  */
 export const snap_start = "snap-start";
+
 
 /**
  * snap-end
  *
  * CSS:
  * - `scroll-snap-align: end;`
- *
- * @see https://tailwindcss.com/docs/scroll-snap-align
- *
- * @type utility
- */
+  *
+  * @see scroll_snap_align
+  *
+  * @type utility
+  */
 export const snap_end = "snap-end";
+
 
 /**
  * snap-center
  *
  * CSS:
  * - `scroll-snap-align: center;`
- *
- * @see https://tailwindcss.com/docs/scroll-snap-align
- *
- * @type utility
- */
+  *
+  * @see scroll_snap_align
+  *
+  * @type utility
+  */
 export const snap_center = "snap-center";
+
 
 /**
  * snap-align-none
  *
  * CSS:
  * - `scroll-snap-align: none;`
- *
- * @see https://tailwindcss.com/docs/scroll-snap-align
- *
- * @type utility
- */
+  *
+  * @see scroll_snap_align
+  *
+  * @type utility
+  */
 export const snap_align_none = "snap-align-none";
+
+
 
 /**
  * Scroll Snap Align
@@ -59,3 +66,4 @@ export const scroll_snap_align_utilities = {
   snap_center,
   snap_align_none
 };
+

@@ -1,9 +1,9 @@
 import { writeFileSync } from "fs";
 
-import { mkdirIfNotExistsSync } from "../dir.utils";
-import { genMdTable } from "../md-gen.utils";
 import { Definition, ModifierGroup } from "../parse-tailwindcss-pages";
 import { convertCodeNameToTitle } from "../utils";
+import { mkdirIfNotExistsSync } from "../utils/dir.utils";
+import { genMdBlock, genMdPrimitivesTable } from "../utils/md-gen.utils";
 
 const docsPath = `${__dirname}/../../docs`;
 const docsModifiersPath = `${docsPath}/modifiers`;
@@ -32,19 +32,20 @@ export function genDocsModifiersAreaGroup(group: ModifierGroup) {
   return `
 ## ${convertCodeNameToTitle(group.name)}
 
-### Modifiers
+${genDocsModifiersAreaGroupModifiersBlock(group)}
 
-${genDocsModifiersGroupPrimitives(group)}
+${genDocsModifiersAreaGroupArbitrariesBlock(group)}
 `.trim();
 }
 
-export function genDocsModifiersGroupPrimitives(group: ModifierGroup) {
-  const { modifiers } = group;
+function genDocsModifiersAreaGroupModifiersBlock(group: ModifierGroup) {
+  const modifiersCode = genMdPrimitivesTable(group.modifiers);
 
-  return genMdTable(
-    modifiers.map((modifier) => ({
-      "TailwindJS token": `\`${modifier.name}\``,
-      "TailwindCSS token": `[${modifier.tailwindCssName}](${group.tailwindCssUrl})`,
-    }))
-  );
+  return genMdBlock("Modifiers", modifiersCode);
+}
+
+function genDocsModifiersAreaGroupArbitrariesBlock(group: ModifierGroup) {
+  const arbitrariesCode = genMdPrimitivesTable(group.arbitraries);
+
+  return genMdBlock("Arbitraries", arbitrariesCode);
 }

@@ -1,5 +1,6 @@
 ## Focus visible
 
+
 ### Modifiers
 
 | TailwindJS token | TailwindCSS token |

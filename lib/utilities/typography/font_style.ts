@@ -1,26 +1,31 @@
+
+
 /**
  * italic
  *
  * CSS:
  * - `font-style: italic;`
- *
- * @see https://tailwindcss.com/docs/font-style
- *
- * @type utility
- */
+  *
+  * @see font_style
+  *
+  * @type utility
+  */
 export const italic = "italic";
+
 
 /**
  * not-italic
  *
  * CSS:
  * - `font-style: normal;`
- *
- * @see https://tailwindcss.com/docs/font-style
- *
- * @type utility
- */
+  *
+  * @see font_style
+  *
+  * @type utility
+  */
 export const not_italic = "not-italic";
+
+
 
 /**
  * Font Style
@@ -33,3 +38,4 @@ export const font_style_utilities = {
   italic,
   not_italic
 };
+

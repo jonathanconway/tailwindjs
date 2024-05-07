@@ -1,9 +1,7 @@
 import { Cheerio, load, Element, CheerioAPI } from "cheerio";
 import { Text } from "domhandler";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
 
 import * as pages from "../build-tailwindcss-pages/tailwindcss-pages";
-import { writeExportLineToIndex } from "../code-gen.utils";
 import {
   convertCodeNameToTitle,
   convertTailwindCssNameToCodeName,
@@ -13,10 +11,11 @@ import {
   Definition,
   UtilityArea,
   UtilityGroup,
-  UtilityGroupArbitrary,
-  UtilityPrimitive,
+  UtilityArbitrary,
+  Utility,
   ModifierGroup,
   Modifier,
+  ModifierArbitrary,
 } from "./parse-tailwindcss-pages.types";
 
 const utilityArbitraryNames = {};
@@ -38,8 +37,6 @@ function parseLibArea(areaName: string): UtilityArea {
     name: areaName,
     title: convertCodeNameToTitle(areaName),
     groups: Object.keys(pages[areaName])
-      // .slice(0, 1)
-      // .filter((key) => key === "container")
       .map((groupName) => parseLibGroup(areaName, groupName))
       .filter(Boolean),
   };
@@ -80,22 +77,26 @@ function parseLibGroup(
     return undefined;
   }
 
-  const buildPrimitives = {
-    regular: parseLibPrimitives,
-    container: parseLibPrimitivesContainer,
+  const buildUtilities = {
+    regular: parseLibUtilities,
+    container: parseLibUtilityContainer,
   };
 
   const name = groupName;
 
-  const primitives = buildPrimitives[classTableType](classTableRows, $);
+  const utilities = buildUtilities[classTableType](
+    groupName,
+    classTableRows,
+    $
+  );
 
-  const arbitraries = parseLibGroupArbitraries($, primitives, tailwindCssUrl);
+  const arbitraries = parseLibGroupArbitraries($, utilities, tailwindCssUrl);
 
   return {
     name,
     title,
     description,
-    primitives,
+    utilities,
     tailwindCssUrl,
     arbitraries,
   };
@@ -103,9 +104,9 @@ function parseLibGroup(
 
 function parseLibGroupArbitraries(
   $: CheerioAPI,
-  primitives: readonly UtilityPrimitive[],
+  utilities: readonly Utility[],
   tailwindCssGroupUrl: string
-): readonly UtilityGroupArbitrary[] {
+): readonly UtilityArbitrary[] {
   const arbitraryHeadingElement = $("#arbitrary-values");
   if (arbitraryHeadingElement.length === 0) {
     return [];
@@ -119,14 +120,12 @@ function parseLibGroupArbitraries(
 
   const description = nextP.text().toString();
 
-  const primitiveNames = primitives.map(
-    (primitive) => primitive.tailwindCssName
-  );
-  const primitivePrefixes = primitiveNames.map((name) =>
+  const utilityNames = utilities.map((utility) => utility.tailwindCssName);
+  const utilityPrefixes = utilityNames.map((name) =>
     name.split("-").slice(0, -1).join("-")
   );
 
-  const names = [...primitivePrefixes, nextCodeHighlightPrefix].filter((name) =>
+  const names = [...utilityPrefixes, nextCodeHighlightPrefix].filter((name) =>
     name.trim()
   );
 
@@ -152,14 +151,21 @@ function parseLibGroupArbitraries(
   return arbitraries;
 }
 
-function parseLibPrimitives(
+function parseLibUtilities(
+  tailwindCssUrl: string,
   classTableRows: Cheerio<Element>,
   $: CheerioAPI
-): readonly UtilityPrimitive[] {
-  return classTableRows.toArray().map((tr) => parseLibPrimitive(tr, $));
+): readonly Utility[] {
+  return classTableRows
+    .toArray()
+    .map((tr) => parseLibUtility(tailwindCssUrl, tr, $));
 }
 
-function parseLibPrimitive(tr: Element, $: CheerioAPI): UtilityPrimitive {
+function parseLibUtility(
+  tailwindCssUrl: string,
+  tr: Element,
+  $: CheerioAPI
+): Utility {
   const tds = tr.children as Element[];
 
   const tailwindCssName = (tds[0].children[0] as Text).data;
@@ -175,14 +181,16 @@ function parseLibPrimitive(tr: Element, $: CheerioAPI): UtilityPrimitive {
   return {
     name,
     tailwindCssName,
+    tailwindCssUrl,
     cssProperties,
   };
 }
 
-function parseLibPrimitivesContainer(
+function parseLibUtilityContainer(
+  tailwindCssUrl: string,
   classTableRows: Cheerio<Element>,
   $: CheerioAPI
-): readonly UtilityPrimitive[] {
+): readonly Utility[] {
   const name = "container";
   const tailwindCssName = name;
   const cssProperties = classTableRows.toArray().map((tr, index) => {
@@ -195,14 +203,17 @@ function parseLibPrimitivesContainer(
     return `${cssColText} /* Breakpoint: ${breakpointColText} */`;
   });
 
-  const containerPrimitive: UtilityPrimitive = {
+  const containerUtility: Utility = {
     name,
     tailwindCssName,
+    tailwindCssUrl,
     cssProperties,
   };
 
-  return [containerPrimitive];
+  return [containerUtility];
 }
+
+const arbitraryNames = {};
 
 function parseLibModifiers(): readonly ModifierGroup[] {
   const $ = load(pages.states.html);
@@ -211,11 +222,12 @@ function parseLibModifiers(): readonly ModifierGroup[] {
     .first()
     .find("table tbody tr");
 
-  const modifiers: Modifier[] = [];
-
-  const arbitraryNames = {};
+  const modifierGroups: ModifierGroup[] = [];
 
   for (const tr of trs.toArray()) {
+    const modifiers: Modifier[] = [];
+    const arbitraries: ModifierArbitrary[] = [];
+
     const tailwindCssNameCol = $(tr).find("td").eq(0);
     const tailwindCssName = tailwindCssNameCol.text();
 
@@ -230,53 +242,43 @@ function parseLibModifiers(): readonly ModifierGroup[] {
 
     const description = modifierSubHeading.next("p").text();
 
-    const arbitrary = name.includes("arbitrary") && !arbitraryNames[name];
-    if (arbitrary) {
+    const isArbitrary = tailwindCssName.includes("[…]");
+    if (isArbitrary) {
+      if (arbitraryNames[name]) {
+        continue;
+      }
+
       arbitraryNames[name] = true;
+
+      const arbitrary = {
+        name,
+        description,
+        tailwindCssName,
+        tailwindCssUrl,
+      };
+
+      arbitraries.push(arbitrary);
+    } else {
+      const modifier: Modifier = {
+        name,
+        cssCode,
+        description,
+        tailwindCssName,
+        tailwindCssUrl,
+      };
+
+      modifiers.push(modifier);
     }
 
-    const modifier: Modifier = {
+    const modifierGroup = {
+      modifiers,
+      arbitraries,
       name,
-      cssCode,
-      description,
-      tailwindCssName,
       tailwindCssUrl,
-      arbitrary,
     };
 
-    modifiers.push(modifier);
+    modifierGroups.push(modifierGroup);
   }
-
-  const modifiersByGroupName = {};
-  for (const modifier of modifiers) {
-    const groupName = convertTailwindCssNameToCodeName(
-      modifier.tailwindCssUrl.split("#")[1]
-    );
-    modifiersByGroupName[groupName] = modifiersByGroupName[groupName] ?? [];
-    modifiersByGroupName[groupName].push(modifier);
-  }
-
-  const modifiersAndGroupNames = Object.entries(
-    modifiersByGroupName
-  ) as readonly [string, Modifier[]][];
-
-  const modifierGroups: readonly ModifierGroup[] = modifiersAndGroupNames.map(
-    ([name, modifiers]) => ({
-      name,
-      modifiers,
-      tailwindCssUrl: modifiers[0].tailwindCssUrl,
-    })
-  );
 
   return modifierGroups;
 }
-
-// function uniq<T extends string | number | symbol>(
-//   array: readonly T[]
-// ): readonly T[] {
-//   const map: Partial<Record<T, {}>> = {};
-//   for (const item of array) {
-//     map[item] = {};
-//   }
-//   return Object.keys(map) as T[];
-// }

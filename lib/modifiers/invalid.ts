@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const invalid = (suffix: string) => `invalid:${suffix}`;
- 
+
+

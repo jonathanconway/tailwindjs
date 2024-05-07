@@ -1,38 +1,44 @@
+
+
 /**
  * flex-wrap
  *
  * CSS:
  * - `flex-wrap: wrap;`
- *
- * @see https://tailwindcss.com/docs/flex-wrap
- *
- * @type utility
- */
+  *
+  * @see flex_wrap
+  *
+  * @type utility
+  */
 export const flex_wrap = "flex-wrap";
+
 
 /**
  * flex-wrap-reverse
  *
  * CSS:
  * - `flex-wrap: wrap-reverse;`
- *
- * @see https://tailwindcss.com/docs/flex-wrap
- *
- * @type utility
- */
+  *
+  * @see flex_wrap
+  *
+  * @type utility
+  */
 export const flex_wrap_reverse = "flex-wrap-reverse";
+
 
 /**
  * flex-nowrap
  *
  * CSS:
  * - `flex-wrap: nowrap;`
- *
- * @see https://tailwindcss.com/docs/flex-wrap
- *
- * @type utility
- */
+  *
+  * @see flex_wrap
+  *
+  * @type utility
+  */
 export const flex_nowrap = "flex-nowrap";
+
+
 
 /**
  * Flex Wrap
@@ -46,3 +52,4 @@ export const flex_wrap_utilities = {
   flex_wrap_reverse,
   flex_nowrap
 };
+

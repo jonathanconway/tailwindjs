@@ -1,38 +1,44 @@
+
+
 /**
  * hyphens-none
  *
  * CSS:
  * - `hyphens: none;`
- *
- * @see https://tailwindcss.com/docs/hyphens
- *
- * @type utility
- */
+  *
+  * @see hyphens
+  *
+  * @type utility
+  */
 export const hyphens_none = "hyphens-none";
+
 
 /**
  * hyphens-manual
  *
  * CSS:
  * - `hyphens: manual;`
- *
- * @see https://tailwindcss.com/docs/hyphens
- *
- * @type utility
- */
+  *
+  * @see hyphens
+  *
+  * @type utility
+  */
 export const hyphens_manual = "hyphens-manual";
+
 
 /**
  * hyphens-auto
  *
  * CSS:
  * - `hyphens: auto;`
- *
- * @see https://tailwindcss.com/docs/hyphens
- *
- * @type utility
- */
+  *
+  * @see hyphens
+  *
+  * @type utility
+  */
 export const hyphens_auto = "hyphens-auto";
+
+
 
 /**
  * Hyphens
@@ -46,3 +52,4 @@ export const hyphens_utilities = {
   hyphens_manual,
   hyphens_auto
 };
+

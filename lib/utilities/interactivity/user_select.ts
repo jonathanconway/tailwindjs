@@ -1,50 +1,57 @@
+
+
 /**
  * select-none
  *
  * CSS:
  * - `user-select: none;`
- *
- * @see https://tailwindcss.com/docs/user-select
- *
- * @type utility
- */
+  *
+  * @see user_select
+  *
+  * @type utility
+  */
 export const select_none = "select-none";
+
 
 /**
  * select-text
  *
  * CSS:
  * - `user-select: text;`
- *
- * @see https://tailwindcss.com/docs/user-select
- *
- * @type utility
- */
+  *
+  * @see user_select
+  *
+  * @type utility
+  */
 export const select_text = "select-text";
+
 
 /**
  * select-all
  *
  * CSS:
  * - `user-select: all;`
- *
- * @see https://tailwindcss.com/docs/user-select
- *
- * @type utility
- */
+  *
+  * @see user_select
+  *
+  * @type utility
+  */
 export const select_all = "select-all";
+
 
 /**
  * select-auto
  *
  * CSS:
  * - `user-select: auto;`
- *
- * @see https://tailwindcss.com/docs/user-select
- *
- * @type utility
- */
+  *
+  * @see user_select
+  *
+  * @type utility
+  */
 export const select_auto = "select-auto";
+
+
 
 /**
  * User Select
@@ -59,3 +66,4 @@ export const user_select_utilities = {
   select_all,
   select_auto
 };
+

@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const indeterminate = (suffix: string) => `indeterminate:${suffix}`;
- 
+
+

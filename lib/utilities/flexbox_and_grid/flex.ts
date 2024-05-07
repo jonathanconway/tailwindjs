@@ -1,50 +1,56 @@
+
+
 /**
  * flex-1
  *
  * CSS:
  * - `flex: 1 1 0%;`
- *
- * @see https://tailwindcss.com/docs/flex
- *
- * @type utility
- */
+  *
+  * @see flex
+  *
+  * @type utility
+  */
 export const flex_1 = "flex-1";
+
 
 /**
  * flex-auto
  *
  * CSS:
  * - `flex: 1 1 auto;`
- *
- * @see https://tailwindcss.com/docs/flex
- *
- * @type utility
- */
+  *
+  * @see flex
+  *
+  * @type utility
+  */
 export const flex_auto = "flex-auto";
+
 
 /**
  * flex-initial
  *
  * CSS:
  * - `flex: 0 1 auto;`
- *
- * @see https://tailwindcss.com/docs/flex
- *
- * @type utility
- */
+  *
+  * @see flex
+  *
+  * @type utility
+  */
 export const flex_initial = "flex-initial";
+
 
 /**
  * flex-none
  *
  * CSS:
  * - `flex: none;`
- *
- * @see https://tailwindcss.com/docs/flex
- *
- * @type utility
- */
+  *
+  * @see flex
+  *
+  * @type utility
+  */
 export const flex_none = "flex-none";
+
 
 /**
  * flex-[{value}]
@@ -56,6 +62,19 @@ export const flex_none = "flex-none";
  * @type utility
  */
 export const flex_arbitrary = (value: string) => `flex-[${value}]`;
+
+
+/**
+ * flex-[{value}]
+ *
+ * If you need to use a one-off flex value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/flex#arbitrary-values
+ *
+ * @type utility
+ */
+export const flex_arb = (value: string) => `flex-[${value}]`;
+
 
 /**
  * Flex
@@ -71,3 +90,4 @@ export const flex_utilities = {
   flex_none,
   flex_arbitrary
 };
+

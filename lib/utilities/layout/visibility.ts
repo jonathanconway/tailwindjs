@@ -1,38 +1,44 @@
+
+
 /**
  * visible
  *
  * CSS:
  * - `visibility: visible;`
- *
- * @see https://tailwindcss.com/docs/visibility
- *
- * @type utility
- */
+  *
+  * @see visibility
+  *
+  * @type utility
+  */
 export const visible = "visible";
+
 
 /**
  * invisible
  *
  * CSS:
  * - `visibility: hidden;`
- *
- * @see https://tailwindcss.com/docs/visibility
- *
- * @type utility
- */
+  *
+  * @see visibility
+  *
+  * @type utility
+  */
 export const invisible = "invisible";
+
 
 /**
  * collapse
  *
  * CSS:
  * - `visibility: collapse;`
- *
- * @see https://tailwindcss.com/docs/visibility
- *
- * @type utility
- */
+  *
+  * @see visibility
+  *
+  * @type utility
+  */
 export const collapse = "collapse";
+
+
 
 /**
  * Visibility
@@ -46,3 +52,4 @@ export const visibility_utilities = {
   invisible,
   collapse
 };
+

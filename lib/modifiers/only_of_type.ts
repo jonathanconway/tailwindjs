@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const only_of_type = (suffix: string) => `only-of-type:${suffix}`;
- 
+
+

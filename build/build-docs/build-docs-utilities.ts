@@ -1,13 +1,19 @@
 import { writeFileSync } from "fs";
 
-import { mkdirIfNotExistsSync } from "../dir.utils";
-import { genMdTable } from "../md-gen.utils";
 import {
   Definition,
   UtilityArea,
   UtilityGroup,
 } from "../parse-tailwindcss-pages";
 import { convertTitleToMdLinkHashName } from "../utils";
+import "../utils/array.utils";
+import { mkdirIfNotExistsSync } from "../utils/dir.utils";
+import {
+  genMdLink,
+  genMdPrimitivesTable,
+  genMdTable,
+  genMdBlock,
+} from "../utils/md-gen.utils";
 
 const docsPath = `${__dirname}/../../docs`;
 const docsUtilitiesPath = `${docsPath}/utilities`;
@@ -24,27 +30,36 @@ export function buildDocsUtilities(definition: Definition) {
 }
 
 export function buildDocsUtilitiesArea(area: UtilityArea) {
-  const docsUtilitiesAreaContent = `
+  const content = `
 # ${area.title}
 
-${area.groups
-  .map(
-    (group) =>
-      `- [${group.title}](#${convertTitleToMdLinkHashName(group.title)})`
-  )
-  .join("\n")}
+${genDocsUtilitiesAreaIndex(area)}
+
 -----
 
-${area.groups.map(genDocsUtilitiesAreaGroup).join("\n")}
+${genDocsUtilitiesAreaGroups(area)}
 `;
 
-  writeFileSync(
-    `${docsUtilitiesPath}/${area.name}.md`,
-    docsUtilitiesAreaContent
-  );
+  writeDocsUtilitiesAreaFile(area, content);
 }
 
-export function genDocsUtilitiesAreaGroup(group: UtilityGroup) {
+function genDocsUtilitiesAreaIndex(area: UtilityArea) {
+  const areaGroupTitlesSorted = area.groups
+    .map((group) => group.title)
+    .sortBy();
+
+  const areaGroupTitlesSortedLinks = areaGroupTitlesSorted.map(
+    (title) => `- ${genMdLink(title, convertTitleToMdLinkHashName(title))}`
+  );
+
+  return areaGroupTitlesSortedLinks.join("\n");
+}
+
+function genDocsUtilitiesAreaGroups(area: UtilityArea) {
+  return area.groups.map(genDocsUtilitiesAreaGroup).sortBy().join("\n");
+}
+
+function genDocsUtilitiesAreaGroup(group: UtilityGroup) {
   return `
 ## ${group.title}
 
@@ -54,18 +69,20 @@ ${group.description}
 
 ${genMdTable([{ "TailwindJS token": `\`${group.name}\`` }])}
 
-### Utilities
+${genDocsUtilitiesAreaGroupUtilitiesBlock(group)}
 
-${genDocsUtilitiesAreaGroupPrimitives(group)}
-`.trim();
+${genDocsUtilitiesAreaGroupArbitrariesBlock(group)}
+`;
 }
 
-export function genDocsUtilitiesAreaGroupPrimitives(group: UtilityGroup) {
-  const { primitives } = group;
-  return genMdTable(
-    primitives.map((primitive) => ({
-      "TailwindJS token": `\`${primitive.name}\``,
-      "TailwindCSS token": `[${primitive.tailwindCssName}](${group.tailwindCssUrl})`,
-    }))
-  );
+function genDocsUtilitiesAreaGroupUtilitiesBlock(group: UtilityGroup) {
+  return genMdBlock("Utilities", genMdPrimitivesTable(group.utilities));
+}
+
+function genDocsUtilitiesAreaGroupArbitrariesBlock(group: UtilityGroup) {
+  return genMdBlock("Arbitraries", genMdPrimitivesTable(group.arbitraries));
+}
+
+function writeDocsUtilitiesAreaFile(area: UtilityArea, content: string) {
+  return writeFileSync(`${docsUtilitiesPath}/${area.name}.md`, content);
 }

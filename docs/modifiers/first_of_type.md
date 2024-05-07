@@ -1,5 +1,6 @@
 ## First of type
 
+
 ### Modifiers
 
 | TailwindJS token | TailwindCSS token |

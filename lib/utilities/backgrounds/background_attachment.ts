@@ -1,38 +1,44 @@
+
+
 /**
  * bg-fixed
  *
  * CSS:
  * - `background-attachment: fixed;`
- *
- * @see https://tailwindcss.com/docs/background-attachment
- *
- * @type utility
- */
+  *
+  * @see background_attachment
+  *
+  * @type utility
+  */
 export const bg_fixed = "bg-fixed";
+
 
 /**
  * bg-local
  *
  * CSS:
  * - `background-attachment: local;`
- *
- * @see https://tailwindcss.com/docs/background-attachment
- *
- * @type utility
- */
+  *
+  * @see background_attachment
+  *
+  * @type utility
+  */
 export const bg_local = "bg-local";
+
 
 /**
  * bg-scroll
  *
  * CSS:
  * - `background-attachment: scroll;`
- *
- * @see https://tailwindcss.com/docs/background-attachment
- *
- * @type utility
- */
+  *
+  * @see background_attachment
+  *
+  * @type utility
+  */
 export const bg_scroll = "bg-scroll";
+
+
 
 /**
  * Background Attachment
@@ -46,3 +52,4 @@ export const background_attachment_utilities = {
   bg_local,
   bg_scroll
 };
+

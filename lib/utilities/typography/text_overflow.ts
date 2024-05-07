@@ -1,3 +1,5 @@
+
+
 /**
  * truncate
  *
@@ -5,36 +7,40 @@
  * - `overflow: hidden;`
  * - `text-overflow: ellipsis;`
  * - `white-space: nowrap;`
- *
- * @see https://tailwindcss.com/docs/text-overflow
- *
- * @type utility
- */
+  *
+  * @see text_overflow
+  *
+  * @type utility
+  */
 export const truncate = "truncate";
+
 
 /**
  * text-ellipsis
  *
  * CSS:
  * - `text-overflow: ellipsis;`
- *
- * @see https://tailwindcss.com/docs/text-overflow
- *
- * @type utility
- */
+  *
+  * @see text_overflow
+  *
+  * @type utility
+  */
 export const text_ellipsis = "text-ellipsis";
+
 
 /**
  * text-clip
  *
  * CSS:
  * - `text-overflow: clip;`
- *
- * @see https://tailwindcss.com/docs/text-overflow
- *
- * @type utility
- */
+  *
+  * @see text_overflow
+  *
+  * @type utility
+  */
 export const text_clip = "text-clip";
+
+
 
 /**
  * Text Overflow
@@ -48,3 +54,4 @@ export const text_overflow_utilities = {
   text_ellipsis,
   text_clip
 };
+

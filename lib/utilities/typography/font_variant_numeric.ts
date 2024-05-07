@@ -1,110 +1,122 @@
+
+
 /**
  * normal-nums
  *
  * CSS:
  * - `font-variant-numeric: normal;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const normal_nums = "normal-nums";
+
 
 /**
  * ordinal
  *
  * CSS:
  * - `font-variant-numeric: ordinal;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const ordinal = "ordinal";
+
 
 /**
  * slashed-zero
  *
  * CSS:
  * - `font-variant-numeric: slashed-zero;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const slashed_zero = "slashed-zero";
+
 
 /**
  * lining-nums
  *
  * CSS:
  * - `font-variant-numeric: lining-nums;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const lining_nums = "lining-nums";
+
 
 /**
  * oldstyle-nums
  *
  * CSS:
  * - `font-variant-numeric: oldstyle-nums;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const oldstyle_nums = "oldstyle-nums";
+
 
 /**
  * proportional-nums
  *
  * CSS:
  * - `font-variant-numeric: proportional-nums;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const proportional_nums = "proportional-nums";
+
 
 /**
  * tabular-nums
  *
  * CSS:
  * - `font-variant-numeric: tabular-nums;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const tabular_nums = "tabular-nums";
+
 
 /**
  * diagonal-fractions
  *
  * CSS:
  * - `font-variant-numeric: diagonal-fractions;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const diagonal_fractions = "diagonal-fractions";
+
 
 /**
  * stacked-fractions
  *
  * CSS:
  * - `font-variant-numeric: stacked-fractions;`
- *
- * @see https://tailwindcss.com/docs/font-variant-numeric
- *
- * @type utility
- */
+  *
+  * @see font_variant_numeric
+  *
+  * @type utility
+  */
 export const stacked_fractions = "stacked-fractions";
+
+
 
 /**
  * Font Variant Numeric
@@ -124,3 +136,4 @@ export const font_variant_numeric_utilities = {
   diagonal_fractions,
   stacked_fractions
 };
+

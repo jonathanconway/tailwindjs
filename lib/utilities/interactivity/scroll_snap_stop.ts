@@ -1,26 +1,31 @@
+
+
 /**
  * snap-normal
  *
  * CSS:
  * - `scroll-snap-stop: normal;`
- *
- * @see https://tailwindcss.com/docs/scroll-snap-stop
- *
- * @type utility
- */
+  *
+  * @see scroll_snap_stop
+  *
+  * @type utility
+  */
 export const snap_normal = "snap-normal";
+
 
 /**
  * snap-always
  *
  * CSS:
  * - `scroll-snap-stop: always;`
- *
- * @see https://tailwindcss.com/docs/scroll-snap-stop
- *
- * @type utility
- */
+  *
+  * @see scroll_snap_stop
+  *
+  * @type utility
+  */
 export const snap_always = "snap-always";
+
+
 
 /**
  * Scroll Snap Stop
@@ -33,3 +38,4 @@ export const scroll_snap_stop_utilities = {
   snap_normal,
   snap_always
 };
+

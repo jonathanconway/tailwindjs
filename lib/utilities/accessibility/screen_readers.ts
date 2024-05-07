@@ -1,3 +1,5 @@
+
+
 /**
  * sr-only
  *
@@ -11,12 +13,13 @@
  * - `clip: rect(0, 0, 0, 0);`
  * - `white-space: nowrap;`
  * - `border-width: 0;`
- *
- * @see https://tailwindcss.com/docs/screen-readers
- *
- * @type utility
- */
+  *
+  * @see screen_readers
+  *
+  * @type utility
+  */
 export const sr_only = "sr-only";
+
 
 /**
  * not-sr-only
@@ -30,12 +33,14 @@ export const sr_only = "sr-only";
  * - `overflow: visible;`
  * - `clip: auto;`
  * - `white-space: normal;`
- *
- * @see https://tailwindcss.com/docs/screen-readers
- *
- * @type utility
- */
+  *
+  * @see screen_readers
+  *
+  * @type utility
+  */
 export const not_sr_only = "not-sr-only";
+
+
 
 /**
  * Screen Readers
@@ -48,3 +53,4 @@ export const screen_readers_utilities = {
   sr_only,
   not_sr_only
 };
+

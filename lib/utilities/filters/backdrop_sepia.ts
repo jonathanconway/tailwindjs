@@ -1,26 +1,30 @@
+
+
 /**
  * backdrop-sepia-0
  *
  * CSS:
  * - `backdrop-filter: sepia(0);`
- *
- * @see https://tailwindcss.com/docs/backdrop-sepia
- *
- * @type utility
- */
+  *
+  * @see backdrop_sepia
+  *
+  * @type utility
+  */
 export const backdrop_sepia_0 = "backdrop-sepia-0";
+
 
 /**
  * backdrop-sepia
  *
  * CSS:
  * - `backdrop-filter: sepia(100%);`
- *
- * @see https://tailwindcss.com/docs/backdrop-sepia
- *
- * @type utility
- */
+  *
+  * @see backdrop_sepia
+  *
+  * @type utility
+  */
 export const backdrop_sepia = "backdrop-sepia";
+
 
 /**
  * backdrop-sepia-[{value}]
@@ -32,6 +36,19 @@ export const backdrop_sepia = "backdrop-sepia";
  * @type utility
  */
 export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-[${value}]`;
+
+
+/**
+ * backdrop-sepia-[{value}]
+ *
+ * If you need to use a one-off backdrop-sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/backdrop-sepia#arbitrary-values
+ *
+ * @type utility
+ */
+export const backdrop_sepia_arb = (value: string) => `backdrop-sepia-[${value}]`;
+
 
 /**
  * Backdrop Sepia
@@ -45,3 +62,4 @@ export const backdrop_sepia_utilities = {
   backdrop_sepia,
   backdrop_sepia_arbitrary
 };
+

@@ -14,4 +14,5 @@
  * @type modifier
  */
 export const selection = (suffix: string) => `selection:${suffix}`;
- 
+
+

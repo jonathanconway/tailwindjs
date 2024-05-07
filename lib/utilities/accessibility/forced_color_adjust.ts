@@ -1,26 +1,31 @@
+
+
 /**
  * forced-color-adjust-auto
  *
  * CSS:
  * - `forced-color-adjust: auto;`
- *
- * @see https://tailwindcss.com/docs/forced-color-adjust
- *
- * @type utility
- */
+  *
+  * @see forced_color_adjust
+  *
+  * @type utility
+  */
 export const forced_color_adjust_auto = "forced-color-adjust-auto";
+
 
 /**
  * forced-color-adjust-none
  *
  * CSS:
  * - `forced-color-adjust: none;`
- *
- * @see https://tailwindcss.com/docs/forced-color-adjust
- *
- * @type utility
- */
+  *
+  * @see forced_color_adjust
+  *
+  * @type utility
+  */
 export const forced_color_adjust_none = "forced-color-adjust-none";
+
+
 
 /**
  * Forced Color Adjust
@@ -33,3 +38,4 @@ export const forced_color_adjust_utilities = {
   forced_color_adjust_auto,
   forced_color_adjust_none
 };
+

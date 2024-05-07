@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const first = (suffix: string) => `first:${suffix}`;
- 
+
+

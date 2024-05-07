@@ -1,26 +1,31 @@
+
+
 /**
  * isolate
  *
  * CSS:
  * - `isolation: isolate;`
- *
- * @see https://tailwindcss.com/docs/isolation
- *
- * @type utility
- */
+  *
+  * @see isolation
+  *
+  * @type utility
+  */
 export const isolate = "isolate";
+
 
 /**
  * isolation-auto
  *
  * CSS:
  * - `isolation: auto;`
- *
- * @see https://tailwindcss.com/docs/isolation
- *
- * @type utility
- */
+  *
+  * @see isolation
+  *
+  * @type utility
+  */
 export const isolation_auto = "isolation-auto";
+
+
 
 /**
  * Isolation
@@ -33,3 +38,4 @@ export const isolation_utilities = {
   isolate,
   isolation_auto
 };
+

@@ -1,62 +1,70 @@
+
+
 /**
  * static
  *
  * CSS:
  * - `position: static;`
- *
- * @see https://tailwindcss.com/docs/position
- *
- * @type utility
- */
+  *
+  * @see position
+  *
+  * @type utility
+  */
 export const static_ = "static";
+
 
 /**
  * fixed
  *
  * CSS:
  * - `position: fixed;`
- *
- * @see https://tailwindcss.com/docs/position
- *
- * @type utility
- */
+  *
+  * @see position
+  *
+  * @type utility
+  */
 export const fixed = "fixed";
+
 
 /**
  * absolute
  *
  * CSS:
  * - `position: absolute;`
- *
- * @see https://tailwindcss.com/docs/position
- *
- * @type utility
- */
+  *
+  * @see position
+  *
+  * @type utility
+  */
 export const absolute = "absolute";
+
 
 /**
  * relative
  *
  * CSS:
  * - `position: relative;`
- *
- * @see https://tailwindcss.com/docs/position
- *
- * @type utility
- */
+  *
+  * @see position
+  *
+  * @type utility
+  */
 export const relative = "relative";
+
 
 /**
  * sticky
  *
  * CSS:
  * - `position: sticky;`
- *
- * @see https://tailwindcss.com/docs/position
- *
- * @type utility
- */
+  *
+  * @see position
+  *
+  * @type utility
+  */
 export const sticky = "sticky";
+
+
 
 /**
  * Position
@@ -72,3 +80,4 @@ export const position_utilities = {
   relative,
   sticky
 };
+

@@ -1,26 +1,30 @@
+
+
 /**
  * grayscale-0
  *
  * CSS:
  * - `filter: grayscale(0);`
- *
- * @see https://tailwindcss.com/docs/grayscale
- *
- * @type utility
- */
+  *
+  * @see grayscale
+  *
+  * @type utility
+  */
 export const grayscale_0 = "grayscale-0";
+
 
 /**
  * grayscale
  *
  * CSS:
  * - `filter: grayscale(100%);`
- *
- * @see https://tailwindcss.com/docs/grayscale
- *
- * @type utility
- */
+  *
+  * @see grayscale
+  *
+  * @type utility
+  */
 export const grayscale = "grayscale";
+
 
 /**
  * grayscale-[{value}]
@@ -32,6 +36,19 @@ export const grayscale = "grayscale";
  * @type utility
  */
 export const grayscale_arbitrary = (value: string) => `grayscale-[${value}]`;
+
+
+/**
+ * grayscale-[{value}]
+ *
+ * If you need to use a one-off grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/grayscale#arbitrary-values
+ *
+ * @type utility
+ */
+export const grayscale_arb = (value: string) => `grayscale-[${value}]`;
+
 
 /**
  * Grayscale
@@ -45,3 +62,4 @@ export const grayscale_utilities = {
   grayscale,
   grayscale_arbitrary
 };
+

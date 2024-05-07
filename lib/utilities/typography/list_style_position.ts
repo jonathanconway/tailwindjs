@@ -1,26 +1,31 @@
+
+
 /**
  * list-inside
  *
  * CSS:
  * - `list-style-position: inside;`
- *
- * @see https://tailwindcss.com/docs/list-style-position
- *
- * @type utility
- */
+  *
+  * @see list_style_position
+  *
+  * @type utility
+  */
 export const list_inside = "list-inside";
+
 
 /**
  * list-outside
  *
  * CSS:
  * - `list-style-position: outside;`
- *
- * @see https://tailwindcss.com/docs/list-style-position
- *
- * @type utility
- */
+  *
+  * @see list_style_position
+  *
+  * @type utility
+  */
 export const list_outside = "list-outside";
+
+
 
 /**
  * List Style Position
@@ -33,3 +38,4 @@ export const list_style_position_utilities = {
   list_inside,
   list_outside
 };
+

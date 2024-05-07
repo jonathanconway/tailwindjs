@@ -1,62 +1,70 @@
+
+
 /**
  * object-contain
  *
  * CSS:
  * - `object-fit: contain;`
- *
- * @see https://tailwindcss.com/docs/object-fit
- *
- * @type utility
- */
+  *
+  * @see object_fit
+  *
+  * @type utility
+  */
 export const object_contain = "object-contain";
+
 
 /**
  * object-cover
  *
  * CSS:
  * - `object-fit: cover;`
- *
- * @see https://tailwindcss.com/docs/object-fit
- *
- * @type utility
- */
+  *
+  * @see object_fit
+  *
+  * @type utility
+  */
 export const object_cover = "object-cover";
+
 
 /**
  * object-fill
  *
  * CSS:
  * - `object-fit: fill;`
- *
- * @see https://tailwindcss.com/docs/object-fit
- *
- * @type utility
- */
+  *
+  * @see object_fit
+  *
+  * @type utility
+  */
 export const object_fill = "object-fill";
+
 
 /**
  * object-none
  *
  * CSS:
  * - `object-fit: none;`
- *
- * @see https://tailwindcss.com/docs/object-fit
- *
- * @type utility
- */
+  *
+  * @see object_fit
+  *
+  * @type utility
+  */
 export const object_none = "object-none";
+
 
 /**
  * object-scale-down
  *
  * CSS:
  * - `object-fit: scale-down;`
- *
- * @see https://tailwindcss.com/docs/object-fit
- *
- * @type utility
- */
+  *
+  * @see object_fit
+  *
+  * @type utility
+  */
 export const object_scale_down = "object-scale-down";
+
+
 
 /**
  * Object Fit
@@ -72,3 +80,4 @@ export const object_fit_utilities = {
   object_none,
   object_scale_down
 };
+

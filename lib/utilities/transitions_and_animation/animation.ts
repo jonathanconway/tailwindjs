@@ -1,21 +1,24 @@
+
+
 /**
  * animate-none
  *
  * CSS:
  * - `animation: none;`
- *
- * @see https://tailwindcss.com/docs/animation
- *
- * @type utility
- */
+  *
+  * @see animation
+  *
+  * @type utility
+  */
 export const animate_none = "animate-none";
+
 
 /**
  * animate-spin
  *
  * CSS:
  * - `animation: spin 1s linear infinite;`
- * - `@keyframes spin {`
+ * - `\@keyframes spin {`
  * - `from {`
  * - `transform: rotate(0deg);`
  * - `}`
@@ -23,37 +26,39 @@ export const animate_none = "animate-none";
  * - `transform: rotate(360deg);`
  * - `}`
  * - `}`
- *
- * @see https://tailwindcss.com/docs/animation
- *
- * @type utility
- */
+  *
+  * @see animation
+  *
+  * @type utility
+  */
 export const animate_spin = "animate-spin";
+
 
 /**
  * animate-ping
  *
  * CSS:
  * - `animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;`
- * - `@keyframes ping {`
+ * - `\@keyframes ping {`
  * - `75%, 100% {`
  * - `transform: scale(2);`
  * - `opacity: 0;`
  * - `}`
  * - `}`
- *
- * @see https://tailwindcss.com/docs/animation
- *
- * @type utility
- */
+  *
+  * @see animation
+  *
+  * @type utility
+  */
 export const animate_ping = "animate-ping";
+
 
 /**
  * animate-pulse
  *
  * CSS:
  * - `animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;`
- * - `@keyframes pulse {`
+ * - `\@keyframes pulse {`
  * - `0%, 100% {`
  * - `opacity: 1;`
  * - `}`
@@ -61,19 +66,20 @@ export const animate_ping = "animate-ping";
  * - `opacity: .5;`
  * - `}`
  * - `}`
- *
- * @see https://tailwindcss.com/docs/animation
- *
- * @type utility
- */
+  *
+  * @see animation
+  *
+  * @type utility
+  */
 export const animate_pulse = "animate-pulse";
+
 
 /**
  * animate-bounce
  *
  * CSS:
  * - `animation: bounce 1s infinite;`
- * - `@keyframes bounce {`
+ * - `\@keyframes bounce {`
  * - `0%, 100% {`
  * - `transform: translateY(-25%);`
  * - `animation-timing-function: cubic-bezier(0.8, 0, 1, 1);`
@@ -83,12 +89,13 @@ export const animate_pulse = "animate-pulse";
  * - `animation-timing-function: cubic-bezier(0, 0, 0.2, 1);`
  * - `}`
  * - `}`
- *
- * @see https://tailwindcss.com/docs/animation
- *
- * @type utility
- */
+  *
+  * @see animation
+  *
+  * @type utility
+  */
 export const animate_bounce = "animate-bounce";
+
 
 /**
  * animate-[{value}]
@@ -100,6 +107,19 @@ export const animate_bounce = "animate-bounce";
  * @type utility
  */
 export const animate_arbitrary = (value: string) => `animate-[${value}]`;
+
+
+/**
+ * animate-[{value}]
+ *
+ * If you need to use a one-off animation value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
+ *
+ * @see https://tailwindcss.com/docs/animation#arbitrary-values
+ *
+ * @type utility
+ */
+export const animate_arb = (value: string) => `animate-[${value}]`;
+
 
 /**
  * Animation
@@ -116,3 +136,4 @@ export const animation_utilities = {
   animate_bounce,
   animate_arbitrary
 };
+

@@ -15,4 +15,5 @@
  * @type modifier
  */
 export const valid = (suffix: string) => `valid:${suffix}`;
- 
+
+

@@ -1,122 +1,135 @@
+
+
 /**
  * touch-auto
  *
  * CSS:
  * - `touch-action: auto;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_auto = "touch-auto";
+
 
 /**
  * touch-none
  *
  * CSS:
  * - `touch-action: none;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_none = "touch-none";
+
 
 /**
  * touch-pan-x
  *
  * CSS:
  * - `touch-action: pan-x;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pan_x = "touch-pan-x";
+
 
 /**
  * touch-pan-left
  *
  * CSS:
  * - `touch-action: pan-left;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pan_left = "touch-pan-left";
+
 
 /**
  * touch-pan-right
  *
  * CSS:
  * - `touch-action: pan-right;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pan_right = "touch-pan-right";
+
 
 /**
  * touch-pan-y
  *
  * CSS:
  * - `touch-action: pan-y;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pan_y = "touch-pan-y";
+
 
 /**
  * touch-pan-up
  *
  * CSS:
  * - `touch-action: pan-up;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pan_up = "touch-pan-up";
+
 
 /**
  * touch-pan-down
  *
  * CSS:
  * - `touch-action: pan-down;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pan_down = "touch-pan-down";
+
 
 /**
  * touch-pinch-zoom
  *
  * CSS:
  * - `touch-action: pinch-zoom;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_pinch_zoom = "touch-pinch-zoom";
+
 
 /**
  * touch-manipulation
  *
  * CSS:
  * - `touch-action: manipulation;`
- *
- * @see https://tailwindcss.com/docs/touch-action
- *
- * @type utility
- */
+  *
+  * @see touch_action
+  *
+  * @type utility
+  */
 export const touch_manipulation = "touch-manipulation";
+
+
 
 /**
  * Touch Action
@@ -137,3 +150,4 @@ export const touch_action_utilities = {
   touch_pinch_zoom,
   touch_manipulation
 };
+
