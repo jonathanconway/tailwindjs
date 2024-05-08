@@ -1,5 +1,5 @@
 import { Definition } from "../parse-tailwindcss-pages";
-import { convertCodeNameToTitle, genMdLink } from "../utils";
+import { genMdLink } from "../utils";
 import "../utils/array.utils";
 import { interpolate } from "./interpolate";
 

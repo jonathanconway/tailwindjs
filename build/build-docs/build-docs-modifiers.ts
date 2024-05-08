@@ -1,9 +1,12 @@
 import { writeFileSync } from "fs";
 
 import { Definition, ModifierGroup } from "../parse-tailwindcss-pages";
-import { convertCodeNameToTitle } from "../utils";
-import { mkdirIfNotExistsSync } from "../utils/dir.utils";
-import { genMdBlock, genMdPrimitivesTable } from "../utils/md-gen.utils";
+import {
+  convertCodeNameToTitle,
+  genMdBlock,
+  genMdPrimitivesTable,
+  mkdirIfNotExistsSync,
+} from "../utils";
 
 const docsPath = `${__dirname}/../../docs`;
 const docsModifiersPath = `${docsPath}/modifiers`;

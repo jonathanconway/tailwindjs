@@ -33,3 +33,17 @@ export function uniq<T extends string | number | symbol>(array: readonly T[]) {
   }
   return Object.keys(map) as T[];
 }
+
+declare global {
+  interface Array<T> {
+    uniq(this: T[]): T[];
+  }
+
+  interface ReadonlyArray<T> {
+    uniq(this: readonly T[]): readonly T[];
+  }
+}
+
+Array.prototype.uniq = function (this) {
+  return uniq(this);
+};

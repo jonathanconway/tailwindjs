@@ -1,9 +1,8 @@
 import { load } from "cheerio";
 import { Element, isText, Text } from "domhandler";
-import { existsSync, readFileSync, writeFileSync, mkdirSync } from "fs";
+import { existsSync, writeFileSync, mkdirSync } from "fs";
 
-import { convertTitleToCodeName } from "../utils";
-import { writeExportLineToIndex } from "../utils/code-gen.utils";
+import { convertTitleToCodeName, writeExportLineToIndex } from "../utils";
 
 export const TAILWIND_CSS_BASE_URL = "https://tailwindcss.com";
 

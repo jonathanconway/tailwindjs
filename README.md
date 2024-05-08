@@ -9,7 +9,9 @@
 - [API](#api)
 - [Contributing](#contributing)
 
-## Introduction
+## Getting started
+
+### Introduction
 
 [TailwindCSS](https://tailwindcss.com) is a CSS framework which allows you to fully style a front-end by applying powerful utility classes in your markup.
 
@@ -29,7 +31,7 @@ TailwindJS exposes:
 
 Additionally TailwindJS provides helpers for arbitrary and negative values and a basic `classNames` composer.
 
-## Installation
+### Installation
 
 NPM:
 
@@ -43,9 +45,102 @@ Yarn:
 yarn add @jonathanconway/tailwindjs
 ```
 
-## API
-<!-- insert api start -->
+### Preprocessor setup with class detection
 
+You may want to use TailwindCSS and TailwindJS as part of a build system such as Webpack or a framework including a build such as [NextJS](http://nextjs.org) or [React](http://reactjs.org).
+
+In that case you will need to somehow expose to Tailwind the list of classes your app code uses so that those classes can be included in the TailwindCSS build. (For further information, please see [Class detection in-depth](https://tailwindcss.com/docs/content-configuration#class-detection-in-depth) in the TailwindCSS docs.)
+
+TailwindJS provides a special utility function to help with this: `scanTailwindJSClasses`. If you call this function from your `tailwind.config.js` file, providing a code path and an optional output path and filename, TailwindJS will scan your code, generate the list, and save it to an output file. You then simply need to add this file to the `content` array in your TailwindCSS config object.
+
+Here's the full set of steps:
+
+1. Ensure TailwindJS and TailwindCSS are installed in your project as dependencies.
+2. Open `tailwind.config.js` in your editor/IDE.
+3. Add the following import to the top: `import { scanTailwindJSClasses } from "@jonathanconway/tailwindjs";`
+4. Add the following call after the imports but before the config object: `scanTailwindJSClasses(__dirname + "/src");`
+5. Add the following line to the `content` array in the config object: `"./src/tailwind-js-classes.json"`
+
+At the end your `tailwind.config.js` file should look something like this:
+
+```javascript
+
+```
+
+### Using utilities
+
+You can use TailwindJS utilities by referencing them directly.
+
+For example, in a React TSX or JSX file, you can have code like this:
+
+```tsx
+import { cn, rounded, bg_stone_500, text_sm } from "@jonathanconway/tailwindjs";
+
+export function Button({ children }) {
+  return (
+    <button className={cn(rounded, bg_stone_500, text_sm)}>{children}</button>
+  );
+}
+```
+
+This will produce markup like the following:
+
+```html
+<button class="rounded bg-stone-500 text-sm">Ok</button>
+```
+
+### Using modifiers
+
+You can use Tailwind modifiers by calling them as functions.
+
+For example, in a React TSX or JSX file, you can have code like this:
+
+```tsx
+import {
+  cn,
+  dark,
+  text_stone_950,
+  text_stone_50,
+} from "@jonathanconway/tailwindjs";
+
+export function Text({ children }) {
+  return (
+    <span className={cn(text_stone_950, dark(text_stone_50))}>{children}</span>
+  );
+}
+```
+
+This will produce markup like the following:
+
+```html
+<span class="text-stone-950 dark:text-stone-50">Ok</button>
+```
+
+Note: TailwindJS does not yet support any non-TailwindJS arguments, apart from string literals, being passed to modifiers. So we recommend only passing TailwindJS utilities or modifiers, or string literals, as arguments to TailwindJS modifiers. Part of the reason for this is that TailwindJS [class detection](#preprocessor-setup-with-class-detection) can only recognise TailwindJS utilities and functions.
+
+### Using aribtraries
+
+You can use Tailwind arbitrary values by calling them as functions, similar to modifiers.
+
+For example, in a React TSX or JSX file, you can have code like this:
+
+```tsx
+import { cn, size_arb } from "@jonathanconway/tailwindjs";
+
+export function Footnote({ children }) {
+  return <span className={cn(size_arb("0.95rem"))}>{children}</span>;
+}
+```
+
+This will produce markup like the following:
+
+```html
+<span class='size-["0.95rem"]'>Ok</button>
+```
+
+## API
+
+<!-- insert api start -->
 
 ### Utilities
 
@@ -65,11 +160,9 @@ yarn add @jonathanconway/tailwindjs
 - [Transitions and animation](./docs/utilities/transitions_and_animation.md)
 - [Typography](./docs/utilities/typography.md)
 
-
-
 ### Modifiers
 
-- [_2xl](./docs/modifiers/_2xl.md)
+- [\_2xl](./docs/modifiers/_2xl.md)
 - [active](./docs/modifiers/active.md)
 - [after](./docs/modifiers/after.md)
 - [all](./docs/modifiers/all.md)
@@ -90,7 +183,7 @@ yarn add @jonathanconway/tailwindjs
 - [contrast_more](./docs/modifiers/contrast_more.md)
 - [dark](./docs/modifiers/dark.md)
 - [data_arbitrary](./docs/modifiers/data_arbitrary.md)
-- [default_](./docs/modifiers/default_.md)
+- [default\_](./docs/modifiers/default_.md)
 - [disabled](./docs/modifiers/disabled.md)
 - [empty](./docs/modifiers/empty.md)
 - [enabled](./docs/modifiers/enabled.md)
@@ -144,14 +237,16 @@ yarn add @jonathanconway/tailwindjs
 - [visited](./docs/modifiers/visited.md)
 - [xl](./docs/modifiers/xl.md)
 
-
 <!-- insert api end -->
+
 ## Helpers
 
 - [Negative](./docs/helpers/negative.md)
 - [Class names](./docs/helpers/class-names.md)
 
 ## Contributing
+
+### Installation
 
 To get set up developing this library simple install the dependencies via NPM, run the following:
 
@@ -179,6 +274,12 @@ If you make any changes, to re-build the generated part of the docs, run the fol
 npm run build-docs
 npm run build
 ```
+
+### Versioning
+
+Currently TailwindJS is in Beta. Versions are formatted as 0.0._n_ where _n_ is incremented on each publish.
+
+At some point I plan to move the versions to align with TailwindCSS versions for major and minor (e.g. 3.4) and increment the patch for fixes / minor tweaks (e.g. 1, 2, 3...).
 
 ### Contributors ✨
 
