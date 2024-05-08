@@ -45,7 +45,7 @@ Yarn:
 yarn add @jonathanconway/tailwindjs
 ```
 
-### Preprocessor setup with class detection
+### Class detection
 
 You may want to use TailwindCSS and TailwindJS as part of a build system such as Webpack or a framework including a build such as [NextJS](http://nextjs.org) or [React](http://reactjs.org).
 
@@ -58,13 +58,21 @@ Here's the full set of steps:
 1. Ensure TailwindJS and TailwindCSS are installed in your project as dependencies.
 2. Open `tailwind.config.js` in your editor/IDE.
 3. Add the following import to the top: `import { scanTailwindJSClasses } from "@jonathanconway/tailwindjs";`
-4. Add the following call after the imports but before the config object: `scanTailwindJSClasses(__dirname + "/src");`
+4. Add the following call after the imports but before the config object: ` scanTailwindJSClasses(``${__dirname}/src``); `
 5. Add the following line to the `content` array in the config object: `"./src/tailwind-js-classes.json"`
 
 At the end your `tailwind.config.js` file should look something like this:
 
 ```javascript
+import { scanTailwindJSClasses } from "@jonathanconway/tailwindjs/build";
+import type { Config } from "tailwindcss";
 
+scanTailwindJSClasses(`${__dirname}/src`);
+
+module.exports = {
+  darkMode: "selector",
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}", "./src/tailwind-js-classes.json"],
+};
 ```
 
 ### Using utilities
@@ -116,7 +124,7 @@ This will produce markup like the following:
 <span class="text-stone-950 dark:text-stone-50">Ok</button>
 ```
 
-Note: TailwindJS does not yet support any non-TailwindJS arguments, apart from string literals, being passed to modifiers. So we recommend only passing TailwindJS utilities or modifiers, or string literals, as arguments to TailwindJS modifiers. Part of the reason for this is that TailwindJS [class detection](#preprocessor-setup-with-class-detection) can only recognise TailwindJS utilities and functions.
+Note: TailwindJS does not yet support any non-TailwindJS arguments, apart from string literals, being passed to modifiers. So we recommend only passing TailwindJS utilities or modifiers, or string literals, as arguments to TailwindJS modifiers. Part of the reason for this is that TailwindJS [class detection](#class-detection) can only recognise TailwindJS utilities and functions.
 
 ### Using aribtraries
 

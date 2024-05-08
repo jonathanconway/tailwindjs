@@ -1,6 +1,5 @@
-import { load } from "cheerio";
-import { Element, isText, Text } from "domhandler";
 import { existsSync, writeFileSync, mkdirSync } from "fs";
+import { JSDOM } from "jsdom";
 
 import { convertTitleToCodeName, writeExportLineToIndex } from "../utils";
 
@@ -45,19 +44,20 @@ export async function buildTailwindCSSPages() {
   const docsResponse = await fetch(TAILWIND_CSS_DOCS_URL);
   const docsHtml = await docsResponse.text();
 
-  const $ = load(docsHtml);
-  const h5s = Array.from($("h5"));
+  // JSDOM.from
+  const jsdom = new JSDOM(docsHtml);
+  const h5s = Array.from(jsdom.window.document.querySelectorAll("h5"));
   const h5sUtilityAreas = h5s.filter((h5) =>
-    UTILITY_AREAS.includes((h5.children[0] as any).data)
+    UTILITY_AREAS.includes(h5.textContent)
   );
+
+  for await (const h5UtilityArea of h5sUtilityAreas) {
+    await buildTailwindCSSUtilityAreaPages(h5UtilityArea);
+  }
 
   await buildTailwindCSSModifiersPage();
 
-  // await buildTailwindCSSDocsPage(docsHtml);
-
-  // for await (const h5UtilityArea of h5sUtilityAreas) {
-  //   await buildTailwindCSSUtilityAreaPages(h5UtilityArea);
-  // }
+  await buildTailwindCSSDocsPage(docsHtml);
 }
 
 async function buildTailwindCSSDocsPage(docsHtml: string) {
@@ -70,17 +70,15 @@ async function buildTailwindCSSDocsPage(docsHtml: string) {
   writeExportLineToIndex(`${__dirname}/tailwindcss-pages/index.ts`, "docs");
 }
 
-async function buildTailwindCSSUtilityAreaPages(h5UtilityArea: Element) {
-  const areaTextNode = h5UtilityArea.childNodes.find((childNode) =>
-    isText(childNode)
-  ) as Text;
-
-  const areaTitle = areaTextNode.data;
+async function buildTailwindCSSUtilityAreaPages(
+  h5UtilityArea: HTMLHeadingElement
+) {
+  const areaTitle = h5UtilityArea.textContent.trim();
   const areaName = convertTitleToCodeName(areaTitle);
 
-  const nextElement = h5UtilityArea.nextSibling as Element;
-  const nextElementName = nextElement.name;
-  if (nextElementName !== "ul") {
+  const nextElement = h5UtilityArea.nextSibling;
+  const nextElementName = (nextElement as HTMLElement).tagName;
+  if (nextElementName !== "UL") {
     throw new Error(
       `Expected next element after H5 to be UL. ${JSON.stringify({
         nextElementName,
@@ -89,12 +87,14 @@ async function buildTailwindCSSUtilityAreaPages(h5UtilityArea: Element) {
     );
   }
 
-  const groupItems = nextElement.children.map(
-    (childElement) => childElement as Element
+  const ul = nextElement as HTMLUListElement;
+
+  const groupItems = Array.from(ul.children).map(
+    (childElement) => childElement as HTMLLIElement
   );
 
   const groupItemLinks = groupItems.map(
-    (groupItem) => groupItem.children[0] as Element
+    (groupItem) => groupItem.children[0] as HTMLAnchorElement
   );
 
   for await (const groupItemLink of groupItemLinks) {
@@ -104,13 +104,11 @@ async function buildTailwindCSSUtilityAreaPages(h5UtilityArea: Element) {
 
 async function buildTailwindCSSGroupPage(
   areaName: string,
-  groupItemLink: Element
+  groupItemLink: HTMLAnchorElement
 ) {
-  const groupPagePath = groupItemLink.attribs["href"];
+  const groupPagePath = groupItemLink.attributes["href"].value;
   const groupPageUrl = `${TAILWIND_CSS_BASE_URL}${groupPagePath}`;
-  const groupCodeName = convertTitleToCodeName(
-    (groupItemLink.children[0] as Text).data.toString()
-  );
+  const groupCodeName = convertTitleToCodeName(groupItemLink.textContent);
 
   const areaFolderPathAndName = `${__dirname}/tailwindcss-pages/${areaName}`;
   if (!existsSync(areaFolderPathAndName)) {

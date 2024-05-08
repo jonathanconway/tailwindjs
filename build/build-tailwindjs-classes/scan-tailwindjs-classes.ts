@@ -1,25 +1,17 @@
 import { readdirSync, statSync, writeFileSync } from "fs";
 import { resolve } from "path";
 import {
-  Expression,
   JsxEmit,
-  Token,
-  TokenClass,
   createProgram,
   isImportDeclaration,
   isImportSpecifier,
   isNamedImports,
-  isToken,
   Node,
   SourceFile,
   isCallExpression,
-  ImportSpecifier,
   isIdentifier,
   CallExpression,
   isLiteralExpression,
-  isLiteralTypeNode,
-  isExpressionStatement,
-  isElementAccessExpression,
 } from "typescript";
 
 import * as tailwindjs from "../../lib";

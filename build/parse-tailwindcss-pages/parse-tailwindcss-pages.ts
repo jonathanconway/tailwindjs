@@ -1,5 +1,4 @@
-import { Cheerio, load, Element, CheerioAPI } from "cheerio";
-import { Text } from "domhandler";
+import { JSDOM } from "jsdom";
 
 import * as pages from "../build-tailwindcss-pages/tailwindcss-pages";
 import {
@@ -61,14 +60,19 @@ function parseLibGroup(
   groupName: string
 ): UtilityGroup | undefined {
   const page = pages[areaName][groupName];
-  const $ = load(page.html);
-  const title = $("#header h1").eq(0).text();
-  const description = $("#header p").eq(1).text();
+
+  const jsdom = new JSDOM(page.html);
+
+  const title = jsdom.window.document.querySelector("#header h1").textContent;
+  const description =
+    jsdom.window.document.querySelectorAll("#header p")[1].textContent;
   const tailwindCssUrl = page.url;
-  const classTableRows = $("#class-table tbody tr");
-  const classTableColNames = $("#class-table thead th div")
-    .toArray()
-    .map((div: Element) => (div.children[0] as Text)?.data?.toString());
+  const classTableRows = Array.from(
+    jsdom.window.document.querySelectorAll("#class-table tbody tr")
+  );
+  const classTableColNames = Array.from(
+    jsdom.window.document.querySelectorAll("#class-table thead th div")
+  ).map((div) => div.textContent);
 
   const classTableType = getLibGroupTableType(classTableColNames);
 
@@ -87,10 +91,14 @@ function parseLibGroup(
   const utilities = buildUtilities[classTableType](
     groupName,
     classTableRows,
-    $
+    jsdom
   );
 
-  const arbitraries = parseLibGroupArbitraries($, utilities, tailwindCssUrl);
+  const arbitraries = parseLibGroupArbitraries(
+    jsdom,
+    utilities,
+    tailwindCssUrl
+  );
 
   return {
     name,
@@ -103,22 +111,28 @@ function parseLibGroup(
 }
 
 function parseLibGroupArbitraries(
-  $: CheerioAPI,
+  jsdom: JSDOM,
   utilities: readonly Utility[],
   tailwindCssGroupUrl: string
 ): readonly UtilityArbitrary[] {
-  const arbitraryHeadingElement = $("#arbitrary-values");
-  if (arbitraryHeadingElement.length === 0) {
+  const arbitraryHeadingElement =
+    jsdom.window.document.querySelector("#arbitrary-values");
+  if (!arbitraryHeadingElement) {
     return [];
   }
 
-  const nextP = arbitraryHeadingElement.next("p");
+  const nextP = arbitraryHeadingElement.nextElementSibling; // p
 
-  const nextCode = arbitraryHeadingElement.next("code");
-  const nextCodeHighlight = nextCode.find("code-highlight").text().toString();
-  const nextCodeHighlightPrefix = nextCodeHighlight.split("-[")[0];
+  const nextCode = nextP.nextElementSibling; // pre
 
-  const description = nextP.text().toString();
+  const nextCodeHighlight =
+    nextCode.querySelector(".code-highlight").textContent;
+  const nextCodeHighlightPrefix = nextCodeHighlight
+    .split("-[")[0]
+    .split(":")
+    .slice(-1)[0];
+
+  const description = nextP.textContent;
 
   const utilityNames = utilities.map((utility) => utility.tailwindCssName);
   const utilityPrefixes = utilityNames.map((name) =>
@@ -153,27 +167,20 @@ function parseLibGroupArbitraries(
 
 function parseLibUtilities(
   tailwindCssUrl: string,
-  classTableRows: Cheerio<Element>,
-  $: CheerioAPI
+  classTableRows: readonly Element[],
+  jsdom: JSDOM
 ): readonly Utility[] {
-  return classTableRows
-    .toArray()
-    .map((tr) => parseLibUtility(tailwindCssUrl, tr, $));
+  return classTableRows.map((tr) => parseLibUtility(tailwindCssUrl, tr));
 }
 
-function parseLibUtility(
-  tailwindCssUrl: string,
-  tr: Element,
-  $: CheerioAPI
-): Utility {
-  const tds = tr.children as Element[];
+function parseLibUtility(tailwindCssUrl: string, tr: Element): Utility {
+  const tds = Array.from(tr.children);
 
-  const tailwindCssName = (tds[0].children[0] as Text).data;
+  const tailwindCssName = tds[0].childNodes[0].textContent;
 
   const name = convertTailwindCssNameToCodeName(tailwindCssName);
 
-  const cssProperties = $(tds[1])
-    .text()
+  const cssProperties = tds[1].textContent
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean);
@@ -188,17 +195,17 @@ function parseLibUtility(
 
 function parseLibUtilityContainer(
   tailwindCssUrl: string,
-  classTableRows: Cheerio<Element>,
-  $: CheerioAPI
+  classTableRows: readonly Element[],
+  jsdom: JSDOM
 ): readonly Utility[] {
   const name = "container";
   const tailwindCssName = name;
-  const cssProperties = classTableRows.toArray().map((tr, index) => {
+  const cssProperties = classTableRows.map((tr, index) => {
     const cssColIndex = index === 0 ? 2 : 1;
-    const cssColText = $(tr.children[cssColIndex]).text();
+    const cssColText = tr.children[cssColIndex].textContent;
 
     const breakpointColIndex = index === 0 ? 1 : 0;
-    const breakpointColText = $(tr.children[breakpointColIndex]).text();
+    const breakpointColText = tr.children[breakpointColIndex].textContent;
 
     return `${cssColText} /* Breakpoint: ${breakpointColText} */`;
   });
@@ -216,31 +223,44 @@ function parseLibUtilityContainer(
 const arbitraryNames = {};
 
 function parseLibModifiers(): readonly ModifierGroup[] {
-  const $ = load(pages.states.html);
-  const trs = $("h3#quick-reference")
-    .nextAll("div")
-    .first()
-    .find("table tbody tr");
+  const jsdom = new JSDOM(pages.states.html);
+  const quickReferenceH3 =
+    jsdom.window.document.querySelector("h3#quick-reference");
+  const nextP = quickReferenceH3.nextElementSibling;
+  const nextTable = nextP.nextElementSibling;
+  const nextTrs = Array.from(nextTable.querySelectorAll("tbody tr"));
 
   const modifierGroups: ModifierGroup[] = [];
 
-  for (const tr of trs.toArray()) {
+  for (const tr of nextTrs) {
     const modifiers: Modifier[] = [];
     const arbitraries: ModifierArbitrary[] = [];
 
-    const tailwindCssNameCol = $(tr).find("td").eq(0);
-    const tailwindCssName = tailwindCssNameCol.text();
+    const tds = Array.from(tr.querySelectorAll("td"));
 
-    const tailwindCssHashUrl = tailwindCssNameCol.find("a").attr("href");
+    const tailwindCssNameCol = tds[0];
+    const tailwindCssName = tailwindCssNameCol.textContent;
+
+    const tailwindCssHashUrl = ((hash: string) => {
+      switch (hash) {
+        case "#selection":
+          return "#highlighted-text";
+        case "#placeholder":
+          return "#placeholder-text";
+        default:
+          return hash;
+      }
+    })(tailwindCssNameCol.querySelector("a").attributes["href"].value);
 
     const name = convertTailwindCssNameToCodeName(tailwindCssName);
-    const cssCode = $(tr).find("td").eq(1).text();
+    const cssCode = tds[1].textContent;
 
-    const modifierSubHeading = $(tailwindCssHashUrl);
+    const modifierSubHeading =
+      jsdom.window.document.querySelector(tailwindCssHashUrl);
 
     const tailwindCssUrl = `${pages.states.url}${tailwindCssHashUrl}`;
 
-    const description = modifierSubHeading.next("p").text();
+    const description = modifierSubHeading.nextElementSibling.textContent;
 
     const isArbitrary = tailwindCssName.includes("[…]");
     if (isArbitrary) {

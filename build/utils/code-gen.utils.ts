@@ -58,7 +58,8 @@ export function convertTailwindCssNameToCodeName(input: string) {
     .replaceAll("%", "_pc")
     .replaceAll("[…]", "arbitrary")
     .replaceAll(":", "_")
-    .replaceAll("-", "_");
+    .replaceAll("-", "_")
+    .replaceAll(":", "_");
 
   while (input.endsWith("_")) {
     input = input = input.substring(0, input.length - 1);
