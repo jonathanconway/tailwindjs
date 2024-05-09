@@ -147,8 +147,8 @@ This will produce markup like the following:
 ```
 
 ## API
-
 <!-- insert api start -->
+
 
 ### Utilities
 
@@ -168,9 +168,11 @@ This will produce markup like the following:
 - [Transitions and animation](./docs/utilities/transitions_and_animation.md)
 - [Typography](./docs/utilities/typography.md)
 
+
+
 ### Modifiers
 
-- [\_2xl](./docs/modifiers/_2xl.md)
+- [_2xl](./docs/modifiers/_2xl.md)
 - [active](./docs/modifiers/active.md)
 - [after](./docs/modifiers/after.md)
 - [all](./docs/modifiers/all.md)
@@ -191,7 +193,7 @@ This will produce markup like the following:
 - [contrast_more](./docs/modifiers/contrast_more.md)
 - [dark](./docs/modifiers/dark.md)
 - [data_arbitrary](./docs/modifiers/data_arbitrary.md)
-- [default\_](./docs/modifiers/default_.md)
+- [default_](./docs/modifiers/default_.md)
 - [disabled](./docs/modifiers/disabled.md)
 - [empty](./docs/modifiers/empty.md)
 - [enabled](./docs/modifiers/enabled.md)
@@ -245,8 +247,8 @@ This will produce markup like the following:
 - [visited](./docs/modifiers/visited.md)
 - [xl](./docs/modifiers/xl.md)
 
-<!-- insert api end -->
 
+<!-- insert api end -->
 ## Helpers
 
 - [Negative](./docs/helpers/negative.md)

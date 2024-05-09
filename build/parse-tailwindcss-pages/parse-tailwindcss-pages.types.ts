@@ -20,7 +20,7 @@ export interface UtilityGroup {
 
 export interface UtilityArbitrary {
   readonly name: string;
-  readonly description: string;
+  readonly description?: string;
   readonly tailwindCssName: string;
   readonly tailwindCssUrl: string;
 }

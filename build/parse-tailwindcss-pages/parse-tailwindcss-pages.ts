@@ -1,9 +1,15 @@
 import { JSDOM } from "jsdom";
 
-import * as pages from "../build-tailwindcss-pages/tailwindcss-pages";
+import * as tailwindjsPages from "../build-tailwindcss-pages/tailwindcss-pages";
 import {
+  assertExists,
+  assertHasElements,
+  assertHasText,
+  assertTruthy,
+  assertType,
   convertCodeNameToTitle,
   convertTailwindCssNameToCodeName,
+  isNotNil,
   uniq,
 } from "../utils";
 import {
@@ -17,7 +23,34 @@ import {
   ModifierArbitrary,
 } from "./parse-tailwindcss-pages.types";
 
-const utilityArbitraryNames = {};
+type ImportedPagesModule = ImportedPage | ImportedPageGroup;
+
+type ImportedPagesMap = Record<string, ImportedPagesModule>;
+
+type ImportedPageGroup = Record<string, ImportedPage>;
+
+interface ImportedPage {
+  readonly url: string;
+  readonly html: string;
+}
+
+const pages: ImportedPagesMap = {
+  ...tailwindjsPages,
+};
+
+function isImportedPage(
+  pageOrGroup: ImportedPagesModule
+): pageOrGroup is ImportedPage {
+  return "url" in pageOrGroup && "html" in pageOrGroup;
+}
+
+function isImportedPageGroup(
+  pageOrGroup: ImportedPagesModule
+): pageOrGroup is ImportedPageGroup {
+  return !isImportedPage(pageOrGroup);
+}
+
+const utilityArbitraryNames: Record<string, true> = {};
 
 export function parseTailwindCssPages(): Definition {
   const areaNames = Object.keys(pages).filter(
@@ -37,7 +70,7 @@ function parseLibArea(areaName: string): UtilityArea {
     title: convertCodeNameToTitle(areaName),
     groups: Object.keys(pages[areaName])
       .map((groupName) => parseLibGroup(areaName, groupName))
-      .filter(Boolean),
+      .filter(isNotNil),
   };
 }
 
@@ -59,27 +92,49 @@ function parseLibGroup(
   areaName: string,
   groupName: string
 ): UtilityGroup | undefined {
-  const page = pages[areaName][groupName];
+  const group = pages[areaName];
+  assertType<ImportedPagesModule, ImportedPageGroup>(
+    group,
+    isImportedPageGroup,
+    "group"
+  );
+
+  const page = group[groupName];
 
   const jsdom = new JSDOM(page.html);
 
-  const title = jsdom.window.document.querySelector("#header h1").textContent;
-  const description =
-    jsdom.window.document.querySelectorAll("#header p")[1].textContent;
+  const titleElement = jsdom.window.document.querySelector("#header h1");
+  assertExists(titleElement, "title element", { titleElement });
+
+  const title = titleElement?.textContent;
+  assertHasText(title, "title element", { titleElement, title });
+
+  const descriptionElement =
+    jsdom.window.document.querySelectorAll("#header p")[1];
+  assertExists(descriptionElement, "description element", {
+    descriptionElement,
+  });
+  const description = descriptionElement?.textContent;
+  assertHasText(description, "description element", { descriptionElement });
+
   const tailwindCssUrl = page.url;
+
   const classTableRows = Array.from(
     jsdom.window.document.querySelectorAll("#class-table tbody tr")
   );
+
   const classTableColNames = Array.from(
     jsdom.window.document.querySelectorAll("#class-table thead th div")
-  ).map((div) => div.textContent);
+  )
+    .map((div) => div.textContent)
+    .filter(isNotNil);
 
   const classTableType = getLibGroupTableType(classTableColNames);
-
-  if (!classTableType) {
-    console.log(`Unrecognised table type for ${areaName}, ${groupName}`);
-    return undefined;
-  }
+  assertTruthy(classTableType, "Unrecognised table type.", {
+    areaName,
+    groupName,
+    classTableColNames,
+  });
 
   const buildUtilities = {
     regular: parseLibUtilities,
@@ -122,17 +177,27 @@ function parseLibGroupArbitraries(
   }
 
   const nextP = arbitraryHeadingElement.nextElementSibling; // p
+  assertExists(nextP, "arbitrary description element", { nextP });
 
   const nextCode = nextP.nextElementSibling; // pre
+  assertExists(nextCode, "arbitrary code sample", { nextCode });
 
-  const nextCodeHighlight =
-    nextCode.querySelector(".code-highlight").textContent;
+  const nextCodeHighlightElement = nextCode.querySelector(".code-highlight");
+  assertExists(nextCodeHighlightElement, "arbitrary code sample highlight", {
+    nextCodeHighlightElement,
+  });
+
+  const nextCodeHighlight = nextCodeHighlightElement?.textContent;
+  assertHasText(nextCodeHighlight, "arbitrary code sample highlight", {
+    nextCodeHighlightElement,
+  });
+
   const nextCodeHighlightPrefix = nextCodeHighlight
     .split("-[")[0]
     .split(":")
     .slice(-1)[0];
 
-  const description = nextP.textContent;
+  const description = nextP.textContent ?? undefined;
 
   const utilityNames = utilities.map((utility) => utility.tailwindCssName);
   const utilityPrefixes = utilityNames.map((name) =>
@@ -177,13 +242,16 @@ function parseLibUtility(tailwindCssUrl: string, tr: Element): Utility {
   const tds = Array.from(tr.children);
 
   const tailwindCssName = tds[0].childNodes[0].textContent;
+  assertExists(tailwindCssName, "class name cell element", { tailwindCssName });
 
   const name = convertTailwindCssNameToCodeName(tailwindCssName);
 
-  const cssProperties = tds[1].textContent
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean);
+  const cssProperties =
+    tds[1].textContent
+      ?.split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean) ?? [];
+  assertHasElements(cssProperties[0], "css properties", { cssProperties });
 
   return {
     name,
@@ -220,15 +288,38 @@ function parseLibUtilityContainer(
   return [containerUtility];
 }
 
-const arbitraryNames = {};
+const arbitraryNames: Record<string, true> = {};
 
 function parseLibModifiers(): readonly ModifierGroup[] {
+  assertHasText(pages.states.html, "states page", pages);
+  assertType<ImportedPagesModule, ImportedPage>(
+    pages.states,
+    isImportedPage,
+    "states page",
+    { pages }
+  );
+
   const jsdom = new JSDOM(pages.states.html);
+
   const quickReferenceH3 =
     jsdom.window.document.querySelector("h3#quick-reference");
-  const nextP = quickReferenceH3.nextElementSibling;
-  const nextTable = nextP.nextElementSibling;
-  const nextTrs = Array.from(nextTable.querySelectorAll("tbody tr"));
+  assertExists(quickReferenceH3, "quick reference heading", {
+    quickReferenceH3,
+  });
+
+  const quickReferenceNextP = quickReferenceH3.nextElementSibling;
+  assertExists(quickReferenceNextP, "quick reference next p", {
+    quickReferenceH3,
+  });
+
+  const quickReferenceNextTable = quickReferenceNextP.nextElementSibling;
+  assertExists(quickReferenceNextTable, "quick reference next table", {
+    quickReferenceNextP,
+  });
+
+  const nextTrs = Array.from(
+    quickReferenceNextTable.querySelectorAll("tbody tr")
+  );
 
   const modifierGroups: ModifierGroup[] = [];
 
@@ -236,10 +327,24 @@ function parseLibModifiers(): readonly ModifierGroup[] {
     const modifiers: Modifier[] = [];
     const arbitraries: ModifierArbitrary[] = [];
 
-    const tds = Array.from(tr.querySelectorAll("td"));
+    const quickRefRowCols = Array.from(tr.querySelectorAll("td"));
 
-    const tailwindCssNameCol = tds[0];
-    const tailwindCssName = tailwindCssNameCol.textContent;
+    const quickRefRowNameCol = quickRefRowCols[0];
+
+    const tailwindCssName = quickRefRowNameCol.textContent;
+    assertHasText(tailwindCssName, "quick reference table name column text", {
+      tailwindCssNameCol: quickRefRowNameCol,
+    });
+
+    const tailwindCssLink = quickRefRowNameCol.querySelector("a");
+    assertExists(tailwindCssLink, "quick reference table row link", {
+      tailwindCssNameCol: quickRefRowNameCol,
+    });
+
+    const tailwindCssLinkHref = tailwindCssLink.getAttribute("href");
+    assertExists(tailwindCssLinkHref, "quick reference table row link href", {
+      tailwindCssLink,
+    });
 
     const tailwindCssHashUrl = ((hash: string) => {
       switch (hash) {
@@ -250,17 +355,29 @@ function parseLibModifiers(): readonly ModifierGroup[] {
         default:
           return hash;
       }
-    })(tailwindCssNameCol.querySelector("a").attributes["href"].value);
+    })(tailwindCssLinkHref);
 
     const name = convertTailwindCssNameToCodeName(tailwindCssName);
-    const cssCode = tds[1].textContent;
+
+    const cssCodeColumn = quickRefRowCols[1];
+    assertExists(cssCodeColumn, "quick reference table css code column");
+    const cssCode = cssCodeColumn.textContent;
+    assertHasText(cssCode, "quick reference table css code column", {
+      cssCodeColumn,
+    });
 
     const modifierSubHeading =
       jsdom.window.document.querySelector(tailwindCssHashUrl);
+    assertExists(modifierSubHeading, "modifier sub heading");
 
     const tailwindCssUrl = `${pages.states.url}${tailwindCssHashUrl}`;
 
-    const description = modifierSubHeading.nextElementSibling.textContent;
+    const descriptionElement = modifierSubHeading.nextElementSibling;
+    assertExists(descriptionElement, "modifier description", {
+      modifierSubHeading,
+    });
+    const description = descriptionElement.textContent;
+    assertHasText(description, "modifier description", { descriptionElement });
 
     const isArbitrary = tailwindCssName.includes("[…]");
     if (isArbitrary) {

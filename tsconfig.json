@@ -3,6 +3,7 @@
     "module": "commonjs",
     "target": "es2021",
     "declaration": true,
+    "strict": true,
     "outDir": "./dist"
   },
   "include": ["lib/**/*", "build/**/*"],

@@ -21,16 +21,27 @@ import * as tailwindjsModifiersHarcoded from "../../lib/hardcoded/modifiers";
 import * as tailwindjsModifiersGenerated from "../../lib/modifiers";
 import * as tailwindjsUtilitiesGenerated from "../../lib/utilities";
 import { PROJECT_NAME } from "../constants";
+import {
+  ImportedFunctionMap,
+  ImportedModifier,
+  ImportedModifierMap,
+  ImportedUtilityMap,
+  isNotNil,
+} from "../utils";
 import "../utils/array.utils";
 
-const modifiers = {
+const tailwindjsAll: ImportedUtilityMap = {
+  ...tailwindjs,
+};
+
+const modifiers: ImportedModifierMap = {
   ...tailwindjsModifiersGenerated,
   ...tailwindjsModifiersHarcoded,
 };
 
 const modifierNames = Object.keys(modifiers);
 
-const utilities = {
+const utilities: ImportedUtilityMap = {
   ...tailwindjsUtilitiesGenerated,
 };
 
@@ -40,7 +51,7 @@ const utilityConstantNames = utilityNames.filter(
   (utilityName) => typeof utilities[utilityName] !== "function"
 );
 
-const helpers = {
+const helpers: ImportedFunctionMap = {
   ...tailwindjsHelpersGenerated,
 };
 
@@ -50,7 +61,107 @@ const modifierOrUtilityFunctionNames = [
   ...modifierNames,
   ...utilityNames,
   ...helperNames,
-].filter((objectName) => typeof tailwindjs[objectName] === "function");
+].filter((objectName) => typeof tailwindjsAll[objectName] === "function");
+
+export function scanTailwindJSClasses(
+  inputDir: string,
+  outputDirFilename?: string
+) {
+  if (!outputDirFilename) {
+    outputDirFilename = `${inputDir}/tailwind-js-classes.json`;
+  }
+
+  const files = getFiles(inputDir, ["ts", "js"]);
+
+  const tailwindCSSClasses = [];
+
+  for (const file of files) {
+    const contentsAst = createProgram([file], {
+      allowJs: true,
+      jsx: JsxEmit.React,
+    });
+
+    const sourceFile = contentsAst.getSourceFile(file);
+
+    if (!sourceFile) {
+      continue;
+    }
+
+    const imports = sourceFile?.statements.filter(isImportDeclaration) ?? [];
+
+    const importsTailwindJS = imports.filter(
+      (declaration) =>
+        (declaration.moduleSpecifier as any).text === PROJECT_NAME
+    );
+
+    const tailwindJSImportSpecifiers = importsTailwindJS
+      .map((import_) => import_.importClause?.namedBindings)
+      .filter(isNotNil)
+      .filter(isNamedImports)
+      .flatMap((binding) => binding.elements)
+      .filter(isImportSpecifier)
+      .map((importSpecifier) => importSpecifier.name.escapedText.toString());
+
+    tailwindCSSClasses.push(
+      ...walkNodes(
+        sourceFile,
+        tailwindJSImportSpecifiers,
+        sourceFile.getChildren(sourceFile)
+      )
+    );
+  }
+
+  const tailwindCSSClassesUniqSorted = tailwindCSSClasses.uniq().sort();
+
+  writeFileSync(
+    outputDirFilename,
+    JSON.stringify(tailwindCSSClassesUniqSorted)
+  );
+}
+
+function getFiles(dir: string, extensions: readonly string[]): string[] {
+  const subdirs = readdirSync(dir);
+  const files = subdirs.map((subdir) => {
+    const res = resolve(dir, subdir);
+    return statSync(res).isDirectory() ? getFiles(res, extensions) : res;
+  });
+  return files
+    .reduce((a: string[], f: string | string[]) => a.concat(f), [])
+    .filter((file: string) =>
+      extensions.find((extension) => file.endsWith(`.${extension}`))
+    );
+}
+
+function walkNodes(
+  sourceFile: SourceFile,
+  tailwindJSImportSpecifiers: readonly string[],
+  nodes: readonly Node[]
+): readonly string[] {
+  const tailwindCSSClasses = [];
+  for (const node of nodes) {
+    tailwindCSSClasses.push(
+      parseExpression(sourceFile, tailwindJSImportSpecifiers, node, false)
+    );
+
+    tailwindCSSClasses.push(
+      ...walkNodes(
+        sourceFile,
+        tailwindJSImportSpecifiers,
+        node.getChildren(sourceFile)
+      )
+    );
+  }
+
+  return (tailwindCSSClasses
+    ?.filter(Boolean)
+    ?.flatMap((str?: string) =>
+      str
+        ?.split(" ")
+        ?.map((substr) => substr?.trim())
+        ?.filter(Boolean)
+    )
+    ?.filter(Boolean) ?? []) as string[];
+}
 
 function parseExpression(
   sourceFile: SourceFile,
@@ -71,7 +182,7 @@ function parseExpression(
     }
 
     const utilityCodeName = nodeArgumentText;
-    const utilityCSSName = tailwindjs[utilityCodeName];
+    const utilityCSSName = String(tailwindjsAll[utilityCodeName]);
     return utilityCSSName;
   }
 
@@ -95,7 +206,8 @@ function parseExpression(
     }
 
     const modifierCodeName = nodeArgumentExpressionText;
-    const modifierFn = tailwindjs[modifierCodeName];
+    const modifierFn = tailwindjsAll[modifierCodeName] as ImportedModifier;
+
     return parseModifierCallExpression(
       sourceFile,
       tailwindJSImportSpecifiers,
@@ -109,7 +221,7 @@ function parseModifierCallExpression(
   sourceFile: SourceFile,
   tailwindJSImportSpecifiers: readonly string[],
   node: CallExpression,
-  modifierFn?: (...inputs) => string
+  modifierFn?: ImportedModifier
 ): string {
   const modifierArgs = [];
 
@@ -132,103 +244,3 @@ function parseModifierCallExpression(
     return cn(...modifierArgs);
   }
 }
-
-function walkNodes(
-  sourceFile: SourceFile,
-  tailwindJSImportSpecifiers: readonly string[],
-  nodes: readonly Node[]
-): readonly string[] {
-  const tailwindCSSClasses = [];
-  for (const node of nodes) {
-    tailwindCSSClasses.push(
-      parseExpression(sourceFile, tailwindJSImportSpecifiers, node, false)
-    );
-
-    tailwindCSSClasses.push(
-      ...walkNodes(
-        sourceFile,
-        tailwindJSImportSpecifiers,
-        node.getChildren(sourceFile)
-      )
-    );
-  }
-
-  return tailwindCSSClasses
-    .filter(Boolean)
-    .flatMap((str) =>
-      str
-        .split(" ")
-        .map((substr) => substr?.trim())
-        .filter(Boolean)
-    )
-    .filter(Boolean);
-}
-
-export function scanTailwindJSClasses(
-  inputDir: string,
-  outputDirFilename?: string
-) {
-  if (!outputDirFilename) {
-    outputDirFilename = `${inputDir}/tailwind-js-classes.json`;
-  }
-
-  const files = getFiles(inputDir, ["ts", "js"]).slice(0, 10);
-
-  const tailwindCSSClasses = [];
-
-  for (const file of files) {
-    const contentsAst = createProgram([file], {
-      allowJs: true,
-      jsx: JsxEmit.React,
-    });
-
-    const sourceFile = contentsAst.getSourceFile(file);
-
-    const imports = sourceFile.statements.filter(isImportDeclaration);
-
-    const importsTailwindJS = imports.filter(
-      (declaration) =>
-        (declaration.moduleSpecifier as any).text === PROJECT_NAME
-    );
-
-    const tailwindJSImportSpecifiers = importsTailwindJS
-      .map((import_) => import_.importClause?.namedBindings)
-      .filter(isNamedImports)
-      .flatMap((binding) => binding.elements)
-      .filter(isImportSpecifier)
-      .map((importSpecifier) => importSpecifier.name.escapedText.toString());
-
-    tailwindCSSClasses.push(
-      ...walkNodes(
-        sourceFile,
-        tailwindJSImportSpecifiers,
-        sourceFile.getChildren(sourceFile)
-      )
-    );
-  }
-
-  const tailwindCSSClassesUniqSorted = tailwindCSSClasses.uniq().sort();
-
-  writeFileSync(
-    outputDirFilename,
-    JSON.stringify(tailwindCSSClassesUniqSorted)
-  );
-}
-
-function getFiles(dir: string, extensions: readonly string[]) {
-  const subdirs = readdirSync(dir);
-  const files = subdirs.map((subdir) => {
-    const res = resolve(dir, subdir);
-    return statSync(res).isDirectory() ? getFiles(res, extensions) : res;
-  });
-  return files
-    .reduce((a, f) => a.concat(f), [])
-    .filter((file) =>
-      extensions.find((extension) => file.endsWith(`.${extension}`))
-    );
-}
-
-// // todo: remove
-// scanTailwindJSClasses(
-//   __dirname + "/../../build/build-tailwindjs-classes/mocks"
-// );

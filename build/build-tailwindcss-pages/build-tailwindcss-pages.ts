@@ -48,7 +48,7 @@ export async function buildTailwindCSSPages() {
   const jsdom = new JSDOM(docsHtml);
   const h5s = Array.from(jsdom.window.document.querySelectorAll("h5"));
   const h5sUtilityAreas = h5s.filter((h5) =>
-    UTILITY_AREAS.includes(h5.textContent)
+    UTILITY_AREAS.includes(h5.textContent ?? "")
   );
 
   for await (const h5UtilityArea of h5sUtilityAreas) {
@@ -73,7 +73,14 @@ async function buildTailwindCSSDocsPage(docsHtml: string) {
 async function buildTailwindCSSUtilityAreaPages(
   h5UtilityArea: HTMLHeadingElement
 ) {
-  const areaTitle = h5UtilityArea.textContent.trim();
+  const areaTitle = h5UtilityArea.textContent?.trim();
+  if (!areaTitle) {
+    throw new Error(
+      `Expected H5 to have text. ${JSON.stringify({
+        h5UtilityArea,
+      })}`
+    );
+  }
   const areaName = convertTitleToCodeName(areaTitle);
 
   const nextElement = h5UtilityArea.nextSibling;
@@ -106,8 +113,15 @@ async function buildTailwindCSSGroupPage(
   areaName: string,
   groupItemLink: HTMLAnchorElement
 ) {
-  const groupPagePath = groupItemLink.attributes["href"].value;
+  const groupPagePath = groupItemLink.getAttribute("href");
   const groupPageUrl = `${TAILWIND_CSS_BASE_URL}${groupPagePath}`;
+  if (!groupItemLink.textContent) {
+    throw new Error(
+      `Expected group item link to have text. ${JSON.stringify({
+        groupItemLink,
+      })}`
+    );
+  }
   const groupCodeName = convertTitleToCodeName(groupItemLink.textContent);
 
   const areaFolderPathAndName = `${__dirname}/tailwindcss-pages/${areaName}`;
