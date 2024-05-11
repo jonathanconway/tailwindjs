@@ -20,7 +20,7 @@ Utilities for setting the height of an element.
 
 | TailwindJS token |
 | ----- |
-| `height` |
+| `height_utilities` |
 
 
 ### Utilities
@@ -105,7 +105,7 @@ Utilities for setting the maximum height of an element.
 
 | TailwindJS token |
 | ----- |
-| `max_height` |
+| `max_height_utilities` |
 
 
 ### Utilities
@@ -175,7 +175,7 @@ Utilities for setting the maximum width of an element.
 
 | TailwindJS token |
 | ----- |
-| `max_width` |
+| `max_width_utilities` |
 
 
 ### Utilities
@@ -259,7 +259,7 @@ Utilities for setting the minimum height of an element.
 
 | TailwindJS token |
 | ----- |
-| `min_height` |
+| `min_height_utilities` |
 
 
 ### Utilities
@@ -328,7 +328,7 @@ Utilities for setting the minimum width of an element.
 
 | TailwindJS token |
 | ----- |
-| `min_width` |
+| `min_width_utilities` |
 
 
 ### Utilities
@@ -393,7 +393,7 @@ Utilities for setting the width and height of an element at the same time.
 
 | TailwindJS token |
 | ----- |
-| `size` |
+| `size_utilities` |
 
 
 ### Utilities
@@ -485,7 +485,7 @@ Utilities for setting the width of an element.
 
 | TailwindJS token |
 | ----- |
-| `width` |
+| `width_utilities` |
 
 
 ### Utilities

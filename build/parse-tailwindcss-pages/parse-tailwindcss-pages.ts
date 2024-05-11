@@ -13,6 +13,10 @@ import {
   uniq,
 } from "../utils";
 import {
+  GROUPS_BY_MODIFIER,
+  MODIFIER_GROUP_DETAILS,
+} from "./parse-tailwindcss-modifier-groups";
+import {
   Definition,
   UtilityArea,
   UtilityGroup,
@@ -321,7 +325,7 @@ function parseLibModifiers(): readonly ModifierGroup[] {
     quickReferenceNextTable.querySelectorAll("tbody tr")
   );
 
-  const modifierGroups: ModifierGroup[] = [];
+  const modifierGroupsByName: Record<string, ModifierGroup> = {};
 
   for (const tr of nextTrs) {
     const modifiers: Modifier[] = [];
@@ -407,15 +411,29 @@ function parseLibModifiers(): readonly ModifierGroup[] {
       modifiers.push(modifier);
     }
 
-    const modifierGroup = {
-      modifiers,
-      arbitraries,
-      name,
-      tailwindCssUrl,
-    };
+    const groupName = convertTailwindCssNameToCodeName(
+      GROUPS_BY_MODIFIER[tailwindCssName] ?? tailwindCssName
+    );
 
-    modifierGroups.push(modifierGroup);
+    if (modifierGroupsByName[groupName]) {
+      modifierGroupsByName[groupName] = {
+        ...modifierGroupsByName[groupName],
+        modifiers: [...modifierGroupsByName[groupName].modifiers, ...modifiers],
+        arbitraries: [
+          ...modifierGroupsByName[groupName].arbitraries,
+          ...arbitraries,
+        ],
+      };
+    } else {
+      modifierGroupsByName[groupName] = {
+        name: groupName,
+        tailwindCssUrl: MODIFIER_GROUP_DETAILS[groupName].url,
+        description: MODIFIER_GROUP_DETAILS[groupName].description,
+        modifiers,
+        arbitraries,
+      };
+    }
   }
 
-  return modifierGroups;
+  return Object.values(modifierGroupsByName);
 }

@@ -18,7 +18,7 @@ Utilities for animating elements with CSS animations.
 
 | TailwindJS token |
 | ----- |
-| `animation` |
+| `animation_utilities` |
 
 
 ### Utilities
@@ -49,7 +49,7 @@ Utilities for controlling the delay of CSS transitions.
 
 | TailwindJS token |
 | ----- |
-| `transition_delay` |
+| `transition_delay_utilities` |
 
 
 ### Utilities
@@ -84,7 +84,7 @@ Utilities for controlling the duration of CSS transitions.
 
 | TailwindJS token |
 | ----- |
-| `transition_duration` |
+| `transition_duration_utilities` |
 
 
 ### Utilities
@@ -119,7 +119,7 @@ Utilities for controlling which CSS properties transition.
 
 | TailwindJS token |
 | ----- |
-| `transition_property` |
+| `transition_property_utilities` |
 
 
 ### Utilities
@@ -152,7 +152,7 @@ Utilities for controlling the easing of CSS transitions.
 
 | TailwindJS token |
 | ----- |
-| `transition_timing_function` |
+| `transition_timing_function_utilities` |
 
 
 ### Utilities

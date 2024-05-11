@@ -38,6 +38,7 @@ export interface Utility extends Primitive {
 export interface ModifierGroup {
   readonly name: string;
   readonly tailwindCssUrl: string;
+  readonly description: string;
   readonly modifiers: readonly Modifier[];
   readonly arbitraries: readonly ModifierArbitrary[];
 }

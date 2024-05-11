@@ -17,7 +17,7 @@ Utilities for controlling whether table borders should collapse or be separated.
 
 | TailwindJS token |
 | ----- |
-| `border_collapse` |
+| `border_collapse_utilities` |
 
 
 ### Utilities
@@ -39,7 +39,7 @@ Utilities for controlling the spacing between table borders.
 
 | TailwindJS token |
 | ----- |
-| `border_spacing` |
+| `border_spacing_utilities` |
 
 
 ### Utilities
@@ -172,7 +172,7 @@ Utilities for controlling the alignment of a caption element inside of a table.
 
 | TailwindJS token |
 | ----- |
-| `caption_side` |
+| `caption_side_utilities` |
 
 
 ### Utilities
@@ -194,7 +194,7 @@ Utilities for controlling the table layout algorithm.
 
 | TailwindJS token |
 | ----- |
-| `table_layout` |
+| `table_layout_utilities` |
 
 
 ### Utilities

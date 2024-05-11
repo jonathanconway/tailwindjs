@@ -16,7 +16,7 @@ Utilities for controlling an element's margin.
 
 | TailwindJS token |
 | ----- |
-| `margin` |
+| `margin_utilities` |
 
 
 ### Utilities
@@ -374,7 +374,7 @@ Utilities for controlling an element's padding.
 
 | TailwindJS token |
 | ----- |
-| `padding` |
+| `padding_utilities` |
 
 
 ### Utilities
@@ -723,7 +723,7 @@ Utilities for controlling the space between child elements.
 
 | TailwindJS token |
 | ----- |
-| `space_between` |
+| `space_between_utilities` |
 
 
 ### Utilities

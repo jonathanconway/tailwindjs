@@ -1,5 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "fs";
 
+import "../utils";
+
 function genIndexExportLine(
   exportRelativePathFilename: string,
   exportAs?: string
@@ -32,7 +34,17 @@ export function writeExportLineToIndex(
 }
 
 export function prepareComment(input: string) {
-  return input.replaceAll("/", "\\/").replaceAll("@", "\\@");
+  return input
+    .replaceAll("/", "\\/")
+    .replaceAll("@", "\\@")
+    .replaceAll(" * ", "\\*");
+}
+
+export function prepareDescription(input?: string) {
+  if (!input) {
+    return "";
+  }
+  return input.trimEndSubstr(":").trimEndSubstr(".") + ".";
 }
 
 export function convertTitleToCodeName(title: string) {
@@ -59,11 +71,9 @@ export function convertTailwindCssNameToCodeName(input: string) {
     .replaceAll("[…]", "arbitrary")
     .replaceAll(":", "_")
     .replaceAll("-", "_")
-    .replaceAll(":", "_");
+    .replaceAll(":", "_")
 
-  while (input.endsWith("_")) {
-    input = input = input.substring(0, input.length - 1);
-  }
+    .trimEndSubstr("_");
 
   for (const reservedWord of RESERVED_WORDS) {
     if (input === reservedWord) {

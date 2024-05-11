@@ -28,7 +28,7 @@ Utilities for controlling the color of an element's borders.
 
 | TailwindJS token |
 | ----- |
-| `border_color` |
+| `border_color_utilities` |
 
 
 ### Utilities
@@ -2474,7 +2474,7 @@ Utilities for controlling the border radius of an element.
 
 | TailwindJS token |
 | ----- |
-| `border_radius` |
+| `border_radius_utilities` |
 
 
 ### Utilities
@@ -2649,7 +2649,7 @@ Utilities for controlling the style of an element's borders.
 
 | TailwindJS token |
 | ----- |
-| `border_style` |
+| `border_style_utilities` |
 
 
 ### Utilities
@@ -2675,7 +2675,7 @@ Utilities for controlling the width of an element's borders.
 
 | TailwindJS token |
 | ----- |
-| `border_width` |
+| `border_width_utilities` |
 
 
 ### Utilities
@@ -2754,7 +2754,7 @@ Utilities for controlling the border color between elements.
 
 | TailwindJS token |
 | ----- |
-| `divide_color` |
+| `divide_color_utilities` |
 
 
 ### Utilities
@@ -3048,7 +3048,7 @@ Utilities for controlling the border style between elements.
 
 | TailwindJS token |
 | ----- |
-| `divide_style` |
+| `divide_style_utilities` |
 
 
 ### Utilities
@@ -3073,7 +3073,7 @@ Utilities for controlling the border width between elements.
 
 | TailwindJS token |
 | ----- |
-| `divide_width` |
+| `divide_width_utilities` |
 
 
 ### Utilities
@@ -3113,7 +3113,7 @@ Utilities for controlling the color of an element's outline.
 
 | TailwindJS token |
 | ----- |
-| `outline_color` |
+| `outline_color_utilities` |
 
 
 ### Utilities
@@ -3407,7 +3407,7 @@ Utilities for controlling the offset of an element's outline.
 
 | TailwindJS token |
 | ----- |
-| `outline_offset` |
+| `outline_offset_utilities` |
 
 
 ### Utilities
@@ -3438,7 +3438,7 @@ Utilities for controlling the style of an element's outline.
 
 | TailwindJS token |
 | ----- |
-| `outline_style` |
+| `outline_style_utilities` |
 
 
 ### Utilities
@@ -3463,7 +3463,7 @@ Utilities for controlling the width of an element's outline.
 
 | TailwindJS token |
 | ----- |
-| `outline_width` |
+| `outline_width_utilities` |
 
 
 ### Utilities
@@ -3494,7 +3494,7 @@ Utilities for setting the color of outline rings.
 
 | TailwindJS token |
 | ----- |
-| `ring_color` |
+| `ring_color_utilities` |
 
 
 ### Utilities
@@ -3788,7 +3788,7 @@ Utilities for setting the color of outline ring offsets.
 
 | TailwindJS token |
 | ----- |
-| `ring_offset_color` |
+| `ring_offset_color_utilities` |
 
 
 ### Utilities
@@ -4082,7 +4082,7 @@ Utilities for simulating an offset when adding outline rings.
 
 | TailwindJS token |
 | ----- |
-| `ring_offset_width` |
+| `ring_offset_width_utilities` |
 
 
 ### Utilities
@@ -4113,7 +4113,7 @@ Utilities for creating outline rings with box-shadows.
 
 | TailwindJS token |
 | ----- |
-| `ring_width` |
+| `ring_width_utilities` |
 
 
 ### Utilities

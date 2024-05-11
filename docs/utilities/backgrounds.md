@@ -22,7 +22,7 @@ Utilities for controlling how a background image behaves when scrolling.
 
 | TailwindJS token |
 | ----- |
-| `background_attachment` |
+| `background_attachment_utilities` |
 
 
 ### Utilities
@@ -45,7 +45,7 @@ Utilities for controlling the bounding box of an element's background.
 
 | TailwindJS token |
 | ----- |
-| `background_clip` |
+| `background_clip_utilities` |
 
 
 ### Utilities
@@ -69,7 +69,7 @@ Utilities for controlling an element's background color.
 
 | TailwindJS token |
 | ----- |
-| `background_color` |
+| `background_color_utilities` |
 
 
 ### Utilities
@@ -364,7 +364,7 @@ Utilities for controlling an element's background image.
 
 | TailwindJS token |
 | ----- |
-| `background_image` |
+| `background_image_utilities` |
 
 
 ### Utilities
@@ -399,7 +399,7 @@ Utilities for controlling how an element's background is positioned relative to 
 
 | TailwindJS token |
 | ----- |
-| `background_origin` |
+| `background_origin_utilities` |
 
 
 ### Utilities
@@ -422,7 +422,7 @@ Utilities for controlling the position of an element's background image.
 
 | TailwindJS token |
 | ----- |
-| `background_position` |
+| `background_position_utilities` |
 
 
 ### Utilities
@@ -458,7 +458,7 @@ Utilities for controlling the repetition of an element's background image.
 
 | TailwindJS token |
 | ----- |
-| `background_repeat` |
+| `background_repeat_utilities` |
 
 
 ### Utilities
@@ -484,7 +484,7 @@ Utilities for controlling the background size of an element's background image.
 
 | TailwindJS token |
 | ----- |
-| `background_size` |
+| `background_size_utilities` |
 
 
 ### Utilities
@@ -507,7 +507,7 @@ Utilities for controlling the color stops in background gradients.
 
 | TailwindJS token |
 | ----- |
-| `gradient_color_stops` |
+| `gradient_color_stops_utilities` |
 
 
 ### Utilities

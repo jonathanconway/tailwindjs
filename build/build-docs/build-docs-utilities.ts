@@ -5,7 +5,7 @@ import {
   UtilityArea,
   UtilityGroup,
 } from "../parse-tailwindcss-pages";
-import { convertTitleToMdLinkHashName } from "../utils";
+import { convertTitleToMdLinkHashName, prepareDescription } from "../utils";
 import "../utils/array.utils";
 import { mkdirIfNotExistsSync } from "../utils/dir.utils";
 import {
@@ -63,11 +63,11 @@ function genDocsUtilitiesAreaGroup(group: UtilityGroup) {
   return `
 ## ${group.title}
 
-${group.description}
+${prepareDescription(group.description)}
 
 ### Group
 
-${genMdTable([{ "TailwindJS token": `\`${group.name}\`` }])}
+${genMdTable([{ "TailwindJS token": `\`${group.name}_utilities\`` }])}
 
 ${genDocsUtilitiesAreaGroupUtilitiesBlock(group)}
 

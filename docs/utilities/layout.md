@@ -33,7 +33,7 @@ Utilities for controlling the aspect ratio of an element.
 
 | TailwindJS token |
 | ----- |
-| `aspect_ratio` |
+| `aspect_ratio_utilities` |
 
 
 ### Utilities
@@ -62,7 +62,7 @@ Utilities for controlling how element fragments should be rendered across multip
 
 | TailwindJS token |
 | ----- |
-| `box_decoration_break` |
+| `box_decoration_break_utilities` |
 
 
 ### Utilities
@@ -84,7 +84,7 @@ Utilities for controlling how the browser should calculate an element's total si
 
 | TailwindJS token |
 | ----- |
-| `box_sizing` |
+| `box_sizing_utilities` |
 
 
 ### Utilities
@@ -106,7 +106,7 @@ Utilities for controlling how a column or page should break after an element.
 
 | TailwindJS token |
 | ----- |
-| `break_after` |
+| `break_after_utilities` |
 
 
 ### Utilities
@@ -134,7 +134,7 @@ Utilities for controlling how a column or page should break before an element.
 
 | TailwindJS token |
 | ----- |
-| `break_before` |
+| `break_before_utilities` |
 
 
 ### Utilities
@@ -162,7 +162,7 @@ Utilities for controlling how a column or page should break within an element.
 
 | TailwindJS token |
 | ----- |
-| `break_inside` |
+| `break_inside_utilities` |
 
 
 ### Utilities
@@ -186,7 +186,7 @@ Utilities for controlling the wrapping of content around an element.
 
 | TailwindJS token |
 | ----- |
-| `clear` |
+| `clear_utilities` |
 
 
 ### Utilities
@@ -212,7 +212,7 @@ Utilities for controlling the number of columns within an element.
 
 | TailwindJS token |
 | ----- |
-| `columns` |
+| `columns_utilities` |
 
 
 ### Utilities
@@ -264,7 +264,7 @@ A component for fixing an element's width to the current breakpoint.
 
 | TailwindJS token |
 | ----- |
-| `container` |
+| `container_utilities` |
 
 
 ### Utilities
@@ -285,7 +285,7 @@ Utilities for controlling the display box type of an element.
 
 | TailwindJS token |
 | ----- |
-| `display` |
+| `display_utilities` |
 
 
 ### Utilities
@@ -326,7 +326,7 @@ Utilities for controlling the wrapping of content around an element.
 
 | TailwindJS token |
 | ----- |
-| `floats` |
+| `floats_utilities` |
 
 
 ### Utilities
@@ -351,7 +351,7 @@ Utilities for controlling whether an element should explicitly create a new stac
 
 | TailwindJS token |
 | ----- |
-| `isolation` |
+| `isolation_utilities` |
 
 
 ### Utilities
@@ -373,7 +373,7 @@ Utilities for controlling how a replaced element's content should be resized.
 
 | TailwindJS token |
 | ----- |
-| `object_fit` |
+| `object_fit_utilities` |
 
 
 ### Utilities
@@ -398,7 +398,7 @@ Utilities for controlling how a replaced element's content should be positioned 
 
 | TailwindJS token |
 | ----- |
-| `object_position` |
+| `object_position_utilities` |
 
 
 ### Utilities
@@ -435,7 +435,7 @@ Utilities for controlling how an element handles content that is too large for t
 
 | TailwindJS token |
 | ----- |
-| `overflow` |
+| `overflow_utilities` |
 
 
 ### Utilities
@@ -470,7 +470,7 @@ Utilities for controlling how the browser behaves when reaching the boundary of 
 
 | TailwindJS token |
 | ----- |
-| `overscroll_behavior` |
+| `overscroll_behavior_utilities` |
 
 
 ### Utilities
@@ -499,7 +499,7 @@ Utilities for controlling how an element is positioned in the DOM.
 
 | TailwindJS token |
 | ----- |
-| `position` |
+| `position_utilities` |
 
 
 ### Utilities
@@ -524,7 +524,7 @@ Utilities for controlling the placement of positioned elements.
 
 | TailwindJS token |
 | ----- |
-| `top_right_bottom_left` |
+| `top_right_bottom_left_utilities` |
 
 
 ### Utilities
@@ -945,7 +945,7 @@ Utilities for controlling the visibility of an element.
 
 | TailwindJS token |
 | ----- |
-| `visibility` |
+| `visibility_utilities` |
 
 
 ### Utilities
@@ -968,7 +968,7 @@ Utilities for controlling the stack order of an element.
 
 | TailwindJS token |
 | ----- |
-| `z_index` |
+| `z_index_utilities` |
 
 
 ### Utilities

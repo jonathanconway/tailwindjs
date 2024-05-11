@@ -15,7 +15,7 @@ Utilities for opting in and out of forced colors.
 
 | TailwindJS token |
 | ----- |
-| `forced_color_adjust` |
+| `forced_color_adjust_utilities` |
 
 
 ### Utilities
@@ -37,7 +37,7 @@ Utilities for improving accessibility with screen readers.
 
 | TailwindJS token |
 | ----- |
-| `screen_readers` |
+| `screen_readers_utilities` |
 
 
 ### Utilities

@@ -18,7 +18,7 @@ Utilities for controlling how an element's background image should blend with it
 
 | TailwindJS token |
 | ----- |
-| `background_blend_mode` |
+| `background_blend_mode_utilities` |
 
 
 ### Utilities
@@ -54,7 +54,7 @@ Utilities for controlling the box shadow of an element.
 
 | TailwindJS token |
 | ----- |
-| `box_shadow` |
+| `box_shadow_utilities` |
 
 
 ### Utilities
@@ -88,7 +88,7 @@ Utilities for controlling the color of a box shadow.
 
 | TailwindJS token |
 | ----- |
-| `box_shadow_color` |
+| `box_shadow_color_utilities` |
 
 
 ### Utilities
@@ -382,7 +382,7 @@ Utilities for controlling how an element should blend with the background.
 
 | TailwindJS token |
 | ----- |
-| `mix_blend_mode` |
+| `mix_blend_mode_utilities` |
 
 
 ### Utilities
@@ -420,7 +420,7 @@ Utilities for controlling the opacity of an element.
 
 | TailwindJS token |
 | ----- |
-| `opacity` |
+| `opacity_utilities` |
 
 
 ### Utilities

@@ -1,5 +1,5 @@
 import { ModifierArbitrary } from "../parse-tailwindcss-pages";
-import { prepareComment } from "../utils";
+import { prepareComment, prepareDescription } from "../utils";
 import { ARBITRARY_FUNCTION_NAME_SUFFIX_VARIANTS } from "./arbitrary";
 
 export function genLibModifierArbitrary({
@@ -10,7 +10,9 @@ export function genLibModifierArbitrary({
 }: ModifierArbitrary) {
   const prefixCode = tailwindCssName.replaceAll("[…]", "[${arbitrary}]");
 
-  const descriptionCode = description.trim() ? ` * ${description}\n *` : "";
+  const descriptionCode = description.trim()
+    ? ` * ${prepareDescription(description)}\n *`
+    : "";
 
   const namePrefix = name.replaceAll("_arbitrary", "");
 

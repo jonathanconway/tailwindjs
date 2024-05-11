@@ -18,7 +18,7 @@ Utilities for rotating elements with transform.
 
 | TailwindJS token |
 | ----- |
-| `rotate` |
+| `rotate_utilities` |
 
 
 ### Utilities
@@ -53,7 +53,7 @@ Utilities for scaling elements with transform.
 
 | TailwindJS token |
 | ----- |
-| `scale` |
+| `scale_utilities` |
 
 
 ### Utilities
@@ -111,7 +111,7 @@ Utilities for skewing elements with transform.
 
 | TailwindJS token |
 | ----- |
-| `skew` |
+| `skew_utilities` |
 
 
 ### Utilities
@@ -150,7 +150,7 @@ Utilities for specifying the origin for an element's transformations.
 
 | TailwindJS token |
 | ----- |
-| `transform_origin` |
+| `transform_origin_utilities` |
 
 
 ### Utilities
@@ -187,7 +187,7 @@ Utilities for translating elements with transform.
 
 | TailwindJS token |
 | ----- |
-| `translate` |
+| `translate_utilities` |
 
 
 ### Utilities

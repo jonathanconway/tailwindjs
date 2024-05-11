@@ -41,7 +41,7 @@ Utilities for controlling the content of the before and after pseudo-elements.
 
 | TailwindJS token |
 | ----- |
-| `content` |
+| `content_utilities` |
 
 
 ### Utilities
@@ -68,7 +68,7 @@ Utilities for controlling the font family of an element.
 
 | TailwindJS token |
 | ----- |
-| `font_family` |
+| `font_family_utilities` |
 
 
 ### Utilities
@@ -97,7 +97,7 @@ Utilities for controlling the font size of an element.
 
 | TailwindJS token |
 | ----- |
-| `font_size` |
+| `font_size_utilities` |
 
 
 ### Utilities
@@ -136,7 +136,7 @@ Utilities for controlling the font smoothing of an element.
 
 | TailwindJS token |
 | ----- |
-| `font_smoothing` |
+| `font_smoothing_utilities` |
 
 
 ### Utilities
@@ -158,7 +158,7 @@ Utilities for controlling the style of text.
 
 | TailwindJS token |
 | ----- |
-| `font_style` |
+| `font_style_utilities` |
 
 
 ### Utilities
@@ -180,7 +180,7 @@ Utilities for controlling the variant of numbers.
 
 | TailwindJS token |
 | ----- |
-| `font_variant_numeric` |
+| `font_variant_numeric_utilities` |
 
 
 ### Utilities
@@ -209,7 +209,7 @@ Utilities for controlling the font weight of an element.
 
 | TailwindJS token |
 | ----- |
-| `font_weight` |
+| `font_weight_utilities` |
 
 
 ### Utilities
@@ -238,7 +238,7 @@ Utilities for controlling how words should be hyphenated.
 
 | TailwindJS token |
 | ----- |
-| `hyphens` |
+| `hyphens_utilities` |
 
 
 ### Utilities
@@ -261,7 +261,7 @@ Utilities for controlling the tracking (letter spacing) of an element.
 
 | TailwindJS token |
 | ----- |
-| `letter_spacing` |
+| `letter_spacing_utilities` |
 
 
 ### Utilities
@@ -293,7 +293,7 @@ Utilities for clamping text to a specific number of lines.
 
 | TailwindJS token |
 | ----- |
-| `line_clamp` |
+| `line_clamp_utilities` |
 
 
 ### Utilities
@@ -326,7 +326,7 @@ Utilities for controlling the leading (line height) of an element.
 
 | TailwindJS token |
 | ----- |
-| `line_height` |
+| `line_height_utilities` |
 
 
 ### Utilities
@@ -366,7 +366,7 @@ Utilities for controlling the marker images for list items.
 
 | TailwindJS token |
 | ----- |
-| `list_style_image` |
+| `list_style_image_utilities` |
 
 
 ### Utilities
@@ -393,7 +393,7 @@ Utilities for controlling the position of bullets/numbers in lists.
 
 | TailwindJS token |
 | ----- |
-| `list_style_position` |
+| `list_style_position_utilities` |
 
 
 ### Utilities
@@ -415,7 +415,7 @@ Utilities for controlling the bullet/number style of a list.
 
 | TailwindJS token |
 | ----- |
-| `list_style_type` |
+| `list_style_type_utilities` |
 
 
 ### Utilities
@@ -444,7 +444,7 @@ Utilities for controlling the alignment of text.
 
 | TailwindJS token |
 | ----- |
-| `text_align` |
+| `text_align_utilities` |
 
 
 ### Utilities
@@ -470,7 +470,7 @@ Utilities for controlling the text color of an element.
 
 | TailwindJS token |
 | ----- |
-| `text_color` |
+| `text_color_utilities` |
 
 
 ### Utilities
@@ -764,7 +764,7 @@ Utilities for controlling the decoration of text.
 
 | TailwindJS token |
 | ----- |
-| `text_decoration` |
+| `text_decoration_utilities` |
 
 
 ### Utilities
@@ -788,7 +788,7 @@ Utilities for controlling the color of text decorations.
 
 | TailwindJS token |
 | ----- |
-| `text_decoration_color` |
+| `text_decoration_color_utilities` |
 
 
 ### Utilities
@@ -1083,7 +1083,7 @@ Utilities for controlling the style of text decorations.
 
 | TailwindJS token |
 | ----- |
-| `text_decoration_style` |
+| `text_decoration_style_utilities` |
 
 
 ### Utilities
@@ -1108,7 +1108,7 @@ Utilities for controlling the thickness of text decorations.
 
 | TailwindJS token |
 | ----- |
-| `text_decoration_thickness` |
+| `text_decoration_thickness_utilities` |
 
 
 ### Utilities
@@ -1141,7 +1141,7 @@ Utilities for controlling the amount of empty space shown before text in a block
 
 | TailwindJS token |
 | ----- |
-| `text_indent` |
+| `text_indent_utilities` |
 
 
 ### Utilities
@@ -1202,7 +1202,7 @@ Utilities for controlling text overflow in an element.
 
 | TailwindJS token |
 | ----- |
-| `text_overflow` |
+| `text_overflow_utilities` |
 
 
 ### Utilities
@@ -1225,7 +1225,7 @@ Utilities for controlling the transformation of text.
 
 | TailwindJS token |
 | ----- |
-| `text_transform` |
+| `text_transform_utilities` |
 
 
 ### Utilities
@@ -1249,7 +1249,7 @@ Utilities for controlling the offset of a text underline.
 
 | TailwindJS token |
 | ----- |
-| `text_underline_offset` |
+| `text_underline_offset_utilities` |
 
 
 ### Utilities
@@ -1281,7 +1281,7 @@ Utilities for controlling how text wraps within an element.
 
 | TailwindJS token |
 | ----- |
-| `text_wrap` |
+| `text_wrap_utilities` |
 
 
 ### Utilities
@@ -1305,7 +1305,7 @@ Utilities for controlling the vertical alignment of an inline or table-cell box.
 
 | TailwindJS token |
 | ----- |
-| `vertical_align` |
+| `vertical_align_utilities` |
 
 
 ### Utilities
@@ -1340,7 +1340,7 @@ Utilities for controlling an element's white-space property.
 
 | TailwindJS token |
 | ----- |
-| `whitespace` |
+| `whitespace_utilities` |
 
 
 ### Utilities
@@ -1366,7 +1366,7 @@ Utilities for controlling word breaks in an element.
 
 | TailwindJS token |
 | ----- |
-| `word_break` |
+| `word_break_utilities` |
 
 
 ### Utilities

@@ -37,7 +37,7 @@ Utilities for controlling how rows are positioned in multi-row flex and grid con
 
 | TailwindJS token |
 | ----- |
-| `align_content` |
+| `align_content_utilities` |
 
 
 ### Utilities
@@ -66,7 +66,7 @@ Utilities for controlling how flex and grid items are positioned along a contain
 
 | TailwindJS token |
 | ----- |
-| `align_items` |
+| `align_items_utilities` |
 
 
 ### Utilities
@@ -91,7 +91,7 @@ Utilities for controlling how an individual flex or grid item is positioned alon
 
 | TailwindJS token |
 | ----- |
-| `align_self` |
+| `align_self_utilities` |
 
 
 ### Utilities
@@ -117,7 +117,7 @@ Utilities for controlling how flex items both grow and shrink.
 
 | TailwindJS token |
 | ----- |
-| `flex` |
+| `flex_utilities` |
 
 
 ### Utilities
@@ -147,7 +147,7 @@ Utilities for controlling the initial size of flex items.
 
 | TailwindJS token |
 | ----- |
-| `flex_basis` |
+| `flex_basis_utilities` |
 
 
 ### Utilities
@@ -236,7 +236,7 @@ Utilities for controlling the direction of flex items.
 
 | TailwindJS token |
 | ----- |
-| `flex_direction` |
+| `flex_direction_utilities` |
 
 
 ### Utilities
@@ -260,7 +260,7 @@ Utilities for controlling how flex items grow.
 
 | TailwindJS token |
 | ----- |
-| `flex_grow` |
+| `flex_grow_utilities` |
 
 
 ### Utilities
@@ -288,7 +288,7 @@ Utilities for controlling how flex items shrink.
 
 | TailwindJS token |
 | ----- |
-| `flex_shrink` |
+| `flex_shrink_utilities` |
 
 
 ### Utilities
@@ -316,7 +316,7 @@ Utilities for controlling how flex items wrap.
 
 | TailwindJS token |
 | ----- |
-| `flex_wrap` |
+| `flex_wrap_utilities` |
 
 
 ### Utilities
@@ -339,7 +339,7 @@ Utilities for controlling gutters between grid and flexbox items.
 
 | TailwindJS token |
 | ----- |
-| `gap` |
+| `gap_utilities` |
 
 
 ### Utilities
@@ -472,7 +472,7 @@ Utilities for controlling the size of implicitly-created grid columns.
 
 | TailwindJS token |
 | ----- |
-| `grid_auto_columns` |
+| `grid_auto_columns_utilities` |
 
 
 ### Utilities
@@ -502,7 +502,7 @@ Utilities for controlling how elements in a grid are auto-placed.
 
 | TailwindJS token |
 | ----- |
-| `grid_auto_flow` |
+| `grid_auto_flow_utilities` |
 
 
 ### Utilities
@@ -527,7 +527,7 @@ Utilities for controlling the size of implicitly-created grid rows.
 
 | TailwindJS token |
 | ----- |
-| `grid_auto_rows` |
+| `grid_auto_rows_utilities` |
 
 
 ### Utilities
@@ -557,7 +557,7 @@ Utilities for controlling how elements are sized and placed across grid columns.
 
 | TailwindJS token |
 | ----- |
-| `grid_column_start_end` |
+| `grid_column_start_end_utilities` |
 
 
 ### Utilities
@@ -628,7 +628,7 @@ Utilities for controlling how elements are sized and placed across grid rows.
 
 | TailwindJS token |
 | ----- |
-| `grid_row_start_end` |
+| `grid_row_start_end_utilities` |
 
 
 ### Utilities
@@ -699,7 +699,7 @@ Utilities for specifying the columns in a grid layout.
 
 | TailwindJS token |
 | ----- |
-| `grid_template_columns` |
+| `grid_template_columns_utilities` |
 
 
 ### Utilities
@@ -739,7 +739,7 @@ Utilities for specifying the rows in a grid layout.
 
 | TailwindJS token |
 | ----- |
-| `grid_template_rows` |
+| `grid_template_rows_utilities` |
 
 
 ### Utilities
@@ -779,7 +779,7 @@ Utilities for controlling how flex and grid items are positioned along a contain
 
 | TailwindJS token |
 | ----- |
-| `justify_content` |
+| `justify_content_utilities` |
 
 
 ### Utilities
@@ -807,7 +807,7 @@ Utilities for controlling how grid items are aligned along their inline axis.
 
 | TailwindJS token |
 | ----- |
-| `justify_items` |
+| `justify_items_utilities` |
 
 
 ### Utilities
@@ -831,7 +831,7 @@ Utilities for controlling how an individual grid item is aligned along its inlin
 
 | TailwindJS token |
 | ----- |
-| `justify_self` |
+| `justify_self_utilities` |
 
 
 ### Utilities
@@ -856,7 +856,7 @@ Utilities for controlling the order of flex and grid items.
 
 | TailwindJS token |
 | ----- |
-| `order` |
+| `order_utilities` |
 
 
 ### Utilities
@@ -897,7 +897,7 @@ Utilities for controlling how content is justified and aligned at the same time.
 
 | TailwindJS token |
 | ----- |
-| `place_content` |
+| `place_content_utilities` |
 
 
 ### Utilities
@@ -925,7 +925,7 @@ Utilities for controlling how items are justified and aligned at the same time.
 
 | TailwindJS token |
 | ----- |
-| `place_items` |
+| `place_items_utilities` |
 
 
 ### Utilities
@@ -950,7 +950,7 @@ Utilities for controlling how an individual item is justified and aligned at the
 
 | TailwindJS token |
 | ----- |
-| `place_self` |
+| `place_self_utilities` |
 
 
 ### Utilities

@@ -28,7 +28,7 @@ Utilities for controlling the accented color of a form control.
 
 | TailwindJS token |
 | ----- |
-| `accent_color` |
+| `accent_color_utilities` |
 
 
 ### Utilities
@@ -324,7 +324,7 @@ Utilities for suppressing native form control styling.
 
 | TailwindJS token |
 | ----- |
-| `appearance` |
+| `appearance_utilities` |
 
 
 ### Utilities
@@ -346,7 +346,7 @@ Utilities for controlling the color of the text input cursor.
 
 | TailwindJS token |
 | ----- |
-| `caret_color` |
+| `caret_color_utilities` |
 
 
 ### Utilities
@@ -641,7 +641,7 @@ Utilities for controlling the cursor style when hovering over an element.
 
 | TailwindJS token |
 | ----- |
-| `cursor` |
+| `cursor_utilities` |
 
 
 ### Utilities
@@ -723,7 +723,7 @@ Utilities for controlling whether an element responds to pointer events.
 
 | TailwindJS token |
 | ----- |
-| `pointer_events` |
+| `pointer_events_utilities` |
 
 
 ### Utilities
@@ -745,7 +745,7 @@ Utilities for controlling how an element can be resized.
 
 | TailwindJS token |
 | ----- |
-| `resize` |
+| `resize_utilities` |
 
 
 ### Utilities
@@ -769,7 +769,7 @@ Utilities for controlling the scroll behavior of an element.
 
 | TailwindJS token |
 | ----- |
-| `scroll_behavior` |
+| `scroll_behavior_utilities` |
 
 
 ### Utilities
@@ -791,7 +791,7 @@ Utilities for controlling the scroll offset around items in a snap container.
 
 | TailwindJS token |
 | ----- |
-| `scroll_margin` |
+| `scroll_margin_utilities` |
 
 
 ### Utilities
@@ -1140,7 +1140,7 @@ Utilities for controlling an element's scroll offset within a snap container.
 
 | TailwindJS token |
 | ----- |
-| `scroll_padding` |
+| `scroll_padding_utilities` |
 
 
 ### Utilities
@@ -1489,7 +1489,7 @@ Utilities for controlling the scroll snap alignment of an element.
 
 | TailwindJS token |
 | ----- |
-| `scroll_snap_align` |
+| `scroll_snap_align_utilities` |
 
 
 ### Utilities
@@ -1513,7 +1513,7 @@ Utilities for controlling whether you can skip past possible snap positions.
 
 | TailwindJS token |
 | ----- |
-| `scroll_snap_stop` |
+| `scroll_snap_stop_utilities` |
 
 
 ### Utilities
@@ -1535,7 +1535,7 @@ Utilities for controlling how strictly snap points are enforced in a snap contai
 
 | TailwindJS token |
 | ----- |
-| `scroll_snap_type` |
+| `scroll_snap_type_utilities` |
 
 
 ### Utilities
@@ -1561,7 +1561,7 @@ Utilities for controlling how an element can be scrolled and zoomed on touchscre
 
 | TailwindJS token |
 | ----- |
-| `touch_action` |
+| `touch_action_utilities` |
 
 
 ### Utilities
@@ -1591,7 +1591,7 @@ Utilities for controlling whether the user can select text in an element.
 
 | TailwindJS token |
 | ----- |
-| `user_select` |
+| `user_select_utilities` |
 
 
 ### Utilities
@@ -1615,7 +1615,7 @@ Utilities for optimizing upcoming animations of elements that are expected to ch
 
 | TailwindJS token |
 | ----- |
-| `will_change` |
+| `will_change_utilities` |
 
 
 ### Utilities

@@ -31,7 +31,7 @@ Utilities for applying backdrop blur filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_blur` |
+| `backdrop_blur_utilities` |
 
 
 ### Utilities
@@ -66,7 +66,7 @@ Utilities for applying backdrop brightness filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_brightness` |
+| `backdrop_brightness_utilities` |
 
 
 ### Utilities
@@ -103,7 +103,7 @@ Utilities for applying backdrop contrast filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_contrast` |
+| `backdrop_contrast_utilities` |
 
 
 ### Utilities
@@ -136,7 +136,7 @@ Utilities for applying backdrop grayscale filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_grayscale` |
+| `backdrop_grayscale_utilities` |
 
 
 ### Utilities
@@ -164,7 +164,7 @@ Utilities for applying backdrop hue-rotate filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_hue_rotate` |
+| `backdrop_hue_rotate_utilities` |
 
 
 ### Utilities
@@ -196,7 +196,7 @@ Utilities for applying backdrop invert filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_invert` |
+| `backdrop_invert_utilities` |
 
 
 ### Utilities
@@ -224,7 +224,7 @@ Utilities for applying backdrop opacity filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_opacity` |
+| `backdrop_opacity_utilities` |
 
 
 ### Utilities
@@ -271,7 +271,7 @@ Utilities for applying backdrop saturation filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_saturate` |
+| `backdrop_saturate_utilities` |
 
 
 ### Utilities
@@ -302,7 +302,7 @@ Utilities for applying backdrop sepia filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `backdrop_sepia` |
+| `backdrop_sepia_utilities` |
 
 
 ### Utilities
@@ -330,7 +330,7 @@ Utilities for applying blur filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `blur` |
+| `blur_utilities` |
 
 
 ### Utilities
@@ -364,7 +364,7 @@ Utilities for applying brightness filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `brightness` |
+| `brightness_utilities` |
 
 
 ### Utilities
@@ -401,7 +401,7 @@ Utilities for applying contrast filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `contrast` |
+| `contrast_utilities` |
 
 
 ### Utilities
@@ -434,7 +434,7 @@ Utilities for applying drop-shadow filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `drop_shadow` |
+| `drop_shadow_utilities` |
 
 
 ### Utilities
@@ -468,7 +468,7 @@ Utilities for applying grayscale filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `grayscale` |
+| `grayscale_utilities` |
 
 
 ### Utilities
@@ -496,7 +496,7 @@ Utilities for applying hue-rotate filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `hue_rotate` |
+| `hue_rotate_utilities` |
 
 
 ### Utilities
@@ -528,7 +528,7 @@ Utilities for applying invert filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `invert` |
+| `invert_utilities` |
 
 
 ### Utilities
@@ -556,7 +556,7 @@ Utilities for applying saturation filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `saturate` |
+| `saturate_utilities` |
 
 
 ### Utilities
@@ -587,7 +587,7 @@ Utilities for applying sepia filters to an element.
 
 | TailwindJS token |
 | ----- |
-| `sepia` |
+| `sepia_utilities` |
 
 
 ### Utilities

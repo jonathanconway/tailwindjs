@@ -1,7 +1,12 @@
 import { writeFileSync } from "fs";
 
 import { Definition, ModifierGroup } from "../parse-tailwindcss-pages";
-import { mkdirIfNotExistsSync, writeExportLineToIndex } from "../utils";
+import {
+  convertCodeNameToTitle,
+  mkdirIfNotExistsSync,
+  prepareComment,
+  writeExportLineToIndex,
+} from "../utils";
 import { genLibModifierArbitrary } from "./build-lib-modifier-group-arbitraries";
 import { genLibModifier } from "./build-lib-modifier-group-modifiers";
 
@@ -23,9 +28,12 @@ function buildLibModifierGroup(modifierGroup: ModifierGroup) {
     .map(genLibModifierArbitrary)
     .join("\n");
 
+  const modifierGroupObjectCode = genLibModifierGroupObject(modifierGroup);
+
   const content = `
 ${modifierGroupModifiersCode}
 ${modifierGroupArbitrariesCode}
+${modifierGroupObjectCode}
 `;
 
   writeLibModifierGroupFile(modifierGroup, content);
@@ -46,4 +54,31 @@ function writeLibModifierGroupFile(
 
 function writeLibModifierGroupsIndexFile() {
   writeExportLineToIndex(`${__dirname}/../../lib/index.ts`, "modifiers");
+}
+
+function genLibModifierGroupObject({
+  name,
+  tailwindCssUrl,
+  description,
+  modifiers,
+  arbitraries,
+}: ModifierGroup) {
+  return `
+/**
+ * ${prepareComment(convertCodeNameToTitle(name))}
+ * 
+ * ${prepareComment(description)}
+ *
+ * @see ${tailwindCssUrl}
+ */
+export const ${name}_modifiers = {
+${[
+  ...modifiers.map((modifier) => modifier.name),
+  ...arbitraries.map((arbitrary) => arbitrary.name),
+]
+  .filter(Boolean)
+  .map((name) => `  ${name}`)
+  .join(",\n")}
+};
+`;
 }

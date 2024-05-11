@@ -1,5 +1,5 @@
 import { Modifier } from "../parse-tailwindcss-pages";
-import { prepareComment } from "../utils";
+import { prepareComment, prepareDescription } from "../utils";
 
 export function genLibModifier({
   name,
@@ -12,7 +12,7 @@ export function genLibModifier({
 /**
  * ${prepareComment(tailwindCssName)}
  * 
-${description.trim() ? ` * ${description}\n *` : ""}
+${description.trim() ? ` * ${prepareDescription(description)}\n *` : ""}
  * CSS:
  * - \`${prepareComment(cssCode)}\`
  *

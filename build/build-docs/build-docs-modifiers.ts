@@ -5,7 +5,9 @@ import {
   convertCodeNameToTitle,
   genMdBlock,
   genMdPrimitivesTable,
+  genMdTable,
   mkdirIfNotExistsSync,
+  prepareDescription,
 } from "../utils";
 
 const docsPath = `${__dirname}/../../docs`;
@@ -34,6 +36,10 @@ export function buildDocsModifiersGroup(group: ModifierGroup) {
 export function genDocsModifiersAreaGroup(group: ModifierGroup) {
   return `
 ## ${convertCodeNameToTitle(group.name)}
+
+${prepareDescription(group.description)}
+
+${genMdTable([{ "TailwindJS token": `\`${group.name}_modifiers\`` }])}
 
 ${genDocsModifiersAreaGroupModifiersBlock(group)}
 

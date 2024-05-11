@@ -16,7 +16,7 @@ Utilities for styling the fill of SVG elements.
 
 | TailwindJS token |
 | ----- |
-| `fill` |
+| `fill_utilities` |
 
 
 ### Utilities
@@ -312,7 +312,7 @@ Utilities for styling the stroke of SVG elements.
 
 | TailwindJS token |
 | ----- |
-| `stroke` |
+| `stroke_utilities` |
 
 
 ### Utilities
@@ -608,7 +608,7 @@ Utilities for styling the stroke width of SVG elements.
 
 | TailwindJS token |
 | ----- |
-| `stroke_width` |
+| `stroke_width_utilities` |
 
 
 ### Utilities

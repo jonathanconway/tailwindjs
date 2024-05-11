@@ -1,4 +1,5 @@
 import { UtilityArbitrary, UtilityGroup } from "../parse-tailwindcss-pages";
+import { prepareDescription } from "../utils";
 import { ARBITRARY_FUNCTION_NAME_SUFFIX_VARIANTS } from "./arbitrary";
 
 export function genLibUtilityGroupArbitrariesCode(group: UtilityGroup): string {
@@ -16,7 +17,7 @@ export function genLibUtilityGroupArbitraryCode({
 /**
  * ${tailwindCssName}-[{value}]
  *
- * ${description}
+ * ${prepareDescription(description)}
  *
  * @see ${tailwindCssUrl}
  *

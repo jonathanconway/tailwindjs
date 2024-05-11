@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 
 import { UtilityGroup } from "../parse-tailwindcss-pages";
-import { writeExportLineToIndex } from "../utils";
+import { prepareDescription, writeExportLineToIndex } from "../utils";
 import { genLibUtilityGroupArbitrariesCode } from "./build-lib-utility-area-group-arbitraries";
 import { genLibUtilityGroupUtilitiesCode } from "./build-lib-utility-area-group-utilities";
 
@@ -52,7 +52,7 @@ function genLibUtilityGroupObject({
 /**
  * ${title}
  *
- * ${description}
+ * ${prepareDescription(description)}
  *
  * @see ${tailwindCssUrl}
  */
