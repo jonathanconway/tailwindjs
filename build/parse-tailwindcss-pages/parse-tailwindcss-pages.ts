@@ -426,6 +426,7 @@ function parseLibModifiers(): readonly ModifierGroup[] {
       };
     } else {
       modifierGroupsByName[groupName] = {
+        title: convertCodeNameToTitle(groupName),
         name: groupName,
         tailwindCssUrl: MODIFIER_GROUP_DETAILS[groupName].url,
         description: MODIFIER_GROUP_DETAILS[groupName].description,

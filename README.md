@@ -138,7 +138,7 @@ This will produce markup like the following:
 
 Note: TailwindJS does not yet support any non-TailwindJS arguments, apart from string literals, being passed to modifiers. So we recommend only passing TailwindJS utilities or modifiers, or string literals, as arguments to TailwindJS modifiers. Part of the reason for this is that TailwindJS [class detection](#class-detection) can only recognise TailwindJS utilities and functions.
 
-### Aribtraries
+### Arbitraries
 
 You can use Tailwind arbitrary values by calling them as functions, similar to modifiers.
 
@@ -182,14 +182,14 @@ This will produce markup like the following:
 
 ### Modifiers
 
-- [attribute_selectors](./docs/modifiers/attribute_selectors.md)
-- [media_feature_queries](./docs/modifiers/media_feature_queries.md)
-- [pseudo_classes](./docs/modifiers/pseudo_classes.md)
-- [pseudo_elements](./docs/modifiers/pseudo_elements.md)
+- [Attribute selectors](./docs/modifiers/attribute_selectors.md)
+- [Media feature queries](./docs/modifiers/media_feature_queries.md)
+- [Pseudo classes](./docs/modifiers/pseudo_classes.md)
+- [Pseudo elements](./docs/modifiers/pseudo_elements.md)
 
 <!-- insert api end -->
 
-## Helpers
+### Helpers
 
 - [Negative](./docs/helpers/negative.md)
 - [Class names](./docs/helpers/class-names.md)

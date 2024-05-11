@@ -13,24 +13,6 @@ ${genDocsReadmeIndexModifiers(definition)}
   interpolate(`${__dirname}/../../README.md`, "api", readmeIndexContent);
 }
 
-function genDocsReadmeIndexModifiers(definition: Definition) {
-  const readmeIndexModifierGroupsContent = definition.modifierGroups
-    .sortBy("name")
-    .map(
-      (group) =>
-        `- ${genMdLink(group.name, `./docs/modifiers/${group.name}.md`)}`
-    )
-    .join("\n");
-
-  const readmeIndexContent = `
-### Modifiers
-
-${readmeIndexModifierGroupsContent}
-`;
-
-  return readmeIndexContent;
-}
-
 function genDocsReadmeIndexUtilities(definition: Definition) {
   const readmeIndexUtilityAreasContent = definition.utilityAreas
     .sortBy("name")
@@ -43,6 +25,24 @@ function genDocsReadmeIndexUtilities(definition: Definition) {
 ### Utilities
 
 ${readmeIndexUtilityAreasContent}
+`;
+
+  return readmeIndexContent;
+}
+
+function genDocsReadmeIndexModifiers(definition: Definition) {
+  const readmeIndexModifierGroupsContent = definition.modifierGroups
+    .sortBy("name")
+    .map(
+      (group) =>
+        `- ${genMdLink(group.title, `./docs/modifiers/${group.name}.md`)}`
+    )
+    .join("\n");
+
+  const readmeIndexContent = `
+### Modifiers
+
+${readmeIndexModifierGroupsContent}
 `;
 
   return readmeIndexContent;

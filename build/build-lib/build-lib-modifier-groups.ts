@@ -58,6 +58,7 @@ function writeLibModifierGroupsIndexFile() {
 
 function genLibModifierGroupObject({
   name,
+  title,
   tailwindCssUrl,
   description,
   modifiers,
@@ -65,7 +66,7 @@ function genLibModifierGroupObject({
 }: ModifierGroup) {
   return `
 /**
- * ${prepareComment(convertCodeNameToTitle(name))}
+ * ${prepareComment(title)}
  * 
  * ${prepareComment(description)}
  *
