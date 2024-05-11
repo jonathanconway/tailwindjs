@@ -4,7 +4,7 @@
  * pointer-events-none
  *
  * CSS:
- * - `pointer-events: none;`
+ * - pointer-events: none;
   *
   * @see pointer_events
   *
@@ -17,7 +17,7 @@ export const pointer_events_none = "pointer-events-none";
  * pointer-events-auto
  *
  * CSS:
- * - `pointer-events: auto;`
+ * - pointer-events: auto;
   *
   * @see pointer_events
   *

@@ -158,9 +158,9 @@ Utilities for controlling the spacing between table borders.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `border_spacing` | [border-spacing](https://tailwindcss.com/docs/border-spacing#arbitrary-values) |
-| `border_spacing_x` | [border-spacing-x](https://tailwindcss.com/docs/border-spacing#arbitrary-values) |
-| `border_spacing_y` | [border-spacing-y](https://tailwindcss.com/docs/border-spacing#arbitrary-values) |
+| `border_spacing_arbitrary`, `border_spacing_arb` | [border-spacing-[…]](https://tailwindcss.com/docs/border-spacing#arbitrary-values) |
+| `border_spacing_x_arbitrary`, `border_spacing_x_arb` | [border-spacing-x-[…]](https://tailwindcss.com/docs/border-spacing#arbitrary-values) |
+| `border_spacing_y_arbitrary`, `border_spacing_y_arb` | [border-spacing-y-[…]](https://tailwindcss.com/docs/border-spacing#arbitrary-values) |
 
 
 

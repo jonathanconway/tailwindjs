@@ -4,8 +4,8 @@
  * antialiased
  *
  * CSS:
- * - `-webkit-font-smoothing: antialiased;`
- * - `-moz-osx-font-smoothing: grayscale;`
+ * - -webkit-font-smoothing: antialiased;
+ * - -moz-osx-font-smoothing: grayscale;
   *
   * @see font_smoothing
   *
@@ -18,8 +18,8 @@ export const antialiased = "antialiased";
  * subpixel-antialiased
  *
  * CSS:
- * - `-webkit-font-smoothing: auto;`
- * - `-moz-osx-font-smoothing: auto;`
+ * - -webkit-font-smoothing: auto;
+ * - -moz-osx-font-smoothing: auto;
   *
   * @see font_smoothing
   *

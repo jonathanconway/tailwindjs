@@ -4,7 +4,7 @@
  * backdrop-invert-0
  *
  * CSS:
- * - `backdrop-filter: invert(0);`
+ * - backdrop-filter: invert(0);
   *
   * @see backdrop_invert
   *
@@ -17,7 +17,7 @@ export const backdrop_invert_0 = "backdrop-invert-0";
  * backdrop-invert
  *
  * CSS:
- * - `backdrop-filter: invert(100%);`
+ * - backdrop-filter: invert(100%);
   *
   * @see backdrop_invert
   *

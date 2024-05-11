@@ -4,7 +4,7 @@
  * italic
  *
  * CSS:
- * - `font-style: italic;`
+ * - font-style: italic;
   *
   * @see font_style
   *
@@ -17,7 +17,7 @@ export const italic = "italic";
  * not-italic
  *
  * CSS:
- * - `font-style: normal;`
+ * - font-style: normal;
   *
   * @see font_style
   *

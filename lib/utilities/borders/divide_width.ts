@@ -4,8 +4,8 @@
  * divide-x-0
  *
  * CSS:
- * - `border-right-width: 0px;`
- * - `border-left-width: 0px;`
+ * - border-right-width: 0px;
+ * - border-left-width: 0px;
   *
   * @see divide_width
   *
@@ -18,8 +18,8 @@ export const divide_x_0 = "divide-x-0";
  * divide-x-2
  *
  * CSS:
- * - `border-right-width: 0px;`
- * - `border-left-width: 2px;`
+ * - border-right-width: 0px;
+ * - border-left-width: 2px;
   *
   * @see divide_width
   *
@@ -32,8 +32,8 @@ export const divide_x_2 = "divide-x-2";
  * divide-x-4
  *
  * CSS:
- * - `border-right-width: 0px;`
- * - `border-left-width: 4px;`
+ * - border-right-width: 0px;
+ * - border-left-width: 4px;
   *
   * @see divide_width
   *
@@ -46,8 +46,8 @@ export const divide_x_4 = "divide-x-4";
  * divide-x-8
  *
  * CSS:
- * - `border-right-width: 0px;`
- * - `border-left-width: 8px;`
+ * - border-right-width: 0px;
+ * - border-left-width: 8px;
   *
   * @see divide_width
   *
@@ -60,8 +60,8 @@ export const divide_x_8 = "divide-x-8";
  * divide-x
  *
  * CSS:
- * - `border-right-width: 0px;`
- * - `border-left-width: 1px;`
+ * - border-right-width: 0px;
+ * - border-left-width: 1px;
   *
   * @see divide_width
   *
@@ -74,8 +74,8 @@ export const divide_x = "divide-x";
  * divide-y-0
  *
  * CSS:
- * - `border-top-width: 0px;`
- * - `border-bottom-width: 0px;`
+ * - border-top-width: 0px;
+ * - border-bottom-width: 0px;
   *
   * @see divide_width
   *
@@ -88,8 +88,8 @@ export const divide_y_0 = "divide-y-0";
  * divide-y-2
  *
  * CSS:
- * - `border-top-width: 2px;`
- * - `border-bottom-width: 0px;`
+ * - border-top-width: 2px;
+ * - border-bottom-width: 0px;
   *
   * @see divide_width
   *
@@ -102,8 +102,8 @@ export const divide_y_2 = "divide-y-2";
  * divide-y-4
  *
  * CSS:
- * - `border-top-width: 4px;`
- * - `border-bottom-width: 0px;`
+ * - border-top-width: 4px;
+ * - border-bottom-width: 0px;
   *
   * @see divide_width
   *
@@ -116,8 +116,8 @@ export const divide_y_4 = "divide-y-4";
  * divide-y-8
  *
  * CSS:
- * - `border-top-width: 8px;`
- * - `border-bottom-width: 0px;`
+ * - border-top-width: 8px;
+ * - border-bottom-width: 0px;
   *
   * @see divide_width
   *
@@ -130,8 +130,8 @@ export const divide_y_8 = "divide-y-8";
  * divide-y
  *
  * CSS:
- * - `border-top-width: 1px;`
- * - `border-bottom-width: 0px;`
+ * - border-top-width: 1px;
+ * - border-bottom-width: 0px;
   *
   * @see divide_width
   *
@@ -144,7 +144,7 @@ export const divide_y = "divide-y";
  * divide-y-reverse
  *
  * CSS:
- * - `--tw-divide-y-reverse: 1;`
+ * - --tw-divide-y-reverse: 1;
   *
   * @see divide_width
   *
@@ -157,7 +157,7 @@ export const divide_y_reverse = "divide-y-reverse";
  * divide-x-reverse
  *
  * CSS:
- * - `--tw-divide-x-reverse: 1;`
+ * - --tw-divide-x-reverse: 1;
   *
   * @see divide_width
   *

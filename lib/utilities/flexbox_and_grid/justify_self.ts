@@ -4,7 +4,7 @@
  * justify-self-auto
  *
  * CSS:
- * - `justify-self: auto;`
+ * - justify-self: auto;
   *
   * @see justify_self
   *
@@ -17,7 +17,7 @@ export const justify_self_auto = "justify-self-auto";
  * justify-self-start
  *
  * CSS:
- * - `justify-self: start;`
+ * - justify-self: start;
   *
   * @see justify_self
   *
@@ -30,7 +30,7 @@ export const justify_self_start = "justify-self-start";
  * justify-self-end
  *
  * CSS:
- * - `justify-self: end;`
+ * - justify-self: end;
   *
   * @see justify_self
   *
@@ -43,7 +43,7 @@ export const justify_self_end = "justify-self-end";
  * justify-self-center
  *
  * CSS:
- * - `justify-self: center;`
+ * - justify-self: center;
   *
   * @see justify_self
   *
@@ -56,7 +56,7 @@ export const justify_self_center = "justify-self-center";
  * justify-self-stretch
  *
  * CSS:
- * - `justify-self: stretch;`
+ * - justify-self: stretch;
   *
   * @see justify_self
   *

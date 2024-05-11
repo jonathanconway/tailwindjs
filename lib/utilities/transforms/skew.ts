@@ -4,7 +4,7 @@
  * skew-x-0
  *
  * CSS:
- * - `transform: skewX(0deg);`
+ * - transform: skewX(0deg);
   *
   * @see skew
   *
@@ -17,7 +17,7 @@ export const skew_x_0 = "skew-x-0";
  * skew-y-0
  *
  * CSS:
- * - `transform: skewY(0deg);`
+ * - transform: skewY(0deg);
   *
   * @see skew
   *
@@ -30,7 +30,7 @@ export const skew_y_0 = "skew-y-0";
  * skew-x-1
  *
  * CSS:
- * - `transform: skewX(1deg);`
+ * - transform: skewX(1deg);
   *
   * @see skew
   *
@@ -43,7 +43,7 @@ export const skew_x_1 = "skew-x-1";
  * skew-y-1
  *
  * CSS:
- * - `transform: skewY(1deg);`
+ * - transform: skewY(1deg);
   *
   * @see skew
   *
@@ -56,7 +56,7 @@ export const skew_y_1 = "skew-y-1";
  * skew-x-2
  *
  * CSS:
- * - `transform: skewX(2deg);`
+ * - transform: skewX(2deg);
   *
   * @see skew
   *
@@ -69,7 +69,7 @@ export const skew_x_2 = "skew-x-2";
  * skew-y-2
  *
  * CSS:
- * - `transform: skewY(2deg);`
+ * - transform: skewY(2deg);
   *
   * @see skew
   *
@@ -82,7 +82,7 @@ export const skew_y_2 = "skew-y-2";
  * skew-x-3
  *
  * CSS:
- * - `transform: skewX(3deg);`
+ * - transform: skewX(3deg);
   *
   * @see skew
   *
@@ -95,7 +95,7 @@ export const skew_x_3 = "skew-x-3";
  * skew-y-3
  *
  * CSS:
- * - `transform: skewY(3deg);`
+ * - transform: skewY(3deg);
   *
   * @see skew
   *
@@ -108,7 +108,7 @@ export const skew_y_3 = "skew-y-3";
  * skew-x-6
  *
  * CSS:
- * - `transform: skewX(6deg);`
+ * - transform: skewX(6deg);
   *
   * @see skew
   *
@@ -121,7 +121,7 @@ export const skew_x_6 = "skew-x-6";
  * skew-y-6
  *
  * CSS:
- * - `transform: skewY(6deg);`
+ * - transform: skewY(6deg);
   *
   * @see skew
   *
@@ -134,7 +134,7 @@ export const skew_y_6 = "skew-y-6";
  * skew-x-12
  *
  * CSS:
- * - `transform: skewX(12deg);`
+ * - transform: skewX(12deg);
   *
   * @see skew
   *
@@ -147,7 +147,7 @@ export const skew_x_12 = "skew-x-12";
  * skew-y-12
  *
  * CSS:
- * - `transform: skewY(12deg);`
+ * - transform: skewY(12deg);
   *
   * @see skew
   *

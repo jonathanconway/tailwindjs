@@ -29,5 +29,5 @@ Attribute selectors, like [dir="rtl"] and [open].
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `aria_arbitrary` | [aria-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#aria-states) |
-| `data_arbitrary` | [data-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#data-attributes) |
+| `aria_arbitrary`, `aria_arb` | [aria-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#aria-states) |
+| `data_arbitrary`, `data_arb` | [data-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#data-attributes) |

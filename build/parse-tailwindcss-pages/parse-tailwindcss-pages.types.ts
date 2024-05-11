@@ -18,12 +18,11 @@ export interface UtilityGroup {
   readonly arbitraries: readonly UtilityArbitrary[];
 }
 
-export interface UtilityArbitrary {
-  readonly name: string;
-  readonly description?: string;
-  readonly tailwindCssName: string;
-  readonly tailwindCssUrl: string;
+export interface Arbitrary extends Primitive {
+  readonly description: string;
 }
+
+export interface UtilityArbitrary extends Arbitrary {}
 
 export interface Primitive {
   readonly name: string;
@@ -49,6 +48,4 @@ export interface Modifier extends Primitive {
   readonly description: string;
 }
 
-export interface ModifierArbitrary extends Primitive {
-  readonly description: string;
-}
+export interface ModifierArbitrary extends Arbitrary {}

@@ -4,7 +4,7 @@
  * opacity-0
  *
  * CSS:
- * - `opacity: 0;`
+ * - opacity: 0;
   *
   * @see opacity
   *
@@ -17,7 +17,7 @@ export const opacity_0 = "opacity-0";
  * opacity-5
  *
  * CSS:
- * - `opacity: 0.05;`
+ * - opacity: 0.05;
   *
   * @see opacity
   *
@@ -30,7 +30,7 @@ export const opacity_5 = "opacity-5";
  * opacity-10
  *
  * CSS:
- * - `opacity: 0.1;`
+ * - opacity: 0.1;
   *
   * @see opacity
   *
@@ -43,7 +43,7 @@ export const opacity_10 = "opacity-10";
  * opacity-15
  *
  * CSS:
- * - `opacity: 0.15;`
+ * - opacity: 0.15;
   *
   * @see opacity
   *
@@ -56,7 +56,7 @@ export const opacity_15 = "opacity-15";
  * opacity-20
  *
  * CSS:
- * - `opacity: 0.2;`
+ * - opacity: 0.2;
   *
   * @see opacity
   *
@@ -69,7 +69,7 @@ export const opacity_20 = "opacity-20";
  * opacity-25
  *
  * CSS:
- * - `opacity: 0.25;`
+ * - opacity: 0.25;
   *
   * @see opacity
   *
@@ -82,7 +82,7 @@ export const opacity_25 = "opacity-25";
  * opacity-30
  *
  * CSS:
- * - `opacity: 0.3;`
+ * - opacity: 0.3;
   *
   * @see opacity
   *
@@ -95,7 +95,7 @@ export const opacity_30 = "opacity-30";
  * opacity-35
  *
  * CSS:
- * - `opacity: 0.35;`
+ * - opacity: 0.35;
   *
   * @see opacity
   *
@@ -108,7 +108,7 @@ export const opacity_35 = "opacity-35";
  * opacity-40
  *
  * CSS:
- * - `opacity: 0.4;`
+ * - opacity: 0.4;
   *
   * @see opacity
   *
@@ -121,7 +121,7 @@ export const opacity_40 = "opacity-40";
  * opacity-45
  *
  * CSS:
- * - `opacity: 0.45;`
+ * - opacity: 0.45;
   *
   * @see opacity
   *
@@ -134,7 +134,7 @@ export const opacity_45 = "opacity-45";
  * opacity-50
  *
  * CSS:
- * - `opacity: 0.5;`
+ * - opacity: 0.5;
   *
   * @see opacity
   *
@@ -147,7 +147,7 @@ export const opacity_50 = "opacity-50";
  * opacity-55
  *
  * CSS:
- * - `opacity: 0.55;`
+ * - opacity: 0.55;
   *
   * @see opacity
   *
@@ -160,7 +160,7 @@ export const opacity_55 = "opacity-55";
  * opacity-60
  *
  * CSS:
- * - `opacity: 0.6;`
+ * - opacity: 0.6;
   *
   * @see opacity
   *
@@ -173,7 +173,7 @@ export const opacity_60 = "opacity-60";
  * opacity-65
  *
  * CSS:
- * - `opacity: 0.65;`
+ * - opacity: 0.65;
   *
   * @see opacity
   *
@@ -186,7 +186,7 @@ export const opacity_65 = "opacity-65";
  * opacity-70
  *
  * CSS:
- * - `opacity: 0.7;`
+ * - opacity: 0.7;
   *
   * @see opacity
   *
@@ -199,7 +199,7 @@ export const opacity_70 = "opacity-70";
  * opacity-75
  *
  * CSS:
- * - `opacity: 0.75;`
+ * - opacity: 0.75;
   *
   * @see opacity
   *
@@ -212,7 +212,7 @@ export const opacity_75 = "opacity-75";
  * opacity-80
  *
  * CSS:
- * - `opacity: 0.8;`
+ * - opacity: 0.8;
   *
   * @see opacity
   *
@@ -225,7 +225,7 @@ export const opacity_80 = "opacity-80";
  * opacity-85
  *
  * CSS:
- * - `opacity: 0.85;`
+ * - opacity: 0.85;
   *
   * @see opacity
   *
@@ -238,7 +238,7 @@ export const opacity_85 = "opacity-85";
  * opacity-90
  *
  * CSS:
- * - `opacity: 0.9;`
+ * - opacity: 0.9;
   *
   * @see opacity
   *
@@ -251,7 +251,7 @@ export const opacity_90 = "opacity-90";
  * opacity-95
  *
  * CSS:
- * - `opacity: 0.95;`
+ * - opacity: 0.95;
   *
   * @see opacity
   *
@@ -264,7 +264,7 @@ export const opacity_95 = "opacity-95";
  * opacity-100
  *
  * CSS:
- * - `opacity: 1;`
+ * - opacity: 1;
   *
   * @see opacity
   *

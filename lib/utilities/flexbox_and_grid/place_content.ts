@@ -4,7 +4,7 @@
  * place-content-center
  *
  * CSS:
- * - `place-content: center;`
+ * - place-content: center;
   *
   * @see place_content
   *
@@ -17,7 +17,7 @@ export const place_content_center = "place-content-center";
  * place-content-start
  *
  * CSS:
- * - `place-content: start;`
+ * - place-content: start;
   *
   * @see place_content
   *
@@ -30,7 +30,7 @@ export const place_content_start = "place-content-start";
  * place-content-end
  *
  * CSS:
- * - `place-content: end;`
+ * - place-content: end;
   *
   * @see place_content
   *
@@ -43,7 +43,7 @@ export const place_content_end = "place-content-end";
  * place-content-between
  *
  * CSS:
- * - `place-content: space-between;`
+ * - place-content: space-between;
   *
   * @see place_content
   *
@@ -56,7 +56,7 @@ export const place_content_between = "place-content-between";
  * place-content-around
  *
  * CSS:
- * - `place-content: space-around;`
+ * - place-content: space-around;
   *
   * @see place_content
   *
@@ -69,7 +69,7 @@ export const place_content_around = "place-content-around";
  * place-content-evenly
  *
  * CSS:
- * - `place-content: space-evenly;`
+ * - place-content: space-evenly;
   *
   * @see place_content
   *
@@ -82,7 +82,7 @@ export const place_content_evenly = "place-content-evenly";
  * place-content-baseline
  *
  * CSS:
- * - `place-content: baseline;`
+ * - place-content: baseline;
   *
   * @see place_content
   *
@@ -95,7 +95,7 @@ export const place_content_baseline = "place-content-baseline";
  * place-content-stretch
  *
  * CSS:
- * - `place-content: stretch;`
+ * - place-content: stretch;
   *
   * @see place_content
   *

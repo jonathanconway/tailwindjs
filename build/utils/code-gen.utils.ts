@@ -68,7 +68,7 @@ export function convertTailwindCssNameToCodeName(input: string) {
     .replaceAll(".", "_")
     .replaceAll("/", "_on_")
     .replaceAll("%", "_pc")
-    .replaceAll("[…]", "arbitrary")
+    .replaceAll("[…]", "")
     .replaceAll(":", "_")
     .replaceAll("-", "_")
     .replaceAll(":", "_")

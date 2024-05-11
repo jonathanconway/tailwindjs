@@ -4,7 +4,7 @@
  * resize-none
  *
  * CSS:
- * - `resize: none;`
+ * - resize: none;
   *
   * @see resize
   *
@@ -17,7 +17,7 @@ export const resize_none = "resize-none";
  * resize-y
  *
  * CSS:
- * - `resize: vertical;`
+ * - resize: vertical;
   *
   * @see resize
   *
@@ -30,7 +30,7 @@ export const resize_y = "resize-y";
  * resize-x
  *
  * CSS:
- * - `resize: horizontal;`
+ * - resize: horizontal;
   *
   * @see resize
   *
@@ -43,7 +43,7 @@ export const resize_x = "resize-x";
  * resize
  *
  * CSS:
- * - `resize: both;`
+ * - resize: both;
   *
   * @see resize
   *

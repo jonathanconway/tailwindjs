@@ -4,7 +4,7 @@
  * select-none
  *
  * CSS:
- * - `user-select: none;`
+ * - user-select: none;
   *
   * @see user_select
   *
@@ -17,7 +17,7 @@ export const select_none = "select-none";
  * select-text
  *
  * CSS:
- * - `user-select: text;`
+ * - user-select: text;
   *
   * @see user_select
   *
@@ -30,7 +30,7 @@ export const select_text = "select-text";
  * select-all
  *
  * CSS:
- * - `user-select: all;`
+ * - user-select: all;
   *
   * @see user_select
   *
@@ -43,7 +43,7 @@ export const select_all = "select-all";
  * select-auto
  *
  * CSS:
- * - `user-select: auto;`
+ * - user-select: auto;
   *
   * @see user_select
   *

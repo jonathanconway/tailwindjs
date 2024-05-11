@@ -4,7 +4,7 @@
  * items-start
  *
  * CSS:
- * - `align-items: flex-start;`
+ * - align-items: flex-start;
   *
   * @see align_items
   *
@@ -17,7 +17,7 @@ export const items_start = "items-start";
  * items-end
  *
  * CSS:
- * - `align-items: flex-end;`
+ * - align-items: flex-end;
   *
   * @see align_items
   *
@@ -30,7 +30,7 @@ export const items_end = "items-end";
  * items-center
  *
  * CSS:
- * - `align-items: center;`
+ * - align-items: center;
   *
   * @see align_items
   *
@@ -43,7 +43,7 @@ export const items_center = "items-center";
  * items-baseline
  *
  * CSS:
- * - `align-items: baseline;`
+ * - align-items: baseline;
   *
   * @see align_items
   *
@@ -56,7 +56,7 @@ export const items_baseline = "items-baseline";
  * items-stretch
  *
  * CSS:
- * - `align-items: stretch;`
+ * - align-items: stretch;
   *
   * @see align_items
   *

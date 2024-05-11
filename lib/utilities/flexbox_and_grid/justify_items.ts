@@ -4,7 +4,7 @@
  * justify-items-start
  *
  * CSS:
- * - `justify-items: start;`
+ * - justify-items: start;
   *
   * @see justify_items
   *
@@ -17,7 +17,7 @@ export const justify_items_start = "justify-items-start";
  * justify-items-end
  *
  * CSS:
- * - `justify-items: end;`
+ * - justify-items: end;
   *
   * @see justify_items
   *
@@ -30,7 +30,7 @@ export const justify_items_end = "justify-items-end";
  * justify-items-center
  *
  * CSS:
- * - `justify-items: center;`
+ * - justify-items: center;
   *
   * @see justify_items
   *
@@ -43,7 +43,7 @@ export const justify_items_center = "justify-items-center";
  * justify-items-stretch
  *
  * CSS:
- * - `justify-items: stretch;`
+ * - justify-items: stretch;
   *
   * @see justify_items
   *

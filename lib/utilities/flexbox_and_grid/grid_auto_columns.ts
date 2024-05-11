@@ -4,7 +4,7 @@
  * auto-cols-auto
  *
  * CSS:
- * - `grid-auto-columns: auto;`
+ * - grid-auto-columns: auto;
   *
   * @see grid_auto_columns
   *
@@ -17,7 +17,7 @@ export const auto_cols_auto = "auto-cols-auto";
  * auto-cols-min
  *
  * CSS:
- * - `grid-auto-columns: min-content;`
+ * - grid-auto-columns: min-content;
   *
   * @see grid_auto_columns
   *
@@ -30,7 +30,7 @@ export const auto_cols_min = "auto-cols-min";
  * auto-cols-max
  *
  * CSS:
- * - `grid-auto-columns: max-content;`
+ * - grid-auto-columns: max-content;
   *
   * @see grid_auto_columns
   *
@@ -43,7 +43,7 @@ export const auto_cols_max = "auto-cols-max";
  * auto-cols-fr
  *
  * CSS:
- * - `grid-auto-columns: minmax(0, 1fr);`
+ * - grid-auto-columns: minmax(0, 1fr);
   *
   * @see grid_auto_columns
   *

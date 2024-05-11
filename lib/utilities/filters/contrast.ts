@@ -4,7 +4,7 @@
  * contrast-0
  *
  * CSS:
- * - `filter: contrast(0);`
+ * - filter: contrast(0);
   *
   * @see contrast
   *
@@ -17,7 +17,7 @@ export const contrast_0 = "contrast-0";
  * contrast-50
  *
  * CSS:
- * - `filter: contrast(.5);`
+ * - filter: contrast(.5);
   *
   * @see contrast
   *
@@ -30,7 +30,7 @@ export const contrast_50 = "contrast-50";
  * contrast-75
  *
  * CSS:
- * - `filter: contrast(.75);`
+ * - filter: contrast(.75);
   *
   * @see contrast
   *
@@ -43,7 +43,7 @@ export const contrast_75 = "contrast-75";
  * contrast-100
  *
  * CSS:
- * - `filter: contrast(1);`
+ * - filter: contrast(1);
   *
   * @see contrast
   *
@@ -56,7 +56,7 @@ export const contrast_100 = "contrast-100";
  * contrast-125
  *
  * CSS:
- * - `filter: contrast(1.25);`
+ * - filter: contrast(1.25);
   *
   * @see contrast
   *
@@ -69,7 +69,7 @@ export const contrast_125 = "contrast-125";
  * contrast-150
  *
  * CSS:
- * - `filter: contrast(1.5);`
+ * - filter: contrast(1.5);
   *
   * @see contrast
   *
@@ -82,7 +82,7 @@ export const contrast_150 = "contrast-150";
  * contrast-200
  *
  * CSS:
- * - `filter: contrast(2);`
+ * - filter: contrast(2);
   *
   * @see contrast
   *

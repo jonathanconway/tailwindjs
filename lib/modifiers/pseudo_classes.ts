@@ -6,7 +6,7 @@
  * Style an element when the user hovers over it with the mouse cursor using the hover modifier.
  *
  * CSS:
- * - `&:hover`
+ * - &:hover
  *
  * @param suffix Utility to modify
  * 
@@ -23,7 +23,7 @@ export const hover = (suffix: string) => `hover:${suffix}`;
  * Style an element when it has focus using the focus modifier.
  *
  * CSS:
- * - `&:focus`
+ * - &:focus
  *
  * @param suffix Utility to modify
  * 
@@ -40,7 +40,7 @@ export const focus = (suffix: string) => `focus:${suffix}`;
  * Style an element when it or one of its descendants has focus using the focus-within modifier.
  *
  * CSS:
- * - `&:focus-within`
+ * - &:focus-within
  *
  * @param suffix Utility to modify
  * 
@@ -57,7 +57,7 @@ export const focus_within = (suffix: string) => `focus-within:${suffix}`;
  * Style an element when it has been focused using the keyboard using the focus-visible modifier.
  *
  * CSS:
- * - `&:focus-visible`
+ * - &:focus-visible
  *
  * @param suffix Utility to modify
  * 
@@ -74,7 +74,7 @@ export const focus_visible = (suffix: string) => `focus-visible:${suffix}`;
  * Style an element when it is being pressed using the active modifier.
  *
  * CSS:
- * - `&:active`
+ * - &:active
  *
  * @param suffix Utility to modify
  * 
@@ -91,7 +91,7 @@ export const active = (suffix: string) => `active:${suffix}`;
  * Style a link when it has already been visited using the visited modifier.
  *
  * CSS:
- * - `&:visited`
+ * - &:visited
  *
  * @param suffix Utility to modify
  * 
@@ -108,7 +108,7 @@ export const visited = (suffix: string) => `visited:${suffix}`;
  * Style an element if its ID matches the current URL fragment using the target modifier.
  *
  * CSS:
- * - `&:target`
+ * - &:target
  *
  * @param suffix Utility to modify
  * 
@@ -125,7 +125,7 @@ export const target = (suffix: string) => `target:${suffix}`;
  * While it’s generally preferable to put utility classes directly on child elements, you can use the * modifier in situations where you need to style direct children that you don’t have control over.
  *
  * CSS:
- * - `& > *`
+ * - & > *
  *
  * @param suffix Utility to modify
  * 
@@ -142,7 +142,7 @@ export const all = (suffix: string) => `*:${suffix}`;
  * Use the has-* modifier to style an element based on the state or content of its descendants.
  *
  * CSS:
- * - `&:has`
+ * - &:has
  *
  * @param suffix Utility to modify
  * 
@@ -159,7 +159,7 @@ export const has = (suffix: string) => `has:${suffix}`;
  * Style an element if it’s the first child using the first modifier.
  *
  * CSS:
- * - `&:first-child`
+ * - &:first-child
  *
  * @param suffix Utility to modify
  * 
@@ -176,7 +176,7 @@ export const first = (suffix: string) => `first:${suffix}`;
  * Style an element if it’s the last child using the last modifier.
  *
  * CSS:
- * - `&:last-child`
+ * - &:last-child
  *
  * @param suffix Utility to modify
  * 
@@ -193,7 +193,7 @@ export const last = (suffix: string) => `last:${suffix}`;
  * Style an element if it’s the only child using the only modifier.
  *
  * CSS:
- * - `&:only-child`
+ * - &:only-child
  *
  * @param suffix Utility to modify
  * 
@@ -210,7 +210,7 @@ export const only = (suffix: string) => `only:${suffix}`;
  * Style an element if it’s an oddly numbered child using the odd modifier.
  *
  * CSS:
- * - `&:nth-child(odd)`
+ * - &:nth-child(odd)
  *
  * @param suffix Utility to modify
  * 
@@ -227,7 +227,7 @@ export const odd = (suffix: string) => `odd:${suffix}`;
  * Style an element if it’s an evenly numbered child using the even modifier.
  *
  * CSS:
- * - `&:nth-child(even)`
+ * - &:nth-child(even)
  *
  * @param suffix Utility to modify
  * 
@@ -244,7 +244,7 @@ export const even = (suffix: string) => `even:${suffix}`;
  * Style an element if it’s the first child of its type using the first-of-type modifier.
  *
  * CSS:
- * - `&:first-of-type`
+ * - &:first-of-type
  *
  * @param suffix Utility to modify
  * 
@@ -261,7 +261,7 @@ export const first_of_type = (suffix: string) => `first-of-type:${suffix}`;
  * Style an element if it’s the last child of its type using the last-of-type modifier.
  *
  * CSS:
- * - `&:last-of-type`
+ * - &:last-of-type
  *
  * @param suffix Utility to modify
  * 
@@ -278,7 +278,7 @@ export const last_of_type = (suffix: string) => `last-of-type:${suffix}`;
  * Style an element if it’s the only child of its type using the only-of-type modifier.
  *
  * CSS:
- * - `&:only-of-type`
+ * - &:only-of-type
  *
  * @param suffix Utility to modify
  * 
@@ -295,7 +295,7 @@ export const only_of_type = (suffix: string) => `only-of-type:${suffix}`;
  * Style an element if it has no content using the empty modifier.
  *
  * CSS:
- * - `&:empty`
+ * - &:empty
  *
  * @param suffix Utility to modify
  * 
@@ -312,7 +312,7 @@ export const empty = (suffix: string) => `empty:${suffix}`;
  * Style an input when it’s disabled using the disabled modifier.
  *
  * CSS:
- * - `&:disabled`
+ * - &:disabled
  *
  * @param suffix Utility to modify
  * 
@@ -329,7 +329,7 @@ export const disabled = (suffix: string) => `disabled:${suffix}`;
  * Style an input when it’s enabled using the enabled modifier, most helpful when you only want to apply another style when an element is not disabled.
  *
  * CSS:
- * - `&:enabled`
+ * - &:enabled
  *
  * @param suffix Utility to modify
  * 
@@ -346,7 +346,7 @@ export const enabled = (suffix: string) => `enabled:${suffix}`;
  * Style a checkbox or radio button when it’s checked using the checked modifier.
  *
  * CSS:
- * - `&:checked`
+ * - &:checked
  *
  * @param suffix Utility to modify
  * 
@@ -363,7 +363,7 @@ export const checked = (suffix: string) => `checked:${suffix}`;
  * Style a checkbox or radio button in an indeterminate state using the indeterminate modifier.
  *
  * CSS:
- * - `&:indeterminate`
+ * - &:indeterminate
  *
  * @param suffix Utility to modify
  * 
@@ -380,7 +380,7 @@ export const indeterminate = (suffix: string) => `indeterminate:${suffix}`;
  * Style an option, checkbox or radio button that was the default value when the page initially loaded using the default modifier.
  *
  * CSS:
- * - `&:default`
+ * - &:default
  *
  * @param suffix Utility to modify
  * 
@@ -397,7 +397,7 @@ export const default_ = (suffix: string) => `default:${suffix}`;
  * Style an input when it’s required using the required modifier.
  *
  * CSS:
- * - `&:required`
+ * - &:required
  *
  * @param suffix Utility to modify
  * 
@@ -414,7 +414,7 @@ export const required = (suffix: string) => `required:${suffix}`;
  * Style an input when it’s valid using the valid modifier.
  *
  * CSS:
- * - `&:valid`
+ * - &:valid
  *
  * @param suffix Utility to modify
  * 
@@ -431,7 +431,7 @@ export const valid = (suffix: string) => `valid:${suffix}`;
  * Style an input when it’s invalid using the invalid modifier.
  *
  * CSS:
- * - `&:invalid`
+ * - &:invalid
  *
  * @param suffix Utility to modify
  * 
@@ -448,7 +448,7 @@ export const invalid = (suffix: string) => `invalid:${suffix}`;
  * Style an input when its value is within a specified range limit using the in-range modifier.
  *
  * CSS:
- * - `&:in-range`
+ * - &:in-range
  *
  * @param suffix Utility to modify
  * 
@@ -465,7 +465,7 @@ export const in_range = (suffix: string) => `in-range:${suffix}`;
  * Style an input when its value is outside of a specified range limit using the out-of-range modifier.
  *
  * CSS:
- * - `&:out-of-range`
+ * - &:out-of-range
  *
  * @param suffix Utility to modify
  * 
@@ -482,7 +482,7 @@ export const out_of_range = (suffix: string) => `out-of-range:${suffix}`;
  * Style an input when the placeholder is shown using the placeholder-shown modifier.
  *
  * CSS:
- * - `&:placeholder-shown`
+ * - &:placeholder-shown
  *
  * @param suffix Utility to modify
  * 
@@ -499,7 +499,7 @@ export const placeholder_shown = (suffix: string) => `placeholder-shown:${suffix
  * Style an input when it has been autofilled by the browser using the autofill modifier.
  *
  * CSS:
- * - `&:autofill`
+ * - &:autofill
  *
  * @param suffix Utility to modify
  * 
@@ -516,7 +516,7 @@ export const autofill = (suffix: string) => `autofill:${suffix}`;
  * Style an input when it is read-only using the read-only modifier.
  *
  * CSS:
- * - `&:read-only`
+ * - &:read-only
  *
  * @param suffix Utility to modify
  * 

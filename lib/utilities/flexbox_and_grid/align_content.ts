@@ -4,7 +4,7 @@
  * content-normal
  *
  * CSS:
- * - `align-content: normal;`
+ * - align-content: normal;
   *
   * @see align_content
   *
@@ -17,7 +17,7 @@ export const content_normal = "content-normal";
  * content-center
  *
  * CSS:
- * - `align-content: center;`
+ * - align-content: center;
   *
   * @see align_content
   *
@@ -30,7 +30,7 @@ export const content_center = "content-center";
  * content-start
  *
  * CSS:
- * - `align-content: flex-start;`
+ * - align-content: flex-start;
   *
   * @see align_content
   *
@@ -43,7 +43,7 @@ export const content_start = "content-start";
  * content-end
  *
  * CSS:
- * - `align-content: flex-end;`
+ * - align-content: flex-end;
   *
   * @see align_content
   *
@@ -56,7 +56,7 @@ export const content_end = "content-end";
  * content-between
  *
  * CSS:
- * - `align-content: space-between;`
+ * - align-content: space-between;
   *
   * @see align_content
   *
@@ -69,7 +69,7 @@ export const content_between = "content-between";
  * content-around
  *
  * CSS:
- * - `align-content: space-around;`
+ * - align-content: space-around;
   *
   * @see align_content
   *
@@ -82,7 +82,7 @@ export const content_around = "content-around";
  * content-evenly
  *
  * CSS:
- * - `align-content: space-evenly;`
+ * - align-content: space-evenly;
   *
   * @see align_content
   *
@@ -95,7 +95,7 @@ export const content_evenly = "content-evenly";
  * content-baseline
  *
  * CSS:
- * - `align-content: baseline;`
+ * - align-content: baseline;
   *
   * @see align_content
   *
@@ -108,7 +108,7 @@ export const content_baseline = "content-baseline";
  * content-stretch
  *
  * CSS:
- * - `align-content: stretch;`
+ * - align-content: stretch;
   *
   * @see align_content
   *

@@ -278,29 +278,29 @@ Utilities for styling the fill of SVG elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `fill` | [fill](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_amber` | [fill-amber](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_blue` | [fill-blue](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_cyan` | [fill-cyan](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_emerald` | [fill-emerald](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_fuchsia` | [fill-fuchsia](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_gray` | [fill-gray](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_green` | [fill-green](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_indigo` | [fill-indigo](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_lime` | [fill-lime](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_neutral` | [fill-neutral](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_orange` | [fill-orange](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_pink` | [fill-pink](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_purple` | [fill-purple](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_red` | [fill-red](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_rose` | [fill-rose](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_sky` | [fill-sky](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_slate` | [fill-slate](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_stone` | [fill-stone](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_teal` | [fill-teal](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_violet` | [fill-violet](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_yellow` | [fill-yellow](https://tailwindcss.com/docs/fill#arbitrary-values) |
-| `fill_zinc` | [fill-zinc](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_arbitrary`, `fill_arb` | [fill-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_amber_arbitrary`, `fill_amber_arb` | [fill-amber-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_blue_arbitrary`, `fill_blue_arb` | [fill-blue-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_cyan_arbitrary`, `fill_cyan_arb` | [fill-cyan-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_emerald_arbitrary`, `fill_emerald_arb` | [fill-emerald-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_fuchsia_arbitrary`, `fill_fuchsia_arb` | [fill-fuchsia-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_gray_arbitrary`, `fill_gray_arb` | [fill-gray-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_green_arbitrary`, `fill_green_arb` | [fill-green-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_indigo_arbitrary`, `fill_indigo_arb` | [fill-indigo-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_lime_arbitrary`, `fill_lime_arb` | [fill-lime-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_neutral_arbitrary`, `fill_neutral_arb` | [fill-neutral-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_orange_arbitrary`, `fill_orange_arb` | [fill-orange-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_pink_arbitrary`, `fill_pink_arb` | [fill-pink-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_purple_arbitrary`, `fill_purple_arb` | [fill-purple-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_red_arbitrary`, `fill_red_arb` | [fill-red-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_rose_arbitrary`, `fill_rose_arb` | [fill-rose-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_sky_arbitrary`, `fill_sky_arb` | [fill-sky-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_slate_arbitrary`, `fill_slate_arb` | [fill-slate-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_stone_arbitrary`, `fill_stone_arb` | [fill-stone-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_teal_arbitrary`, `fill_teal_arb` | [fill-teal-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_violet_arbitrary`, `fill_violet_arb` | [fill-violet-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_yellow_arbitrary`, `fill_yellow_arb` | [fill-yellow-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
+| `fill_zinc_arbitrary`, `fill_zinc_arb` | [fill-zinc-[…]](https://tailwindcss.com/docs/fill#arbitrary-values) |
 
 
 
@@ -574,29 +574,29 @@ Utilities for styling the stroke of SVG elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `stroke` | [stroke](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_amber` | [stroke-amber](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_blue` | [stroke-blue](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_cyan` | [stroke-cyan](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_emerald` | [stroke-emerald](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_fuchsia` | [stroke-fuchsia](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_gray` | [stroke-gray](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_green` | [stroke-green](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_indigo` | [stroke-indigo](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_lime` | [stroke-lime](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_neutral` | [stroke-neutral](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_orange` | [stroke-orange](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_pink` | [stroke-pink](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_purple` | [stroke-purple](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_red` | [stroke-red](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_rose` | [stroke-rose](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_sky` | [stroke-sky](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_slate` | [stroke-slate](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_stone` | [stroke-stone](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_teal` | [stroke-teal](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_violet` | [stroke-violet](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_yellow` | [stroke-yellow](https://tailwindcss.com/docs/stroke#arbitrary-values) |
-| `stroke_zinc` | [stroke-zinc](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_arbitrary`, `stroke_arb` | [stroke-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_amber_arbitrary`, `stroke_amber_arb` | [stroke-amber-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_blue_arbitrary`, `stroke_blue_arb` | [stroke-blue-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_cyan_arbitrary`, `stroke_cyan_arb` | [stroke-cyan-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_emerald_arbitrary`, `stroke_emerald_arb` | [stroke-emerald-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_fuchsia_arbitrary`, `stroke_fuchsia_arb` | [stroke-fuchsia-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_gray_arbitrary`, `stroke_gray_arb` | [stroke-gray-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_green_arbitrary`, `stroke_green_arb` | [stroke-green-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_indigo_arbitrary`, `stroke_indigo_arb` | [stroke-indigo-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_lime_arbitrary`, `stroke_lime_arb` | [stroke-lime-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_neutral_arbitrary`, `stroke_neutral_arb` | [stroke-neutral-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_orange_arbitrary`, `stroke_orange_arb` | [stroke-orange-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_pink_arbitrary`, `stroke_pink_arb` | [stroke-pink-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_purple_arbitrary`, `stroke_purple_arb` | [stroke-purple-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_red_arbitrary`, `stroke_red_arb` | [stroke-red-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_rose_arbitrary`, `stroke_rose_arb` | [stroke-rose-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_sky_arbitrary`, `stroke_sky_arb` | [stroke-sky-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_slate_arbitrary`, `stroke_slate_arb` | [stroke-slate-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_stone_arbitrary`, `stroke_stone_arb` | [stroke-stone-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_teal_arbitrary`, `stroke_teal_arb` | [stroke-teal-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_violet_arbitrary`, `stroke_violet_arb` | [stroke-violet-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_yellow_arbitrary`, `stroke_yellow_arb` | [stroke-yellow-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
+| `stroke_zinc_arbitrary`, `stroke_zinc_arb` | [stroke-zinc-[…]](https://tailwindcss.com/docs/stroke#arbitrary-values) |
 
 
 

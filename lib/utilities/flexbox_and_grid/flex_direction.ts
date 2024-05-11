@@ -4,7 +4,7 @@
  * flex-row
  *
  * CSS:
- * - `flex-direction: row;`
+ * - flex-direction: row;
   *
   * @see flex_direction
   *
@@ -17,7 +17,7 @@ export const flex_row = "flex-row";
  * flex-row-reverse
  *
  * CSS:
- * - `flex-direction: row-reverse;`
+ * - flex-direction: row-reverse;
   *
   * @see flex_direction
   *
@@ -30,7 +30,7 @@ export const flex_row_reverse = "flex-row-reverse";
  * flex-col
  *
  * CSS:
- * - `flex-direction: column;`
+ * - flex-direction: column;
   *
   * @see flex_direction
   *
@@ -43,7 +43,7 @@ export const flex_col = "flex-col";
  * flex-col-reverse
  *
  * CSS:
- * - `flex-direction: column-reverse;`
+ * - flex-direction: column-reverse;
   *
   * @see flex_direction
   *

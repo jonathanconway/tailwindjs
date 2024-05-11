@@ -4,7 +4,7 @@
  * border-collapse
  *
  * CSS:
- * - `border-collapse: collapse;`
+ * - border-collapse: collapse;
   *
   * @see border_collapse
   *
@@ -17,7 +17,7 @@ export const border_collapse = "border-collapse";
  * border-separate
  *
  * CSS:
- * - `border-collapse: separate;`
+ * - border-collapse: separate;
   *
   * @see border_collapse
   *

@@ -4,7 +4,7 @@
  * break-after-auto
  *
  * CSS:
- * - `break-after: auto;`
+ * - break-after: auto;
   *
   * @see break_after
   *
@@ -17,7 +17,7 @@ export const break_after_auto = "break-after-auto";
  * break-after-avoid
  *
  * CSS:
- * - `break-after: avoid;`
+ * - break-after: avoid;
   *
   * @see break_after
   *
@@ -30,7 +30,7 @@ export const break_after_avoid = "break-after-avoid";
  * break-after-all
  *
  * CSS:
- * - `break-after: all;`
+ * - break-after: all;
   *
   * @see break_after
   *
@@ -43,7 +43,7 @@ export const break_after_all = "break-after-all";
  * break-after-avoid-page
  *
  * CSS:
- * - `break-after: avoid-page;`
+ * - break-after: avoid-page;
   *
   * @see break_after
   *
@@ -56,7 +56,7 @@ export const break_after_avoid_page = "break-after-avoid-page";
  * break-after-page
  *
  * CSS:
- * - `break-after: page;`
+ * - break-after: page;
   *
   * @see break_after
   *
@@ -69,7 +69,7 @@ export const break_after_page = "break-after-page";
  * break-after-left
  *
  * CSS:
- * - `break-after: left;`
+ * - break-after: left;
   *
   * @see break_after
   *
@@ -82,7 +82,7 @@ export const break_after_left = "break-after-left";
  * break-after-right
  *
  * CSS:
- * - `break-after: right;`
+ * - break-after: right;
   *
   * @see break_after
   *
@@ -95,7 +95,7 @@ export const break_after_right = "break-after-right";
  * break-after-column
  *
  * CSS:
- * - `break-after: column;`
+ * - break-after: column;
   *
   * @see break_after
   *

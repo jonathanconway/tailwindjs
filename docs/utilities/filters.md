@@ -53,8 +53,8 @@ Utilities for applying backdrop blur filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop` | [backdrop](https://tailwindcss.com/docs/backdrop-blur#arbitrary-values) |
-| `backdrop_blur` | [backdrop-blur](https://tailwindcss.com/docs/backdrop-blur#arbitrary-values) |
+| `backdrop_arbitrary`, `backdrop_arb` | [backdrop-[…]](https://tailwindcss.com/docs/backdrop-blur#arbitrary-values) |
+| `backdrop_blur_arbitrary`, `backdrop_blur_arb` | [backdrop-blur-[…]](https://tailwindcss.com/docs/backdrop-blur#arbitrary-values) |
 
 
 
@@ -91,7 +91,7 @@ Utilities for applying backdrop brightness filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_brightness` | [backdrop-brightness](https://tailwindcss.com/docs/backdrop-brightness#arbitrary-values) |
+| `backdrop_brightness_arbitrary`, `backdrop_brightness_arb` | [backdrop-brightness-[…]](https://tailwindcss.com/docs/backdrop-brightness#arbitrary-values) |
 
 
 
@@ -124,7 +124,7 @@ Utilities for applying backdrop contrast filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_contrast` | [backdrop-contrast](https://tailwindcss.com/docs/backdrop-contrast#arbitrary-values) |
+| `backdrop_contrast_arbitrary`, `backdrop_contrast_arb` | [backdrop-contrast-[…]](https://tailwindcss.com/docs/backdrop-contrast#arbitrary-values) |
 
 
 
@@ -152,7 +152,7 @@ Utilities for applying backdrop grayscale filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_grayscale` | [backdrop-grayscale](https://tailwindcss.com/docs/backdrop-grayscale#arbitrary-values) |
+| `backdrop_grayscale_arbitrary`, `backdrop_grayscale_arb` | [backdrop-grayscale-[…]](https://tailwindcss.com/docs/backdrop-grayscale#arbitrary-values) |
 
 
 
@@ -184,7 +184,7 @@ Utilities for applying backdrop hue-rotate filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_hue_rotate` | [backdrop-hue-rotate](https://tailwindcss.com/docs/backdrop-hue-rotate#arbitrary-values) |
+| `backdrop_hue_rotate_arbitrary`, `backdrop_hue_rotate_arb` | [backdrop-hue-rotate-[…]](https://tailwindcss.com/docs/backdrop-hue-rotate#arbitrary-values) |
 
 
 
@@ -212,7 +212,7 @@ Utilities for applying backdrop invert filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_invert` | [backdrop-invert](https://tailwindcss.com/docs/backdrop-invert#arbitrary-values) |
+| `backdrop_invert_arbitrary`, `backdrop_invert_arb` | [backdrop-invert-[…]](https://tailwindcss.com/docs/backdrop-invert#arbitrary-values) |
 
 
 
@@ -259,7 +259,7 @@ Utilities for applying backdrop opacity filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_opacity` | [backdrop-opacity](https://tailwindcss.com/docs/backdrop-opacity#arbitrary-values) |
+| `backdrop_opacity_arbitrary`, `backdrop_opacity_arb` | [backdrop-opacity-[…]](https://tailwindcss.com/docs/backdrop-opacity#arbitrary-values) |
 
 
 
@@ -290,7 +290,7 @@ Utilities for applying backdrop saturation filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_saturate` | [backdrop-saturate](https://tailwindcss.com/docs/backdrop-saturate#arbitrary-values) |
+| `backdrop_saturate_arbitrary`, `backdrop_saturate_arb` | [backdrop-saturate-[…]](https://tailwindcss.com/docs/backdrop-saturate#arbitrary-values) |
 
 
 
@@ -318,7 +318,7 @@ Utilities for applying backdrop sepia filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `backdrop_sepia` | [backdrop-sepia](https://tailwindcss.com/docs/backdrop-sepia#arbitrary-values) |
+| `backdrop_sepia_arbitrary`, `backdrop_sepia_arb` | [backdrop-sepia-[…]](https://tailwindcss.com/docs/backdrop-sepia#arbitrary-values) |
 
 
 
@@ -352,7 +352,7 @@ Utilities for applying blur filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `blur` | [blur](https://tailwindcss.com/docs/blur#arbitrary-values) |
+| `blur_arbitrary`, `blur_arb` | [blur-[…]](https://tailwindcss.com/docs/blur#arbitrary-values) |
 
 
 
@@ -389,7 +389,7 @@ Utilities for applying brightness filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `brightness` | [brightness](https://tailwindcss.com/docs/brightness#arbitrary-values) |
+| `brightness_arbitrary`, `brightness_arb` | [brightness-[…]](https://tailwindcss.com/docs/brightness#arbitrary-values) |
 
 
 
@@ -422,7 +422,7 @@ Utilities for applying contrast filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `contrast` | [contrast](https://tailwindcss.com/docs/contrast#arbitrary-values) |
+| `contrast_arbitrary`, `contrast_arb` | [contrast-[…]](https://tailwindcss.com/docs/contrast#arbitrary-values) |
 
 
 
@@ -455,8 +455,8 @@ Utilities for applying drop-shadow filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `drop` | [drop](https://tailwindcss.com/docs/drop-shadow#arbitrary-values) |
-| `drop_shadow` | [drop-shadow](https://tailwindcss.com/docs/drop-shadow#arbitrary-values) |
+| `drop_arbitrary`, `drop_arb` | [drop-[…]](https://tailwindcss.com/docs/drop-shadow#arbitrary-values) |
+| `drop_shadow_arbitrary`, `drop_shadow_arb` | [drop-shadow-[…]](https://tailwindcss.com/docs/drop-shadow#arbitrary-values) |
 
 
 
@@ -484,7 +484,7 @@ Utilities for applying grayscale filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `grayscale` | [grayscale](https://tailwindcss.com/docs/grayscale#arbitrary-values) |
+| `grayscale_arbitrary`, `grayscale_arb` | [grayscale-[…]](https://tailwindcss.com/docs/grayscale#arbitrary-values) |
 
 
 
@@ -516,7 +516,7 @@ Utilities for applying hue-rotate filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `hue_rotate` | [hue-rotate](https://tailwindcss.com/docs/hue-rotate#arbitrary-values) |
+| `hue_rotate_arbitrary`, `hue_rotate_arb` | [hue-rotate-[…]](https://tailwindcss.com/docs/hue-rotate#arbitrary-values) |
 
 
 
@@ -544,7 +544,7 @@ Utilities for applying invert filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `invert` | [invert](https://tailwindcss.com/docs/invert#arbitrary-values) |
+| `invert_arbitrary`, `invert_arb` | [invert-[…]](https://tailwindcss.com/docs/invert#arbitrary-values) |
 
 
 
@@ -575,7 +575,7 @@ Utilities for applying saturation filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `saturate` | [saturate](https://tailwindcss.com/docs/saturate#arbitrary-values) |
+| `saturate_arbitrary`, `saturate_arb` | [saturate-[…]](https://tailwindcss.com/docs/saturate#arbitrary-values) |
 
 
 
@@ -603,6 +603,6 @@ Utilities for applying sepia filters to an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `sepia` | [sepia](https://tailwindcss.com/docs/sepia#arbitrary-values) |
+| `sepia_arbitrary`, `sepia_arb` | [sepia-[…]](https://tailwindcss.com/docs/sepia#arbitrary-values) |
 
 

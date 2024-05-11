@@ -2265,204 +2265,204 @@ Utilities for controlling the color of an element's borders.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `border_amber` | [border-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_amber` | [border-b-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_blue` | [border-b-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_cyan` | [border-b-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_emerald` | [border-b-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_fuchsia` | [border-b-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_gray` | [border-b-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_green` | [border-b-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_indigo` | [border-b-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_lime` | [border-b-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_neutral` | [border-b-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_orange` | [border-b-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_pink` | [border-b-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_purple` | [border-b-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_red` | [border-b-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_rose` | [border-b-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_sky` | [border-b-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_slate` | [border-b-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_stone` | [border-b-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_teal` | [border-b-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_violet` | [border-b-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_yellow` | [border-b-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_b_zinc` | [border-b-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_blue` | [border-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_cyan` | [border-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_amber` | [border-e-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_blue` | [border-e-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_cyan` | [border-e-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_emerald` | [border-e-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_fuchsia` | [border-e-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_gray` | [border-e-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_green` | [border-e-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_indigo` | [border-e-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_lime` | [border-e-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_neutral` | [border-e-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_orange` | [border-e-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_pink` | [border-e-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_purple` | [border-e-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_red` | [border-e-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_rose` | [border-e-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_sky` | [border-e-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_slate` | [border-e-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_stone` | [border-e-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_teal` | [border-e-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_violet` | [border-e-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_yellow` | [border-e-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_e_zinc` | [border-e-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_emerald` | [border-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_fuchsia` | [border-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_gray` | [border-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_green` | [border-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_indigo` | [border-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_amber` | [border-l-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_blue` | [border-l-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_cyan` | [border-l-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_emerald` | [border-l-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_fuchsia` | [border-l-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_gray` | [border-l-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_green` | [border-l-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_indigo` | [border-l-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_lime` | [border-l-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_neutral` | [border-l-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_orange` | [border-l-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_pink` | [border-l-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_purple` | [border-l-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_red` | [border-l-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_rose` | [border-l-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_sky` | [border-l-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_slate` | [border-l-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_stone` | [border-l-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_teal` | [border-l-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_violet` | [border-l-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_yellow` | [border-l-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_l_zinc` | [border-l-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_lime` | [border-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_neutral` | [border-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_orange` | [border-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_pink` | [border-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_purple` | [border-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_amber` | [border-r-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_blue` | [border-r-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_cyan` | [border-r-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_emerald` | [border-r-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_fuchsia` | [border-r-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_gray` | [border-r-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_green` | [border-r-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_indigo` | [border-r-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_lime` | [border-r-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_neutral` | [border-r-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_orange` | [border-r-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_pink` | [border-r-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_purple` | [border-r-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_red` | [border-r-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_rose` | [border-r-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_sky` | [border-r-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_slate` | [border-r-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_stone` | [border-r-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_teal` | [border-r-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_violet` | [border-r-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_yellow` | [border-r-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_r_zinc` | [border-r-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_red` | [border-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_rose` | [border-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_amber` | [border-s-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_blue` | [border-s-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_cyan` | [border-s-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_emerald` | [border-s-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_fuchsia` | [border-s-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_gray` | [border-s-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_green` | [border-s-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_indigo` | [border-s-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_lime` | [border-s-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_neutral` | [border-s-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_orange` | [border-s-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_pink` | [border-s-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_purple` | [border-s-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_red` | [border-s-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_rose` | [border-s-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_sky` | [border-s-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_slate` | [border-s-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_stone` | [border-s-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_teal` | [border-s-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_violet` | [border-s-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_yellow` | [border-s-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_s_zinc` | [border-s-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_sky` | [border-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_slate` | [border-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_stone` | [border-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_amber` | [border-t-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_blue` | [border-t-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_cyan` | [border-t-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_emerald` | [border-t-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_fuchsia` | [border-t-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_gray` | [border-t-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_green` | [border-t-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_indigo` | [border-t-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_lime` | [border-t-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_neutral` | [border-t-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_orange` | [border-t-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_pink` | [border-t-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_purple` | [border-t-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_red` | [border-t-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_rose` | [border-t-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_sky` | [border-t-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_slate` | [border-t-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_stone` | [border-t-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_teal` | [border-t-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_violet` | [border-t-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_yellow` | [border-t-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_t_zinc` | [border-t-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_teal` | [border-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_violet` | [border-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_amber` | [border-x-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_blue` | [border-x-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_cyan` | [border-x-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_emerald` | [border-x-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_fuchsia` | [border-x-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_gray` | [border-x-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_green` | [border-x-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_indigo` | [border-x-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_lime` | [border-x-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_neutral` | [border-x-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_orange` | [border-x-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_pink` | [border-x-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_purple` | [border-x-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_red` | [border-x-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_rose` | [border-x-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_sky` | [border-x-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_slate` | [border-x-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_stone` | [border-x-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_teal` | [border-x-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_violet` | [border-x-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_yellow` | [border-x-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_x_zinc` | [border-x-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_amber` | [border-y-amber](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_blue` | [border-y-blue](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_cyan` | [border-y-cyan](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_emerald` | [border-y-emerald](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_fuchsia` | [border-y-fuchsia](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_gray` | [border-y-gray](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_green` | [border-y-green](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_indigo` | [border-y-indigo](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_lime` | [border-y-lime](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_neutral` | [border-y-neutral](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_orange` | [border-y-orange](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_pink` | [border-y-pink](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_purple` | [border-y-purple](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_red` | [border-y-red](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_rose` | [border-y-rose](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_sky` | [border-y-sky](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_slate` | [border-y-slate](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_stone` | [border-y-stone](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_teal` | [border-y-teal](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_violet` | [border-y-violet](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_yellow` | [border-y-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_y_zinc` | [border-y-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_yellow` | [border-yellow](https://tailwindcss.com/docs/border-color#arbitrary-values) |
-| `border_zinc` | [border-zinc](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_amber_arbitrary`, `border_amber_arb` | [border-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_amber_arbitrary`, `border_b_amber_arb` | [border-b-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_blue_arbitrary`, `border_b_blue_arb` | [border-b-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_cyan_arbitrary`, `border_b_cyan_arb` | [border-b-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_emerald_arbitrary`, `border_b_emerald_arb` | [border-b-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_fuchsia_arbitrary`, `border_b_fuchsia_arb` | [border-b-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_gray_arbitrary`, `border_b_gray_arb` | [border-b-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_green_arbitrary`, `border_b_green_arb` | [border-b-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_indigo_arbitrary`, `border_b_indigo_arb` | [border-b-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_lime_arbitrary`, `border_b_lime_arb` | [border-b-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_neutral_arbitrary`, `border_b_neutral_arb` | [border-b-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_orange_arbitrary`, `border_b_orange_arb` | [border-b-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_pink_arbitrary`, `border_b_pink_arb` | [border-b-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_purple_arbitrary`, `border_b_purple_arb` | [border-b-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_red_arbitrary`, `border_b_red_arb` | [border-b-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_rose_arbitrary`, `border_b_rose_arb` | [border-b-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_sky_arbitrary`, `border_b_sky_arb` | [border-b-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_slate_arbitrary`, `border_b_slate_arb` | [border-b-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_stone_arbitrary`, `border_b_stone_arb` | [border-b-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_teal_arbitrary`, `border_b_teal_arb` | [border-b-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_violet_arbitrary`, `border_b_violet_arb` | [border-b-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_yellow_arbitrary`, `border_b_yellow_arb` | [border-b-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_b_zinc_arbitrary`, `border_b_zinc_arb` | [border-b-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_blue_arbitrary`, `border_blue_arb` | [border-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_cyan_arbitrary`, `border_cyan_arb` | [border-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_amber_arbitrary`, `border_e_amber_arb` | [border-e-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_blue_arbitrary`, `border_e_blue_arb` | [border-e-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_cyan_arbitrary`, `border_e_cyan_arb` | [border-e-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_emerald_arbitrary`, `border_e_emerald_arb` | [border-e-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_fuchsia_arbitrary`, `border_e_fuchsia_arb` | [border-e-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_gray_arbitrary`, `border_e_gray_arb` | [border-e-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_green_arbitrary`, `border_e_green_arb` | [border-e-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_indigo_arbitrary`, `border_e_indigo_arb` | [border-e-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_lime_arbitrary`, `border_e_lime_arb` | [border-e-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_neutral_arbitrary`, `border_e_neutral_arb` | [border-e-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_orange_arbitrary`, `border_e_orange_arb` | [border-e-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_pink_arbitrary`, `border_e_pink_arb` | [border-e-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_purple_arbitrary`, `border_e_purple_arb` | [border-e-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_red_arbitrary`, `border_e_red_arb` | [border-e-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_rose_arbitrary`, `border_e_rose_arb` | [border-e-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_sky_arbitrary`, `border_e_sky_arb` | [border-e-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_slate_arbitrary`, `border_e_slate_arb` | [border-e-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_stone_arbitrary`, `border_e_stone_arb` | [border-e-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_teal_arbitrary`, `border_e_teal_arb` | [border-e-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_violet_arbitrary`, `border_e_violet_arb` | [border-e-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_yellow_arbitrary`, `border_e_yellow_arb` | [border-e-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_e_zinc_arbitrary`, `border_e_zinc_arb` | [border-e-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_emerald_arbitrary`, `border_emerald_arb` | [border-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_fuchsia_arbitrary`, `border_fuchsia_arb` | [border-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_gray_arbitrary`, `border_gray_arb` | [border-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_green_arbitrary`, `border_green_arb` | [border-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_indigo_arbitrary`, `border_indigo_arb` | [border-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_amber_arbitrary`, `border_l_amber_arb` | [border-l-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_blue_arbitrary`, `border_l_blue_arb` | [border-l-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_cyan_arbitrary`, `border_l_cyan_arb` | [border-l-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_emerald_arbitrary`, `border_l_emerald_arb` | [border-l-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_fuchsia_arbitrary`, `border_l_fuchsia_arb` | [border-l-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_gray_arbitrary`, `border_l_gray_arb` | [border-l-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_green_arbitrary`, `border_l_green_arb` | [border-l-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_indigo_arbitrary`, `border_l_indigo_arb` | [border-l-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_lime_arbitrary`, `border_l_lime_arb` | [border-l-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_neutral_arbitrary`, `border_l_neutral_arb` | [border-l-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_orange_arbitrary`, `border_l_orange_arb` | [border-l-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_pink_arbitrary`, `border_l_pink_arb` | [border-l-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_purple_arbitrary`, `border_l_purple_arb` | [border-l-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_red_arbitrary`, `border_l_red_arb` | [border-l-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_rose_arbitrary`, `border_l_rose_arb` | [border-l-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_sky_arbitrary`, `border_l_sky_arb` | [border-l-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_slate_arbitrary`, `border_l_slate_arb` | [border-l-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_stone_arbitrary`, `border_l_stone_arb` | [border-l-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_teal_arbitrary`, `border_l_teal_arb` | [border-l-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_violet_arbitrary`, `border_l_violet_arb` | [border-l-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_yellow_arbitrary`, `border_l_yellow_arb` | [border-l-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_l_zinc_arbitrary`, `border_l_zinc_arb` | [border-l-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_lime_arbitrary`, `border_lime_arb` | [border-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_neutral_arbitrary`, `border_neutral_arb` | [border-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_orange_arbitrary`, `border_orange_arb` | [border-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_pink_arbitrary`, `border_pink_arb` | [border-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_purple_arbitrary`, `border_purple_arb` | [border-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_amber_arbitrary`, `border_r_amber_arb` | [border-r-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_blue_arbitrary`, `border_r_blue_arb` | [border-r-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_cyan_arbitrary`, `border_r_cyan_arb` | [border-r-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_emerald_arbitrary`, `border_r_emerald_arb` | [border-r-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_fuchsia_arbitrary`, `border_r_fuchsia_arb` | [border-r-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_gray_arbitrary`, `border_r_gray_arb` | [border-r-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_green_arbitrary`, `border_r_green_arb` | [border-r-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_indigo_arbitrary`, `border_r_indigo_arb` | [border-r-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_lime_arbitrary`, `border_r_lime_arb` | [border-r-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_neutral_arbitrary`, `border_r_neutral_arb` | [border-r-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_orange_arbitrary`, `border_r_orange_arb` | [border-r-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_pink_arbitrary`, `border_r_pink_arb` | [border-r-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_purple_arbitrary`, `border_r_purple_arb` | [border-r-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_red_arbitrary`, `border_r_red_arb` | [border-r-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_rose_arbitrary`, `border_r_rose_arb` | [border-r-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_sky_arbitrary`, `border_r_sky_arb` | [border-r-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_slate_arbitrary`, `border_r_slate_arb` | [border-r-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_stone_arbitrary`, `border_r_stone_arb` | [border-r-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_teal_arbitrary`, `border_r_teal_arb` | [border-r-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_violet_arbitrary`, `border_r_violet_arb` | [border-r-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_yellow_arbitrary`, `border_r_yellow_arb` | [border-r-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_r_zinc_arbitrary`, `border_r_zinc_arb` | [border-r-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_red_arbitrary`, `border_red_arb` | [border-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_rose_arbitrary`, `border_rose_arb` | [border-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_amber_arbitrary`, `border_s_amber_arb` | [border-s-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_blue_arbitrary`, `border_s_blue_arb` | [border-s-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_cyan_arbitrary`, `border_s_cyan_arb` | [border-s-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_emerald_arbitrary`, `border_s_emerald_arb` | [border-s-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_fuchsia_arbitrary`, `border_s_fuchsia_arb` | [border-s-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_gray_arbitrary`, `border_s_gray_arb` | [border-s-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_green_arbitrary`, `border_s_green_arb` | [border-s-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_indigo_arbitrary`, `border_s_indigo_arb` | [border-s-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_lime_arbitrary`, `border_s_lime_arb` | [border-s-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_neutral_arbitrary`, `border_s_neutral_arb` | [border-s-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_orange_arbitrary`, `border_s_orange_arb` | [border-s-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_pink_arbitrary`, `border_s_pink_arb` | [border-s-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_purple_arbitrary`, `border_s_purple_arb` | [border-s-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_red_arbitrary`, `border_s_red_arb` | [border-s-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_rose_arbitrary`, `border_s_rose_arb` | [border-s-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_sky_arbitrary`, `border_s_sky_arb` | [border-s-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_slate_arbitrary`, `border_s_slate_arb` | [border-s-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_stone_arbitrary`, `border_s_stone_arb` | [border-s-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_teal_arbitrary`, `border_s_teal_arb` | [border-s-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_violet_arbitrary`, `border_s_violet_arb` | [border-s-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_yellow_arbitrary`, `border_s_yellow_arb` | [border-s-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_s_zinc_arbitrary`, `border_s_zinc_arb` | [border-s-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_sky_arbitrary`, `border_sky_arb` | [border-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_slate_arbitrary`, `border_slate_arb` | [border-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_stone_arbitrary`, `border_stone_arb` | [border-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_amber_arbitrary`, `border_t_amber_arb` | [border-t-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_blue_arbitrary`, `border_t_blue_arb` | [border-t-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_cyan_arbitrary`, `border_t_cyan_arb` | [border-t-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_emerald_arbitrary`, `border_t_emerald_arb` | [border-t-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_fuchsia_arbitrary`, `border_t_fuchsia_arb` | [border-t-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_gray_arbitrary`, `border_t_gray_arb` | [border-t-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_green_arbitrary`, `border_t_green_arb` | [border-t-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_indigo_arbitrary`, `border_t_indigo_arb` | [border-t-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_lime_arbitrary`, `border_t_lime_arb` | [border-t-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_neutral_arbitrary`, `border_t_neutral_arb` | [border-t-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_orange_arbitrary`, `border_t_orange_arb` | [border-t-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_pink_arbitrary`, `border_t_pink_arb` | [border-t-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_purple_arbitrary`, `border_t_purple_arb` | [border-t-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_red_arbitrary`, `border_t_red_arb` | [border-t-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_rose_arbitrary`, `border_t_rose_arb` | [border-t-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_sky_arbitrary`, `border_t_sky_arb` | [border-t-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_slate_arbitrary`, `border_t_slate_arb` | [border-t-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_stone_arbitrary`, `border_t_stone_arb` | [border-t-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_teal_arbitrary`, `border_t_teal_arb` | [border-t-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_violet_arbitrary`, `border_t_violet_arb` | [border-t-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_yellow_arbitrary`, `border_t_yellow_arb` | [border-t-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_t_zinc_arbitrary`, `border_t_zinc_arb` | [border-t-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_teal_arbitrary`, `border_teal_arb` | [border-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_violet_arbitrary`, `border_violet_arb` | [border-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_amber_arbitrary`, `border_x_amber_arb` | [border-x-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_blue_arbitrary`, `border_x_blue_arb` | [border-x-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_cyan_arbitrary`, `border_x_cyan_arb` | [border-x-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_emerald_arbitrary`, `border_x_emerald_arb` | [border-x-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_fuchsia_arbitrary`, `border_x_fuchsia_arb` | [border-x-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_gray_arbitrary`, `border_x_gray_arb` | [border-x-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_green_arbitrary`, `border_x_green_arb` | [border-x-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_indigo_arbitrary`, `border_x_indigo_arb` | [border-x-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_lime_arbitrary`, `border_x_lime_arb` | [border-x-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_neutral_arbitrary`, `border_x_neutral_arb` | [border-x-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_orange_arbitrary`, `border_x_orange_arb` | [border-x-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_pink_arbitrary`, `border_x_pink_arb` | [border-x-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_purple_arbitrary`, `border_x_purple_arb` | [border-x-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_red_arbitrary`, `border_x_red_arb` | [border-x-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_rose_arbitrary`, `border_x_rose_arb` | [border-x-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_sky_arbitrary`, `border_x_sky_arb` | [border-x-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_slate_arbitrary`, `border_x_slate_arb` | [border-x-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_stone_arbitrary`, `border_x_stone_arb` | [border-x-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_teal_arbitrary`, `border_x_teal_arb` | [border-x-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_violet_arbitrary`, `border_x_violet_arb` | [border-x-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_yellow_arbitrary`, `border_x_yellow_arb` | [border-x-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_x_zinc_arbitrary`, `border_x_zinc_arb` | [border-x-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_amber_arbitrary`, `border_y_amber_arb` | [border-y-amber-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_blue_arbitrary`, `border_y_blue_arb` | [border-y-blue-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_cyan_arbitrary`, `border_y_cyan_arb` | [border-y-cyan-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_emerald_arbitrary`, `border_y_emerald_arb` | [border-y-emerald-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_fuchsia_arbitrary`, `border_y_fuchsia_arb` | [border-y-fuchsia-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_gray_arbitrary`, `border_y_gray_arb` | [border-y-gray-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_green_arbitrary`, `border_y_green_arb` | [border-y-green-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_indigo_arbitrary`, `border_y_indigo_arb` | [border-y-indigo-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_lime_arbitrary`, `border_y_lime_arb` | [border-y-lime-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_neutral_arbitrary`, `border_y_neutral_arb` | [border-y-neutral-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_orange_arbitrary`, `border_y_orange_arb` | [border-y-orange-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_pink_arbitrary`, `border_y_pink_arb` | [border-y-pink-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_purple_arbitrary`, `border_y_purple_arb` | [border-y-purple-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_red_arbitrary`, `border_y_red_arb` | [border-y-red-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_rose_arbitrary`, `border_y_rose_arb` | [border-y-rose-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_sky_arbitrary`, `border_y_sky_arb` | [border-y-sky-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_slate_arbitrary`, `border_y_slate_arb` | [border-y-slate-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_stone_arbitrary`, `border_y_stone_arb` | [border-y-stone-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_teal_arbitrary`, `border_y_teal_arb` | [border-y-teal-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_violet_arbitrary`, `border_y_violet_arb` | [border-y-violet-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_yellow_arbitrary`, `border_y_yellow_arb` | [border-y-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_y_zinc_arbitrary`, `border_y_zinc_arb` | [border-y-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_yellow_arbitrary`, `border_yellow_arb` | [border-yellow-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
+| `border_zinc_arbitrary`, `border_zinc_arb` | [border-zinc-[…]](https://tailwindcss.com/docs/border-color#arbitrary-values) |
 
 
 
@@ -2623,21 +2623,21 @@ Utilities for controlling the border radius of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `rounded` | [rounded](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_b` | [rounded-b](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_bl` | [rounded-bl](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_br` | [rounded-br](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_e` | [rounded-e](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_ee` | [rounded-ee](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_es` | [rounded-es](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_l` | [rounded-l](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_r` | [rounded-r](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_s` | [rounded-s](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_se` | [rounded-se](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_ss` | [rounded-ss](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_t` | [rounded-t](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_tl` | [rounded-tl](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
-| `rounded_tr` | [rounded-tr](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_arbitrary`, `rounded_arb` | [rounded-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_b_arbitrary`, `rounded_b_arb` | [rounded-b-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_bl_arbitrary`, `rounded_bl_arb` | [rounded-bl-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_br_arbitrary`, `rounded_br_arb` | [rounded-br-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_e_arbitrary`, `rounded_e_arb` | [rounded-e-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_ee_arbitrary`, `rounded_ee_arb` | [rounded-ee-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_es_arbitrary`, `rounded_es_arb` | [rounded-es-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_l_arbitrary`, `rounded_l_arb` | [rounded-l-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_r_arbitrary`, `rounded_r_arb` | [rounded-r-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_s_arbitrary`, `rounded_s_arb` | [rounded-s-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_se_arbitrary`, `rounded_se_arb` | [rounded-se-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_ss_arbitrary`, `rounded_ss_arb` | [rounded-ss-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_t_arbitrary`, `rounded_t_arb` | [rounded-t-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_tl_arbitrary`, `rounded_tl_arb` | [rounded-tl-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
+| `rounded_tr_arbitrary`, `rounded_tr_arb` | [rounded-tr-[…]](https://tailwindcss.com/docs/border-radius#arbitrary-values) |
 
 
 
@@ -2734,15 +2734,15 @@ Utilities for controlling the width of an element's borders.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `border` | [border](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_b` | [border-b](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_e` | [border-e](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_l` | [border-l](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_r` | [border-r](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_s` | [border-s](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_t` | [border-t](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_x` | [border-x](https://tailwindcss.com/docs/border-width#arbitrary-values) |
-| `border_y` | [border-y](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_arbitrary`, `border_arb` | [border-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_b_arbitrary`, `border_b_arb` | [border-b-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_e_arbitrary`, `border_e_arb` | [border-e-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_l_arbitrary`, `border_l_arb` | [border-l-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_r_arbitrary`, `border_r_arb` | [border-r-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_s_arbitrary`, `border_s_arb` | [border-s-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_t_arbitrary`, `border_t_arb` | [border-t-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_x_arbitrary`, `border_x_arb` | [border-x-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
+| `border_y_arbitrary`, `border_y_arb` | [border-y-[…]](https://tailwindcss.com/docs/border-width#arbitrary-values) |
 
 
 
@@ -3015,28 +3015,28 @@ Utilities for controlling the border color between elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `divide_amber` | [divide-amber](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_blue` | [divide-blue](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_cyan` | [divide-cyan](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_emerald` | [divide-emerald](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_fuchsia` | [divide-fuchsia](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_gray` | [divide-gray](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_green` | [divide-green](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_indigo` | [divide-indigo](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_lime` | [divide-lime](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_neutral` | [divide-neutral](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_orange` | [divide-orange](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_pink` | [divide-pink](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_purple` | [divide-purple](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_red` | [divide-red](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_rose` | [divide-rose](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_sky` | [divide-sky](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_slate` | [divide-slate](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_stone` | [divide-stone](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_teal` | [divide-teal](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_violet` | [divide-violet](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_yellow` | [divide-yellow](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
-| `divide_zinc` | [divide-zinc](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_amber_arbitrary`, `divide_amber_arb` | [divide-amber-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_blue_arbitrary`, `divide_blue_arb` | [divide-blue-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_cyan_arbitrary`, `divide_cyan_arb` | [divide-cyan-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_emerald_arbitrary`, `divide_emerald_arb` | [divide-emerald-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_fuchsia_arbitrary`, `divide_fuchsia_arb` | [divide-fuchsia-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_gray_arbitrary`, `divide_gray_arb` | [divide-gray-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_green_arbitrary`, `divide_green_arb` | [divide-green-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_indigo_arbitrary`, `divide_indigo_arb` | [divide-indigo-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_lime_arbitrary`, `divide_lime_arb` | [divide-lime-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_neutral_arbitrary`, `divide_neutral_arb` | [divide-neutral-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_orange_arbitrary`, `divide_orange_arb` | [divide-orange-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_pink_arbitrary`, `divide_pink_arb` | [divide-pink-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_purple_arbitrary`, `divide_purple_arb` | [divide-purple-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_red_arbitrary`, `divide_red_arb` | [divide-red-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_rose_arbitrary`, `divide_rose_arb` | [divide-rose-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_sky_arbitrary`, `divide_sky_arb` | [divide-sky-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_slate_arbitrary`, `divide_slate_arb` | [divide-slate-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_stone_arbitrary`, `divide_stone_arb` | [divide-stone-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_teal_arbitrary`, `divide_teal_arb` | [divide-teal-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_violet_arbitrary`, `divide_violet_arb` | [divide-violet-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_yellow_arbitrary`, `divide_yellow_arb` | [divide-yellow-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
+| `divide_zinc_arbitrary`, `divide_zinc_arb` | [divide-zinc-[…]](https://tailwindcss.com/docs/divide-color#arbitrary-values) |
 
 
 
@@ -3099,9 +3099,9 @@ Utilities for controlling the border width between elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `divide` | [divide](https://tailwindcss.com/docs/divide-width#arbitrary-values) |
-| `divide_x` | [divide-x](https://tailwindcss.com/docs/divide-width#arbitrary-values) |
-| `divide_y` | [divide-y](https://tailwindcss.com/docs/divide-width#arbitrary-values) |
+| `divide_arbitrary`, `divide_arb` | [divide-[…]](https://tailwindcss.com/docs/divide-width#arbitrary-values) |
+| `divide_x_arbitrary`, `divide_x_arb` | [divide-x-[…]](https://tailwindcss.com/docs/divide-width#arbitrary-values) |
+| `divide_y_arbitrary`, `divide_y_arb` | [divide-y-[…]](https://tailwindcss.com/docs/divide-width#arbitrary-values) |
 
 
 
@@ -3374,28 +3374,28 @@ Utilities for controlling the color of an element's outline.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `outline_amber` | [outline-amber](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_blue` | [outline-blue](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_cyan` | [outline-cyan](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_emerald` | [outline-emerald](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_fuchsia` | [outline-fuchsia](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_gray` | [outline-gray](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_green` | [outline-green](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_indigo` | [outline-indigo](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_lime` | [outline-lime](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_neutral` | [outline-neutral](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_orange` | [outline-orange](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_pink` | [outline-pink](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_purple` | [outline-purple](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_red` | [outline-red](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_rose` | [outline-rose](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_sky` | [outline-sky](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_slate` | [outline-slate](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_stone` | [outline-stone](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_teal` | [outline-teal](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_violet` | [outline-violet](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_yellow` | [outline-yellow](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
-| `outline_zinc` | [outline-zinc](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_amber_arbitrary`, `outline_amber_arb` | [outline-amber-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_blue_arbitrary`, `outline_blue_arb` | [outline-blue-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_cyan_arbitrary`, `outline_cyan_arb` | [outline-cyan-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_emerald_arbitrary`, `outline_emerald_arb` | [outline-emerald-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_fuchsia_arbitrary`, `outline_fuchsia_arb` | [outline-fuchsia-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_gray_arbitrary`, `outline_gray_arb` | [outline-gray-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_green_arbitrary`, `outline_green_arb` | [outline-green-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_indigo_arbitrary`, `outline_indigo_arb` | [outline-indigo-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_lime_arbitrary`, `outline_lime_arb` | [outline-lime-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_neutral_arbitrary`, `outline_neutral_arb` | [outline-neutral-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_orange_arbitrary`, `outline_orange_arb` | [outline-orange-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_pink_arbitrary`, `outline_pink_arb` | [outline-pink-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_purple_arbitrary`, `outline_purple_arb` | [outline-purple-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_red_arbitrary`, `outline_red_arb` | [outline-red-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_rose_arbitrary`, `outline_rose_arb` | [outline-rose-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_sky_arbitrary`, `outline_sky_arb` | [outline-sky-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_slate_arbitrary`, `outline_slate_arb` | [outline-slate-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_stone_arbitrary`, `outline_stone_arb` | [outline-stone-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_teal_arbitrary`, `outline_teal_arb` | [outline-teal-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_violet_arbitrary`, `outline_violet_arb` | [outline-violet-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_yellow_arbitrary`, `outline_yellow_arb` | [outline-yellow-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
+| `outline_zinc_arbitrary`, `outline_zinc_arb` | [outline-zinc-[…]](https://tailwindcss.com/docs/outline-color#arbitrary-values) |
 
 
 
@@ -3426,7 +3426,7 @@ Utilities for controlling the offset of an element's outline.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `outline_offset` | [outline-offset](https://tailwindcss.com/docs/outline-offset#arbitrary-values) |
+| `outline_offset_arbitrary`, `outline_offset_arb` | [outline-offset-[…]](https://tailwindcss.com/docs/outline-offset#arbitrary-values) |
 
 
 
@@ -3482,7 +3482,7 @@ Utilities for controlling the width of an element's outline.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `outline` | [outline](https://tailwindcss.com/docs/outline-width#arbitrary-values) |
+| `outline_arbitrary`, `outline_arb` | [outline-[…]](https://tailwindcss.com/docs/outline-width#arbitrary-values) |
 
 
 
@@ -3755,28 +3755,28 @@ Utilities for setting the color of outline rings.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `ring_amber` | [ring-amber](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_blue` | [ring-blue](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_cyan` | [ring-cyan](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_emerald` | [ring-emerald](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_fuchsia` | [ring-fuchsia](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_gray` | [ring-gray](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_green` | [ring-green](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_indigo` | [ring-indigo](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_lime` | [ring-lime](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_neutral` | [ring-neutral](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_orange` | [ring-orange](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_pink` | [ring-pink](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_purple` | [ring-purple](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_red` | [ring-red](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_rose` | [ring-rose](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_sky` | [ring-sky](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_slate` | [ring-slate](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_stone` | [ring-stone](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_teal` | [ring-teal](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_violet` | [ring-violet](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_yellow` | [ring-yellow](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
-| `ring_zinc` | [ring-zinc](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_amber_arbitrary`, `ring_amber_arb` | [ring-amber-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_blue_arbitrary`, `ring_blue_arb` | [ring-blue-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_cyan_arbitrary`, `ring_cyan_arb` | [ring-cyan-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_emerald_arbitrary`, `ring_emerald_arb` | [ring-emerald-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_fuchsia_arbitrary`, `ring_fuchsia_arb` | [ring-fuchsia-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_gray_arbitrary`, `ring_gray_arb` | [ring-gray-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_green_arbitrary`, `ring_green_arb` | [ring-green-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_indigo_arbitrary`, `ring_indigo_arb` | [ring-indigo-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_lime_arbitrary`, `ring_lime_arb` | [ring-lime-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_neutral_arbitrary`, `ring_neutral_arb` | [ring-neutral-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_orange_arbitrary`, `ring_orange_arb` | [ring-orange-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_pink_arbitrary`, `ring_pink_arb` | [ring-pink-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_purple_arbitrary`, `ring_purple_arb` | [ring-purple-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_red_arbitrary`, `ring_red_arb` | [ring-red-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_rose_arbitrary`, `ring_rose_arb` | [ring-rose-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_sky_arbitrary`, `ring_sky_arb` | [ring-sky-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_slate_arbitrary`, `ring_slate_arb` | [ring-slate-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_stone_arbitrary`, `ring_stone_arb` | [ring-stone-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_teal_arbitrary`, `ring_teal_arb` | [ring-teal-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_violet_arbitrary`, `ring_violet_arb` | [ring-violet-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_yellow_arbitrary`, `ring_yellow_arb` | [ring-yellow-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
+| `ring_zinc_arbitrary`, `ring_zinc_arb` | [ring-zinc-[…]](https://tailwindcss.com/docs/ring-color#arbitrary-values) |
 
 
 
@@ -4049,28 +4049,28 @@ Utilities for setting the color of outline ring offsets.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `ring_offset_amber` | [ring-offset-amber](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_blue` | [ring-offset-blue](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_cyan` | [ring-offset-cyan](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_emerald` | [ring-offset-emerald](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_fuchsia` | [ring-offset-fuchsia](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_gray` | [ring-offset-gray](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_green` | [ring-offset-green](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_indigo` | [ring-offset-indigo](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_lime` | [ring-offset-lime](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_neutral` | [ring-offset-neutral](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_orange` | [ring-offset-orange](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_pink` | [ring-offset-pink](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_purple` | [ring-offset-purple](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_red` | [ring-offset-red](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_rose` | [ring-offset-rose](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_sky` | [ring-offset-sky](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_slate` | [ring-offset-slate](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_stone` | [ring-offset-stone](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_teal` | [ring-offset-teal](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_violet` | [ring-offset-violet](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_yellow` | [ring-offset-yellow](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
-| `ring_offset_zinc` | [ring-offset-zinc](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_amber_arbitrary`, `ring_offset_amber_arb` | [ring-offset-amber-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_blue_arbitrary`, `ring_offset_blue_arb` | [ring-offset-blue-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_cyan_arbitrary`, `ring_offset_cyan_arb` | [ring-offset-cyan-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_emerald_arbitrary`, `ring_offset_emerald_arb` | [ring-offset-emerald-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_fuchsia_arbitrary`, `ring_offset_fuchsia_arb` | [ring-offset-fuchsia-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_gray_arbitrary`, `ring_offset_gray_arb` | [ring-offset-gray-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_green_arbitrary`, `ring_offset_green_arb` | [ring-offset-green-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_indigo_arbitrary`, `ring_offset_indigo_arb` | [ring-offset-indigo-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_lime_arbitrary`, `ring_offset_lime_arb` | [ring-offset-lime-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_neutral_arbitrary`, `ring_offset_neutral_arb` | [ring-offset-neutral-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_orange_arbitrary`, `ring_offset_orange_arb` | [ring-offset-orange-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_pink_arbitrary`, `ring_offset_pink_arb` | [ring-offset-pink-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_purple_arbitrary`, `ring_offset_purple_arb` | [ring-offset-purple-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_red_arbitrary`, `ring_offset_red_arb` | [ring-offset-red-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_rose_arbitrary`, `ring_offset_rose_arb` | [ring-offset-rose-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_sky_arbitrary`, `ring_offset_sky_arb` | [ring-offset-sky-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_slate_arbitrary`, `ring_offset_slate_arb` | [ring-offset-slate-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_stone_arbitrary`, `ring_offset_stone_arb` | [ring-offset-stone-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_teal_arbitrary`, `ring_offset_teal_arb` | [ring-offset-teal-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_violet_arbitrary`, `ring_offset_violet_arb` | [ring-offset-violet-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_yellow_arbitrary`, `ring_offset_yellow_arb` | [ring-offset-yellow-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
+| `ring_offset_zinc_arbitrary`, `ring_offset_zinc_arb` | [ring-offset-zinc-[…]](https://tailwindcss.com/docs/ring-offset-color#arbitrary-values) |
 
 
 
@@ -4101,7 +4101,7 @@ Utilities for simulating an offset when adding outline rings.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `ring_offset` | [ring-offset](https://tailwindcss.com/docs/ring-offset-width#arbitrary-values) |
+| `ring_offset_arbitrary`, `ring_offset_arb` | [ring-offset-[…]](https://tailwindcss.com/docs/ring-offset-width#arbitrary-values) |
 
 
 
@@ -4134,6 +4134,6 @@ Utilities for creating outline rings with box-shadows.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `ring` | [ring](https://tailwindcss.com/docs/ring-width#arbitrary-values) |
+| `ring_arbitrary`, `ring_arb` | [ring-[…]](https://tailwindcss.com/docs/ring-width#arbitrary-values) |
 
 

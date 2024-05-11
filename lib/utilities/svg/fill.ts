@@ -4,7 +4,7 @@
  * fill-none
  *
  * CSS:
- * - `fill: none;`
+ * - fill: none;
   *
   * @see fill
   *
@@ -17,7 +17,7 @@ export const fill_none = "fill-none";
  * fill-inherit
  *
  * CSS:
- * - `fill: inherit;`
+ * - fill: inherit;
   *
   * @see fill
   *
@@ -30,7 +30,7 @@ export const fill_inherit = "fill-inherit";
  * fill-current
  *
  * CSS:
- * - `fill: currentColor;`
+ * - fill: currentColor;
   *
   * @see fill
   *
@@ -43,7 +43,7 @@ export const fill_current = "fill-current";
  * fill-transparent
  *
  * CSS:
- * - `fill: transparent;`
+ * - fill: transparent;
   *
   * @see fill
   *
@@ -56,7 +56,7 @@ export const fill_transparent = "fill-transparent";
  * fill-black
  *
  * CSS:
- * - `fill: #000;`
+ * - fill: #000;
   *
   * @see fill
   *
@@ -69,7 +69,7 @@ export const fill_black = "fill-black";
  * fill-white
  *
  * CSS:
- * - `fill: #fff;`
+ * - fill: #fff;
   *
   * @see fill
   *
@@ -82,7 +82,7 @@ export const fill_white = "fill-white";
  * fill-slate-50
  *
  * CSS:
- * - `fill: #f8fafc;`
+ * - fill: #f8fafc;
   *
   * @see fill
   *
@@ -95,7 +95,7 @@ export const fill_slate_50 = "fill-slate-50";
  * fill-slate-100
  *
  * CSS:
- * - `fill: #f1f5f9;`
+ * - fill: #f1f5f9;
   *
   * @see fill
   *
@@ -108,7 +108,7 @@ export const fill_slate_100 = "fill-slate-100";
  * fill-slate-200
  *
  * CSS:
- * - `fill: #e2e8f0;`
+ * - fill: #e2e8f0;
   *
   * @see fill
   *
@@ -121,7 +121,7 @@ export const fill_slate_200 = "fill-slate-200";
  * fill-slate-300
  *
  * CSS:
- * - `fill: #cbd5e1;`
+ * - fill: #cbd5e1;
   *
   * @see fill
   *
@@ -134,7 +134,7 @@ export const fill_slate_300 = "fill-slate-300";
  * fill-slate-400
  *
  * CSS:
- * - `fill: #94a3b8;`
+ * - fill: #94a3b8;
   *
   * @see fill
   *
@@ -147,7 +147,7 @@ export const fill_slate_400 = "fill-slate-400";
  * fill-slate-500
  *
  * CSS:
- * - `fill: #64748b;`
+ * - fill: #64748b;
   *
   * @see fill
   *
@@ -160,7 +160,7 @@ export const fill_slate_500 = "fill-slate-500";
  * fill-slate-600
  *
  * CSS:
- * - `fill: #475569;`
+ * - fill: #475569;
   *
   * @see fill
   *
@@ -173,7 +173,7 @@ export const fill_slate_600 = "fill-slate-600";
  * fill-slate-700
  *
  * CSS:
- * - `fill: #334155;`
+ * - fill: #334155;
   *
   * @see fill
   *
@@ -186,7 +186,7 @@ export const fill_slate_700 = "fill-slate-700";
  * fill-slate-800
  *
  * CSS:
- * - `fill: #1e293b;`
+ * - fill: #1e293b;
   *
   * @see fill
   *
@@ -199,7 +199,7 @@ export const fill_slate_800 = "fill-slate-800";
  * fill-slate-900
  *
  * CSS:
- * - `fill: #0f172a;`
+ * - fill: #0f172a;
   *
   * @see fill
   *
@@ -212,7 +212,7 @@ export const fill_slate_900 = "fill-slate-900";
  * fill-slate-950
  *
  * CSS:
- * - `fill: #020617;`
+ * - fill: #020617;
   *
   * @see fill
   *
@@ -225,7 +225,7 @@ export const fill_slate_950 = "fill-slate-950";
  * fill-gray-50
  *
  * CSS:
- * - `fill: #f9fafb;`
+ * - fill: #f9fafb;
   *
   * @see fill
   *
@@ -238,7 +238,7 @@ export const fill_gray_50 = "fill-gray-50";
  * fill-gray-100
  *
  * CSS:
- * - `fill: #f3f4f6;`
+ * - fill: #f3f4f6;
   *
   * @see fill
   *
@@ -251,7 +251,7 @@ export const fill_gray_100 = "fill-gray-100";
  * fill-gray-200
  *
  * CSS:
- * - `fill: #e5e7eb;`
+ * - fill: #e5e7eb;
   *
   * @see fill
   *
@@ -264,7 +264,7 @@ export const fill_gray_200 = "fill-gray-200";
  * fill-gray-300
  *
  * CSS:
- * - `fill: #d1d5db;`
+ * - fill: #d1d5db;
   *
   * @see fill
   *
@@ -277,7 +277,7 @@ export const fill_gray_300 = "fill-gray-300";
  * fill-gray-400
  *
  * CSS:
- * - `fill: #9ca3af;`
+ * - fill: #9ca3af;
   *
   * @see fill
   *
@@ -290,7 +290,7 @@ export const fill_gray_400 = "fill-gray-400";
  * fill-gray-500
  *
  * CSS:
- * - `fill: #6b7280;`
+ * - fill: #6b7280;
   *
   * @see fill
   *
@@ -303,7 +303,7 @@ export const fill_gray_500 = "fill-gray-500";
  * fill-gray-600
  *
  * CSS:
- * - `fill: #4b5563;`
+ * - fill: #4b5563;
   *
   * @see fill
   *
@@ -316,7 +316,7 @@ export const fill_gray_600 = "fill-gray-600";
  * fill-gray-700
  *
  * CSS:
- * - `fill: #374151;`
+ * - fill: #374151;
   *
   * @see fill
   *
@@ -329,7 +329,7 @@ export const fill_gray_700 = "fill-gray-700";
  * fill-gray-800
  *
  * CSS:
- * - `fill: #1f2937;`
+ * - fill: #1f2937;
   *
   * @see fill
   *
@@ -342,7 +342,7 @@ export const fill_gray_800 = "fill-gray-800";
  * fill-gray-900
  *
  * CSS:
- * - `fill: #111827;`
+ * - fill: #111827;
   *
   * @see fill
   *
@@ -355,7 +355,7 @@ export const fill_gray_900 = "fill-gray-900";
  * fill-gray-950
  *
  * CSS:
- * - `fill: #030712;`
+ * - fill: #030712;
   *
   * @see fill
   *
@@ -368,7 +368,7 @@ export const fill_gray_950 = "fill-gray-950";
  * fill-zinc-50
  *
  * CSS:
- * - `fill: #fafafa;`
+ * - fill: #fafafa;
   *
   * @see fill
   *
@@ -381,7 +381,7 @@ export const fill_zinc_50 = "fill-zinc-50";
  * fill-zinc-100
  *
  * CSS:
- * - `fill: #f4f4f5;`
+ * - fill: #f4f4f5;
   *
   * @see fill
   *
@@ -394,7 +394,7 @@ export const fill_zinc_100 = "fill-zinc-100";
  * fill-zinc-200
  *
  * CSS:
- * - `fill: #e4e4e7;`
+ * - fill: #e4e4e7;
   *
   * @see fill
   *
@@ -407,7 +407,7 @@ export const fill_zinc_200 = "fill-zinc-200";
  * fill-zinc-300
  *
  * CSS:
- * - `fill: #d4d4d8;`
+ * - fill: #d4d4d8;
   *
   * @see fill
   *
@@ -420,7 +420,7 @@ export const fill_zinc_300 = "fill-zinc-300";
  * fill-zinc-400
  *
  * CSS:
- * - `fill: #a1a1aa;`
+ * - fill: #a1a1aa;
   *
   * @see fill
   *
@@ -433,7 +433,7 @@ export const fill_zinc_400 = "fill-zinc-400";
  * fill-zinc-500
  *
  * CSS:
- * - `fill: #71717a;`
+ * - fill: #71717a;
   *
   * @see fill
   *
@@ -446,7 +446,7 @@ export const fill_zinc_500 = "fill-zinc-500";
  * fill-zinc-600
  *
  * CSS:
- * - `fill: #52525b;`
+ * - fill: #52525b;
   *
   * @see fill
   *
@@ -459,7 +459,7 @@ export const fill_zinc_600 = "fill-zinc-600";
  * fill-zinc-700
  *
  * CSS:
- * - `fill: #3f3f46;`
+ * - fill: #3f3f46;
   *
   * @see fill
   *
@@ -472,7 +472,7 @@ export const fill_zinc_700 = "fill-zinc-700";
  * fill-zinc-800
  *
  * CSS:
- * - `fill: #27272a;`
+ * - fill: #27272a;
   *
   * @see fill
   *
@@ -485,7 +485,7 @@ export const fill_zinc_800 = "fill-zinc-800";
  * fill-zinc-900
  *
  * CSS:
- * - `fill: #18181b;`
+ * - fill: #18181b;
   *
   * @see fill
   *
@@ -498,7 +498,7 @@ export const fill_zinc_900 = "fill-zinc-900";
  * fill-zinc-950
  *
  * CSS:
- * - `fill: #09090b;`
+ * - fill: #09090b;
   *
   * @see fill
   *
@@ -511,7 +511,7 @@ export const fill_zinc_950 = "fill-zinc-950";
  * fill-neutral-50
  *
  * CSS:
- * - `fill: #fafafa;`
+ * - fill: #fafafa;
   *
   * @see fill
   *
@@ -524,7 +524,7 @@ export const fill_neutral_50 = "fill-neutral-50";
  * fill-neutral-100
  *
  * CSS:
- * - `fill: #f5f5f5;`
+ * - fill: #f5f5f5;
   *
   * @see fill
   *
@@ -537,7 +537,7 @@ export const fill_neutral_100 = "fill-neutral-100";
  * fill-neutral-200
  *
  * CSS:
- * - `fill: #e5e5e5;`
+ * - fill: #e5e5e5;
   *
   * @see fill
   *
@@ -550,7 +550,7 @@ export const fill_neutral_200 = "fill-neutral-200";
  * fill-neutral-300
  *
  * CSS:
- * - `fill: #d4d4d4;`
+ * - fill: #d4d4d4;
   *
   * @see fill
   *
@@ -563,7 +563,7 @@ export const fill_neutral_300 = "fill-neutral-300";
  * fill-neutral-400
  *
  * CSS:
- * - `fill: #a3a3a3;`
+ * - fill: #a3a3a3;
   *
   * @see fill
   *
@@ -576,7 +576,7 @@ export const fill_neutral_400 = "fill-neutral-400";
  * fill-neutral-500
  *
  * CSS:
- * - `fill: #737373;`
+ * - fill: #737373;
   *
   * @see fill
   *
@@ -589,7 +589,7 @@ export const fill_neutral_500 = "fill-neutral-500";
  * fill-neutral-600
  *
  * CSS:
- * - `fill: #525252;`
+ * - fill: #525252;
   *
   * @see fill
   *
@@ -602,7 +602,7 @@ export const fill_neutral_600 = "fill-neutral-600";
  * fill-neutral-700
  *
  * CSS:
- * - `fill: #404040;`
+ * - fill: #404040;
   *
   * @see fill
   *
@@ -615,7 +615,7 @@ export const fill_neutral_700 = "fill-neutral-700";
  * fill-neutral-800
  *
  * CSS:
- * - `fill: #262626;`
+ * - fill: #262626;
   *
   * @see fill
   *
@@ -628,7 +628,7 @@ export const fill_neutral_800 = "fill-neutral-800";
  * fill-neutral-900
  *
  * CSS:
- * - `fill: #171717;`
+ * - fill: #171717;
   *
   * @see fill
   *
@@ -641,7 +641,7 @@ export const fill_neutral_900 = "fill-neutral-900";
  * fill-neutral-950
  *
  * CSS:
- * - `fill: #0a0a0a;`
+ * - fill: #0a0a0a;
   *
   * @see fill
   *
@@ -654,7 +654,7 @@ export const fill_neutral_950 = "fill-neutral-950";
  * fill-stone-50
  *
  * CSS:
- * - `fill: #fafaf9;`
+ * - fill: #fafaf9;
   *
   * @see fill
   *
@@ -667,7 +667,7 @@ export const fill_stone_50 = "fill-stone-50";
  * fill-stone-100
  *
  * CSS:
- * - `fill: #f5f5f4;`
+ * - fill: #f5f5f4;
   *
   * @see fill
   *
@@ -680,7 +680,7 @@ export const fill_stone_100 = "fill-stone-100";
  * fill-stone-200
  *
  * CSS:
- * - `fill: #e7e5e4;`
+ * - fill: #e7e5e4;
   *
   * @see fill
   *
@@ -693,7 +693,7 @@ export const fill_stone_200 = "fill-stone-200";
  * fill-stone-300
  *
  * CSS:
- * - `fill: #d6d3d1;`
+ * - fill: #d6d3d1;
   *
   * @see fill
   *
@@ -706,7 +706,7 @@ export const fill_stone_300 = "fill-stone-300";
  * fill-stone-400
  *
  * CSS:
- * - `fill: #a8a29e;`
+ * - fill: #a8a29e;
   *
   * @see fill
   *
@@ -719,7 +719,7 @@ export const fill_stone_400 = "fill-stone-400";
  * fill-stone-500
  *
  * CSS:
- * - `fill: #78716c;`
+ * - fill: #78716c;
   *
   * @see fill
   *
@@ -732,7 +732,7 @@ export const fill_stone_500 = "fill-stone-500";
  * fill-stone-600
  *
  * CSS:
- * - `fill: #57534e;`
+ * - fill: #57534e;
   *
   * @see fill
   *
@@ -745,7 +745,7 @@ export const fill_stone_600 = "fill-stone-600";
  * fill-stone-700
  *
  * CSS:
- * - `fill: #44403c;`
+ * - fill: #44403c;
   *
   * @see fill
   *
@@ -758,7 +758,7 @@ export const fill_stone_700 = "fill-stone-700";
  * fill-stone-800
  *
  * CSS:
- * - `fill: #292524;`
+ * - fill: #292524;
   *
   * @see fill
   *
@@ -771,7 +771,7 @@ export const fill_stone_800 = "fill-stone-800";
  * fill-stone-900
  *
  * CSS:
- * - `fill: #1c1917;`
+ * - fill: #1c1917;
   *
   * @see fill
   *
@@ -784,7 +784,7 @@ export const fill_stone_900 = "fill-stone-900";
  * fill-stone-950
  *
  * CSS:
- * - `fill: #0c0a09;`
+ * - fill: #0c0a09;
   *
   * @see fill
   *
@@ -797,7 +797,7 @@ export const fill_stone_950 = "fill-stone-950";
  * fill-red-50
  *
  * CSS:
- * - `fill: #fef2f2;`
+ * - fill: #fef2f2;
   *
   * @see fill
   *
@@ -810,7 +810,7 @@ export const fill_red_50 = "fill-red-50";
  * fill-red-100
  *
  * CSS:
- * - `fill: #fee2e2;`
+ * - fill: #fee2e2;
   *
   * @see fill
   *
@@ -823,7 +823,7 @@ export const fill_red_100 = "fill-red-100";
  * fill-red-200
  *
  * CSS:
- * - `fill: #fecaca;`
+ * - fill: #fecaca;
   *
   * @see fill
   *
@@ -836,7 +836,7 @@ export const fill_red_200 = "fill-red-200";
  * fill-red-300
  *
  * CSS:
- * - `fill: #fca5a5;`
+ * - fill: #fca5a5;
   *
   * @see fill
   *
@@ -849,7 +849,7 @@ export const fill_red_300 = "fill-red-300";
  * fill-red-400
  *
  * CSS:
- * - `fill: #f87171;`
+ * - fill: #f87171;
   *
   * @see fill
   *
@@ -862,7 +862,7 @@ export const fill_red_400 = "fill-red-400";
  * fill-red-500
  *
  * CSS:
- * - `fill: #ef4444;`
+ * - fill: #ef4444;
   *
   * @see fill
   *
@@ -875,7 +875,7 @@ export const fill_red_500 = "fill-red-500";
  * fill-red-600
  *
  * CSS:
- * - `fill: #dc2626;`
+ * - fill: #dc2626;
   *
   * @see fill
   *
@@ -888,7 +888,7 @@ export const fill_red_600 = "fill-red-600";
  * fill-red-700
  *
  * CSS:
- * - `fill: #b91c1c;`
+ * - fill: #b91c1c;
   *
   * @see fill
   *
@@ -901,7 +901,7 @@ export const fill_red_700 = "fill-red-700";
  * fill-red-800
  *
  * CSS:
- * - `fill: #991b1b;`
+ * - fill: #991b1b;
   *
   * @see fill
   *
@@ -914,7 +914,7 @@ export const fill_red_800 = "fill-red-800";
  * fill-red-900
  *
  * CSS:
- * - `fill: #7f1d1d;`
+ * - fill: #7f1d1d;
   *
   * @see fill
   *
@@ -927,7 +927,7 @@ export const fill_red_900 = "fill-red-900";
  * fill-red-950
  *
  * CSS:
- * - `fill: #450a0a;`
+ * - fill: #450a0a;
   *
   * @see fill
   *
@@ -940,7 +940,7 @@ export const fill_red_950 = "fill-red-950";
  * fill-orange-50
  *
  * CSS:
- * - `fill: #fff7ed;`
+ * - fill: #fff7ed;
   *
   * @see fill
   *
@@ -953,7 +953,7 @@ export const fill_orange_50 = "fill-orange-50";
  * fill-orange-100
  *
  * CSS:
- * - `fill: #ffedd5;`
+ * - fill: #ffedd5;
   *
   * @see fill
   *
@@ -966,7 +966,7 @@ export const fill_orange_100 = "fill-orange-100";
  * fill-orange-200
  *
  * CSS:
- * - `fill: #fed7aa;`
+ * - fill: #fed7aa;
   *
   * @see fill
   *
@@ -979,7 +979,7 @@ export const fill_orange_200 = "fill-orange-200";
  * fill-orange-300
  *
  * CSS:
- * - `fill: #fdba74;`
+ * - fill: #fdba74;
   *
   * @see fill
   *
@@ -992,7 +992,7 @@ export const fill_orange_300 = "fill-orange-300";
  * fill-orange-400
  *
  * CSS:
- * - `fill: #fb923c;`
+ * - fill: #fb923c;
   *
   * @see fill
   *
@@ -1005,7 +1005,7 @@ export const fill_orange_400 = "fill-orange-400";
  * fill-orange-500
  *
  * CSS:
- * - `fill: #f97316;`
+ * - fill: #f97316;
   *
   * @see fill
   *
@@ -1018,7 +1018,7 @@ export const fill_orange_500 = "fill-orange-500";
  * fill-orange-600
  *
  * CSS:
- * - `fill: #ea580c;`
+ * - fill: #ea580c;
   *
   * @see fill
   *
@@ -1031,7 +1031,7 @@ export const fill_orange_600 = "fill-orange-600";
  * fill-orange-700
  *
  * CSS:
- * - `fill: #c2410c;`
+ * - fill: #c2410c;
   *
   * @see fill
   *
@@ -1044,7 +1044,7 @@ export const fill_orange_700 = "fill-orange-700";
  * fill-orange-800
  *
  * CSS:
- * - `fill: #9a3412;`
+ * - fill: #9a3412;
   *
   * @see fill
   *
@@ -1057,7 +1057,7 @@ export const fill_orange_800 = "fill-orange-800";
  * fill-orange-900
  *
  * CSS:
- * - `fill: #7c2d12;`
+ * - fill: #7c2d12;
   *
   * @see fill
   *
@@ -1070,7 +1070,7 @@ export const fill_orange_900 = "fill-orange-900";
  * fill-orange-950
  *
  * CSS:
- * - `fill: #431407;`
+ * - fill: #431407;
   *
   * @see fill
   *
@@ -1083,7 +1083,7 @@ export const fill_orange_950 = "fill-orange-950";
  * fill-amber-50
  *
  * CSS:
- * - `fill: #fffbeb;`
+ * - fill: #fffbeb;
   *
   * @see fill
   *
@@ -1096,7 +1096,7 @@ export const fill_amber_50 = "fill-amber-50";
  * fill-amber-100
  *
  * CSS:
- * - `fill: #fef3c7;`
+ * - fill: #fef3c7;
   *
   * @see fill
   *
@@ -1109,7 +1109,7 @@ export const fill_amber_100 = "fill-amber-100";
  * fill-amber-200
  *
  * CSS:
- * - `fill: #fde68a;`
+ * - fill: #fde68a;
   *
   * @see fill
   *
@@ -1122,7 +1122,7 @@ export const fill_amber_200 = "fill-amber-200";
  * fill-amber-300
  *
  * CSS:
- * - `fill: #fcd34d;`
+ * - fill: #fcd34d;
   *
   * @see fill
   *
@@ -1135,7 +1135,7 @@ export const fill_amber_300 = "fill-amber-300";
  * fill-amber-400
  *
  * CSS:
- * - `fill: #fbbf24;`
+ * - fill: #fbbf24;
   *
   * @see fill
   *
@@ -1148,7 +1148,7 @@ export const fill_amber_400 = "fill-amber-400";
  * fill-amber-500
  *
  * CSS:
- * - `fill: #f59e0b;`
+ * - fill: #f59e0b;
   *
   * @see fill
   *
@@ -1161,7 +1161,7 @@ export const fill_amber_500 = "fill-amber-500";
  * fill-amber-600
  *
  * CSS:
- * - `fill: #d97706;`
+ * - fill: #d97706;
   *
   * @see fill
   *
@@ -1174,7 +1174,7 @@ export const fill_amber_600 = "fill-amber-600";
  * fill-amber-700
  *
  * CSS:
- * - `fill: #b45309;`
+ * - fill: #b45309;
   *
   * @see fill
   *
@@ -1187,7 +1187,7 @@ export const fill_amber_700 = "fill-amber-700";
  * fill-amber-800
  *
  * CSS:
- * - `fill: #92400e;`
+ * - fill: #92400e;
   *
   * @see fill
   *
@@ -1200,7 +1200,7 @@ export const fill_amber_800 = "fill-amber-800";
  * fill-amber-900
  *
  * CSS:
- * - `fill: #78350f;`
+ * - fill: #78350f;
   *
   * @see fill
   *
@@ -1213,7 +1213,7 @@ export const fill_amber_900 = "fill-amber-900";
  * fill-amber-950
  *
  * CSS:
- * - `fill: #451a03;`
+ * - fill: #451a03;
   *
   * @see fill
   *
@@ -1226,7 +1226,7 @@ export const fill_amber_950 = "fill-amber-950";
  * fill-yellow-50
  *
  * CSS:
- * - `fill: #fefce8;`
+ * - fill: #fefce8;
   *
   * @see fill
   *
@@ -1239,7 +1239,7 @@ export const fill_yellow_50 = "fill-yellow-50";
  * fill-yellow-100
  *
  * CSS:
- * - `fill: #fef9c3;`
+ * - fill: #fef9c3;
   *
   * @see fill
   *
@@ -1252,7 +1252,7 @@ export const fill_yellow_100 = "fill-yellow-100";
  * fill-yellow-200
  *
  * CSS:
- * - `fill: #fef08a;`
+ * - fill: #fef08a;
   *
   * @see fill
   *
@@ -1265,7 +1265,7 @@ export const fill_yellow_200 = "fill-yellow-200";
  * fill-yellow-300
  *
  * CSS:
- * - `fill: #fde047;`
+ * - fill: #fde047;
   *
   * @see fill
   *
@@ -1278,7 +1278,7 @@ export const fill_yellow_300 = "fill-yellow-300";
  * fill-yellow-400
  *
  * CSS:
- * - `fill: #facc15;`
+ * - fill: #facc15;
   *
   * @see fill
   *
@@ -1291,7 +1291,7 @@ export const fill_yellow_400 = "fill-yellow-400";
  * fill-yellow-500
  *
  * CSS:
- * - `fill: #eab308;`
+ * - fill: #eab308;
   *
   * @see fill
   *
@@ -1304,7 +1304,7 @@ export const fill_yellow_500 = "fill-yellow-500";
  * fill-yellow-600
  *
  * CSS:
- * - `fill: #ca8a04;`
+ * - fill: #ca8a04;
   *
   * @see fill
   *
@@ -1317,7 +1317,7 @@ export const fill_yellow_600 = "fill-yellow-600";
  * fill-yellow-700
  *
  * CSS:
- * - `fill: #a16207;`
+ * - fill: #a16207;
   *
   * @see fill
   *
@@ -1330,7 +1330,7 @@ export const fill_yellow_700 = "fill-yellow-700";
  * fill-yellow-800
  *
  * CSS:
- * - `fill: #854d0e;`
+ * - fill: #854d0e;
   *
   * @see fill
   *
@@ -1343,7 +1343,7 @@ export const fill_yellow_800 = "fill-yellow-800";
  * fill-yellow-900
  *
  * CSS:
- * - `fill: #713f12;`
+ * - fill: #713f12;
   *
   * @see fill
   *
@@ -1356,7 +1356,7 @@ export const fill_yellow_900 = "fill-yellow-900";
  * fill-yellow-950
  *
  * CSS:
- * - `fill: #422006;`
+ * - fill: #422006;
   *
   * @see fill
   *
@@ -1369,7 +1369,7 @@ export const fill_yellow_950 = "fill-yellow-950";
  * fill-lime-50
  *
  * CSS:
- * - `fill: #f7fee7;`
+ * - fill: #f7fee7;
   *
   * @see fill
   *
@@ -1382,7 +1382,7 @@ export const fill_lime_50 = "fill-lime-50";
  * fill-lime-100
  *
  * CSS:
- * - `fill: #ecfccb;`
+ * - fill: #ecfccb;
   *
   * @see fill
   *
@@ -1395,7 +1395,7 @@ export const fill_lime_100 = "fill-lime-100";
  * fill-lime-200
  *
  * CSS:
- * - `fill: #d9f99d;`
+ * - fill: #d9f99d;
   *
   * @see fill
   *
@@ -1408,7 +1408,7 @@ export const fill_lime_200 = "fill-lime-200";
  * fill-lime-300
  *
  * CSS:
- * - `fill: #bef264;`
+ * - fill: #bef264;
   *
   * @see fill
   *
@@ -1421,7 +1421,7 @@ export const fill_lime_300 = "fill-lime-300";
  * fill-lime-400
  *
  * CSS:
- * - `fill: #a3e635;`
+ * - fill: #a3e635;
   *
   * @see fill
   *
@@ -1434,7 +1434,7 @@ export const fill_lime_400 = "fill-lime-400";
  * fill-lime-500
  *
  * CSS:
- * - `fill: #84cc16;`
+ * - fill: #84cc16;
   *
   * @see fill
   *
@@ -1447,7 +1447,7 @@ export const fill_lime_500 = "fill-lime-500";
  * fill-lime-600
  *
  * CSS:
- * - `fill: #65a30d;`
+ * - fill: #65a30d;
   *
   * @see fill
   *
@@ -1460,7 +1460,7 @@ export const fill_lime_600 = "fill-lime-600";
  * fill-lime-700
  *
  * CSS:
- * - `fill: #4d7c0f;`
+ * - fill: #4d7c0f;
   *
   * @see fill
   *
@@ -1473,7 +1473,7 @@ export const fill_lime_700 = "fill-lime-700";
  * fill-lime-800
  *
  * CSS:
- * - `fill: #3f6212;`
+ * - fill: #3f6212;
   *
   * @see fill
   *
@@ -1486,7 +1486,7 @@ export const fill_lime_800 = "fill-lime-800";
  * fill-lime-900
  *
  * CSS:
- * - `fill: #365314;`
+ * - fill: #365314;
   *
   * @see fill
   *
@@ -1499,7 +1499,7 @@ export const fill_lime_900 = "fill-lime-900";
  * fill-lime-950
  *
  * CSS:
- * - `fill: #1a2e05;`
+ * - fill: #1a2e05;
   *
   * @see fill
   *
@@ -1512,7 +1512,7 @@ export const fill_lime_950 = "fill-lime-950";
  * fill-green-50
  *
  * CSS:
- * - `fill: #f0fdf4;`
+ * - fill: #f0fdf4;
   *
   * @see fill
   *
@@ -1525,7 +1525,7 @@ export const fill_green_50 = "fill-green-50";
  * fill-green-100
  *
  * CSS:
- * - `fill: #dcfce7;`
+ * - fill: #dcfce7;
   *
   * @see fill
   *
@@ -1538,7 +1538,7 @@ export const fill_green_100 = "fill-green-100";
  * fill-green-200
  *
  * CSS:
- * - `fill: #bbf7d0;`
+ * - fill: #bbf7d0;
   *
   * @see fill
   *
@@ -1551,7 +1551,7 @@ export const fill_green_200 = "fill-green-200";
  * fill-green-300
  *
  * CSS:
- * - `fill: #86efac;`
+ * - fill: #86efac;
   *
   * @see fill
   *
@@ -1564,7 +1564,7 @@ export const fill_green_300 = "fill-green-300";
  * fill-green-400
  *
  * CSS:
- * - `fill: #4ade80;`
+ * - fill: #4ade80;
   *
   * @see fill
   *
@@ -1577,7 +1577,7 @@ export const fill_green_400 = "fill-green-400";
  * fill-green-500
  *
  * CSS:
- * - `fill: #22c55e;`
+ * - fill: #22c55e;
   *
   * @see fill
   *
@@ -1590,7 +1590,7 @@ export const fill_green_500 = "fill-green-500";
  * fill-green-600
  *
  * CSS:
- * - `fill: #16a34a;`
+ * - fill: #16a34a;
   *
   * @see fill
   *
@@ -1603,7 +1603,7 @@ export const fill_green_600 = "fill-green-600";
  * fill-green-700
  *
  * CSS:
- * - `fill: #15803d;`
+ * - fill: #15803d;
   *
   * @see fill
   *
@@ -1616,7 +1616,7 @@ export const fill_green_700 = "fill-green-700";
  * fill-green-800
  *
  * CSS:
- * - `fill: #166534;`
+ * - fill: #166534;
   *
   * @see fill
   *
@@ -1629,7 +1629,7 @@ export const fill_green_800 = "fill-green-800";
  * fill-green-900
  *
  * CSS:
- * - `fill: #14532d;`
+ * - fill: #14532d;
   *
   * @see fill
   *
@@ -1642,7 +1642,7 @@ export const fill_green_900 = "fill-green-900";
  * fill-green-950
  *
  * CSS:
- * - `fill: #052e16;`
+ * - fill: #052e16;
   *
   * @see fill
   *
@@ -1655,7 +1655,7 @@ export const fill_green_950 = "fill-green-950";
  * fill-emerald-50
  *
  * CSS:
- * - `fill: #ecfdf5;`
+ * - fill: #ecfdf5;
   *
   * @see fill
   *
@@ -1668,7 +1668,7 @@ export const fill_emerald_50 = "fill-emerald-50";
  * fill-emerald-100
  *
  * CSS:
- * - `fill: #d1fae5;`
+ * - fill: #d1fae5;
   *
   * @see fill
   *
@@ -1681,7 +1681,7 @@ export const fill_emerald_100 = "fill-emerald-100";
  * fill-emerald-200
  *
  * CSS:
- * - `fill: #a7f3d0;`
+ * - fill: #a7f3d0;
   *
   * @see fill
   *
@@ -1694,7 +1694,7 @@ export const fill_emerald_200 = "fill-emerald-200";
  * fill-emerald-300
  *
  * CSS:
- * - `fill: #6ee7b7;`
+ * - fill: #6ee7b7;
   *
   * @see fill
   *
@@ -1707,7 +1707,7 @@ export const fill_emerald_300 = "fill-emerald-300";
  * fill-emerald-400
  *
  * CSS:
- * - `fill: #34d399;`
+ * - fill: #34d399;
   *
   * @see fill
   *
@@ -1720,7 +1720,7 @@ export const fill_emerald_400 = "fill-emerald-400";
  * fill-emerald-500
  *
  * CSS:
- * - `fill: #10b981;`
+ * - fill: #10b981;
   *
   * @see fill
   *
@@ -1733,7 +1733,7 @@ export const fill_emerald_500 = "fill-emerald-500";
  * fill-emerald-600
  *
  * CSS:
- * - `fill: #059669;`
+ * - fill: #059669;
   *
   * @see fill
   *
@@ -1746,7 +1746,7 @@ export const fill_emerald_600 = "fill-emerald-600";
  * fill-emerald-700
  *
  * CSS:
- * - `fill: #047857;`
+ * - fill: #047857;
   *
   * @see fill
   *
@@ -1759,7 +1759,7 @@ export const fill_emerald_700 = "fill-emerald-700";
  * fill-emerald-800
  *
  * CSS:
- * - `fill: #065f46;`
+ * - fill: #065f46;
   *
   * @see fill
   *
@@ -1772,7 +1772,7 @@ export const fill_emerald_800 = "fill-emerald-800";
  * fill-emerald-900
  *
  * CSS:
- * - `fill: #064e3b;`
+ * - fill: #064e3b;
   *
   * @see fill
   *
@@ -1785,7 +1785,7 @@ export const fill_emerald_900 = "fill-emerald-900";
  * fill-emerald-950
  *
  * CSS:
- * - `fill: #022c22;`
+ * - fill: #022c22;
   *
   * @see fill
   *
@@ -1798,7 +1798,7 @@ export const fill_emerald_950 = "fill-emerald-950";
  * fill-teal-50
  *
  * CSS:
- * - `fill: #f0fdfa;`
+ * - fill: #f0fdfa;
   *
   * @see fill
   *
@@ -1811,7 +1811,7 @@ export const fill_teal_50 = "fill-teal-50";
  * fill-teal-100
  *
  * CSS:
- * - `fill: #ccfbf1;`
+ * - fill: #ccfbf1;
   *
   * @see fill
   *
@@ -1824,7 +1824,7 @@ export const fill_teal_100 = "fill-teal-100";
  * fill-teal-200
  *
  * CSS:
- * - `fill: #99f6e4;`
+ * - fill: #99f6e4;
   *
   * @see fill
   *
@@ -1837,7 +1837,7 @@ export const fill_teal_200 = "fill-teal-200";
  * fill-teal-300
  *
  * CSS:
- * - `fill: #5eead4;`
+ * - fill: #5eead4;
   *
   * @see fill
   *
@@ -1850,7 +1850,7 @@ export const fill_teal_300 = "fill-teal-300";
  * fill-teal-400
  *
  * CSS:
- * - `fill: #2dd4bf;`
+ * - fill: #2dd4bf;
   *
   * @see fill
   *
@@ -1863,7 +1863,7 @@ export const fill_teal_400 = "fill-teal-400";
  * fill-teal-500
  *
  * CSS:
- * - `fill: #14b8a6;`
+ * - fill: #14b8a6;
   *
   * @see fill
   *
@@ -1876,7 +1876,7 @@ export const fill_teal_500 = "fill-teal-500";
  * fill-teal-600
  *
  * CSS:
- * - `fill: #0d9488;`
+ * - fill: #0d9488;
   *
   * @see fill
   *
@@ -1889,7 +1889,7 @@ export const fill_teal_600 = "fill-teal-600";
  * fill-teal-700
  *
  * CSS:
- * - `fill: #0f766e;`
+ * - fill: #0f766e;
   *
   * @see fill
   *
@@ -1902,7 +1902,7 @@ export const fill_teal_700 = "fill-teal-700";
  * fill-teal-800
  *
  * CSS:
- * - `fill: #115e59;`
+ * - fill: #115e59;
   *
   * @see fill
   *
@@ -1915,7 +1915,7 @@ export const fill_teal_800 = "fill-teal-800";
  * fill-teal-900
  *
  * CSS:
- * - `fill: #134e4a;`
+ * - fill: #134e4a;
   *
   * @see fill
   *
@@ -1928,7 +1928,7 @@ export const fill_teal_900 = "fill-teal-900";
  * fill-teal-950
  *
  * CSS:
- * - `fill: #042f2e;`
+ * - fill: #042f2e;
   *
   * @see fill
   *
@@ -1941,7 +1941,7 @@ export const fill_teal_950 = "fill-teal-950";
  * fill-cyan-50
  *
  * CSS:
- * - `fill: #ecfeff;`
+ * - fill: #ecfeff;
   *
   * @see fill
   *
@@ -1954,7 +1954,7 @@ export const fill_cyan_50 = "fill-cyan-50";
  * fill-cyan-100
  *
  * CSS:
- * - `fill: #cffafe;`
+ * - fill: #cffafe;
   *
   * @see fill
   *
@@ -1967,7 +1967,7 @@ export const fill_cyan_100 = "fill-cyan-100";
  * fill-cyan-200
  *
  * CSS:
- * - `fill: #a5f3fc;`
+ * - fill: #a5f3fc;
   *
   * @see fill
   *
@@ -1980,7 +1980,7 @@ export const fill_cyan_200 = "fill-cyan-200";
  * fill-cyan-300
  *
  * CSS:
- * - `fill: #67e8f9;`
+ * - fill: #67e8f9;
   *
   * @see fill
   *
@@ -1993,7 +1993,7 @@ export const fill_cyan_300 = "fill-cyan-300";
  * fill-cyan-400
  *
  * CSS:
- * - `fill: #22d3ee;`
+ * - fill: #22d3ee;
   *
   * @see fill
   *
@@ -2006,7 +2006,7 @@ export const fill_cyan_400 = "fill-cyan-400";
  * fill-cyan-500
  *
  * CSS:
- * - `fill: #06b6d4;`
+ * - fill: #06b6d4;
   *
   * @see fill
   *
@@ -2019,7 +2019,7 @@ export const fill_cyan_500 = "fill-cyan-500";
  * fill-cyan-600
  *
  * CSS:
- * - `fill: #0891b2;`
+ * - fill: #0891b2;
   *
   * @see fill
   *
@@ -2032,7 +2032,7 @@ export const fill_cyan_600 = "fill-cyan-600";
  * fill-cyan-700
  *
  * CSS:
- * - `fill: #0e7490;`
+ * - fill: #0e7490;
   *
   * @see fill
   *
@@ -2045,7 +2045,7 @@ export const fill_cyan_700 = "fill-cyan-700";
  * fill-cyan-800
  *
  * CSS:
- * - `fill: #155e75;`
+ * - fill: #155e75;
   *
   * @see fill
   *
@@ -2058,7 +2058,7 @@ export const fill_cyan_800 = "fill-cyan-800";
  * fill-cyan-900
  *
  * CSS:
- * - `fill: #164e63;`
+ * - fill: #164e63;
   *
   * @see fill
   *
@@ -2071,7 +2071,7 @@ export const fill_cyan_900 = "fill-cyan-900";
  * fill-cyan-950
  *
  * CSS:
- * - `fill: #083344;`
+ * - fill: #083344;
   *
   * @see fill
   *
@@ -2084,7 +2084,7 @@ export const fill_cyan_950 = "fill-cyan-950";
  * fill-sky-50
  *
  * CSS:
- * - `fill: #f0f9ff;`
+ * - fill: #f0f9ff;
   *
   * @see fill
   *
@@ -2097,7 +2097,7 @@ export const fill_sky_50 = "fill-sky-50";
  * fill-sky-100
  *
  * CSS:
- * - `fill: #e0f2fe;`
+ * - fill: #e0f2fe;
   *
   * @see fill
   *
@@ -2110,7 +2110,7 @@ export const fill_sky_100 = "fill-sky-100";
  * fill-sky-200
  *
  * CSS:
- * - `fill: #bae6fd;`
+ * - fill: #bae6fd;
   *
   * @see fill
   *
@@ -2123,7 +2123,7 @@ export const fill_sky_200 = "fill-sky-200";
  * fill-sky-300
  *
  * CSS:
- * - `fill: #7dd3fc;`
+ * - fill: #7dd3fc;
   *
   * @see fill
   *
@@ -2136,7 +2136,7 @@ export const fill_sky_300 = "fill-sky-300";
  * fill-sky-400
  *
  * CSS:
- * - `fill: #38bdf8;`
+ * - fill: #38bdf8;
   *
   * @see fill
   *
@@ -2149,7 +2149,7 @@ export const fill_sky_400 = "fill-sky-400";
  * fill-sky-500
  *
  * CSS:
- * - `fill: #0ea5e9;`
+ * - fill: #0ea5e9;
   *
   * @see fill
   *
@@ -2162,7 +2162,7 @@ export const fill_sky_500 = "fill-sky-500";
  * fill-sky-600
  *
  * CSS:
- * - `fill: #0284c7;`
+ * - fill: #0284c7;
   *
   * @see fill
   *
@@ -2175,7 +2175,7 @@ export const fill_sky_600 = "fill-sky-600";
  * fill-sky-700
  *
  * CSS:
- * - `fill: #0369a1;`
+ * - fill: #0369a1;
   *
   * @see fill
   *
@@ -2188,7 +2188,7 @@ export const fill_sky_700 = "fill-sky-700";
  * fill-sky-800
  *
  * CSS:
- * - `fill: #075985;`
+ * - fill: #075985;
   *
   * @see fill
   *
@@ -2201,7 +2201,7 @@ export const fill_sky_800 = "fill-sky-800";
  * fill-sky-900
  *
  * CSS:
- * - `fill: #0c4a6e;`
+ * - fill: #0c4a6e;
   *
   * @see fill
   *
@@ -2214,7 +2214,7 @@ export const fill_sky_900 = "fill-sky-900";
  * fill-sky-950
  *
  * CSS:
- * - `fill: #082f49;`
+ * - fill: #082f49;
   *
   * @see fill
   *
@@ -2227,7 +2227,7 @@ export const fill_sky_950 = "fill-sky-950";
  * fill-blue-50
  *
  * CSS:
- * - `fill: #eff6ff;`
+ * - fill: #eff6ff;
   *
   * @see fill
   *
@@ -2240,7 +2240,7 @@ export const fill_blue_50 = "fill-blue-50";
  * fill-blue-100
  *
  * CSS:
- * - `fill: #dbeafe;`
+ * - fill: #dbeafe;
   *
   * @see fill
   *
@@ -2253,7 +2253,7 @@ export const fill_blue_100 = "fill-blue-100";
  * fill-blue-200
  *
  * CSS:
- * - `fill: #bfdbfe;`
+ * - fill: #bfdbfe;
   *
   * @see fill
   *
@@ -2266,7 +2266,7 @@ export const fill_blue_200 = "fill-blue-200";
  * fill-blue-300
  *
  * CSS:
- * - `fill: #93c5fd;`
+ * - fill: #93c5fd;
   *
   * @see fill
   *
@@ -2279,7 +2279,7 @@ export const fill_blue_300 = "fill-blue-300";
  * fill-blue-400
  *
  * CSS:
- * - `fill: #60a5fa;`
+ * - fill: #60a5fa;
   *
   * @see fill
   *
@@ -2292,7 +2292,7 @@ export const fill_blue_400 = "fill-blue-400";
  * fill-blue-500
  *
  * CSS:
- * - `fill: #3b82f6;`
+ * - fill: #3b82f6;
   *
   * @see fill
   *
@@ -2305,7 +2305,7 @@ export const fill_blue_500 = "fill-blue-500";
  * fill-blue-600
  *
  * CSS:
- * - `fill: #2563eb;`
+ * - fill: #2563eb;
   *
   * @see fill
   *
@@ -2318,7 +2318,7 @@ export const fill_blue_600 = "fill-blue-600";
  * fill-blue-700
  *
  * CSS:
- * - `fill: #1d4ed8;`
+ * - fill: #1d4ed8;
   *
   * @see fill
   *
@@ -2331,7 +2331,7 @@ export const fill_blue_700 = "fill-blue-700";
  * fill-blue-800
  *
  * CSS:
- * - `fill: #1e40af;`
+ * - fill: #1e40af;
   *
   * @see fill
   *
@@ -2344,7 +2344,7 @@ export const fill_blue_800 = "fill-blue-800";
  * fill-blue-900
  *
  * CSS:
- * - `fill: #1e3a8a;`
+ * - fill: #1e3a8a;
   *
   * @see fill
   *
@@ -2357,7 +2357,7 @@ export const fill_blue_900 = "fill-blue-900";
  * fill-blue-950
  *
  * CSS:
- * - `fill: #172554;`
+ * - fill: #172554;
   *
   * @see fill
   *
@@ -2370,7 +2370,7 @@ export const fill_blue_950 = "fill-blue-950";
  * fill-indigo-50
  *
  * CSS:
- * - `fill: #eef2ff;`
+ * - fill: #eef2ff;
   *
   * @see fill
   *
@@ -2383,7 +2383,7 @@ export const fill_indigo_50 = "fill-indigo-50";
  * fill-indigo-100
  *
  * CSS:
- * - `fill: #e0e7ff;`
+ * - fill: #e0e7ff;
   *
   * @see fill
   *
@@ -2396,7 +2396,7 @@ export const fill_indigo_100 = "fill-indigo-100";
  * fill-indigo-200
  *
  * CSS:
- * - `fill: #c7d2fe;`
+ * - fill: #c7d2fe;
   *
   * @see fill
   *
@@ -2409,7 +2409,7 @@ export const fill_indigo_200 = "fill-indigo-200";
  * fill-indigo-300
  *
  * CSS:
- * - `fill: #a5b4fc;`
+ * - fill: #a5b4fc;
   *
   * @see fill
   *
@@ -2422,7 +2422,7 @@ export const fill_indigo_300 = "fill-indigo-300";
  * fill-indigo-400
  *
  * CSS:
- * - `fill: #818cf8;`
+ * - fill: #818cf8;
   *
   * @see fill
   *
@@ -2435,7 +2435,7 @@ export const fill_indigo_400 = "fill-indigo-400";
  * fill-indigo-500
  *
  * CSS:
- * - `fill: #6366f1;`
+ * - fill: #6366f1;
   *
   * @see fill
   *
@@ -2448,7 +2448,7 @@ export const fill_indigo_500 = "fill-indigo-500";
  * fill-indigo-600
  *
  * CSS:
- * - `fill: #4f46e5;`
+ * - fill: #4f46e5;
   *
   * @see fill
   *
@@ -2461,7 +2461,7 @@ export const fill_indigo_600 = "fill-indigo-600";
  * fill-indigo-700
  *
  * CSS:
- * - `fill: #4338ca;`
+ * - fill: #4338ca;
   *
   * @see fill
   *
@@ -2474,7 +2474,7 @@ export const fill_indigo_700 = "fill-indigo-700";
  * fill-indigo-800
  *
  * CSS:
- * - `fill: #3730a3;`
+ * - fill: #3730a3;
   *
   * @see fill
   *
@@ -2487,7 +2487,7 @@ export const fill_indigo_800 = "fill-indigo-800";
  * fill-indigo-900
  *
  * CSS:
- * - `fill: #312e81;`
+ * - fill: #312e81;
   *
   * @see fill
   *
@@ -2500,7 +2500,7 @@ export const fill_indigo_900 = "fill-indigo-900";
  * fill-indigo-950
  *
  * CSS:
- * - `fill: #1e1b4b;`
+ * - fill: #1e1b4b;
   *
   * @see fill
   *
@@ -2513,7 +2513,7 @@ export const fill_indigo_950 = "fill-indigo-950";
  * fill-violet-50
  *
  * CSS:
- * - `fill: #f5f3ff;`
+ * - fill: #f5f3ff;
   *
   * @see fill
   *
@@ -2526,7 +2526,7 @@ export const fill_violet_50 = "fill-violet-50";
  * fill-violet-100
  *
  * CSS:
- * - `fill: #ede9fe;`
+ * - fill: #ede9fe;
   *
   * @see fill
   *
@@ -2539,7 +2539,7 @@ export const fill_violet_100 = "fill-violet-100";
  * fill-violet-200
  *
  * CSS:
- * - `fill: #ddd6fe;`
+ * - fill: #ddd6fe;
   *
   * @see fill
   *
@@ -2552,7 +2552,7 @@ export const fill_violet_200 = "fill-violet-200";
  * fill-violet-300
  *
  * CSS:
- * - `fill: #c4b5fd;`
+ * - fill: #c4b5fd;
   *
   * @see fill
   *
@@ -2565,7 +2565,7 @@ export const fill_violet_300 = "fill-violet-300";
  * fill-violet-400
  *
  * CSS:
- * - `fill: #a78bfa;`
+ * - fill: #a78bfa;
   *
   * @see fill
   *
@@ -2578,7 +2578,7 @@ export const fill_violet_400 = "fill-violet-400";
  * fill-violet-500
  *
  * CSS:
- * - `fill: #8b5cf6;`
+ * - fill: #8b5cf6;
   *
   * @see fill
   *
@@ -2591,7 +2591,7 @@ export const fill_violet_500 = "fill-violet-500";
  * fill-violet-600
  *
  * CSS:
- * - `fill: #7c3aed;`
+ * - fill: #7c3aed;
   *
   * @see fill
   *
@@ -2604,7 +2604,7 @@ export const fill_violet_600 = "fill-violet-600";
  * fill-violet-700
  *
  * CSS:
- * - `fill: #6d28d9;`
+ * - fill: #6d28d9;
   *
   * @see fill
   *
@@ -2617,7 +2617,7 @@ export const fill_violet_700 = "fill-violet-700";
  * fill-violet-800
  *
  * CSS:
- * - `fill: #5b21b6;`
+ * - fill: #5b21b6;
   *
   * @see fill
   *
@@ -2630,7 +2630,7 @@ export const fill_violet_800 = "fill-violet-800";
  * fill-violet-900
  *
  * CSS:
- * - `fill: #4c1d95;`
+ * - fill: #4c1d95;
   *
   * @see fill
   *
@@ -2643,7 +2643,7 @@ export const fill_violet_900 = "fill-violet-900";
  * fill-violet-950
  *
  * CSS:
- * - `fill: #2e1065;`
+ * - fill: #2e1065;
   *
   * @see fill
   *
@@ -2656,7 +2656,7 @@ export const fill_violet_950 = "fill-violet-950";
  * fill-purple-50
  *
  * CSS:
- * - `fill: #faf5ff;`
+ * - fill: #faf5ff;
   *
   * @see fill
   *
@@ -2669,7 +2669,7 @@ export const fill_purple_50 = "fill-purple-50";
  * fill-purple-100
  *
  * CSS:
- * - `fill: #f3e8ff;`
+ * - fill: #f3e8ff;
   *
   * @see fill
   *
@@ -2682,7 +2682,7 @@ export const fill_purple_100 = "fill-purple-100";
  * fill-purple-200
  *
  * CSS:
- * - `fill: #e9d5ff;`
+ * - fill: #e9d5ff;
   *
   * @see fill
   *
@@ -2695,7 +2695,7 @@ export const fill_purple_200 = "fill-purple-200";
  * fill-purple-300
  *
  * CSS:
- * - `fill: #d8b4fe;`
+ * - fill: #d8b4fe;
   *
   * @see fill
   *
@@ -2708,7 +2708,7 @@ export const fill_purple_300 = "fill-purple-300";
  * fill-purple-400
  *
  * CSS:
- * - `fill: #c084fc;`
+ * - fill: #c084fc;
   *
   * @see fill
   *
@@ -2721,7 +2721,7 @@ export const fill_purple_400 = "fill-purple-400";
  * fill-purple-500
  *
  * CSS:
- * - `fill: #a855f7;`
+ * - fill: #a855f7;
   *
   * @see fill
   *
@@ -2734,7 +2734,7 @@ export const fill_purple_500 = "fill-purple-500";
  * fill-purple-600
  *
  * CSS:
- * - `fill: #9333ea;`
+ * - fill: #9333ea;
   *
   * @see fill
   *
@@ -2747,7 +2747,7 @@ export const fill_purple_600 = "fill-purple-600";
  * fill-purple-700
  *
  * CSS:
- * - `fill: #7e22ce;`
+ * - fill: #7e22ce;
   *
   * @see fill
   *
@@ -2760,7 +2760,7 @@ export const fill_purple_700 = "fill-purple-700";
  * fill-purple-800
  *
  * CSS:
- * - `fill: #6b21a8;`
+ * - fill: #6b21a8;
   *
   * @see fill
   *
@@ -2773,7 +2773,7 @@ export const fill_purple_800 = "fill-purple-800";
  * fill-purple-900
  *
  * CSS:
- * - `fill: #581c87;`
+ * - fill: #581c87;
   *
   * @see fill
   *
@@ -2786,7 +2786,7 @@ export const fill_purple_900 = "fill-purple-900";
  * fill-purple-950
  *
  * CSS:
- * - `fill: #3b0764;`
+ * - fill: #3b0764;
   *
   * @see fill
   *
@@ -2799,7 +2799,7 @@ export const fill_purple_950 = "fill-purple-950";
  * fill-fuchsia-50
  *
  * CSS:
- * - `fill: #fdf4ff;`
+ * - fill: #fdf4ff;
   *
   * @see fill
   *
@@ -2812,7 +2812,7 @@ export const fill_fuchsia_50 = "fill-fuchsia-50";
  * fill-fuchsia-100
  *
  * CSS:
- * - `fill: #fae8ff;`
+ * - fill: #fae8ff;
   *
   * @see fill
   *
@@ -2825,7 +2825,7 @@ export const fill_fuchsia_100 = "fill-fuchsia-100";
  * fill-fuchsia-200
  *
  * CSS:
- * - `fill: #f5d0fe;`
+ * - fill: #f5d0fe;
   *
   * @see fill
   *
@@ -2838,7 +2838,7 @@ export const fill_fuchsia_200 = "fill-fuchsia-200";
  * fill-fuchsia-300
  *
  * CSS:
- * - `fill: #f0abfc;`
+ * - fill: #f0abfc;
   *
   * @see fill
   *
@@ -2851,7 +2851,7 @@ export const fill_fuchsia_300 = "fill-fuchsia-300";
  * fill-fuchsia-400
  *
  * CSS:
- * - `fill: #e879f9;`
+ * - fill: #e879f9;
   *
   * @see fill
   *
@@ -2864,7 +2864,7 @@ export const fill_fuchsia_400 = "fill-fuchsia-400";
  * fill-fuchsia-500
  *
  * CSS:
- * - `fill: #d946ef;`
+ * - fill: #d946ef;
   *
   * @see fill
   *
@@ -2877,7 +2877,7 @@ export const fill_fuchsia_500 = "fill-fuchsia-500";
  * fill-fuchsia-600
  *
  * CSS:
- * - `fill: #c026d3;`
+ * - fill: #c026d3;
   *
   * @see fill
   *
@@ -2890,7 +2890,7 @@ export const fill_fuchsia_600 = "fill-fuchsia-600";
  * fill-fuchsia-700
  *
  * CSS:
- * - `fill: #a21caf;`
+ * - fill: #a21caf;
   *
   * @see fill
   *
@@ -2903,7 +2903,7 @@ export const fill_fuchsia_700 = "fill-fuchsia-700";
  * fill-fuchsia-800
  *
  * CSS:
- * - `fill: #86198f;`
+ * - fill: #86198f;
   *
   * @see fill
   *
@@ -2916,7 +2916,7 @@ export const fill_fuchsia_800 = "fill-fuchsia-800";
  * fill-fuchsia-900
  *
  * CSS:
- * - `fill: #701a75;`
+ * - fill: #701a75;
   *
   * @see fill
   *
@@ -2929,7 +2929,7 @@ export const fill_fuchsia_900 = "fill-fuchsia-900";
  * fill-fuchsia-950
  *
  * CSS:
- * - `fill: #4a044e;`
+ * - fill: #4a044e;
   *
   * @see fill
   *
@@ -2942,7 +2942,7 @@ export const fill_fuchsia_950 = "fill-fuchsia-950";
  * fill-pink-50
  *
  * CSS:
- * - `fill: #fdf2f8;`
+ * - fill: #fdf2f8;
   *
   * @see fill
   *
@@ -2955,7 +2955,7 @@ export const fill_pink_50 = "fill-pink-50";
  * fill-pink-100
  *
  * CSS:
- * - `fill: #fce7f3;`
+ * - fill: #fce7f3;
   *
   * @see fill
   *
@@ -2968,7 +2968,7 @@ export const fill_pink_100 = "fill-pink-100";
  * fill-pink-200
  *
  * CSS:
- * - `fill: #fbcfe8;`
+ * - fill: #fbcfe8;
   *
   * @see fill
   *
@@ -2981,7 +2981,7 @@ export const fill_pink_200 = "fill-pink-200";
  * fill-pink-300
  *
  * CSS:
- * - `fill: #f9a8d4;`
+ * - fill: #f9a8d4;
   *
   * @see fill
   *
@@ -2994,7 +2994,7 @@ export const fill_pink_300 = "fill-pink-300";
  * fill-pink-400
  *
  * CSS:
- * - `fill: #f472b6;`
+ * - fill: #f472b6;
   *
   * @see fill
   *
@@ -3007,7 +3007,7 @@ export const fill_pink_400 = "fill-pink-400";
  * fill-pink-500
  *
  * CSS:
- * - `fill: #ec4899;`
+ * - fill: #ec4899;
   *
   * @see fill
   *
@@ -3020,7 +3020,7 @@ export const fill_pink_500 = "fill-pink-500";
  * fill-pink-600
  *
  * CSS:
- * - `fill: #db2777;`
+ * - fill: #db2777;
   *
   * @see fill
   *
@@ -3033,7 +3033,7 @@ export const fill_pink_600 = "fill-pink-600";
  * fill-pink-700
  *
  * CSS:
- * - `fill: #be185d;`
+ * - fill: #be185d;
   *
   * @see fill
   *
@@ -3046,7 +3046,7 @@ export const fill_pink_700 = "fill-pink-700";
  * fill-pink-800
  *
  * CSS:
- * - `fill: #9d174d;`
+ * - fill: #9d174d;
   *
   * @see fill
   *
@@ -3059,7 +3059,7 @@ export const fill_pink_800 = "fill-pink-800";
  * fill-pink-900
  *
  * CSS:
- * - `fill: #831843;`
+ * - fill: #831843;
   *
   * @see fill
   *
@@ -3072,7 +3072,7 @@ export const fill_pink_900 = "fill-pink-900";
  * fill-pink-950
  *
  * CSS:
- * - `fill: #500724;`
+ * - fill: #500724;
   *
   * @see fill
   *
@@ -3085,7 +3085,7 @@ export const fill_pink_950 = "fill-pink-950";
  * fill-rose-50
  *
  * CSS:
- * - `fill: #fff1f2;`
+ * - fill: #fff1f2;
   *
   * @see fill
   *
@@ -3098,7 +3098,7 @@ export const fill_rose_50 = "fill-rose-50";
  * fill-rose-100
  *
  * CSS:
- * - `fill: #ffe4e6;`
+ * - fill: #ffe4e6;
   *
   * @see fill
   *
@@ -3111,7 +3111,7 @@ export const fill_rose_100 = "fill-rose-100";
  * fill-rose-200
  *
  * CSS:
- * - `fill: #fecdd3;`
+ * - fill: #fecdd3;
   *
   * @see fill
   *
@@ -3124,7 +3124,7 @@ export const fill_rose_200 = "fill-rose-200";
  * fill-rose-300
  *
  * CSS:
- * - `fill: #fda4af;`
+ * - fill: #fda4af;
   *
   * @see fill
   *
@@ -3137,7 +3137,7 @@ export const fill_rose_300 = "fill-rose-300";
  * fill-rose-400
  *
  * CSS:
- * - `fill: #fb7185;`
+ * - fill: #fb7185;
   *
   * @see fill
   *
@@ -3150,7 +3150,7 @@ export const fill_rose_400 = "fill-rose-400";
  * fill-rose-500
  *
  * CSS:
- * - `fill: #f43f5e;`
+ * - fill: #f43f5e;
   *
   * @see fill
   *
@@ -3163,7 +3163,7 @@ export const fill_rose_500 = "fill-rose-500";
  * fill-rose-600
  *
  * CSS:
- * - `fill: #e11d48;`
+ * - fill: #e11d48;
   *
   * @see fill
   *
@@ -3176,7 +3176,7 @@ export const fill_rose_600 = "fill-rose-600";
  * fill-rose-700
  *
  * CSS:
- * - `fill: #be123c;`
+ * - fill: #be123c;
   *
   * @see fill
   *
@@ -3189,7 +3189,7 @@ export const fill_rose_700 = "fill-rose-700";
  * fill-rose-800
  *
  * CSS:
- * - `fill: #9f1239;`
+ * - fill: #9f1239;
   *
   * @see fill
   *
@@ -3202,7 +3202,7 @@ export const fill_rose_800 = "fill-rose-800";
  * fill-rose-900
  *
  * CSS:
- * - `fill: #881337;`
+ * - fill: #881337;
   *
   * @see fill
   *
@@ -3215,7 +3215,7 @@ export const fill_rose_900 = "fill-rose-900";
  * fill-rose-950
  *
  * CSS:
- * - `fill: #4c0519;`
+ * - fill: #4c0519;
   *
   * @see fill
   *

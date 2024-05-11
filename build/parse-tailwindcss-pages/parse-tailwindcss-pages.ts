@@ -61,19 +61,19 @@ export function parseTailwindCssPages(): Definition {
     (page) => !["docs", "states"].includes(page)
   );
 
-  const areas = areaNames.map(parseLibArea);
+  const areas = areaNames.map(parseLibUtilityArea);
 
   const modifierGroups = parseLibModifiers();
 
   return { utilityAreas: areas, modifierGroups };
 }
 
-function parseLibArea(areaName: string): UtilityArea {
+function parseLibUtilityArea(areaName: string): UtilityArea {
   return {
     name: areaName,
     title: convertCodeNameToTitle(areaName),
     groups: Object.keys(pages[areaName])
-      .map((groupName) => parseLibGroup(areaName, groupName))
+      .map((groupName) => parseLibUtilityGroup(areaName, groupName))
       .filter(isNotNil),
   };
 }
@@ -92,7 +92,7 @@ function getLibGroupTableType(classTableColNames: readonly string[]) {
   }
 }
 
-function parseLibGroup(
+function parseLibUtilityGroup(
   areaName: string,
   groupName: string
 ): UtilityGroup | undefined {
@@ -141,8 +141,8 @@ function parseLibGroup(
   });
 
   const buildUtilities = {
-    regular: parseLibUtilities,
-    container: parseLibUtilityContainer,
+    regular: parseLibUtilityGroupUtilities,
+    container: parseLibUtilityGroupUtilityContainer,
   };
 
   const name = groupName;
@@ -153,7 +153,7 @@ function parseLibGroup(
     jsdom
   );
 
-  const arbitraries = parseLibGroupArbitraries(
+  const arbitraries = parseLibUtilityGroupArbitraries(
     jsdom,
     utilities,
     tailwindCssUrl
@@ -169,7 +169,7 @@ function parseLibGroup(
   };
 }
 
-function parseLibGroupArbitraries(
+function parseLibUtilityGroupArbitraries(
   jsdom: JSDOM,
   utilities: readonly Utility[],
   tailwindCssGroupUrl: string
@@ -180,13 +180,13 @@ function parseLibGroupArbitraries(
     return [];
   }
 
-  const nextP = arbitraryHeadingElement.nextElementSibling; // p
+  const nextP = arbitraryHeadingElement.nextElementSibling;
   assertExists(nextP, "arbitrary description element", { nextP });
 
-  const nextCode = nextP.nextElementSibling; // pre
-  assertExists(nextCode, "arbitrary code sample", { nextCode });
+  const nextPre = nextP.nextElementSibling;
+  assertExists(nextPre, "arbitrary code sample", { nextCode: nextPre });
 
-  const nextCodeHighlightElement = nextCode.querySelector(".code-highlight");
+  const nextCodeHighlightElement = nextPre.querySelector(".code-highlight");
   assertExists(nextCodeHighlightElement, "arbitrary code sample highlight", {
     nextCodeHighlightElement,
   });
@@ -201,7 +201,7 @@ function parseLibGroupArbitraries(
     .split(":")
     .slice(-1)[0];
 
-  const description = nextP.textContent ?? undefined;
+  const description = nextP.textContent ?? "";
 
   const utilityNames = utilities.map((utility) => utility.tailwindCssName);
   const utilityPrefixes = utilityNames.map((name) =>
@@ -221,10 +221,10 @@ function parseLibGroupArbitraries(
   const tailwindCssUrl = `${tailwindCssGroupUrl}#arbitrary-values`;
 
   const arbitraries = namesUniqNotAlreadyUsed.map((name) => ({
-    name: name.replaceAll("-", "_"),
+    name: convertTailwindCssNameToCodeName(name),
     description,
     tailwindCssUrl,
-    tailwindCssName: name,
+    tailwindCssName: `${name}-[…]`,
   }));
 
   for (const nameNowUsed of namesUniqNotAlreadyUsed) {
@@ -234,15 +234,20 @@ function parseLibGroupArbitraries(
   return arbitraries;
 }
 
-function parseLibUtilities(
+function parseLibUtilityGroupUtilities(
   tailwindCssUrl: string,
   classTableRows: readonly Element[],
   jsdom: JSDOM
 ): readonly Utility[] {
-  return classTableRows.map((tr) => parseLibUtility(tailwindCssUrl, tr));
+  return classTableRows.map((tr) =>
+    parseLibUtilityGroupUtility(tailwindCssUrl, tr)
+  );
 }
 
-function parseLibUtility(tailwindCssUrl: string, tr: Element): Utility {
+function parseLibUtilityGroupUtility(
+  tailwindCssUrl: string,
+  tr: Element
+): Utility {
   const tds = Array.from(tr.children);
 
   const tailwindCssName = tds[0].childNodes[0].textContent;
@@ -265,7 +270,7 @@ function parseLibUtility(tailwindCssUrl: string, tr: Element): Utility {
   };
 }
 
-function parseLibUtilityContainer(
+function parseLibUtilityGroupUtilityContainer(
   tailwindCssUrl: string,
   classTableRows: readonly Element[],
   jsdom: JSDOM
@@ -383,7 +388,7 @@ function parseLibModifiers(): readonly ModifierGroup[] {
     const description = descriptionElement.textContent;
     assertHasText(description, "modifier description", { descriptionElement });
 
-    const isArbitrary = tailwindCssName.includes("[…]");
+    const isArbitrary = tailwindCssName.includes("-[…]");
     if (isArbitrary) {
       if (arbitraryNames[name]) {
         continue;

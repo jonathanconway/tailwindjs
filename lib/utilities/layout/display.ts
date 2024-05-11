@@ -4,7 +4,7 @@
  * block
  *
  * CSS:
- * - `display: block;`
+ * - display: block;
   *
   * @see display
   *
@@ -17,7 +17,7 @@ export const block = "block";
  * inline-block
  *
  * CSS:
- * - `display: inline-block;`
+ * - display: inline-block;
   *
   * @see display
   *
@@ -30,7 +30,7 @@ export const inline_block = "inline-block";
  * inline
  *
  * CSS:
- * - `display: inline;`
+ * - display: inline;
   *
   * @see display
   *
@@ -43,7 +43,7 @@ export const inline = "inline";
  * flex
  *
  * CSS:
- * - `display: flex;`
+ * - display: flex;
   *
   * @see display
   *
@@ -56,7 +56,7 @@ export const flex = "flex";
  * inline-flex
  *
  * CSS:
- * - `display: inline-flex;`
+ * - display: inline-flex;
   *
   * @see display
   *
@@ -69,7 +69,7 @@ export const inline_flex = "inline-flex";
  * table
  *
  * CSS:
- * - `display: table;`
+ * - display: table;
   *
   * @see display
   *
@@ -82,7 +82,7 @@ export const table = "table";
  * inline-table
  *
  * CSS:
- * - `display: inline-table;`
+ * - display: inline-table;
   *
   * @see display
   *
@@ -95,7 +95,7 @@ export const inline_table = "inline-table";
  * table-caption
  *
  * CSS:
- * - `display: table-caption;`
+ * - display: table-caption;
   *
   * @see display
   *
@@ -108,7 +108,7 @@ export const table_caption = "table-caption";
  * table-cell
  *
  * CSS:
- * - `display: table-cell;`
+ * - display: table-cell;
   *
   * @see display
   *
@@ -121,7 +121,7 @@ export const table_cell = "table-cell";
  * table-column
  *
  * CSS:
- * - `display: table-column;`
+ * - display: table-column;
   *
   * @see display
   *
@@ -134,7 +134,7 @@ export const table_column = "table-column";
  * table-column-group
  *
  * CSS:
- * - `display: table-column-group;`
+ * - display: table-column-group;
   *
   * @see display
   *
@@ -147,7 +147,7 @@ export const table_column_group = "table-column-group";
  * table-footer-group
  *
  * CSS:
- * - `display: table-footer-group;`
+ * - display: table-footer-group;
   *
   * @see display
   *
@@ -160,7 +160,7 @@ export const table_footer_group = "table-footer-group";
  * table-header-group
  *
  * CSS:
- * - `display: table-header-group;`
+ * - display: table-header-group;
   *
   * @see display
   *
@@ -173,7 +173,7 @@ export const table_header_group = "table-header-group";
  * table-row-group
  *
  * CSS:
- * - `display: table-row-group;`
+ * - display: table-row-group;
   *
   * @see display
   *
@@ -186,7 +186,7 @@ export const table_row_group = "table-row-group";
  * table-row
  *
  * CSS:
- * - `display: table-row;`
+ * - display: table-row;
   *
   * @see display
   *
@@ -199,7 +199,7 @@ export const table_row = "table-row";
  * flow-root
  *
  * CSS:
- * - `display: flow-root;`
+ * - display: flow-root;
   *
   * @see display
   *
@@ -212,7 +212,7 @@ export const flow_root = "flow-root";
  * grid
  *
  * CSS:
- * - `display: grid;`
+ * - display: grid;
   *
   * @see display
   *
@@ -225,7 +225,7 @@ export const grid = "grid";
  * inline-grid
  *
  * CSS:
- * - `display: inline-grid;`
+ * - display: inline-grid;
   *
   * @see display
   *
@@ -238,7 +238,7 @@ export const inline_grid = "inline-grid";
  * contents
  *
  * CSS:
- * - `display: contents;`
+ * - display: contents;
   *
   * @see display
   *
@@ -251,7 +251,7 @@ export const contents = "contents";
  * list-item
  *
  * CSS:
- * - `display: list-item;`
+ * - display: list-item;
   *
   * @see display
   *
@@ -264,7 +264,7 @@ export const list_item = "list-item";
  * hidden
  *
  * CSS:
- * - `display: none;`
+ * - display: none;
   *
   * @see display
   *

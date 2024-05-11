@@ -6,7 +6,7 @@
  * Style the ::before and ::after pseudo-elements using the before and after modifiers.
  *
  * CSS:
- * - `&::before`
+ * - &::before
  *
  * @param suffix Utility to modify
  * 
@@ -23,7 +23,7 @@ export const before = (suffix: string) => `before:${suffix}`;
  * Style the ::before and ::after pseudo-elements using the before and after modifiers.
  *
  * CSS:
- * - `&::after`
+ * - &::after
  *
  * @param suffix Utility to modify
  * 
@@ -40,7 +40,7 @@ export const after = (suffix: string) => `after:${suffix}`;
  * Style the first line in a block of content using the first-line modifier, and the first letter using the first-letter modifier.
  *
  * CSS:
- * - `&::first-letter`
+ * - &::first-letter
  *
  * @param suffix Utility to modify
  * 
@@ -57,7 +57,7 @@ export const first_letter = (suffix: string) => `first-letter:${suffix}`;
  * Style the first line in a block of content using the first-line modifier, and the first letter using the first-letter modifier.
  *
  * CSS:
- * - `&::first-line`
+ * - &::first-line
  *
  * @param suffix Utility to modify
  * 
@@ -74,7 +74,7 @@ export const first_line = (suffix: string) => `first-line:${suffix}`;
  * Style the active text selection using the selection modifier.
  *
  * CSS:
- * - `&::marker`
+ * - &::marker
  *
  * @param suffix Utility to modify
  * 
@@ -91,7 +91,7 @@ export const marker = (suffix: string) => `marker:${suffix}`;
  * Style the active text selection using the selection modifier.
  *
  * CSS:
- * - `&::selection`
+ * - &::selection
  *
  * @param suffix Utility to modify
  * 
@@ -108,7 +108,7 @@ export const selection = (suffix: string) => `selection:${suffix}`;
  * Style the button in file inputs using the file modifier.
  *
  * CSS:
- * - `&::file-selector-button`
+ * - &::file-selector-button
  *
  * @param suffix Utility to modify
  * 
@@ -125,7 +125,7 @@ export const file = (suffix: string) => `file:${suffix}`;
  * Style the backdrop of a native <dialog> element using the backdrop modifier.
  *
  * CSS:
- * - `&::backdrop`
+ * - &::backdrop
  *
  * @param suffix Utility to modify
  * 
@@ -142,7 +142,7 @@ export const backdrop = (suffix: string) => `backdrop:${suffix}`;
  * Style the placeholder text of any input or textarea using the placeholder modifier.
  *
  * CSS:
- * - `&::placeholder`
+ * - &::placeholder
  *
  * @param suffix Utility to modify
  * 

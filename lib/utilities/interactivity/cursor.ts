@@ -4,7 +4,7 @@
  * cursor-auto
  *
  * CSS:
- * - `cursor: auto;`
+ * - cursor: auto;
   *
   * @see cursor
   *
@@ -17,7 +17,7 @@ export const cursor_auto = "cursor-auto";
  * cursor-default
  *
  * CSS:
- * - `cursor: default;`
+ * - cursor: default;
   *
   * @see cursor
   *
@@ -30,7 +30,7 @@ export const cursor_default = "cursor-default";
  * cursor-pointer
  *
  * CSS:
- * - `cursor: pointer;`
+ * - cursor: pointer;
   *
   * @see cursor
   *
@@ -43,7 +43,7 @@ export const cursor_pointer = "cursor-pointer";
  * cursor-wait
  *
  * CSS:
- * - `cursor: wait;`
+ * - cursor: wait;
   *
   * @see cursor
   *
@@ -56,7 +56,7 @@ export const cursor_wait = "cursor-wait";
  * cursor-text
  *
  * CSS:
- * - `cursor: text;`
+ * - cursor: text;
   *
   * @see cursor
   *
@@ -69,7 +69,7 @@ export const cursor_text = "cursor-text";
  * cursor-move
  *
  * CSS:
- * - `cursor: move;`
+ * - cursor: move;
   *
   * @see cursor
   *
@@ -82,7 +82,7 @@ export const cursor_move = "cursor-move";
  * cursor-help
  *
  * CSS:
- * - `cursor: help;`
+ * - cursor: help;
   *
   * @see cursor
   *
@@ -95,7 +95,7 @@ export const cursor_help = "cursor-help";
  * cursor-not-allowed
  *
  * CSS:
- * - `cursor: not-allowed;`
+ * - cursor: not-allowed;
   *
   * @see cursor
   *
@@ -108,7 +108,7 @@ export const cursor_not_allowed = "cursor-not-allowed";
  * cursor-none
  *
  * CSS:
- * - `cursor: none;`
+ * - cursor: none;
   *
   * @see cursor
   *
@@ -121,7 +121,7 @@ export const cursor_none = "cursor-none";
  * cursor-context-menu
  *
  * CSS:
- * - `cursor: context-menu;`
+ * - cursor: context-menu;
   *
   * @see cursor
   *
@@ -134,7 +134,7 @@ export const cursor_context_menu = "cursor-context-menu";
  * cursor-progress
  *
  * CSS:
- * - `cursor: progress;`
+ * - cursor: progress;
   *
   * @see cursor
   *
@@ -147,7 +147,7 @@ export const cursor_progress = "cursor-progress";
  * cursor-cell
  *
  * CSS:
- * - `cursor: cell;`
+ * - cursor: cell;
   *
   * @see cursor
   *
@@ -160,7 +160,7 @@ export const cursor_cell = "cursor-cell";
  * cursor-crosshair
  *
  * CSS:
- * - `cursor: crosshair;`
+ * - cursor: crosshair;
   *
   * @see cursor
   *
@@ -173,7 +173,7 @@ export const cursor_crosshair = "cursor-crosshair";
  * cursor-vertical-text
  *
  * CSS:
- * - `cursor: vertical-text;`
+ * - cursor: vertical-text;
   *
   * @see cursor
   *
@@ -186,7 +186,7 @@ export const cursor_vertical_text = "cursor-vertical-text";
  * cursor-alias
  *
  * CSS:
- * - `cursor: alias;`
+ * - cursor: alias;
   *
   * @see cursor
   *
@@ -199,7 +199,7 @@ export const cursor_alias = "cursor-alias";
  * cursor-copy
  *
  * CSS:
- * - `cursor: copy;`
+ * - cursor: copy;
   *
   * @see cursor
   *
@@ -212,7 +212,7 @@ export const cursor_copy = "cursor-copy";
  * cursor-no-drop
  *
  * CSS:
- * - `cursor: no-drop;`
+ * - cursor: no-drop;
   *
   * @see cursor
   *
@@ -225,7 +225,7 @@ export const cursor_no_drop = "cursor-no-drop";
  * cursor-grab
  *
  * CSS:
- * - `cursor: grab;`
+ * - cursor: grab;
   *
   * @see cursor
   *
@@ -238,7 +238,7 @@ export const cursor_grab = "cursor-grab";
  * cursor-grabbing
  *
  * CSS:
- * - `cursor: grabbing;`
+ * - cursor: grabbing;
   *
   * @see cursor
   *
@@ -251,7 +251,7 @@ export const cursor_grabbing = "cursor-grabbing";
  * cursor-all-scroll
  *
  * CSS:
- * - `cursor: all-scroll;`
+ * - cursor: all-scroll;
   *
   * @see cursor
   *
@@ -264,7 +264,7 @@ export const cursor_all_scroll = "cursor-all-scroll";
  * cursor-col-resize
  *
  * CSS:
- * - `cursor: col-resize;`
+ * - cursor: col-resize;
   *
   * @see cursor
   *
@@ -277,7 +277,7 @@ export const cursor_col_resize = "cursor-col-resize";
  * cursor-row-resize
  *
  * CSS:
- * - `cursor: row-resize;`
+ * - cursor: row-resize;
   *
   * @see cursor
   *
@@ -290,7 +290,7 @@ export const cursor_row_resize = "cursor-row-resize";
  * cursor-n-resize
  *
  * CSS:
- * - `cursor: n-resize;`
+ * - cursor: n-resize;
   *
   * @see cursor
   *
@@ -303,7 +303,7 @@ export const cursor_n_resize = "cursor-n-resize";
  * cursor-e-resize
  *
  * CSS:
- * - `cursor: e-resize;`
+ * - cursor: e-resize;
   *
   * @see cursor
   *
@@ -316,7 +316,7 @@ export const cursor_e_resize = "cursor-e-resize";
  * cursor-s-resize
  *
  * CSS:
- * - `cursor: s-resize;`
+ * - cursor: s-resize;
   *
   * @see cursor
   *
@@ -329,7 +329,7 @@ export const cursor_s_resize = "cursor-s-resize";
  * cursor-w-resize
  *
  * CSS:
- * - `cursor: w-resize;`
+ * - cursor: w-resize;
   *
   * @see cursor
   *
@@ -342,7 +342,7 @@ export const cursor_w_resize = "cursor-w-resize";
  * cursor-ne-resize
  *
  * CSS:
- * - `cursor: ne-resize;`
+ * - cursor: ne-resize;
   *
   * @see cursor
   *
@@ -355,7 +355,7 @@ export const cursor_ne_resize = "cursor-ne-resize";
  * cursor-nw-resize
  *
  * CSS:
- * - `cursor: nw-resize;`
+ * - cursor: nw-resize;
   *
   * @see cursor
   *
@@ -368,7 +368,7 @@ export const cursor_nw_resize = "cursor-nw-resize";
  * cursor-se-resize
  *
  * CSS:
- * - `cursor: se-resize;`
+ * - cursor: se-resize;
   *
   * @see cursor
   *
@@ -381,7 +381,7 @@ export const cursor_se_resize = "cursor-se-resize";
  * cursor-sw-resize
  *
  * CSS:
- * - `cursor: sw-resize;`
+ * - cursor: sw-resize;
   *
   * @see cursor
   *
@@ -394,7 +394,7 @@ export const cursor_sw_resize = "cursor-sw-resize";
  * cursor-ew-resize
  *
  * CSS:
- * - `cursor: ew-resize;`
+ * - cursor: ew-resize;
   *
   * @see cursor
   *
@@ -407,7 +407,7 @@ export const cursor_ew_resize = "cursor-ew-resize";
  * cursor-ns-resize
  *
  * CSS:
- * - `cursor: ns-resize;`
+ * - cursor: ns-resize;
   *
   * @see cursor
   *
@@ -420,7 +420,7 @@ export const cursor_ns_resize = "cursor-ns-resize";
  * cursor-nesw-resize
  *
  * CSS:
- * - `cursor: nesw-resize;`
+ * - cursor: nesw-resize;
   *
   * @see cursor
   *
@@ -433,7 +433,7 @@ export const cursor_nesw_resize = "cursor-nesw-resize";
  * cursor-nwse-resize
  *
  * CSS:
- * - `cursor: nwse-resize;`
+ * - cursor: nwse-resize;
   *
   * @see cursor
   *
@@ -446,7 +446,7 @@ export const cursor_nwse_resize = "cursor-nwse-resize";
  * cursor-zoom-in
  *
  * CSS:
- * - `cursor: zoom-in;`
+ * - cursor: zoom-in;
   *
   * @see cursor
   *
@@ -459,7 +459,7 @@ export const cursor_zoom_in = "cursor-zoom-in";
  * cursor-zoom-out
  *
  * CSS:
- * - `cursor: zoom-out;`
+ * - cursor: zoom-out;
   *
   * @see cursor
   *

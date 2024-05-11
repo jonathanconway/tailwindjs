@@ -4,7 +4,7 @@
  * break-inside-auto
  *
  * CSS:
- * - `break-inside: auto;`
+ * - break-inside: auto;
   *
   * @see break_inside
   *
@@ -17,7 +17,7 @@ export const break_inside_auto = "break-inside-auto";
  * break-inside-avoid
  *
  * CSS:
- * - `break-inside: avoid;`
+ * - break-inside: avoid;
   *
   * @see break_inside
   *
@@ -30,7 +30,7 @@ export const break_inside_avoid = "break-inside-avoid";
  * break-inside-avoid-page
  *
  * CSS:
- * - `break-inside: avoid-page;`
+ * - break-inside: avoid-page;
   *
   * @see break_inside
   *
@@ -43,7 +43,7 @@ export const break_inside_avoid_page = "break-inside-avoid-page";
  * break-inside-avoid-column
  *
  * CSS:
- * - `break-inside: avoid-column;`
+ * - break-inside: avoid-column;
   *
   * @see break_inside
   *

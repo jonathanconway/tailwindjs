@@ -4,7 +4,7 @@
  * box-decoration-clone
  *
  * CSS:
- * - `box-decoration-break: clone;`
+ * - box-decoration-break: clone;
   *
   * @see box_decoration_break
   *
@@ -17,7 +17,7 @@ export const box_decoration_clone = "box-decoration-clone";
  * box-decoration-slice
  *
  * CSS:
- * - `box-decoration-break: slice;`
+ * - box-decoration-break: slice;
   *
   * @see box_decoration_break
   *

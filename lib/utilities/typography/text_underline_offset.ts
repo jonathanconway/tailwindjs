@@ -4,7 +4,7 @@
  * underline-offset-auto
  *
  * CSS:
- * - `text-underline-offset: auto;`
+ * - text-underline-offset: auto;
   *
   * @see text_underline_offset
   *
@@ -17,7 +17,7 @@ export const underline_offset_auto = "underline-offset-auto";
  * underline-offset-0
  *
  * CSS:
- * - `text-underline-offset: 0px;`
+ * - text-underline-offset: 0px;
   *
   * @see text_underline_offset
   *
@@ -30,7 +30,7 @@ export const underline_offset_0 = "underline-offset-0";
  * underline-offset-1
  *
  * CSS:
- * - `text-underline-offset: 1px;`
+ * - text-underline-offset: 1px;
   *
   * @see text_underline_offset
   *
@@ -43,7 +43,7 @@ export const underline_offset_1 = "underline-offset-1";
  * underline-offset-2
  *
  * CSS:
- * - `text-underline-offset: 2px;`
+ * - text-underline-offset: 2px;
   *
   * @see text_underline_offset
   *
@@ -56,7 +56,7 @@ export const underline_offset_2 = "underline-offset-2";
  * underline-offset-4
  *
  * CSS:
- * - `text-underline-offset: 4px;`
+ * - text-underline-offset: 4px;
   *
   * @see text_underline_offset
   *
@@ -69,7 +69,7 @@ export const underline_offset_4 = "underline-offset-4";
  * underline-offset-8
  *
  * CSS:
- * - `text-underline-offset: 8px;`
+ * - text-underline-offset: 8px;
   *
   * @see text_underline_offset
   *

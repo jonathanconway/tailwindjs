@@ -4,7 +4,7 @@
  * decoration-auto
  *
  * CSS:
- * - `text-decoration-thickness: auto;`
+ * - text-decoration-thickness: auto;
   *
   * @see text_decoration_thickness
   *
@@ -17,7 +17,7 @@ export const decoration_auto = "decoration-auto";
  * decoration-from-font
  *
  * CSS:
- * - `text-decoration-thickness: from-font;`
+ * - text-decoration-thickness: from-font;
   *
   * @see text_decoration_thickness
   *
@@ -30,7 +30,7 @@ export const decoration_from_font = "decoration-from-font";
  * decoration-0
  *
  * CSS:
- * - `text-decoration-thickness: 0px;`
+ * - text-decoration-thickness: 0px;
   *
   * @see text_decoration_thickness
   *
@@ -43,7 +43,7 @@ export const decoration_0 = "decoration-0";
  * decoration-1
  *
  * CSS:
- * - `text-decoration-thickness: 1px;`
+ * - text-decoration-thickness: 1px;
   *
   * @see text_decoration_thickness
   *
@@ -56,7 +56,7 @@ export const decoration_1 = "decoration-1";
  * decoration-2
  *
  * CSS:
- * - `text-decoration-thickness: 2px;`
+ * - text-decoration-thickness: 2px;
   *
   * @see text_decoration_thickness
   *
@@ -69,7 +69,7 @@ export const decoration_2 = "decoration-2";
  * decoration-4
  *
  * CSS:
- * - `text-decoration-thickness: 4px;`
+ * - text-decoration-thickness: 4px;
   *
   * @see text_decoration_thickness
   *
@@ -82,7 +82,7 @@ export const decoration_4 = "decoration-4";
  * decoration-8
  *
  * CSS:
- * - `text-decoration-thickness: 8px;`
+ * - text-decoration-thickness: 8px;
   *
   * @see text_decoration_thickness
   *

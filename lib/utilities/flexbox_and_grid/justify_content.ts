@@ -4,7 +4,7 @@
  * justify-normal
  *
  * CSS:
- * - `justify-content: normal;`
+ * - justify-content: normal;
   *
   * @see justify_content
   *
@@ -17,7 +17,7 @@ export const justify_normal = "justify-normal";
  * justify-start
  *
  * CSS:
- * - `justify-content: flex-start;`
+ * - justify-content: flex-start;
   *
   * @see justify_content
   *
@@ -30,7 +30,7 @@ export const justify_start = "justify-start";
  * justify-end
  *
  * CSS:
- * - `justify-content: flex-end;`
+ * - justify-content: flex-end;
   *
   * @see justify_content
   *
@@ -43,7 +43,7 @@ export const justify_end = "justify-end";
  * justify-center
  *
  * CSS:
- * - `justify-content: center;`
+ * - justify-content: center;
   *
   * @see justify_content
   *
@@ -56,7 +56,7 @@ export const justify_center = "justify-center";
  * justify-between
  *
  * CSS:
- * - `justify-content: space-between;`
+ * - justify-content: space-between;
   *
   * @see justify_content
   *
@@ -69,7 +69,7 @@ export const justify_between = "justify-between";
  * justify-around
  *
  * CSS:
- * - `justify-content: space-around;`
+ * - justify-content: space-around;
   *
   * @see justify_content
   *
@@ -82,7 +82,7 @@ export const justify_around = "justify-around";
  * justify-evenly
  *
  * CSS:
- * - `justify-content: space-evenly;`
+ * - justify-content: space-evenly;
   *
   * @see justify_content
   *
@@ -95,7 +95,7 @@ export const justify_evenly = "justify-evenly";
  * justify-stretch
  *
  * CSS:
- * - `justify-content: stretch;`
+ * - justify-content: stretch;
   *
   * @see justify_content
   *

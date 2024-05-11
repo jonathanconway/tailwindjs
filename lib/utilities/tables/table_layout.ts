@@ -4,7 +4,7 @@
  * table-auto
  *
  * CSS:
- * - `table-layout: auto;`
+ * - table-layout: auto;
   *
   * @see table_layout
   *
@@ -17,7 +17,7 @@ export const table_auto = "table-auto";
  * table-fixed
  *
  * CSS:
- * - `table-layout: fixed;`
+ * - table-layout: fixed;
   *
   * @see table_layout
   *

@@ -4,7 +4,7 @@
  * font-sans
  *
  * CSS:
- * - `font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";`
+ * - font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   *
   * @see font_family
   *
@@ -17,7 +17,7 @@ export const font_sans = "font-sans";
  * font-serif
  *
  * CSS:
- * - `font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;`
+ * - font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   *
   * @see font_family
   *
@@ -30,7 +30,7 @@ export const font_serif = "font-serif";
  * font-mono
  *
  * CSS:
- * - `font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;`
+ * - font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   *
   * @see font_family
   *

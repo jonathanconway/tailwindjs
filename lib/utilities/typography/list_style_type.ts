@@ -4,7 +4,7 @@
  * list-none
  *
  * CSS:
- * - `list-style-type: none;`
+ * - list-style-type: none;
   *
   * @see list_style_type
   *
@@ -17,7 +17,7 @@ export const list_none = "list-none";
  * list-disc
  *
  * CSS:
- * - `list-style-type: disc;`
+ * - list-style-type: disc;
   *
   * @see list_style_type
   *
@@ -30,7 +30,7 @@ export const list_disc = "list-disc";
  * list-decimal
  *
  * CSS:
- * - `list-style-type: decimal;`
+ * - list-style-type: decimal;
   *
   * @see list_style_type
   *

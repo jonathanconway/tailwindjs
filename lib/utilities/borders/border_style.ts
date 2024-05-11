@@ -4,7 +4,7 @@
  * border-solid
  *
  * CSS:
- * - `border-style: solid;`
+ * - border-style: solid;
   *
   * @see border_style
   *
@@ -17,7 +17,7 @@ export const border_solid = "border-solid";
  * border-dashed
  *
  * CSS:
- * - `border-style: dashed;`
+ * - border-style: dashed;
   *
   * @see border_style
   *
@@ -30,7 +30,7 @@ export const border_dashed = "border-dashed";
  * border-dotted
  *
  * CSS:
- * - `border-style: dotted;`
+ * - border-style: dotted;
   *
   * @see border_style
   *
@@ -43,7 +43,7 @@ export const border_dotted = "border-dotted";
  * border-double
  *
  * CSS:
- * - `border-style: double;`
+ * - border-style: double;
   *
   * @see border_style
   *
@@ -56,7 +56,7 @@ export const border_double = "border-double";
  * border-hidden
  *
  * CSS:
- * - `border-style: hidden;`
+ * - border-style: hidden;
   *
   * @see border_style
   *
@@ -69,7 +69,7 @@ export const border_hidden = "border-hidden";
  * border-none
  *
  * CSS:
- * - `border-style: none;`
+ * - border-style: none;
   *
   * @see border_style
   *

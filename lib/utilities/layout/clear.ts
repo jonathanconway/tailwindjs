@@ -4,7 +4,7 @@
  * clear-start
  *
  * CSS:
- * - `clear: inline-start;`
+ * - clear: inline-start;
   *
   * @see clear
   *
@@ -17,7 +17,7 @@ export const clear_start = "clear-start";
  * clear-end
  *
  * CSS:
- * - `clear: inline-end;`
+ * - clear: inline-end;
   *
   * @see clear
   *
@@ -30,7 +30,7 @@ export const clear_end = "clear-end";
  * clear-left
  *
  * CSS:
- * - `clear: left;`
+ * - clear: left;
   *
   * @see clear
   *
@@ -43,7 +43,7 @@ export const clear_left = "clear-left";
  * clear-right
  *
  * CSS:
- * - `clear: right;`
+ * - clear: right;
   *
   * @see clear
   *
@@ -56,7 +56,7 @@ export const clear_right = "clear-right";
  * clear-both
  *
  * CSS:
- * - `clear: both;`
+ * - clear: both;
   *
   * @see clear
   *
@@ -69,7 +69,7 @@ export const clear_both = "clear-both";
  * clear-none
  *
  * CSS:
- * - `clear: none;`
+ * - clear: none;
   *
   * @see clear
   *

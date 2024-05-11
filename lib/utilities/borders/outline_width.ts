@@ -4,7 +4,7 @@
  * outline-0
  *
  * CSS:
- * - `outline-width: 0px;`
+ * - outline-width: 0px;
   *
   * @see outline_width
   *
@@ -17,7 +17,7 @@ export const outline_0 = "outline-0";
  * outline-1
  *
  * CSS:
- * - `outline-width: 1px;`
+ * - outline-width: 1px;
   *
   * @see outline_width
   *
@@ -30,7 +30,7 @@ export const outline_1 = "outline-1";
  * outline-2
  *
  * CSS:
- * - `outline-width: 2px;`
+ * - outline-width: 2px;
   *
   * @see outline_width
   *
@@ -43,7 +43,7 @@ export const outline_2 = "outline-2";
  * outline-4
  *
  * CSS:
- * - `outline-width: 4px;`
+ * - outline-width: 4px;
   *
   * @see outline_width
   *
@@ -56,7 +56,7 @@ export const outline_4 = "outline-4";
  * outline-8
  *
  * CSS:
- * - `outline-width: 8px;`
+ * - outline-width: 8px;
   *
   * @see outline_width
   *

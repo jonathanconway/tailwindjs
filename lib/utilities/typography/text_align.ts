@@ -4,7 +4,7 @@
  * text-left
  *
  * CSS:
- * - `text-align: left;`
+ * - text-align: left;
   *
   * @see text_align
   *
@@ -17,7 +17,7 @@ export const text_left = "text-left";
  * text-center
  *
  * CSS:
- * - `text-align: center;`
+ * - text-align: center;
   *
   * @see text_align
   *
@@ -30,7 +30,7 @@ export const text_center = "text-center";
  * text-right
  *
  * CSS:
- * - `text-align: right;`
+ * - text-align: right;
   *
   * @see text_align
   *
@@ -43,7 +43,7 @@ export const text_right = "text-right";
  * text-justify
  *
  * CSS:
- * - `text-align: justify;`
+ * - text-align: justify;
   *
   * @see text_align
   *
@@ -56,7 +56,7 @@ export const text_justify = "text-justify";
  * text-start
  *
  * CSS:
- * - `text-align: start;`
+ * - text-align: start;
   *
   * @see text_align
   *
@@ -69,7 +69,7 @@ export const text_start = "text-start";
  * text-end
  *
  * CSS:
- * - `text-align: end;`
+ * - text-align: end;
   *
   * @see text_align
   *

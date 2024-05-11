@@ -4,7 +4,7 @@
  * bg-fixed
  *
  * CSS:
- * - `background-attachment: fixed;`
+ * - background-attachment: fixed;
   *
   * @see background_attachment
   *
@@ -17,7 +17,7 @@ export const bg_fixed = "bg-fixed";
  * bg-local
  *
  * CSS:
- * - `background-attachment: local;`
+ * - background-attachment: local;
   *
   * @see background_attachment
   *
@@ -30,7 +30,7 @@ export const bg_local = "bg-local";
  * bg-scroll
  *
  * CSS:
- * - `background-attachment: scroll;`
+ * - background-attachment: scroll;
   *
   * @see background_attachment
   *

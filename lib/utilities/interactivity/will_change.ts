@@ -4,7 +4,7 @@
  * will-change-auto
  *
  * CSS:
- * - `will-change: auto;`
+ * - will-change: auto;
   *
   * @see will_change
   *
@@ -17,7 +17,7 @@ export const will_change_auto = "will-change-auto";
  * will-change-scroll
  *
  * CSS:
- * - `will-change: scroll-position;`
+ * - will-change: scroll-position;
   *
   * @see will_change
   *
@@ -30,7 +30,7 @@ export const will_change_scroll = "will-change-scroll";
  * will-change-contents
  *
  * CSS:
- * - `will-change: contents;`
+ * - will-change: contents;
   *
   * @see will_change
   *
@@ -43,7 +43,7 @@ export const will_change_contents = "will-change-contents";
  * will-change-transform
  *
  * CSS:
- * - `will-change: transform;`
+ * - will-change: transform;
   *
   * @see will_change
   *

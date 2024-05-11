@@ -4,7 +4,7 @@
  * flex-wrap
  *
  * CSS:
- * - `flex-wrap: wrap;`
+ * - flex-wrap: wrap;
   *
   * @see flex_wrap
   *
@@ -17,7 +17,7 @@ export const flex_wrap = "flex-wrap";
  * flex-wrap-reverse
  *
  * CSS:
- * - `flex-wrap: wrap-reverse;`
+ * - flex-wrap: wrap-reverse;
   *
   * @see flex_wrap
   *
@@ -30,7 +30,7 @@ export const flex_wrap_reverse = "flex-wrap-reverse";
  * flex-nowrap
  *
  * CSS:
- * - `flex-wrap: nowrap;`
+ * - flex-wrap: nowrap;
   *
   * @see flex_wrap
   *

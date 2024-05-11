@@ -4,7 +4,7 @@
  * static
  *
  * CSS:
- * - `position: static;`
+ * - position: static;
   *
   * @see position
   *
@@ -17,7 +17,7 @@ export const static_ = "static";
  * fixed
  *
  * CSS:
- * - `position: fixed;`
+ * - position: fixed;
   *
   * @see position
   *
@@ -30,7 +30,7 @@ export const fixed = "fixed";
  * absolute
  *
  * CSS:
- * - `position: absolute;`
+ * - position: absolute;
   *
   * @see position
   *
@@ -43,7 +43,7 @@ export const absolute = "absolute";
  * relative
  *
  * CSS:
- * - `position: relative;`
+ * - position: relative;
   *
   * @see position
   *
@@ -56,7 +56,7 @@ export const relative = "relative";
  * sticky
  *
  * CSS:
- * - `position: sticky;`
+ * - position: sticky;
   *
   * @see position
   *

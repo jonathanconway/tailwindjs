@@ -41,7 +41,7 @@ Utilities for rotating elements with transform.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `rotate` | [rotate](https://tailwindcss.com/docs/rotate#arbitrary-values) |
+| `rotate_arbitrary`, `rotate_arb` | [rotate-[…]](https://tailwindcss.com/docs/rotate#arbitrary-values) |
 
 
 
@@ -97,9 +97,9 @@ Utilities for scaling elements with transform.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `scale` | [scale](https://tailwindcss.com/docs/scale#arbitrary-values) |
-| `scale_x` | [scale-x](https://tailwindcss.com/docs/scale#arbitrary-values) |
-| `scale_y` | [scale-y](https://tailwindcss.com/docs/scale#arbitrary-values) |
+| `scale_arbitrary`, `scale_arb` | [scale-[…]](https://tailwindcss.com/docs/scale#arbitrary-values) |
+| `scale_x_arbitrary`, `scale_x_arb` | [scale-x-[…]](https://tailwindcss.com/docs/scale#arbitrary-values) |
+| `scale_y_arbitrary`, `scale_y_arb` | [scale-y-[…]](https://tailwindcss.com/docs/scale#arbitrary-values) |
 
 
 
@@ -137,8 +137,8 @@ Utilities for skewing elements with transform.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `skew_x` | [skew-x](https://tailwindcss.com/docs/skew#arbitrary-values) |
-| `skew_y` | [skew-y](https://tailwindcss.com/docs/skew#arbitrary-values) |
+| `skew_x_arbitrary`, `skew_x_arb` | [skew-x-[…]](https://tailwindcss.com/docs/skew#arbitrary-values) |
+| `skew_y_arbitrary`, `skew_y_arb` | [skew-y-[…]](https://tailwindcss.com/docs/skew#arbitrary-values) |
 
 
 
@@ -173,9 +173,9 @@ Utilities for specifying the origin for an element's transformations.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `origin` | [origin](https://tailwindcss.com/docs/transform-origin#arbitrary-values) |
-| `origin_bottom` | [origin-bottom](https://tailwindcss.com/docs/transform-origin#arbitrary-values) |
-| `origin_top` | [origin-top](https://tailwindcss.com/docs/transform-origin#arbitrary-values) |
+| `origin_arbitrary`, `origin_arb` | [origin-[…]](https://tailwindcss.com/docs/transform-origin#arbitrary-values) |
+| `origin_bottom_arbitrary`, `origin_bottom_arb` | [origin-bottom-[…]](https://tailwindcss.com/docs/transform-origin#arbitrary-values) |
+| `origin_top_arbitrary`, `origin_top_arb` | [origin-top-[…]](https://tailwindcss.com/docs/transform-origin#arbitrary-values) |
 
 
 
@@ -285,7 +285,7 @@ Utilities for translating elements with transform.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `translate_x` | [translate-x](https://tailwindcss.com/docs/translate#arbitrary-values) |
-| `translate_y` | [translate-y](https://tailwindcss.com/docs/translate#arbitrary-values) |
+| `translate_x_arbitrary`, `translate_x_arb` | [translate-x-[…]](https://tailwindcss.com/docs/translate#arbitrary-values) |
+| `translate_y_arbitrary`, `translate_y_arb` | [translate-y-[…]](https://tailwindcss.com/docs/translate#arbitrary-values) |
 
 

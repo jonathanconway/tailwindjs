@@ -4,7 +4,7 @@
  * touch-auto
  *
  * CSS:
- * - `touch-action: auto;`
+ * - touch-action: auto;
   *
   * @see touch_action
   *
@@ -17,7 +17,7 @@ export const touch_auto = "touch-auto";
  * touch-none
  *
  * CSS:
- * - `touch-action: none;`
+ * - touch-action: none;
   *
   * @see touch_action
   *
@@ -30,7 +30,7 @@ export const touch_none = "touch-none";
  * touch-pan-x
  *
  * CSS:
- * - `touch-action: pan-x;`
+ * - touch-action: pan-x;
   *
   * @see touch_action
   *
@@ -43,7 +43,7 @@ export const touch_pan_x = "touch-pan-x";
  * touch-pan-left
  *
  * CSS:
- * - `touch-action: pan-left;`
+ * - touch-action: pan-left;
   *
   * @see touch_action
   *
@@ -56,7 +56,7 @@ export const touch_pan_left = "touch-pan-left";
  * touch-pan-right
  *
  * CSS:
- * - `touch-action: pan-right;`
+ * - touch-action: pan-right;
   *
   * @see touch_action
   *
@@ -69,7 +69,7 @@ export const touch_pan_right = "touch-pan-right";
  * touch-pan-y
  *
  * CSS:
- * - `touch-action: pan-y;`
+ * - touch-action: pan-y;
   *
   * @see touch_action
   *
@@ -82,7 +82,7 @@ export const touch_pan_y = "touch-pan-y";
  * touch-pan-up
  *
  * CSS:
- * - `touch-action: pan-up;`
+ * - touch-action: pan-up;
   *
   * @see touch_action
   *
@@ -95,7 +95,7 @@ export const touch_pan_up = "touch-pan-up";
  * touch-pan-down
  *
  * CSS:
- * - `touch-action: pan-down;`
+ * - touch-action: pan-down;
   *
   * @see touch_action
   *
@@ -108,7 +108,7 @@ export const touch_pan_down = "touch-pan-down";
  * touch-pinch-zoom
  *
  * CSS:
- * - `touch-action: pinch-zoom;`
+ * - touch-action: pinch-zoom;
   *
   * @see touch_action
   *
@@ -121,7 +121,7 @@ export const touch_pinch_zoom = "touch-pinch-zoom";
  * touch-manipulation
  *
  * CSS:
- * - `touch-action: manipulation;`
+ * - touch-action: manipulation;
   *
   * @see touch_action
   *

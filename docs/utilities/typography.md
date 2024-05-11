@@ -56,7 +56,7 @@ Utilities for controlling the content of the before and after pseudo-elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `content` | [content](https://tailwindcss.com/docs/content#arbitrary-values) |
+| `content_arbitrary`, `content_arb` | [content-[…]](https://tailwindcss.com/docs/content#arbitrary-values) |
 
 
 
@@ -85,7 +85,7 @@ Utilities for controlling the font family of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `font` | [font](https://tailwindcss.com/docs/font-family#arbitrary-values) |
+| `font_arbitrary`, `font_arb` | [font-[…]](https://tailwindcss.com/docs/font-family#arbitrary-values) |
 
 
 
@@ -124,7 +124,7 @@ Utilities for controlling the font size of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `text` | [text](https://tailwindcss.com/docs/font-size#arbitrary-values) |
+| `text_arbitrary`, `text_arb` | [text-[…]](https://tailwindcss.com/docs/font-size#arbitrary-values) |
 
 
 
@@ -281,7 +281,7 @@ Utilities for controlling the tracking (letter spacing) of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `tracking` | [tracking](https://tailwindcss.com/docs/letter-spacing#arbitrary-values) |
+| `tracking_arbitrary`, `tracking_arb` | [tracking-[…]](https://tailwindcss.com/docs/letter-spacing#arbitrary-values) |
 
 
 
@@ -314,7 +314,7 @@ Utilities for clamping text to a specific number of lines.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `line_clamp` | [line-clamp](https://tailwindcss.com/docs/line-clamp#arbitrary-values) |
+| `line_clamp_arbitrary`, `line_clamp_arb` | [line-clamp-[…]](https://tailwindcss.com/docs/line-clamp#arbitrary-values) |
 
 
 
@@ -354,7 +354,7 @@ Utilities for controlling the leading (line height) of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `leading` | [leading](https://tailwindcss.com/docs/line-height#arbitrary-values) |
+| `leading_arbitrary`, `leading_arb` | [leading-[…]](https://tailwindcss.com/docs/line-height#arbitrary-values) |
 
 
 
@@ -381,7 +381,7 @@ Utilities for controlling the marker images for list items.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `list_image` | [list-image](https://tailwindcss.com/docs/list-style-image#arbitrary-values) |
+| `list_image_arbitrary`, `list_image_arb` | [list-image-[…]](https://tailwindcss.com/docs/list-style-image#arbitrary-values) |
 
 
 
@@ -432,7 +432,7 @@ Utilities for controlling the bullet/number style of a list.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `list` | [list](https://tailwindcss.com/docs/list-style-type#arbitrary-values) |
+| `list_arbitrary`, `list_arb` | [list-[…]](https://tailwindcss.com/docs/list-style-type#arbitrary-values) |
 
 
 
@@ -731,28 +731,28 @@ Utilities for controlling the text color of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `text_amber` | [text-amber](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_blue` | [text-blue](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_cyan` | [text-cyan](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_emerald` | [text-emerald](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_fuchsia` | [text-fuchsia](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_gray` | [text-gray](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_green` | [text-green](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_indigo` | [text-indigo](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_lime` | [text-lime](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_neutral` | [text-neutral](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_orange` | [text-orange](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_pink` | [text-pink](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_purple` | [text-purple](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_red` | [text-red](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_rose` | [text-rose](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_sky` | [text-sky](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_slate` | [text-slate](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_stone` | [text-stone](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_teal` | [text-teal](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_violet` | [text-violet](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_yellow` | [text-yellow](https://tailwindcss.com/docs/text-color#arbitrary-values) |
-| `text_zinc` | [text-zinc](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_amber_arbitrary`, `text_amber_arb` | [text-amber-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_blue_arbitrary`, `text_blue_arb` | [text-blue-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_cyan_arbitrary`, `text_cyan_arb` | [text-cyan-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_emerald_arbitrary`, `text_emerald_arb` | [text-emerald-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_fuchsia_arbitrary`, `text_fuchsia_arb` | [text-fuchsia-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_gray_arbitrary`, `text_gray_arb` | [text-gray-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_green_arbitrary`, `text_green_arb` | [text-green-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_indigo_arbitrary`, `text_indigo_arb` | [text-indigo-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_lime_arbitrary`, `text_lime_arb` | [text-lime-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_neutral_arbitrary`, `text_neutral_arb` | [text-neutral-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_orange_arbitrary`, `text_orange_arb` | [text-orange-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_pink_arbitrary`, `text_pink_arb` | [text-pink-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_purple_arbitrary`, `text_purple_arb` | [text-purple-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_red_arbitrary`, `text_red_arb` | [text-red-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_rose_arbitrary`, `text_rose_arb` | [text-rose-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_sky_arbitrary`, `text_sky_arb` | [text-sky-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_slate_arbitrary`, `text_slate_arb` | [text-slate-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_stone_arbitrary`, `text_stone_arb` | [text-stone-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_teal_arbitrary`, `text_teal_arb` | [text-teal-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_violet_arbitrary`, `text_violet_arb` | [text-violet-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_yellow_arbitrary`, `text_yellow_arb` | [text-yellow-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
+| `text_zinc_arbitrary`, `text_zinc_arb` | [text-zinc-[…]](https://tailwindcss.com/docs/text-color#arbitrary-values) |
 
 
 
@@ -1049,29 +1049,29 @@ Utilities for controlling the color of text decorations.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `decoration` | [decoration](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_amber` | [decoration-amber](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_blue` | [decoration-blue](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_cyan` | [decoration-cyan](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_emerald` | [decoration-emerald](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_fuchsia` | [decoration-fuchsia](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_gray` | [decoration-gray](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_green` | [decoration-green](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_indigo` | [decoration-indigo](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_lime` | [decoration-lime](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_neutral` | [decoration-neutral](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_orange` | [decoration-orange](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_pink` | [decoration-pink](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_purple` | [decoration-purple](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_red` | [decoration-red](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_rose` | [decoration-rose](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_sky` | [decoration-sky](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_slate` | [decoration-slate](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_stone` | [decoration-stone](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_teal` | [decoration-teal](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_violet` | [decoration-violet](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_yellow` | [decoration-yellow](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
-| `decoration_zinc` | [decoration-zinc](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_arbitrary`, `decoration_arb` | [decoration-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_amber_arbitrary`, `decoration_amber_arb` | [decoration-amber-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_blue_arbitrary`, `decoration_blue_arb` | [decoration-blue-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_cyan_arbitrary`, `decoration_cyan_arb` | [decoration-cyan-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_emerald_arbitrary`, `decoration_emerald_arb` | [decoration-emerald-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_fuchsia_arbitrary`, `decoration_fuchsia_arb` | [decoration-fuchsia-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_gray_arbitrary`, `decoration_gray_arb` | [decoration-gray-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_green_arbitrary`, `decoration_green_arb` | [decoration-green-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_indigo_arbitrary`, `decoration_indigo_arb` | [decoration-indigo-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_lime_arbitrary`, `decoration_lime_arb` | [decoration-lime-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_neutral_arbitrary`, `decoration_neutral_arb` | [decoration-neutral-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_orange_arbitrary`, `decoration_orange_arb` | [decoration-orange-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_pink_arbitrary`, `decoration_pink_arb` | [decoration-pink-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_purple_arbitrary`, `decoration_purple_arb` | [decoration-purple-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_red_arbitrary`, `decoration_red_arb` | [decoration-red-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_rose_arbitrary`, `decoration_rose_arb` | [decoration-rose-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_sky_arbitrary`, `decoration_sky_arb` | [decoration-sky-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_slate_arbitrary`, `decoration_slate_arb` | [decoration-slate-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_stone_arbitrary`, `decoration_stone_arb` | [decoration-stone-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_teal_arbitrary`, `decoration_teal_arb` | [decoration-teal-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_violet_arbitrary`, `decoration_violet_arb` | [decoration-violet-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_yellow_arbitrary`, `decoration_yellow_arb` | [decoration-yellow-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
+| `decoration_zinc_arbitrary`, `decoration_zinc_arb` | [decoration-zinc-[…]](https://tailwindcss.com/docs/text-decoration-color#arbitrary-values) |
 
 
 
@@ -1129,7 +1129,7 @@ Utilities for controlling the thickness of text decorations.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `decoration_from` | [decoration-from](https://tailwindcss.com/docs/text-decoration-thickness#arbitrary-values) |
+| `decoration_from_arbitrary`, `decoration_from_arb` | [decoration-from-[…]](https://tailwindcss.com/docs/text-decoration-thickness#arbitrary-values) |
 
 
 
@@ -1190,7 +1190,7 @@ Utilities for controlling the amount of empty space shown before text in a block
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `indent` | [indent](https://tailwindcss.com/docs/text-indent#arbitrary-values) |
+| `indent_arbitrary`, `indent_arb` | [indent-[…]](https://tailwindcss.com/docs/text-indent#arbitrary-values) |
 
 
 
@@ -1269,7 +1269,7 @@ Utilities for controlling the offset of a text underline.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `underline_offset` | [underline-offset](https://tailwindcss.com/docs/text-underline-offset#arbitrary-values) |
+| `underline_offset_arbitrary`, `underline_offset_arb` | [underline-offset-[…]](https://tailwindcss.com/docs/text-underline-offset#arbitrary-values) |
 
 
 
@@ -1327,8 +1327,8 @@ Utilities for controlling the vertical alignment of an inline or table-cell box.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `align` | [align](https://tailwindcss.com/docs/vertical-align#arbitrary-values) |
-| `align_text` | [align-text](https://tailwindcss.com/docs/vertical-align#arbitrary-values) |
+| `align_arbitrary`, `align_arb` | [align-[…]](https://tailwindcss.com/docs/vertical-align#arbitrary-values) |
+| `align_text_arbitrary`, `align_text_arb` | [align-text-[…]](https://tailwindcss.com/docs/vertical-align#arbitrary-values) |
 
 
 

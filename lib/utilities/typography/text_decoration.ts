@@ -4,7 +4,7 @@
  * underline
  *
  * CSS:
- * - `text-decoration-line: underline;`
+ * - text-decoration-line: underline;
   *
   * @see text_decoration
   *
@@ -17,7 +17,7 @@ export const underline = "underline";
  * overline
  *
  * CSS:
- * - `text-decoration-line: overline;`
+ * - text-decoration-line: overline;
   *
   * @see text_decoration
   *
@@ -30,7 +30,7 @@ export const overline = "overline";
  * line-through
  *
  * CSS:
- * - `text-decoration-line: line-through;`
+ * - text-decoration-line: line-through;
   *
   * @see text_decoration
   *
@@ -43,7 +43,7 @@ export const line_through = "line-through";
  * no-underline
  *
  * CSS:
- * - `text-decoration-line: none;`
+ * - text-decoration-line: none;
   *
   * @see text_decoration
   *

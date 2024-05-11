@@ -4,7 +4,7 @@
  * align-baseline
  *
  * CSS:
- * - `vertical-align: baseline;`
+ * - vertical-align: baseline;
   *
   * @see vertical_align
   *
@@ -17,7 +17,7 @@ export const align_baseline = "align-baseline";
  * align-top
  *
  * CSS:
- * - `vertical-align: top;`
+ * - vertical-align: top;
   *
   * @see vertical_align
   *
@@ -30,7 +30,7 @@ export const align_top = "align-top";
  * align-middle
  *
  * CSS:
- * - `vertical-align: middle;`
+ * - vertical-align: middle;
   *
   * @see vertical_align
   *
@@ -43,7 +43,7 @@ export const align_middle = "align-middle";
  * align-bottom
  *
  * CSS:
- * - `vertical-align: bottom;`
+ * - vertical-align: bottom;
   *
   * @see vertical_align
   *
@@ -56,7 +56,7 @@ export const align_bottom = "align-bottom";
  * align-text-top
  *
  * CSS:
- * - `vertical-align: text-top;`
+ * - vertical-align: text-top;
   *
   * @see vertical_align
   *
@@ -69,7 +69,7 @@ export const align_text_top = "align-text-top";
  * align-text-bottom
  *
  * CSS:
- * - `vertical-align: text-bottom;`
+ * - vertical-align: text-bottom;
   *
   * @see vertical_align
   *
@@ -82,7 +82,7 @@ export const align_text_bottom = "align-text-bottom";
  * align-sub
  *
  * CSS:
- * - `vertical-align: sub;`
+ * - vertical-align: sub;
   *
   * @see vertical_align
   *
@@ -95,7 +95,7 @@ export const align_sub = "align-sub";
  * align-super
  *
  * CSS:
- * - `vertical-align: super;`
+ * - vertical-align: super;
   *
   * @see vertical_align
   *

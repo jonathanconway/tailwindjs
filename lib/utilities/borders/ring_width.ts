@@ -4,7 +4,7 @@
  * ring-0
  *
  * CSS:
- * - `box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);`
+ * - box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   *
   * @see ring_width
   *
@@ -17,7 +17,7 @@ export const ring_0 = "ring-0";
  * ring-1
  *
  * CSS:
- * - `box-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);`
+ * - box-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   *
   * @see ring_width
   *
@@ -30,7 +30,7 @@ export const ring_1 = "ring-1";
  * ring-2
  *
  * CSS:
- * - `box-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);`
+ * - box-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   *
   * @see ring_width
   *
@@ -43,7 +43,7 @@ export const ring_2 = "ring-2";
  * ring
  *
  * CSS:
- * - `box-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);`
+ * - box-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   *
   * @see ring_width
   *
@@ -56,7 +56,7 @@ export const ring = "ring";
  * ring-4
  *
  * CSS:
- * - `box-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);`
+ * - box-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   *
   * @see ring_width
   *
@@ -69,7 +69,7 @@ export const ring_4 = "ring-4";
  * ring-8
  *
  * CSS:
- * - `box-shadow: var(--tw-ring-inset) 0 0 0 calc(8px + var(--tw-ring-offset-width)) var(--tw-ring-color);`
+ * - box-shadow: var(--tw-ring-inset) 0 0 0 calc(8px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   *
   * @see ring_width
   *
@@ -82,7 +82,7 @@ export const ring_8 = "ring-8";
  * ring-inset
  *
  * CSS:
- * - `--tw-ring-inset: inset;`
+ * - --tw-ring-inset: inset;
   *
   * @see ring_width
   *

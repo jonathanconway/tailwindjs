@@ -4,7 +4,7 @@
  * stroke-0
  *
  * CSS:
- * - `stroke-width: 0;`
+ * - stroke-width: 0;
   *
   * @see stroke_width
   *
@@ -17,7 +17,7 @@ export const stroke_0 = "stroke-0";
  * stroke-1
  *
  * CSS:
- * - `stroke-width: 1;`
+ * - stroke-width: 1;
   *
   * @see stroke_width
   *
@@ -30,7 +30,7 @@ export const stroke_1 = "stroke-1";
  * stroke-2
  *
  * CSS:
- * - `stroke-width: 2;`
+ * - stroke-width: 2;
   *
   * @see stroke_width
   *

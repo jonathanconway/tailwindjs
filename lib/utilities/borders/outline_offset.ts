@@ -4,7 +4,7 @@
  * outline-offset-0
  *
  * CSS:
- * - `outline-offset: 0px;`
+ * - outline-offset: 0px;
   *
   * @see outline_offset
   *
@@ -17,7 +17,7 @@ export const outline_offset_0 = "outline-offset-0";
  * outline-offset-1
  *
  * CSS:
- * - `outline-offset: 1px;`
+ * - outline-offset: 1px;
   *
   * @see outline_offset
   *
@@ -30,7 +30,7 @@ export const outline_offset_1 = "outline-offset-1";
  * outline-offset-2
  *
  * CSS:
- * - `outline-offset: 2px;`
+ * - outline-offset: 2px;
   *
   * @see outline_offset
   *
@@ -43,7 +43,7 @@ export const outline_offset_2 = "outline-offset-2";
  * outline-offset-4
  *
  * CSS:
- * - `outline-offset: 4px;`
+ * - outline-offset: 4px;
   *
   * @see outline_offset
   *
@@ -56,7 +56,7 @@ export const outline_offset_4 = "outline-offset-4";
  * outline-offset-8
  *
  * CSS:
- * - `outline-offset: 8px;`
+ * - outline-offset: 8px;
   *
   * @see outline_offset
   *

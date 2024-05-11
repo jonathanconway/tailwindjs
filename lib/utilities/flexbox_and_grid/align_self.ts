@@ -4,7 +4,7 @@
  * self-auto
  *
  * CSS:
- * - `align-self: auto;`
+ * - align-self: auto;
   *
   * @see align_self
   *
@@ -17,7 +17,7 @@ export const self_auto = "self-auto";
  * self-start
  *
  * CSS:
- * - `align-self: flex-start;`
+ * - align-self: flex-start;
   *
   * @see align_self
   *
@@ -30,7 +30,7 @@ export const self_start = "self-start";
  * self-end
  *
  * CSS:
- * - `align-self: flex-end;`
+ * - align-self: flex-end;
   *
   * @see align_self
   *
@@ -43,7 +43,7 @@ export const self_end = "self-end";
  * self-center
  *
  * CSS:
- * - `align-self: center;`
+ * - align-self: center;
   *
   * @see align_self
   *
@@ -56,7 +56,7 @@ export const self_center = "self-center";
  * self-stretch
  *
  * CSS:
- * - `align-self: stretch;`
+ * - align-self: stretch;
   *
   * @see align_self
   *
@@ -69,7 +69,7 @@ export const self_stretch = "self-stretch";
  * self-baseline
  *
  * CSS:
- * - `align-self: baseline;`
+ * - align-self: baseline;
   *
   * @see align_self
   *

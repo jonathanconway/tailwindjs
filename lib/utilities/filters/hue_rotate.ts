@@ -4,7 +4,7 @@
  * hue-rotate-0
  *
  * CSS:
- * - `filter: hue-rotate(0deg);`
+ * - filter: hue-rotate(0deg);
   *
   * @see hue_rotate
   *
@@ -17,7 +17,7 @@ export const hue_rotate_0 = "hue-rotate-0";
  * hue-rotate-15
  *
  * CSS:
- * - `filter: hue-rotate(15deg);`
+ * - filter: hue-rotate(15deg);
   *
   * @see hue_rotate
   *
@@ -30,7 +30,7 @@ export const hue_rotate_15 = "hue-rotate-15";
  * hue-rotate-30
  *
  * CSS:
- * - `filter: hue-rotate(30deg);`
+ * - filter: hue-rotate(30deg);
   *
   * @see hue_rotate
   *
@@ -43,7 +43,7 @@ export const hue_rotate_30 = "hue-rotate-30";
  * hue-rotate-60
  *
  * CSS:
- * - `filter: hue-rotate(60deg);`
+ * - filter: hue-rotate(60deg);
   *
   * @see hue_rotate
   *
@@ -56,7 +56,7 @@ export const hue_rotate_60 = "hue-rotate-60";
  * hue-rotate-90
  *
  * CSS:
- * - `filter: hue-rotate(90deg);`
+ * - filter: hue-rotate(90deg);
   *
   * @see hue_rotate
   *
@@ -69,7 +69,7 @@ export const hue_rotate_90 = "hue-rotate-90";
  * hue-rotate-180
  *
  * CSS:
- * - `filter: hue-rotate(180deg);`
+ * - filter: hue-rotate(180deg);
   *
   * @see hue_rotate
   *

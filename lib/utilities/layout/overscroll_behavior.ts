@@ -4,7 +4,7 @@
  * overscroll-auto
  *
  * CSS:
- * - `overscroll-behavior: auto;`
+ * - overscroll-behavior: auto;
   *
   * @see overscroll_behavior
   *
@@ -17,7 +17,7 @@ export const overscroll_auto = "overscroll-auto";
  * overscroll-contain
  *
  * CSS:
- * - `overscroll-behavior: contain;`
+ * - overscroll-behavior: contain;
   *
   * @see overscroll_behavior
   *
@@ -30,7 +30,7 @@ export const overscroll_contain = "overscroll-contain";
  * overscroll-none
  *
  * CSS:
- * - `overscroll-behavior: none;`
+ * - overscroll-behavior: none;
   *
   * @see overscroll_behavior
   *
@@ -43,7 +43,7 @@ export const overscroll_none = "overscroll-none";
  * overscroll-y-auto
  *
  * CSS:
- * - `overscroll-behavior-y: auto;`
+ * - overscroll-behavior-y: auto;
   *
   * @see overscroll_behavior
   *
@@ -56,7 +56,7 @@ export const overscroll_y_auto = "overscroll-y-auto";
  * overscroll-y-contain
  *
  * CSS:
- * - `overscroll-behavior-y: contain;`
+ * - overscroll-behavior-y: contain;
   *
   * @see overscroll_behavior
   *
@@ -69,7 +69,7 @@ export const overscroll_y_contain = "overscroll-y-contain";
  * overscroll-y-none
  *
  * CSS:
- * - `overscroll-behavior-y: none;`
+ * - overscroll-behavior-y: none;
   *
   * @see overscroll_behavior
   *
@@ -82,7 +82,7 @@ export const overscroll_y_none = "overscroll-y-none";
  * overscroll-x-auto
  *
  * CSS:
- * - `overscroll-behavior-x: auto;`
+ * - overscroll-behavior-x: auto;
   *
   * @see overscroll_behavior
   *
@@ -95,7 +95,7 @@ export const overscroll_x_auto = "overscroll-x-auto";
  * overscroll-x-contain
  *
  * CSS:
- * - `overscroll-behavior-x: contain;`
+ * - overscroll-behavior-x: contain;
   *
   * @see overscroll_behavior
   *
@@ -108,7 +108,7 @@ export const overscroll_x_contain = "overscroll-x-contain";
  * overscroll-x-none
  *
  * CSS:
- * - `overscroll-behavior-x: none;`
+ * - overscroll-behavior-x: none;
   *
   * @see overscroll_behavior
   *

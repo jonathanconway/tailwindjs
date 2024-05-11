@@ -4,8 +4,8 @@
  * ring-offset-0
  *
  * CSS:
- * - `--tw-ring-offset-width: 0px;`
- * - `box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);`
+ * - --tw-ring-offset-width: 0px;
+ * - box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
   *
   * @see ring_offset_width
   *
@@ -18,8 +18,8 @@ export const ring_offset_0 = "ring-offset-0";
  * ring-offset-1
  *
  * CSS:
- * - `--tw-ring-offset-width: 1px;`
- * - `box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);`
+ * - --tw-ring-offset-width: 1px;
+ * - box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
   *
   * @see ring_offset_width
   *
@@ -32,8 +32,8 @@ export const ring_offset_1 = "ring-offset-1";
  * ring-offset-2
  *
  * CSS:
- * - `--tw-ring-offset-width: 2px;`
- * - `box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);`
+ * - --tw-ring-offset-width: 2px;
+ * - box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
   *
   * @see ring_offset_width
   *
@@ -46,8 +46,8 @@ export const ring_offset_2 = "ring-offset-2";
  * ring-offset-4
  *
  * CSS:
- * - `--tw-ring-offset-width: 4px;`
- * - `box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);`
+ * - --tw-ring-offset-width: 4px;
+ * - box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
   *
   * @see ring_offset_width
   *
@@ -60,8 +60,8 @@ export const ring_offset_4 = "ring-offset-4";
  * ring-offset-8
  *
  * CSS:
- * - `--tw-ring-offset-width: 8px;`
- * - `box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);`
+ * - --tw-ring-offset-width: 8px;
+ * - box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
   *
   * @see ring_offset_width
   *

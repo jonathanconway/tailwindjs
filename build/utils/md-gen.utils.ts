@@ -1,4 +1,8 @@
-import { Primitive } from "../parse-tailwindcss-pages";
+import {
+  Arbitrary,
+  Primitive,
+  UtilityArbitrary,
+} from "../parse-tailwindcss-pages";
 
 export function genMdTable(cells: readonly Record<string, string>[]) {
   if (cells.length === 0) {
@@ -47,6 +51,17 @@ export function genMdPrimitivesTable(primitives: readonly Primitive[]) {
       .sortBy("name")
       .map(({ name, tailwindCssName, tailwindCssUrl }) => ({
         "TailwindJS token": `\`${name}\``,
+        "TailwindCSS token": `[${tailwindCssName}](${tailwindCssUrl})`,
+      }))
+  );
+}
+
+export function genMdArbitrariesTable(primitives: readonly Arbitrary[]) {
+  return genMdTable(
+    primitives
+      .sortBy("name")
+      .map(({ name, tailwindCssName, tailwindCssUrl }) => ({
+        "TailwindJS token": `\`${name}_arbitrary\`, \`${name}_arb\``,
         "TailwindCSS token": `[${tailwindCssName}](${tailwindCssUrl})`,
       }))
   );

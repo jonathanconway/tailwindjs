@@ -4,7 +4,7 @@
  * visible
  *
  * CSS:
- * - `visibility: visible;`
+ * - visibility: visible;
   *
   * @see visibility
   *
@@ -17,7 +17,7 @@ export const visible = "visible";
  * invisible
  *
  * CSS:
- * - `visibility: hidden;`
+ * - visibility: hidden;
   *
   * @see visibility
   *
@@ -30,7 +30,7 @@ export const invisible = "invisible";
  * collapse
  *
  * CSS:
- * - `visibility: collapse;`
+ * - visibility: collapse;
   *
   * @see visibility
   *

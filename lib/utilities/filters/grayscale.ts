@@ -4,7 +4,7 @@
  * grayscale-0
  *
  * CSS:
- * - `filter: grayscale(0);`
+ * - filter: grayscale(0);
   *
   * @see grayscale
   *
@@ -17,7 +17,7 @@ export const grayscale_0 = "grayscale-0";
  * grayscale
  *
  * CSS:
- * - `filter: grayscale(100%);`
+ * - filter: grayscale(100%);
   *
   * @see grayscale
   *

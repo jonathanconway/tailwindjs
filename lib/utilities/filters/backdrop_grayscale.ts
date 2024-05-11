@@ -4,7 +4,7 @@
  * backdrop-grayscale-0
  *
  * CSS:
- * - `backdrop-filter: grayscale(0);`
+ * - backdrop-filter: grayscale(0);
   *
   * @see backdrop_grayscale
   *
@@ -17,7 +17,7 @@ export const backdrop_grayscale_0 = "backdrop-grayscale-0";
  * backdrop-grayscale
  *
  * CSS:
- * - `backdrop-filter: grayscale(100%);`
+ * - backdrop-filter: grayscale(100%);
   *
   * @see backdrop_grayscale
   *

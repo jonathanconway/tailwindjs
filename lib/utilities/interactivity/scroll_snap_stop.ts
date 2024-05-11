@@ -4,7 +4,7 @@
  * snap-normal
  *
  * CSS:
- * - `scroll-snap-stop: normal;`
+ * - scroll-snap-stop: normal;
   *
   * @see scroll_snap_stop
   *
@@ -17,7 +17,7 @@ export const snap_normal = "snap-normal";
  * snap-always
  *
  * CSS:
- * - `scroll-snap-stop: always;`
+ * - scroll-snap-stop: always;
   *
   * @see scroll_snap_stop
   *

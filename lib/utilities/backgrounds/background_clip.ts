@@ -4,7 +4,7 @@
  * bg-clip-border
  *
  * CSS:
- * - `background-clip: border-box;`
+ * - background-clip: border-box;
   *
   * @see background_clip
   *
@@ -17,7 +17,7 @@ export const bg_clip_border = "bg-clip-border";
  * bg-clip-padding
  *
  * CSS:
- * - `background-clip: padding-box;`
+ * - background-clip: padding-box;
   *
   * @see background_clip
   *
@@ -30,7 +30,7 @@ export const bg_clip_padding = "bg-clip-padding";
  * bg-clip-content
  *
  * CSS:
- * - `background-clip: content-box;`
+ * - background-clip: content-box;
   *
   * @see background_clip
   *
@@ -43,7 +43,7 @@ export const bg_clip_content = "bg-clip-content";
  * bg-clip-text
  *
  * CSS:
- * - `background-clip: text;`
+ * - background-clip: text;
   *
   * @see background_clip
   *

@@ -4,7 +4,7 @@
  * transition-none
  *
  * CSS:
- * - `transition-property: none;`
+ * - transition-property: none;
   *
   * @see transition_property
   *
@@ -17,9 +17,9 @@ export const transition_none = "transition-none";
  * transition-all
  *
  * CSS:
- * - `transition-property: all;`
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
- * - `transition-duration: 150ms;`
+ * - transition-property: all;
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ * - transition-duration: 150ms;
   *
   * @see transition_property
   *
@@ -32,9 +32,9 @@ export const transition_all = "transition-all";
  * transition
  *
  * CSS:
- * - `transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;`
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
- * - `transition-duration: 150ms;`
+ * - transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ * - transition-duration: 150ms;
   *
   * @see transition_property
   *
@@ -47,9 +47,9 @@ export const transition = "transition";
  * transition-colors
  *
  * CSS:
- * - `transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;`
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
- * - `transition-duration: 150ms;`
+ * - transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ * - transition-duration: 150ms;
   *
   * @see transition_property
   *
@@ -62,9 +62,9 @@ export const transition_colors = "transition-colors";
  * transition-opacity
  *
  * CSS:
- * - `transition-property: opacity;`
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
- * - `transition-duration: 150ms;`
+ * - transition-property: opacity;
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ * - transition-duration: 150ms;
   *
   * @see transition_property
   *
@@ -77,9 +77,9 @@ export const transition_opacity = "transition-opacity";
  * transition-shadow
  *
  * CSS:
- * - `transition-property: box-shadow;`
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
- * - `transition-duration: 150ms;`
+ * - transition-property: box-shadow;
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ * - transition-duration: 150ms;
   *
   * @see transition_property
   *
@@ -92,9 +92,9 @@ export const transition_shadow = "transition-shadow";
  * transition-transform
  *
  * CSS:
- * - `transition-property: transform;`
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
- * - `transition-duration: 150ms;`
+ * - transition-property: transform;
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ * - transition-duration: 150ms;
   *
   * @see transition_property
   *

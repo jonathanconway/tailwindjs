@@ -4,8 +4,8 @@
  * outline-none
  *
  * CSS:
- * - `outline: 2px solid transparent;`
- * - `outline-offset: 2px;`
+ * - outline: 2px solid transparent;
+ * - outline-offset: 2px;
   *
   * @see outline_style
   *
@@ -18,7 +18,7 @@ export const outline_none = "outline-none";
  * outline
  *
  * CSS:
- * - `outline-style: solid;`
+ * - outline-style: solid;
   *
   * @see outline_style
   *
@@ -31,7 +31,7 @@ export const outline = "outline";
  * outline-dashed
  *
  * CSS:
- * - `outline-style: dashed;`
+ * - outline-style: dashed;
   *
   * @see outline_style
   *
@@ -44,7 +44,7 @@ export const outline_dashed = "outline-dashed";
  * outline-dotted
  *
  * CSS:
- * - `outline-style: dotted;`
+ * - outline-style: dotted;
   *
   * @see outline_style
   *
@@ -57,7 +57,7 @@ export const outline_dotted = "outline-dotted";
  * outline-double
  *
  * CSS:
- * - `outline-style: double;`
+ * - outline-style: double;
   *
   * @see outline_style
   *

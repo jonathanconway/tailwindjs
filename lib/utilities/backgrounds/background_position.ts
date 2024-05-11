@@ -4,7 +4,7 @@
  * bg-bottom
  *
  * CSS:
- * - `background-position: bottom;`
+ * - background-position: bottom;
   *
   * @see background_position
   *
@@ -17,7 +17,7 @@ export const bg_bottom = "bg-bottom";
  * bg-center
  *
  * CSS:
- * - `background-position: center;`
+ * - background-position: center;
   *
   * @see background_position
   *
@@ -30,7 +30,7 @@ export const bg_center = "bg-center";
  * bg-left
  *
  * CSS:
- * - `background-position: left;`
+ * - background-position: left;
   *
   * @see background_position
   *
@@ -43,7 +43,7 @@ export const bg_left = "bg-left";
  * bg-left-bottom
  *
  * CSS:
- * - `background-position: left bottom;`
+ * - background-position: left bottom;
   *
   * @see background_position
   *
@@ -56,7 +56,7 @@ export const bg_left_bottom = "bg-left-bottom";
  * bg-left-top
  *
  * CSS:
- * - `background-position: left top;`
+ * - background-position: left top;
   *
   * @see background_position
   *
@@ -69,7 +69,7 @@ export const bg_left_top = "bg-left-top";
  * bg-right
  *
  * CSS:
- * - `background-position: right;`
+ * - background-position: right;
   *
   * @see background_position
   *
@@ -82,7 +82,7 @@ export const bg_right = "bg-right";
  * bg-right-bottom
  *
  * CSS:
- * - `background-position: right bottom;`
+ * - background-position: right bottom;
   *
   * @see background_position
   *
@@ -95,7 +95,7 @@ export const bg_right_bottom = "bg-right-bottom";
  * bg-right-top
  *
  * CSS:
- * - `background-position: right top;`
+ * - background-position: right top;
   *
   * @see background_position
   *
@@ -108,7 +108,7 @@ export const bg_right_top = "bg-right-top";
  * bg-top
  *
  * CSS:
- * - `background-position: top;`
+ * - background-position: top;
   *
   * @see background_position
   *

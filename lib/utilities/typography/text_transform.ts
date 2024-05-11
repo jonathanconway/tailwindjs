@@ -4,7 +4,7 @@
  * uppercase
  *
  * CSS:
- * - `text-transform: uppercase;`
+ * - text-transform: uppercase;
   *
   * @see text_transform
   *
@@ -17,7 +17,7 @@ export const uppercase = "uppercase";
  * lowercase
  *
  * CSS:
- * - `text-transform: lowercase;`
+ * - text-transform: lowercase;
   *
   * @see text_transform
   *
@@ -30,7 +30,7 @@ export const lowercase = "lowercase";
  * capitalize
  *
  * CSS:
- * - `text-transform: capitalize;`
+ * - text-transform: capitalize;
   *
   * @see text_transform
   *
@@ -43,7 +43,7 @@ export const capitalize = "capitalize";
  * normal-case
  *
  * CSS:
- * - `text-transform: none;`
+ * - text-transform: none;
   *
   * @see text_transform
   *

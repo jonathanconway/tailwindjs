@@ -4,7 +4,7 @@
  * bg-repeat
  *
  * CSS:
- * - `background-repeat: repeat;`
+ * - background-repeat: repeat;
   *
   * @see background_repeat
   *
@@ -17,7 +17,7 @@ export const bg_repeat = "bg-repeat";
  * bg-no-repeat
  *
  * CSS:
- * - `background-repeat: no-repeat;`
+ * - background-repeat: no-repeat;
   *
   * @see background_repeat
   *
@@ -30,7 +30,7 @@ export const bg_no_repeat = "bg-no-repeat";
  * bg-repeat-x
  *
  * CSS:
- * - `background-repeat: repeat-x;`
+ * - background-repeat: repeat-x;
   *
   * @see background_repeat
   *
@@ -43,7 +43,7 @@ export const bg_repeat_x = "bg-repeat-x";
  * bg-repeat-y
  *
  * CSS:
- * - `background-repeat: repeat-y;`
+ * - background-repeat: repeat-y;
   *
   * @see background_repeat
   *
@@ -56,7 +56,7 @@ export const bg_repeat_y = "bg-repeat-y";
  * bg-repeat-round
  *
  * CSS:
- * - `background-repeat: round;`
+ * - background-repeat: round;
   *
   * @see background_repeat
   *
@@ -69,7 +69,7 @@ export const bg_repeat_round = "bg-repeat-round";
  * bg-repeat-space
  *
  * CSS:
- * - `background-repeat: space;`
+ * - background-repeat: space;
   *
   * @see background_repeat
   *

@@ -4,7 +4,7 @@
  * appearance-none
  *
  * CSS:
- * - `appearance: none;`
+ * - appearance: none;
   *
   * @see appearance
   *
@@ -17,7 +17,7 @@ export const appearance_none = "appearance-none";
  * appearance-auto
  *
  * CSS:
- * - `appearance: auto;`
+ * - appearance: auto;
   *
   * @see appearance
   *

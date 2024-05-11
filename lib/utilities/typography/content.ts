@@ -4,7 +4,7 @@
  * content-none
  *
  * CSS:
- * - `content: none;`
+ * - content: none;
   *
   * @see content
   *

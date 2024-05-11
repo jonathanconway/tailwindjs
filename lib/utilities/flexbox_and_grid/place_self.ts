@@ -4,7 +4,7 @@
  * place-self-auto
  *
  * CSS:
- * - `place-self: auto;`
+ * - place-self: auto;
   *
   * @see place_self
   *
@@ -17,7 +17,7 @@ export const place_self_auto = "place-self-auto";
  * place-self-start
  *
  * CSS:
- * - `place-self: start;`
+ * - place-self: start;
   *
   * @see place_self
   *
@@ -30,7 +30,7 @@ export const place_self_start = "place-self-start";
  * place-self-end
  *
  * CSS:
- * - `place-self: end;`
+ * - place-self: end;
   *
   * @see place_self
   *
@@ -43,7 +43,7 @@ export const place_self_end = "place-self-end";
  * place-self-center
  *
  * CSS:
- * - `place-self: center;`
+ * - place-self: center;
   *
   * @see place_self
   *
@@ -56,7 +56,7 @@ export const place_self_center = "place-self-center";
  * place-self-stretch
  *
  * CSS:
- * - `place-self: stretch;`
+ * - place-self: stretch;
   *
   * @see place_self
   *

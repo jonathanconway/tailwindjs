@@ -4,7 +4,7 @@
  * object-contain
  *
  * CSS:
- * - `object-fit: contain;`
+ * - object-fit: contain;
   *
   * @see object_fit
   *
@@ -17,7 +17,7 @@ export const object_contain = "object-contain";
  * object-cover
  *
  * CSS:
- * - `object-fit: cover;`
+ * - object-fit: cover;
   *
   * @see object_fit
   *
@@ -30,7 +30,7 @@ export const object_cover = "object-cover";
  * object-fill
  *
  * CSS:
- * - `object-fit: fill;`
+ * - object-fit: fill;
   *
   * @see object_fit
   *
@@ -43,7 +43,7 @@ export const object_fill = "object-fill";
  * object-none
  *
  * CSS:
- * - `object-fit: none;`
+ * - object-fit: none;
   *
   * @see object_fit
   *
@@ -56,7 +56,7 @@ export const object_none = "object-none";
  * object-scale-down
  *
  * CSS:
- * - `object-fit: scale-down;`
+ * - object-fit: scale-down;
   *
   * @see object_fit
   *

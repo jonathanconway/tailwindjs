@@ -4,7 +4,7 @@
  * backdrop-sepia-0
  *
  * CSS:
- * - `backdrop-filter: sepia(0);`
+ * - backdrop-filter: sepia(0);
   *
   * @see backdrop_sepia
   *
@@ -17,7 +17,7 @@ export const backdrop_sepia_0 = "backdrop-sepia-0";
  * backdrop-sepia
  *
  * CSS:
- * - `backdrop-filter: sepia(100%);`
+ * - backdrop-filter: sepia(100%);
   *
   * @see backdrop_sepia
   *

@@ -4,7 +4,7 @@
  * columns-1
  *
  * CSS:
- * - `columns: 1;`
+ * - columns: 1;
   *
   * @see columns
   *
@@ -17,7 +17,7 @@ export const columns_1 = "columns-1";
  * columns-2
  *
  * CSS:
- * - `columns: 2;`
+ * - columns: 2;
   *
   * @see columns
   *
@@ -30,7 +30,7 @@ export const columns_2 = "columns-2";
  * columns-3
  *
  * CSS:
- * - `columns: 3;`
+ * - columns: 3;
   *
   * @see columns
   *
@@ -43,7 +43,7 @@ export const columns_3 = "columns-3";
  * columns-4
  *
  * CSS:
- * - `columns: 4;`
+ * - columns: 4;
   *
   * @see columns
   *
@@ -56,7 +56,7 @@ export const columns_4 = "columns-4";
  * columns-5
  *
  * CSS:
- * - `columns: 5;`
+ * - columns: 5;
   *
   * @see columns
   *
@@ -69,7 +69,7 @@ export const columns_5 = "columns-5";
  * columns-6
  *
  * CSS:
- * - `columns: 6;`
+ * - columns: 6;
   *
   * @see columns
   *
@@ -82,7 +82,7 @@ export const columns_6 = "columns-6";
  * columns-7
  *
  * CSS:
- * - `columns: 7;`
+ * - columns: 7;
   *
   * @see columns
   *
@@ -95,7 +95,7 @@ export const columns_7 = "columns-7";
  * columns-8
  *
  * CSS:
- * - `columns: 8;`
+ * - columns: 8;
   *
   * @see columns
   *
@@ -108,7 +108,7 @@ export const columns_8 = "columns-8";
  * columns-9
  *
  * CSS:
- * - `columns: 9;`
+ * - columns: 9;
   *
   * @see columns
   *
@@ -121,7 +121,7 @@ export const columns_9 = "columns-9";
  * columns-10
  *
  * CSS:
- * - `columns: 10;`
+ * - columns: 10;
   *
   * @see columns
   *
@@ -134,7 +134,7 @@ export const columns_10 = "columns-10";
  * columns-11
  *
  * CSS:
- * - `columns: 11;`
+ * - columns: 11;
   *
   * @see columns
   *
@@ -147,7 +147,7 @@ export const columns_11 = "columns-11";
  * columns-12
  *
  * CSS:
- * - `columns: 12;`
+ * - columns: 12;
   *
   * @see columns
   *
@@ -160,7 +160,7 @@ export const columns_12 = "columns-12";
  * columns-auto
  *
  * CSS:
- * - `columns: auto;`
+ * - columns: auto;
   *
   * @see columns
   *
@@ -173,7 +173,7 @@ export const columns_auto = "columns-auto";
  * columns-3xs
  *
  * CSS:
- * - `columns: 16rem; \/* 256px *\/`
+ * - columns: 16rem; \/* 256px *\/
   *
   * @see columns
   *
@@ -186,7 +186,7 @@ export const columns_3xs = "columns-3xs";
  * columns-2xs
  *
  * CSS:
- * - `columns: 18rem; \/* 288px *\/`
+ * - columns: 18rem; \/* 288px *\/
   *
   * @see columns
   *
@@ -199,7 +199,7 @@ export const columns_2xs = "columns-2xs";
  * columns-xs
  *
  * CSS:
- * - `columns: 20rem; \/* 320px *\/`
+ * - columns: 20rem; \/* 320px *\/
   *
   * @see columns
   *
@@ -212,7 +212,7 @@ export const columns_xs = "columns-xs";
  * columns-sm
  *
  * CSS:
- * - `columns: 24rem; \/* 384px *\/`
+ * - columns: 24rem; \/* 384px *\/
   *
   * @see columns
   *
@@ -225,7 +225,7 @@ export const columns_sm = "columns-sm";
  * columns-md
  *
  * CSS:
- * - `columns: 28rem; \/* 448px *\/`
+ * - columns: 28rem; \/* 448px *\/
   *
   * @see columns
   *
@@ -238,7 +238,7 @@ export const columns_md = "columns-md";
  * columns-lg
  *
  * CSS:
- * - `columns: 32rem; \/* 512px *\/`
+ * - columns: 32rem; \/* 512px *\/
   *
   * @see columns
   *
@@ -251,7 +251,7 @@ export const columns_lg = "columns-lg";
  * columns-xl
  *
  * CSS:
- * - `columns: 36rem; \/* 576px *\/`
+ * - columns: 36rem; \/* 576px *\/
   *
   * @see columns
   *
@@ -264,7 +264,7 @@ export const columns_xl = "columns-xl";
  * columns-2xl
  *
  * CSS:
- * - `columns: 42rem; \/* 672px *\/`
+ * - columns: 42rem; \/* 672px *\/
   *
   * @see columns
   *
@@ -277,7 +277,7 @@ export const columns_2xl = "columns-2xl";
  * columns-3xl
  *
  * CSS:
- * - `columns: 48rem; \/* 768px *\/`
+ * - columns: 48rem; \/* 768px *\/
   *
   * @see columns
   *
@@ -290,7 +290,7 @@ export const columns_3xl = "columns-3xl";
  * columns-4xl
  *
  * CSS:
- * - `columns: 56rem; \/* 896px *\/`
+ * - columns: 56rem; \/* 896px *\/
   *
   * @see columns
   *
@@ -303,7 +303,7 @@ export const columns_4xl = "columns-4xl";
  * columns-5xl
  *
  * CSS:
- * - `columns: 64rem; \/* 1024px *\/`
+ * - columns: 64rem; \/* 1024px *\/
   *
   * @see columns
   *
@@ -316,7 +316,7 @@ export const columns_5xl = "columns-5xl";
  * columns-6xl
  *
  * CSS:
- * - `columns: 72rem; \/* 1152px *\/`
+ * - columns: 72rem; \/* 1152px *\/
   *
   * @see columns
   *
@@ -329,7 +329,7 @@ export const columns_6xl = "columns-6xl";
  * columns-7xl
  *
  * CSS:
- * - `columns: 80rem; \/* 1280px *\/`
+ * - columns: 80rem; \/* 1280px *\/
   *
   * @see columns
   *

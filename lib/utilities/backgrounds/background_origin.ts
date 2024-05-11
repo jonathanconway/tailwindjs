@@ -4,7 +4,7 @@
  * bg-origin-border
  *
  * CSS:
- * - `background-origin: border-box;`
+ * - background-origin: border-box;
   *
   * @see background_origin
   *
@@ -17,7 +17,7 @@ export const bg_origin_border = "bg-origin-border";
  * bg-origin-padding
  *
  * CSS:
- * - `background-origin: padding-box;`
+ * - background-origin: padding-box;
   *
   * @see background_origin
   *
@@ -30,7 +30,7 @@ export const bg_origin_padding = "bg-origin-padding";
  * bg-origin-content
  *
  * CSS:
- * - `background-origin: content-box;`
+ * - background-origin: content-box;
   *
   * @see background_origin
   *

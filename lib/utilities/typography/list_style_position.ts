@@ -4,7 +4,7 @@
  * list-inside
  *
  * CSS:
- * - `list-style-position: inside;`
+ * - list-style-position: inside;
   *
   * @see list_style_position
   *
@@ -17,7 +17,7 @@ export const list_inside = "list-inside";
  * list-outside
  *
  * CSS:
- * - `list-style-position: outside;`
+ * - list-style-position: outside;
   *
   * @see list_style_position
   *

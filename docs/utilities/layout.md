@@ -50,7 +50,7 @@ Utilities for controlling the aspect ratio of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `aspect` | [aspect](https://tailwindcss.com/docs/aspect-ratio#arbitrary-values) |
+| `aspect_arbitrary`, `aspect_arb` | [aspect-[…]](https://tailwindcss.com/docs/aspect-ratio#arbitrary-values) |
 
 
 
@@ -252,7 +252,7 @@ Utilities for controlling the number of columns within an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `columns` | [columns](https://tailwindcss.com/docs/columns#arbitrary-values) |
+| `columns_arbitrary`, `columns_arb` | [columns-[…]](https://tailwindcss.com/docs/columns#arbitrary-values) |
 
 
 
@@ -421,9 +421,9 @@ Utilities for controlling how a replaced element's content should be positioned 
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `object` | [object](https://tailwindcss.com/docs/object-position#arbitrary-values) |
-| `object_left` | [object-left](https://tailwindcss.com/docs/object-position#arbitrary-values) |
-| `object_right` | [object-right](https://tailwindcss.com/docs/object-position#arbitrary-values) |
+| `object_arbitrary`, `object_arb` | [object-[…]](https://tailwindcss.com/docs/object-position#arbitrary-values) |
+| `object_left_arbitrary`, `object_left_arb` | [object-left-[…]](https://tailwindcss.com/docs/object-position#arbitrary-values) |
+| `object_right_arbitrary`, `object_right_arb` | [object-right-[…]](https://tailwindcss.com/docs/object-position#arbitrary-values) |
 
 
 
@@ -925,15 +925,15 @@ Utilities for controlling the placement of positioned elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `bottom` | [bottom](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `end` | [end](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `inset` | [inset](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `inset_x` | [inset-x](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `inset_y` | [inset-y](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `left` | [left](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `right` | [right](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `start` | [start](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
-| `top` | [top](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `bottom_arbitrary`, `bottom_arb` | [bottom-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `end_arbitrary`, `end_arb` | [end-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `inset_arbitrary`, `inset_arb` | [inset-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `inset_x_arbitrary`, `inset_x_arb` | [inset-x-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `inset_y_arbitrary`, `inset_y_arb` | [inset-y-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `left_arbitrary`, `left_arb` | [left-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `right_arbitrary`, `right_arb` | [right-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `start_arbitrary`, `start_arb` | [start-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
+| `top_arbitrary`, `top_arb` | [top-[…]](https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values) |
 
 
 
@@ -989,6 +989,6 @@ Utilities for controlling the stack order of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `z` | [z](https://tailwindcss.com/docs/z-index#arbitrary-values) |
+| `z_arbitrary`, `z_arb` | [z-[…]](https://tailwindcss.com/docs/z-index#arbitrary-values) |
 
 

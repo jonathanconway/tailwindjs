@@ -4,7 +4,7 @@
  * outline-inherit
  *
  * CSS:
- * - `outline-color: inherit;`
+ * - outline-color: inherit;
   *
   * @see outline_color
   *
@@ -17,7 +17,7 @@ export const outline_inherit = "outline-inherit";
  * outline-current
  *
  * CSS:
- * - `outline-color: currentColor;`
+ * - outline-color: currentColor;
   *
   * @see outline_color
   *
@@ -30,7 +30,7 @@ export const outline_current = "outline-current";
  * outline-transparent
  *
  * CSS:
- * - `outline-color: transparent;`
+ * - outline-color: transparent;
   *
   * @see outline_color
   *
@@ -43,7 +43,7 @@ export const outline_transparent = "outline-transparent";
  * outline-black
  *
  * CSS:
- * - `outline-color: #000;`
+ * - outline-color: #000;
   *
   * @see outline_color
   *
@@ -56,7 +56,7 @@ export const outline_black = "outline-black";
  * outline-white
  *
  * CSS:
- * - `outline-color: #fff;`
+ * - outline-color: #fff;
   *
   * @see outline_color
   *
@@ -69,7 +69,7 @@ export const outline_white = "outline-white";
  * outline-slate-50
  *
  * CSS:
- * - `outline-color: #f8fafc;`
+ * - outline-color: #f8fafc;
   *
   * @see outline_color
   *
@@ -82,7 +82,7 @@ export const outline_slate_50 = "outline-slate-50";
  * outline-slate-100
  *
  * CSS:
- * - `outline-color: #f1f5f9;`
+ * - outline-color: #f1f5f9;
   *
   * @see outline_color
   *
@@ -95,7 +95,7 @@ export const outline_slate_100 = "outline-slate-100";
  * outline-slate-200
  *
  * CSS:
- * - `outline-color: #e2e8f0;`
+ * - outline-color: #e2e8f0;
   *
   * @see outline_color
   *
@@ -108,7 +108,7 @@ export const outline_slate_200 = "outline-slate-200";
  * outline-slate-300
  *
  * CSS:
- * - `outline-color: #cbd5e1;`
+ * - outline-color: #cbd5e1;
   *
   * @see outline_color
   *
@@ -121,7 +121,7 @@ export const outline_slate_300 = "outline-slate-300";
  * outline-slate-400
  *
  * CSS:
- * - `outline-color: #94a3b8;`
+ * - outline-color: #94a3b8;
   *
   * @see outline_color
   *
@@ -134,7 +134,7 @@ export const outline_slate_400 = "outline-slate-400";
  * outline-slate-500
  *
  * CSS:
- * - `outline-color: #64748b;`
+ * - outline-color: #64748b;
   *
   * @see outline_color
   *
@@ -147,7 +147,7 @@ export const outline_slate_500 = "outline-slate-500";
  * outline-slate-600
  *
  * CSS:
- * - `outline-color: #475569;`
+ * - outline-color: #475569;
   *
   * @see outline_color
   *
@@ -160,7 +160,7 @@ export const outline_slate_600 = "outline-slate-600";
  * outline-slate-700
  *
  * CSS:
- * - `outline-color: #334155;`
+ * - outline-color: #334155;
   *
   * @see outline_color
   *
@@ -173,7 +173,7 @@ export const outline_slate_700 = "outline-slate-700";
  * outline-slate-800
  *
  * CSS:
- * - `outline-color: #1e293b;`
+ * - outline-color: #1e293b;
   *
   * @see outline_color
   *
@@ -186,7 +186,7 @@ export const outline_slate_800 = "outline-slate-800";
  * outline-slate-900
  *
  * CSS:
- * - `outline-color: #0f172a;`
+ * - outline-color: #0f172a;
   *
   * @see outline_color
   *
@@ -199,7 +199,7 @@ export const outline_slate_900 = "outline-slate-900";
  * outline-slate-950
  *
  * CSS:
- * - `outline-color: #020617;`
+ * - outline-color: #020617;
   *
   * @see outline_color
   *
@@ -212,7 +212,7 @@ export const outline_slate_950 = "outline-slate-950";
  * outline-gray-50
  *
  * CSS:
- * - `outline-color: #f9fafb;`
+ * - outline-color: #f9fafb;
   *
   * @see outline_color
   *
@@ -225,7 +225,7 @@ export const outline_gray_50 = "outline-gray-50";
  * outline-gray-100
  *
  * CSS:
- * - `outline-color: #f3f4f6;`
+ * - outline-color: #f3f4f6;
   *
   * @see outline_color
   *
@@ -238,7 +238,7 @@ export const outline_gray_100 = "outline-gray-100";
  * outline-gray-200
  *
  * CSS:
- * - `outline-color: #e5e7eb;`
+ * - outline-color: #e5e7eb;
   *
   * @see outline_color
   *
@@ -251,7 +251,7 @@ export const outline_gray_200 = "outline-gray-200";
  * outline-gray-300
  *
  * CSS:
- * - `outline-color: #d1d5db;`
+ * - outline-color: #d1d5db;
   *
   * @see outline_color
   *
@@ -264,7 +264,7 @@ export const outline_gray_300 = "outline-gray-300";
  * outline-gray-400
  *
  * CSS:
- * - `outline-color: #9ca3af;`
+ * - outline-color: #9ca3af;
   *
   * @see outline_color
   *
@@ -277,7 +277,7 @@ export const outline_gray_400 = "outline-gray-400";
  * outline-gray-500
  *
  * CSS:
- * - `outline-color: #6b7280;`
+ * - outline-color: #6b7280;
   *
   * @see outline_color
   *
@@ -290,7 +290,7 @@ export const outline_gray_500 = "outline-gray-500";
  * outline-gray-600
  *
  * CSS:
- * - `outline-color: #4b5563;`
+ * - outline-color: #4b5563;
   *
   * @see outline_color
   *
@@ -303,7 +303,7 @@ export const outline_gray_600 = "outline-gray-600";
  * outline-gray-700
  *
  * CSS:
- * - `outline-color: #374151;`
+ * - outline-color: #374151;
   *
   * @see outline_color
   *
@@ -316,7 +316,7 @@ export const outline_gray_700 = "outline-gray-700";
  * outline-gray-800
  *
  * CSS:
- * - `outline-color: #1f2937;`
+ * - outline-color: #1f2937;
   *
   * @see outline_color
   *
@@ -329,7 +329,7 @@ export const outline_gray_800 = "outline-gray-800";
  * outline-gray-900
  *
  * CSS:
- * - `outline-color: #111827;`
+ * - outline-color: #111827;
   *
   * @see outline_color
   *
@@ -342,7 +342,7 @@ export const outline_gray_900 = "outline-gray-900";
  * outline-gray-950
  *
  * CSS:
- * - `outline-color: #030712;`
+ * - outline-color: #030712;
   *
   * @see outline_color
   *
@@ -355,7 +355,7 @@ export const outline_gray_950 = "outline-gray-950";
  * outline-zinc-50
  *
  * CSS:
- * - `outline-color: #fafafa;`
+ * - outline-color: #fafafa;
   *
   * @see outline_color
   *
@@ -368,7 +368,7 @@ export const outline_zinc_50 = "outline-zinc-50";
  * outline-zinc-100
  *
  * CSS:
- * - `outline-color: #f4f4f5;`
+ * - outline-color: #f4f4f5;
   *
   * @see outline_color
   *
@@ -381,7 +381,7 @@ export const outline_zinc_100 = "outline-zinc-100";
  * outline-zinc-200
  *
  * CSS:
- * - `outline-color: #e4e4e7;`
+ * - outline-color: #e4e4e7;
   *
   * @see outline_color
   *
@@ -394,7 +394,7 @@ export const outline_zinc_200 = "outline-zinc-200";
  * outline-zinc-300
  *
  * CSS:
- * - `outline-color: #d4d4d8;`
+ * - outline-color: #d4d4d8;
   *
   * @see outline_color
   *
@@ -407,7 +407,7 @@ export const outline_zinc_300 = "outline-zinc-300";
  * outline-zinc-400
  *
  * CSS:
- * - `outline-color: #a1a1aa;`
+ * - outline-color: #a1a1aa;
   *
   * @see outline_color
   *
@@ -420,7 +420,7 @@ export const outline_zinc_400 = "outline-zinc-400";
  * outline-zinc-500
  *
  * CSS:
- * - `outline-color: #71717a;`
+ * - outline-color: #71717a;
   *
   * @see outline_color
   *
@@ -433,7 +433,7 @@ export const outline_zinc_500 = "outline-zinc-500";
  * outline-zinc-600
  *
  * CSS:
- * - `outline-color: #52525b;`
+ * - outline-color: #52525b;
   *
   * @see outline_color
   *
@@ -446,7 +446,7 @@ export const outline_zinc_600 = "outline-zinc-600";
  * outline-zinc-700
  *
  * CSS:
- * - `outline-color: #3f3f46;`
+ * - outline-color: #3f3f46;
   *
   * @see outline_color
   *
@@ -459,7 +459,7 @@ export const outline_zinc_700 = "outline-zinc-700";
  * outline-zinc-800
  *
  * CSS:
- * - `outline-color: #27272a;`
+ * - outline-color: #27272a;
   *
   * @see outline_color
   *
@@ -472,7 +472,7 @@ export const outline_zinc_800 = "outline-zinc-800";
  * outline-zinc-900
  *
  * CSS:
- * - `outline-color: #18181b;`
+ * - outline-color: #18181b;
   *
   * @see outline_color
   *
@@ -485,7 +485,7 @@ export const outline_zinc_900 = "outline-zinc-900";
  * outline-zinc-950
  *
  * CSS:
- * - `outline-color: #09090b;`
+ * - outline-color: #09090b;
   *
   * @see outline_color
   *
@@ -498,7 +498,7 @@ export const outline_zinc_950 = "outline-zinc-950";
  * outline-neutral-50
  *
  * CSS:
- * - `outline-color: #fafafa;`
+ * - outline-color: #fafafa;
   *
   * @see outline_color
   *
@@ -511,7 +511,7 @@ export const outline_neutral_50 = "outline-neutral-50";
  * outline-neutral-100
  *
  * CSS:
- * - `outline-color: #f5f5f5;`
+ * - outline-color: #f5f5f5;
   *
   * @see outline_color
   *
@@ -524,7 +524,7 @@ export const outline_neutral_100 = "outline-neutral-100";
  * outline-neutral-200
  *
  * CSS:
- * - `outline-color: #e5e5e5;`
+ * - outline-color: #e5e5e5;
   *
   * @see outline_color
   *
@@ -537,7 +537,7 @@ export const outline_neutral_200 = "outline-neutral-200";
  * outline-neutral-300
  *
  * CSS:
- * - `outline-color: #d4d4d4;`
+ * - outline-color: #d4d4d4;
   *
   * @see outline_color
   *
@@ -550,7 +550,7 @@ export const outline_neutral_300 = "outline-neutral-300";
  * outline-neutral-400
  *
  * CSS:
- * - `outline-color: #a3a3a3;`
+ * - outline-color: #a3a3a3;
   *
   * @see outline_color
   *
@@ -563,7 +563,7 @@ export const outline_neutral_400 = "outline-neutral-400";
  * outline-neutral-500
  *
  * CSS:
- * - `outline-color: #737373;`
+ * - outline-color: #737373;
   *
   * @see outline_color
   *
@@ -576,7 +576,7 @@ export const outline_neutral_500 = "outline-neutral-500";
  * outline-neutral-600
  *
  * CSS:
- * - `outline-color: #525252;`
+ * - outline-color: #525252;
   *
   * @see outline_color
   *
@@ -589,7 +589,7 @@ export const outline_neutral_600 = "outline-neutral-600";
  * outline-neutral-700
  *
  * CSS:
- * - `outline-color: #404040;`
+ * - outline-color: #404040;
   *
   * @see outline_color
   *
@@ -602,7 +602,7 @@ export const outline_neutral_700 = "outline-neutral-700";
  * outline-neutral-800
  *
  * CSS:
- * - `outline-color: #262626;`
+ * - outline-color: #262626;
   *
   * @see outline_color
   *
@@ -615,7 +615,7 @@ export const outline_neutral_800 = "outline-neutral-800";
  * outline-neutral-900
  *
  * CSS:
- * - `outline-color: #171717;`
+ * - outline-color: #171717;
   *
   * @see outline_color
   *
@@ -628,7 +628,7 @@ export const outline_neutral_900 = "outline-neutral-900";
  * outline-neutral-950
  *
  * CSS:
- * - `outline-color: #0a0a0a;`
+ * - outline-color: #0a0a0a;
   *
   * @see outline_color
   *
@@ -641,7 +641,7 @@ export const outline_neutral_950 = "outline-neutral-950";
  * outline-stone-50
  *
  * CSS:
- * - `outline-color: #fafaf9;`
+ * - outline-color: #fafaf9;
   *
   * @see outline_color
   *
@@ -654,7 +654,7 @@ export const outline_stone_50 = "outline-stone-50";
  * outline-stone-100
  *
  * CSS:
- * - `outline-color: #f5f5f4;`
+ * - outline-color: #f5f5f4;
   *
   * @see outline_color
   *
@@ -667,7 +667,7 @@ export const outline_stone_100 = "outline-stone-100";
  * outline-stone-200
  *
  * CSS:
- * - `outline-color: #e7e5e4;`
+ * - outline-color: #e7e5e4;
   *
   * @see outline_color
   *
@@ -680,7 +680,7 @@ export const outline_stone_200 = "outline-stone-200";
  * outline-stone-300
  *
  * CSS:
- * - `outline-color: #d6d3d1;`
+ * - outline-color: #d6d3d1;
   *
   * @see outline_color
   *
@@ -693,7 +693,7 @@ export const outline_stone_300 = "outline-stone-300";
  * outline-stone-400
  *
  * CSS:
- * - `outline-color: #a8a29e;`
+ * - outline-color: #a8a29e;
   *
   * @see outline_color
   *
@@ -706,7 +706,7 @@ export const outline_stone_400 = "outline-stone-400";
  * outline-stone-500
  *
  * CSS:
- * - `outline-color: #78716c;`
+ * - outline-color: #78716c;
   *
   * @see outline_color
   *
@@ -719,7 +719,7 @@ export const outline_stone_500 = "outline-stone-500";
  * outline-stone-600
  *
  * CSS:
- * - `outline-color: #57534e;`
+ * - outline-color: #57534e;
   *
   * @see outline_color
   *
@@ -732,7 +732,7 @@ export const outline_stone_600 = "outline-stone-600";
  * outline-stone-700
  *
  * CSS:
- * - `outline-color: #44403c;`
+ * - outline-color: #44403c;
   *
   * @see outline_color
   *
@@ -745,7 +745,7 @@ export const outline_stone_700 = "outline-stone-700";
  * outline-stone-800
  *
  * CSS:
- * - `outline-color: #292524;`
+ * - outline-color: #292524;
   *
   * @see outline_color
   *
@@ -758,7 +758,7 @@ export const outline_stone_800 = "outline-stone-800";
  * outline-stone-900
  *
  * CSS:
- * - `outline-color: #1c1917;`
+ * - outline-color: #1c1917;
   *
   * @see outline_color
   *
@@ -771,7 +771,7 @@ export const outline_stone_900 = "outline-stone-900";
  * outline-stone-950
  *
  * CSS:
- * - `outline-color: #0c0a09;`
+ * - outline-color: #0c0a09;
   *
   * @see outline_color
   *
@@ -784,7 +784,7 @@ export const outline_stone_950 = "outline-stone-950";
  * outline-red-50
  *
  * CSS:
- * - `outline-color: #fef2f2;`
+ * - outline-color: #fef2f2;
   *
   * @see outline_color
   *
@@ -797,7 +797,7 @@ export const outline_red_50 = "outline-red-50";
  * outline-red-100
  *
  * CSS:
- * - `outline-color: #fee2e2;`
+ * - outline-color: #fee2e2;
   *
   * @see outline_color
   *
@@ -810,7 +810,7 @@ export const outline_red_100 = "outline-red-100";
  * outline-red-200
  *
  * CSS:
- * - `outline-color: #fecaca;`
+ * - outline-color: #fecaca;
   *
   * @see outline_color
   *
@@ -823,7 +823,7 @@ export const outline_red_200 = "outline-red-200";
  * outline-red-300
  *
  * CSS:
- * - `outline-color: #fca5a5;`
+ * - outline-color: #fca5a5;
   *
   * @see outline_color
   *
@@ -836,7 +836,7 @@ export const outline_red_300 = "outline-red-300";
  * outline-red-400
  *
  * CSS:
- * - `outline-color: #f87171;`
+ * - outline-color: #f87171;
   *
   * @see outline_color
   *
@@ -849,7 +849,7 @@ export const outline_red_400 = "outline-red-400";
  * outline-red-500
  *
  * CSS:
- * - `outline-color: #ef4444;`
+ * - outline-color: #ef4444;
   *
   * @see outline_color
   *
@@ -862,7 +862,7 @@ export const outline_red_500 = "outline-red-500";
  * outline-red-600
  *
  * CSS:
- * - `outline-color: #dc2626;`
+ * - outline-color: #dc2626;
   *
   * @see outline_color
   *
@@ -875,7 +875,7 @@ export const outline_red_600 = "outline-red-600";
  * outline-red-700
  *
  * CSS:
- * - `outline-color: #b91c1c;`
+ * - outline-color: #b91c1c;
   *
   * @see outline_color
   *
@@ -888,7 +888,7 @@ export const outline_red_700 = "outline-red-700";
  * outline-red-800
  *
  * CSS:
- * - `outline-color: #991b1b;`
+ * - outline-color: #991b1b;
   *
   * @see outline_color
   *
@@ -901,7 +901,7 @@ export const outline_red_800 = "outline-red-800";
  * outline-red-900
  *
  * CSS:
- * - `outline-color: #7f1d1d;`
+ * - outline-color: #7f1d1d;
   *
   * @see outline_color
   *
@@ -914,7 +914,7 @@ export const outline_red_900 = "outline-red-900";
  * outline-red-950
  *
  * CSS:
- * - `outline-color: #450a0a;`
+ * - outline-color: #450a0a;
   *
   * @see outline_color
   *
@@ -927,7 +927,7 @@ export const outline_red_950 = "outline-red-950";
  * outline-orange-50
  *
  * CSS:
- * - `outline-color: #fff7ed;`
+ * - outline-color: #fff7ed;
   *
   * @see outline_color
   *
@@ -940,7 +940,7 @@ export const outline_orange_50 = "outline-orange-50";
  * outline-orange-100
  *
  * CSS:
- * - `outline-color: #ffedd5;`
+ * - outline-color: #ffedd5;
   *
   * @see outline_color
   *
@@ -953,7 +953,7 @@ export const outline_orange_100 = "outline-orange-100";
  * outline-orange-200
  *
  * CSS:
- * - `outline-color: #fed7aa;`
+ * - outline-color: #fed7aa;
   *
   * @see outline_color
   *
@@ -966,7 +966,7 @@ export const outline_orange_200 = "outline-orange-200";
  * outline-orange-300
  *
  * CSS:
- * - `outline-color: #fdba74;`
+ * - outline-color: #fdba74;
   *
   * @see outline_color
   *
@@ -979,7 +979,7 @@ export const outline_orange_300 = "outline-orange-300";
  * outline-orange-400
  *
  * CSS:
- * - `outline-color: #fb923c;`
+ * - outline-color: #fb923c;
   *
   * @see outline_color
   *
@@ -992,7 +992,7 @@ export const outline_orange_400 = "outline-orange-400";
  * outline-orange-500
  *
  * CSS:
- * - `outline-color: #f97316;`
+ * - outline-color: #f97316;
   *
   * @see outline_color
   *
@@ -1005,7 +1005,7 @@ export const outline_orange_500 = "outline-orange-500";
  * outline-orange-600
  *
  * CSS:
- * - `outline-color: #ea580c;`
+ * - outline-color: #ea580c;
   *
   * @see outline_color
   *
@@ -1018,7 +1018,7 @@ export const outline_orange_600 = "outline-orange-600";
  * outline-orange-700
  *
  * CSS:
- * - `outline-color: #c2410c;`
+ * - outline-color: #c2410c;
   *
   * @see outline_color
   *
@@ -1031,7 +1031,7 @@ export const outline_orange_700 = "outline-orange-700";
  * outline-orange-800
  *
  * CSS:
- * - `outline-color: #9a3412;`
+ * - outline-color: #9a3412;
   *
   * @see outline_color
   *
@@ -1044,7 +1044,7 @@ export const outline_orange_800 = "outline-orange-800";
  * outline-orange-900
  *
  * CSS:
- * - `outline-color: #7c2d12;`
+ * - outline-color: #7c2d12;
   *
   * @see outline_color
   *
@@ -1057,7 +1057,7 @@ export const outline_orange_900 = "outline-orange-900";
  * outline-orange-950
  *
  * CSS:
- * - `outline-color: #431407;`
+ * - outline-color: #431407;
   *
   * @see outline_color
   *
@@ -1070,7 +1070,7 @@ export const outline_orange_950 = "outline-orange-950";
  * outline-amber-50
  *
  * CSS:
- * - `outline-color: #fffbeb;`
+ * - outline-color: #fffbeb;
   *
   * @see outline_color
   *
@@ -1083,7 +1083,7 @@ export const outline_amber_50 = "outline-amber-50";
  * outline-amber-100
  *
  * CSS:
- * - `outline-color: #fef3c7;`
+ * - outline-color: #fef3c7;
   *
   * @see outline_color
   *
@@ -1096,7 +1096,7 @@ export const outline_amber_100 = "outline-amber-100";
  * outline-amber-200
  *
  * CSS:
- * - `outline-color: #fde68a;`
+ * - outline-color: #fde68a;
   *
   * @see outline_color
   *
@@ -1109,7 +1109,7 @@ export const outline_amber_200 = "outline-amber-200";
  * outline-amber-300
  *
  * CSS:
- * - `outline-color: #fcd34d;`
+ * - outline-color: #fcd34d;
   *
   * @see outline_color
   *
@@ -1122,7 +1122,7 @@ export const outline_amber_300 = "outline-amber-300";
  * outline-amber-400
  *
  * CSS:
- * - `outline-color: #fbbf24;`
+ * - outline-color: #fbbf24;
   *
   * @see outline_color
   *
@@ -1135,7 +1135,7 @@ export const outline_amber_400 = "outline-amber-400";
  * outline-amber-500
  *
  * CSS:
- * - `outline-color: #f59e0b;`
+ * - outline-color: #f59e0b;
   *
   * @see outline_color
   *
@@ -1148,7 +1148,7 @@ export const outline_amber_500 = "outline-amber-500";
  * outline-amber-600
  *
  * CSS:
- * - `outline-color: #d97706;`
+ * - outline-color: #d97706;
   *
   * @see outline_color
   *
@@ -1161,7 +1161,7 @@ export const outline_amber_600 = "outline-amber-600";
  * outline-amber-700
  *
  * CSS:
- * - `outline-color: #b45309;`
+ * - outline-color: #b45309;
   *
   * @see outline_color
   *
@@ -1174,7 +1174,7 @@ export const outline_amber_700 = "outline-amber-700";
  * outline-amber-800
  *
  * CSS:
- * - `outline-color: #92400e;`
+ * - outline-color: #92400e;
   *
   * @see outline_color
   *
@@ -1187,7 +1187,7 @@ export const outline_amber_800 = "outline-amber-800";
  * outline-amber-900
  *
  * CSS:
- * - `outline-color: #78350f;`
+ * - outline-color: #78350f;
   *
   * @see outline_color
   *
@@ -1200,7 +1200,7 @@ export const outline_amber_900 = "outline-amber-900";
  * outline-amber-950
  *
  * CSS:
- * - `outline-color: #451a03;`
+ * - outline-color: #451a03;
   *
   * @see outline_color
   *
@@ -1213,7 +1213,7 @@ export const outline_amber_950 = "outline-amber-950";
  * outline-yellow-50
  *
  * CSS:
- * - `outline-color: #fefce8;`
+ * - outline-color: #fefce8;
   *
   * @see outline_color
   *
@@ -1226,7 +1226,7 @@ export const outline_yellow_50 = "outline-yellow-50";
  * outline-yellow-100
  *
  * CSS:
- * - `outline-color: #fef9c3;`
+ * - outline-color: #fef9c3;
   *
   * @see outline_color
   *
@@ -1239,7 +1239,7 @@ export const outline_yellow_100 = "outline-yellow-100";
  * outline-yellow-200
  *
  * CSS:
- * - `outline-color: #fef08a;`
+ * - outline-color: #fef08a;
   *
   * @see outline_color
   *
@@ -1252,7 +1252,7 @@ export const outline_yellow_200 = "outline-yellow-200";
  * outline-yellow-300
  *
  * CSS:
- * - `outline-color: #fde047;`
+ * - outline-color: #fde047;
   *
   * @see outline_color
   *
@@ -1265,7 +1265,7 @@ export const outline_yellow_300 = "outline-yellow-300";
  * outline-yellow-400
  *
  * CSS:
- * - `outline-color: #facc15;`
+ * - outline-color: #facc15;
   *
   * @see outline_color
   *
@@ -1278,7 +1278,7 @@ export const outline_yellow_400 = "outline-yellow-400";
  * outline-yellow-500
  *
  * CSS:
- * - `outline-color: #eab308;`
+ * - outline-color: #eab308;
   *
   * @see outline_color
   *
@@ -1291,7 +1291,7 @@ export const outline_yellow_500 = "outline-yellow-500";
  * outline-yellow-600
  *
  * CSS:
- * - `outline-color: #ca8a04;`
+ * - outline-color: #ca8a04;
   *
   * @see outline_color
   *
@@ -1304,7 +1304,7 @@ export const outline_yellow_600 = "outline-yellow-600";
  * outline-yellow-700
  *
  * CSS:
- * - `outline-color: #a16207;`
+ * - outline-color: #a16207;
   *
   * @see outline_color
   *
@@ -1317,7 +1317,7 @@ export const outline_yellow_700 = "outline-yellow-700";
  * outline-yellow-800
  *
  * CSS:
- * - `outline-color: #854d0e;`
+ * - outline-color: #854d0e;
   *
   * @see outline_color
   *
@@ -1330,7 +1330,7 @@ export const outline_yellow_800 = "outline-yellow-800";
  * outline-yellow-900
  *
  * CSS:
- * - `outline-color: #713f12;`
+ * - outline-color: #713f12;
   *
   * @see outline_color
   *
@@ -1343,7 +1343,7 @@ export const outline_yellow_900 = "outline-yellow-900";
  * outline-yellow-950
  *
  * CSS:
- * - `outline-color: #422006;`
+ * - outline-color: #422006;
   *
   * @see outline_color
   *
@@ -1356,7 +1356,7 @@ export const outline_yellow_950 = "outline-yellow-950";
  * outline-lime-50
  *
  * CSS:
- * - `outline-color: #f7fee7;`
+ * - outline-color: #f7fee7;
   *
   * @see outline_color
   *
@@ -1369,7 +1369,7 @@ export const outline_lime_50 = "outline-lime-50";
  * outline-lime-100
  *
  * CSS:
- * - `outline-color: #ecfccb;`
+ * - outline-color: #ecfccb;
   *
   * @see outline_color
   *
@@ -1382,7 +1382,7 @@ export const outline_lime_100 = "outline-lime-100";
  * outline-lime-200
  *
  * CSS:
- * - `outline-color: #d9f99d;`
+ * - outline-color: #d9f99d;
   *
   * @see outline_color
   *
@@ -1395,7 +1395,7 @@ export const outline_lime_200 = "outline-lime-200";
  * outline-lime-300
  *
  * CSS:
- * - `outline-color: #bef264;`
+ * - outline-color: #bef264;
   *
   * @see outline_color
   *
@@ -1408,7 +1408,7 @@ export const outline_lime_300 = "outline-lime-300";
  * outline-lime-400
  *
  * CSS:
- * - `outline-color: #a3e635;`
+ * - outline-color: #a3e635;
   *
   * @see outline_color
   *
@@ -1421,7 +1421,7 @@ export const outline_lime_400 = "outline-lime-400";
  * outline-lime-500
  *
  * CSS:
- * - `outline-color: #84cc16;`
+ * - outline-color: #84cc16;
   *
   * @see outline_color
   *
@@ -1434,7 +1434,7 @@ export const outline_lime_500 = "outline-lime-500";
  * outline-lime-600
  *
  * CSS:
- * - `outline-color: #65a30d;`
+ * - outline-color: #65a30d;
   *
   * @see outline_color
   *
@@ -1447,7 +1447,7 @@ export const outline_lime_600 = "outline-lime-600";
  * outline-lime-700
  *
  * CSS:
- * - `outline-color: #4d7c0f;`
+ * - outline-color: #4d7c0f;
   *
   * @see outline_color
   *
@@ -1460,7 +1460,7 @@ export const outline_lime_700 = "outline-lime-700";
  * outline-lime-800
  *
  * CSS:
- * - `outline-color: #3f6212;`
+ * - outline-color: #3f6212;
   *
   * @see outline_color
   *
@@ -1473,7 +1473,7 @@ export const outline_lime_800 = "outline-lime-800";
  * outline-lime-900
  *
  * CSS:
- * - `outline-color: #365314;`
+ * - outline-color: #365314;
   *
   * @see outline_color
   *
@@ -1486,7 +1486,7 @@ export const outline_lime_900 = "outline-lime-900";
  * outline-lime-950
  *
  * CSS:
- * - `outline-color: #1a2e05;`
+ * - outline-color: #1a2e05;
   *
   * @see outline_color
   *
@@ -1499,7 +1499,7 @@ export const outline_lime_950 = "outline-lime-950";
  * outline-green-50
  *
  * CSS:
- * - `outline-color: #f0fdf4;`
+ * - outline-color: #f0fdf4;
   *
   * @see outline_color
   *
@@ -1512,7 +1512,7 @@ export const outline_green_50 = "outline-green-50";
  * outline-green-100
  *
  * CSS:
- * - `outline-color: #dcfce7;`
+ * - outline-color: #dcfce7;
   *
   * @see outline_color
   *
@@ -1525,7 +1525,7 @@ export const outline_green_100 = "outline-green-100";
  * outline-green-200
  *
  * CSS:
- * - `outline-color: #bbf7d0;`
+ * - outline-color: #bbf7d0;
   *
   * @see outline_color
   *
@@ -1538,7 +1538,7 @@ export const outline_green_200 = "outline-green-200";
  * outline-green-300
  *
  * CSS:
- * - `outline-color: #86efac;`
+ * - outline-color: #86efac;
   *
   * @see outline_color
   *
@@ -1551,7 +1551,7 @@ export const outline_green_300 = "outline-green-300";
  * outline-green-400
  *
  * CSS:
- * - `outline-color: #4ade80;`
+ * - outline-color: #4ade80;
   *
   * @see outline_color
   *
@@ -1564,7 +1564,7 @@ export const outline_green_400 = "outline-green-400";
  * outline-green-500
  *
  * CSS:
- * - `outline-color: #22c55e;`
+ * - outline-color: #22c55e;
   *
   * @see outline_color
   *
@@ -1577,7 +1577,7 @@ export const outline_green_500 = "outline-green-500";
  * outline-green-600
  *
  * CSS:
- * - `outline-color: #16a34a;`
+ * - outline-color: #16a34a;
   *
   * @see outline_color
   *
@@ -1590,7 +1590,7 @@ export const outline_green_600 = "outline-green-600";
  * outline-green-700
  *
  * CSS:
- * - `outline-color: #15803d;`
+ * - outline-color: #15803d;
   *
   * @see outline_color
   *
@@ -1603,7 +1603,7 @@ export const outline_green_700 = "outline-green-700";
  * outline-green-800
  *
  * CSS:
- * - `outline-color: #166534;`
+ * - outline-color: #166534;
   *
   * @see outline_color
   *
@@ -1616,7 +1616,7 @@ export const outline_green_800 = "outline-green-800";
  * outline-green-900
  *
  * CSS:
- * - `outline-color: #14532d;`
+ * - outline-color: #14532d;
   *
   * @see outline_color
   *
@@ -1629,7 +1629,7 @@ export const outline_green_900 = "outline-green-900";
  * outline-green-950
  *
  * CSS:
- * - `outline-color: #052e16;`
+ * - outline-color: #052e16;
   *
   * @see outline_color
   *
@@ -1642,7 +1642,7 @@ export const outline_green_950 = "outline-green-950";
  * outline-emerald-50
  *
  * CSS:
- * - `outline-color: #ecfdf5;`
+ * - outline-color: #ecfdf5;
   *
   * @see outline_color
   *
@@ -1655,7 +1655,7 @@ export const outline_emerald_50 = "outline-emerald-50";
  * outline-emerald-100
  *
  * CSS:
- * - `outline-color: #d1fae5;`
+ * - outline-color: #d1fae5;
   *
   * @see outline_color
   *
@@ -1668,7 +1668,7 @@ export const outline_emerald_100 = "outline-emerald-100";
  * outline-emerald-200
  *
  * CSS:
- * - `outline-color: #a7f3d0;`
+ * - outline-color: #a7f3d0;
   *
   * @see outline_color
   *
@@ -1681,7 +1681,7 @@ export const outline_emerald_200 = "outline-emerald-200";
  * outline-emerald-300
  *
  * CSS:
- * - `outline-color: #6ee7b7;`
+ * - outline-color: #6ee7b7;
   *
   * @see outline_color
   *
@@ -1694,7 +1694,7 @@ export const outline_emerald_300 = "outline-emerald-300";
  * outline-emerald-400
  *
  * CSS:
- * - `outline-color: #34d399;`
+ * - outline-color: #34d399;
   *
   * @see outline_color
   *
@@ -1707,7 +1707,7 @@ export const outline_emerald_400 = "outline-emerald-400";
  * outline-emerald-500
  *
  * CSS:
- * - `outline-color: #10b981;`
+ * - outline-color: #10b981;
   *
   * @see outline_color
   *
@@ -1720,7 +1720,7 @@ export const outline_emerald_500 = "outline-emerald-500";
  * outline-emerald-600
  *
  * CSS:
- * - `outline-color: #059669;`
+ * - outline-color: #059669;
   *
   * @see outline_color
   *
@@ -1733,7 +1733,7 @@ export const outline_emerald_600 = "outline-emerald-600";
  * outline-emerald-700
  *
  * CSS:
- * - `outline-color: #047857;`
+ * - outline-color: #047857;
   *
   * @see outline_color
   *
@@ -1746,7 +1746,7 @@ export const outline_emerald_700 = "outline-emerald-700";
  * outline-emerald-800
  *
  * CSS:
- * - `outline-color: #065f46;`
+ * - outline-color: #065f46;
   *
   * @see outline_color
   *
@@ -1759,7 +1759,7 @@ export const outline_emerald_800 = "outline-emerald-800";
  * outline-emerald-900
  *
  * CSS:
- * - `outline-color: #064e3b;`
+ * - outline-color: #064e3b;
   *
   * @see outline_color
   *
@@ -1772,7 +1772,7 @@ export const outline_emerald_900 = "outline-emerald-900";
  * outline-emerald-950
  *
  * CSS:
- * - `outline-color: #022c22;`
+ * - outline-color: #022c22;
   *
   * @see outline_color
   *
@@ -1785,7 +1785,7 @@ export const outline_emerald_950 = "outline-emerald-950";
  * outline-teal-50
  *
  * CSS:
- * - `outline-color: #f0fdfa;`
+ * - outline-color: #f0fdfa;
   *
   * @see outline_color
   *
@@ -1798,7 +1798,7 @@ export const outline_teal_50 = "outline-teal-50";
  * outline-teal-100
  *
  * CSS:
- * - `outline-color: #ccfbf1;`
+ * - outline-color: #ccfbf1;
   *
   * @see outline_color
   *
@@ -1811,7 +1811,7 @@ export const outline_teal_100 = "outline-teal-100";
  * outline-teal-200
  *
  * CSS:
- * - `outline-color: #99f6e4;`
+ * - outline-color: #99f6e4;
   *
   * @see outline_color
   *
@@ -1824,7 +1824,7 @@ export const outline_teal_200 = "outline-teal-200";
  * outline-teal-300
  *
  * CSS:
- * - `outline-color: #5eead4;`
+ * - outline-color: #5eead4;
   *
   * @see outline_color
   *
@@ -1837,7 +1837,7 @@ export const outline_teal_300 = "outline-teal-300";
  * outline-teal-400
  *
  * CSS:
- * - `outline-color: #2dd4bf;`
+ * - outline-color: #2dd4bf;
   *
   * @see outline_color
   *
@@ -1850,7 +1850,7 @@ export const outline_teal_400 = "outline-teal-400";
  * outline-teal-500
  *
  * CSS:
- * - `outline-color: #14b8a6;`
+ * - outline-color: #14b8a6;
   *
   * @see outline_color
   *
@@ -1863,7 +1863,7 @@ export const outline_teal_500 = "outline-teal-500";
  * outline-teal-600
  *
  * CSS:
- * - `outline-color: #0d9488;`
+ * - outline-color: #0d9488;
   *
   * @see outline_color
   *
@@ -1876,7 +1876,7 @@ export const outline_teal_600 = "outline-teal-600";
  * outline-teal-700
  *
  * CSS:
- * - `outline-color: #0f766e;`
+ * - outline-color: #0f766e;
   *
   * @see outline_color
   *
@@ -1889,7 +1889,7 @@ export const outline_teal_700 = "outline-teal-700";
  * outline-teal-800
  *
  * CSS:
- * - `outline-color: #115e59;`
+ * - outline-color: #115e59;
   *
   * @see outline_color
   *
@@ -1902,7 +1902,7 @@ export const outline_teal_800 = "outline-teal-800";
  * outline-teal-900
  *
  * CSS:
- * - `outline-color: #134e4a;`
+ * - outline-color: #134e4a;
   *
   * @see outline_color
   *
@@ -1915,7 +1915,7 @@ export const outline_teal_900 = "outline-teal-900";
  * outline-teal-950
  *
  * CSS:
- * - `outline-color: #042f2e;`
+ * - outline-color: #042f2e;
   *
   * @see outline_color
   *
@@ -1928,7 +1928,7 @@ export const outline_teal_950 = "outline-teal-950";
  * outline-cyan-50
  *
  * CSS:
- * - `outline-color: #ecfeff;`
+ * - outline-color: #ecfeff;
   *
   * @see outline_color
   *
@@ -1941,7 +1941,7 @@ export const outline_cyan_50 = "outline-cyan-50";
  * outline-cyan-100
  *
  * CSS:
- * - `outline-color: #cffafe;`
+ * - outline-color: #cffafe;
   *
   * @see outline_color
   *
@@ -1954,7 +1954,7 @@ export const outline_cyan_100 = "outline-cyan-100";
  * outline-cyan-200
  *
  * CSS:
- * - `outline-color: #a5f3fc;`
+ * - outline-color: #a5f3fc;
   *
   * @see outline_color
   *
@@ -1967,7 +1967,7 @@ export const outline_cyan_200 = "outline-cyan-200";
  * outline-cyan-300
  *
  * CSS:
- * - `outline-color: #67e8f9;`
+ * - outline-color: #67e8f9;
   *
   * @see outline_color
   *
@@ -1980,7 +1980,7 @@ export const outline_cyan_300 = "outline-cyan-300";
  * outline-cyan-400
  *
  * CSS:
- * - `outline-color: #22d3ee;`
+ * - outline-color: #22d3ee;
   *
   * @see outline_color
   *
@@ -1993,7 +1993,7 @@ export const outline_cyan_400 = "outline-cyan-400";
  * outline-cyan-500
  *
  * CSS:
- * - `outline-color: #06b6d4;`
+ * - outline-color: #06b6d4;
   *
   * @see outline_color
   *
@@ -2006,7 +2006,7 @@ export const outline_cyan_500 = "outline-cyan-500";
  * outline-cyan-600
  *
  * CSS:
- * - `outline-color: #0891b2;`
+ * - outline-color: #0891b2;
   *
   * @see outline_color
   *
@@ -2019,7 +2019,7 @@ export const outline_cyan_600 = "outline-cyan-600";
  * outline-cyan-700
  *
  * CSS:
- * - `outline-color: #0e7490;`
+ * - outline-color: #0e7490;
   *
   * @see outline_color
   *
@@ -2032,7 +2032,7 @@ export const outline_cyan_700 = "outline-cyan-700";
  * outline-cyan-800
  *
  * CSS:
- * - `outline-color: #155e75;`
+ * - outline-color: #155e75;
   *
   * @see outline_color
   *
@@ -2045,7 +2045,7 @@ export const outline_cyan_800 = "outline-cyan-800";
  * outline-cyan-900
  *
  * CSS:
- * - `outline-color: #164e63;`
+ * - outline-color: #164e63;
   *
   * @see outline_color
   *
@@ -2058,7 +2058,7 @@ export const outline_cyan_900 = "outline-cyan-900";
  * outline-cyan-950
  *
  * CSS:
- * - `outline-color: #083344;`
+ * - outline-color: #083344;
   *
   * @see outline_color
   *
@@ -2071,7 +2071,7 @@ export const outline_cyan_950 = "outline-cyan-950";
  * outline-sky-50
  *
  * CSS:
- * - `outline-color: #f0f9ff;`
+ * - outline-color: #f0f9ff;
   *
   * @see outline_color
   *
@@ -2084,7 +2084,7 @@ export const outline_sky_50 = "outline-sky-50";
  * outline-sky-100
  *
  * CSS:
- * - `outline-color: #e0f2fe;`
+ * - outline-color: #e0f2fe;
   *
   * @see outline_color
   *
@@ -2097,7 +2097,7 @@ export const outline_sky_100 = "outline-sky-100";
  * outline-sky-200
  *
  * CSS:
- * - `outline-color: #bae6fd;`
+ * - outline-color: #bae6fd;
   *
   * @see outline_color
   *
@@ -2110,7 +2110,7 @@ export const outline_sky_200 = "outline-sky-200";
  * outline-sky-300
  *
  * CSS:
- * - `outline-color: #7dd3fc;`
+ * - outline-color: #7dd3fc;
   *
   * @see outline_color
   *
@@ -2123,7 +2123,7 @@ export const outline_sky_300 = "outline-sky-300";
  * outline-sky-400
  *
  * CSS:
- * - `outline-color: #38bdf8;`
+ * - outline-color: #38bdf8;
   *
   * @see outline_color
   *
@@ -2136,7 +2136,7 @@ export const outline_sky_400 = "outline-sky-400";
  * outline-sky-500
  *
  * CSS:
- * - `outline-color: #0ea5e9;`
+ * - outline-color: #0ea5e9;
   *
   * @see outline_color
   *
@@ -2149,7 +2149,7 @@ export const outline_sky_500 = "outline-sky-500";
  * outline-sky-600
  *
  * CSS:
- * - `outline-color: #0284c7;`
+ * - outline-color: #0284c7;
   *
   * @see outline_color
   *
@@ -2162,7 +2162,7 @@ export const outline_sky_600 = "outline-sky-600";
  * outline-sky-700
  *
  * CSS:
- * - `outline-color: #0369a1;`
+ * - outline-color: #0369a1;
   *
   * @see outline_color
   *
@@ -2175,7 +2175,7 @@ export const outline_sky_700 = "outline-sky-700";
  * outline-sky-800
  *
  * CSS:
- * - `outline-color: #075985;`
+ * - outline-color: #075985;
   *
   * @see outline_color
   *
@@ -2188,7 +2188,7 @@ export const outline_sky_800 = "outline-sky-800";
  * outline-sky-900
  *
  * CSS:
- * - `outline-color: #0c4a6e;`
+ * - outline-color: #0c4a6e;
   *
   * @see outline_color
   *
@@ -2201,7 +2201,7 @@ export const outline_sky_900 = "outline-sky-900";
  * outline-sky-950
  *
  * CSS:
- * - `outline-color: #082f49;`
+ * - outline-color: #082f49;
   *
   * @see outline_color
   *
@@ -2214,7 +2214,7 @@ export const outline_sky_950 = "outline-sky-950";
  * outline-blue-50
  *
  * CSS:
- * - `outline-color: #eff6ff;`
+ * - outline-color: #eff6ff;
   *
   * @see outline_color
   *
@@ -2227,7 +2227,7 @@ export const outline_blue_50 = "outline-blue-50";
  * outline-blue-100
  *
  * CSS:
- * - `outline-color: #dbeafe;`
+ * - outline-color: #dbeafe;
   *
   * @see outline_color
   *
@@ -2240,7 +2240,7 @@ export const outline_blue_100 = "outline-blue-100";
  * outline-blue-200
  *
  * CSS:
- * - `outline-color: #bfdbfe;`
+ * - outline-color: #bfdbfe;
   *
   * @see outline_color
   *
@@ -2253,7 +2253,7 @@ export const outline_blue_200 = "outline-blue-200";
  * outline-blue-300
  *
  * CSS:
- * - `outline-color: #93c5fd;`
+ * - outline-color: #93c5fd;
   *
   * @see outline_color
   *
@@ -2266,7 +2266,7 @@ export const outline_blue_300 = "outline-blue-300";
  * outline-blue-400
  *
  * CSS:
- * - `outline-color: #60a5fa;`
+ * - outline-color: #60a5fa;
   *
   * @see outline_color
   *
@@ -2279,7 +2279,7 @@ export const outline_blue_400 = "outline-blue-400";
  * outline-blue-500
  *
  * CSS:
- * - `outline-color: #3b82f6;`
+ * - outline-color: #3b82f6;
   *
   * @see outline_color
   *
@@ -2292,7 +2292,7 @@ export const outline_blue_500 = "outline-blue-500";
  * outline-blue-600
  *
  * CSS:
- * - `outline-color: #2563eb;`
+ * - outline-color: #2563eb;
   *
   * @see outline_color
   *
@@ -2305,7 +2305,7 @@ export const outline_blue_600 = "outline-blue-600";
  * outline-blue-700
  *
  * CSS:
- * - `outline-color: #1d4ed8;`
+ * - outline-color: #1d4ed8;
   *
   * @see outline_color
   *
@@ -2318,7 +2318,7 @@ export const outline_blue_700 = "outline-blue-700";
  * outline-blue-800
  *
  * CSS:
- * - `outline-color: #1e40af;`
+ * - outline-color: #1e40af;
   *
   * @see outline_color
   *
@@ -2331,7 +2331,7 @@ export const outline_blue_800 = "outline-blue-800";
  * outline-blue-900
  *
  * CSS:
- * - `outline-color: #1e3a8a;`
+ * - outline-color: #1e3a8a;
   *
   * @see outline_color
   *
@@ -2344,7 +2344,7 @@ export const outline_blue_900 = "outline-blue-900";
  * outline-blue-950
  *
  * CSS:
- * - `outline-color: #172554;`
+ * - outline-color: #172554;
   *
   * @see outline_color
   *
@@ -2357,7 +2357,7 @@ export const outline_blue_950 = "outline-blue-950";
  * outline-indigo-50
  *
  * CSS:
- * - `outline-color: #eef2ff;`
+ * - outline-color: #eef2ff;
   *
   * @see outline_color
   *
@@ -2370,7 +2370,7 @@ export const outline_indigo_50 = "outline-indigo-50";
  * outline-indigo-100
  *
  * CSS:
- * - `outline-color: #e0e7ff;`
+ * - outline-color: #e0e7ff;
   *
   * @see outline_color
   *
@@ -2383,7 +2383,7 @@ export const outline_indigo_100 = "outline-indigo-100";
  * outline-indigo-200
  *
  * CSS:
- * - `outline-color: #c7d2fe;`
+ * - outline-color: #c7d2fe;
   *
   * @see outline_color
   *
@@ -2396,7 +2396,7 @@ export const outline_indigo_200 = "outline-indigo-200";
  * outline-indigo-300
  *
  * CSS:
- * - `outline-color: #a5b4fc;`
+ * - outline-color: #a5b4fc;
   *
   * @see outline_color
   *
@@ -2409,7 +2409,7 @@ export const outline_indigo_300 = "outline-indigo-300";
  * outline-indigo-400
  *
  * CSS:
- * - `outline-color: #818cf8;`
+ * - outline-color: #818cf8;
   *
   * @see outline_color
   *
@@ -2422,7 +2422,7 @@ export const outline_indigo_400 = "outline-indigo-400";
  * outline-indigo-500
  *
  * CSS:
- * - `outline-color: #6366f1;`
+ * - outline-color: #6366f1;
   *
   * @see outline_color
   *
@@ -2435,7 +2435,7 @@ export const outline_indigo_500 = "outline-indigo-500";
  * outline-indigo-600
  *
  * CSS:
- * - `outline-color: #4f46e5;`
+ * - outline-color: #4f46e5;
   *
   * @see outline_color
   *
@@ -2448,7 +2448,7 @@ export const outline_indigo_600 = "outline-indigo-600";
  * outline-indigo-700
  *
  * CSS:
- * - `outline-color: #4338ca;`
+ * - outline-color: #4338ca;
   *
   * @see outline_color
   *
@@ -2461,7 +2461,7 @@ export const outline_indigo_700 = "outline-indigo-700";
  * outline-indigo-800
  *
  * CSS:
- * - `outline-color: #3730a3;`
+ * - outline-color: #3730a3;
   *
   * @see outline_color
   *
@@ -2474,7 +2474,7 @@ export const outline_indigo_800 = "outline-indigo-800";
  * outline-indigo-900
  *
  * CSS:
- * - `outline-color: #312e81;`
+ * - outline-color: #312e81;
   *
   * @see outline_color
   *
@@ -2487,7 +2487,7 @@ export const outline_indigo_900 = "outline-indigo-900";
  * outline-indigo-950
  *
  * CSS:
- * - `outline-color: #1e1b4b;`
+ * - outline-color: #1e1b4b;
   *
   * @see outline_color
   *
@@ -2500,7 +2500,7 @@ export const outline_indigo_950 = "outline-indigo-950";
  * outline-violet-50
  *
  * CSS:
- * - `outline-color: #f5f3ff;`
+ * - outline-color: #f5f3ff;
   *
   * @see outline_color
   *
@@ -2513,7 +2513,7 @@ export const outline_violet_50 = "outline-violet-50";
  * outline-violet-100
  *
  * CSS:
- * - `outline-color: #ede9fe;`
+ * - outline-color: #ede9fe;
   *
   * @see outline_color
   *
@@ -2526,7 +2526,7 @@ export const outline_violet_100 = "outline-violet-100";
  * outline-violet-200
  *
  * CSS:
- * - `outline-color: #ddd6fe;`
+ * - outline-color: #ddd6fe;
   *
   * @see outline_color
   *
@@ -2539,7 +2539,7 @@ export const outline_violet_200 = "outline-violet-200";
  * outline-violet-300
  *
  * CSS:
- * - `outline-color: #c4b5fd;`
+ * - outline-color: #c4b5fd;
   *
   * @see outline_color
   *
@@ -2552,7 +2552,7 @@ export const outline_violet_300 = "outline-violet-300";
  * outline-violet-400
  *
  * CSS:
- * - `outline-color: #a78bfa;`
+ * - outline-color: #a78bfa;
   *
   * @see outline_color
   *
@@ -2565,7 +2565,7 @@ export const outline_violet_400 = "outline-violet-400";
  * outline-violet-500
  *
  * CSS:
- * - `outline-color: #8b5cf6;`
+ * - outline-color: #8b5cf6;
   *
   * @see outline_color
   *
@@ -2578,7 +2578,7 @@ export const outline_violet_500 = "outline-violet-500";
  * outline-violet-600
  *
  * CSS:
- * - `outline-color: #7c3aed;`
+ * - outline-color: #7c3aed;
   *
   * @see outline_color
   *
@@ -2591,7 +2591,7 @@ export const outline_violet_600 = "outline-violet-600";
  * outline-violet-700
  *
  * CSS:
- * - `outline-color: #6d28d9;`
+ * - outline-color: #6d28d9;
   *
   * @see outline_color
   *
@@ -2604,7 +2604,7 @@ export const outline_violet_700 = "outline-violet-700";
  * outline-violet-800
  *
  * CSS:
- * - `outline-color: #5b21b6;`
+ * - outline-color: #5b21b6;
   *
   * @see outline_color
   *
@@ -2617,7 +2617,7 @@ export const outline_violet_800 = "outline-violet-800";
  * outline-violet-900
  *
  * CSS:
- * - `outline-color: #4c1d95;`
+ * - outline-color: #4c1d95;
   *
   * @see outline_color
   *
@@ -2630,7 +2630,7 @@ export const outline_violet_900 = "outline-violet-900";
  * outline-violet-950
  *
  * CSS:
- * - `outline-color: #2e1065;`
+ * - outline-color: #2e1065;
   *
   * @see outline_color
   *
@@ -2643,7 +2643,7 @@ export const outline_violet_950 = "outline-violet-950";
  * outline-purple-50
  *
  * CSS:
- * - `outline-color: #faf5ff;`
+ * - outline-color: #faf5ff;
   *
   * @see outline_color
   *
@@ -2656,7 +2656,7 @@ export const outline_purple_50 = "outline-purple-50";
  * outline-purple-100
  *
  * CSS:
- * - `outline-color: #f3e8ff;`
+ * - outline-color: #f3e8ff;
   *
   * @see outline_color
   *
@@ -2669,7 +2669,7 @@ export const outline_purple_100 = "outline-purple-100";
  * outline-purple-200
  *
  * CSS:
- * - `outline-color: #e9d5ff;`
+ * - outline-color: #e9d5ff;
   *
   * @see outline_color
   *
@@ -2682,7 +2682,7 @@ export const outline_purple_200 = "outline-purple-200";
  * outline-purple-300
  *
  * CSS:
- * - `outline-color: #d8b4fe;`
+ * - outline-color: #d8b4fe;
   *
   * @see outline_color
   *
@@ -2695,7 +2695,7 @@ export const outline_purple_300 = "outline-purple-300";
  * outline-purple-400
  *
  * CSS:
- * - `outline-color: #c084fc;`
+ * - outline-color: #c084fc;
   *
   * @see outline_color
   *
@@ -2708,7 +2708,7 @@ export const outline_purple_400 = "outline-purple-400";
  * outline-purple-500
  *
  * CSS:
- * - `outline-color: #a855f7;`
+ * - outline-color: #a855f7;
   *
   * @see outline_color
   *
@@ -2721,7 +2721,7 @@ export const outline_purple_500 = "outline-purple-500";
  * outline-purple-600
  *
  * CSS:
- * - `outline-color: #9333ea;`
+ * - outline-color: #9333ea;
   *
   * @see outline_color
   *
@@ -2734,7 +2734,7 @@ export const outline_purple_600 = "outline-purple-600";
  * outline-purple-700
  *
  * CSS:
- * - `outline-color: #7e22ce;`
+ * - outline-color: #7e22ce;
   *
   * @see outline_color
   *
@@ -2747,7 +2747,7 @@ export const outline_purple_700 = "outline-purple-700";
  * outline-purple-800
  *
  * CSS:
- * - `outline-color: #6b21a8;`
+ * - outline-color: #6b21a8;
   *
   * @see outline_color
   *
@@ -2760,7 +2760,7 @@ export const outline_purple_800 = "outline-purple-800";
  * outline-purple-900
  *
  * CSS:
- * - `outline-color: #581c87;`
+ * - outline-color: #581c87;
   *
   * @see outline_color
   *
@@ -2773,7 +2773,7 @@ export const outline_purple_900 = "outline-purple-900";
  * outline-purple-950
  *
  * CSS:
- * - `outline-color: #3b0764;`
+ * - outline-color: #3b0764;
   *
   * @see outline_color
   *
@@ -2786,7 +2786,7 @@ export const outline_purple_950 = "outline-purple-950";
  * outline-fuchsia-50
  *
  * CSS:
- * - `outline-color: #fdf4ff;`
+ * - outline-color: #fdf4ff;
   *
   * @see outline_color
   *
@@ -2799,7 +2799,7 @@ export const outline_fuchsia_50 = "outline-fuchsia-50";
  * outline-fuchsia-100
  *
  * CSS:
- * - `outline-color: #fae8ff;`
+ * - outline-color: #fae8ff;
   *
   * @see outline_color
   *
@@ -2812,7 +2812,7 @@ export const outline_fuchsia_100 = "outline-fuchsia-100";
  * outline-fuchsia-200
  *
  * CSS:
- * - `outline-color: #f5d0fe;`
+ * - outline-color: #f5d0fe;
   *
   * @see outline_color
   *
@@ -2825,7 +2825,7 @@ export const outline_fuchsia_200 = "outline-fuchsia-200";
  * outline-fuchsia-300
  *
  * CSS:
- * - `outline-color: #f0abfc;`
+ * - outline-color: #f0abfc;
   *
   * @see outline_color
   *
@@ -2838,7 +2838,7 @@ export const outline_fuchsia_300 = "outline-fuchsia-300";
  * outline-fuchsia-400
  *
  * CSS:
- * - `outline-color: #e879f9;`
+ * - outline-color: #e879f9;
   *
   * @see outline_color
   *
@@ -2851,7 +2851,7 @@ export const outline_fuchsia_400 = "outline-fuchsia-400";
  * outline-fuchsia-500
  *
  * CSS:
- * - `outline-color: #d946ef;`
+ * - outline-color: #d946ef;
   *
   * @see outline_color
   *
@@ -2864,7 +2864,7 @@ export const outline_fuchsia_500 = "outline-fuchsia-500";
  * outline-fuchsia-600
  *
  * CSS:
- * - `outline-color: #c026d3;`
+ * - outline-color: #c026d3;
   *
   * @see outline_color
   *
@@ -2877,7 +2877,7 @@ export const outline_fuchsia_600 = "outline-fuchsia-600";
  * outline-fuchsia-700
  *
  * CSS:
- * - `outline-color: #a21caf;`
+ * - outline-color: #a21caf;
   *
   * @see outline_color
   *
@@ -2890,7 +2890,7 @@ export const outline_fuchsia_700 = "outline-fuchsia-700";
  * outline-fuchsia-800
  *
  * CSS:
- * - `outline-color: #86198f;`
+ * - outline-color: #86198f;
   *
   * @see outline_color
   *
@@ -2903,7 +2903,7 @@ export const outline_fuchsia_800 = "outline-fuchsia-800";
  * outline-fuchsia-900
  *
  * CSS:
- * - `outline-color: #701a75;`
+ * - outline-color: #701a75;
   *
   * @see outline_color
   *
@@ -2916,7 +2916,7 @@ export const outline_fuchsia_900 = "outline-fuchsia-900";
  * outline-fuchsia-950
  *
  * CSS:
- * - `outline-color: #4a044e;`
+ * - outline-color: #4a044e;
   *
   * @see outline_color
   *
@@ -2929,7 +2929,7 @@ export const outline_fuchsia_950 = "outline-fuchsia-950";
  * outline-pink-50
  *
  * CSS:
- * - `outline-color: #fdf2f8;`
+ * - outline-color: #fdf2f8;
   *
   * @see outline_color
   *
@@ -2942,7 +2942,7 @@ export const outline_pink_50 = "outline-pink-50";
  * outline-pink-100
  *
  * CSS:
- * - `outline-color: #fce7f3;`
+ * - outline-color: #fce7f3;
   *
   * @see outline_color
   *
@@ -2955,7 +2955,7 @@ export const outline_pink_100 = "outline-pink-100";
  * outline-pink-200
  *
  * CSS:
- * - `outline-color: #fbcfe8;`
+ * - outline-color: #fbcfe8;
   *
   * @see outline_color
   *
@@ -2968,7 +2968,7 @@ export const outline_pink_200 = "outline-pink-200";
  * outline-pink-300
  *
  * CSS:
- * - `outline-color: #f9a8d4;`
+ * - outline-color: #f9a8d4;
   *
   * @see outline_color
   *
@@ -2981,7 +2981,7 @@ export const outline_pink_300 = "outline-pink-300";
  * outline-pink-400
  *
  * CSS:
- * - `outline-color: #f472b6;`
+ * - outline-color: #f472b6;
   *
   * @see outline_color
   *
@@ -2994,7 +2994,7 @@ export const outline_pink_400 = "outline-pink-400";
  * outline-pink-500
  *
  * CSS:
- * - `outline-color: #ec4899;`
+ * - outline-color: #ec4899;
   *
   * @see outline_color
   *
@@ -3007,7 +3007,7 @@ export const outline_pink_500 = "outline-pink-500";
  * outline-pink-600
  *
  * CSS:
- * - `outline-color: #db2777;`
+ * - outline-color: #db2777;
   *
   * @see outline_color
   *
@@ -3020,7 +3020,7 @@ export const outline_pink_600 = "outline-pink-600";
  * outline-pink-700
  *
  * CSS:
- * - `outline-color: #be185d;`
+ * - outline-color: #be185d;
   *
   * @see outline_color
   *
@@ -3033,7 +3033,7 @@ export const outline_pink_700 = "outline-pink-700";
  * outline-pink-800
  *
  * CSS:
- * - `outline-color: #9d174d;`
+ * - outline-color: #9d174d;
   *
   * @see outline_color
   *
@@ -3046,7 +3046,7 @@ export const outline_pink_800 = "outline-pink-800";
  * outline-pink-900
  *
  * CSS:
- * - `outline-color: #831843;`
+ * - outline-color: #831843;
   *
   * @see outline_color
   *
@@ -3059,7 +3059,7 @@ export const outline_pink_900 = "outline-pink-900";
  * outline-pink-950
  *
  * CSS:
- * - `outline-color: #500724;`
+ * - outline-color: #500724;
   *
   * @see outline_color
   *
@@ -3072,7 +3072,7 @@ export const outline_pink_950 = "outline-pink-950";
  * outline-rose-50
  *
  * CSS:
- * - `outline-color: #fff1f2;`
+ * - outline-color: #fff1f2;
   *
   * @see outline_color
   *
@@ -3085,7 +3085,7 @@ export const outline_rose_50 = "outline-rose-50";
  * outline-rose-100
  *
  * CSS:
- * - `outline-color: #ffe4e6;`
+ * - outline-color: #ffe4e6;
   *
   * @see outline_color
   *
@@ -3098,7 +3098,7 @@ export const outline_rose_100 = "outline-rose-100";
  * outline-rose-200
  *
  * CSS:
- * - `outline-color: #fecdd3;`
+ * - outline-color: #fecdd3;
   *
   * @see outline_color
   *
@@ -3111,7 +3111,7 @@ export const outline_rose_200 = "outline-rose-200";
  * outline-rose-300
  *
  * CSS:
- * - `outline-color: #fda4af;`
+ * - outline-color: #fda4af;
   *
   * @see outline_color
   *
@@ -3124,7 +3124,7 @@ export const outline_rose_300 = "outline-rose-300";
  * outline-rose-400
  *
  * CSS:
- * - `outline-color: #fb7185;`
+ * - outline-color: #fb7185;
   *
   * @see outline_color
   *
@@ -3137,7 +3137,7 @@ export const outline_rose_400 = "outline-rose-400";
  * outline-rose-500
  *
  * CSS:
- * - `outline-color: #f43f5e;`
+ * - outline-color: #f43f5e;
   *
   * @see outline_color
   *
@@ -3150,7 +3150,7 @@ export const outline_rose_500 = "outline-rose-500";
  * outline-rose-600
  *
  * CSS:
- * - `outline-color: #e11d48;`
+ * - outline-color: #e11d48;
   *
   * @see outline_color
   *
@@ -3163,7 +3163,7 @@ export const outline_rose_600 = "outline-rose-600";
  * outline-rose-700
  *
  * CSS:
- * - `outline-color: #be123c;`
+ * - outline-color: #be123c;
   *
   * @see outline_color
   *
@@ -3176,7 +3176,7 @@ export const outline_rose_700 = "outline-rose-700";
  * outline-rose-800
  *
  * CSS:
- * - `outline-color: #9f1239;`
+ * - outline-color: #9f1239;
   *
   * @see outline_color
   *
@@ -3189,7 +3189,7 @@ export const outline_rose_800 = "outline-rose-800";
  * outline-rose-900
  *
  * CSS:
- * - `outline-color: #881337;`
+ * - outline-color: #881337;
   *
   * @see outline_color
   *
@@ -3202,7 +3202,7 @@ export const outline_rose_900 = "outline-rose-900";
  * outline-rose-950
  *
  * CSS:
- * - `outline-color: #4c0519;`
+ * - outline-color: #4c0519;
   *
   * @see outline_color
   *

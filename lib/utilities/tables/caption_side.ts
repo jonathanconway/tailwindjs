@@ -4,7 +4,7 @@
  * caption-top
  *
  * CSS:
- * - `caption-side: top;`
+ * - caption-side: top;
   *
   * @see caption_side
   *
@@ -17,7 +17,7 @@ export const caption_top = "caption-top";
  * caption-bottom
  *
  * CSS:
- * - `caption-side: bottom;`
+ * - caption-side: bottom;
   *
   * @see caption_side
   *

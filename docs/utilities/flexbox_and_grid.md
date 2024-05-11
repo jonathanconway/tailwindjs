@@ -135,7 +135,7 @@ Utilities for controlling how flex items both grow and shrink.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `flex` | [flex](https://tailwindcss.com/docs/flex#arbitrary-values) |
+| `flex_arbitrary`, `flex_arb` | [flex-[…]](https://tailwindcss.com/docs/flex#arbitrary-values) |
 
 
 
@@ -224,7 +224,7 @@ Utilities for controlling the initial size of flex items.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `basis` | [basis](https://tailwindcss.com/docs/flex-basis#arbitrary-values) |
+| `basis_arbitrary`, `basis_arb` | [basis-[…]](https://tailwindcss.com/docs/flex-basis#arbitrary-values) |
 
 
 
@@ -276,7 +276,7 @@ Utilities for controlling how flex items grow.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `grow` | [grow](https://tailwindcss.com/docs/flex-grow#arbitrary-values) |
+| `grow_arbitrary`, `grow_arb` | [grow-[…]](https://tailwindcss.com/docs/flex-grow#arbitrary-values) |
 
 
 
@@ -304,7 +304,7 @@ Utilities for controlling how flex items shrink.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `shrink` | [shrink](https://tailwindcss.com/docs/flex-shrink#arbitrary-values) |
+| `shrink_arbitrary`, `shrink_arb` | [shrink-[…]](https://tailwindcss.com/docs/flex-shrink#arbitrary-values) |
 
 
 
@@ -458,9 +458,9 @@ Utilities for controlling gutters between grid and flexbox items.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `gap` | [gap](https://tailwindcss.com/docs/gap#arbitrary-values) |
-| `gap_x` | [gap-x](https://tailwindcss.com/docs/gap#arbitrary-values) |
-| `gap_y` | [gap-y](https://tailwindcss.com/docs/gap#arbitrary-values) |
+| `gap_arbitrary`, `gap_arb` | [gap-[…]](https://tailwindcss.com/docs/gap#arbitrary-values) |
+| `gap_x_arbitrary`, `gap_x_arb` | [gap-x-[…]](https://tailwindcss.com/docs/gap#arbitrary-values) |
+| `gap_y_arbitrary`, `gap_y_arb` | [gap-y-[…]](https://tailwindcss.com/docs/gap#arbitrary-values) |
 
 
 
@@ -490,7 +490,7 @@ Utilities for controlling the size of implicitly-created grid columns.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `auto_cols` | [auto-cols](https://tailwindcss.com/docs/grid-auto-columns#arbitrary-values) |
+| `auto_cols_arbitrary`, `auto_cols_arb` | [auto-cols-[…]](https://tailwindcss.com/docs/grid-auto-columns#arbitrary-values) |
 
 
 
@@ -545,7 +545,7 @@ Utilities for controlling the size of implicitly-created grid rows.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `auto_rows` | [auto-rows](https://tailwindcss.com/docs/grid-auto-rows#arbitrary-values) |
+| `auto_rows_arbitrary`, `auto_rows_arb` | [auto-rows-[…]](https://tailwindcss.com/docs/grid-auto-rows#arbitrary-values) |
 
 
 
@@ -613,10 +613,10 @@ Utilities for controlling how elements are sized and placed across grid columns.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `col` | [col](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
-| `col_end` | [col-end](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
-| `col_span` | [col-span](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
-| `col_start` | [col-start](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
+| `col_arbitrary`, `col_arb` | [col-[…]](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
+| `col_end_arbitrary`, `col_end_arb` | [col-end-[…]](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
+| `col_span_arbitrary`, `col_span_arb` | [col-span-[…]](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
+| `col_start_arbitrary`, `col_start_arb` | [col-start-[…]](https://tailwindcss.com/docs/grid-column#arbitrary-values) |
 
 
 
@@ -684,10 +684,10 @@ Utilities for controlling how elements are sized and placed across grid rows.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `row` | [row](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
-| `row_end` | [row-end](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
-| `row_span` | [row-span](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
-| `row_start` | [row-start](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
+| `row_arbitrary`, `row_arb` | [row-[…]](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
+| `row_end_arbitrary`, `row_end_arb` | [row-end-[…]](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
+| `row_span_arbitrary`, `row_span_arb` | [row-span-[…]](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
+| `row_start_arbitrary`, `row_start_arb` | [row-start-[…]](https://tailwindcss.com/docs/grid-row#arbitrary-values) |
 
 
 
@@ -727,7 +727,7 @@ Utilities for specifying the columns in a grid layout.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `grid_cols` | [grid-cols](https://tailwindcss.com/docs/grid-template-columns#arbitrary-values) |
+| `grid_cols_arbitrary`, `grid_cols_arb` | [grid-cols-[…]](https://tailwindcss.com/docs/grid-template-columns#arbitrary-values) |
 
 
 
@@ -767,7 +767,7 @@ Utilities for specifying the rows in a grid layout.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `grid_rows` | [grid-rows](https://tailwindcss.com/docs/grid-template-rows#arbitrary-values) |
+| `grid_rows_arbitrary`, `grid_rows_arb` | [grid-rows-[…]](https://tailwindcss.com/docs/grid-template-rows#arbitrary-values) |
 
 
 
@@ -885,7 +885,7 @@ Utilities for controlling the order of flex and grid items.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `order` | [order](https://tailwindcss.com/docs/order#arbitrary-values) |
+| `order_arbitrary`, `order_arb` | [order-[…]](https://tailwindcss.com/docs/order#arbitrary-values) |
 
 
 

@@ -93,7 +93,7 @@ Utilities for setting the height of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `h` | [h](https://tailwindcss.com/docs/height#arbitrary-values) |
+| `h_arbitrary`, `h_arb` | [h-[…]](https://tailwindcss.com/docs/height#arbitrary-values) |
 
 
 
@@ -163,7 +163,7 @@ Utilities for setting the maximum height of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `max_h` | [max-h](https://tailwindcss.com/docs/max-height#arbitrary-values) |
+| `max_h_arbitrary`, `max_h_arb` | [max-h-[…]](https://tailwindcss.com/docs/max-height#arbitrary-values) |
 
 
 
@@ -246,8 +246,8 @@ Utilities for setting the maximum width of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `max_w` | [max-w](https://tailwindcss.com/docs/max-width#arbitrary-values) |
-| `max_w_screen` | [max-w-screen](https://tailwindcss.com/docs/max-width#arbitrary-values) |
+| `max_w_arbitrary`, `max_w_arb` | [max-w-[…]](https://tailwindcss.com/docs/max-width#arbitrary-values) |
+| `max_w_screen_arbitrary`, `max_w_screen_arb` | [max-w-screen-[…]](https://tailwindcss.com/docs/max-width#arbitrary-values) |
 
 
 
@@ -316,7 +316,7 @@ Utilities for setting the minimum height of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `min_h` | [min-h](https://tailwindcss.com/docs/min-height#arbitrary-values) |
+| `min_h_arbitrary`, `min_h_arb` | [min-h-[…]](https://tailwindcss.com/docs/min-height#arbitrary-values) |
 
 
 
@@ -381,7 +381,7 @@ Utilities for setting the minimum width of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `min_w` | [min-w](https://tailwindcss.com/docs/min-width#arbitrary-values) |
+| `min_w_arbitrary`, `min_w_arb` | [min-w-[…]](https://tailwindcss.com/docs/min-width#arbitrary-values) |
 
 
 
@@ -473,7 +473,7 @@ Utilities for setting the width and height of an element at the same time.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `size` | [size](https://tailwindcss.com/docs/size#arbitrary-values) |
+| `size_arbitrary`, `size_arb` | [size-[…]](https://tailwindcss.com/docs/size#arbitrary-values) |
 
 
 
@@ -569,6 +569,6 @@ Utilities for setting the width of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `w` | [w](https://tailwindcss.com/docs/width#arbitrary-values) |
+| `w_arbitrary`, `w_arb` | [w-[…]](https://tailwindcss.com/docs/width#arbitrary-values) |
 
 

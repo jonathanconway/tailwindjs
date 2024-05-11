@@ -4,7 +4,7 @@
  * normal-nums
  *
  * CSS:
- * - `font-variant-numeric: normal;`
+ * - font-variant-numeric: normal;
   *
   * @see font_variant_numeric
   *
@@ -17,7 +17,7 @@ export const normal_nums = "normal-nums";
  * ordinal
  *
  * CSS:
- * - `font-variant-numeric: ordinal;`
+ * - font-variant-numeric: ordinal;
   *
   * @see font_variant_numeric
   *
@@ -30,7 +30,7 @@ export const ordinal = "ordinal";
  * slashed-zero
  *
  * CSS:
- * - `font-variant-numeric: slashed-zero;`
+ * - font-variant-numeric: slashed-zero;
   *
   * @see font_variant_numeric
   *
@@ -43,7 +43,7 @@ export const slashed_zero = "slashed-zero";
  * lining-nums
  *
  * CSS:
- * - `font-variant-numeric: lining-nums;`
+ * - font-variant-numeric: lining-nums;
   *
   * @see font_variant_numeric
   *
@@ -56,7 +56,7 @@ export const lining_nums = "lining-nums";
  * oldstyle-nums
  *
  * CSS:
- * - `font-variant-numeric: oldstyle-nums;`
+ * - font-variant-numeric: oldstyle-nums;
   *
   * @see font_variant_numeric
   *
@@ -69,7 +69,7 @@ export const oldstyle_nums = "oldstyle-nums";
  * proportional-nums
  *
  * CSS:
- * - `font-variant-numeric: proportional-nums;`
+ * - font-variant-numeric: proportional-nums;
   *
   * @see font_variant_numeric
   *
@@ -82,7 +82,7 @@ export const proportional_nums = "proportional-nums";
  * tabular-nums
  *
  * CSS:
- * - `font-variant-numeric: tabular-nums;`
+ * - font-variant-numeric: tabular-nums;
   *
   * @see font_variant_numeric
   *
@@ -95,7 +95,7 @@ export const tabular_nums = "tabular-nums";
  * diagonal-fractions
  *
  * CSS:
- * - `font-variant-numeric: diagonal-fractions;`
+ * - font-variant-numeric: diagonal-fractions;
   *
   * @see font_variant_numeric
   *
@@ -108,7 +108,7 @@ export const diagonal_fractions = "diagonal-fractions";
  * stacked-fractions
  *
  * CSS:
- * - `font-variant-numeric: stacked-fractions;`
+ * - font-variant-numeric: stacked-fractions;
   *
   * @see font_variant_numeric
   *

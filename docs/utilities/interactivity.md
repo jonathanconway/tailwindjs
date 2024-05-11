@@ -290,29 +290,29 @@ Utilities for controlling the accented color of a form control.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `accent` | [accent](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_amber` | [accent-amber](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_blue` | [accent-blue](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_cyan` | [accent-cyan](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_emerald` | [accent-emerald](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_fuchsia` | [accent-fuchsia](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_gray` | [accent-gray](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_green` | [accent-green](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_indigo` | [accent-indigo](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_lime` | [accent-lime](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_neutral` | [accent-neutral](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_orange` | [accent-orange](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_pink` | [accent-pink](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_purple` | [accent-purple](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_red` | [accent-red](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_rose` | [accent-rose](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_sky` | [accent-sky](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_slate` | [accent-slate](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_stone` | [accent-stone](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_teal` | [accent-teal](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_violet` | [accent-violet](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_yellow` | [accent-yellow](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
-| `accent_zinc` | [accent-zinc](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_arbitrary`, `accent_arb` | [accent-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_amber_arbitrary`, `accent_amber_arb` | [accent-amber-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_blue_arbitrary`, `accent_blue_arb` | [accent-blue-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_cyan_arbitrary`, `accent_cyan_arb` | [accent-cyan-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_emerald_arbitrary`, `accent_emerald_arb` | [accent-emerald-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_fuchsia_arbitrary`, `accent_fuchsia_arb` | [accent-fuchsia-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_gray_arbitrary`, `accent_gray_arb` | [accent-gray-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_green_arbitrary`, `accent_green_arb` | [accent-green-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_indigo_arbitrary`, `accent_indigo_arb` | [accent-indigo-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_lime_arbitrary`, `accent_lime_arb` | [accent-lime-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_neutral_arbitrary`, `accent_neutral_arb` | [accent-neutral-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_orange_arbitrary`, `accent_orange_arb` | [accent-orange-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_pink_arbitrary`, `accent_pink_arb` | [accent-pink-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_purple_arbitrary`, `accent_purple_arb` | [accent-purple-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_red_arbitrary`, `accent_red_arb` | [accent-red-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_rose_arbitrary`, `accent_rose_arb` | [accent-rose-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_sky_arbitrary`, `accent_sky_arb` | [accent-sky-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_slate_arbitrary`, `accent_slate_arb` | [accent-slate-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_stone_arbitrary`, `accent_stone_arb` | [accent-stone-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_teal_arbitrary`, `accent_teal_arb` | [accent-teal-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_violet_arbitrary`, `accent_violet_arb` | [accent-violet-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_yellow_arbitrary`, `accent_yellow_arb` | [accent-yellow-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
+| `accent_zinc_arbitrary`, `accent_zinc_arb` | [accent-zinc-[…]](https://tailwindcss.com/docs/accent-color#arbitrary-values) |
 
 
 
@@ -607,29 +607,29 @@ Utilities for controlling the color of the text input cursor.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `caret` | [caret](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_amber` | [caret-amber](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_blue` | [caret-blue](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_cyan` | [caret-cyan](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_emerald` | [caret-emerald](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_fuchsia` | [caret-fuchsia](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_gray` | [caret-gray](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_green` | [caret-green](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_indigo` | [caret-indigo](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_lime` | [caret-lime](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_neutral` | [caret-neutral](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_orange` | [caret-orange](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_pink` | [caret-pink](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_purple` | [caret-purple](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_red` | [caret-red](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_rose` | [caret-rose](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_sky` | [caret-sky](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_slate` | [caret-slate](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_stone` | [caret-stone](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_teal` | [caret-teal](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_violet` | [caret-violet](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_yellow` | [caret-yellow](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
-| `caret_zinc` | [caret-zinc](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_arbitrary`, `caret_arb` | [caret-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_amber_arbitrary`, `caret_amber_arb` | [caret-amber-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_blue_arbitrary`, `caret_blue_arb` | [caret-blue-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_cyan_arbitrary`, `caret_cyan_arb` | [caret-cyan-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_emerald_arbitrary`, `caret_emerald_arb` | [caret-emerald-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_fuchsia_arbitrary`, `caret_fuchsia_arb` | [caret-fuchsia-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_gray_arbitrary`, `caret_gray_arb` | [caret-gray-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_green_arbitrary`, `caret_green_arb` | [caret-green-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_indigo_arbitrary`, `caret_indigo_arb` | [caret-indigo-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_lime_arbitrary`, `caret_lime_arb` | [caret-lime-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_neutral_arbitrary`, `caret_neutral_arb` | [caret-neutral-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_orange_arbitrary`, `caret_orange_arb` | [caret-orange-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_pink_arbitrary`, `caret_pink_arb` | [caret-pink-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_purple_arbitrary`, `caret_purple_arb` | [caret-purple-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_red_arbitrary`, `caret_red_arb` | [caret-red-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_rose_arbitrary`, `caret_rose_arb` | [caret-rose-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_sky_arbitrary`, `caret_sky_arb` | [caret-sky-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_slate_arbitrary`, `caret_slate_arb` | [caret-slate-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_stone_arbitrary`, `caret_stone_arb` | [caret-stone-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_teal_arbitrary`, `caret_teal_arb` | [caret-teal-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_violet_arbitrary`, `caret_violet_arb` | [caret-violet-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_yellow_arbitrary`, `caret_yellow_arb` | [caret-yellow-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
+| `caret_zinc_arbitrary`, `caret_zinc_arb` | [caret-zinc-[…]](https://tailwindcss.com/docs/caret-color#arbitrary-values) |
 
 
 
@@ -691,27 +691,27 @@ Utilities for controlling the cursor style when hovering over an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `cursor` | [cursor](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_all` | [cursor-all](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_col` | [cursor-col](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_context` | [cursor-context](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_e` | [cursor-e](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_ew` | [cursor-ew](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_n` | [cursor-n](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_ne` | [cursor-ne](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_nesw` | [cursor-nesw](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_no` | [cursor-no](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_not` | [cursor-not](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_ns` | [cursor-ns](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_nw` | [cursor-nw](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_nwse` | [cursor-nwse](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_row` | [cursor-row](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_s` | [cursor-s](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_se` | [cursor-se](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_sw` | [cursor-sw](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_vertical` | [cursor-vertical](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_w` | [cursor-w](https://tailwindcss.com/docs/cursor#arbitrary-values) |
-| `cursor_zoom` | [cursor-zoom](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_arbitrary`, `cursor_arb` | [cursor-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_all_arbitrary`, `cursor_all_arb` | [cursor-all-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_col_arbitrary`, `cursor_col_arb` | [cursor-col-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_context_arbitrary`, `cursor_context_arb` | [cursor-context-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_e_arbitrary`, `cursor_e_arb` | [cursor-e-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_ew_arbitrary`, `cursor_ew_arb` | [cursor-ew-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_n_arbitrary`, `cursor_n_arb` | [cursor-n-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_ne_arbitrary`, `cursor_ne_arb` | [cursor-ne-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_nesw_arbitrary`, `cursor_nesw_arb` | [cursor-nesw-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_no_arbitrary`, `cursor_no_arb` | [cursor-no-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_not_arbitrary`, `cursor_not_arb` | [cursor-not-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_ns_arbitrary`, `cursor_ns_arb` | [cursor-ns-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_nw_arbitrary`, `cursor_nw_arb` | [cursor-nw-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_nwse_arbitrary`, `cursor_nwse_arb` | [cursor-nwse-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_row_arbitrary`, `cursor_row_arb` | [cursor-row-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_s_arbitrary`, `cursor_s_arb` | [cursor-s-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_se_arbitrary`, `cursor_se_arb` | [cursor-se-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_sw_arbitrary`, `cursor_sw_arb` | [cursor-sw-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_vertical_arbitrary`, `cursor_vertical_arb` | [cursor-vertical-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_w_arbitrary`, `cursor_w_arb` | [cursor-w-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
+| `cursor_zoom_arbitrary`, `cursor_zoom_arb` | [cursor-zoom-[…]](https://tailwindcss.com/docs/cursor#arbitrary-values) |
 
 
 
@@ -1120,15 +1120,15 @@ Utilities for controlling the scroll offset around items in a snap container.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `scroll_m` | [scroll-m](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_mb` | [scroll-mb](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_me` | [scroll-me](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_ml` | [scroll-ml](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_mr` | [scroll-mr](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_ms` | [scroll-ms](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_mt` | [scroll-mt](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_mx` | [scroll-mx](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
-| `scroll_my` | [scroll-my](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_m_arbitrary`, `scroll_m_arb` | [scroll-m-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_mb_arbitrary`, `scroll_mb_arb` | [scroll-mb-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_me_arbitrary`, `scroll_me_arb` | [scroll-me-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_ml_arbitrary`, `scroll_ml_arb` | [scroll-ml-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_mr_arbitrary`, `scroll_mr_arb` | [scroll-mr-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_ms_arbitrary`, `scroll_ms_arb` | [scroll-ms-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_mt_arbitrary`, `scroll_mt_arb` | [scroll-mt-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_mx_arbitrary`, `scroll_mx_arb` | [scroll-mx-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
+| `scroll_my_arbitrary`, `scroll_my_arb` | [scroll-my-[…]](https://tailwindcss.com/docs/scroll-margin#arbitrary-values) |
 
 
 
@@ -1469,15 +1469,15 @@ Utilities for controlling an element's scroll offset within a snap container.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `scroll_p` | [scroll-p](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_pb` | [scroll-pb](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_pe` | [scroll-pe](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_pl` | [scroll-pl](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_pr` | [scroll-pr](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_ps` | [scroll-ps](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_pt` | [scroll-pt](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_px` | [scroll-px](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
-| `scroll_py` | [scroll-py](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_p_arbitrary`, `scroll_p_arb` | [scroll-p-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_pb_arbitrary`, `scroll_pb_arb` | [scroll-pb-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_pe_arbitrary`, `scroll_pe_arb` | [scroll-pe-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_pl_arbitrary`, `scroll_pl_arb` | [scroll-pl-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_pr_arbitrary`, `scroll_pr_arb` | [scroll-pr-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_ps_arbitrary`, `scroll_ps_arb` | [scroll-ps-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_pt_arbitrary`, `scroll_pt_arb` | [scroll-pt-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_px_arbitrary`, `scroll_px_arb` | [scroll-px-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
+| `scroll_py_arbitrary`, `scroll_py_arb` | [scroll-py-[…]](https://tailwindcss.com/docs/scroll-padding#arbitrary-values) |
 
 
 
@@ -1633,6 +1633,6 @@ Utilities for optimizing upcoming animations of elements that are expected to ch
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `will_change` | [will-change](https://tailwindcss.com/docs/will-change#arbitrary-values) |
+| `will_change_arbitrary`, `will_change_arb` | [will-change-[…]](https://tailwindcss.com/docs/will-change#arbitrary-values) |
 
 

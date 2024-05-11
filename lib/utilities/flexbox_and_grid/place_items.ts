@@ -4,7 +4,7 @@
  * place-items-start
  *
  * CSS:
- * - `place-items: start;`
+ * - place-items: start;
   *
   * @see place_items
   *
@@ -17,7 +17,7 @@ export const place_items_start = "place-items-start";
  * place-items-end
  *
  * CSS:
- * - `place-items: end;`
+ * - place-items: end;
   *
   * @see place_items
   *
@@ -30,7 +30,7 @@ export const place_items_end = "place-items-end";
  * place-items-center
  *
  * CSS:
- * - `place-items: center;`
+ * - place-items: center;
   *
   * @see place_items
   *
@@ -43,7 +43,7 @@ export const place_items_center = "place-items-center";
  * place-items-baseline
  *
  * CSS:
- * - `place-items: baseline;`
+ * - place-items: baseline;
   *
   * @see place_items
   *
@@ -56,7 +56,7 @@ export const place_items_baseline = "place-items-baseline";
  * place-items-stretch
  *
  * CSS:
- * - `place-items: stretch;`
+ * - place-items: stretch;
   *
   * @see place_items
   *

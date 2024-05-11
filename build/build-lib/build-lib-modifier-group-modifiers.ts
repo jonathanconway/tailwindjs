@@ -14,7 +14,7 @@ export function genLibModifier({
  * 
 ${description.trim() ? ` * ${prepareDescription(description)}\n *` : ""}
  * CSS:
- * - \`${prepareComment(cssCode)}\`
+ * - ${prepareComment(cssCode)}
  *
  * @param suffix Utility to modify
  * 

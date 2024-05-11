@@ -6,7 +6,7 @@
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-checked=“true”]`
+ * - &[aria-checked=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -23,7 +23,7 @@ export const aria_checked = (suffix: string) => `aria-checked:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-disabled=“true”]`
+ * - &[aria-disabled=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -40,7 +40,7 @@ export const aria_disabled = (suffix: string) => `aria-disabled:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-expanded=“true”]`
+ * - &[aria-expanded=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -57,7 +57,7 @@ export const aria_expanded = (suffix: string) => `aria-expanded:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-hidden=“true”]`
+ * - &[aria-hidden=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -74,7 +74,7 @@ export const aria_hidden = (suffix: string) => `aria-hidden:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-pressed=“true”]`
+ * - &[aria-pressed=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -91,7 +91,7 @@ export const aria_pressed = (suffix: string) => `aria-pressed:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-readonly=“true”]`
+ * - &[aria-readonly=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -108,7 +108,7 @@ export const aria_readonly = (suffix: string) => `aria-readonly:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-required=“true”]`
+ * - &[aria-required=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -125,7 +125,7 @@ export const aria_required = (suffix: string) => `aria-required:${suffix}`;
  * Use the aria-* modifier to conditionally style things based on ARIA attributes.
  *
  * CSS:
- * - `&[aria-selected=“true”]`
+ * - &[aria-selected=“true”]
  *
  * @param suffix Utility to modify
  * 
@@ -142,7 +142,7 @@ export const aria_selected = (suffix: string) => `aria-selected:${suffix}`;
  * Use the rtl and ltr modifiers to conditionally add styles in right-to-left and left-to-right modes respectively when building multi-directional layouts.
  *
  * CSS:
- * - `[dir=“rtl”] &`
+ * - [dir=“rtl”] &
  *
  * @param suffix Utility to modify
  * 
@@ -159,7 +159,7 @@ export const rtl = (suffix: string) => `rtl:${suffix}`;
  * Use the rtl and ltr modifiers to conditionally add styles in right-to-left and left-to-right modes respectively when building multi-directional layouts.
  *
  * CSS:
- * - `[dir=“ltr”] &`
+ * - [dir=“ltr”] &
  *
  * @param suffix Utility to modify
  * 
@@ -176,7 +176,7 @@ export const ltr = (suffix: string) => `ltr:${suffix}`;
  * Use the open modifier to conditionally add styles when a <details> or <dialog> element is in an open state.
  *
  * CSS:
- * - `&[open]`
+ * - &[open]
  *
  * @param suffix Utility to modify
  * 

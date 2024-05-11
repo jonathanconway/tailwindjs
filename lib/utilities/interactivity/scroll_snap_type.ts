@@ -4,7 +4,7 @@
  * snap-none
  *
  * CSS:
- * - `scroll-snap-type: none;`
+ * - scroll-snap-type: none;
   *
   * @see scroll_snap_type
   *
@@ -17,7 +17,7 @@ export const snap_none = "snap-none";
  * snap-x
  *
  * CSS:
- * - `scroll-snap-type: x var(--tw-scroll-snap-strictness);`
+ * - scroll-snap-type: x var(--tw-scroll-snap-strictness);
   *
   * @see scroll_snap_type
   *
@@ -30,7 +30,7 @@ export const snap_x = "snap-x";
  * snap-y
  *
  * CSS:
- * - `scroll-snap-type: y var(--tw-scroll-snap-strictness);`
+ * - scroll-snap-type: y var(--tw-scroll-snap-strictness);
   *
   * @see scroll_snap_type
   *
@@ -43,7 +43,7 @@ export const snap_y = "snap-y";
  * snap-both
  *
  * CSS:
- * - `scroll-snap-type: both var(--tw-scroll-snap-strictness);`
+ * - scroll-snap-type: both var(--tw-scroll-snap-strictness);
   *
   * @see scroll_snap_type
   *
@@ -56,7 +56,7 @@ export const snap_both = "snap-both";
  * snap-mandatory
  *
  * CSS:
- * - `--tw-scroll-snap-strictness: mandatory;`
+ * - --tw-scroll-snap-strictness: mandatory;
   *
   * @see scroll_snap_type
   *
@@ -69,7 +69,7 @@ export const snap_mandatory = "snap-mandatory";
  * snap-proximity
  *
  * CSS:
- * - `--tw-scroll-snap-strictness: proximity;`
+ * - --tw-scroll-snap-strictness: proximity;
   *
   * @see scroll_snap_type
   *

@@ -3,6 +3,7 @@ import { writeFileSync } from "fs";
 import { Definition, ModifierGroup } from "../parse-tailwindcss-pages";
 import {
   convertCodeNameToTitle,
+  genMdArbitrariesTable,
   genMdBlock,
   genMdPrimitivesTable,
   genMdTable,
@@ -54,7 +55,7 @@ function genDocsModifiersAreaGroupModifiersBlock(group: ModifierGroup) {
 }
 
 function genDocsModifiersAreaGroupArbitrariesBlock(group: ModifierGroup) {
-  const arbitrariesCode = genMdPrimitivesTable(group.arbitraries);
+  const arbitrariesCode = genMdArbitrariesTable(group.arbitraries);
 
   return genMdBlock("Arbitraries", arbitrariesCode);
 }

@@ -4,9 +4,9 @@
  * truncate
  *
  * CSS:
- * - `overflow: hidden;`
- * - `text-overflow: ellipsis;`
- * - `white-space: nowrap;`
+ * - overflow: hidden;
+ * - text-overflow: ellipsis;
+ * - white-space: nowrap;
   *
   * @see text_overflow
   *
@@ -19,7 +19,7 @@ export const truncate = "truncate";
  * text-ellipsis
  *
  * CSS:
- * - `text-overflow: ellipsis;`
+ * - text-overflow: ellipsis;
   *
   * @see text_overflow
   *
@@ -32,7 +32,7 @@ export const text_ellipsis = "text-ellipsis";
  * text-clip
  *
  * CSS:
- * - `text-overflow: clip;`
+ * - text-overflow: clip;
   *
   * @see text_overflow
   *

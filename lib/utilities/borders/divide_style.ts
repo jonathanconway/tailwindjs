@@ -4,7 +4,7 @@
  * divide-solid
  *
  * CSS:
- * - `border-style: solid;`
+ * - border-style: solid;
   *
   * @see divide_style
   *
@@ -17,7 +17,7 @@ export const divide_solid = "divide-solid";
  * divide-dashed
  *
  * CSS:
- * - `border-style: dashed;`
+ * - border-style: dashed;
   *
   * @see divide_style
   *
@@ -30,7 +30,7 @@ export const divide_dashed = "divide-dashed";
  * divide-dotted
  *
  * CSS:
- * - `border-style: dotted;`
+ * - border-style: dotted;
   *
   * @see divide_style
   *
@@ -43,7 +43,7 @@ export const divide_dotted = "divide-dotted";
  * divide-double
  *
  * CSS:
- * - `border-style: double;`
+ * - border-style: double;
   *
   * @see divide_style
   *
@@ -56,7 +56,7 @@ export const divide_double = "divide-double";
  * divide-none
  *
  * CSS:
- * - `border-style: none;`
+ * - border-style: none;
   *
   * @see divide_style
   *

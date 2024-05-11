@@ -4,7 +4,7 @@
  * float-start
  *
  * CSS:
- * - `float: inline-start;`
+ * - float: inline-start;
   *
   * @see floats
   *
@@ -17,7 +17,7 @@ export const float_start = "float-start";
  * float-end
  *
  * CSS:
- * - `float: inline-end;`
+ * - float: inline-end;
   *
   * @see floats
   *
@@ -30,7 +30,7 @@ export const float_end = "float-end";
  * float-right
  *
  * CSS:
- * - `float: right;`
+ * - float: right;
   *
   * @see floats
   *
@@ -43,7 +43,7 @@ export const float_right = "float-right";
  * float-left
  *
  * CSS:
- * - `float: left;`
+ * - float: left;
   *
   * @see floats
   *
@@ -56,7 +56,7 @@ export const float_left = "float-left";
  * float-none
  *
  * CSS:
- * - `float: none;`
+ * - float: none;
   *
   * @see floats
   *

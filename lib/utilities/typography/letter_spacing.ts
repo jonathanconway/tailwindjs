@@ -4,7 +4,7 @@
  * tracking-tighter
  *
  * CSS:
- * - `letter-spacing: -0.05em;`
+ * - letter-spacing: -0.05em;
   *
   * @see letter_spacing
   *
@@ -17,7 +17,7 @@ export const tracking_tighter = "tracking-tighter";
  * tracking-tight
  *
  * CSS:
- * - `letter-spacing: -0.025em;`
+ * - letter-spacing: -0.025em;
   *
   * @see letter_spacing
   *
@@ -30,7 +30,7 @@ export const tracking_tight = "tracking-tight";
  * tracking-normal
  *
  * CSS:
- * - `letter-spacing: 0em;`
+ * - letter-spacing: 0em;
   *
   * @see letter_spacing
   *
@@ -43,7 +43,7 @@ export const tracking_normal = "tracking-normal";
  * tracking-wide
  *
  * CSS:
- * - `letter-spacing: 0.025em;`
+ * - letter-spacing: 0.025em;
   *
   * @see letter_spacing
   *
@@ -56,7 +56,7 @@ export const tracking_wide = "tracking-wide";
  * tracking-wider
  *
  * CSS:
- * - `letter-spacing: 0.05em;`
+ * - letter-spacing: 0.05em;
   *
   * @see letter_spacing
   *
@@ -69,7 +69,7 @@ export const tracking_wider = "tracking-wider";
  * tracking-widest
  *
  * CSS:
- * - `letter-spacing: 0.1em;`
+ * - letter-spacing: 0.1em;
   *
   * @see letter_spacing
   *

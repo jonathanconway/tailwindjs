@@ -4,7 +4,7 @@
  * isolate
  *
  * CSS:
- * - `isolation: isolate;`
+ * - isolation: isolate;
   *
   * @see isolation
   *
@@ -17,7 +17,7 @@ export const isolate = "isolate";
  * isolation-auto
  *
  * CSS:
- * - `isolation: auto;`
+ * - isolation: auto;
   *
   * @see isolation
   *

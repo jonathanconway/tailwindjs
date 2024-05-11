@@ -4,8 +4,8 @@
  * break-normal
  *
  * CSS:
- * - `overflow-wrap: normal;`
- * - `word-break: normal;`
+ * - overflow-wrap: normal;
+ * - word-break: normal;
   *
   * @see word_break
   *
@@ -18,7 +18,7 @@ export const break_normal = "break-normal";
  * break-words
  *
  * CSS:
- * - `overflow-wrap: break-word;`
+ * - overflow-wrap: break-word;
   *
   * @see word_break
   *
@@ -31,7 +31,7 @@ export const break_words = "break-words";
  * break-all
  *
  * CSS:
- * - `word-break: break-all;`
+ * - word-break: break-all;
   *
   * @see word_break
   *
@@ -44,7 +44,7 @@ export const break_all = "break-all";
  * break-keep
  *
  * CSS:
- * - `word-break: keep-all;`
+ * - word-break: keep-all;
   *
   * @see word_break
   *

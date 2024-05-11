@@ -4,7 +4,7 @@
  * order-1
  *
  * CSS:
- * - `order: 1;`
+ * - order: 1;
   *
   * @see order
   *
@@ -17,7 +17,7 @@ export const order_1 = "order-1";
  * order-2
  *
  * CSS:
- * - `order: 2;`
+ * - order: 2;
   *
   * @see order
   *
@@ -30,7 +30,7 @@ export const order_2 = "order-2";
  * order-3
  *
  * CSS:
- * - `order: 3;`
+ * - order: 3;
   *
   * @see order
   *
@@ -43,7 +43,7 @@ export const order_3 = "order-3";
  * order-4
  *
  * CSS:
- * - `order: 4;`
+ * - order: 4;
   *
   * @see order
   *
@@ -56,7 +56,7 @@ export const order_4 = "order-4";
  * order-5
  *
  * CSS:
- * - `order: 5;`
+ * - order: 5;
   *
   * @see order
   *
@@ -69,7 +69,7 @@ export const order_5 = "order-5";
  * order-6
  *
  * CSS:
- * - `order: 6;`
+ * - order: 6;
   *
   * @see order
   *
@@ -82,7 +82,7 @@ export const order_6 = "order-6";
  * order-7
  *
  * CSS:
- * - `order: 7;`
+ * - order: 7;
   *
   * @see order
   *
@@ -95,7 +95,7 @@ export const order_7 = "order-7";
  * order-8
  *
  * CSS:
- * - `order: 8;`
+ * - order: 8;
   *
   * @see order
   *
@@ -108,7 +108,7 @@ export const order_8 = "order-8";
  * order-9
  *
  * CSS:
- * - `order: 9;`
+ * - order: 9;
   *
   * @see order
   *
@@ -121,7 +121,7 @@ export const order_9 = "order-9";
  * order-10
  *
  * CSS:
- * - `order: 10;`
+ * - order: 10;
   *
   * @see order
   *
@@ -134,7 +134,7 @@ export const order_10 = "order-10";
  * order-11
  *
  * CSS:
- * - `order: 11;`
+ * - order: 11;
   *
   * @see order
   *
@@ -147,7 +147,7 @@ export const order_11 = "order-11";
  * order-12
  *
  * CSS:
- * - `order: 12;`
+ * - order: 12;
   *
   * @see order
   *
@@ -160,7 +160,7 @@ export const order_12 = "order-12";
  * order-first
  *
  * CSS:
- * - `order: -9999;`
+ * - order: -9999;
   *
   * @see order
   *
@@ -173,7 +173,7 @@ export const order_first = "order-first";
  * order-last
  *
  * CSS:
- * - `order: 9999;`
+ * - order: 9999;
   *
   * @see order
   *
@@ -186,7 +186,7 @@ export const order_last = "order-last";
  * order-none
  *
  * CSS:
- * - `order: 0;`
+ * - order: 0;
   *
   * @see order
   *

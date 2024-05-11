@@ -4,7 +4,7 @@
  * shadow-inherit
  *
  * CSS:
- * - `--tw-shadow-color: inherit;`
+ * - --tw-shadow-color: inherit;
   *
   * @see box_shadow_color
   *
@@ -17,7 +17,7 @@ export const shadow_inherit = "shadow-inherit";
  * shadow-current
  *
  * CSS:
- * - `--tw-shadow-color: currentColor;`
+ * - --tw-shadow-color: currentColor;
   *
   * @see box_shadow_color
   *
@@ -30,7 +30,7 @@ export const shadow_current = "shadow-current";
  * shadow-transparent
  *
  * CSS:
- * - `--tw-shadow-color: transparent;`
+ * - --tw-shadow-color: transparent;
   *
   * @see box_shadow_color
   *
@@ -43,7 +43,7 @@ export const shadow_transparent = "shadow-transparent";
  * shadow-black
  *
  * CSS:
- * - `--tw-shadow-color: #000;`
+ * - --tw-shadow-color: #000;
   *
   * @see box_shadow_color
   *
@@ -56,7 +56,7 @@ export const shadow_black = "shadow-black";
  * shadow-white
  *
  * CSS:
- * - `--tw-shadow-color: #fff;`
+ * - --tw-shadow-color: #fff;
   *
   * @see box_shadow_color
   *
@@ -69,7 +69,7 @@ export const shadow_white = "shadow-white";
  * shadow-slate-50
  *
  * CSS:
- * - `--tw-shadow-color: #f8fafc;`
+ * - --tw-shadow-color: #f8fafc;
   *
   * @see box_shadow_color
   *
@@ -82,7 +82,7 @@ export const shadow_slate_50 = "shadow-slate-50";
  * shadow-slate-100
  *
  * CSS:
- * - `--tw-shadow-color: #f1f5f9;`
+ * - --tw-shadow-color: #f1f5f9;
   *
   * @see box_shadow_color
   *
@@ -95,7 +95,7 @@ export const shadow_slate_100 = "shadow-slate-100";
  * shadow-slate-200
  *
  * CSS:
- * - `--tw-shadow-color: #e2e8f0;`
+ * - --tw-shadow-color: #e2e8f0;
   *
   * @see box_shadow_color
   *
@@ -108,7 +108,7 @@ export const shadow_slate_200 = "shadow-slate-200";
  * shadow-slate-300
  *
  * CSS:
- * - `--tw-shadow-color: #cbd5e1;`
+ * - --tw-shadow-color: #cbd5e1;
   *
   * @see box_shadow_color
   *
@@ -121,7 +121,7 @@ export const shadow_slate_300 = "shadow-slate-300";
  * shadow-slate-400
  *
  * CSS:
- * - `--tw-shadow-color: #94a3b8;`
+ * - --tw-shadow-color: #94a3b8;
   *
   * @see box_shadow_color
   *
@@ -134,7 +134,7 @@ export const shadow_slate_400 = "shadow-slate-400";
  * shadow-slate-500
  *
  * CSS:
- * - `--tw-shadow-color: #64748b;`
+ * - --tw-shadow-color: #64748b;
   *
   * @see box_shadow_color
   *
@@ -147,7 +147,7 @@ export const shadow_slate_500 = "shadow-slate-500";
  * shadow-slate-600
  *
  * CSS:
- * - `--tw-shadow-color: #475569;`
+ * - --tw-shadow-color: #475569;
   *
   * @see box_shadow_color
   *
@@ -160,7 +160,7 @@ export const shadow_slate_600 = "shadow-slate-600";
  * shadow-slate-700
  *
  * CSS:
- * - `--tw-shadow-color: #334155;`
+ * - --tw-shadow-color: #334155;
   *
   * @see box_shadow_color
   *
@@ -173,7 +173,7 @@ export const shadow_slate_700 = "shadow-slate-700";
  * shadow-slate-800
  *
  * CSS:
- * - `--tw-shadow-color: #1e293b;`
+ * - --tw-shadow-color: #1e293b;
   *
   * @see box_shadow_color
   *
@@ -186,7 +186,7 @@ export const shadow_slate_800 = "shadow-slate-800";
  * shadow-slate-900
  *
  * CSS:
- * - `--tw-shadow-color: #0f172a;`
+ * - --tw-shadow-color: #0f172a;
   *
   * @see box_shadow_color
   *
@@ -199,7 +199,7 @@ export const shadow_slate_900 = "shadow-slate-900";
  * shadow-slate-950
  *
  * CSS:
- * - `--tw-shadow-color: #020617;`
+ * - --tw-shadow-color: #020617;
   *
   * @see box_shadow_color
   *
@@ -212,7 +212,7 @@ export const shadow_slate_950 = "shadow-slate-950";
  * shadow-gray-50
  *
  * CSS:
- * - `--tw-shadow-color: #f9fafb;`
+ * - --tw-shadow-color: #f9fafb;
   *
   * @see box_shadow_color
   *
@@ -225,7 +225,7 @@ export const shadow_gray_50 = "shadow-gray-50";
  * shadow-gray-100
  *
  * CSS:
- * - `--tw-shadow-color: #f3f4f6;`
+ * - --tw-shadow-color: #f3f4f6;
   *
   * @see box_shadow_color
   *
@@ -238,7 +238,7 @@ export const shadow_gray_100 = "shadow-gray-100";
  * shadow-gray-200
  *
  * CSS:
- * - `--tw-shadow-color: #e5e7eb;`
+ * - --tw-shadow-color: #e5e7eb;
   *
   * @see box_shadow_color
   *
@@ -251,7 +251,7 @@ export const shadow_gray_200 = "shadow-gray-200";
  * shadow-gray-300
  *
  * CSS:
- * - `--tw-shadow-color: #d1d5db;`
+ * - --tw-shadow-color: #d1d5db;
   *
   * @see box_shadow_color
   *
@@ -264,7 +264,7 @@ export const shadow_gray_300 = "shadow-gray-300";
  * shadow-gray-400
  *
  * CSS:
- * - `--tw-shadow-color: #9ca3af;`
+ * - --tw-shadow-color: #9ca3af;
   *
   * @see box_shadow_color
   *
@@ -277,7 +277,7 @@ export const shadow_gray_400 = "shadow-gray-400";
  * shadow-gray-500
  *
  * CSS:
- * - `--tw-shadow-color: #6b7280;`
+ * - --tw-shadow-color: #6b7280;
   *
   * @see box_shadow_color
   *
@@ -290,7 +290,7 @@ export const shadow_gray_500 = "shadow-gray-500";
  * shadow-gray-600
  *
  * CSS:
- * - `--tw-shadow-color: #4b5563;`
+ * - --tw-shadow-color: #4b5563;
   *
   * @see box_shadow_color
   *
@@ -303,7 +303,7 @@ export const shadow_gray_600 = "shadow-gray-600";
  * shadow-gray-700
  *
  * CSS:
- * - `--tw-shadow-color: #374151;`
+ * - --tw-shadow-color: #374151;
   *
   * @see box_shadow_color
   *
@@ -316,7 +316,7 @@ export const shadow_gray_700 = "shadow-gray-700";
  * shadow-gray-800
  *
  * CSS:
- * - `--tw-shadow-color: #1f2937;`
+ * - --tw-shadow-color: #1f2937;
   *
   * @see box_shadow_color
   *
@@ -329,7 +329,7 @@ export const shadow_gray_800 = "shadow-gray-800";
  * shadow-gray-900
  *
  * CSS:
- * - `--tw-shadow-color: #111827;`
+ * - --tw-shadow-color: #111827;
   *
   * @see box_shadow_color
   *
@@ -342,7 +342,7 @@ export const shadow_gray_900 = "shadow-gray-900";
  * shadow-gray-950
  *
  * CSS:
- * - `--tw-shadow-color: #030712;`
+ * - --tw-shadow-color: #030712;
   *
   * @see box_shadow_color
   *
@@ -355,7 +355,7 @@ export const shadow_gray_950 = "shadow-gray-950";
  * shadow-zinc-50
  *
  * CSS:
- * - `--tw-shadow-color: #fafafa;`
+ * - --tw-shadow-color: #fafafa;
   *
   * @see box_shadow_color
   *
@@ -368,7 +368,7 @@ export const shadow_zinc_50 = "shadow-zinc-50";
  * shadow-zinc-100
  *
  * CSS:
- * - `--tw-shadow-color: #f4f4f5;`
+ * - --tw-shadow-color: #f4f4f5;
   *
   * @see box_shadow_color
   *
@@ -381,7 +381,7 @@ export const shadow_zinc_100 = "shadow-zinc-100";
  * shadow-zinc-200
  *
  * CSS:
- * - `--tw-shadow-color: #e4e4e7;`
+ * - --tw-shadow-color: #e4e4e7;
   *
   * @see box_shadow_color
   *
@@ -394,7 +394,7 @@ export const shadow_zinc_200 = "shadow-zinc-200";
  * shadow-zinc-300
  *
  * CSS:
- * - `--tw-shadow-color: #d4d4d8;`
+ * - --tw-shadow-color: #d4d4d8;
   *
   * @see box_shadow_color
   *
@@ -407,7 +407,7 @@ export const shadow_zinc_300 = "shadow-zinc-300";
  * shadow-zinc-400
  *
  * CSS:
- * - `--tw-shadow-color: #a1a1aa;`
+ * - --tw-shadow-color: #a1a1aa;
   *
   * @see box_shadow_color
   *
@@ -420,7 +420,7 @@ export const shadow_zinc_400 = "shadow-zinc-400";
  * shadow-zinc-500
  *
  * CSS:
- * - `--tw-shadow-color: #71717a;`
+ * - --tw-shadow-color: #71717a;
   *
   * @see box_shadow_color
   *
@@ -433,7 +433,7 @@ export const shadow_zinc_500 = "shadow-zinc-500";
  * shadow-zinc-600
  *
  * CSS:
- * - `--tw-shadow-color: #52525b;`
+ * - --tw-shadow-color: #52525b;
   *
   * @see box_shadow_color
   *
@@ -446,7 +446,7 @@ export const shadow_zinc_600 = "shadow-zinc-600";
  * shadow-zinc-700
  *
  * CSS:
- * - `--tw-shadow-color: #3f3f46;`
+ * - --tw-shadow-color: #3f3f46;
   *
   * @see box_shadow_color
   *
@@ -459,7 +459,7 @@ export const shadow_zinc_700 = "shadow-zinc-700";
  * shadow-zinc-800
  *
  * CSS:
- * - `--tw-shadow-color: #27272a;`
+ * - --tw-shadow-color: #27272a;
   *
   * @see box_shadow_color
   *
@@ -472,7 +472,7 @@ export const shadow_zinc_800 = "shadow-zinc-800";
  * shadow-zinc-900
  *
  * CSS:
- * - `--tw-shadow-color: #18181b;`
+ * - --tw-shadow-color: #18181b;
   *
   * @see box_shadow_color
   *
@@ -485,7 +485,7 @@ export const shadow_zinc_900 = "shadow-zinc-900";
  * shadow-zinc-950
  *
  * CSS:
- * - `--tw-shadow-color: #09090b;`
+ * - --tw-shadow-color: #09090b;
   *
   * @see box_shadow_color
   *
@@ -498,7 +498,7 @@ export const shadow_zinc_950 = "shadow-zinc-950";
  * shadow-neutral-50
  *
  * CSS:
- * - `--tw-shadow-color: #fafafa;`
+ * - --tw-shadow-color: #fafafa;
   *
   * @see box_shadow_color
   *
@@ -511,7 +511,7 @@ export const shadow_neutral_50 = "shadow-neutral-50";
  * shadow-neutral-100
  *
  * CSS:
- * - `--tw-shadow-color: #f5f5f5;`
+ * - --tw-shadow-color: #f5f5f5;
   *
   * @see box_shadow_color
   *
@@ -524,7 +524,7 @@ export const shadow_neutral_100 = "shadow-neutral-100";
  * shadow-neutral-200
  *
  * CSS:
- * - `--tw-shadow-color: #e5e5e5;`
+ * - --tw-shadow-color: #e5e5e5;
   *
   * @see box_shadow_color
   *
@@ -537,7 +537,7 @@ export const shadow_neutral_200 = "shadow-neutral-200";
  * shadow-neutral-300
  *
  * CSS:
- * - `--tw-shadow-color: #d4d4d4;`
+ * - --tw-shadow-color: #d4d4d4;
   *
   * @see box_shadow_color
   *
@@ -550,7 +550,7 @@ export const shadow_neutral_300 = "shadow-neutral-300";
  * shadow-neutral-400
  *
  * CSS:
- * - `--tw-shadow-color: #a3a3a3;`
+ * - --tw-shadow-color: #a3a3a3;
   *
   * @see box_shadow_color
   *
@@ -563,7 +563,7 @@ export const shadow_neutral_400 = "shadow-neutral-400";
  * shadow-neutral-500
  *
  * CSS:
- * - `--tw-shadow-color: #737373;`
+ * - --tw-shadow-color: #737373;
   *
   * @see box_shadow_color
   *
@@ -576,7 +576,7 @@ export const shadow_neutral_500 = "shadow-neutral-500";
  * shadow-neutral-600
  *
  * CSS:
- * - `--tw-shadow-color: #525252;`
+ * - --tw-shadow-color: #525252;
   *
   * @see box_shadow_color
   *
@@ -589,7 +589,7 @@ export const shadow_neutral_600 = "shadow-neutral-600";
  * shadow-neutral-700
  *
  * CSS:
- * - `--tw-shadow-color: #404040;`
+ * - --tw-shadow-color: #404040;
   *
   * @see box_shadow_color
   *
@@ -602,7 +602,7 @@ export const shadow_neutral_700 = "shadow-neutral-700";
  * shadow-neutral-800
  *
  * CSS:
- * - `--tw-shadow-color: #262626;`
+ * - --tw-shadow-color: #262626;
   *
   * @see box_shadow_color
   *
@@ -615,7 +615,7 @@ export const shadow_neutral_800 = "shadow-neutral-800";
  * shadow-neutral-900
  *
  * CSS:
- * - `--tw-shadow-color: #171717;`
+ * - --tw-shadow-color: #171717;
   *
   * @see box_shadow_color
   *
@@ -628,7 +628,7 @@ export const shadow_neutral_900 = "shadow-neutral-900";
  * shadow-neutral-950
  *
  * CSS:
- * - `--tw-shadow-color: #0a0a0a;`
+ * - --tw-shadow-color: #0a0a0a;
   *
   * @see box_shadow_color
   *
@@ -641,7 +641,7 @@ export const shadow_neutral_950 = "shadow-neutral-950";
  * shadow-stone-50
  *
  * CSS:
- * - `--tw-shadow-color: #fafaf9;`
+ * - --tw-shadow-color: #fafaf9;
   *
   * @see box_shadow_color
   *
@@ -654,7 +654,7 @@ export const shadow_stone_50 = "shadow-stone-50";
  * shadow-stone-100
  *
  * CSS:
- * - `--tw-shadow-color: #f5f5f4;`
+ * - --tw-shadow-color: #f5f5f4;
   *
   * @see box_shadow_color
   *
@@ -667,7 +667,7 @@ export const shadow_stone_100 = "shadow-stone-100";
  * shadow-stone-200
  *
  * CSS:
- * - `--tw-shadow-color: #e7e5e4;`
+ * - --tw-shadow-color: #e7e5e4;
   *
   * @see box_shadow_color
   *
@@ -680,7 +680,7 @@ export const shadow_stone_200 = "shadow-stone-200";
  * shadow-stone-300
  *
  * CSS:
- * - `--tw-shadow-color: #d6d3d1;`
+ * - --tw-shadow-color: #d6d3d1;
   *
   * @see box_shadow_color
   *
@@ -693,7 +693,7 @@ export const shadow_stone_300 = "shadow-stone-300";
  * shadow-stone-400
  *
  * CSS:
- * - `--tw-shadow-color: #a8a29e;`
+ * - --tw-shadow-color: #a8a29e;
   *
   * @see box_shadow_color
   *
@@ -706,7 +706,7 @@ export const shadow_stone_400 = "shadow-stone-400";
  * shadow-stone-500
  *
  * CSS:
- * - `--tw-shadow-color: #78716c;`
+ * - --tw-shadow-color: #78716c;
   *
   * @see box_shadow_color
   *
@@ -719,7 +719,7 @@ export const shadow_stone_500 = "shadow-stone-500";
  * shadow-stone-600
  *
  * CSS:
- * - `--tw-shadow-color: #57534e;`
+ * - --tw-shadow-color: #57534e;
   *
   * @see box_shadow_color
   *
@@ -732,7 +732,7 @@ export const shadow_stone_600 = "shadow-stone-600";
  * shadow-stone-700
  *
  * CSS:
- * - `--tw-shadow-color: #44403c;`
+ * - --tw-shadow-color: #44403c;
   *
   * @see box_shadow_color
   *
@@ -745,7 +745,7 @@ export const shadow_stone_700 = "shadow-stone-700";
  * shadow-stone-800
  *
  * CSS:
- * - `--tw-shadow-color: #292524;`
+ * - --tw-shadow-color: #292524;
   *
   * @see box_shadow_color
   *
@@ -758,7 +758,7 @@ export const shadow_stone_800 = "shadow-stone-800";
  * shadow-stone-900
  *
  * CSS:
- * - `--tw-shadow-color: #1c1917;`
+ * - --tw-shadow-color: #1c1917;
   *
   * @see box_shadow_color
   *
@@ -771,7 +771,7 @@ export const shadow_stone_900 = "shadow-stone-900";
  * shadow-stone-950
  *
  * CSS:
- * - `--tw-shadow-color: #0c0a09;`
+ * - --tw-shadow-color: #0c0a09;
   *
   * @see box_shadow_color
   *
@@ -784,7 +784,7 @@ export const shadow_stone_950 = "shadow-stone-950";
  * shadow-red-50
  *
  * CSS:
- * - `--tw-shadow-color: #fef2f2;`
+ * - --tw-shadow-color: #fef2f2;
   *
   * @see box_shadow_color
   *
@@ -797,7 +797,7 @@ export const shadow_red_50 = "shadow-red-50";
  * shadow-red-100
  *
  * CSS:
- * - `--tw-shadow-color: #fee2e2;`
+ * - --tw-shadow-color: #fee2e2;
   *
   * @see box_shadow_color
   *
@@ -810,7 +810,7 @@ export const shadow_red_100 = "shadow-red-100";
  * shadow-red-200
  *
  * CSS:
- * - `--tw-shadow-color: #fecaca;`
+ * - --tw-shadow-color: #fecaca;
   *
   * @see box_shadow_color
   *
@@ -823,7 +823,7 @@ export const shadow_red_200 = "shadow-red-200";
  * shadow-red-300
  *
  * CSS:
- * - `--tw-shadow-color: #fca5a5;`
+ * - --tw-shadow-color: #fca5a5;
   *
   * @see box_shadow_color
   *
@@ -836,7 +836,7 @@ export const shadow_red_300 = "shadow-red-300";
  * shadow-red-400
  *
  * CSS:
- * - `--tw-shadow-color: #f87171;`
+ * - --tw-shadow-color: #f87171;
   *
   * @see box_shadow_color
   *
@@ -849,7 +849,7 @@ export const shadow_red_400 = "shadow-red-400";
  * shadow-red-500
  *
  * CSS:
- * - `--tw-shadow-color: #ef4444;`
+ * - --tw-shadow-color: #ef4444;
   *
   * @see box_shadow_color
   *
@@ -862,7 +862,7 @@ export const shadow_red_500 = "shadow-red-500";
  * shadow-red-600
  *
  * CSS:
- * - `--tw-shadow-color: #dc2626;`
+ * - --tw-shadow-color: #dc2626;
   *
   * @see box_shadow_color
   *
@@ -875,7 +875,7 @@ export const shadow_red_600 = "shadow-red-600";
  * shadow-red-700
  *
  * CSS:
- * - `--tw-shadow-color: #b91c1c;`
+ * - --tw-shadow-color: #b91c1c;
   *
   * @see box_shadow_color
   *
@@ -888,7 +888,7 @@ export const shadow_red_700 = "shadow-red-700";
  * shadow-red-800
  *
  * CSS:
- * - `--tw-shadow-color: #991b1b;`
+ * - --tw-shadow-color: #991b1b;
   *
   * @see box_shadow_color
   *
@@ -901,7 +901,7 @@ export const shadow_red_800 = "shadow-red-800";
  * shadow-red-900
  *
  * CSS:
- * - `--tw-shadow-color: #7f1d1d;`
+ * - --tw-shadow-color: #7f1d1d;
   *
   * @see box_shadow_color
   *
@@ -914,7 +914,7 @@ export const shadow_red_900 = "shadow-red-900";
  * shadow-red-950
  *
  * CSS:
- * - `--tw-shadow-color: #450a0a;`
+ * - --tw-shadow-color: #450a0a;
   *
   * @see box_shadow_color
   *
@@ -927,7 +927,7 @@ export const shadow_red_950 = "shadow-red-950";
  * shadow-orange-50
  *
  * CSS:
- * - `--tw-shadow-color: #fff7ed;`
+ * - --tw-shadow-color: #fff7ed;
   *
   * @see box_shadow_color
   *
@@ -940,7 +940,7 @@ export const shadow_orange_50 = "shadow-orange-50";
  * shadow-orange-100
  *
  * CSS:
- * - `--tw-shadow-color: #ffedd5;`
+ * - --tw-shadow-color: #ffedd5;
   *
   * @see box_shadow_color
   *
@@ -953,7 +953,7 @@ export const shadow_orange_100 = "shadow-orange-100";
  * shadow-orange-200
  *
  * CSS:
- * - `--tw-shadow-color: #fed7aa;`
+ * - --tw-shadow-color: #fed7aa;
   *
   * @see box_shadow_color
   *
@@ -966,7 +966,7 @@ export const shadow_orange_200 = "shadow-orange-200";
  * shadow-orange-300
  *
  * CSS:
- * - `--tw-shadow-color: #fdba74;`
+ * - --tw-shadow-color: #fdba74;
   *
   * @see box_shadow_color
   *
@@ -979,7 +979,7 @@ export const shadow_orange_300 = "shadow-orange-300";
  * shadow-orange-400
  *
  * CSS:
- * - `--tw-shadow-color: #fb923c;`
+ * - --tw-shadow-color: #fb923c;
   *
   * @see box_shadow_color
   *
@@ -992,7 +992,7 @@ export const shadow_orange_400 = "shadow-orange-400";
  * shadow-orange-500
  *
  * CSS:
- * - `--tw-shadow-color: #f97316;`
+ * - --tw-shadow-color: #f97316;
   *
   * @see box_shadow_color
   *
@@ -1005,7 +1005,7 @@ export const shadow_orange_500 = "shadow-orange-500";
  * shadow-orange-600
  *
  * CSS:
- * - `--tw-shadow-color: #ea580c;`
+ * - --tw-shadow-color: #ea580c;
   *
   * @see box_shadow_color
   *
@@ -1018,7 +1018,7 @@ export const shadow_orange_600 = "shadow-orange-600";
  * shadow-orange-700
  *
  * CSS:
- * - `--tw-shadow-color: #c2410c;`
+ * - --tw-shadow-color: #c2410c;
   *
   * @see box_shadow_color
   *
@@ -1031,7 +1031,7 @@ export const shadow_orange_700 = "shadow-orange-700";
  * shadow-orange-800
  *
  * CSS:
- * - `--tw-shadow-color: #9a3412;`
+ * - --tw-shadow-color: #9a3412;
   *
   * @see box_shadow_color
   *
@@ -1044,7 +1044,7 @@ export const shadow_orange_800 = "shadow-orange-800";
  * shadow-orange-900
  *
  * CSS:
- * - `--tw-shadow-color: #7c2d12;`
+ * - --tw-shadow-color: #7c2d12;
   *
   * @see box_shadow_color
   *
@@ -1057,7 +1057,7 @@ export const shadow_orange_900 = "shadow-orange-900";
  * shadow-orange-950
  *
  * CSS:
- * - `--tw-shadow-color: #431407;`
+ * - --tw-shadow-color: #431407;
   *
   * @see box_shadow_color
   *
@@ -1070,7 +1070,7 @@ export const shadow_orange_950 = "shadow-orange-950";
  * shadow-amber-50
  *
  * CSS:
- * - `--tw-shadow-color: #fffbeb;`
+ * - --tw-shadow-color: #fffbeb;
   *
   * @see box_shadow_color
   *
@@ -1083,7 +1083,7 @@ export const shadow_amber_50 = "shadow-amber-50";
  * shadow-amber-100
  *
  * CSS:
- * - `--tw-shadow-color: #fef3c7;`
+ * - --tw-shadow-color: #fef3c7;
   *
   * @see box_shadow_color
   *
@@ -1096,7 +1096,7 @@ export const shadow_amber_100 = "shadow-amber-100";
  * shadow-amber-200
  *
  * CSS:
- * - `--tw-shadow-color: #fde68a;`
+ * - --tw-shadow-color: #fde68a;
   *
   * @see box_shadow_color
   *
@@ -1109,7 +1109,7 @@ export const shadow_amber_200 = "shadow-amber-200";
  * shadow-amber-300
  *
  * CSS:
- * - `--tw-shadow-color: #fcd34d;`
+ * - --tw-shadow-color: #fcd34d;
   *
   * @see box_shadow_color
   *
@@ -1122,7 +1122,7 @@ export const shadow_amber_300 = "shadow-amber-300";
  * shadow-amber-400
  *
  * CSS:
- * - `--tw-shadow-color: #fbbf24;`
+ * - --tw-shadow-color: #fbbf24;
   *
   * @see box_shadow_color
   *
@@ -1135,7 +1135,7 @@ export const shadow_amber_400 = "shadow-amber-400";
  * shadow-amber-500
  *
  * CSS:
- * - `--tw-shadow-color: #f59e0b;`
+ * - --tw-shadow-color: #f59e0b;
   *
   * @see box_shadow_color
   *
@@ -1148,7 +1148,7 @@ export const shadow_amber_500 = "shadow-amber-500";
  * shadow-amber-600
  *
  * CSS:
- * - `--tw-shadow-color: #d97706;`
+ * - --tw-shadow-color: #d97706;
   *
   * @see box_shadow_color
   *
@@ -1161,7 +1161,7 @@ export const shadow_amber_600 = "shadow-amber-600";
  * shadow-amber-700
  *
  * CSS:
- * - `--tw-shadow-color: #b45309;`
+ * - --tw-shadow-color: #b45309;
   *
   * @see box_shadow_color
   *
@@ -1174,7 +1174,7 @@ export const shadow_amber_700 = "shadow-amber-700";
  * shadow-amber-800
  *
  * CSS:
- * - `--tw-shadow-color: #92400e;`
+ * - --tw-shadow-color: #92400e;
   *
   * @see box_shadow_color
   *
@@ -1187,7 +1187,7 @@ export const shadow_amber_800 = "shadow-amber-800";
  * shadow-amber-900
  *
  * CSS:
- * - `--tw-shadow-color: #78350f;`
+ * - --tw-shadow-color: #78350f;
   *
   * @see box_shadow_color
   *
@@ -1200,7 +1200,7 @@ export const shadow_amber_900 = "shadow-amber-900";
  * shadow-amber-950
  *
  * CSS:
- * - `--tw-shadow-color: #451a03;`
+ * - --tw-shadow-color: #451a03;
   *
   * @see box_shadow_color
   *
@@ -1213,7 +1213,7 @@ export const shadow_amber_950 = "shadow-amber-950";
  * shadow-yellow-50
  *
  * CSS:
- * - `--tw-shadow-color: #fefce8;`
+ * - --tw-shadow-color: #fefce8;
   *
   * @see box_shadow_color
   *
@@ -1226,7 +1226,7 @@ export const shadow_yellow_50 = "shadow-yellow-50";
  * shadow-yellow-100
  *
  * CSS:
- * - `--tw-shadow-color: #fef9c3;`
+ * - --tw-shadow-color: #fef9c3;
   *
   * @see box_shadow_color
   *
@@ -1239,7 +1239,7 @@ export const shadow_yellow_100 = "shadow-yellow-100";
  * shadow-yellow-200
  *
  * CSS:
- * - `--tw-shadow-color: #fef08a;`
+ * - --tw-shadow-color: #fef08a;
   *
   * @see box_shadow_color
   *
@@ -1252,7 +1252,7 @@ export const shadow_yellow_200 = "shadow-yellow-200";
  * shadow-yellow-300
  *
  * CSS:
- * - `--tw-shadow-color: #fde047;`
+ * - --tw-shadow-color: #fde047;
   *
   * @see box_shadow_color
   *
@@ -1265,7 +1265,7 @@ export const shadow_yellow_300 = "shadow-yellow-300";
  * shadow-yellow-400
  *
  * CSS:
- * - `--tw-shadow-color: #facc15;`
+ * - --tw-shadow-color: #facc15;
   *
   * @see box_shadow_color
   *
@@ -1278,7 +1278,7 @@ export const shadow_yellow_400 = "shadow-yellow-400";
  * shadow-yellow-500
  *
  * CSS:
- * - `--tw-shadow-color: #eab308;`
+ * - --tw-shadow-color: #eab308;
   *
   * @see box_shadow_color
   *
@@ -1291,7 +1291,7 @@ export const shadow_yellow_500 = "shadow-yellow-500";
  * shadow-yellow-600
  *
  * CSS:
- * - `--tw-shadow-color: #ca8a04;`
+ * - --tw-shadow-color: #ca8a04;
   *
   * @see box_shadow_color
   *
@@ -1304,7 +1304,7 @@ export const shadow_yellow_600 = "shadow-yellow-600";
  * shadow-yellow-700
  *
  * CSS:
- * - `--tw-shadow-color: #a16207;`
+ * - --tw-shadow-color: #a16207;
   *
   * @see box_shadow_color
   *
@@ -1317,7 +1317,7 @@ export const shadow_yellow_700 = "shadow-yellow-700";
  * shadow-yellow-800
  *
  * CSS:
- * - `--tw-shadow-color: #854d0e;`
+ * - --tw-shadow-color: #854d0e;
   *
   * @see box_shadow_color
   *
@@ -1330,7 +1330,7 @@ export const shadow_yellow_800 = "shadow-yellow-800";
  * shadow-yellow-900
  *
  * CSS:
- * - `--tw-shadow-color: #713f12;`
+ * - --tw-shadow-color: #713f12;
   *
   * @see box_shadow_color
   *
@@ -1343,7 +1343,7 @@ export const shadow_yellow_900 = "shadow-yellow-900";
  * shadow-yellow-950
  *
  * CSS:
- * - `--tw-shadow-color: #422006;`
+ * - --tw-shadow-color: #422006;
   *
   * @see box_shadow_color
   *
@@ -1356,7 +1356,7 @@ export const shadow_yellow_950 = "shadow-yellow-950";
  * shadow-lime-50
  *
  * CSS:
- * - `--tw-shadow-color: #f7fee7;`
+ * - --tw-shadow-color: #f7fee7;
   *
   * @see box_shadow_color
   *
@@ -1369,7 +1369,7 @@ export const shadow_lime_50 = "shadow-lime-50";
  * shadow-lime-100
  *
  * CSS:
- * - `--tw-shadow-color: #ecfccb;`
+ * - --tw-shadow-color: #ecfccb;
   *
   * @see box_shadow_color
   *
@@ -1382,7 +1382,7 @@ export const shadow_lime_100 = "shadow-lime-100";
  * shadow-lime-200
  *
  * CSS:
- * - `--tw-shadow-color: #d9f99d;`
+ * - --tw-shadow-color: #d9f99d;
   *
   * @see box_shadow_color
   *
@@ -1395,7 +1395,7 @@ export const shadow_lime_200 = "shadow-lime-200";
  * shadow-lime-300
  *
  * CSS:
- * - `--tw-shadow-color: #bef264;`
+ * - --tw-shadow-color: #bef264;
   *
   * @see box_shadow_color
   *
@@ -1408,7 +1408,7 @@ export const shadow_lime_300 = "shadow-lime-300";
  * shadow-lime-400
  *
  * CSS:
- * - `--tw-shadow-color: #a3e635;`
+ * - --tw-shadow-color: #a3e635;
   *
   * @see box_shadow_color
   *
@@ -1421,7 +1421,7 @@ export const shadow_lime_400 = "shadow-lime-400";
  * shadow-lime-500
  *
  * CSS:
- * - `--tw-shadow-color: #84cc16;`
+ * - --tw-shadow-color: #84cc16;
   *
   * @see box_shadow_color
   *
@@ -1434,7 +1434,7 @@ export const shadow_lime_500 = "shadow-lime-500";
  * shadow-lime-600
  *
  * CSS:
- * - `--tw-shadow-color: #65a30d;`
+ * - --tw-shadow-color: #65a30d;
   *
   * @see box_shadow_color
   *
@@ -1447,7 +1447,7 @@ export const shadow_lime_600 = "shadow-lime-600";
  * shadow-lime-700
  *
  * CSS:
- * - `--tw-shadow-color: #4d7c0f;`
+ * - --tw-shadow-color: #4d7c0f;
   *
   * @see box_shadow_color
   *
@@ -1460,7 +1460,7 @@ export const shadow_lime_700 = "shadow-lime-700";
  * shadow-lime-800
  *
  * CSS:
- * - `--tw-shadow-color: #3f6212;`
+ * - --tw-shadow-color: #3f6212;
   *
   * @see box_shadow_color
   *
@@ -1473,7 +1473,7 @@ export const shadow_lime_800 = "shadow-lime-800";
  * shadow-lime-900
  *
  * CSS:
- * - `--tw-shadow-color: #365314;`
+ * - --tw-shadow-color: #365314;
   *
   * @see box_shadow_color
   *
@@ -1486,7 +1486,7 @@ export const shadow_lime_900 = "shadow-lime-900";
  * shadow-lime-950
  *
  * CSS:
- * - `--tw-shadow-color: #1a2e05;`
+ * - --tw-shadow-color: #1a2e05;
   *
   * @see box_shadow_color
   *
@@ -1499,7 +1499,7 @@ export const shadow_lime_950 = "shadow-lime-950";
  * shadow-green-50
  *
  * CSS:
- * - `--tw-shadow-color: #f0fdf4;`
+ * - --tw-shadow-color: #f0fdf4;
   *
   * @see box_shadow_color
   *
@@ -1512,7 +1512,7 @@ export const shadow_green_50 = "shadow-green-50";
  * shadow-green-100
  *
  * CSS:
- * - `--tw-shadow-color: #dcfce7;`
+ * - --tw-shadow-color: #dcfce7;
   *
   * @see box_shadow_color
   *
@@ -1525,7 +1525,7 @@ export const shadow_green_100 = "shadow-green-100";
  * shadow-green-200
  *
  * CSS:
- * - `--tw-shadow-color: #bbf7d0;`
+ * - --tw-shadow-color: #bbf7d0;
   *
   * @see box_shadow_color
   *
@@ -1538,7 +1538,7 @@ export const shadow_green_200 = "shadow-green-200";
  * shadow-green-300
  *
  * CSS:
- * - `--tw-shadow-color: #86efac;`
+ * - --tw-shadow-color: #86efac;
   *
   * @see box_shadow_color
   *
@@ -1551,7 +1551,7 @@ export const shadow_green_300 = "shadow-green-300";
  * shadow-green-400
  *
  * CSS:
- * - `--tw-shadow-color: #4ade80;`
+ * - --tw-shadow-color: #4ade80;
   *
   * @see box_shadow_color
   *
@@ -1564,7 +1564,7 @@ export const shadow_green_400 = "shadow-green-400";
  * shadow-green-500
  *
  * CSS:
- * - `--tw-shadow-color: #22c55e;`
+ * - --tw-shadow-color: #22c55e;
   *
   * @see box_shadow_color
   *
@@ -1577,7 +1577,7 @@ export const shadow_green_500 = "shadow-green-500";
  * shadow-green-600
  *
  * CSS:
- * - `--tw-shadow-color: #16a34a;`
+ * - --tw-shadow-color: #16a34a;
   *
   * @see box_shadow_color
   *
@@ -1590,7 +1590,7 @@ export const shadow_green_600 = "shadow-green-600";
  * shadow-green-700
  *
  * CSS:
- * - `--tw-shadow-color: #15803d;`
+ * - --tw-shadow-color: #15803d;
   *
   * @see box_shadow_color
   *
@@ -1603,7 +1603,7 @@ export const shadow_green_700 = "shadow-green-700";
  * shadow-green-800
  *
  * CSS:
- * - `--tw-shadow-color: #166534;`
+ * - --tw-shadow-color: #166534;
   *
   * @see box_shadow_color
   *
@@ -1616,7 +1616,7 @@ export const shadow_green_800 = "shadow-green-800";
  * shadow-green-900
  *
  * CSS:
- * - `--tw-shadow-color: #14532d;`
+ * - --tw-shadow-color: #14532d;
   *
   * @see box_shadow_color
   *
@@ -1629,7 +1629,7 @@ export const shadow_green_900 = "shadow-green-900";
  * shadow-green-950
  *
  * CSS:
- * - `--tw-shadow-color: #052e16;`
+ * - --tw-shadow-color: #052e16;
   *
   * @see box_shadow_color
   *
@@ -1642,7 +1642,7 @@ export const shadow_green_950 = "shadow-green-950";
  * shadow-emerald-50
  *
  * CSS:
- * - `--tw-shadow-color: #ecfdf5;`
+ * - --tw-shadow-color: #ecfdf5;
   *
   * @see box_shadow_color
   *
@@ -1655,7 +1655,7 @@ export const shadow_emerald_50 = "shadow-emerald-50";
  * shadow-emerald-100
  *
  * CSS:
- * - `--tw-shadow-color: #d1fae5;`
+ * - --tw-shadow-color: #d1fae5;
   *
   * @see box_shadow_color
   *
@@ -1668,7 +1668,7 @@ export const shadow_emerald_100 = "shadow-emerald-100";
  * shadow-emerald-200
  *
  * CSS:
- * - `--tw-shadow-color: #a7f3d0;`
+ * - --tw-shadow-color: #a7f3d0;
   *
   * @see box_shadow_color
   *
@@ -1681,7 +1681,7 @@ export const shadow_emerald_200 = "shadow-emerald-200";
  * shadow-emerald-300
  *
  * CSS:
- * - `--tw-shadow-color: #6ee7b7;`
+ * - --tw-shadow-color: #6ee7b7;
   *
   * @see box_shadow_color
   *
@@ -1694,7 +1694,7 @@ export const shadow_emerald_300 = "shadow-emerald-300";
  * shadow-emerald-400
  *
  * CSS:
- * - `--tw-shadow-color: #34d399;`
+ * - --tw-shadow-color: #34d399;
   *
   * @see box_shadow_color
   *
@@ -1707,7 +1707,7 @@ export const shadow_emerald_400 = "shadow-emerald-400";
  * shadow-emerald-500
  *
  * CSS:
- * - `--tw-shadow-color: #10b981;`
+ * - --tw-shadow-color: #10b981;
   *
   * @see box_shadow_color
   *
@@ -1720,7 +1720,7 @@ export const shadow_emerald_500 = "shadow-emerald-500";
  * shadow-emerald-600
  *
  * CSS:
- * - `--tw-shadow-color: #059669;`
+ * - --tw-shadow-color: #059669;
   *
   * @see box_shadow_color
   *
@@ -1733,7 +1733,7 @@ export const shadow_emerald_600 = "shadow-emerald-600";
  * shadow-emerald-700
  *
  * CSS:
- * - `--tw-shadow-color: #047857;`
+ * - --tw-shadow-color: #047857;
   *
   * @see box_shadow_color
   *
@@ -1746,7 +1746,7 @@ export const shadow_emerald_700 = "shadow-emerald-700";
  * shadow-emerald-800
  *
  * CSS:
- * - `--tw-shadow-color: #065f46;`
+ * - --tw-shadow-color: #065f46;
   *
   * @see box_shadow_color
   *
@@ -1759,7 +1759,7 @@ export const shadow_emerald_800 = "shadow-emerald-800";
  * shadow-emerald-900
  *
  * CSS:
- * - `--tw-shadow-color: #064e3b;`
+ * - --tw-shadow-color: #064e3b;
   *
   * @see box_shadow_color
   *
@@ -1772,7 +1772,7 @@ export const shadow_emerald_900 = "shadow-emerald-900";
  * shadow-emerald-950
  *
  * CSS:
- * - `--tw-shadow-color: #022c22;`
+ * - --tw-shadow-color: #022c22;
   *
   * @see box_shadow_color
   *
@@ -1785,7 +1785,7 @@ export const shadow_emerald_950 = "shadow-emerald-950";
  * shadow-teal-50
  *
  * CSS:
- * - `--tw-shadow-color: #f0fdfa;`
+ * - --tw-shadow-color: #f0fdfa;
   *
   * @see box_shadow_color
   *
@@ -1798,7 +1798,7 @@ export const shadow_teal_50 = "shadow-teal-50";
  * shadow-teal-100
  *
  * CSS:
- * - `--tw-shadow-color: #ccfbf1;`
+ * - --tw-shadow-color: #ccfbf1;
   *
   * @see box_shadow_color
   *
@@ -1811,7 +1811,7 @@ export const shadow_teal_100 = "shadow-teal-100";
  * shadow-teal-200
  *
  * CSS:
- * - `--tw-shadow-color: #99f6e4;`
+ * - --tw-shadow-color: #99f6e4;
   *
   * @see box_shadow_color
   *
@@ -1824,7 +1824,7 @@ export const shadow_teal_200 = "shadow-teal-200";
  * shadow-teal-300
  *
  * CSS:
- * - `--tw-shadow-color: #5eead4;`
+ * - --tw-shadow-color: #5eead4;
   *
   * @see box_shadow_color
   *
@@ -1837,7 +1837,7 @@ export const shadow_teal_300 = "shadow-teal-300";
  * shadow-teal-400
  *
  * CSS:
- * - `--tw-shadow-color: #2dd4bf;`
+ * - --tw-shadow-color: #2dd4bf;
   *
   * @see box_shadow_color
   *
@@ -1850,7 +1850,7 @@ export const shadow_teal_400 = "shadow-teal-400";
  * shadow-teal-500
  *
  * CSS:
- * - `--tw-shadow-color: #14b8a6;`
+ * - --tw-shadow-color: #14b8a6;
   *
   * @see box_shadow_color
   *
@@ -1863,7 +1863,7 @@ export const shadow_teal_500 = "shadow-teal-500";
  * shadow-teal-600
  *
  * CSS:
- * - `--tw-shadow-color: #0d9488;`
+ * - --tw-shadow-color: #0d9488;
   *
   * @see box_shadow_color
   *
@@ -1876,7 +1876,7 @@ export const shadow_teal_600 = "shadow-teal-600";
  * shadow-teal-700
  *
  * CSS:
- * - `--tw-shadow-color: #0f766e;`
+ * - --tw-shadow-color: #0f766e;
   *
   * @see box_shadow_color
   *
@@ -1889,7 +1889,7 @@ export const shadow_teal_700 = "shadow-teal-700";
  * shadow-teal-800
  *
  * CSS:
- * - `--tw-shadow-color: #115e59;`
+ * - --tw-shadow-color: #115e59;
   *
   * @see box_shadow_color
   *
@@ -1902,7 +1902,7 @@ export const shadow_teal_800 = "shadow-teal-800";
  * shadow-teal-900
  *
  * CSS:
- * - `--tw-shadow-color: #134e4a;`
+ * - --tw-shadow-color: #134e4a;
   *
   * @see box_shadow_color
   *
@@ -1915,7 +1915,7 @@ export const shadow_teal_900 = "shadow-teal-900";
  * shadow-teal-950
  *
  * CSS:
- * - `--tw-shadow-color: #042f2e;`
+ * - --tw-shadow-color: #042f2e;
   *
   * @see box_shadow_color
   *
@@ -1928,7 +1928,7 @@ export const shadow_teal_950 = "shadow-teal-950";
  * shadow-cyan-50
  *
  * CSS:
- * - `--tw-shadow-color: #ecfeff;`
+ * - --tw-shadow-color: #ecfeff;
   *
   * @see box_shadow_color
   *
@@ -1941,7 +1941,7 @@ export const shadow_cyan_50 = "shadow-cyan-50";
  * shadow-cyan-100
  *
  * CSS:
- * - `--tw-shadow-color: #cffafe;`
+ * - --tw-shadow-color: #cffafe;
   *
   * @see box_shadow_color
   *
@@ -1954,7 +1954,7 @@ export const shadow_cyan_100 = "shadow-cyan-100";
  * shadow-cyan-200
  *
  * CSS:
- * - `--tw-shadow-color: #a5f3fc;`
+ * - --tw-shadow-color: #a5f3fc;
   *
   * @see box_shadow_color
   *
@@ -1967,7 +1967,7 @@ export const shadow_cyan_200 = "shadow-cyan-200";
  * shadow-cyan-300
  *
  * CSS:
- * - `--tw-shadow-color: #67e8f9;`
+ * - --tw-shadow-color: #67e8f9;
   *
   * @see box_shadow_color
   *
@@ -1980,7 +1980,7 @@ export const shadow_cyan_300 = "shadow-cyan-300";
  * shadow-cyan-400
  *
  * CSS:
- * - `--tw-shadow-color: #22d3ee;`
+ * - --tw-shadow-color: #22d3ee;
   *
   * @see box_shadow_color
   *
@@ -1993,7 +1993,7 @@ export const shadow_cyan_400 = "shadow-cyan-400";
  * shadow-cyan-500
  *
  * CSS:
- * - `--tw-shadow-color: #06b6d4;`
+ * - --tw-shadow-color: #06b6d4;
   *
   * @see box_shadow_color
   *
@@ -2006,7 +2006,7 @@ export const shadow_cyan_500 = "shadow-cyan-500";
  * shadow-cyan-600
  *
  * CSS:
- * - `--tw-shadow-color: #0891b2;`
+ * - --tw-shadow-color: #0891b2;
   *
   * @see box_shadow_color
   *
@@ -2019,7 +2019,7 @@ export const shadow_cyan_600 = "shadow-cyan-600";
  * shadow-cyan-700
  *
  * CSS:
- * - `--tw-shadow-color: #0e7490;`
+ * - --tw-shadow-color: #0e7490;
   *
   * @see box_shadow_color
   *
@@ -2032,7 +2032,7 @@ export const shadow_cyan_700 = "shadow-cyan-700";
  * shadow-cyan-800
  *
  * CSS:
- * - `--tw-shadow-color: #155e75;`
+ * - --tw-shadow-color: #155e75;
   *
   * @see box_shadow_color
   *
@@ -2045,7 +2045,7 @@ export const shadow_cyan_800 = "shadow-cyan-800";
  * shadow-cyan-900
  *
  * CSS:
- * - `--tw-shadow-color: #164e63;`
+ * - --tw-shadow-color: #164e63;
   *
   * @see box_shadow_color
   *
@@ -2058,7 +2058,7 @@ export const shadow_cyan_900 = "shadow-cyan-900";
  * shadow-cyan-950
  *
  * CSS:
- * - `--tw-shadow-color: #083344;`
+ * - --tw-shadow-color: #083344;
   *
   * @see box_shadow_color
   *
@@ -2071,7 +2071,7 @@ export const shadow_cyan_950 = "shadow-cyan-950";
  * shadow-sky-50
  *
  * CSS:
- * - `--tw-shadow-color: #f0f9ff;`
+ * - --tw-shadow-color: #f0f9ff;
   *
   * @see box_shadow_color
   *
@@ -2084,7 +2084,7 @@ export const shadow_sky_50 = "shadow-sky-50";
  * shadow-sky-100
  *
  * CSS:
- * - `--tw-shadow-color: #e0f2fe;`
+ * - --tw-shadow-color: #e0f2fe;
   *
   * @see box_shadow_color
   *
@@ -2097,7 +2097,7 @@ export const shadow_sky_100 = "shadow-sky-100";
  * shadow-sky-200
  *
  * CSS:
- * - `--tw-shadow-color: #bae6fd;`
+ * - --tw-shadow-color: #bae6fd;
   *
   * @see box_shadow_color
   *
@@ -2110,7 +2110,7 @@ export const shadow_sky_200 = "shadow-sky-200";
  * shadow-sky-300
  *
  * CSS:
- * - `--tw-shadow-color: #7dd3fc;`
+ * - --tw-shadow-color: #7dd3fc;
   *
   * @see box_shadow_color
   *
@@ -2123,7 +2123,7 @@ export const shadow_sky_300 = "shadow-sky-300";
  * shadow-sky-400
  *
  * CSS:
- * - `--tw-shadow-color: #38bdf8;`
+ * - --tw-shadow-color: #38bdf8;
   *
   * @see box_shadow_color
   *
@@ -2136,7 +2136,7 @@ export const shadow_sky_400 = "shadow-sky-400";
  * shadow-sky-500
  *
  * CSS:
- * - `--tw-shadow-color: #0ea5e9;`
+ * - --tw-shadow-color: #0ea5e9;
   *
   * @see box_shadow_color
   *
@@ -2149,7 +2149,7 @@ export const shadow_sky_500 = "shadow-sky-500";
  * shadow-sky-600
  *
  * CSS:
- * - `--tw-shadow-color: #0284c7;`
+ * - --tw-shadow-color: #0284c7;
   *
   * @see box_shadow_color
   *
@@ -2162,7 +2162,7 @@ export const shadow_sky_600 = "shadow-sky-600";
  * shadow-sky-700
  *
  * CSS:
- * - `--tw-shadow-color: #0369a1;`
+ * - --tw-shadow-color: #0369a1;
   *
   * @see box_shadow_color
   *
@@ -2175,7 +2175,7 @@ export const shadow_sky_700 = "shadow-sky-700";
  * shadow-sky-800
  *
  * CSS:
- * - `--tw-shadow-color: #075985;`
+ * - --tw-shadow-color: #075985;
   *
   * @see box_shadow_color
   *
@@ -2188,7 +2188,7 @@ export const shadow_sky_800 = "shadow-sky-800";
  * shadow-sky-900
  *
  * CSS:
- * - `--tw-shadow-color: #0c4a6e;`
+ * - --tw-shadow-color: #0c4a6e;
   *
   * @see box_shadow_color
   *
@@ -2201,7 +2201,7 @@ export const shadow_sky_900 = "shadow-sky-900";
  * shadow-sky-950
  *
  * CSS:
- * - `--tw-shadow-color: #082f49;`
+ * - --tw-shadow-color: #082f49;
   *
   * @see box_shadow_color
   *
@@ -2214,7 +2214,7 @@ export const shadow_sky_950 = "shadow-sky-950";
  * shadow-blue-50
  *
  * CSS:
- * - `--tw-shadow-color: #eff6ff;`
+ * - --tw-shadow-color: #eff6ff;
   *
   * @see box_shadow_color
   *
@@ -2227,7 +2227,7 @@ export const shadow_blue_50 = "shadow-blue-50";
  * shadow-blue-100
  *
  * CSS:
- * - `--tw-shadow-color: #dbeafe;`
+ * - --tw-shadow-color: #dbeafe;
   *
   * @see box_shadow_color
   *
@@ -2240,7 +2240,7 @@ export const shadow_blue_100 = "shadow-blue-100";
  * shadow-blue-200
  *
  * CSS:
- * - `--tw-shadow-color: #bfdbfe;`
+ * - --tw-shadow-color: #bfdbfe;
   *
   * @see box_shadow_color
   *
@@ -2253,7 +2253,7 @@ export const shadow_blue_200 = "shadow-blue-200";
  * shadow-blue-300
  *
  * CSS:
- * - `--tw-shadow-color: #93c5fd;`
+ * - --tw-shadow-color: #93c5fd;
   *
   * @see box_shadow_color
   *
@@ -2266,7 +2266,7 @@ export const shadow_blue_300 = "shadow-blue-300";
  * shadow-blue-400
  *
  * CSS:
- * - `--tw-shadow-color: #60a5fa;`
+ * - --tw-shadow-color: #60a5fa;
   *
   * @see box_shadow_color
   *
@@ -2279,7 +2279,7 @@ export const shadow_blue_400 = "shadow-blue-400";
  * shadow-blue-500
  *
  * CSS:
- * - `--tw-shadow-color: #3b82f6;`
+ * - --tw-shadow-color: #3b82f6;
   *
   * @see box_shadow_color
   *
@@ -2292,7 +2292,7 @@ export const shadow_blue_500 = "shadow-blue-500";
  * shadow-blue-600
  *
  * CSS:
- * - `--tw-shadow-color: #2563eb;`
+ * - --tw-shadow-color: #2563eb;
   *
   * @see box_shadow_color
   *
@@ -2305,7 +2305,7 @@ export const shadow_blue_600 = "shadow-blue-600";
  * shadow-blue-700
  *
  * CSS:
- * - `--tw-shadow-color: #1d4ed8;`
+ * - --tw-shadow-color: #1d4ed8;
   *
   * @see box_shadow_color
   *
@@ -2318,7 +2318,7 @@ export const shadow_blue_700 = "shadow-blue-700";
  * shadow-blue-800
  *
  * CSS:
- * - `--tw-shadow-color: #1e40af;`
+ * - --tw-shadow-color: #1e40af;
   *
   * @see box_shadow_color
   *
@@ -2331,7 +2331,7 @@ export const shadow_blue_800 = "shadow-blue-800";
  * shadow-blue-900
  *
  * CSS:
- * - `--tw-shadow-color: #1e3a8a;`
+ * - --tw-shadow-color: #1e3a8a;
   *
   * @see box_shadow_color
   *
@@ -2344,7 +2344,7 @@ export const shadow_blue_900 = "shadow-blue-900";
  * shadow-blue-950
  *
  * CSS:
- * - `--tw-shadow-color: #172554;`
+ * - --tw-shadow-color: #172554;
   *
   * @see box_shadow_color
   *
@@ -2357,7 +2357,7 @@ export const shadow_blue_950 = "shadow-blue-950";
  * shadow-indigo-50
  *
  * CSS:
- * - `--tw-shadow-color: #eef2ff;`
+ * - --tw-shadow-color: #eef2ff;
   *
   * @see box_shadow_color
   *
@@ -2370,7 +2370,7 @@ export const shadow_indigo_50 = "shadow-indigo-50";
  * shadow-indigo-100
  *
  * CSS:
- * - `--tw-shadow-color: #e0e7ff;`
+ * - --tw-shadow-color: #e0e7ff;
   *
   * @see box_shadow_color
   *
@@ -2383,7 +2383,7 @@ export const shadow_indigo_100 = "shadow-indigo-100";
  * shadow-indigo-200
  *
  * CSS:
- * - `--tw-shadow-color: #c7d2fe;`
+ * - --tw-shadow-color: #c7d2fe;
   *
   * @see box_shadow_color
   *
@@ -2396,7 +2396,7 @@ export const shadow_indigo_200 = "shadow-indigo-200";
  * shadow-indigo-300
  *
  * CSS:
- * - `--tw-shadow-color: #a5b4fc;`
+ * - --tw-shadow-color: #a5b4fc;
   *
   * @see box_shadow_color
   *
@@ -2409,7 +2409,7 @@ export const shadow_indigo_300 = "shadow-indigo-300";
  * shadow-indigo-400
  *
  * CSS:
- * - `--tw-shadow-color: #818cf8;`
+ * - --tw-shadow-color: #818cf8;
   *
   * @see box_shadow_color
   *
@@ -2422,7 +2422,7 @@ export const shadow_indigo_400 = "shadow-indigo-400";
  * shadow-indigo-500
  *
  * CSS:
- * - `--tw-shadow-color: #6366f1;`
+ * - --tw-shadow-color: #6366f1;
   *
   * @see box_shadow_color
   *
@@ -2435,7 +2435,7 @@ export const shadow_indigo_500 = "shadow-indigo-500";
  * shadow-indigo-600
  *
  * CSS:
- * - `--tw-shadow-color: #4f46e5;`
+ * - --tw-shadow-color: #4f46e5;
   *
   * @see box_shadow_color
   *
@@ -2448,7 +2448,7 @@ export const shadow_indigo_600 = "shadow-indigo-600";
  * shadow-indigo-700
  *
  * CSS:
- * - `--tw-shadow-color: #4338ca;`
+ * - --tw-shadow-color: #4338ca;
   *
   * @see box_shadow_color
   *
@@ -2461,7 +2461,7 @@ export const shadow_indigo_700 = "shadow-indigo-700";
  * shadow-indigo-800
  *
  * CSS:
- * - `--tw-shadow-color: #3730a3;`
+ * - --tw-shadow-color: #3730a3;
   *
   * @see box_shadow_color
   *
@@ -2474,7 +2474,7 @@ export const shadow_indigo_800 = "shadow-indigo-800";
  * shadow-indigo-900
  *
  * CSS:
- * - `--tw-shadow-color: #312e81;`
+ * - --tw-shadow-color: #312e81;
   *
   * @see box_shadow_color
   *
@@ -2487,7 +2487,7 @@ export const shadow_indigo_900 = "shadow-indigo-900";
  * shadow-indigo-950
  *
  * CSS:
- * - `--tw-shadow-color: #1e1b4b;`
+ * - --tw-shadow-color: #1e1b4b;
   *
   * @see box_shadow_color
   *
@@ -2500,7 +2500,7 @@ export const shadow_indigo_950 = "shadow-indigo-950";
  * shadow-violet-50
  *
  * CSS:
- * - `--tw-shadow-color: #f5f3ff;`
+ * - --tw-shadow-color: #f5f3ff;
   *
   * @see box_shadow_color
   *
@@ -2513,7 +2513,7 @@ export const shadow_violet_50 = "shadow-violet-50";
  * shadow-violet-100
  *
  * CSS:
- * - `--tw-shadow-color: #ede9fe;`
+ * - --tw-shadow-color: #ede9fe;
   *
   * @see box_shadow_color
   *
@@ -2526,7 +2526,7 @@ export const shadow_violet_100 = "shadow-violet-100";
  * shadow-violet-200
  *
  * CSS:
- * - `--tw-shadow-color: #ddd6fe;`
+ * - --tw-shadow-color: #ddd6fe;
   *
   * @see box_shadow_color
   *
@@ -2539,7 +2539,7 @@ export const shadow_violet_200 = "shadow-violet-200";
  * shadow-violet-300
  *
  * CSS:
- * - `--tw-shadow-color: #c4b5fd;`
+ * - --tw-shadow-color: #c4b5fd;
   *
   * @see box_shadow_color
   *
@@ -2552,7 +2552,7 @@ export const shadow_violet_300 = "shadow-violet-300";
  * shadow-violet-400
  *
  * CSS:
- * - `--tw-shadow-color: #a78bfa;`
+ * - --tw-shadow-color: #a78bfa;
   *
   * @see box_shadow_color
   *
@@ -2565,7 +2565,7 @@ export const shadow_violet_400 = "shadow-violet-400";
  * shadow-violet-500
  *
  * CSS:
- * - `--tw-shadow-color: #8b5cf6;`
+ * - --tw-shadow-color: #8b5cf6;
   *
   * @see box_shadow_color
   *
@@ -2578,7 +2578,7 @@ export const shadow_violet_500 = "shadow-violet-500";
  * shadow-violet-600
  *
  * CSS:
- * - `--tw-shadow-color: #7c3aed;`
+ * - --tw-shadow-color: #7c3aed;
   *
   * @see box_shadow_color
   *
@@ -2591,7 +2591,7 @@ export const shadow_violet_600 = "shadow-violet-600";
  * shadow-violet-700
  *
  * CSS:
- * - `--tw-shadow-color: #6d28d9;`
+ * - --tw-shadow-color: #6d28d9;
   *
   * @see box_shadow_color
   *
@@ -2604,7 +2604,7 @@ export const shadow_violet_700 = "shadow-violet-700";
  * shadow-violet-800
  *
  * CSS:
- * - `--tw-shadow-color: #5b21b6;`
+ * - --tw-shadow-color: #5b21b6;
   *
   * @see box_shadow_color
   *
@@ -2617,7 +2617,7 @@ export const shadow_violet_800 = "shadow-violet-800";
  * shadow-violet-900
  *
  * CSS:
- * - `--tw-shadow-color: #4c1d95;`
+ * - --tw-shadow-color: #4c1d95;
   *
   * @see box_shadow_color
   *
@@ -2630,7 +2630,7 @@ export const shadow_violet_900 = "shadow-violet-900";
  * shadow-violet-950
  *
  * CSS:
- * - `--tw-shadow-color: #2e1065;`
+ * - --tw-shadow-color: #2e1065;
   *
   * @see box_shadow_color
   *
@@ -2643,7 +2643,7 @@ export const shadow_violet_950 = "shadow-violet-950";
  * shadow-purple-50
  *
  * CSS:
- * - `--tw-shadow-color: #faf5ff;`
+ * - --tw-shadow-color: #faf5ff;
   *
   * @see box_shadow_color
   *
@@ -2656,7 +2656,7 @@ export const shadow_purple_50 = "shadow-purple-50";
  * shadow-purple-100
  *
  * CSS:
- * - `--tw-shadow-color: #f3e8ff;`
+ * - --tw-shadow-color: #f3e8ff;
   *
   * @see box_shadow_color
   *
@@ -2669,7 +2669,7 @@ export const shadow_purple_100 = "shadow-purple-100";
  * shadow-purple-200
  *
  * CSS:
- * - `--tw-shadow-color: #e9d5ff;`
+ * - --tw-shadow-color: #e9d5ff;
   *
   * @see box_shadow_color
   *
@@ -2682,7 +2682,7 @@ export const shadow_purple_200 = "shadow-purple-200";
  * shadow-purple-300
  *
  * CSS:
- * - `--tw-shadow-color: #d8b4fe;`
+ * - --tw-shadow-color: #d8b4fe;
   *
   * @see box_shadow_color
   *
@@ -2695,7 +2695,7 @@ export const shadow_purple_300 = "shadow-purple-300";
  * shadow-purple-400
  *
  * CSS:
- * - `--tw-shadow-color: #c084fc;`
+ * - --tw-shadow-color: #c084fc;
   *
   * @see box_shadow_color
   *
@@ -2708,7 +2708,7 @@ export const shadow_purple_400 = "shadow-purple-400";
  * shadow-purple-500
  *
  * CSS:
- * - `--tw-shadow-color: #a855f7;`
+ * - --tw-shadow-color: #a855f7;
   *
   * @see box_shadow_color
   *
@@ -2721,7 +2721,7 @@ export const shadow_purple_500 = "shadow-purple-500";
  * shadow-purple-600
  *
  * CSS:
- * - `--tw-shadow-color: #9333ea;`
+ * - --tw-shadow-color: #9333ea;
   *
   * @see box_shadow_color
   *
@@ -2734,7 +2734,7 @@ export const shadow_purple_600 = "shadow-purple-600";
  * shadow-purple-700
  *
  * CSS:
- * - `--tw-shadow-color: #7e22ce;`
+ * - --tw-shadow-color: #7e22ce;
   *
   * @see box_shadow_color
   *
@@ -2747,7 +2747,7 @@ export const shadow_purple_700 = "shadow-purple-700";
  * shadow-purple-800
  *
  * CSS:
- * - `--tw-shadow-color: #6b21a8;`
+ * - --tw-shadow-color: #6b21a8;
   *
   * @see box_shadow_color
   *
@@ -2760,7 +2760,7 @@ export const shadow_purple_800 = "shadow-purple-800";
  * shadow-purple-900
  *
  * CSS:
- * - `--tw-shadow-color: #581c87;`
+ * - --tw-shadow-color: #581c87;
   *
   * @see box_shadow_color
   *
@@ -2773,7 +2773,7 @@ export const shadow_purple_900 = "shadow-purple-900";
  * shadow-purple-950
  *
  * CSS:
- * - `--tw-shadow-color: #3b0764;`
+ * - --tw-shadow-color: #3b0764;
   *
   * @see box_shadow_color
   *
@@ -2786,7 +2786,7 @@ export const shadow_purple_950 = "shadow-purple-950";
  * shadow-fuchsia-50
  *
  * CSS:
- * - `--tw-shadow-color: #fdf4ff;`
+ * - --tw-shadow-color: #fdf4ff;
   *
   * @see box_shadow_color
   *
@@ -2799,7 +2799,7 @@ export const shadow_fuchsia_50 = "shadow-fuchsia-50";
  * shadow-fuchsia-100
  *
  * CSS:
- * - `--tw-shadow-color: #fae8ff;`
+ * - --tw-shadow-color: #fae8ff;
   *
   * @see box_shadow_color
   *
@@ -2812,7 +2812,7 @@ export const shadow_fuchsia_100 = "shadow-fuchsia-100";
  * shadow-fuchsia-200
  *
  * CSS:
- * - `--tw-shadow-color: #f5d0fe;`
+ * - --tw-shadow-color: #f5d0fe;
   *
   * @see box_shadow_color
   *
@@ -2825,7 +2825,7 @@ export const shadow_fuchsia_200 = "shadow-fuchsia-200";
  * shadow-fuchsia-300
  *
  * CSS:
- * - `--tw-shadow-color: #f0abfc;`
+ * - --tw-shadow-color: #f0abfc;
   *
   * @see box_shadow_color
   *
@@ -2838,7 +2838,7 @@ export const shadow_fuchsia_300 = "shadow-fuchsia-300";
  * shadow-fuchsia-400
  *
  * CSS:
- * - `--tw-shadow-color: #e879f9;`
+ * - --tw-shadow-color: #e879f9;
   *
   * @see box_shadow_color
   *
@@ -2851,7 +2851,7 @@ export const shadow_fuchsia_400 = "shadow-fuchsia-400";
  * shadow-fuchsia-500
  *
  * CSS:
- * - `--tw-shadow-color: #d946ef;`
+ * - --tw-shadow-color: #d946ef;
   *
   * @see box_shadow_color
   *
@@ -2864,7 +2864,7 @@ export const shadow_fuchsia_500 = "shadow-fuchsia-500";
  * shadow-fuchsia-600
  *
  * CSS:
- * - `--tw-shadow-color: #c026d3;`
+ * - --tw-shadow-color: #c026d3;
   *
   * @see box_shadow_color
   *
@@ -2877,7 +2877,7 @@ export const shadow_fuchsia_600 = "shadow-fuchsia-600";
  * shadow-fuchsia-700
  *
  * CSS:
- * - `--tw-shadow-color: #a21caf;`
+ * - --tw-shadow-color: #a21caf;
   *
   * @see box_shadow_color
   *
@@ -2890,7 +2890,7 @@ export const shadow_fuchsia_700 = "shadow-fuchsia-700";
  * shadow-fuchsia-800
  *
  * CSS:
- * - `--tw-shadow-color: #86198f;`
+ * - --tw-shadow-color: #86198f;
   *
   * @see box_shadow_color
   *
@@ -2903,7 +2903,7 @@ export const shadow_fuchsia_800 = "shadow-fuchsia-800";
  * shadow-fuchsia-900
  *
  * CSS:
- * - `--tw-shadow-color: #701a75;`
+ * - --tw-shadow-color: #701a75;
   *
   * @see box_shadow_color
   *
@@ -2916,7 +2916,7 @@ export const shadow_fuchsia_900 = "shadow-fuchsia-900";
  * shadow-fuchsia-950
  *
  * CSS:
- * - `--tw-shadow-color: #4a044e;`
+ * - --tw-shadow-color: #4a044e;
   *
   * @see box_shadow_color
   *
@@ -2929,7 +2929,7 @@ export const shadow_fuchsia_950 = "shadow-fuchsia-950";
  * shadow-pink-50
  *
  * CSS:
- * - `--tw-shadow-color: #fdf2f8;`
+ * - --tw-shadow-color: #fdf2f8;
   *
   * @see box_shadow_color
   *
@@ -2942,7 +2942,7 @@ export const shadow_pink_50 = "shadow-pink-50";
  * shadow-pink-100
  *
  * CSS:
- * - `--tw-shadow-color: #fce7f3;`
+ * - --tw-shadow-color: #fce7f3;
   *
   * @see box_shadow_color
   *
@@ -2955,7 +2955,7 @@ export const shadow_pink_100 = "shadow-pink-100";
  * shadow-pink-200
  *
  * CSS:
- * - `--tw-shadow-color: #fbcfe8;`
+ * - --tw-shadow-color: #fbcfe8;
   *
   * @see box_shadow_color
   *
@@ -2968,7 +2968,7 @@ export const shadow_pink_200 = "shadow-pink-200";
  * shadow-pink-300
  *
  * CSS:
- * - `--tw-shadow-color: #f9a8d4;`
+ * - --tw-shadow-color: #f9a8d4;
   *
   * @see box_shadow_color
   *
@@ -2981,7 +2981,7 @@ export const shadow_pink_300 = "shadow-pink-300";
  * shadow-pink-400
  *
  * CSS:
- * - `--tw-shadow-color: #f472b6;`
+ * - --tw-shadow-color: #f472b6;
   *
   * @see box_shadow_color
   *
@@ -2994,7 +2994,7 @@ export const shadow_pink_400 = "shadow-pink-400";
  * shadow-pink-500
  *
  * CSS:
- * - `--tw-shadow-color: #ec4899;`
+ * - --tw-shadow-color: #ec4899;
   *
   * @see box_shadow_color
   *
@@ -3007,7 +3007,7 @@ export const shadow_pink_500 = "shadow-pink-500";
  * shadow-pink-600
  *
  * CSS:
- * - `--tw-shadow-color: #db2777;`
+ * - --tw-shadow-color: #db2777;
   *
   * @see box_shadow_color
   *
@@ -3020,7 +3020,7 @@ export const shadow_pink_600 = "shadow-pink-600";
  * shadow-pink-700
  *
  * CSS:
- * - `--tw-shadow-color: #be185d;`
+ * - --tw-shadow-color: #be185d;
   *
   * @see box_shadow_color
   *
@@ -3033,7 +3033,7 @@ export const shadow_pink_700 = "shadow-pink-700";
  * shadow-pink-800
  *
  * CSS:
- * - `--tw-shadow-color: #9d174d;`
+ * - --tw-shadow-color: #9d174d;
   *
   * @see box_shadow_color
   *
@@ -3046,7 +3046,7 @@ export const shadow_pink_800 = "shadow-pink-800";
  * shadow-pink-900
  *
  * CSS:
- * - `--tw-shadow-color: #831843;`
+ * - --tw-shadow-color: #831843;
   *
   * @see box_shadow_color
   *
@@ -3059,7 +3059,7 @@ export const shadow_pink_900 = "shadow-pink-900";
  * shadow-pink-950
  *
  * CSS:
- * - `--tw-shadow-color: #500724;`
+ * - --tw-shadow-color: #500724;
   *
   * @see box_shadow_color
   *
@@ -3072,7 +3072,7 @@ export const shadow_pink_950 = "shadow-pink-950";
  * shadow-rose-50
  *
  * CSS:
- * - `--tw-shadow-color: #fff1f2;`
+ * - --tw-shadow-color: #fff1f2;
   *
   * @see box_shadow_color
   *
@@ -3085,7 +3085,7 @@ export const shadow_rose_50 = "shadow-rose-50";
  * shadow-rose-100
  *
  * CSS:
- * - `--tw-shadow-color: #ffe4e6;`
+ * - --tw-shadow-color: #ffe4e6;
   *
   * @see box_shadow_color
   *
@@ -3098,7 +3098,7 @@ export const shadow_rose_100 = "shadow-rose-100";
  * shadow-rose-200
  *
  * CSS:
- * - `--tw-shadow-color: #fecdd3;`
+ * - --tw-shadow-color: #fecdd3;
   *
   * @see box_shadow_color
   *
@@ -3111,7 +3111,7 @@ export const shadow_rose_200 = "shadow-rose-200";
  * shadow-rose-300
  *
  * CSS:
- * - `--tw-shadow-color: #fda4af;`
+ * - --tw-shadow-color: #fda4af;
   *
   * @see box_shadow_color
   *
@@ -3124,7 +3124,7 @@ export const shadow_rose_300 = "shadow-rose-300";
  * shadow-rose-400
  *
  * CSS:
- * - `--tw-shadow-color: #fb7185;`
+ * - --tw-shadow-color: #fb7185;
   *
   * @see box_shadow_color
   *
@@ -3137,7 +3137,7 @@ export const shadow_rose_400 = "shadow-rose-400";
  * shadow-rose-500
  *
  * CSS:
- * - `--tw-shadow-color: #f43f5e;`
+ * - --tw-shadow-color: #f43f5e;
   *
   * @see box_shadow_color
   *
@@ -3150,7 +3150,7 @@ export const shadow_rose_500 = "shadow-rose-500";
  * shadow-rose-600
  *
  * CSS:
- * - `--tw-shadow-color: #e11d48;`
+ * - --tw-shadow-color: #e11d48;
   *
   * @see box_shadow_color
   *
@@ -3163,7 +3163,7 @@ export const shadow_rose_600 = "shadow-rose-600";
  * shadow-rose-700
  *
  * CSS:
- * - `--tw-shadow-color: #be123c;`
+ * - --tw-shadow-color: #be123c;
   *
   * @see box_shadow_color
   *
@@ -3176,7 +3176,7 @@ export const shadow_rose_700 = "shadow-rose-700";
  * shadow-rose-800
  *
  * CSS:
- * - `--tw-shadow-color: #9f1239;`
+ * - --tw-shadow-color: #9f1239;
   *
   * @see box_shadow_color
   *
@@ -3189,7 +3189,7 @@ export const shadow_rose_800 = "shadow-rose-800";
  * shadow-rose-900
  *
  * CSS:
- * - `--tw-shadow-color: #881337;`
+ * - --tw-shadow-color: #881337;
   *
   * @see box_shadow_color
   *
@@ -3202,7 +3202,7 @@ export const shadow_rose_900 = "shadow-rose-900";
  * shadow-rose-950
  *
  * CSS:
- * - `--tw-shadow-color: #4c0519;`
+ * - --tw-shadow-color: #4c0519;
   *
   * @see box_shadow_color
   *

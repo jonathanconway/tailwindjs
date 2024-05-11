@@ -76,7 +76,7 @@ Utilities for controlling the box shadow of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `shadow` | [shadow](https://tailwindcss.com/docs/box-shadow#arbitrary-values) |
+| `shadow_arbitrary`, `shadow_arb` | [shadow-[…]](https://tailwindcss.com/docs/box-shadow#arbitrary-values) |
 
 
 
@@ -349,28 +349,28 @@ Utilities for controlling the color of a box shadow.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `shadow_amber` | [shadow-amber](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_blue` | [shadow-blue](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_cyan` | [shadow-cyan](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_emerald` | [shadow-emerald](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_fuchsia` | [shadow-fuchsia](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_gray` | [shadow-gray](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_green` | [shadow-green](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_indigo` | [shadow-indigo](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_lime` | [shadow-lime](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_neutral` | [shadow-neutral](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_orange` | [shadow-orange](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_pink` | [shadow-pink](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_purple` | [shadow-purple](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_red` | [shadow-red](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_rose` | [shadow-rose](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_sky` | [shadow-sky](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_slate` | [shadow-slate](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_stone` | [shadow-stone](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_teal` | [shadow-teal](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_violet` | [shadow-violet](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_yellow` | [shadow-yellow](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
-| `shadow_zinc` | [shadow-zinc](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_amber_arbitrary`, `shadow_amber_arb` | [shadow-amber-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_blue_arbitrary`, `shadow_blue_arb` | [shadow-blue-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_cyan_arbitrary`, `shadow_cyan_arb` | [shadow-cyan-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_emerald_arbitrary`, `shadow_emerald_arb` | [shadow-emerald-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_fuchsia_arbitrary`, `shadow_fuchsia_arb` | [shadow-fuchsia-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_gray_arbitrary`, `shadow_gray_arb` | [shadow-gray-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_green_arbitrary`, `shadow_green_arb` | [shadow-green-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_indigo_arbitrary`, `shadow_indigo_arb` | [shadow-indigo-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_lime_arbitrary`, `shadow_lime_arb` | [shadow-lime-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_neutral_arbitrary`, `shadow_neutral_arb` | [shadow-neutral-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_orange_arbitrary`, `shadow_orange_arb` | [shadow-orange-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_pink_arbitrary`, `shadow_pink_arb` | [shadow-pink-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_purple_arbitrary`, `shadow_purple_arb` | [shadow-purple-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_red_arbitrary`, `shadow_red_arb` | [shadow-red-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_rose_arbitrary`, `shadow_rose_arb` | [shadow-rose-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_sky_arbitrary`, `shadow_sky_arb` | [shadow-sky-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_slate_arbitrary`, `shadow_slate_arb` | [shadow-slate-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_stone_arbitrary`, `shadow_stone_arb` | [shadow-stone-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_teal_arbitrary`, `shadow_teal_arb` | [shadow-teal-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_violet_arbitrary`, `shadow_violet_arb` | [shadow-violet-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_yellow_arbitrary`, `shadow_yellow_arb` | [shadow-yellow-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
+| `shadow_zinc_arbitrary`, `shadow_zinc_arb` | [shadow-zinc-[…]](https://tailwindcss.com/docs/box-shadow-color#arbitrary-values) |
 
 
 
@@ -455,6 +455,6 @@ Utilities for controlling the opacity of an element.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `opacity` | [opacity](https://tailwindcss.com/docs/opacity#arbitrary-values) |
+| `opacity_arbitrary`, `opacity_arb` | [opacity-[…]](https://tailwindcss.com/docs/opacity#arbitrary-values) |
 
 

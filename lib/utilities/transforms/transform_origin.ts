@@ -4,7 +4,7 @@
  * origin-center
  *
  * CSS:
- * - `transform-origin: center;`
+ * - transform-origin: center;
   *
   * @see transform_origin
   *
@@ -17,7 +17,7 @@ export const origin_center = "origin-center";
  * origin-top
  *
  * CSS:
- * - `transform-origin: top;`
+ * - transform-origin: top;
   *
   * @see transform_origin
   *
@@ -30,7 +30,7 @@ export const origin_top = "origin-top";
  * origin-top-right
  *
  * CSS:
- * - `transform-origin: top right;`
+ * - transform-origin: top right;
   *
   * @see transform_origin
   *
@@ -43,7 +43,7 @@ export const origin_top_right = "origin-top-right";
  * origin-right
  *
  * CSS:
- * - `transform-origin: right;`
+ * - transform-origin: right;
   *
   * @see transform_origin
   *
@@ -56,7 +56,7 @@ export const origin_right = "origin-right";
  * origin-bottom-right
  *
  * CSS:
- * - `transform-origin: bottom right;`
+ * - transform-origin: bottom right;
   *
   * @see transform_origin
   *
@@ -69,7 +69,7 @@ export const origin_bottom_right = "origin-bottom-right";
  * origin-bottom
  *
  * CSS:
- * - `transform-origin: bottom;`
+ * - transform-origin: bottom;
   *
   * @see transform_origin
   *
@@ -82,7 +82,7 @@ export const origin_bottom = "origin-bottom";
  * origin-bottom-left
  *
  * CSS:
- * - `transform-origin: bottom left;`
+ * - transform-origin: bottom left;
   *
   * @see transform_origin
   *
@@ -95,7 +95,7 @@ export const origin_bottom_left = "origin-bottom-left";
  * origin-left
  *
  * CSS:
- * - `transform-origin: left;`
+ * - transform-origin: left;
   *
   * @see transform_origin
   *
@@ -108,7 +108,7 @@ export const origin_left = "origin-left";
  * origin-top-left
  *
  * CSS:
- * - `transform-origin: top left;`
+ * - transform-origin: top left;
   *
   * @see transform_origin
   *

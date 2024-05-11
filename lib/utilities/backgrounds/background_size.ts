@@ -4,7 +4,7 @@
  * bg-auto
  *
  * CSS:
- * - `background-size: auto;`
+ * - background-size: auto;
   *
   * @see background_size
   *
@@ -17,7 +17,7 @@ export const bg_auto = "bg-auto";
  * bg-cover
  *
  * CSS:
- * - `background-size: cover;`
+ * - background-size: cover;
   *
   * @see background_size
   *
@@ -30,7 +30,7 @@ export const bg_cover = "bg-cover";
  * bg-contain
  *
  * CSS:
- * - `background-size: contain;`
+ * - background-size: contain;
   *
   * @see background_size
   *

@@ -4,7 +4,7 @@
  * bg-none
  *
  * CSS:
- * - `background-image: none;`
+ * - background-image: none;
   *
   * @see background_image
   *
@@ -17,7 +17,7 @@ export const bg_none = "bg-none";
  * bg-gradient-to-t
  *
  * CSS:
- * - `background-image: linear-gradient(to top, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to top, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -30,7 +30,7 @@ export const bg_gradient_to_t = "bg-gradient-to-t";
  * bg-gradient-to-tr
  *
  * CSS:
- * - `background-image: linear-gradient(to top right, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to top right, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -43,7 +43,7 @@ export const bg_gradient_to_tr = "bg-gradient-to-tr";
  * bg-gradient-to-r
  *
  * CSS:
- * - `background-image: linear-gradient(to right, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to right, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -56,7 +56,7 @@ export const bg_gradient_to_r = "bg-gradient-to-r";
  * bg-gradient-to-br
  *
  * CSS:
- * - `background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -69,7 +69,7 @@ export const bg_gradient_to_br = "bg-gradient-to-br";
  * bg-gradient-to-b
  *
  * CSS:
- * - `background-image: linear-gradient(to bottom, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -82,7 +82,7 @@ export const bg_gradient_to_b = "bg-gradient-to-b";
  * bg-gradient-to-bl
  *
  * CSS:
- * - `background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -95,7 +95,7 @@ export const bg_gradient_to_bl = "bg-gradient-to-bl";
  * bg-gradient-to-l
  *
  * CSS:
- * - `background-image: linear-gradient(to left, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to left, var(--tw-gradient-stops));
   *
   * @see background_image
   *
@@ -108,7 +108,7 @@ export const bg_gradient_to_l = "bg-gradient-to-l";
  * bg-gradient-to-tl
  *
  * CSS:
- * - `background-image: linear-gradient(to top left, var(--tw-gradient-stops));`
+ * - background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   *
   * @see background_image
   *

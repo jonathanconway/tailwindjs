@@ -4,7 +4,7 @@
  * ease-linear
  *
  * CSS:
- * - `transition-timing-function: linear;`
+ * - transition-timing-function: linear;
   *
   * @see transition_timing_function
   *
@@ -17,7 +17,7 @@ export const ease_linear = "ease-linear";
  * ease-in
  *
  * CSS:
- * - `transition-timing-function: cubic-bezier(0.4, 0, 1, 1);`
+ * - transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
   *
   * @see transition_timing_function
   *
@@ -30,7 +30,7 @@ export const ease_in = "ease-in";
  * ease-out
  *
  * CSS:
- * - `transition-timing-function: cubic-bezier(0, 0, 0.2, 1);`
+ * - transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   *
   * @see transition_timing_function
   *
@@ -43,7 +43,7 @@ export const ease_out = "ease-out";
  * ease-in-out
  *
  * CSS:
- * - `transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);`
+ * - transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   *
   * @see transition_timing_function
   *

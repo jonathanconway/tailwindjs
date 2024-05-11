@@ -354,15 +354,15 @@ Utilities for controlling an element's margin.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `m` | [m](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `mb` | [mb](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `me` | [me](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `ml` | [ml](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `mr` | [mr](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `ms` | [ms](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `mt` | [mt](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `mx` | [mx](https://tailwindcss.com/docs/margin#arbitrary-values) |
-| `my` | [my](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `m_arbitrary`, `m_arb` | [m-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `mb_arbitrary`, `mb_arb` | [mb-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `me_arbitrary`, `me_arb` | [me-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `ml_arbitrary`, `ml_arb` | [ml-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `mr_arbitrary`, `mr_arb` | [mr-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `ms_arbitrary`, `ms_arb` | [ms-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `mt_arbitrary`, `mt_arb` | [mt-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `mx_arbitrary`, `mx_arb` | [mx-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
+| `my_arbitrary`, `my_arb` | [my-[…]](https://tailwindcss.com/docs/margin#arbitrary-values) |
 
 
 
@@ -703,15 +703,15 @@ Utilities for controlling an element's padding.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `p` | [p](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `pb` | [pb](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `pe` | [pe](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `pl` | [pl](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `pr` | [pr](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `ps` | [ps](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `pt` | [pt](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `px` | [px](https://tailwindcss.com/docs/padding#arbitrary-values) |
-| `py` | [py](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `p_arbitrary`, `p_arb` | [p-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `pb_arbitrary`, `pb_arb` | [pb-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `pe_arbitrary`, `pe_arb` | [pe-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `pl_arbitrary`, `pl_arb` | [pl-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `pr_arbitrary`, `pr_arb` | [pr-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `ps_arbitrary`, `ps_arb` | [ps-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `pt_arbitrary`, `pt_arb` | [pt-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `px_arbitrary`, `px_arb` | [px-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
+| `py_arbitrary`, `py_arb` | [py-[…]](https://tailwindcss.com/docs/padding#arbitrary-values) |
 
 
 
@@ -809,7 +809,7 @@ Utilities for controlling the space between child elements.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `space_x` | [space-x](https://tailwindcss.com/docs/space#arbitrary-values) |
-| `space_y` | [space-y](https://tailwindcss.com/docs/space#arbitrary-values) |
+| `space_x_arbitrary`, `space_x_arb` | [space-x-[…]](https://tailwindcss.com/docs/space#arbitrary-values) |
+| `space_y_arbitrary`, `space_y_arb` | [space-y-[…]](https://tailwindcss.com/docs/space#arbitrary-values) |
 
 

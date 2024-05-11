@@ -4,7 +4,7 @@
  * z-0
  *
  * CSS:
- * - `z-index: 0;`
+ * - z-index: 0;
   *
   * @see z_index
   *
@@ -17,7 +17,7 @@ export const z_0 = "z-0";
  * z-10
  *
  * CSS:
- * - `z-index: 10;`
+ * - z-index: 10;
   *
   * @see z_index
   *
@@ -30,7 +30,7 @@ export const z_10 = "z-10";
  * z-20
  *
  * CSS:
- * - `z-index: 20;`
+ * - z-index: 20;
   *
   * @see z_index
   *
@@ -43,7 +43,7 @@ export const z_20 = "z-20";
  * z-30
  *
  * CSS:
- * - `z-index: 30;`
+ * - z-index: 30;
   *
   * @see z_index
   *
@@ -56,7 +56,7 @@ export const z_30 = "z-30";
  * z-40
  *
  * CSS:
- * - `z-index: 40;`
+ * - z-index: 40;
   *
   * @see z_index
   *
@@ -69,7 +69,7 @@ export const z_40 = "z-40";
  * z-50
  *
  * CSS:
- * - `z-index: 50;`
+ * - z-index: 50;
   *
   * @see z_index
   *
@@ -82,7 +82,7 @@ export const z_50 = "z-50";
  * z-auto
  *
  * CSS:
- * - `z-index: auto;`
+ * - z-index: auto;
   *
   * @see z_index
   *

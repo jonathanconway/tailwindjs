@@ -4,7 +4,7 @@
  * flex-1
  *
  * CSS:
- * - `flex: 1 1 0%;`
+ * - flex: 1 1 0%;
   *
   * @see flex
   *
@@ -17,7 +17,7 @@ export const flex_1 = "flex-1";
  * flex-auto
  *
  * CSS:
- * - `flex: 1 1 auto;`
+ * - flex: 1 1 auto;
   *
   * @see flex
   *
@@ -30,7 +30,7 @@ export const flex_auto = "flex-auto";
  * flex-initial
  *
  * CSS:
- * - `flex: 0 1 auto;`
+ * - flex: 0 1 auto;
   *
   * @see flex
   *
@@ -43,7 +43,7 @@ export const flex_initial = "flex-initial";
  * flex-none
  *
  * CSS:
- * - `flex: none;`
+ * - flex: none;
   *
   * @see flex
   *

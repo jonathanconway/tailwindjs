@@ -4,7 +4,7 @@
  * rotate-0
  *
  * CSS:
- * - `transform: rotate(0deg);`
+ * - transform: rotate(0deg);
   *
   * @see rotate
   *
@@ -17,7 +17,7 @@ export const rotate_0 = "rotate-0";
  * rotate-1
  *
  * CSS:
- * - `transform: rotate(1deg);`
+ * - transform: rotate(1deg);
   *
   * @see rotate
   *
@@ -30,7 +30,7 @@ export const rotate_1 = "rotate-1";
  * rotate-2
  *
  * CSS:
- * - `transform: rotate(2deg);`
+ * - transform: rotate(2deg);
   *
   * @see rotate
   *
@@ -43,7 +43,7 @@ export const rotate_2 = "rotate-2";
  * rotate-3
  *
  * CSS:
- * - `transform: rotate(3deg);`
+ * - transform: rotate(3deg);
   *
   * @see rotate
   *
@@ -56,7 +56,7 @@ export const rotate_3 = "rotate-3";
  * rotate-6
  *
  * CSS:
- * - `transform: rotate(6deg);`
+ * - transform: rotate(6deg);
   *
   * @see rotate
   *
@@ -69,7 +69,7 @@ export const rotate_6 = "rotate-6";
  * rotate-12
  *
  * CSS:
- * - `transform: rotate(12deg);`
+ * - transform: rotate(12deg);
   *
   * @see rotate
   *
@@ -82,7 +82,7 @@ export const rotate_12 = "rotate-12";
  * rotate-45
  *
  * CSS:
- * - `transform: rotate(45deg);`
+ * - transform: rotate(45deg);
   *
   * @see rotate
   *
@@ -95,7 +95,7 @@ export const rotate_45 = "rotate-45";
  * rotate-90
  *
  * CSS:
- * - `transform: rotate(90deg);`
+ * - transform: rotate(90deg);
   *
   * @see rotate
   *
@@ -108,7 +108,7 @@ export const rotate_90 = "rotate-90";
  * rotate-180
  *
  * CSS:
- * - `transform: rotate(180deg);`
+ * - transform: rotate(180deg);
   *
   * @see rotate
   *

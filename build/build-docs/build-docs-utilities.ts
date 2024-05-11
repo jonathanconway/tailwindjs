@@ -13,6 +13,7 @@ import {
   genMdPrimitivesTable,
   genMdTable,
   genMdBlock,
+  genMdArbitrariesTable,
 } from "../utils/md-gen.utils";
 
 const docsPath = `${__dirname}/../../docs`;
@@ -80,7 +81,7 @@ function genDocsUtilitiesAreaGroupUtilitiesBlock(group: UtilityGroup) {
 }
 
 function genDocsUtilitiesAreaGroupArbitrariesBlock(group: UtilityGroup) {
-  return genMdBlock("Arbitraries", genMdPrimitivesTable(group.arbitraries));
+  return genMdBlock("Arbitraries", genMdArbitrariesTable(group.arbitraries));
 }
 
 function writeDocsUtilitiesAreaFile(area: UtilityArea, content: string) {

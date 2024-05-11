@@ -4,7 +4,7 @@
  * sepia-0
  *
  * CSS:
- * - `filter: sepia(0);`
+ * - filter: sepia(0);
   *
   * @see sepia
   *
@@ -17,7 +17,7 @@ export const sepia_0 = "sepia-0";
  * sepia
  *
  * CSS:
- * - `filter: sepia(100%);`
+ * - filter: sepia(100%);
   *
   * @see sepia
   *

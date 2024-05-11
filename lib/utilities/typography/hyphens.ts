@@ -4,7 +4,7 @@
  * hyphens-none
  *
  * CSS:
- * - `hyphens: none;`
+ * - hyphens: none;
   *
   * @see hyphens
   *
@@ -17,7 +17,7 @@ export const hyphens_none = "hyphens-none";
  * hyphens-manual
  *
  * CSS:
- * - `hyphens: manual;`
+ * - hyphens: manual;
   *
   * @see hyphens
   *
@@ -30,7 +30,7 @@ export const hyphens_manual = "hyphens-manual";
  * hyphens-auto
  *
  * CSS:
- * - `hyphens: auto;`
+ * - hyphens: auto;
   *
   * @see hyphens
   *

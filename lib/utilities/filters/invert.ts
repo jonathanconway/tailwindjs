@@ -4,7 +4,7 @@
  * invert-0
  *
  * CSS:
- * - `filter: invert(0);`
+ * - filter: invert(0);
   *
   * @see invert
   *
@@ -17,7 +17,7 @@ export const invert_0 = "invert-0";
  * invert
  *
  * CSS:
- * - `filter: invert(100%);`
+ * - filter: invert(100%);
   *
   * @see invert
   *

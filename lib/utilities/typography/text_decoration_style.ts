@@ -4,7 +4,7 @@
  * decoration-solid
  *
  * CSS:
- * - `text-decoration-style: solid;`
+ * - text-decoration-style: solid;
   *
   * @see text_decoration_style
   *
@@ -17,7 +17,7 @@ export const decoration_solid = "decoration-solid";
  * decoration-double
  *
  * CSS:
- * - `text-decoration-style: double;`
+ * - text-decoration-style: double;
   *
   * @see text_decoration_style
   *
@@ -30,7 +30,7 @@ export const decoration_double = "decoration-double";
  * decoration-dotted
  *
  * CSS:
- * - `text-decoration-style: dotted;`
+ * - text-decoration-style: dotted;
   *
   * @see text_decoration_style
   *
@@ -43,7 +43,7 @@ export const decoration_dotted = "decoration-dotted";
  * decoration-dashed
  *
  * CSS:
- * - `text-decoration-style: dashed;`
+ * - text-decoration-style: dashed;
   *
   * @see text_decoration_style
   *
@@ -56,7 +56,7 @@ export const decoration_dashed = "decoration-dashed";
  * decoration-wavy
  *
  * CSS:
- * - `text-decoration-style: wavy;`
+ * - text-decoration-style: wavy;
   *
   * @see text_decoration_style
   *

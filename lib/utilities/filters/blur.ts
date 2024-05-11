@@ -4,7 +4,7 @@
  * blur-none
  *
  * CSS:
- * - `filter: blur(0);`
+ * - filter: blur(0);
   *
   * @see blur
   *
@@ -17,7 +17,7 @@ export const blur_none = "blur-none";
  * blur-sm
  *
  * CSS:
- * - `filter: blur(4px);`
+ * - filter: blur(4px);
   *
   * @see blur
   *
@@ -30,7 +30,7 @@ export const blur_sm = "blur-sm";
  * blur
  *
  * CSS:
- * - `filter: blur(8px);`
+ * - filter: blur(8px);
   *
   * @see blur
   *
@@ -43,7 +43,7 @@ export const blur = "blur";
  * blur-md
  *
  * CSS:
- * - `filter: blur(12px);`
+ * - filter: blur(12px);
   *
   * @see blur
   *
@@ -56,7 +56,7 @@ export const blur_md = "blur-md";
  * blur-lg
  *
  * CSS:
- * - `filter: blur(16px);`
+ * - filter: blur(16px);
   *
   * @see blur
   *
@@ -69,7 +69,7 @@ export const blur_lg = "blur-lg";
  * blur-xl
  *
  * CSS:
- * - `filter: blur(24px);`
+ * - filter: blur(24px);
   *
   * @see blur
   *
@@ -82,7 +82,7 @@ export const blur_xl = "blur-xl";
  * blur-2xl
  *
  * CSS:
- * - `filter: blur(40px);`
+ * - filter: blur(40px);
   *
   * @see blur
   *
@@ -95,7 +95,7 @@ export const blur_2xl = "blur-2xl";
  * blur-3xl
  *
  * CSS:
- * - `filter: blur(64px);`
+ * - filter: blur(64px);
   *
   * @see blur
   *

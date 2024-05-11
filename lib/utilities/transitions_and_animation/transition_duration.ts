@@ -4,7 +4,7 @@
  * duration-0
  *
  * CSS:
- * - `transition-duration: 0s;`
+ * - transition-duration: 0s;
   *
   * @see transition_duration
   *
@@ -17,7 +17,7 @@ export const duration_0 = "duration-0";
  * duration-75
  *
  * CSS:
- * - `transition-duration: 75ms;`
+ * - transition-duration: 75ms;
   *
   * @see transition_duration
   *
@@ -30,7 +30,7 @@ export const duration_75 = "duration-75";
  * duration-100
  *
  * CSS:
- * - `transition-duration: 100ms;`
+ * - transition-duration: 100ms;
   *
   * @see transition_duration
   *
@@ -43,7 +43,7 @@ export const duration_100 = "duration-100";
  * duration-150
  *
  * CSS:
- * - `transition-duration: 150ms;`
+ * - transition-duration: 150ms;
   *
   * @see transition_duration
   *
@@ -56,7 +56,7 @@ export const duration_150 = "duration-150";
  * duration-200
  *
  * CSS:
- * - `transition-duration: 200ms;`
+ * - transition-duration: 200ms;
   *
   * @see transition_duration
   *
@@ -69,7 +69,7 @@ export const duration_200 = "duration-200";
  * duration-300
  *
  * CSS:
- * - `transition-duration: 300ms;`
+ * - transition-duration: 300ms;
   *
   * @see transition_duration
   *
@@ -82,7 +82,7 @@ export const duration_300 = "duration-300";
  * duration-500
  *
  * CSS:
- * - `transition-duration: 500ms;`
+ * - transition-duration: 500ms;
   *
   * @see transition_duration
   *
@@ -95,7 +95,7 @@ export const duration_500 = "duration-500";
  * duration-700
  *
  * CSS:
- * - `transition-duration: 700ms;`
+ * - transition-duration: 700ms;
   *
   * @see transition_duration
   *
@@ -108,7 +108,7 @@ export const duration_700 = "duration-700";
  * duration-1000
  *
  * CSS:
- * - `transition-duration: 1000ms;`
+ * - transition-duration: 1000ms;
   *
   * @see transition_duration
   *

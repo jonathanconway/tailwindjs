@@ -4,7 +4,7 @@
  * box-border
  *
  * CSS:
- * - `box-sizing: border-box;`
+ * - box-sizing: border-box;
   *
   * @see box_sizing
   *
@@ -17,7 +17,7 @@ export const box_border = "box-border";
  * box-content
  *
  * CSS:
- * - `box-sizing: content-box;`
+ * - box-sizing: content-box;
   *
   * @see box_sizing
   *

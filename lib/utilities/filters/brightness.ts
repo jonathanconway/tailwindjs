@@ -4,7 +4,7 @@
  * brightness-0
  *
  * CSS:
- * - `filter: brightness(0);`
+ * - filter: brightness(0);
   *
   * @see brightness
   *
@@ -17,7 +17,7 @@ export const brightness_0 = "brightness-0";
  * brightness-50
  *
  * CSS:
- * - `filter: brightness(.5);`
+ * - filter: brightness(.5);
   *
   * @see brightness
   *
@@ -30,7 +30,7 @@ export const brightness_50 = "brightness-50";
  * brightness-75
  *
  * CSS:
- * - `filter: brightness(.75);`
+ * - filter: brightness(.75);
   *
   * @see brightness
   *
@@ -43,7 +43,7 @@ export const brightness_75 = "brightness-75";
  * brightness-90
  *
  * CSS:
- * - `filter: brightness(.9);`
+ * - filter: brightness(.9);
   *
   * @see brightness
   *
@@ -56,7 +56,7 @@ export const brightness_90 = "brightness-90";
  * brightness-95
  *
  * CSS:
- * - `filter: brightness(.95);`
+ * - filter: brightness(.95);
   *
   * @see brightness
   *
@@ -69,7 +69,7 @@ export const brightness_95 = "brightness-95";
  * brightness-100
  *
  * CSS:
- * - `filter: brightness(1);`
+ * - filter: brightness(1);
   *
   * @see brightness
   *
@@ -82,7 +82,7 @@ export const brightness_100 = "brightness-100";
  * brightness-105
  *
  * CSS:
- * - `filter: brightness(1.05);`
+ * - filter: brightness(1.05);
   *
   * @see brightness
   *
@@ -95,7 +95,7 @@ export const brightness_105 = "brightness-105";
  * brightness-110
  *
  * CSS:
- * - `filter: brightness(1.1);`
+ * - filter: brightness(1.1);
   *
   * @see brightness
   *
@@ -108,7 +108,7 @@ export const brightness_110 = "brightness-110";
  * brightness-125
  *
  * CSS:
- * - `filter: brightness(1.25);`
+ * - filter: brightness(1.25);
   *
   * @see brightness
   *
@@ -121,7 +121,7 @@ export const brightness_125 = "brightness-125";
  * brightness-150
  *
  * CSS:
- * - `filter: brightness(1.5);`
+ * - filter: brightness(1.5);
   *
   * @see brightness
   *
@@ -134,7 +134,7 @@ export const brightness_150 = "brightness-150";
  * brightness-200
  *
  * CSS:
- * - `filter: brightness(2);`
+ * - filter: brightness(2);
   *
   * @see brightness
   *

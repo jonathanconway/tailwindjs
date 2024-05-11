@@ -4,7 +4,7 @@
  * shrink
  *
  * CSS:
- * - `flex-shrink: 1;`
+ * - flex-shrink: 1;
   *
   * @see flex_shrink
   *
@@ -17,7 +17,7 @@ export const shrink = "shrink";
  * shrink-0
  *
  * CSS:
- * - `flex-shrink: 0;`
+ * - flex-shrink: 0;
   *
   * @see flex_shrink
   *

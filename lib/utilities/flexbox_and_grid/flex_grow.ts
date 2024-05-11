@@ -4,7 +4,7 @@
  * grow
  *
  * CSS:
- * - `flex-grow: 1;`
+ * - flex-grow: 1;
   *
   * @see flex_grow
   *
@@ -17,7 +17,7 @@ export const grow = "grow";
  * grow-0
  *
  * CSS:
- * - `flex-grow: 0;`
+ * - flex-grow: 0;
   *
   * @see flex_grow
   *

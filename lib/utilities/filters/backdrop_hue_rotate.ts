@@ -4,7 +4,7 @@
  * backdrop-hue-rotate-0
  *
  * CSS:
- * - `backdrop-filter: hue-rotate(0deg);`
+ * - backdrop-filter: hue-rotate(0deg);
   *
   * @see backdrop_hue_rotate
   *
@@ -17,7 +17,7 @@ export const backdrop_hue_rotate_0 = "backdrop-hue-rotate-0";
  * backdrop-hue-rotate-15
  *
  * CSS:
- * - `backdrop-filter: hue-rotate(15deg);`
+ * - backdrop-filter: hue-rotate(15deg);
   *
   * @see backdrop_hue_rotate
   *
@@ -30,7 +30,7 @@ export const backdrop_hue_rotate_15 = "backdrop-hue-rotate-15";
  * backdrop-hue-rotate-30
  *
  * CSS:
- * - `backdrop-filter: hue-rotate(30deg);`
+ * - backdrop-filter: hue-rotate(30deg);
   *
   * @see backdrop_hue_rotate
   *
@@ -43,7 +43,7 @@ export const backdrop_hue_rotate_30 = "backdrop-hue-rotate-30";
  * backdrop-hue-rotate-60
  *
  * CSS:
- * - `backdrop-filter: hue-rotate(60deg);`
+ * - backdrop-filter: hue-rotate(60deg);
   *
   * @see backdrop_hue_rotate
   *
@@ -56,7 +56,7 @@ export const backdrop_hue_rotate_60 = "backdrop-hue-rotate-60";
  * backdrop-hue-rotate-90
  *
  * CSS:
- * - `backdrop-filter: hue-rotate(90deg);`
+ * - backdrop-filter: hue-rotate(90deg);
   *
   * @see backdrop_hue_rotate
   *
@@ -69,7 +69,7 @@ export const backdrop_hue_rotate_90 = "backdrop-hue-rotate-90";
  * backdrop-hue-rotate-180
  *
  * CSS:
- * - `backdrop-filter: hue-rotate(180deg);`
+ * - backdrop-filter: hue-rotate(180deg);
   *
   * @see backdrop_hue_rotate
   *

@@ -4,7 +4,7 @@
  * saturate-0
  *
  * CSS:
- * - `filter: saturate(0);`
+ * - filter: saturate(0);
   *
   * @see saturate
   *
@@ -17,7 +17,7 @@ export const saturate_0 = "saturate-0";
  * saturate-50
  *
  * CSS:
- * - `filter: saturate(.5);`
+ * - filter: saturate(.5);
   *
   * @see saturate
   *
@@ -30,7 +30,7 @@ export const saturate_50 = "saturate-50";
  * saturate-100
  *
  * CSS:
- * - `filter: saturate(1);`
+ * - filter: saturate(1);
   *
   * @see saturate
   *
@@ -43,7 +43,7 @@ export const saturate_100 = "saturate-100";
  * saturate-150
  *
  * CSS:
- * - `filter: saturate(1.5);`
+ * - filter: saturate(1.5);
   *
   * @see saturate
   *
@@ -56,7 +56,7 @@ export const saturate_150 = "saturate-150";
  * saturate-200
  *
  * CSS:
- * - `filter: saturate(2);`
+ * - filter: saturate(2);
   *
   * @see saturate
   *

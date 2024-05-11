@@ -4,7 +4,7 @@
  * list-image-none
  *
  * CSS:
- * - `list-style-image: none;`
+ * - list-style-image: none;
   *
   * @see list_style_image
   *

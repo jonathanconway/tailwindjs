@@ -10,7 +10,7 @@ export function genLibUtilityGroupUtilitiesCode(group: UtilityGroup) {
  *
  * CSS:
 ${cssProperties
-  .map((cssProperty) => ` * - \`${prepareComment(cssProperty)}\``)
+  .map((cssProperty) => ` * - ${prepareComment(cssProperty)}`)
   .join("\n")}
   *
   * @see ${tailwindCssUrl}

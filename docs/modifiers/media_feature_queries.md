@@ -36,6 +36,6 @@ Media and feature queries, like responsive breakpoints, dark mode, and prefers-r
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `max_arbitrary` | [max-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#responsive-breakpoints) |
-| `min_arbitrary` | [min-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#responsive-breakpoints) |
-| `supports_arbitrary` | [supports-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#supports-rules) |
+| `max_arbitrary`, `max_arb` | [max-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#responsive-breakpoints) |
+| `min_arbitrary`, `min_arb` | [min-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#responsive-breakpoints) |
+| `supports_arbitrary`, `supports_arb` | [supports-[…]](https://tailwindcss.com/docs/hover-focus-and-other-states#supports-rules) |

@@ -37,7 +37,7 @@ Utilities for animating elements with CSS animations.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `animate` | [animate](https://tailwindcss.com/docs/animation#arbitrary-values) |
+| `animate_arbitrary`, `animate_arb` | [animate-[…]](https://tailwindcss.com/docs/animation#arbitrary-values) |
 
 
 
@@ -72,7 +72,7 @@ Utilities for controlling the delay of CSS transitions.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `delay` | [delay](https://tailwindcss.com/docs/transition-delay#arbitrary-values) |
+| `delay_arbitrary`, `delay_arb` | [delay-[…]](https://tailwindcss.com/docs/transition-delay#arbitrary-values) |
 
 
 
@@ -107,7 +107,7 @@ Utilities for controlling the duration of CSS transitions.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `duration` | [duration](https://tailwindcss.com/docs/transition-duration#arbitrary-values) |
+| `duration_arbitrary`, `duration_arb` | [duration-[…]](https://tailwindcss.com/docs/transition-duration#arbitrary-values) |
 
 
 
@@ -140,7 +140,7 @@ Utilities for controlling which CSS properties transition.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `transition` | [transition](https://tailwindcss.com/docs/transition-property#arbitrary-values) |
+| `transition_arbitrary`, `transition_arb` | [transition-[…]](https://tailwindcss.com/docs/transition-property#arbitrary-values) |
 
 
 
@@ -170,7 +170,7 @@ Utilities for controlling the easing of CSS transitions.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `ease` | [ease](https://tailwindcss.com/docs/transition-timing-function#arbitrary-values) |
-| `ease_in` | [ease-in](https://tailwindcss.com/docs/transition-timing-function#arbitrary-values) |
+| `ease_arbitrary`, `ease_arb` | [ease-[…]](https://tailwindcss.com/docs/transition-timing-function#arbitrary-values) |
+| `ease_in_arbitrary`, `ease_in_arb` | [ease-in-[…]](https://tailwindcss.com/docs/transition-timing-function#arbitrary-values) |
 
 

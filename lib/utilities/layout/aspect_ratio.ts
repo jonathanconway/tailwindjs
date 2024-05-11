@@ -4,7 +4,7 @@
  * aspect-auto
  *
  * CSS:
- * - `aspect-ratio: auto;`
+ * - aspect-ratio: auto;
   *
   * @see aspect_ratio
   *
@@ -17,7 +17,7 @@ export const aspect_auto = "aspect-auto";
  * aspect-square
  *
  * CSS:
- * - `aspect-ratio: 1 \/ 1;`
+ * - aspect-ratio: 1 \/ 1;
   *
   * @see aspect_ratio
   *
@@ -30,7 +30,7 @@ export const aspect_square = "aspect-square";
  * aspect-video
  *
  * CSS:
- * - `aspect-ratio: 16 \/ 9;`
+ * - aspect-ratio: 16 \/ 9;
   *
   * @see aspect_ratio
   *

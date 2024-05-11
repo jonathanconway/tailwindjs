@@ -330,29 +330,29 @@ Utilities for controlling an element's background color.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `bg` | [bg](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_amber` | [bg-amber](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_blue` | [bg-blue](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_cyan` | [bg-cyan](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_emerald` | [bg-emerald](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_fuchsia` | [bg-fuchsia](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_gray` | [bg-gray](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_green` | [bg-green](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_indigo` | [bg-indigo](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_lime` | [bg-lime](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_neutral` | [bg-neutral](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_orange` | [bg-orange](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_pink` | [bg-pink](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_purple` | [bg-purple](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_red` | [bg-red](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_rose` | [bg-rose](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_sky` | [bg-sky](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_slate` | [bg-slate](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_stone` | [bg-stone](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_teal` | [bg-teal](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_violet` | [bg-violet](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_yellow` | [bg-yellow](https://tailwindcss.com/docs/background-color#arbitrary-values) |
-| `bg_zinc` | [bg-zinc](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_arbitrary`, `bg_arb` | [bg-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_amber_arbitrary`, `bg_amber_arb` | [bg-amber-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_blue_arbitrary`, `bg_blue_arb` | [bg-blue-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_cyan_arbitrary`, `bg_cyan_arb` | [bg-cyan-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_emerald_arbitrary`, `bg_emerald_arb` | [bg-emerald-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_fuchsia_arbitrary`, `bg_fuchsia_arb` | [bg-fuchsia-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_gray_arbitrary`, `bg_gray_arb` | [bg-gray-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_green_arbitrary`, `bg_green_arb` | [bg-green-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_indigo_arbitrary`, `bg_indigo_arb` | [bg-indigo-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_lime_arbitrary`, `bg_lime_arb` | [bg-lime-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_neutral_arbitrary`, `bg_neutral_arb` | [bg-neutral-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_orange_arbitrary`, `bg_orange_arb` | [bg-orange-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_pink_arbitrary`, `bg_pink_arb` | [bg-pink-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_purple_arbitrary`, `bg_purple_arb` | [bg-purple-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_red_arbitrary`, `bg_red_arb` | [bg-red-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_rose_arbitrary`, `bg_rose_arb` | [bg-rose-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_sky_arbitrary`, `bg_sky_arb` | [bg-sky-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_slate_arbitrary`, `bg_slate_arb` | [bg-slate-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_stone_arbitrary`, `bg_stone_arb` | [bg-stone-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_teal_arbitrary`, `bg_teal_arb` | [bg-teal-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_violet_arbitrary`, `bg_violet_arb` | [bg-violet-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_yellow_arbitrary`, `bg_yellow_arb` | [bg-yellow-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
+| `bg_zinc_arbitrary`, `bg_zinc_arb` | [bg-zinc-[…]](https://tailwindcss.com/docs/background-color#arbitrary-values) |
 
 
 
@@ -387,7 +387,7 @@ Utilities for controlling an element's background image.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `bg_gradient_to` | [bg-gradient-to](https://tailwindcss.com/docs/background-image#arbitrary-values) |
+| `bg_gradient_to_arbitrary`, `bg_gradient_to_arb` | [bg-gradient-to-[…]](https://tailwindcss.com/docs/background-image#arbitrary-values) |
 
 
 
@@ -445,8 +445,8 @@ Utilities for controlling the position of an element's background image.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `bg_left` | [bg-left](https://tailwindcss.com/docs/background-position#arbitrary-values) |
-| `bg_right` | [bg-right](https://tailwindcss.com/docs/background-position#arbitrary-values) |
+| `bg_left_arbitrary`, `bg_left_arb` | [bg-left-[…]](https://tailwindcss.com/docs/background-position#arbitrary-values) |
+| `bg_right_arbitrary`, `bg_right_arb` | [bg-right-[…]](https://tailwindcss.com/docs/background-position#arbitrary-values) |
 
 
 
@@ -1325,74 +1325,74 @@ Utilities for controlling the color stops in background gradients.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `from` | [from](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_amber` | [from-amber](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_blue` | [from-blue](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_cyan` | [from-cyan](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_emerald` | [from-emerald](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_fuchsia` | [from-fuchsia](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_gray` | [from-gray](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_green` | [from-green](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_indigo` | [from-indigo](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_lime` | [from-lime](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_neutral` | [from-neutral](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_orange` | [from-orange](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_pink` | [from-pink](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_purple` | [from-purple](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_red` | [from-red](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_rose` | [from-rose](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_sky` | [from-sky](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_slate` | [from-slate](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_stone` | [from-stone](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_teal` | [from-teal](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_violet` | [from-violet](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_yellow` | [from-yellow](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `from_zinc` | [from-zinc](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to` | [to](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_amber` | [to-amber](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_blue` | [to-blue](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_cyan` | [to-cyan](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_emerald` | [to-emerald](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_fuchsia` | [to-fuchsia](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_gray` | [to-gray](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_green` | [to-green](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_indigo` | [to-indigo](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_lime` | [to-lime](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_neutral` | [to-neutral](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_orange` | [to-orange](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_pink` | [to-pink](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_purple` | [to-purple](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_red` | [to-red](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_rose` | [to-rose](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_sky` | [to-sky](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_slate` | [to-slate](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_stone` | [to-stone](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_teal` | [to-teal](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_violet` | [to-violet](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_yellow` | [to-yellow](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `to_zinc` | [to-zinc](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via` | [via](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_amber` | [via-amber](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_blue` | [via-blue](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_cyan` | [via-cyan](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_emerald` | [via-emerald](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_fuchsia` | [via-fuchsia](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_gray` | [via-gray](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_green` | [via-green](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_indigo` | [via-indigo](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_lime` | [via-lime](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_neutral` | [via-neutral](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_orange` | [via-orange](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_pink` | [via-pink](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_purple` | [via-purple](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_red` | [via-red](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_rose` | [via-rose](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_sky` | [via-sky](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_slate` | [via-slate](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_stone` | [via-stone](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_teal` | [via-teal](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_violet` | [via-violet](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_yellow` | [via-yellow](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
-| `via_zinc` | [via-zinc](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_arbitrary`, `from_arb` | [from-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_amber_arbitrary`, `from_amber_arb` | [from-amber-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_blue_arbitrary`, `from_blue_arb` | [from-blue-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_cyan_arbitrary`, `from_cyan_arb` | [from-cyan-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_emerald_arbitrary`, `from_emerald_arb` | [from-emerald-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_fuchsia_arbitrary`, `from_fuchsia_arb` | [from-fuchsia-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_gray_arbitrary`, `from_gray_arb` | [from-gray-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_green_arbitrary`, `from_green_arb` | [from-green-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_indigo_arbitrary`, `from_indigo_arb` | [from-indigo-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_lime_arbitrary`, `from_lime_arb` | [from-lime-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_neutral_arbitrary`, `from_neutral_arb` | [from-neutral-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_orange_arbitrary`, `from_orange_arb` | [from-orange-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_pink_arbitrary`, `from_pink_arb` | [from-pink-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_purple_arbitrary`, `from_purple_arb` | [from-purple-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_red_arbitrary`, `from_red_arb` | [from-red-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_rose_arbitrary`, `from_rose_arb` | [from-rose-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_sky_arbitrary`, `from_sky_arb` | [from-sky-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_slate_arbitrary`, `from_slate_arb` | [from-slate-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_stone_arbitrary`, `from_stone_arb` | [from-stone-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_teal_arbitrary`, `from_teal_arb` | [from-teal-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_violet_arbitrary`, `from_violet_arb` | [from-violet-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_yellow_arbitrary`, `from_yellow_arb` | [from-yellow-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `from_zinc_arbitrary`, `from_zinc_arb` | [from-zinc-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_arbitrary`, `to_arb` | [to-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_amber_arbitrary`, `to_amber_arb` | [to-amber-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_blue_arbitrary`, `to_blue_arb` | [to-blue-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_cyan_arbitrary`, `to_cyan_arb` | [to-cyan-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_emerald_arbitrary`, `to_emerald_arb` | [to-emerald-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_fuchsia_arbitrary`, `to_fuchsia_arb` | [to-fuchsia-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_gray_arbitrary`, `to_gray_arb` | [to-gray-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_green_arbitrary`, `to_green_arb` | [to-green-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_indigo_arbitrary`, `to_indigo_arb` | [to-indigo-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_lime_arbitrary`, `to_lime_arb` | [to-lime-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_neutral_arbitrary`, `to_neutral_arb` | [to-neutral-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_orange_arbitrary`, `to_orange_arb` | [to-orange-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_pink_arbitrary`, `to_pink_arb` | [to-pink-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_purple_arbitrary`, `to_purple_arb` | [to-purple-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_red_arbitrary`, `to_red_arb` | [to-red-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_rose_arbitrary`, `to_rose_arb` | [to-rose-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_sky_arbitrary`, `to_sky_arb` | [to-sky-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_slate_arbitrary`, `to_slate_arb` | [to-slate-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_stone_arbitrary`, `to_stone_arb` | [to-stone-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_teal_arbitrary`, `to_teal_arb` | [to-teal-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_violet_arbitrary`, `to_violet_arb` | [to-violet-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_yellow_arbitrary`, `to_yellow_arb` | [to-yellow-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `to_zinc_arbitrary`, `to_zinc_arb` | [to-zinc-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_arbitrary`, `via_arb` | [via-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_amber_arbitrary`, `via_amber_arb` | [via-amber-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_blue_arbitrary`, `via_blue_arb` | [via-blue-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_cyan_arbitrary`, `via_cyan_arb` | [via-cyan-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_emerald_arbitrary`, `via_emerald_arb` | [via-emerald-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_fuchsia_arbitrary`, `via_fuchsia_arb` | [via-fuchsia-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_gray_arbitrary`, `via_gray_arb` | [via-gray-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_green_arbitrary`, `via_green_arb` | [via-green-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_indigo_arbitrary`, `via_indigo_arb` | [via-indigo-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_lime_arbitrary`, `via_lime_arb` | [via-lime-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_neutral_arbitrary`, `via_neutral_arb` | [via-neutral-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_orange_arbitrary`, `via_orange_arb` | [via-orange-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_pink_arbitrary`, `via_pink_arb` | [via-pink-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_purple_arbitrary`, `via_purple_arb` | [via-purple-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_red_arbitrary`, `via_red_arb` | [via-red-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_rose_arbitrary`, `via_rose_arb` | [via-rose-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_sky_arbitrary`, `via_sky_arb` | [via-sky-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_slate_arbitrary`, `via_slate_arb` | [via-slate-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_stone_arbitrary`, `via_stone_arb` | [via-stone-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_teal_arbitrary`, `via_teal_arb` | [via-teal-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_violet_arbitrary`, `via_violet_arb` | [via-violet-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_yellow_arbitrary`, `via_yellow_arb` | [via-yellow-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
+| `via_zinc_arbitrary`, `via_zinc_arb` | [via-zinc-[…]](https://tailwindcss.com/docs/gradient-color-stops#arbitrary-values) |
 
 

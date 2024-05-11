@@ -4,7 +4,7 @@
  * scroll-auto
  *
  * CSS:
- * - `scroll-behavior: auto;`
+ * - scroll-behavior: auto;
   *
   * @see scroll_behavior
   *
@@ -17,7 +17,7 @@ export const scroll_auto = "scroll-auto";
  * scroll-smooth
  *
  * CSS:
- * - `scroll-behavior: smooth;`
+ * - scroll-behavior: smooth;
   *
   * @see scroll_behavior
   *

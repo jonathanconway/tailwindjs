@@ -4,7 +4,7 @@
  * delay-0
  *
  * CSS:
- * - `transition-delay: 0s;`
+ * - transition-delay: 0s;
   *
   * @see transition_delay
   *
@@ -17,7 +17,7 @@ export const delay_0 = "delay-0";
  * delay-75
  *
  * CSS:
- * - `transition-delay: 75ms;`
+ * - transition-delay: 75ms;
   *
   * @see transition_delay
   *
@@ -30,7 +30,7 @@ export const delay_75 = "delay-75";
  * delay-100
  *
  * CSS:
- * - `transition-delay: 100ms;`
+ * - transition-delay: 100ms;
   *
   * @see transition_delay
   *
@@ -43,7 +43,7 @@ export const delay_100 = "delay-100";
  * delay-150
  *
  * CSS:
- * - `transition-delay: 150ms;`
+ * - transition-delay: 150ms;
   *
   * @see transition_delay
   *
@@ -56,7 +56,7 @@ export const delay_150 = "delay-150";
  * delay-200
  *
  * CSS:
- * - `transition-delay: 200ms;`
+ * - transition-delay: 200ms;
   *
   * @see transition_delay
   *
@@ -69,7 +69,7 @@ export const delay_200 = "delay-200";
  * delay-300
  *
  * CSS:
- * - `transition-delay: 300ms;`
+ * - transition-delay: 300ms;
   *
   * @see transition_delay
   *
@@ -82,7 +82,7 @@ export const delay_300 = "delay-300";
  * delay-500
  *
  * CSS:
- * - `transition-delay: 500ms;`
+ * - transition-delay: 500ms;
   *
   * @see transition_delay
   *
@@ -95,7 +95,7 @@ export const delay_500 = "delay-500";
  * delay-700
  *
  * CSS:
- * - `transition-delay: 700ms;`
+ * - transition-delay: 700ms;
   *
   * @see transition_delay
   *
@@ -108,7 +108,7 @@ export const delay_700 = "delay-700";
  * delay-1000
  *
  * CSS:
- * - `transition-delay: 1000ms;`
+ * - transition-delay: 1000ms;
   *
   * @see transition_delay
   *
