@@ -183,7 +183,7 @@ export const leading_loose = "leading-loose";
 
 
 /**
- * leading-[{value}]
+ * leading-[…]-[{value}]
  *
  * If you need to use a one-off line-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -191,11 +191,11 @@ export const leading_loose = "leading-loose";
  *
  * @type utility
  */
-export const leading_arbitrary = (value: string) => `leading-[${value}]`;
+export const leading_arbitrary = (value: string) => `leading-["${value}"]`;
 
 
 /**
- * leading-[{value}]
+ * leading-[…]-[{value}]
  *
  * If you need to use a one-off line-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -203,7 +203,7 @@ export const leading_arbitrary = (value: string) => `leading-[${value}]`;
  *
  * @type utility
  */
-export const leading_arb = (value: string) => `leading-[${value}]`;
+export const leading_arb = (value: string) => `leading-["${value}"]`;
 
 
 /**

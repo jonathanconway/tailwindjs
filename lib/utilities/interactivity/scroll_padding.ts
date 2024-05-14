@@ -4166,7 +4166,7 @@ export const scroll_pl_96 = "scroll-pl-96";
 
 
 /**
- * scroll-p-[{value}]
+ * scroll-p-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4174,11 +4174,11 @@ export const scroll_pl_96 = "scroll-pl-96";
  *
  * @type utility
  */
-export const scroll_p_arbitrary = (value: string) => `scroll-p-[${value}]`;
+export const scroll_p_arbitrary = (value: string) => `scroll-p-["${value}"]`;
 
 
 /**
- * scroll-p-[{value}]
+ * scroll-p-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4186,11 +4186,11 @@ export const scroll_p_arbitrary = (value: string) => `scroll-p-[${value}]`;
  *
  * @type utility
  */
-export const scroll_p_arb = (value: string) => `scroll-p-[${value}]`;
+export const scroll_p_arb = (value: string) => `scroll-p-["${value}"]`;
 
 
 /**
- * scroll-px-[{value}]
+ * scroll-px-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4198,11 +4198,11 @@ export const scroll_p_arb = (value: string) => `scroll-p-[${value}]`;
  *
  * @type utility
  */
-export const scroll_px_arbitrary = (value: string) => `scroll-px-[${value}]`;
+export const scroll_px_arbitrary = (value: string) => `scroll-px-["${value}"]`;
 
 
 /**
- * scroll-px-[{value}]
+ * scroll-px-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4210,11 +4210,11 @@ export const scroll_px_arbitrary = (value: string) => `scroll-px-[${value}]`;
  *
  * @type utility
  */
-export const scroll_px_arb = (value: string) => `scroll-px-[${value}]`;
+export const scroll_px_arb = (value: string) => `scroll-px-["${value}"]`;
 
 
 /**
- * scroll-py-[{value}]
+ * scroll-py-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4222,11 +4222,11 @@ export const scroll_px_arb = (value: string) => `scroll-px-[${value}]`;
  *
  * @type utility
  */
-export const scroll_py_arbitrary = (value: string) => `scroll-py-[${value}]`;
+export const scroll_py_arbitrary = (value: string) => `scroll-py-["${value}"]`;
 
 
 /**
- * scroll-py-[{value}]
+ * scroll-py-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4234,11 +4234,11 @@ export const scroll_py_arbitrary = (value: string) => `scroll-py-[${value}]`;
  *
  * @type utility
  */
-export const scroll_py_arb = (value: string) => `scroll-py-[${value}]`;
+export const scroll_py_arb = (value: string) => `scroll-py-["${value}"]`;
 
 
 /**
- * scroll-ps-[{value}]
+ * scroll-ps-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4246,11 +4246,11 @@ export const scroll_py_arb = (value: string) => `scroll-py-[${value}]`;
  *
  * @type utility
  */
-export const scroll_ps_arbitrary = (value: string) => `scroll-ps-[${value}]`;
+export const scroll_ps_arbitrary = (value: string) => `scroll-ps-["${value}"]`;
 
 
 /**
- * scroll-ps-[{value}]
+ * scroll-ps-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4258,11 +4258,11 @@ export const scroll_ps_arbitrary = (value: string) => `scroll-ps-[${value}]`;
  *
  * @type utility
  */
-export const scroll_ps_arb = (value: string) => `scroll-ps-[${value}]`;
+export const scroll_ps_arb = (value: string) => `scroll-ps-["${value}"]`;
 
 
 /**
- * scroll-pe-[{value}]
+ * scroll-pe-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4270,11 +4270,11 @@ export const scroll_ps_arb = (value: string) => `scroll-ps-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pe_arbitrary = (value: string) => `scroll-pe-[${value}]`;
+export const scroll_pe_arbitrary = (value: string) => `scroll-pe-["${value}"]`;
 
 
 /**
- * scroll-pe-[{value}]
+ * scroll-pe-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4282,11 +4282,11 @@ export const scroll_pe_arbitrary = (value: string) => `scroll-pe-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pe_arb = (value: string) => `scroll-pe-[${value}]`;
+export const scroll_pe_arb = (value: string) => `scroll-pe-["${value}"]`;
 
 
 /**
- * scroll-pt-[{value}]
+ * scroll-pt-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4294,11 +4294,11 @@ export const scroll_pe_arb = (value: string) => `scroll-pe-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pt_arbitrary = (value: string) => `scroll-pt-[${value}]`;
+export const scroll_pt_arbitrary = (value: string) => `scroll-pt-["${value}"]`;
 
 
 /**
- * scroll-pt-[{value}]
+ * scroll-pt-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4306,11 +4306,11 @@ export const scroll_pt_arbitrary = (value: string) => `scroll-pt-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pt_arb = (value: string) => `scroll-pt-[${value}]`;
+export const scroll_pt_arb = (value: string) => `scroll-pt-["${value}"]`;
 
 
 /**
- * scroll-pr-[{value}]
+ * scroll-pr-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4318,11 +4318,11 @@ export const scroll_pt_arb = (value: string) => `scroll-pt-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pr_arbitrary = (value: string) => `scroll-pr-[${value}]`;
+export const scroll_pr_arbitrary = (value: string) => `scroll-pr-["${value}"]`;
 
 
 /**
- * scroll-pr-[{value}]
+ * scroll-pr-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4330,11 +4330,11 @@ export const scroll_pr_arbitrary = (value: string) => `scroll-pr-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pr_arb = (value: string) => `scroll-pr-[${value}]`;
+export const scroll_pr_arb = (value: string) => `scroll-pr-["${value}"]`;
 
 
 /**
- * scroll-pb-[{value}]
+ * scroll-pb-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4342,11 +4342,11 @@ export const scroll_pr_arb = (value: string) => `scroll-pr-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pb_arbitrary = (value: string) => `scroll-pb-[${value}]`;
+export const scroll_pb_arbitrary = (value: string) => `scroll-pb-["${value}"]`;
 
 
 /**
- * scroll-pb-[{value}]
+ * scroll-pb-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4354,11 +4354,11 @@ export const scroll_pb_arbitrary = (value: string) => `scroll-pb-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pb_arb = (value: string) => `scroll-pb-[${value}]`;
+export const scroll_pb_arb = (value: string) => `scroll-pb-["${value}"]`;
 
 
 /**
- * scroll-pl-[{value}]
+ * scroll-pl-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4366,11 +4366,11 @@ export const scroll_pb_arb = (value: string) => `scroll-pb-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pl_arbitrary = (value: string) => `scroll-pl-[${value}]`;
+export const scroll_pl_arbitrary = (value: string) => `scroll-pl-["${value}"]`;
 
 
 /**
- * scroll-pl-[{value}]
+ * scroll-pl-[…]-[{value}]
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4378,7 +4378,7 @@ export const scroll_pl_arbitrary = (value: string) => `scroll-pl-[${value}]`;
  *
  * @type utility
  */
-export const scroll_pl_arb = (value: string) => `scroll-pl-[${value}]`;
+export const scroll_pl_arb = (value: string) => `scroll-pl-["${value}"]`;
 
 
 /**

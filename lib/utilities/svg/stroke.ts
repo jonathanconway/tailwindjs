@@ -3225,7 +3225,7 @@ export const stroke_rose_950 = "stroke-rose-950";
 
 
 /**
- * stroke-[{value}]
+ * stroke-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3233,11 +3233,11 @@ export const stroke_rose_950 = "stroke-rose-950";
  *
  * @type utility
  */
-export const stroke_arbitrary = (value: string) => `stroke-[${value}]`;
+export const stroke_arbitrary = (value: string) => `stroke-["${value}"]`;
 
 
 /**
- * stroke-[{value}]
+ * stroke-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3245,11 +3245,11 @@ export const stroke_arbitrary = (value: string) => `stroke-[${value}]`;
  *
  * @type utility
  */
-export const stroke_arb = (value: string) => `stroke-[${value}]`;
+export const stroke_arb = (value: string) => `stroke-["${value}"]`;
 
 
 /**
- * stroke-slate-[{value}]
+ * stroke-slate-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3257,11 +3257,11 @@ export const stroke_arb = (value: string) => `stroke-[${value}]`;
  *
  * @type utility
  */
-export const stroke_slate_arbitrary = (value: string) => `stroke-slate-[${value}]`;
+export const stroke_slate_arbitrary = (value: string) => `stroke-slate-["${value}"]`;
 
 
 /**
- * stroke-slate-[{value}]
+ * stroke-slate-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3269,11 +3269,11 @@ export const stroke_slate_arbitrary = (value: string) => `stroke-slate-[${value}
  *
  * @type utility
  */
-export const stroke_slate_arb = (value: string) => `stroke-slate-[${value}]`;
+export const stroke_slate_arb = (value: string) => `stroke-slate-["${value}"]`;
 
 
 /**
- * stroke-gray-[{value}]
+ * stroke-gray-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3281,11 +3281,11 @@ export const stroke_slate_arb = (value: string) => `stroke-slate-[${value}]`;
  *
  * @type utility
  */
-export const stroke_gray_arbitrary = (value: string) => `stroke-gray-[${value}]`;
+export const stroke_gray_arbitrary = (value: string) => `stroke-gray-["${value}"]`;
 
 
 /**
- * stroke-gray-[{value}]
+ * stroke-gray-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3293,11 +3293,11 @@ export const stroke_gray_arbitrary = (value: string) => `stroke-gray-[${value}]`
  *
  * @type utility
  */
-export const stroke_gray_arb = (value: string) => `stroke-gray-[${value}]`;
+export const stroke_gray_arb = (value: string) => `stroke-gray-["${value}"]`;
 
 
 /**
- * stroke-zinc-[{value}]
+ * stroke-zinc-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3305,11 +3305,11 @@ export const stroke_gray_arb = (value: string) => `stroke-gray-[${value}]`;
  *
  * @type utility
  */
-export const stroke_zinc_arbitrary = (value: string) => `stroke-zinc-[${value}]`;
+export const stroke_zinc_arbitrary = (value: string) => `stroke-zinc-["${value}"]`;
 
 
 /**
- * stroke-zinc-[{value}]
+ * stroke-zinc-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3317,11 +3317,11 @@ export const stroke_zinc_arbitrary = (value: string) => `stroke-zinc-[${value}]`
  *
  * @type utility
  */
-export const stroke_zinc_arb = (value: string) => `stroke-zinc-[${value}]`;
+export const stroke_zinc_arb = (value: string) => `stroke-zinc-["${value}"]`;
 
 
 /**
- * stroke-neutral-[{value}]
+ * stroke-neutral-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3329,11 +3329,11 @@ export const stroke_zinc_arb = (value: string) => `stroke-zinc-[${value}]`;
  *
  * @type utility
  */
-export const stroke_neutral_arbitrary = (value: string) => `stroke-neutral-[${value}]`;
+export const stroke_neutral_arbitrary = (value: string) => `stroke-neutral-["${value}"]`;
 
 
 /**
- * stroke-neutral-[{value}]
+ * stroke-neutral-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3341,11 +3341,11 @@ export const stroke_neutral_arbitrary = (value: string) => `stroke-neutral-[${va
  *
  * @type utility
  */
-export const stroke_neutral_arb = (value: string) => `stroke-neutral-[${value}]`;
+export const stroke_neutral_arb = (value: string) => `stroke-neutral-["${value}"]`;
 
 
 /**
- * stroke-stone-[{value}]
+ * stroke-stone-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3353,11 +3353,11 @@ export const stroke_neutral_arb = (value: string) => `stroke-neutral-[${value}]`
  *
  * @type utility
  */
-export const stroke_stone_arbitrary = (value: string) => `stroke-stone-[${value}]`;
+export const stroke_stone_arbitrary = (value: string) => `stroke-stone-["${value}"]`;
 
 
 /**
- * stroke-stone-[{value}]
+ * stroke-stone-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3365,11 +3365,11 @@ export const stroke_stone_arbitrary = (value: string) => `stroke-stone-[${value}
  *
  * @type utility
  */
-export const stroke_stone_arb = (value: string) => `stroke-stone-[${value}]`;
+export const stroke_stone_arb = (value: string) => `stroke-stone-["${value}"]`;
 
 
 /**
- * stroke-red-[{value}]
+ * stroke-red-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3377,11 +3377,11 @@ export const stroke_stone_arb = (value: string) => `stroke-stone-[${value}]`;
  *
  * @type utility
  */
-export const stroke_red_arbitrary = (value: string) => `stroke-red-[${value}]`;
+export const stroke_red_arbitrary = (value: string) => `stroke-red-["${value}"]`;
 
 
 /**
- * stroke-red-[{value}]
+ * stroke-red-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3389,11 +3389,11 @@ export const stroke_red_arbitrary = (value: string) => `stroke-red-[${value}]`;
  *
  * @type utility
  */
-export const stroke_red_arb = (value: string) => `stroke-red-[${value}]`;
+export const stroke_red_arb = (value: string) => `stroke-red-["${value}"]`;
 
 
 /**
- * stroke-orange-[{value}]
+ * stroke-orange-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3401,11 +3401,11 @@ export const stroke_red_arb = (value: string) => `stroke-red-[${value}]`;
  *
  * @type utility
  */
-export const stroke_orange_arbitrary = (value: string) => `stroke-orange-[${value}]`;
+export const stroke_orange_arbitrary = (value: string) => `stroke-orange-["${value}"]`;
 
 
 /**
- * stroke-orange-[{value}]
+ * stroke-orange-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3413,11 +3413,11 @@ export const stroke_orange_arbitrary = (value: string) => `stroke-orange-[${valu
  *
  * @type utility
  */
-export const stroke_orange_arb = (value: string) => `stroke-orange-[${value}]`;
+export const stroke_orange_arb = (value: string) => `stroke-orange-["${value}"]`;
 
 
 /**
- * stroke-amber-[{value}]
+ * stroke-amber-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3425,11 +3425,11 @@ export const stroke_orange_arb = (value: string) => `stroke-orange-[${value}]`;
  *
  * @type utility
  */
-export const stroke_amber_arbitrary = (value: string) => `stroke-amber-[${value}]`;
+export const stroke_amber_arbitrary = (value: string) => `stroke-amber-["${value}"]`;
 
 
 /**
- * stroke-amber-[{value}]
+ * stroke-amber-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3437,11 +3437,11 @@ export const stroke_amber_arbitrary = (value: string) => `stroke-amber-[${value}
  *
  * @type utility
  */
-export const stroke_amber_arb = (value: string) => `stroke-amber-[${value}]`;
+export const stroke_amber_arb = (value: string) => `stroke-amber-["${value}"]`;
 
 
 /**
- * stroke-yellow-[{value}]
+ * stroke-yellow-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3449,11 +3449,11 @@ export const stroke_amber_arb = (value: string) => `stroke-amber-[${value}]`;
  *
  * @type utility
  */
-export const stroke_yellow_arbitrary = (value: string) => `stroke-yellow-[${value}]`;
+export const stroke_yellow_arbitrary = (value: string) => `stroke-yellow-["${value}"]`;
 
 
 /**
- * stroke-yellow-[{value}]
+ * stroke-yellow-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3461,11 +3461,11 @@ export const stroke_yellow_arbitrary = (value: string) => `stroke-yellow-[${valu
  *
  * @type utility
  */
-export const stroke_yellow_arb = (value: string) => `stroke-yellow-[${value}]`;
+export const stroke_yellow_arb = (value: string) => `stroke-yellow-["${value}"]`;
 
 
 /**
- * stroke-lime-[{value}]
+ * stroke-lime-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3473,11 +3473,11 @@ export const stroke_yellow_arb = (value: string) => `stroke-yellow-[${value}]`;
  *
  * @type utility
  */
-export const stroke_lime_arbitrary = (value: string) => `stroke-lime-[${value}]`;
+export const stroke_lime_arbitrary = (value: string) => `stroke-lime-["${value}"]`;
 
 
 /**
- * stroke-lime-[{value}]
+ * stroke-lime-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3485,11 +3485,11 @@ export const stroke_lime_arbitrary = (value: string) => `stroke-lime-[${value}]`
  *
  * @type utility
  */
-export const stroke_lime_arb = (value: string) => `stroke-lime-[${value}]`;
+export const stroke_lime_arb = (value: string) => `stroke-lime-["${value}"]`;
 
 
 /**
- * stroke-green-[{value}]
+ * stroke-green-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3497,11 +3497,11 @@ export const stroke_lime_arb = (value: string) => `stroke-lime-[${value}]`;
  *
  * @type utility
  */
-export const stroke_green_arbitrary = (value: string) => `stroke-green-[${value}]`;
+export const stroke_green_arbitrary = (value: string) => `stroke-green-["${value}"]`;
 
 
 /**
- * stroke-green-[{value}]
+ * stroke-green-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3509,11 +3509,11 @@ export const stroke_green_arbitrary = (value: string) => `stroke-green-[${value}
  *
  * @type utility
  */
-export const stroke_green_arb = (value: string) => `stroke-green-[${value}]`;
+export const stroke_green_arb = (value: string) => `stroke-green-["${value}"]`;
 
 
 /**
- * stroke-emerald-[{value}]
+ * stroke-emerald-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3521,11 +3521,11 @@ export const stroke_green_arb = (value: string) => `stroke-green-[${value}]`;
  *
  * @type utility
  */
-export const stroke_emerald_arbitrary = (value: string) => `stroke-emerald-[${value}]`;
+export const stroke_emerald_arbitrary = (value: string) => `stroke-emerald-["${value}"]`;
 
 
 /**
- * stroke-emerald-[{value}]
+ * stroke-emerald-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3533,11 +3533,11 @@ export const stroke_emerald_arbitrary = (value: string) => `stroke-emerald-[${va
  *
  * @type utility
  */
-export const stroke_emerald_arb = (value: string) => `stroke-emerald-[${value}]`;
+export const stroke_emerald_arb = (value: string) => `stroke-emerald-["${value}"]`;
 
 
 /**
- * stroke-teal-[{value}]
+ * stroke-teal-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3545,11 +3545,11 @@ export const stroke_emerald_arb = (value: string) => `stroke-emerald-[${value}]`
  *
  * @type utility
  */
-export const stroke_teal_arbitrary = (value: string) => `stroke-teal-[${value}]`;
+export const stroke_teal_arbitrary = (value: string) => `stroke-teal-["${value}"]`;
 
 
 /**
- * stroke-teal-[{value}]
+ * stroke-teal-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3557,11 +3557,11 @@ export const stroke_teal_arbitrary = (value: string) => `stroke-teal-[${value}]`
  *
  * @type utility
  */
-export const stroke_teal_arb = (value: string) => `stroke-teal-[${value}]`;
+export const stroke_teal_arb = (value: string) => `stroke-teal-["${value}"]`;
 
 
 /**
- * stroke-cyan-[{value}]
+ * stroke-cyan-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3569,11 +3569,11 @@ export const stroke_teal_arb = (value: string) => `stroke-teal-[${value}]`;
  *
  * @type utility
  */
-export const stroke_cyan_arbitrary = (value: string) => `stroke-cyan-[${value}]`;
+export const stroke_cyan_arbitrary = (value: string) => `stroke-cyan-["${value}"]`;
 
 
 /**
- * stroke-cyan-[{value}]
+ * stroke-cyan-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3581,11 +3581,11 @@ export const stroke_cyan_arbitrary = (value: string) => `stroke-cyan-[${value}]`
  *
  * @type utility
  */
-export const stroke_cyan_arb = (value: string) => `stroke-cyan-[${value}]`;
+export const stroke_cyan_arb = (value: string) => `stroke-cyan-["${value}"]`;
 
 
 /**
- * stroke-sky-[{value}]
+ * stroke-sky-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3593,11 +3593,11 @@ export const stroke_cyan_arb = (value: string) => `stroke-cyan-[${value}]`;
  *
  * @type utility
  */
-export const stroke_sky_arbitrary = (value: string) => `stroke-sky-[${value}]`;
+export const stroke_sky_arbitrary = (value: string) => `stroke-sky-["${value}"]`;
 
 
 /**
- * stroke-sky-[{value}]
+ * stroke-sky-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3605,11 +3605,11 @@ export const stroke_sky_arbitrary = (value: string) => `stroke-sky-[${value}]`;
  *
  * @type utility
  */
-export const stroke_sky_arb = (value: string) => `stroke-sky-[${value}]`;
+export const stroke_sky_arb = (value: string) => `stroke-sky-["${value}"]`;
 
 
 /**
- * stroke-blue-[{value}]
+ * stroke-blue-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3617,11 +3617,11 @@ export const stroke_sky_arb = (value: string) => `stroke-sky-[${value}]`;
  *
  * @type utility
  */
-export const stroke_blue_arbitrary = (value: string) => `stroke-blue-[${value}]`;
+export const stroke_blue_arbitrary = (value: string) => `stroke-blue-["${value}"]`;
 
 
 /**
- * stroke-blue-[{value}]
+ * stroke-blue-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3629,11 +3629,11 @@ export const stroke_blue_arbitrary = (value: string) => `stroke-blue-[${value}]`
  *
  * @type utility
  */
-export const stroke_blue_arb = (value: string) => `stroke-blue-[${value}]`;
+export const stroke_blue_arb = (value: string) => `stroke-blue-["${value}"]`;
 
 
 /**
- * stroke-indigo-[{value}]
+ * stroke-indigo-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3641,11 +3641,11 @@ export const stroke_blue_arb = (value: string) => `stroke-blue-[${value}]`;
  *
  * @type utility
  */
-export const stroke_indigo_arbitrary = (value: string) => `stroke-indigo-[${value}]`;
+export const stroke_indigo_arbitrary = (value: string) => `stroke-indigo-["${value}"]`;
 
 
 /**
- * stroke-indigo-[{value}]
+ * stroke-indigo-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3653,11 +3653,11 @@ export const stroke_indigo_arbitrary = (value: string) => `stroke-indigo-[${valu
  *
  * @type utility
  */
-export const stroke_indigo_arb = (value: string) => `stroke-indigo-[${value}]`;
+export const stroke_indigo_arb = (value: string) => `stroke-indigo-["${value}"]`;
 
 
 /**
- * stroke-violet-[{value}]
+ * stroke-violet-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3665,11 +3665,11 @@ export const stroke_indigo_arb = (value: string) => `stroke-indigo-[${value}]`;
  *
  * @type utility
  */
-export const stroke_violet_arbitrary = (value: string) => `stroke-violet-[${value}]`;
+export const stroke_violet_arbitrary = (value: string) => `stroke-violet-["${value}"]`;
 
 
 /**
- * stroke-violet-[{value}]
+ * stroke-violet-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3677,11 +3677,11 @@ export const stroke_violet_arbitrary = (value: string) => `stroke-violet-[${valu
  *
  * @type utility
  */
-export const stroke_violet_arb = (value: string) => `stroke-violet-[${value}]`;
+export const stroke_violet_arb = (value: string) => `stroke-violet-["${value}"]`;
 
 
 /**
- * stroke-purple-[{value}]
+ * stroke-purple-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3689,11 +3689,11 @@ export const stroke_violet_arb = (value: string) => `stroke-violet-[${value}]`;
  *
  * @type utility
  */
-export const stroke_purple_arbitrary = (value: string) => `stroke-purple-[${value}]`;
+export const stroke_purple_arbitrary = (value: string) => `stroke-purple-["${value}"]`;
 
 
 /**
- * stroke-purple-[{value}]
+ * stroke-purple-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3701,11 +3701,11 @@ export const stroke_purple_arbitrary = (value: string) => `stroke-purple-[${valu
  *
  * @type utility
  */
-export const stroke_purple_arb = (value: string) => `stroke-purple-[${value}]`;
+export const stroke_purple_arb = (value: string) => `stroke-purple-["${value}"]`;
 
 
 /**
- * stroke-fuchsia-[{value}]
+ * stroke-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3713,11 +3713,11 @@ export const stroke_purple_arb = (value: string) => `stroke-purple-[${value}]`;
  *
  * @type utility
  */
-export const stroke_fuchsia_arbitrary = (value: string) => `stroke-fuchsia-[${value}]`;
+export const stroke_fuchsia_arbitrary = (value: string) => `stroke-fuchsia-["${value}"]`;
 
 
 /**
- * stroke-fuchsia-[{value}]
+ * stroke-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3725,11 +3725,11 @@ export const stroke_fuchsia_arbitrary = (value: string) => `stroke-fuchsia-[${va
  *
  * @type utility
  */
-export const stroke_fuchsia_arb = (value: string) => `stroke-fuchsia-[${value}]`;
+export const stroke_fuchsia_arb = (value: string) => `stroke-fuchsia-["${value}"]`;
 
 
 /**
- * stroke-pink-[{value}]
+ * stroke-pink-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3737,11 +3737,11 @@ export const stroke_fuchsia_arb = (value: string) => `stroke-fuchsia-[${value}]`
  *
  * @type utility
  */
-export const stroke_pink_arbitrary = (value: string) => `stroke-pink-[${value}]`;
+export const stroke_pink_arbitrary = (value: string) => `stroke-pink-["${value}"]`;
 
 
 /**
- * stroke-pink-[{value}]
+ * stroke-pink-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3749,11 +3749,11 @@ export const stroke_pink_arbitrary = (value: string) => `stroke-pink-[${value}]`
  *
  * @type utility
  */
-export const stroke_pink_arb = (value: string) => `stroke-pink-[${value}]`;
+export const stroke_pink_arb = (value: string) => `stroke-pink-["${value}"]`;
 
 
 /**
- * stroke-rose-[{value}]
+ * stroke-rose-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3761,11 +3761,11 @@ export const stroke_pink_arb = (value: string) => `stroke-pink-[${value}]`;
  *
  * @type utility
  */
-export const stroke_rose_arbitrary = (value: string) => `stroke-rose-[${value}]`;
+export const stroke_rose_arbitrary = (value: string) => `stroke-rose-["${value}"]`;
 
 
 /**
- * stroke-rose-[{value}]
+ * stroke-rose-[…]-[{value}]
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3773,7 +3773,7 @@ export const stroke_rose_arbitrary = (value: string) => `stroke-rose-[${value}]`
  *
  * @type utility
  */
-export const stroke_rose_arb = (value: string) => `stroke-rose-[${value}]`;
+export const stroke_rose_arb = (value: string) => `stroke-rose-["${value}"]`;
 
 
 /**

@@ -53,7 +53,7 @@ export const ease_in_out = "ease-in-out";
 
 
 /**
- * ease-[{value}]
+ * ease-[…]-[{value}]
  *
  * If you need to use a one-off transition-timing-function value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -61,11 +61,11 @@ export const ease_in_out = "ease-in-out";
  *
  * @type utility
  */
-export const ease_arbitrary = (value: string) => `ease-[${value}]`;
+export const ease_arbitrary = (value: string) => `ease-["${value}"]`;
 
 
 /**
- * ease-[{value}]
+ * ease-[…]-[{value}]
  *
  * If you need to use a one-off transition-timing-function value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -73,11 +73,11 @@ export const ease_arbitrary = (value: string) => `ease-[${value}]`;
  *
  * @type utility
  */
-export const ease_arb = (value: string) => `ease-[${value}]`;
+export const ease_arb = (value: string) => `ease-["${value}"]`;
 
 
 /**
- * ease-in-[{value}]
+ * ease-in-[…]-[{value}]
  *
  * If you need to use a one-off transition-timing-function value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -85,11 +85,11 @@ export const ease_arb = (value: string) => `ease-[${value}]`;
  *
  * @type utility
  */
-export const ease_in_arbitrary = (value: string) => `ease-in-[${value}]`;
+export const ease_in_arbitrary = (value: string) => `ease-in-["${value}"]`;
 
 
 /**
- * ease-in-[{value}]
+ * ease-in-[…]-[{value}]
  *
  * If you need to use a one-off transition-timing-function value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -97,7 +97,7 @@ export const ease_in_arbitrary = (value: string) => `ease-in-[${value}]`;
  *
  * @type utility
  */
-export const ease_in_arb = (value: string) => `ease-in-[${value}]`;
+export const ease_in_arb = (value: string) => `ease-in-["${value}"]`;
 
 
 /**

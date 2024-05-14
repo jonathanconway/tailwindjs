@@ -183,7 +183,7 @@ export const text_9xl = "text-9xl";
 
 
 /**
- * text-[{value}]
+ * text-[…]-[{value}]
  *
  * If you need to use a one-off font-size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -191,11 +191,11 @@ export const text_9xl = "text-9xl";
  *
  * @type utility
  */
-export const text_arbitrary = (value: string) => `text-[${value}]`;
+export const text_arbitrary = (value: string) => `text-["${value}"]`;
 
 
 /**
- * text-[{value}]
+ * text-[…]-[{value}]
  *
  * If you need to use a one-off font-size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -203,7 +203,7 @@ export const text_arbitrary = (value: string) => `text-[${value}]`;
  *
  * @type utility
  */
-export const text_arb = (value: string) => `text-[${value}]`;
+export const text_arb = (value: string) => `text-["${value}"]`;
 
 
 /**

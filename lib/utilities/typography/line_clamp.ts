@@ -113,7 +113,7 @@ export const line_clamp_none = "line-clamp-none";
 
 
 /**
- * line-clamp-[{value}]
+ * line-clamp-[…]-[{value}]
  *
  * If you need to use a one-off line-clamp value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -121,11 +121,11 @@ export const line_clamp_none = "line-clamp-none";
  *
  * @type utility
  */
-export const line_clamp_arbitrary = (value: string) => `line-clamp-[${value}]`;
+export const line_clamp_arbitrary = (value: string) => `line-clamp-["${value}"]`;
 
 
 /**
- * line-clamp-[{value}]
+ * line-clamp-[…]-[{value}]
  *
  * If you need to use a one-off line-clamp value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -133,7 +133,7 @@ export const line_clamp_arbitrary = (value: string) => `line-clamp-[${value}]`;
  *
  * @type utility
  */
-export const line_clamp_arb = (value: string) => `line-clamp-[${value}]`;
+export const line_clamp_arb = (value: string) => `line-clamp-["${value}"]`;
 
 
 /**

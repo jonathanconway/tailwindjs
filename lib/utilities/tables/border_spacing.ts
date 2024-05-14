@@ -1366,7 +1366,7 @@ export const border_spacing_y_96 = "border-spacing-y-96";
 
 
 /**
- * border-spacing-[{value}]
+ * border-spacing-[…]-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1374,11 +1374,11 @@ export const border_spacing_y_96 = "border-spacing-y-96";
  *
  * @type utility
  */
-export const border_spacing_arbitrary = (value: string) => `border-spacing-[${value}]`;
+export const border_spacing_arbitrary = (value: string) => `border-spacing-["${value}"]`;
 
 
 /**
- * border-spacing-[{value}]
+ * border-spacing-[…]-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1386,11 +1386,11 @@ export const border_spacing_arbitrary = (value: string) => `border-spacing-[${va
  *
  * @type utility
  */
-export const border_spacing_arb = (value: string) => `border-spacing-[${value}]`;
+export const border_spacing_arb = (value: string) => `border-spacing-["${value}"]`;
 
 
 /**
- * border-spacing-x-[{value}]
+ * border-spacing-x-[…]-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1398,11 +1398,11 @@ export const border_spacing_arb = (value: string) => `border-spacing-[${value}]`
  *
  * @type utility
  */
-export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-[${value}]`;
+export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-["${value}"]`;
 
 
 /**
- * border-spacing-x-[{value}]
+ * border-spacing-x-[…]-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1410,11 +1410,11 @@ export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-[
  *
  * @type utility
  */
-export const border_spacing_x_arb = (value: string) => `border-spacing-x-[${value}]`;
+export const border_spacing_x_arb = (value: string) => `border-spacing-x-["${value}"]`;
 
 
 /**
- * border-spacing-y-[{value}]
+ * border-spacing-y-[…]-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1422,11 +1422,11 @@ export const border_spacing_x_arb = (value: string) => `border-spacing-x-[${valu
  *
  * @type utility
  */
-export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-[${value}]`;
+export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-["${value}"]`;
 
 
 /**
- * border-spacing-y-[{value}]
+ * border-spacing-y-[…]-[{value}]
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1434,7 +1434,7 @@ export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-[
  *
  * @type utility
  */
-export const border_spacing_y_arb = (value: string) => `border-spacing-y-[${value}]`;
+export const border_spacing_y_arb = (value: string) => `border-spacing-y-["${value}"]`;
 
 
 /**

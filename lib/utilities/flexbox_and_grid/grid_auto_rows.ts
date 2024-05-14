@@ -53,7 +53,7 @@ export const auto_rows_fr = "auto-rows-fr";
 
 
 /**
- * auto-rows-[{value}]
+ * auto-rows-[…]-[{value}]
  *
  * If you need to use a one-off grid-auto-rows value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -61,11 +61,11 @@ export const auto_rows_fr = "auto-rows-fr";
  *
  * @type utility
  */
-export const auto_rows_arbitrary = (value: string) => `auto-rows-[${value}]`;
+export const auto_rows_arbitrary = (value: string) => `auto-rows-["${value}"]`;
 
 
 /**
- * auto-rows-[{value}]
+ * auto-rows-[…]-[{value}]
  *
  * If you need to use a one-off grid-auto-rows value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -73,7 +73,7 @@ export const auto_rows_arbitrary = (value: string) => `auto-rows-[${value}]`;
  *
  * @type utility
  */
-export const auto_rows_arb = (value: string) => `auto-rows-[${value}]`;
+export const auto_rows_arb = (value: string) => `auto-rows-["${value}"]`;
 
 
 /**

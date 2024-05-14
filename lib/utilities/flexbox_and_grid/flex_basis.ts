@@ -820,7 +820,7 @@ export const basis_full = "basis-full";
 
 
 /**
- * basis-[{value}]
+ * basis-[…]-[{value}]
  *
  * If you need to use a one-off flex-basis value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -828,11 +828,11 @@ export const basis_full = "basis-full";
  *
  * @type utility
  */
-export const basis_arbitrary = (value: string) => `basis-[${value}]`;
+export const basis_arbitrary = (value: string) => `basis-["${value}"]`;
 
 
 /**
- * basis-[{value}]
+ * basis-[…]-[{value}]
  *
  * If you need to use a one-off flex-basis value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -840,7 +840,7 @@ export const basis_arbitrary = (value: string) => `basis-[${value}]`;
  *
  * @type utility
  */
-export const basis_arb = (value: string) => `basis-[${value}]`;
+export const basis_arb = (value: string) => `basis-["${value}"]`;
 
 
 /**

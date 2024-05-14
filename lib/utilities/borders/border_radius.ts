@@ -1810,7 +1810,7 @@ export const rounded_bl_full = "rounded-bl-full";
 
 
 /**
- * rounded-[{value}]
+ * rounded-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1818,11 +1818,11 @@ export const rounded_bl_full = "rounded-bl-full";
  *
  * @type utility
  */
-export const rounded_arbitrary = (value: string) => `rounded-[${value}]`;
+export const rounded_arbitrary = (value: string) => `rounded-["${value}"]`;
 
 
 /**
- * rounded-[{value}]
+ * rounded-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1830,11 +1830,11 @@ export const rounded_arbitrary = (value: string) => `rounded-[${value}]`;
  *
  * @type utility
  */
-export const rounded_arb = (value: string) => `rounded-[${value}]`;
+export const rounded_arb = (value: string) => `rounded-["${value}"]`;
 
 
 /**
- * rounded-s-[{value}]
+ * rounded-s-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1842,11 +1842,11 @@ export const rounded_arb = (value: string) => `rounded-[${value}]`;
  *
  * @type utility
  */
-export const rounded_s_arbitrary = (value: string) => `rounded-s-[${value}]`;
+export const rounded_s_arbitrary = (value: string) => `rounded-s-["${value}"]`;
 
 
 /**
- * rounded-s-[{value}]
+ * rounded-s-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1854,11 +1854,11 @@ export const rounded_s_arbitrary = (value: string) => `rounded-s-[${value}]`;
  *
  * @type utility
  */
-export const rounded_s_arb = (value: string) => `rounded-s-[${value}]`;
+export const rounded_s_arb = (value: string) => `rounded-s-["${value}"]`;
 
 
 /**
- * rounded-e-[{value}]
+ * rounded-e-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1866,11 +1866,11 @@ export const rounded_s_arb = (value: string) => `rounded-s-[${value}]`;
  *
  * @type utility
  */
-export const rounded_e_arbitrary = (value: string) => `rounded-e-[${value}]`;
+export const rounded_e_arbitrary = (value: string) => `rounded-e-["${value}"]`;
 
 
 /**
- * rounded-e-[{value}]
+ * rounded-e-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1878,11 +1878,11 @@ export const rounded_e_arbitrary = (value: string) => `rounded-e-[${value}]`;
  *
  * @type utility
  */
-export const rounded_e_arb = (value: string) => `rounded-e-[${value}]`;
+export const rounded_e_arb = (value: string) => `rounded-e-["${value}"]`;
 
 
 /**
- * rounded-t-[{value}]
+ * rounded-t-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1890,11 +1890,11 @@ export const rounded_e_arb = (value: string) => `rounded-e-[${value}]`;
  *
  * @type utility
  */
-export const rounded_t_arbitrary = (value: string) => `rounded-t-[${value}]`;
+export const rounded_t_arbitrary = (value: string) => `rounded-t-["${value}"]`;
 
 
 /**
- * rounded-t-[{value}]
+ * rounded-t-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1902,11 +1902,11 @@ export const rounded_t_arbitrary = (value: string) => `rounded-t-[${value}]`;
  *
  * @type utility
  */
-export const rounded_t_arb = (value: string) => `rounded-t-[${value}]`;
+export const rounded_t_arb = (value: string) => `rounded-t-["${value}"]`;
 
 
 /**
- * rounded-r-[{value}]
+ * rounded-r-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1914,11 +1914,11 @@ export const rounded_t_arb = (value: string) => `rounded-t-[${value}]`;
  *
  * @type utility
  */
-export const rounded_r_arbitrary = (value: string) => `rounded-r-[${value}]`;
+export const rounded_r_arbitrary = (value: string) => `rounded-r-["${value}"]`;
 
 
 /**
- * rounded-r-[{value}]
+ * rounded-r-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1926,11 +1926,11 @@ export const rounded_r_arbitrary = (value: string) => `rounded-r-[${value}]`;
  *
  * @type utility
  */
-export const rounded_r_arb = (value: string) => `rounded-r-[${value}]`;
+export const rounded_r_arb = (value: string) => `rounded-r-["${value}"]`;
 
 
 /**
- * rounded-b-[{value}]
+ * rounded-b-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1938,11 +1938,11 @@ export const rounded_r_arb = (value: string) => `rounded-r-[${value}]`;
  *
  * @type utility
  */
-export const rounded_b_arbitrary = (value: string) => `rounded-b-[${value}]`;
+export const rounded_b_arbitrary = (value: string) => `rounded-b-["${value}"]`;
 
 
 /**
- * rounded-b-[{value}]
+ * rounded-b-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1950,11 +1950,11 @@ export const rounded_b_arbitrary = (value: string) => `rounded-b-[${value}]`;
  *
  * @type utility
  */
-export const rounded_b_arb = (value: string) => `rounded-b-[${value}]`;
+export const rounded_b_arb = (value: string) => `rounded-b-["${value}"]`;
 
 
 /**
- * rounded-l-[{value}]
+ * rounded-l-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1962,11 +1962,11 @@ export const rounded_b_arb = (value: string) => `rounded-b-[${value}]`;
  *
  * @type utility
  */
-export const rounded_l_arbitrary = (value: string) => `rounded-l-[${value}]`;
+export const rounded_l_arbitrary = (value: string) => `rounded-l-["${value}"]`;
 
 
 /**
- * rounded-l-[{value}]
+ * rounded-l-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1974,11 +1974,11 @@ export const rounded_l_arbitrary = (value: string) => `rounded-l-[${value}]`;
  *
  * @type utility
  */
-export const rounded_l_arb = (value: string) => `rounded-l-[${value}]`;
+export const rounded_l_arb = (value: string) => `rounded-l-["${value}"]`;
 
 
 /**
- * rounded-ss-[{value}]
+ * rounded-ss-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1986,11 +1986,11 @@ export const rounded_l_arb = (value: string) => `rounded-l-[${value}]`;
  *
  * @type utility
  */
-export const rounded_ss_arbitrary = (value: string) => `rounded-ss-[${value}]`;
+export const rounded_ss_arbitrary = (value: string) => `rounded-ss-["${value}"]`;
 
 
 /**
- * rounded-ss-[{value}]
+ * rounded-ss-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1998,11 +1998,11 @@ export const rounded_ss_arbitrary = (value: string) => `rounded-ss-[${value}]`;
  *
  * @type utility
  */
-export const rounded_ss_arb = (value: string) => `rounded-ss-[${value}]`;
+export const rounded_ss_arb = (value: string) => `rounded-ss-["${value}"]`;
 
 
 /**
- * rounded-se-[{value}]
+ * rounded-se-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2010,11 +2010,11 @@ export const rounded_ss_arb = (value: string) => `rounded-ss-[${value}]`;
  *
  * @type utility
  */
-export const rounded_se_arbitrary = (value: string) => `rounded-se-[${value}]`;
+export const rounded_se_arbitrary = (value: string) => `rounded-se-["${value}"]`;
 
 
 /**
- * rounded-se-[{value}]
+ * rounded-se-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2022,11 +2022,11 @@ export const rounded_se_arbitrary = (value: string) => `rounded-se-[${value}]`;
  *
  * @type utility
  */
-export const rounded_se_arb = (value: string) => `rounded-se-[${value}]`;
+export const rounded_se_arb = (value: string) => `rounded-se-["${value}"]`;
 
 
 /**
- * rounded-ee-[{value}]
+ * rounded-ee-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2034,11 +2034,11 @@ export const rounded_se_arb = (value: string) => `rounded-se-[${value}]`;
  *
  * @type utility
  */
-export const rounded_ee_arbitrary = (value: string) => `rounded-ee-[${value}]`;
+export const rounded_ee_arbitrary = (value: string) => `rounded-ee-["${value}"]`;
 
 
 /**
- * rounded-ee-[{value}]
+ * rounded-ee-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2046,11 +2046,11 @@ export const rounded_ee_arbitrary = (value: string) => `rounded-ee-[${value}]`;
  *
  * @type utility
  */
-export const rounded_ee_arb = (value: string) => `rounded-ee-[${value}]`;
+export const rounded_ee_arb = (value: string) => `rounded-ee-["${value}"]`;
 
 
 /**
- * rounded-es-[{value}]
+ * rounded-es-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2058,11 +2058,11 @@ export const rounded_ee_arb = (value: string) => `rounded-ee-[${value}]`;
  *
  * @type utility
  */
-export const rounded_es_arbitrary = (value: string) => `rounded-es-[${value}]`;
+export const rounded_es_arbitrary = (value: string) => `rounded-es-["${value}"]`;
 
 
 /**
- * rounded-es-[{value}]
+ * rounded-es-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2070,11 +2070,11 @@ export const rounded_es_arbitrary = (value: string) => `rounded-es-[${value}]`;
  *
  * @type utility
  */
-export const rounded_es_arb = (value: string) => `rounded-es-[${value}]`;
+export const rounded_es_arb = (value: string) => `rounded-es-["${value}"]`;
 
 
 /**
- * rounded-tl-[{value}]
+ * rounded-tl-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2082,11 +2082,11 @@ export const rounded_es_arb = (value: string) => `rounded-es-[${value}]`;
  *
  * @type utility
  */
-export const rounded_tl_arbitrary = (value: string) => `rounded-tl-[${value}]`;
+export const rounded_tl_arbitrary = (value: string) => `rounded-tl-["${value}"]`;
 
 
 /**
- * rounded-tl-[{value}]
+ * rounded-tl-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2094,11 +2094,11 @@ export const rounded_tl_arbitrary = (value: string) => `rounded-tl-[${value}]`;
  *
  * @type utility
  */
-export const rounded_tl_arb = (value: string) => `rounded-tl-[${value}]`;
+export const rounded_tl_arb = (value: string) => `rounded-tl-["${value}"]`;
 
 
 /**
- * rounded-tr-[{value}]
+ * rounded-tr-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2106,11 +2106,11 @@ export const rounded_tl_arb = (value: string) => `rounded-tl-[${value}]`;
  *
  * @type utility
  */
-export const rounded_tr_arbitrary = (value: string) => `rounded-tr-[${value}]`;
+export const rounded_tr_arbitrary = (value: string) => `rounded-tr-["${value}"]`;
 
 
 /**
- * rounded-tr-[{value}]
+ * rounded-tr-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2118,11 +2118,11 @@ export const rounded_tr_arbitrary = (value: string) => `rounded-tr-[${value}]`;
  *
  * @type utility
  */
-export const rounded_tr_arb = (value: string) => `rounded-tr-[${value}]`;
+export const rounded_tr_arb = (value: string) => `rounded-tr-["${value}"]`;
 
 
 /**
- * rounded-br-[{value}]
+ * rounded-br-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2130,11 +2130,11 @@ export const rounded_tr_arb = (value: string) => `rounded-tr-[${value}]`;
  *
  * @type utility
  */
-export const rounded_br_arbitrary = (value: string) => `rounded-br-[${value}]`;
+export const rounded_br_arbitrary = (value: string) => `rounded-br-["${value}"]`;
 
 
 /**
- * rounded-br-[{value}]
+ * rounded-br-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2142,11 +2142,11 @@ export const rounded_br_arbitrary = (value: string) => `rounded-br-[${value}]`;
  *
  * @type utility
  */
-export const rounded_br_arb = (value: string) => `rounded-br-[${value}]`;
+export const rounded_br_arb = (value: string) => `rounded-br-["${value}"]`;
 
 
 /**
- * rounded-bl-[{value}]
+ * rounded-bl-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2154,11 +2154,11 @@ export const rounded_br_arb = (value: string) => `rounded-br-[${value}]`;
  *
  * @type utility
  */
-export const rounded_bl_arbitrary = (value: string) => `rounded-bl-[${value}]`;
+export const rounded_bl_arbitrary = (value: string) => `rounded-bl-["${value}"]`;
 
 
 /**
- * rounded-bl-[{value}]
+ * rounded-bl-[…]-[{value}]
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -2166,7 +2166,7 @@ export const rounded_bl_arbitrary = (value: string) => `rounded-bl-[${value}]`;
  *
  * @type utility
  */
-export const rounded_bl_arb = (value: string) => `rounded-bl-[${value}]`;
+export const rounded_bl_arb = (value: string) => `rounded-bl-["${value}"]`;
 
 
 /**

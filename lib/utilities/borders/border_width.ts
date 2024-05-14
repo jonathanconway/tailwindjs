@@ -596,7 +596,7 @@ export const border_l = "border-l";
 
 
 /**
- * border-[{value}]
+ * border-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -604,11 +604,11 @@ export const border_l = "border-l";
  *
  * @type utility
  */
-export const border_arbitrary = (value: string) => `border-[${value}]`;
+export const border_arbitrary = (value: string) => `border-["${value}"]`;
 
 
 /**
- * border-[{value}]
+ * border-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -616,11 +616,11 @@ export const border_arbitrary = (value: string) => `border-[${value}]`;
  *
  * @type utility
  */
-export const border_arb = (value: string) => `border-[${value}]`;
+export const border_arb = (value: string) => `border-["${value}"]`;
 
 
 /**
- * border-x-[{value}]
+ * border-x-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -628,11 +628,11 @@ export const border_arb = (value: string) => `border-[${value}]`;
  *
  * @type utility
  */
-export const border_x_arbitrary = (value: string) => `border-x-[${value}]`;
+export const border_x_arbitrary = (value: string) => `border-x-["${value}"]`;
 
 
 /**
- * border-x-[{value}]
+ * border-x-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -640,11 +640,11 @@ export const border_x_arbitrary = (value: string) => `border-x-[${value}]`;
  *
  * @type utility
  */
-export const border_x_arb = (value: string) => `border-x-[${value}]`;
+export const border_x_arb = (value: string) => `border-x-["${value}"]`;
 
 
 /**
- * border-y-[{value}]
+ * border-y-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -652,11 +652,11 @@ export const border_x_arb = (value: string) => `border-x-[${value}]`;
  *
  * @type utility
  */
-export const border_y_arbitrary = (value: string) => `border-y-[${value}]`;
+export const border_y_arbitrary = (value: string) => `border-y-["${value}"]`;
 
 
 /**
- * border-y-[{value}]
+ * border-y-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -664,11 +664,11 @@ export const border_y_arbitrary = (value: string) => `border-y-[${value}]`;
  *
  * @type utility
  */
-export const border_y_arb = (value: string) => `border-y-[${value}]`;
+export const border_y_arb = (value: string) => `border-y-["${value}"]`;
 
 
 /**
- * border-s-[{value}]
+ * border-s-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -676,11 +676,11 @@ export const border_y_arb = (value: string) => `border-y-[${value}]`;
  *
  * @type utility
  */
-export const border_s_arbitrary = (value: string) => `border-s-[${value}]`;
+export const border_s_arbitrary = (value: string) => `border-s-["${value}"]`;
 
 
 /**
- * border-s-[{value}]
+ * border-s-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -688,11 +688,11 @@ export const border_s_arbitrary = (value: string) => `border-s-[${value}]`;
  *
  * @type utility
  */
-export const border_s_arb = (value: string) => `border-s-[${value}]`;
+export const border_s_arb = (value: string) => `border-s-["${value}"]`;
 
 
 /**
- * border-e-[{value}]
+ * border-e-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -700,11 +700,11 @@ export const border_s_arb = (value: string) => `border-s-[${value}]`;
  *
  * @type utility
  */
-export const border_e_arbitrary = (value: string) => `border-e-[${value}]`;
+export const border_e_arbitrary = (value: string) => `border-e-["${value}"]`;
 
 
 /**
- * border-e-[{value}]
+ * border-e-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -712,11 +712,11 @@ export const border_e_arbitrary = (value: string) => `border-e-[${value}]`;
  *
  * @type utility
  */
-export const border_e_arb = (value: string) => `border-e-[${value}]`;
+export const border_e_arb = (value: string) => `border-e-["${value}"]`;
 
 
 /**
- * border-t-[{value}]
+ * border-t-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -724,11 +724,11 @@ export const border_e_arb = (value: string) => `border-e-[${value}]`;
  *
  * @type utility
  */
-export const border_t_arbitrary = (value: string) => `border-t-[${value}]`;
+export const border_t_arbitrary = (value: string) => `border-t-["${value}"]`;
 
 
 /**
- * border-t-[{value}]
+ * border-t-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -736,11 +736,11 @@ export const border_t_arbitrary = (value: string) => `border-t-[${value}]`;
  *
  * @type utility
  */
-export const border_t_arb = (value: string) => `border-t-[${value}]`;
+export const border_t_arb = (value: string) => `border-t-["${value}"]`;
 
 
 /**
- * border-r-[{value}]
+ * border-r-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -748,11 +748,11 @@ export const border_t_arb = (value: string) => `border-t-[${value}]`;
  *
  * @type utility
  */
-export const border_r_arbitrary = (value: string) => `border-r-[${value}]`;
+export const border_r_arbitrary = (value: string) => `border-r-["${value}"]`;
 
 
 /**
- * border-r-[{value}]
+ * border-r-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -760,11 +760,11 @@ export const border_r_arbitrary = (value: string) => `border-r-[${value}]`;
  *
  * @type utility
  */
-export const border_r_arb = (value: string) => `border-r-[${value}]`;
+export const border_r_arb = (value: string) => `border-r-["${value}"]`;
 
 
 /**
- * border-b-[{value}]
+ * border-b-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -772,11 +772,11 @@ export const border_r_arb = (value: string) => `border-r-[${value}]`;
  *
  * @type utility
  */
-export const border_b_arbitrary = (value: string) => `border-b-[${value}]`;
+export const border_b_arbitrary = (value: string) => `border-b-["${value}"]`;
 
 
 /**
- * border-b-[{value}]
+ * border-b-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -784,11 +784,11 @@ export const border_b_arbitrary = (value: string) => `border-b-[${value}]`;
  *
  * @type utility
  */
-export const border_b_arb = (value: string) => `border-b-[${value}]`;
+export const border_b_arb = (value: string) => `border-b-["${value}"]`;
 
 
 /**
- * border-l-[{value}]
+ * border-l-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -796,11 +796,11 @@ export const border_b_arb = (value: string) => `border-b-[${value}]`;
  *
  * @type utility
  */
-export const border_l_arbitrary = (value: string) => `border-l-[${value}]`;
+export const border_l_arbitrary = (value: string) => `border-l-["${value}"]`;
 
 
 /**
- * border-l-[{value}]
+ * border-l-[…]-[{value}]
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -808,7 +808,7 @@ export const border_l_arbitrary = (value: string) => `border-l-[${value}]`;
  *
  * @type utility
  */
-export const border_l_arb = (value: string) => `border-l-[${value}]`;
+export const border_l_arb = (value: string) => `border-l-["${value}"]`;
 
 
 /**

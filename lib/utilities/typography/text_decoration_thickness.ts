@@ -92,7 +92,7 @@ export const decoration_8 = "decoration-8";
 
 
 /**
- * decoration-from-[{value}]
+ * decoration-from-[…]-[{value}]
  *
  * If you need to use a one-off text-decoration-thickness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -100,11 +100,11 @@ export const decoration_8 = "decoration-8";
  *
  * @type utility
  */
-export const decoration_from_arbitrary = (value: string) => `decoration-from-[${value}]`;
+export const decoration_from_arbitrary = (value: string) => `decoration-from-["${value}"]`;
 
 
 /**
- * decoration-from-[{value}]
+ * decoration-from-[…]-[{value}]
  *
  * If you need to use a one-off text-decoration-thickness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -112,7 +112,7 @@ export const decoration_from_arbitrary = (value: string) => `decoration-from-[${
  *
  * @type utility
  */
-export const decoration_from_arb = (value: string) => `decoration-from-[${value}]`;
+export const decoration_from_arb = (value: string) => `decoration-from-["${value}"]`;
 
 
 /**

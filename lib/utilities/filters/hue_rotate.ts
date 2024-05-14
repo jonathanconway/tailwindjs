@@ -79,7 +79,7 @@ export const hue_rotate_180 = "hue-rotate-180";
 
 
 /**
- * hue-rotate-[{value}]
+ * hue-rotate-[…]-[{value}]
  *
  * If you need to use a one-off hue-rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -87,11 +87,11 @@ export const hue_rotate_180 = "hue-rotate-180";
  *
  * @type utility
  */
-export const hue_rotate_arbitrary = (value: string) => `hue-rotate-[${value}]`;
+export const hue_rotate_arbitrary = (value: string) => `hue-rotate-["${value}"]`;
 
 
 /**
- * hue-rotate-[{value}]
+ * hue-rotate-[…]-[{value}]
  *
  * If you need to use a one-off hue-rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -99,7 +99,7 @@ export const hue_rotate_arbitrary = (value: string) => `hue-rotate-[${value}]`;
  *
  * @type utility
  */
-export const hue_rotate_arb = (value: string) => `hue-rotate-[${value}]`;
+export const hue_rotate_arb = (value: string) => `hue-rotate-["${value}"]`;
 
 
 /**

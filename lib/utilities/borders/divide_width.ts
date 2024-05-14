@@ -167,7 +167,7 @@ export const divide_x_reverse = "divide-x-reverse";
 
 
 /**
- * divide-x-[{value}]
+ * divide-x-[…]-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -175,11 +175,11 @@ export const divide_x_reverse = "divide-x-reverse";
  *
  * @type utility
  */
-export const divide_x_arbitrary = (value: string) => `divide-x-[${value}]`;
+export const divide_x_arbitrary = (value: string) => `divide-x-["${value}"]`;
 
 
 /**
- * divide-x-[{value}]
+ * divide-x-[…]-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -187,11 +187,11 @@ export const divide_x_arbitrary = (value: string) => `divide-x-[${value}]`;
  *
  * @type utility
  */
-export const divide_x_arb = (value: string) => `divide-x-[${value}]`;
+export const divide_x_arb = (value: string) => `divide-x-["${value}"]`;
 
 
 /**
- * divide-[{value}]
+ * divide-[…]-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -199,11 +199,11 @@ export const divide_x_arb = (value: string) => `divide-x-[${value}]`;
  *
  * @type utility
  */
-export const divide_arbitrary = (value: string) => `divide-[${value}]`;
+export const divide_arbitrary = (value: string) => `divide-["${value}"]`;
 
 
 /**
- * divide-[{value}]
+ * divide-[…]-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -211,11 +211,11 @@ export const divide_arbitrary = (value: string) => `divide-[${value}]`;
  *
  * @type utility
  */
-export const divide_arb = (value: string) => `divide-[${value}]`;
+export const divide_arb = (value: string) => `divide-["${value}"]`;
 
 
 /**
- * divide-y-[{value}]
+ * divide-y-[…]-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -223,11 +223,11 @@ export const divide_arb = (value: string) => `divide-[${value}]`;
  *
  * @type utility
  */
-export const divide_y_arbitrary = (value: string) => `divide-y-[${value}]`;
+export const divide_y_arbitrary = (value: string) => `divide-y-["${value}"]`;
 
 
 /**
- * divide-y-[{value}]
+ * divide-y-[…]-[{value}]
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -235,7 +235,7 @@ export const divide_y_arbitrary = (value: string) => `divide-y-[${value}]`;
  *
  * @type utility
  */
-export const divide_y_arb = (value: string) => `divide-y-[${value}]`;
+export const divide_y_arb = (value: string) => `divide-y-["${value}"]`;
 
 
 /**

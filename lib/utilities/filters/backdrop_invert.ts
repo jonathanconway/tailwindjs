@@ -27,7 +27,7 @@ export const backdrop_invert = "backdrop-invert";
 
 
 /**
- * backdrop-invert-[{value}]
+ * backdrop-invert-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const backdrop_invert = "backdrop-invert";
  *
  * @type utility
  */
-export const backdrop_invert_arbitrary = (value: string) => `backdrop-invert-[${value}]`;
+export const backdrop_invert_arbitrary = (value: string) => `backdrop-invert-["${value}"]`;
 
 
 /**
- * backdrop-invert-[{value}]
+ * backdrop-invert-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const backdrop_invert_arbitrary = (value: string) => `backdrop-invert-[${
  *
  * @type utility
  */
-export const backdrop_invert_arb = (value: string) => `backdrop-invert-[${value}]`;
+export const backdrop_invert_arb = (value: string) => `backdrop-invert-["${value}"]`;
 
 
 /**

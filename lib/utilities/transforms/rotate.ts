@@ -118,7 +118,7 @@ export const rotate_180 = "rotate-180";
 
 
 /**
- * rotate-[{value}]
+ * rotate-[…]-[{value}]
  *
  * If you need to use a one-off rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -126,11 +126,11 @@ export const rotate_180 = "rotate-180";
  *
  * @type utility
  */
-export const rotate_arbitrary = (value: string) => `rotate-[${value}]`;
+export const rotate_arbitrary = (value: string) => `rotate-["${value}"]`;
 
 
 /**
- * rotate-[{value}]
+ * rotate-[…]-[{value}]
  *
  * If you need to use a one-off rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -138,7 +138,7 @@ export const rotate_arbitrary = (value: string) => `rotate-[${value}]`;
  *
  * @type utility
  */
-export const rotate_arb = (value: string) => `rotate-[${value}]`;
+export const rotate_arb = (value: string) => `rotate-["${value}"]`;
 
 
 /**

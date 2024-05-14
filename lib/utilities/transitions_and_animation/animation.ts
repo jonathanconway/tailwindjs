@@ -98,7 +98,7 @@ export const animate_bounce = "animate-bounce";
 
 
 /**
- * animate-[{value}]
+ * animate-[…]-[{value}]
  *
  * If you need to use a one-off animation value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -106,11 +106,11 @@ export const animate_bounce = "animate-bounce";
  *
  * @type utility
  */
-export const animate_arbitrary = (value: string) => `animate-[${value}]`;
+export const animate_arbitrary = (value: string) => `animate-["${value}"]`;
 
 
 /**
- * animate-[{value}]
+ * animate-[…]-[{value}]
  *
  * If you need to use a one-off animation value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -118,7 +118,7 @@ export const animate_arbitrary = (value: string) => `animate-[${value}]`;
  *
  * @type utility
  */
-export const animate_arb = (value: string) => `animate-[${value}]`;
+export const animate_arb = (value: string) => `animate-["${value}"]`;
 
 
 /**

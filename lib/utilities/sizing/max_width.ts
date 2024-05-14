@@ -742,7 +742,7 @@ export const max_w_screen_2xl = "max-w-screen-2xl";
 
 
 /**
- * max-w-[{value}]
+ * max-w-[…]-[{value}]
  *
  * If you need to use a one-off max-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -750,11 +750,11 @@ export const max_w_screen_2xl = "max-w-screen-2xl";
  *
  * @type utility
  */
-export const max_w_arbitrary = (value: string) => `max-w-[${value}]`;
+export const max_w_arbitrary = (value: string) => `max-w-["${value}"]`;
 
 
 /**
- * max-w-[{value}]
+ * max-w-[…]-[{value}]
  *
  * If you need to use a one-off max-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -762,11 +762,11 @@ export const max_w_arbitrary = (value: string) => `max-w-[${value}]`;
  *
  * @type utility
  */
-export const max_w_arb = (value: string) => `max-w-[${value}]`;
+export const max_w_arb = (value: string) => `max-w-["${value}"]`;
 
 
 /**
- * max-w-screen-[{value}]
+ * max-w-screen-[…]-[{value}]
  *
  * If you need to use a one-off max-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -774,11 +774,11 @@ export const max_w_arb = (value: string) => `max-w-[${value}]`;
  *
  * @type utility
  */
-export const max_w_screen_arbitrary = (value: string) => `max-w-screen-[${value}]`;
+export const max_w_screen_arbitrary = (value: string) => `max-w-screen-["${value}"]`;
 
 
 /**
- * max-w-screen-[{value}]
+ * max-w-screen-[…]-[{value}]
  *
  * If you need to use a one-off max-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -786,7 +786,7 @@ export const max_w_screen_arbitrary = (value: string) => `max-w-screen-[${value}
  *
  * @type utility
  */
-export const max_w_screen_arb = (value: string) => `max-w-screen-[${value}]`;
+export const max_w_screen_arb = (value: string) => `max-w-screen-["${value}"]`;
 
 
 /**

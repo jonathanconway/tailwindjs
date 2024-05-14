@@ -118,7 +118,7 @@ export const origin_top_left = "origin-top-left";
 
 
 /**
- * origin-[{value}]
+ * origin-[…]-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -126,11 +126,11 @@ export const origin_top_left = "origin-top-left";
  *
  * @type utility
  */
-export const origin_arbitrary = (value: string) => `origin-[${value}]`;
+export const origin_arbitrary = (value: string) => `origin-["${value}"]`;
 
 
 /**
- * origin-[{value}]
+ * origin-[…]-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -138,11 +138,11 @@ export const origin_arbitrary = (value: string) => `origin-[${value}]`;
  *
  * @type utility
  */
-export const origin_arb = (value: string) => `origin-[${value}]`;
+export const origin_arb = (value: string) => `origin-["${value}"]`;
 
 
 /**
- * origin-top-[{value}]
+ * origin-top-[…]-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -150,11 +150,11 @@ export const origin_arb = (value: string) => `origin-[${value}]`;
  *
  * @type utility
  */
-export const origin_top_arbitrary = (value: string) => `origin-top-[${value}]`;
+export const origin_top_arbitrary = (value: string) => `origin-top-["${value}"]`;
 
 
 /**
- * origin-top-[{value}]
+ * origin-top-[…]-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -162,11 +162,11 @@ export const origin_top_arbitrary = (value: string) => `origin-top-[${value}]`;
  *
  * @type utility
  */
-export const origin_top_arb = (value: string) => `origin-top-[${value}]`;
+export const origin_top_arb = (value: string) => `origin-top-["${value}"]`;
 
 
 /**
- * origin-bottom-[{value}]
+ * origin-bottom-[…]-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -174,11 +174,11 @@ export const origin_top_arb = (value: string) => `origin-top-[${value}]`;
  *
  * @type utility
  */
-export const origin_bottom_arbitrary = (value: string) => `origin-bottom-[${value}]`;
+export const origin_bottom_arbitrary = (value: string) => `origin-bottom-["${value}"]`;
 
 
 /**
- * origin-bottom-[{value}]
+ * origin-bottom-[…]-[{value}]
  *
  * If you need to use a one-off transform-origin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -186,7 +186,7 @@ export const origin_bottom_arbitrary = (value: string) => `origin-bottom-[${valu
  *
  * @type utility
  */
-export const origin_bottom_arb = (value: string) => `origin-bottom-[${value}]`;
+export const origin_bottom_arb = (value: string) => `origin-bottom-["${value}"]`;
 
 
 /**

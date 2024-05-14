@@ -92,7 +92,7 @@ export const ring_inset = "ring-inset";
 
 
 /**
- * ring-[{value}]
+ * ring-[…]-[{value}]
  *
  * If you need to use a one-off ring value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -100,11 +100,11 @@ export const ring_inset = "ring-inset";
  *
  * @type utility
  */
-export const ring_arbitrary = (value: string) => `ring-[${value}]`;
+export const ring_arbitrary = (value: string) => `ring-["${value}"]`;
 
 
 /**
- * ring-[{value}]
+ * ring-[…]-[{value}]
  *
  * If you need to use a one-off ring value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -112,7 +112,7 @@ export const ring_arbitrary = (value: string) => `ring-[${value}]`;
  *
  * @type utility
  */
-export const ring_arb = (value: string) => `ring-[${value}]`;
+export const ring_arb = (value: string) => `ring-["${value}"]`;
 
 
 /**

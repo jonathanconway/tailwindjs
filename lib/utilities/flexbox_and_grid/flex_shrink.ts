@@ -27,7 +27,7 @@ export const shrink_0 = "shrink-0";
 
 
 /**
- * shrink-[{value}]
+ * shrink-[…]-[{value}]
  *
  * If you need to use a one-off flex-shrink value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const shrink_0 = "shrink-0";
  *
  * @type utility
  */
-export const shrink_arbitrary = (value: string) => `shrink-[${value}]`;
+export const shrink_arbitrary = (value: string) => `shrink-["${value}"]`;
 
 
 /**
- * shrink-[{value}]
+ * shrink-[…]-[{value}]
  *
  * If you need to use a one-off flex-shrink value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const shrink_arbitrary = (value: string) => `shrink-[${value}]`;
  *
  * @type utility
  */
-export const shrink_arb = (value: string) => `shrink-[${value}]`;
+export const shrink_arb = (value: string) => `shrink-["${value}"]`;
 
 
 /**

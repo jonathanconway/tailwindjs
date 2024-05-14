@@ -937,7 +937,7 @@ export const space_x_reverse = "space-x-reverse";
 
 
 /**
- * space-x-[{value}]
+ * space-x-[…]-[{value}]
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -945,11 +945,11 @@ export const space_x_reverse = "space-x-reverse";
  *
  * @type utility
  */
-export const space_x_arbitrary = (value: string) => `space-x-[${value}]`;
+export const space_x_arbitrary = (value: string) => `space-x-["${value}"]`;
 
 
 /**
- * space-x-[{value}]
+ * space-x-[…]-[{value}]
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -957,11 +957,11 @@ export const space_x_arbitrary = (value: string) => `space-x-[${value}]`;
  *
  * @type utility
  */
-export const space_x_arb = (value: string) => `space-x-[${value}]`;
+export const space_x_arb = (value: string) => `space-x-["${value}"]`;
 
 
 /**
- * space-y-[{value}]
+ * space-y-[…]-[{value}]
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -969,11 +969,11 @@ export const space_x_arb = (value: string) => `space-x-[${value}]`;
  *
  * @type utility
  */
-export const space_y_arbitrary = (value: string) => `space-y-[${value}]`;
+export const space_y_arbitrary = (value: string) => `space-y-["${value}"]`;
 
 
 /**
- * space-y-[{value}]
+ * space-y-[…]-[{value}]
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -981,7 +981,7 @@ export const space_y_arbitrary = (value: string) => `space-y-[${value}]`;
  *
  * @type utility
  */
-export const space_y_arb = (value: string) => `space-y-[${value}]`;
+export const space_y_arb = (value: string) => `space-y-["${value}"]`;
 
 
 /**

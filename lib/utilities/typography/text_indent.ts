@@ -456,7 +456,7 @@ export const indent_96 = "indent-96";
 
 
 /**
- * indent-[{value}]
+ * indent-[…]-[{value}]
  *
  * If you need to use a one-off text-indent value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -464,11 +464,11 @@ export const indent_96 = "indent-96";
  *
  * @type utility
  */
-export const indent_arbitrary = (value: string) => `indent-[${value}]`;
+export const indent_arbitrary = (value: string) => `indent-["${value}"]`;
 
 
 /**
- * indent-[{value}]
+ * indent-[…]-[{value}]
  *
  * If you need to use a one-off text-indent value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -476,7 +476,7 @@ export const indent_arbitrary = (value: string) => `indent-[${value}]`;
  *
  * @type utility
  */
-export const indent_arb = (value: string) => `indent-[${value}]`;
+export const indent_arb = (value: string) => `indent-["${value}"]`;
 
 
 /**

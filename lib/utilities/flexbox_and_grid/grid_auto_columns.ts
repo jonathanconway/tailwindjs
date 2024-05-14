@@ -53,7 +53,7 @@ export const auto_cols_fr = "auto-cols-fr";
 
 
 /**
- * auto-cols-[{value}]
+ * auto-cols-[…]-[{value}]
  *
  * If you need to use a one-off grid-auto-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -61,11 +61,11 @@ export const auto_cols_fr = "auto-cols-fr";
  *
  * @type utility
  */
-export const auto_cols_arbitrary = (value: string) => `auto-cols-[${value}]`;
+export const auto_cols_arbitrary = (value: string) => `auto-cols-["${value}"]`;
 
 
 /**
- * auto-cols-[{value}]
+ * auto-cols-[…]-[{value}]
  *
  * If you need to use a one-off grid-auto-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -73,7 +73,7 @@ export const auto_cols_arbitrary = (value: string) => `auto-cols-[${value}]`;
  *
  * @type utility
  */
-export const auto_cols_arb = (value: string) => `auto-cols-[${value}]`;
+export const auto_cols_arb = (value: string) => `auto-cols-["${value}"]`;
 
 
 /**

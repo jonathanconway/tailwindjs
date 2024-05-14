@@ -925,7 +925,7 @@ export const size_fit = "size-fit";
 
 
 /**
- * size-[{value}]
+ * size-[…]-[{value}]
  *
  * If you need to use a one-off size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -933,11 +933,11 @@ export const size_fit = "size-fit";
  *
  * @type utility
  */
-export const size_arbitrary = (value: string) => `size-[${value}]`;
+export const size_arbitrary = (value: string) => `size-["${value}"]`;
 
 
 /**
- * size-[{value}]
+ * size-[…]-[{value}]
  *
  * If you need to use a one-off size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -945,7 +945,7 @@ export const size_arbitrary = (value: string) => `size-[${value}]`;
  *
  * @type utility
  */
-export const size_arb = (value: string) => `size-[${value}]`;
+export const size_arb = (value: string) => `size-["${value}"]`;
 
 
 /**

@@ -547,7 +547,7 @@ export const row_end_auto = "row-end-auto";
 
 
 /**
- * row-[{value}]
+ * row-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -555,11 +555,11 @@ export const row_end_auto = "row-end-auto";
  *
  * @type utility
  */
-export const row_arbitrary = (value: string) => `row-[${value}]`;
+export const row_arbitrary = (value: string) => `row-["${value}"]`;
 
 
 /**
- * row-[{value}]
+ * row-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -567,11 +567,11 @@ export const row_arbitrary = (value: string) => `row-[${value}]`;
  *
  * @type utility
  */
-export const row_arb = (value: string) => `row-[${value}]`;
+export const row_arb = (value: string) => `row-["${value}"]`;
 
 
 /**
- * row-span-[{value}]
+ * row-span-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -579,11 +579,11 @@ export const row_arb = (value: string) => `row-[${value}]`;
  *
  * @type utility
  */
-export const row_span_arbitrary = (value: string) => `row-span-[${value}]`;
+export const row_span_arbitrary = (value: string) => `row-span-["${value}"]`;
 
 
 /**
- * row-span-[{value}]
+ * row-span-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -591,11 +591,11 @@ export const row_span_arbitrary = (value: string) => `row-span-[${value}]`;
  *
  * @type utility
  */
-export const row_span_arb = (value: string) => `row-span-[${value}]`;
+export const row_span_arb = (value: string) => `row-span-["${value}"]`;
 
 
 /**
- * row-start-[{value}]
+ * row-start-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -603,11 +603,11 @@ export const row_span_arb = (value: string) => `row-span-[${value}]`;
  *
  * @type utility
  */
-export const row_start_arbitrary = (value: string) => `row-start-[${value}]`;
+export const row_start_arbitrary = (value: string) => `row-start-["${value}"]`;
 
 
 /**
- * row-start-[{value}]
+ * row-start-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -615,11 +615,11 @@ export const row_start_arbitrary = (value: string) => `row-start-[${value}]`;
  *
  * @type utility
  */
-export const row_start_arb = (value: string) => `row-start-[${value}]`;
+export const row_start_arb = (value: string) => `row-start-["${value}"]`;
 
 
 /**
- * row-end-[{value}]
+ * row-end-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -627,11 +627,11 @@ export const row_start_arb = (value: string) => `row-start-[${value}]`;
  *
  * @type utility
  */
-export const row_end_arbitrary = (value: string) => `row-end-[${value}]`;
+export const row_end_arbitrary = (value: string) => `row-end-["${value}"]`;
 
 
 /**
- * row-end-[{value}]
+ * row-end-[…]-[{value}]
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -639,7 +639,7 @@ export const row_end_arbitrary = (value: string) => `row-end-[${value}]`;
  *
  * @type utility
  */
-export const row_end_arb = (value: string) => `row-end-[${value}]`;
+export const row_end_arb = (value: string) => `row-end-["${value}"]`;
 
 
 /**

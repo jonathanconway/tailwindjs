@@ -1366,7 +1366,7 @@ export const gap_y_96 = "gap-y-96";
 
 
 /**
- * gap-[{value}]
+ * gap-[…]-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1374,11 +1374,11 @@ export const gap_y_96 = "gap-y-96";
  *
  * @type utility
  */
-export const gap_arbitrary = (value: string) => `gap-[${value}]`;
+export const gap_arbitrary = (value: string) => `gap-["${value}"]`;
 
 
 /**
- * gap-[{value}]
+ * gap-[…]-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1386,11 +1386,11 @@ export const gap_arbitrary = (value: string) => `gap-[${value}]`;
  *
  * @type utility
  */
-export const gap_arb = (value: string) => `gap-[${value}]`;
+export const gap_arb = (value: string) => `gap-["${value}"]`;
 
 
 /**
- * gap-x-[{value}]
+ * gap-x-[…]-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1398,11 +1398,11 @@ export const gap_arb = (value: string) => `gap-[${value}]`;
  *
  * @type utility
  */
-export const gap_x_arbitrary = (value: string) => `gap-x-[${value}]`;
+export const gap_x_arbitrary = (value: string) => `gap-x-["${value}"]`;
 
 
 /**
- * gap-x-[{value}]
+ * gap-x-[…]-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1410,11 +1410,11 @@ export const gap_x_arbitrary = (value: string) => `gap-x-[${value}]`;
  *
  * @type utility
  */
-export const gap_x_arb = (value: string) => `gap-x-[${value}]`;
+export const gap_x_arb = (value: string) => `gap-x-["${value}"]`;
 
 
 /**
- * gap-y-[{value}]
+ * gap-y-[…]-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1422,11 +1422,11 @@ export const gap_x_arb = (value: string) => `gap-x-[${value}]`;
  *
  * @type utility
  */
-export const gap_y_arbitrary = (value: string) => `gap-y-[${value}]`;
+export const gap_y_arbitrary = (value: string) => `gap-y-["${value}"]`;
 
 
 /**
- * gap-y-[{value}]
+ * gap-y-[…]-[{value}]
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1434,7 +1434,7 @@ export const gap_y_arbitrary = (value: string) => `gap-y-[${value}]`;
  *
  * @type utility
  */
-export const gap_y_arb = (value: string) => `gap-y-[${value}]`;
+export const gap_y_arb = (value: string) => `gap-y-["${value}"]`;
 
 
 /**

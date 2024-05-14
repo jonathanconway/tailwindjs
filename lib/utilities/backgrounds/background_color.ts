@@ -3212,7 +3212,7 @@ export const bg_rose_950 = "bg-rose-950";
 
 
 /**
- * bg-[{value}]
+ * bg-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3220,11 +3220,11 @@ export const bg_rose_950 = "bg-rose-950";
  *
  * @type utility
  */
-export const bg_arbitrary = (value: string) => `bg-[${value}]`;
+export const bg_arbitrary = (value: string) => `bg-["${value}"]`;
 
 
 /**
- * bg-[{value}]
+ * bg-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3232,11 +3232,11 @@ export const bg_arbitrary = (value: string) => `bg-[${value}]`;
  *
  * @type utility
  */
-export const bg_arb = (value: string) => `bg-[${value}]`;
+export const bg_arb = (value: string) => `bg-["${value}"]`;
 
 
 /**
- * bg-slate-[{value}]
+ * bg-slate-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3244,11 +3244,11 @@ export const bg_arb = (value: string) => `bg-[${value}]`;
  *
  * @type utility
  */
-export const bg_slate_arbitrary = (value: string) => `bg-slate-[${value}]`;
+export const bg_slate_arbitrary = (value: string) => `bg-slate-["${value}"]`;
 
 
 /**
- * bg-slate-[{value}]
+ * bg-slate-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3256,11 +3256,11 @@ export const bg_slate_arbitrary = (value: string) => `bg-slate-[${value}]`;
  *
  * @type utility
  */
-export const bg_slate_arb = (value: string) => `bg-slate-[${value}]`;
+export const bg_slate_arb = (value: string) => `bg-slate-["${value}"]`;
 
 
 /**
- * bg-gray-[{value}]
+ * bg-gray-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3268,11 +3268,11 @@ export const bg_slate_arb = (value: string) => `bg-slate-[${value}]`;
  *
  * @type utility
  */
-export const bg_gray_arbitrary = (value: string) => `bg-gray-[${value}]`;
+export const bg_gray_arbitrary = (value: string) => `bg-gray-["${value}"]`;
 
 
 /**
- * bg-gray-[{value}]
+ * bg-gray-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3280,11 +3280,11 @@ export const bg_gray_arbitrary = (value: string) => `bg-gray-[${value}]`;
  *
  * @type utility
  */
-export const bg_gray_arb = (value: string) => `bg-gray-[${value}]`;
+export const bg_gray_arb = (value: string) => `bg-gray-["${value}"]`;
 
 
 /**
- * bg-zinc-[{value}]
+ * bg-zinc-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3292,11 +3292,11 @@ export const bg_gray_arb = (value: string) => `bg-gray-[${value}]`;
  *
  * @type utility
  */
-export const bg_zinc_arbitrary = (value: string) => `bg-zinc-[${value}]`;
+export const bg_zinc_arbitrary = (value: string) => `bg-zinc-["${value}"]`;
 
 
 /**
- * bg-zinc-[{value}]
+ * bg-zinc-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3304,11 +3304,11 @@ export const bg_zinc_arbitrary = (value: string) => `bg-zinc-[${value}]`;
  *
  * @type utility
  */
-export const bg_zinc_arb = (value: string) => `bg-zinc-[${value}]`;
+export const bg_zinc_arb = (value: string) => `bg-zinc-["${value}"]`;
 
 
 /**
- * bg-neutral-[{value}]
+ * bg-neutral-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3316,11 +3316,11 @@ export const bg_zinc_arb = (value: string) => `bg-zinc-[${value}]`;
  *
  * @type utility
  */
-export const bg_neutral_arbitrary = (value: string) => `bg-neutral-[${value}]`;
+export const bg_neutral_arbitrary = (value: string) => `bg-neutral-["${value}"]`;
 
 
 /**
- * bg-neutral-[{value}]
+ * bg-neutral-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3328,11 +3328,11 @@ export const bg_neutral_arbitrary = (value: string) => `bg-neutral-[${value}]`;
  *
  * @type utility
  */
-export const bg_neutral_arb = (value: string) => `bg-neutral-[${value}]`;
+export const bg_neutral_arb = (value: string) => `bg-neutral-["${value}"]`;
 
 
 /**
- * bg-stone-[{value}]
+ * bg-stone-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3340,11 +3340,11 @@ export const bg_neutral_arb = (value: string) => `bg-neutral-[${value}]`;
  *
  * @type utility
  */
-export const bg_stone_arbitrary = (value: string) => `bg-stone-[${value}]`;
+export const bg_stone_arbitrary = (value: string) => `bg-stone-["${value}"]`;
 
 
 /**
- * bg-stone-[{value}]
+ * bg-stone-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3352,11 +3352,11 @@ export const bg_stone_arbitrary = (value: string) => `bg-stone-[${value}]`;
  *
  * @type utility
  */
-export const bg_stone_arb = (value: string) => `bg-stone-[${value}]`;
+export const bg_stone_arb = (value: string) => `bg-stone-["${value}"]`;
 
 
 /**
- * bg-red-[{value}]
+ * bg-red-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3364,11 +3364,11 @@ export const bg_stone_arb = (value: string) => `bg-stone-[${value}]`;
  *
  * @type utility
  */
-export const bg_red_arbitrary = (value: string) => `bg-red-[${value}]`;
+export const bg_red_arbitrary = (value: string) => `bg-red-["${value}"]`;
 
 
 /**
- * bg-red-[{value}]
+ * bg-red-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3376,11 +3376,11 @@ export const bg_red_arbitrary = (value: string) => `bg-red-[${value}]`;
  *
  * @type utility
  */
-export const bg_red_arb = (value: string) => `bg-red-[${value}]`;
+export const bg_red_arb = (value: string) => `bg-red-["${value}"]`;
 
 
 /**
- * bg-orange-[{value}]
+ * bg-orange-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3388,11 +3388,11 @@ export const bg_red_arb = (value: string) => `bg-red-[${value}]`;
  *
  * @type utility
  */
-export const bg_orange_arbitrary = (value: string) => `bg-orange-[${value}]`;
+export const bg_orange_arbitrary = (value: string) => `bg-orange-["${value}"]`;
 
 
 /**
- * bg-orange-[{value}]
+ * bg-orange-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3400,11 +3400,11 @@ export const bg_orange_arbitrary = (value: string) => `bg-orange-[${value}]`;
  *
  * @type utility
  */
-export const bg_orange_arb = (value: string) => `bg-orange-[${value}]`;
+export const bg_orange_arb = (value: string) => `bg-orange-["${value}"]`;
 
 
 /**
- * bg-amber-[{value}]
+ * bg-amber-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3412,11 +3412,11 @@ export const bg_orange_arb = (value: string) => `bg-orange-[${value}]`;
  *
  * @type utility
  */
-export const bg_amber_arbitrary = (value: string) => `bg-amber-[${value}]`;
+export const bg_amber_arbitrary = (value: string) => `bg-amber-["${value}"]`;
 
 
 /**
- * bg-amber-[{value}]
+ * bg-amber-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3424,11 +3424,11 @@ export const bg_amber_arbitrary = (value: string) => `bg-amber-[${value}]`;
  *
  * @type utility
  */
-export const bg_amber_arb = (value: string) => `bg-amber-[${value}]`;
+export const bg_amber_arb = (value: string) => `bg-amber-["${value}"]`;
 
 
 /**
- * bg-yellow-[{value}]
+ * bg-yellow-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3436,11 +3436,11 @@ export const bg_amber_arb = (value: string) => `bg-amber-[${value}]`;
  *
  * @type utility
  */
-export const bg_yellow_arbitrary = (value: string) => `bg-yellow-[${value}]`;
+export const bg_yellow_arbitrary = (value: string) => `bg-yellow-["${value}"]`;
 
 
 /**
- * bg-yellow-[{value}]
+ * bg-yellow-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3448,11 +3448,11 @@ export const bg_yellow_arbitrary = (value: string) => `bg-yellow-[${value}]`;
  *
  * @type utility
  */
-export const bg_yellow_arb = (value: string) => `bg-yellow-[${value}]`;
+export const bg_yellow_arb = (value: string) => `bg-yellow-["${value}"]`;
 
 
 /**
- * bg-lime-[{value}]
+ * bg-lime-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3460,11 +3460,11 @@ export const bg_yellow_arb = (value: string) => `bg-yellow-[${value}]`;
  *
  * @type utility
  */
-export const bg_lime_arbitrary = (value: string) => `bg-lime-[${value}]`;
+export const bg_lime_arbitrary = (value: string) => `bg-lime-["${value}"]`;
 
 
 /**
- * bg-lime-[{value}]
+ * bg-lime-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3472,11 +3472,11 @@ export const bg_lime_arbitrary = (value: string) => `bg-lime-[${value}]`;
  *
  * @type utility
  */
-export const bg_lime_arb = (value: string) => `bg-lime-[${value}]`;
+export const bg_lime_arb = (value: string) => `bg-lime-["${value}"]`;
 
 
 /**
- * bg-green-[{value}]
+ * bg-green-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3484,11 +3484,11 @@ export const bg_lime_arb = (value: string) => `bg-lime-[${value}]`;
  *
  * @type utility
  */
-export const bg_green_arbitrary = (value: string) => `bg-green-[${value}]`;
+export const bg_green_arbitrary = (value: string) => `bg-green-["${value}"]`;
 
 
 /**
- * bg-green-[{value}]
+ * bg-green-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3496,11 +3496,11 @@ export const bg_green_arbitrary = (value: string) => `bg-green-[${value}]`;
  *
  * @type utility
  */
-export const bg_green_arb = (value: string) => `bg-green-[${value}]`;
+export const bg_green_arb = (value: string) => `bg-green-["${value}"]`;
 
 
 /**
- * bg-emerald-[{value}]
+ * bg-emerald-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3508,11 +3508,11 @@ export const bg_green_arb = (value: string) => `bg-green-[${value}]`;
  *
  * @type utility
  */
-export const bg_emerald_arbitrary = (value: string) => `bg-emerald-[${value}]`;
+export const bg_emerald_arbitrary = (value: string) => `bg-emerald-["${value}"]`;
 
 
 /**
- * bg-emerald-[{value}]
+ * bg-emerald-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3520,11 +3520,11 @@ export const bg_emerald_arbitrary = (value: string) => `bg-emerald-[${value}]`;
  *
  * @type utility
  */
-export const bg_emerald_arb = (value: string) => `bg-emerald-[${value}]`;
+export const bg_emerald_arb = (value: string) => `bg-emerald-["${value}"]`;
 
 
 /**
- * bg-teal-[{value}]
+ * bg-teal-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3532,11 +3532,11 @@ export const bg_emerald_arb = (value: string) => `bg-emerald-[${value}]`;
  *
  * @type utility
  */
-export const bg_teal_arbitrary = (value: string) => `bg-teal-[${value}]`;
+export const bg_teal_arbitrary = (value: string) => `bg-teal-["${value}"]`;
 
 
 /**
- * bg-teal-[{value}]
+ * bg-teal-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3544,11 +3544,11 @@ export const bg_teal_arbitrary = (value: string) => `bg-teal-[${value}]`;
  *
  * @type utility
  */
-export const bg_teal_arb = (value: string) => `bg-teal-[${value}]`;
+export const bg_teal_arb = (value: string) => `bg-teal-["${value}"]`;
 
 
 /**
- * bg-cyan-[{value}]
+ * bg-cyan-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3556,11 +3556,11 @@ export const bg_teal_arb = (value: string) => `bg-teal-[${value}]`;
  *
  * @type utility
  */
-export const bg_cyan_arbitrary = (value: string) => `bg-cyan-[${value}]`;
+export const bg_cyan_arbitrary = (value: string) => `bg-cyan-["${value}"]`;
 
 
 /**
- * bg-cyan-[{value}]
+ * bg-cyan-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3568,11 +3568,11 @@ export const bg_cyan_arbitrary = (value: string) => `bg-cyan-[${value}]`;
  *
  * @type utility
  */
-export const bg_cyan_arb = (value: string) => `bg-cyan-[${value}]`;
+export const bg_cyan_arb = (value: string) => `bg-cyan-["${value}"]`;
 
 
 /**
- * bg-sky-[{value}]
+ * bg-sky-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3580,11 +3580,11 @@ export const bg_cyan_arb = (value: string) => `bg-cyan-[${value}]`;
  *
  * @type utility
  */
-export const bg_sky_arbitrary = (value: string) => `bg-sky-[${value}]`;
+export const bg_sky_arbitrary = (value: string) => `bg-sky-["${value}"]`;
 
 
 /**
- * bg-sky-[{value}]
+ * bg-sky-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3592,11 +3592,11 @@ export const bg_sky_arbitrary = (value: string) => `bg-sky-[${value}]`;
  *
  * @type utility
  */
-export const bg_sky_arb = (value: string) => `bg-sky-[${value}]`;
+export const bg_sky_arb = (value: string) => `bg-sky-["${value}"]`;
 
 
 /**
- * bg-blue-[{value}]
+ * bg-blue-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3604,11 +3604,11 @@ export const bg_sky_arb = (value: string) => `bg-sky-[${value}]`;
  *
  * @type utility
  */
-export const bg_blue_arbitrary = (value: string) => `bg-blue-[${value}]`;
+export const bg_blue_arbitrary = (value: string) => `bg-blue-["${value}"]`;
 
 
 /**
- * bg-blue-[{value}]
+ * bg-blue-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3616,11 +3616,11 @@ export const bg_blue_arbitrary = (value: string) => `bg-blue-[${value}]`;
  *
  * @type utility
  */
-export const bg_blue_arb = (value: string) => `bg-blue-[${value}]`;
+export const bg_blue_arb = (value: string) => `bg-blue-["${value}"]`;
 
 
 /**
- * bg-indigo-[{value}]
+ * bg-indigo-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3628,11 +3628,11 @@ export const bg_blue_arb = (value: string) => `bg-blue-[${value}]`;
  *
  * @type utility
  */
-export const bg_indigo_arbitrary = (value: string) => `bg-indigo-[${value}]`;
+export const bg_indigo_arbitrary = (value: string) => `bg-indigo-["${value}"]`;
 
 
 /**
- * bg-indigo-[{value}]
+ * bg-indigo-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3640,11 +3640,11 @@ export const bg_indigo_arbitrary = (value: string) => `bg-indigo-[${value}]`;
  *
  * @type utility
  */
-export const bg_indigo_arb = (value: string) => `bg-indigo-[${value}]`;
+export const bg_indigo_arb = (value: string) => `bg-indigo-["${value}"]`;
 
 
 /**
- * bg-violet-[{value}]
+ * bg-violet-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3652,11 +3652,11 @@ export const bg_indigo_arb = (value: string) => `bg-indigo-[${value}]`;
  *
  * @type utility
  */
-export const bg_violet_arbitrary = (value: string) => `bg-violet-[${value}]`;
+export const bg_violet_arbitrary = (value: string) => `bg-violet-["${value}"]`;
 
 
 /**
- * bg-violet-[{value}]
+ * bg-violet-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3664,11 +3664,11 @@ export const bg_violet_arbitrary = (value: string) => `bg-violet-[${value}]`;
  *
  * @type utility
  */
-export const bg_violet_arb = (value: string) => `bg-violet-[${value}]`;
+export const bg_violet_arb = (value: string) => `bg-violet-["${value}"]`;
 
 
 /**
- * bg-purple-[{value}]
+ * bg-purple-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3676,11 +3676,11 @@ export const bg_violet_arb = (value: string) => `bg-violet-[${value}]`;
  *
  * @type utility
  */
-export const bg_purple_arbitrary = (value: string) => `bg-purple-[${value}]`;
+export const bg_purple_arbitrary = (value: string) => `bg-purple-["${value}"]`;
 
 
 /**
- * bg-purple-[{value}]
+ * bg-purple-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3688,11 +3688,11 @@ export const bg_purple_arbitrary = (value: string) => `bg-purple-[${value}]`;
  *
  * @type utility
  */
-export const bg_purple_arb = (value: string) => `bg-purple-[${value}]`;
+export const bg_purple_arb = (value: string) => `bg-purple-["${value}"]`;
 
 
 /**
- * bg-fuchsia-[{value}]
+ * bg-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3700,11 +3700,11 @@ export const bg_purple_arb = (value: string) => `bg-purple-[${value}]`;
  *
  * @type utility
  */
-export const bg_fuchsia_arbitrary = (value: string) => `bg-fuchsia-[${value}]`;
+export const bg_fuchsia_arbitrary = (value: string) => `bg-fuchsia-["${value}"]`;
 
 
 /**
- * bg-fuchsia-[{value}]
+ * bg-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3712,11 +3712,11 @@ export const bg_fuchsia_arbitrary = (value: string) => `bg-fuchsia-[${value}]`;
  *
  * @type utility
  */
-export const bg_fuchsia_arb = (value: string) => `bg-fuchsia-[${value}]`;
+export const bg_fuchsia_arb = (value: string) => `bg-fuchsia-["${value}"]`;
 
 
 /**
- * bg-pink-[{value}]
+ * bg-pink-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3724,11 +3724,11 @@ export const bg_fuchsia_arb = (value: string) => `bg-fuchsia-[${value}]`;
  *
  * @type utility
  */
-export const bg_pink_arbitrary = (value: string) => `bg-pink-[${value}]`;
+export const bg_pink_arbitrary = (value: string) => `bg-pink-["${value}"]`;
 
 
 /**
- * bg-pink-[{value}]
+ * bg-pink-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3736,11 +3736,11 @@ export const bg_pink_arbitrary = (value: string) => `bg-pink-[${value}]`;
  *
  * @type utility
  */
-export const bg_pink_arb = (value: string) => `bg-pink-[${value}]`;
+export const bg_pink_arb = (value: string) => `bg-pink-["${value}"]`;
 
 
 /**
- * bg-rose-[{value}]
+ * bg-rose-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3748,11 +3748,11 @@ export const bg_pink_arb = (value: string) => `bg-pink-[${value}]`;
  *
  * @type utility
  */
-export const bg_rose_arbitrary = (value: string) => `bg-rose-[${value}]`;
+export const bg_rose_arbitrary = (value: string) => `bg-rose-["${value}"]`;
 
 
 /**
- * bg-rose-[{value}]
+ * bg-rose-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3760,7 +3760,7 @@ export const bg_rose_arbitrary = (value: string) => `bg-rose-[${value}]`;
  *
  * @type utility
  */
-export const bg_rose_arb = (value: string) => `bg-rose-[${value}]`;
+export const bg_rose_arb = (value: string) => `bg-rose-["${value}"]`;
 
 
 /**

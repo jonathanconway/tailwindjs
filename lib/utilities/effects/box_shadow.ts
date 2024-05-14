@@ -105,7 +105,7 @@ export const shadow_none = "shadow-none";
 
 
 /**
- * shadow-[{value}]
+ * shadow-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -113,11 +113,11 @@ export const shadow_none = "shadow-none";
  *
  * @type utility
  */
-export const shadow_arbitrary = (value: string) => `shadow-[${value}]`;
+export const shadow_arbitrary = (value: string) => `shadow-["${value}"]`;
 
 
 /**
- * shadow-[{value}]
+ * shadow-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -125,7 +125,7 @@ export const shadow_arbitrary = (value: string) => `shadow-[${value}]`;
  *
  * @type utility
  */
-export const shadow_arb = (value: string) => `shadow-[${value}]`;
+export const shadow_arb = (value: string) => `shadow-["${value}"]`;
 
 
 /**

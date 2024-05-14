@@ -14,7 +14,7 @@ export const content_none = "content-none";
 
 
 /**
- * content-[{value}]
+ * content-[…]-[{value}]
  *
  * If you need to use a one-off content value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -22,11 +22,11 @@ export const content_none = "content-none";
  *
  * @type utility
  */
-export const content_arbitrary = (value: string) => `content-[${value}]`;
+export const content_arbitrary = (value: string) => `content-["${value}"]`;
 
 
 /**
- * content-[{value}]
+ * content-[…]-[{value}]
  *
  * If you need to use a one-off content value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -34,7 +34,7 @@ export const content_arbitrary = (value: string) => `content-[${value}]`;
  *
  * @type utility
  */
-export const content_arb = (value: string) => `content-[${value}]`;
+export const content_arb = (value: string) => `content-["${value}"]`;
 
 
 /**

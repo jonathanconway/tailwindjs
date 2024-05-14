@@ -27,7 +27,7 @@ export const grayscale = "grayscale";
 
 
 /**
- * grayscale-[{value}]
+ * grayscale-[…]-[{value}]
  *
  * If you need to use a one-off grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const grayscale = "grayscale";
  *
  * @type utility
  */
-export const grayscale_arbitrary = (value: string) => `grayscale-[${value}]`;
+export const grayscale_arbitrary = (value: string) => `grayscale-["${value}"]`;
 
 
 /**
- * grayscale-[{value}]
+ * grayscale-[…]-[{value}]
  *
  * If you need to use a one-off grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const grayscale_arbitrary = (value: string) => `grayscale-[${value}]`;
  *
  * @type utility
  */
-export const grayscale_arb = (value: string) => `grayscale-[${value}]`;
+export const grayscale_arb = (value: string) => `grayscale-["${value}"]`;
 
 
 /**

@@ -3212,7 +3212,7 @@ export const outline_rose_950 = "outline-rose-950";
 
 
 /**
- * outline-slate-[{value}]
+ * outline-slate-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3220,11 +3220,11 @@ export const outline_rose_950 = "outline-rose-950";
  *
  * @type utility
  */
-export const outline_slate_arbitrary = (value: string) => `outline-slate-[${value}]`;
+export const outline_slate_arbitrary = (value: string) => `outline-slate-["${value}"]`;
 
 
 /**
- * outline-slate-[{value}]
+ * outline-slate-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3232,11 +3232,11 @@ export const outline_slate_arbitrary = (value: string) => `outline-slate-[${valu
  *
  * @type utility
  */
-export const outline_slate_arb = (value: string) => `outline-slate-[${value}]`;
+export const outline_slate_arb = (value: string) => `outline-slate-["${value}"]`;
 
 
 /**
- * outline-gray-[{value}]
+ * outline-gray-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3244,11 +3244,11 @@ export const outline_slate_arb = (value: string) => `outline-slate-[${value}]`;
  *
  * @type utility
  */
-export const outline_gray_arbitrary = (value: string) => `outline-gray-[${value}]`;
+export const outline_gray_arbitrary = (value: string) => `outline-gray-["${value}"]`;
 
 
 /**
- * outline-gray-[{value}]
+ * outline-gray-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3256,11 +3256,11 @@ export const outline_gray_arbitrary = (value: string) => `outline-gray-[${value}
  *
  * @type utility
  */
-export const outline_gray_arb = (value: string) => `outline-gray-[${value}]`;
+export const outline_gray_arb = (value: string) => `outline-gray-["${value}"]`;
 
 
 /**
- * outline-zinc-[{value}]
+ * outline-zinc-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3268,11 +3268,11 @@ export const outline_gray_arb = (value: string) => `outline-gray-[${value}]`;
  *
  * @type utility
  */
-export const outline_zinc_arbitrary = (value: string) => `outline-zinc-[${value}]`;
+export const outline_zinc_arbitrary = (value: string) => `outline-zinc-["${value}"]`;
 
 
 /**
- * outline-zinc-[{value}]
+ * outline-zinc-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3280,11 +3280,11 @@ export const outline_zinc_arbitrary = (value: string) => `outline-zinc-[${value}
  *
  * @type utility
  */
-export const outline_zinc_arb = (value: string) => `outline-zinc-[${value}]`;
+export const outline_zinc_arb = (value: string) => `outline-zinc-["${value}"]`;
 
 
 /**
- * outline-neutral-[{value}]
+ * outline-neutral-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3292,11 +3292,11 @@ export const outline_zinc_arb = (value: string) => `outline-zinc-[${value}]`;
  *
  * @type utility
  */
-export const outline_neutral_arbitrary = (value: string) => `outline-neutral-[${value}]`;
+export const outline_neutral_arbitrary = (value: string) => `outline-neutral-["${value}"]`;
 
 
 /**
- * outline-neutral-[{value}]
+ * outline-neutral-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3304,11 +3304,11 @@ export const outline_neutral_arbitrary = (value: string) => `outline-neutral-[${
  *
  * @type utility
  */
-export const outline_neutral_arb = (value: string) => `outline-neutral-[${value}]`;
+export const outline_neutral_arb = (value: string) => `outline-neutral-["${value}"]`;
 
 
 /**
- * outline-stone-[{value}]
+ * outline-stone-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3316,11 +3316,11 @@ export const outline_neutral_arb = (value: string) => `outline-neutral-[${value}
  *
  * @type utility
  */
-export const outline_stone_arbitrary = (value: string) => `outline-stone-[${value}]`;
+export const outline_stone_arbitrary = (value: string) => `outline-stone-["${value}"]`;
 
 
 /**
- * outline-stone-[{value}]
+ * outline-stone-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3328,11 +3328,11 @@ export const outline_stone_arbitrary = (value: string) => `outline-stone-[${valu
  *
  * @type utility
  */
-export const outline_stone_arb = (value: string) => `outline-stone-[${value}]`;
+export const outline_stone_arb = (value: string) => `outline-stone-["${value}"]`;
 
 
 /**
- * outline-red-[{value}]
+ * outline-red-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3340,11 +3340,11 @@ export const outline_stone_arb = (value: string) => `outline-stone-[${value}]`;
  *
  * @type utility
  */
-export const outline_red_arbitrary = (value: string) => `outline-red-[${value}]`;
+export const outline_red_arbitrary = (value: string) => `outline-red-["${value}"]`;
 
 
 /**
- * outline-red-[{value}]
+ * outline-red-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3352,11 +3352,11 @@ export const outline_red_arbitrary = (value: string) => `outline-red-[${value}]`
  *
  * @type utility
  */
-export const outline_red_arb = (value: string) => `outline-red-[${value}]`;
+export const outline_red_arb = (value: string) => `outline-red-["${value}"]`;
 
 
 /**
- * outline-orange-[{value}]
+ * outline-orange-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3364,11 +3364,11 @@ export const outline_red_arb = (value: string) => `outline-red-[${value}]`;
  *
  * @type utility
  */
-export const outline_orange_arbitrary = (value: string) => `outline-orange-[${value}]`;
+export const outline_orange_arbitrary = (value: string) => `outline-orange-["${value}"]`;
 
 
 /**
- * outline-orange-[{value}]
+ * outline-orange-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3376,11 +3376,11 @@ export const outline_orange_arbitrary = (value: string) => `outline-orange-[${va
  *
  * @type utility
  */
-export const outline_orange_arb = (value: string) => `outline-orange-[${value}]`;
+export const outline_orange_arb = (value: string) => `outline-orange-["${value}"]`;
 
 
 /**
- * outline-amber-[{value}]
+ * outline-amber-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3388,11 +3388,11 @@ export const outline_orange_arb = (value: string) => `outline-orange-[${value}]`
  *
  * @type utility
  */
-export const outline_amber_arbitrary = (value: string) => `outline-amber-[${value}]`;
+export const outline_amber_arbitrary = (value: string) => `outline-amber-["${value}"]`;
 
 
 /**
- * outline-amber-[{value}]
+ * outline-amber-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3400,11 +3400,11 @@ export const outline_amber_arbitrary = (value: string) => `outline-amber-[${valu
  *
  * @type utility
  */
-export const outline_amber_arb = (value: string) => `outline-amber-[${value}]`;
+export const outline_amber_arb = (value: string) => `outline-amber-["${value}"]`;
 
 
 /**
- * outline-yellow-[{value}]
+ * outline-yellow-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3412,11 +3412,11 @@ export const outline_amber_arb = (value: string) => `outline-amber-[${value}]`;
  *
  * @type utility
  */
-export const outline_yellow_arbitrary = (value: string) => `outline-yellow-[${value}]`;
+export const outline_yellow_arbitrary = (value: string) => `outline-yellow-["${value}"]`;
 
 
 /**
- * outline-yellow-[{value}]
+ * outline-yellow-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3424,11 +3424,11 @@ export const outline_yellow_arbitrary = (value: string) => `outline-yellow-[${va
  *
  * @type utility
  */
-export const outline_yellow_arb = (value: string) => `outline-yellow-[${value}]`;
+export const outline_yellow_arb = (value: string) => `outline-yellow-["${value}"]`;
 
 
 /**
- * outline-lime-[{value}]
+ * outline-lime-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3436,11 +3436,11 @@ export const outline_yellow_arb = (value: string) => `outline-yellow-[${value}]`
  *
  * @type utility
  */
-export const outline_lime_arbitrary = (value: string) => `outline-lime-[${value}]`;
+export const outline_lime_arbitrary = (value: string) => `outline-lime-["${value}"]`;
 
 
 /**
- * outline-lime-[{value}]
+ * outline-lime-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3448,11 +3448,11 @@ export const outline_lime_arbitrary = (value: string) => `outline-lime-[${value}
  *
  * @type utility
  */
-export const outline_lime_arb = (value: string) => `outline-lime-[${value}]`;
+export const outline_lime_arb = (value: string) => `outline-lime-["${value}"]`;
 
 
 /**
- * outline-green-[{value}]
+ * outline-green-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3460,11 +3460,11 @@ export const outline_lime_arb = (value: string) => `outline-lime-[${value}]`;
  *
  * @type utility
  */
-export const outline_green_arbitrary = (value: string) => `outline-green-[${value}]`;
+export const outline_green_arbitrary = (value: string) => `outline-green-["${value}"]`;
 
 
 /**
- * outline-green-[{value}]
+ * outline-green-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3472,11 +3472,11 @@ export const outline_green_arbitrary = (value: string) => `outline-green-[${valu
  *
  * @type utility
  */
-export const outline_green_arb = (value: string) => `outline-green-[${value}]`;
+export const outline_green_arb = (value: string) => `outline-green-["${value}"]`;
 
 
 /**
- * outline-emerald-[{value}]
+ * outline-emerald-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3484,11 +3484,11 @@ export const outline_green_arb = (value: string) => `outline-green-[${value}]`;
  *
  * @type utility
  */
-export const outline_emerald_arbitrary = (value: string) => `outline-emerald-[${value}]`;
+export const outline_emerald_arbitrary = (value: string) => `outline-emerald-["${value}"]`;
 
 
 /**
- * outline-emerald-[{value}]
+ * outline-emerald-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3496,11 +3496,11 @@ export const outline_emerald_arbitrary = (value: string) => `outline-emerald-[${
  *
  * @type utility
  */
-export const outline_emerald_arb = (value: string) => `outline-emerald-[${value}]`;
+export const outline_emerald_arb = (value: string) => `outline-emerald-["${value}"]`;
 
 
 /**
- * outline-teal-[{value}]
+ * outline-teal-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3508,11 +3508,11 @@ export const outline_emerald_arb = (value: string) => `outline-emerald-[${value}
  *
  * @type utility
  */
-export const outline_teal_arbitrary = (value: string) => `outline-teal-[${value}]`;
+export const outline_teal_arbitrary = (value: string) => `outline-teal-["${value}"]`;
 
 
 /**
- * outline-teal-[{value}]
+ * outline-teal-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3520,11 +3520,11 @@ export const outline_teal_arbitrary = (value: string) => `outline-teal-[${value}
  *
  * @type utility
  */
-export const outline_teal_arb = (value: string) => `outline-teal-[${value}]`;
+export const outline_teal_arb = (value: string) => `outline-teal-["${value}"]`;
 
 
 /**
- * outline-cyan-[{value}]
+ * outline-cyan-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3532,11 +3532,11 @@ export const outline_teal_arb = (value: string) => `outline-teal-[${value}]`;
  *
  * @type utility
  */
-export const outline_cyan_arbitrary = (value: string) => `outline-cyan-[${value}]`;
+export const outline_cyan_arbitrary = (value: string) => `outline-cyan-["${value}"]`;
 
 
 /**
- * outline-cyan-[{value}]
+ * outline-cyan-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3544,11 +3544,11 @@ export const outline_cyan_arbitrary = (value: string) => `outline-cyan-[${value}
  *
  * @type utility
  */
-export const outline_cyan_arb = (value: string) => `outline-cyan-[${value}]`;
+export const outline_cyan_arb = (value: string) => `outline-cyan-["${value}"]`;
 
 
 /**
- * outline-sky-[{value}]
+ * outline-sky-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3556,11 +3556,11 @@ export const outline_cyan_arb = (value: string) => `outline-cyan-[${value}]`;
  *
  * @type utility
  */
-export const outline_sky_arbitrary = (value: string) => `outline-sky-[${value}]`;
+export const outline_sky_arbitrary = (value: string) => `outline-sky-["${value}"]`;
 
 
 /**
- * outline-sky-[{value}]
+ * outline-sky-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3568,11 +3568,11 @@ export const outline_sky_arbitrary = (value: string) => `outline-sky-[${value}]`
  *
  * @type utility
  */
-export const outline_sky_arb = (value: string) => `outline-sky-[${value}]`;
+export const outline_sky_arb = (value: string) => `outline-sky-["${value}"]`;
 
 
 /**
- * outline-blue-[{value}]
+ * outline-blue-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3580,11 +3580,11 @@ export const outline_sky_arb = (value: string) => `outline-sky-[${value}]`;
  *
  * @type utility
  */
-export const outline_blue_arbitrary = (value: string) => `outline-blue-[${value}]`;
+export const outline_blue_arbitrary = (value: string) => `outline-blue-["${value}"]`;
 
 
 /**
- * outline-blue-[{value}]
+ * outline-blue-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3592,11 +3592,11 @@ export const outline_blue_arbitrary = (value: string) => `outline-blue-[${value}
  *
  * @type utility
  */
-export const outline_blue_arb = (value: string) => `outline-blue-[${value}]`;
+export const outline_blue_arb = (value: string) => `outline-blue-["${value}"]`;
 
 
 /**
- * outline-indigo-[{value}]
+ * outline-indigo-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3604,11 +3604,11 @@ export const outline_blue_arb = (value: string) => `outline-blue-[${value}]`;
  *
  * @type utility
  */
-export const outline_indigo_arbitrary = (value: string) => `outline-indigo-[${value}]`;
+export const outline_indigo_arbitrary = (value: string) => `outline-indigo-["${value}"]`;
 
 
 /**
- * outline-indigo-[{value}]
+ * outline-indigo-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3616,11 +3616,11 @@ export const outline_indigo_arbitrary = (value: string) => `outline-indigo-[${va
  *
  * @type utility
  */
-export const outline_indigo_arb = (value: string) => `outline-indigo-[${value}]`;
+export const outline_indigo_arb = (value: string) => `outline-indigo-["${value}"]`;
 
 
 /**
- * outline-violet-[{value}]
+ * outline-violet-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3628,11 +3628,11 @@ export const outline_indigo_arb = (value: string) => `outline-indigo-[${value}]`
  *
  * @type utility
  */
-export const outline_violet_arbitrary = (value: string) => `outline-violet-[${value}]`;
+export const outline_violet_arbitrary = (value: string) => `outline-violet-["${value}"]`;
 
 
 /**
- * outline-violet-[{value}]
+ * outline-violet-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3640,11 +3640,11 @@ export const outline_violet_arbitrary = (value: string) => `outline-violet-[${va
  *
  * @type utility
  */
-export const outline_violet_arb = (value: string) => `outline-violet-[${value}]`;
+export const outline_violet_arb = (value: string) => `outline-violet-["${value}"]`;
 
 
 /**
- * outline-purple-[{value}]
+ * outline-purple-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3652,11 +3652,11 @@ export const outline_violet_arb = (value: string) => `outline-violet-[${value}]`
  *
  * @type utility
  */
-export const outline_purple_arbitrary = (value: string) => `outline-purple-[${value}]`;
+export const outline_purple_arbitrary = (value: string) => `outline-purple-["${value}"]`;
 
 
 /**
- * outline-purple-[{value}]
+ * outline-purple-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3664,11 +3664,11 @@ export const outline_purple_arbitrary = (value: string) => `outline-purple-[${va
  *
  * @type utility
  */
-export const outline_purple_arb = (value: string) => `outline-purple-[${value}]`;
+export const outline_purple_arb = (value: string) => `outline-purple-["${value}"]`;
 
 
 /**
- * outline-fuchsia-[{value}]
+ * outline-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3676,11 +3676,11 @@ export const outline_purple_arb = (value: string) => `outline-purple-[${value}]`
  *
  * @type utility
  */
-export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-[${value}]`;
+export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-["${value}"]`;
 
 
 /**
- * outline-fuchsia-[{value}]
+ * outline-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3688,11 +3688,11 @@ export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-[${
  *
  * @type utility
  */
-export const outline_fuchsia_arb = (value: string) => `outline-fuchsia-[${value}]`;
+export const outline_fuchsia_arb = (value: string) => `outline-fuchsia-["${value}"]`;
 
 
 /**
- * outline-pink-[{value}]
+ * outline-pink-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3700,11 +3700,11 @@ export const outline_fuchsia_arb = (value: string) => `outline-fuchsia-[${value}
  *
  * @type utility
  */
-export const outline_pink_arbitrary = (value: string) => `outline-pink-[${value}]`;
+export const outline_pink_arbitrary = (value: string) => `outline-pink-["${value}"]`;
 
 
 /**
- * outline-pink-[{value}]
+ * outline-pink-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3712,11 +3712,11 @@ export const outline_pink_arbitrary = (value: string) => `outline-pink-[${value}
  *
  * @type utility
  */
-export const outline_pink_arb = (value: string) => `outline-pink-[${value}]`;
+export const outline_pink_arb = (value: string) => `outline-pink-["${value}"]`;
 
 
 /**
- * outline-rose-[{value}]
+ * outline-rose-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3724,11 +3724,11 @@ export const outline_pink_arb = (value: string) => `outline-pink-[${value}]`;
  *
  * @type utility
  */
-export const outline_rose_arbitrary = (value: string) => `outline-rose-[${value}]`;
+export const outline_rose_arbitrary = (value: string) => `outline-rose-["${value}"]`;
 
 
 /**
- * outline-rose-[{value}]
+ * outline-rose-[…]-[{value}]
  *
  * If you need to use a one-off outline-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3736,7 +3736,7 @@ export const outline_rose_arbitrary = (value: string) => `outline-rose-[${value}
  *
  * @type utility
  */
-export const outline_rose_arb = (value: string) => `outline-rose-[${value}]`;
+export const outline_rose_arb = (value: string) => `outline-rose-["${value}"]`;
 
 
 /**

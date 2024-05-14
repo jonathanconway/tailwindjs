@@ -27,7 +27,7 @@ export const backdrop_grayscale = "backdrop-grayscale";
 
 
 /**
- * backdrop-grayscale-[{value}]
+ * backdrop-grayscale-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const backdrop_grayscale = "backdrop-grayscale";
  *
  * @type utility
  */
-export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-grayscale-[${value}]`;
+export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-grayscale-["${value}"]`;
 
 
 /**
- * backdrop-grayscale-[{value}]
+ * backdrop-grayscale-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-graysca
  *
  * @type utility
  */
-export const backdrop_grayscale_arb = (value: string) => `backdrop-grayscale-[${value}]`;
+export const backdrop_grayscale_arb = (value: string) => `backdrop-grayscale-["${value}"]`;
 
 
 /**

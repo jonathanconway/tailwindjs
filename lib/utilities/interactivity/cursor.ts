@@ -469,7 +469,7 @@ export const cursor_zoom_out = "cursor-zoom-out";
 
 
 /**
- * cursor-[{value}]
+ * cursor-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -477,11 +477,11 @@ export const cursor_zoom_out = "cursor-zoom-out";
  *
  * @type utility
  */
-export const cursor_arbitrary = (value: string) => `cursor-[${value}]`;
+export const cursor_arbitrary = (value: string) => `cursor-["${value}"]`;
 
 
 /**
- * cursor-[{value}]
+ * cursor-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -489,11 +489,11 @@ export const cursor_arbitrary = (value: string) => `cursor-[${value}]`;
  *
  * @type utility
  */
-export const cursor_arb = (value: string) => `cursor-[${value}]`;
+export const cursor_arb = (value: string) => `cursor-["${value}"]`;
 
 
 /**
- * cursor-not-[{value}]
+ * cursor-not-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -501,11 +501,11 @@ export const cursor_arb = (value: string) => `cursor-[${value}]`;
  *
  * @type utility
  */
-export const cursor_not_arbitrary = (value: string) => `cursor-not-[${value}]`;
+export const cursor_not_arbitrary = (value: string) => `cursor-not-["${value}"]`;
 
 
 /**
- * cursor-not-[{value}]
+ * cursor-not-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -513,11 +513,11 @@ export const cursor_not_arbitrary = (value: string) => `cursor-not-[${value}]`;
  *
  * @type utility
  */
-export const cursor_not_arb = (value: string) => `cursor-not-[${value}]`;
+export const cursor_not_arb = (value: string) => `cursor-not-["${value}"]`;
 
 
 /**
- * cursor-context-[{value}]
+ * cursor-context-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -525,11 +525,11 @@ export const cursor_not_arb = (value: string) => `cursor-not-[${value}]`;
  *
  * @type utility
  */
-export const cursor_context_arbitrary = (value: string) => `cursor-context-[${value}]`;
+export const cursor_context_arbitrary = (value: string) => `cursor-context-["${value}"]`;
 
 
 /**
- * cursor-context-[{value}]
+ * cursor-context-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -537,11 +537,11 @@ export const cursor_context_arbitrary = (value: string) => `cursor-context-[${va
  *
  * @type utility
  */
-export const cursor_context_arb = (value: string) => `cursor-context-[${value}]`;
+export const cursor_context_arb = (value: string) => `cursor-context-["${value}"]`;
 
 
 /**
- * cursor-vertical-[{value}]
+ * cursor-vertical-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -549,11 +549,11 @@ export const cursor_context_arb = (value: string) => `cursor-context-[${value}]`
  *
  * @type utility
  */
-export const cursor_vertical_arbitrary = (value: string) => `cursor-vertical-[${value}]`;
+export const cursor_vertical_arbitrary = (value: string) => `cursor-vertical-["${value}"]`;
 
 
 /**
- * cursor-vertical-[{value}]
+ * cursor-vertical-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -561,11 +561,11 @@ export const cursor_vertical_arbitrary = (value: string) => `cursor-vertical-[${
  *
  * @type utility
  */
-export const cursor_vertical_arb = (value: string) => `cursor-vertical-[${value}]`;
+export const cursor_vertical_arb = (value: string) => `cursor-vertical-["${value}"]`;
 
 
 /**
- * cursor-no-[{value}]
+ * cursor-no-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -573,11 +573,11 @@ export const cursor_vertical_arb = (value: string) => `cursor-vertical-[${value}
  *
  * @type utility
  */
-export const cursor_no_arbitrary = (value: string) => `cursor-no-[${value}]`;
+export const cursor_no_arbitrary = (value: string) => `cursor-no-["${value}"]`;
 
 
 /**
- * cursor-no-[{value}]
+ * cursor-no-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -585,11 +585,11 @@ export const cursor_no_arbitrary = (value: string) => `cursor-no-[${value}]`;
  *
  * @type utility
  */
-export const cursor_no_arb = (value: string) => `cursor-no-[${value}]`;
+export const cursor_no_arb = (value: string) => `cursor-no-["${value}"]`;
 
 
 /**
- * cursor-all-[{value}]
+ * cursor-all-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -597,11 +597,11 @@ export const cursor_no_arb = (value: string) => `cursor-no-[${value}]`;
  *
  * @type utility
  */
-export const cursor_all_arbitrary = (value: string) => `cursor-all-[${value}]`;
+export const cursor_all_arbitrary = (value: string) => `cursor-all-["${value}"]`;
 
 
 /**
- * cursor-all-[{value}]
+ * cursor-all-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -609,11 +609,11 @@ export const cursor_all_arbitrary = (value: string) => `cursor-all-[${value}]`;
  *
  * @type utility
  */
-export const cursor_all_arb = (value: string) => `cursor-all-[${value}]`;
+export const cursor_all_arb = (value: string) => `cursor-all-["${value}"]`;
 
 
 /**
- * cursor-col-[{value}]
+ * cursor-col-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -621,11 +621,11 @@ export const cursor_all_arb = (value: string) => `cursor-all-[${value}]`;
  *
  * @type utility
  */
-export const cursor_col_arbitrary = (value: string) => `cursor-col-[${value}]`;
+export const cursor_col_arbitrary = (value: string) => `cursor-col-["${value}"]`;
 
 
 /**
- * cursor-col-[{value}]
+ * cursor-col-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -633,11 +633,11 @@ export const cursor_col_arbitrary = (value: string) => `cursor-col-[${value}]`;
  *
  * @type utility
  */
-export const cursor_col_arb = (value: string) => `cursor-col-[${value}]`;
+export const cursor_col_arb = (value: string) => `cursor-col-["${value}"]`;
 
 
 /**
- * cursor-row-[{value}]
+ * cursor-row-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -645,11 +645,11 @@ export const cursor_col_arb = (value: string) => `cursor-col-[${value}]`;
  *
  * @type utility
  */
-export const cursor_row_arbitrary = (value: string) => `cursor-row-[${value}]`;
+export const cursor_row_arbitrary = (value: string) => `cursor-row-["${value}"]`;
 
 
 /**
- * cursor-row-[{value}]
+ * cursor-row-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -657,11 +657,11 @@ export const cursor_row_arbitrary = (value: string) => `cursor-row-[${value}]`;
  *
  * @type utility
  */
-export const cursor_row_arb = (value: string) => `cursor-row-[${value}]`;
+export const cursor_row_arb = (value: string) => `cursor-row-["${value}"]`;
 
 
 /**
- * cursor-n-[{value}]
+ * cursor-n-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -669,11 +669,11 @@ export const cursor_row_arb = (value: string) => `cursor-row-[${value}]`;
  *
  * @type utility
  */
-export const cursor_n_arbitrary = (value: string) => `cursor-n-[${value}]`;
+export const cursor_n_arbitrary = (value: string) => `cursor-n-["${value}"]`;
 
 
 /**
- * cursor-n-[{value}]
+ * cursor-n-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -681,11 +681,11 @@ export const cursor_n_arbitrary = (value: string) => `cursor-n-[${value}]`;
  *
  * @type utility
  */
-export const cursor_n_arb = (value: string) => `cursor-n-[${value}]`;
+export const cursor_n_arb = (value: string) => `cursor-n-["${value}"]`;
 
 
 /**
- * cursor-e-[{value}]
+ * cursor-e-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -693,11 +693,11 @@ export const cursor_n_arb = (value: string) => `cursor-n-[${value}]`;
  *
  * @type utility
  */
-export const cursor_e_arbitrary = (value: string) => `cursor-e-[${value}]`;
+export const cursor_e_arbitrary = (value: string) => `cursor-e-["${value}"]`;
 
 
 /**
- * cursor-e-[{value}]
+ * cursor-e-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -705,11 +705,11 @@ export const cursor_e_arbitrary = (value: string) => `cursor-e-[${value}]`;
  *
  * @type utility
  */
-export const cursor_e_arb = (value: string) => `cursor-e-[${value}]`;
+export const cursor_e_arb = (value: string) => `cursor-e-["${value}"]`;
 
 
 /**
- * cursor-s-[{value}]
+ * cursor-s-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -717,11 +717,11 @@ export const cursor_e_arb = (value: string) => `cursor-e-[${value}]`;
  *
  * @type utility
  */
-export const cursor_s_arbitrary = (value: string) => `cursor-s-[${value}]`;
+export const cursor_s_arbitrary = (value: string) => `cursor-s-["${value}"]`;
 
 
 /**
- * cursor-s-[{value}]
+ * cursor-s-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -729,11 +729,11 @@ export const cursor_s_arbitrary = (value: string) => `cursor-s-[${value}]`;
  *
  * @type utility
  */
-export const cursor_s_arb = (value: string) => `cursor-s-[${value}]`;
+export const cursor_s_arb = (value: string) => `cursor-s-["${value}"]`;
 
 
 /**
- * cursor-w-[{value}]
+ * cursor-w-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -741,11 +741,11 @@ export const cursor_s_arb = (value: string) => `cursor-s-[${value}]`;
  *
  * @type utility
  */
-export const cursor_w_arbitrary = (value: string) => `cursor-w-[${value}]`;
+export const cursor_w_arbitrary = (value: string) => `cursor-w-["${value}"]`;
 
 
 /**
- * cursor-w-[{value}]
+ * cursor-w-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -753,11 +753,11 @@ export const cursor_w_arbitrary = (value: string) => `cursor-w-[${value}]`;
  *
  * @type utility
  */
-export const cursor_w_arb = (value: string) => `cursor-w-[${value}]`;
+export const cursor_w_arb = (value: string) => `cursor-w-["${value}"]`;
 
 
 /**
- * cursor-ne-[{value}]
+ * cursor-ne-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -765,11 +765,11 @@ export const cursor_w_arb = (value: string) => `cursor-w-[${value}]`;
  *
  * @type utility
  */
-export const cursor_ne_arbitrary = (value: string) => `cursor-ne-[${value}]`;
+export const cursor_ne_arbitrary = (value: string) => `cursor-ne-["${value}"]`;
 
 
 /**
- * cursor-ne-[{value}]
+ * cursor-ne-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -777,11 +777,11 @@ export const cursor_ne_arbitrary = (value: string) => `cursor-ne-[${value}]`;
  *
  * @type utility
  */
-export const cursor_ne_arb = (value: string) => `cursor-ne-[${value}]`;
+export const cursor_ne_arb = (value: string) => `cursor-ne-["${value}"]`;
 
 
 /**
- * cursor-nw-[{value}]
+ * cursor-nw-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -789,11 +789,11 @@ export const cursor_ne_arb = (value: string) => `cursor-ne-[${value}]`;
  *
  * @type utility
  */
-export const cursor_nw_arbitrary = (value: string) => `cursor-nw-[${value}]`;
+export const cursor_nw_arbitrary = (value: string) => `cursor-nw-["${value}"]`;
 
 
 /**
- * cursor-nw-[{value}]
+ * cursor-nw-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -801,11 +801,11 @@ export const cursor_nw_arbitrary = (value: string) => `cursor-nw-[${value}]`;
  *
  * @type utility
  */
-export const cursor_nw_arb = (value: string) => `cursor-nw-[${value}]`;
+export const cursor_nw_arb = (value: string) => `cursor-nw-["${value}"]`;
 
 
 /**
- * cursor-se-[{value}]
+ * cursor-se-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -813,11 +813,11 @@ export const cursor_nw_arb = (value: string) => `cursor-nw-[${value}]`;
  *
  * @type utility
  */
-export const cursor_se_arbitrary = (value: string) => `cursor-se-[${value}]`;
+export const cursor_se_arbitrary = (value: string) => `cursor-se-["${value}"]`;
 
 
 /**
- * cursor-se-[{value}]
+ * cursor-se-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -825,11 +825,11 @@ export const cursor_se_arbitrary = (value: string) => `cursor-se-[${value}]`;
  *
  * @type utility
  */
-export const cursor_se_arb = (value: string) => `cursor-se-[${value}]`;
+export const cursor_se_arb = (value: string) => `cursor-se-["${value}"]`;
 
 
 /**
- * cursor-sw-[{value}]
+ * cursor-sw-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -837,11 +837,11 @@ export const cursor_se_arb = (value: string) => `cursor-se-[${value}]`;
  *
  * @type utility
  */
-export const cursor_sw_arbitrary = (value: string) => `cursor-sw-[${value}]`;
+export const cursor_sw_arbitrary = (value: string) => `cursor-sw-["${value}"]`;
 
 
 /**
- * cursor-sw-[{value}]
+ * cursor-sw-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -849,11 +849,11 @@ export const cursor_sw_arbitrary = (value: string) => `cursor-sw-[${value}]`;
  *
  * @type utility
  */
-export const cursor_sw_arb = (value: string) => `cursor-sw-[${value}]`;
+export const cursor_sw_arb = (value: string) => `cursor-sw-["${value}"]`;
 
 
 /**
- * cursor-ew-[{value}]
+ * cursor-ew-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -861,11 +861,11 @@ export const cursor_sw_arb = (value: string) => `cursor-sw-[${value}]`;
  *
  * @type utility
  */
-export const cursor_ew_arbitrary = (value: string) => `cursor-ew-[${value}]`;
+export const cursor_ew_arbitrary = (value: string) => `cursor-ew-["${value}"]`;
 
 
 /**
- * cursor-ew-[{value}]
+ * cursor-ew-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -873,11 +873,11 @@ export const cursor_ew_arbitrary = (value: string) => `cursor-ew-[${value}]`;
  *
  * @type utility
  */
-export const cursor_ew_arb = (value: string) => `cursor-ew-[${value}]`;
+export const cursor_ew_arb = (value: string) => `cursor-ew-["${value}"]`;
 
 
 /**
- * cursor-ns-[{value}]
+ * cursor-ns-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -885,11 +885,11 @@ export const cursor_ew_arb = (value: string) => `cursor-ew-[${value}]`;
  *
  * @type utility
  */
-export const cursor_ns_arbitrary = (value: string) => `cursor-ns-[${value}]`;
+export const cursor_ns_arbitrary = (value: string) => `cursor-ns-["${value}"]`;
 
 
 /**
- * cursor-ns-[{value}]
+ * cursor-ns-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -897,11 +897,11 @@ export const cursor_ns_arbitrary = (value: string) => `cursor-ns-[${value}]`;
  *
  * @type utility
  */
-export const cursor_ns_arb = (value: string) => `cursor-ns-[${value}]`;
+export const cursor_ns_arb = (value: string) => `cursor-ns-["${value}"]`;
 
 
 /**
- * cursor-nesw-[{value}]
+ * cursor-nesw-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -909,11 +909,11 @@ export const cursor_ns_arb = (value: string) => `cursor-ns-[${value}]`;
  *
  * @type utility
  */
-export const cursor_nesw_arbitrary = (value: string) => `cursor-nesw-[${value}]`;
+export const cursor_nesw_arbitrary = (value: string) => `cursor-nesw-["${value}"]`;
 
 
 /**
- * cursor-nesw-[{value}]
+ * cursor-nesw-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -921,11 +921,11 @@ export const cursor_nesw_arbitrary = (value: string) => `cursor-nesw-[${value}]`
  *
  * @type utility
  */
-export const cursor_nesw_arb = (value: string) => `cursor-nesw-[${value}]`;
+export const cursor_nesw_arb = (value: string) => `cursor-nesw-["${value}"]`;
 
 
 /**
- * cursor-nwse-[{value}]
+ * cursor-nwse-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -933,11 +933,11 @@ export const cursor_nesw_arb = (value: string) => `cursor-nesw-[${value}]`;
  *
  * @type utility
  */
-export const cursor_nwse_arbitrary = (value: string) => `cursor-nwse-[${value}]`;
+export const cursor_nwse_arbitrary = (value: string) => `cursor-nwse-["${value}"]`;
 
 
 /**
- * cursor-nwse-[{value}]
+ * cursor-nwse-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -945,11 +945,11 @@ export const cursor_nwse_arbitrary = (value: string) => `cursor-nwse-[${value}]`
  *
  * @type utility
  */
-export const cursor_nwse_arb = (value: string) => `cursor-nwse-[${value}]`;
+export const cursor_nwse_arb = (value: string) => `cursor-nwse-["${value}"]`;
 
 
 /**
- * cursor-zoom-[{value}]
+ * cursor-zoom-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -957,11 +957,11 @@ export const cursor_nwse_arb = (value: string) => `cursor-nwse-[${value}]`;
  *
  * @type utility
  */
-export const cursor_zoom_arbitrary = (value: string) => `cursor-zoom-[${value}]`;
+export const cursor_zoom_arbitrary = (value: string) => `cursor-zoom-["${value}"]`;
 
 
 /**
- * cursor-zoom-[{value}]
+ * cursor-zoom-[…]-[{value}]
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -969,7 +969,7 @@ export const cursor_zoom_arbitrary = (value: string) => `cursor-zoom-[${value}]`
  *
  * @type utility
  */
-export const cursor_zoom_arb = (value: string) => `cursor-zoom-[${value}]`;
+export const cursor_zoom_arb = (value: string) => `cursor-zoom-["${value}"]`;
 
 
 /**

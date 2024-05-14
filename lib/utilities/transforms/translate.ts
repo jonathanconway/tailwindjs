@@ -1093,7 +1093,7 @@ export const translate_y_full = "translate-y-full";
 
 
 /**
- * translate-x-[{value}]
+ * translate-x-[…]-[{value}]
  *
  * If you need to use a one-off translate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1101,11 +1101,11 @@ export const translate_y_full = "translate-y-full";
  *
  * @type utility
  */
-export const translate_x_arbitrary = (value: string) => `translate-x-[${value}]`;
+export const translate_x_arbitrary = (value: string) => `translate-x-["${value}"]`;
 
 
 /**
- * translate-x-[{value}]
+ * translate-x-[…]-[{value}]
  *
  * If you need to use a one-off translate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1113,11 +1113,11 @@ export const translate_x_arbitrary = (value: string) => `translate-x-[${value}]`
  *
  * @type utility
  */
-export const translate_x_arb = (value: string) => `translate-x-[${value}]`;
+export const translate_x_arb = (value: string) => `translate-x-["${value}"]`;
 
 
 /**
- * translate-y-[{value}]
+ * translate-y-[…]-[{value}]
  *
  * If you need to use a one-off translate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1125,11 +1125,11 @@ export const translate_x_arb = (value: string) => `translate-x-[${value}]`;
  *
  * @type utility
  */
-export const translate_y_arbitrary = (value: string) => `translate-y-[${value}]`;
+export const translate_y_arbitrary = (value: string) => `translate-y-["${value}"]`;
 
 
 /**
- * translate-y-[{value}]
+ * translate-y-[…]-[{value}]
  *
  * If you need to use a one-off translate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -1137,7 +1137,7 @@ export const translate_y_arbitrary = (value: string) => `translate-y-[${value}]`
  *
  * @type utility
  */
-export const translate_y_arb = (value: string) => `translate-y-[${value}]`;
+export const translate_y_arb = (value: string) => `translate-y-["${value}"]`;
 
 
 /**

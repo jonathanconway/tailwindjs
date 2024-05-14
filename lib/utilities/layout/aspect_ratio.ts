@@ -40,7 +40,7 @@ export const aspect_video = "aspect-video";
 
 
 /**
- * aspect-[{value}]
+ * aspect-[…]-[{value}]
  *
  * If you need to use a one-off aspect-ratio value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -48,11 +48,11 @@ export const aspect_video = "aspect-video";
  *
  * @type utility
  */
-export const aspect_arbitrary = (value: string) => `aspect-[${value}]`;
+export const aspect_arbitrary = (value: string) => `aspect-["${value}"]`;
 
 
 /**
- * aspect-[{value}]
+ * aspect-[…]-[{value}]
  *
  * If you need to use a one-off aspect-ratio value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -60,7 +60,7 @@ export const aspect_arbitrary = (value: string) => `aspect-[${value}]`;
  *
  * @type utility
  */
-export const aspect_arb = (value: string) => `aspect-[${value}]`;
+export const aspect_arb = (value: string) => `aspect-["${value}"]`;
 
 
 /**

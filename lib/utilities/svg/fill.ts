@@ -3225,7 +3225,7 @@ export const fill_rose_950 = "fill-rose-950";
 
 
 /**
- * fill-[{value}]
+ * fill-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3233,11 +3233,11 @@ export const fill_rose_950 = "fill-rose-950";
  *
  * @type utility
  */
-export const fill_arbitrary = (value: string) => `fill-[${value}]`;
+export const fill_arbitrary = (value: string) => `fill-["${value}"]`;
 
 
 /**
- * fill-[{value}]
+ * fill-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3245,11 +3245,11 @@ export const fill_arbitrary = (value: string) => `fill-[${value}]`;
  *
  * @type utility
  */
-export const fill_arb = (value: string) => `fill-[${value}]`;
+export const fill_arb = (value: string) => `fill-["${value}"]`;
 
 
 /**
- * fill-slate-[{value}]
+ * fill-slate-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3257,11 +3257,11 @@ export const fill_arb = (value: string) => `fill-[${value}]`;
  *
  * @type utility
  */
-export const fill_slate_arbitrary = (value: string) => `fill-slate-[${value}]`;
+export const fill_slate_arbitrary = (value: string) => `fill-slate-["${value}"]`;
 
 
 /**
- * fill-slate-[{value}]
+ * fill-slate-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3269,11 +3269,11 @@ export const fill_slate_arbitrary = (value: string) => `fill-slate-[${value}]`;
  *
  * @type utility
  */
-export const fill_slate_arb = (value: string) => `fill-slate-[${value}]`;
+export const fill_slate_arb = (value: string) => `fill-slate-["${value}"]`;
 
 
 /**
- * fill-gray-[{value}]
+ * fill-gray-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3281,11 +3281,11 @@ export const fill_slate_arb = (value: string) => `fill-slate-[${value}]`;
  *
  * @type utility
  */
-export const fill_gray_arbitrary = (value: string) => `fill-gray-[${value}]`;
+export const fill_gray_arbitrary = (value: string) => `fill-gray-["${value}"]`;
 
 
 /**
- * fill-gray-[{value}]
+ * fill-gray-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3293,11 +3293,11 @@ export const fill_gray_arbitrary = (value: string) => `fill-gray-[${value}]`;
  *
  * @type utility
  */
-export const fill_gray_arb = (value: string) => `fill-gray-[${value}]`;
+export const fill_gray_arb = (value: string) => `fill-gray-["${value}"]`;
 
 
 /**
- * fill-zinc-[{value}]
+ * fill-zinc-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3305,11 +3305,11 @@ export const fill_gray_arb = (value: string) => `fill-gray-[${value}]`;
  *
  * @type utility
  */
-export const fill_zinc_arbitrary = (value: string) => `fill-zinc-[${value}]`;
+export const fill_zinc_arbitrary = (value: string) => `fill-zinc-["${value}"]`;
 
 
 /**
- * fill-zinc-[{value}]
+ * fill-zinc-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3317,11 +3317,11 @@ export const fill_zinc_arbitrary = (value: string) => `fill-zinc-[${value}]`;
  *
  * @type utility
  */
-export const fill_zinc_arb = (value: string) => `fill-zinc-[${value}]`;
+export const fill_zinc_arb = (value: string) => `fill-zinc-["${value}"]`;
 
 
 /**
- * fill-neutral-[{value}]
+ * fill-neutral-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3329,11 +3329,11 @@ export const fill_zinc_arb = (value: string) => `fill-zinc-[${value}]`;
  *
  * @type utility
  */
-export const fill_neutral_arbitrary = (value: string) => `fill-neutral-[${value}]`;
+export const fill_neutral_arbitrary = (value: string) => `fill-neutral-["${value}"]`;
 
 
 /**
- * fill-neutral-[{value}]
+ * fill-neutral-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3341,11 +3341,11 @@ export const fill_neutral_arbitrary = (value: string) => `fill-neutral-[${value}
  *
  * @type utility
  */
-export const fill_neutral_arb = (value: string) => `fill-neutral-[${value}]`;
+export const fill_neutral_arb = (value: string) => `fill-neutral-["${value}"]`;
 
 
 /**
- * fill-stone-[{value}]
+ * fill-stone-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3353,11 +3353,11 @@ export const fill_neutral_arb = (value: string) => `fill-neutral-[${value}]`;
  *
  * @type utility
  */
-export const fill_stone_arbitrary = (value: string) => `fill-stone-[${value}]`;
+export const fill_stone_arbitrary = (value: string) => `fill-stone-["${value}"]`;
 
 
 /**
- * fill-stone-[{value}]
+ * fill-stone-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3365,11 +3365,11 @@ export const fill_stone_arbitrary = (value: string) => `fill-stone-[${value}]`;
  *
  * @type utility
  */
-export const fill_stone_arb = (value: string) => `fill-stone-[${value}]`;
+export const fill_stone_arb = (value: string) => `fill-stone-["${value}"]`;
 
 
 /**
- * fill-red-[{value}]
+ * fill-red-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3377,11 +3377,11 @@ export const fill_stone_arb = (value: string) => `fill-stone-[${value}]`;
  *
  * @type utility
  */
-export const fill_red_arbitrary = (value: string) => `fill-red-[${value}]`;
+export const fill_red_arbitrary = (value: string) => `fill-red-["${value}"]`;
 
 
 /**
- * fill-red-[{value}]
+ * fill-red-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3389,11 +3389,11 @@ export const fill_red_arbitrary = (value: string) => `fill-red-[${value}]`;
  *
  * @type utility
  */
-export const fill_red_arb = (value: string) => `fill-red-[${value}]`;
+export const fill_red_arb = (value: string) => `fill-red-["${value}"]`;
 
 
 /**
- * fill-orange-[{value}]
+ * fill-orange-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3401,11 +3401,11 @@ export const fill_red_arb = (value: string) => `fill-red-[${value}]`;
  *
  * @type utility
  */
-export const fill_orange_arbitrary = (value: string) => `fill-orange-[${value}]`;
+export const fill_orange_arbitrary = (value: string) => `fill-orange-["${value}"]`;
 
 
 /**
- * fill-orange-[{value}]
+ * fill-orange-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3413,11 +3413,11 @@ export const fill_orange_arbitrary = (value: string) => `fill-orange-[${value}]`
  *
  * @type utility
  */
-export const fill_orange_arb = (value: string) => `fill-orange-[${value}]`;
+export const fill_orange_arb = (value: string) => `fill-orange-["${value}"]`;
 
 
 /**
- * fill-amber-[{value}]
+ * fill-amber-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3425,11 +3425,11 @@ export const fill_orange_arb = (value: string) => `fill-orange-[${value}]`;
  *
  * @type utility
  */
-export const fill_amber_arbitrary = (value: string) => `fill-amber-[${value}]`;
+export const fill_amber_arbitrary = (value: string) => `fill-amber-["${value}"]`;
 
 
 /**
- * fill-amber-[{value}]
+ * fill-amber-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3437,11 +3437,11 @@ export const fill_amber_arbitrary = (value: string) => `fill-amber-[${value}]`;
  *
  * @type utility
  */
-export const fill_amber_arb = (value: string) => `fill-amber-[${value}]`;
+export const fill_amber_arb = (value: string) => `fill-amber-["${value}"]`;
 
 
 /**
- * fill-yellow-[{value}]
+ * fill-yellow-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3449,11 +3449,11 @@ export const fill_amber_arb = (value: string) => `fill-amber-[${value}]`;
  *
  * @type utility
  */
-export const fill_yellow_arbitrary = (value: string) => `fill-yellow-[${value}]`;
+export const fill_yellow_arbitrary = (value: string) => `fill-yellow-["${value}"]`;
 
 
 /**
- * fill-yellow-[{value}]
+ * fill-yellow-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3461,11 +3461,11 @@ export const fill_yellow_arbitrary = (value: string) => `fill-yellow-[${value}]`
  *
  * @type utility
  */
-export const fill_yellow_arb = (value: string) => `fill-yellow-[${value}]`;
+export const fill_yellow_arb = (value: string) => `fill-yellow-["${value}"]`;
 
 
 /**
- * fill-lime-[{value}]
+ * fill-lime-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3473,11 +3473,11 @@ export const fill_yellow_arb = (value: string) => `fill-yellow-[${value}]`;
  *
  * @type utility
  */
-export const fill_lime_arbitrary = (value: string) => `fill-lime-[${value}]`;
+export const fill_lime_arbitrary = (value: string) => `fill-lime-["${value}"]`;
 
 
 /**
- * fill-lime-[{value}]
+ * fill-lime-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3485,11 +3485,11 @@ export const fill_lime_arbitrary = (value: string) => `fill-lime-[${value}]`;
  *
  * @type utility
  */
-export const fill_lime_arb = (value: string) => `fill-lime-[${value}]`;
+export const fill_lime_arb = (value: string) => `fill-lime-["${value}"]`;
 
 
 /**
- * fill-green-[{value}]
+ * fill-green-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3497,11 +3497,11 @@ export const fill_lime_arb = (value: string) => `fill-lime-[${value}]`;
  *
  * @type utility
  */
-export const fill_green_arbitrary = (value: string) => `fill-green-[${value}]`;
+export const fill_green_arbitrary = (value: string) => `fill-green-["${value}"]`;
 
 
 /**
- * fill-green-[{value}]
+ * fill-green-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3509,11 +3509,11 @@ export const fill_green_arbitrary = (value: string) => `fill-green-[${value}]`;
  *
  * @type utility
  */
-export const fill_green_arb = (value: string) => `fill-green-[${value}]`;
+export const fill_green_arb = (value: string) => `fill-green-["${value}"]`;
 
 
 /**
- * fill-emerald-[{value}]
+ * fill-emerald-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3521,11 +3521,11 @@ export const fill_green_arb = (value: string) => `fill-green-[${value}]`;
  *
  * @type utility
  */
-export const fill_emerald_arbitrary = (value: string) => `fill-emerald-[${value}]`;
+export const fill_emerald_arbitrary = (value: string) => `fill-emerald-["${value}"]`;
 
 
 /**
- * fill-emerald-[{value}]
+ * fill-emerald-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3533,11 +3533,11 @@ export const fill_emerald_arbitrary = (value: string) => `fill-emerald-[${value}
  *
  * @type utility
  */
-export const fill_emerald_arb = (value: string) => `fill-emerald-[${value}]`;
+export const fill_emerald_arb = (value: string) => `fill-emerald-["${value}"]`;
 
 
 /**
- * fill-teal-[{value}]
+ * fill-teal-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3545,11 +3545,11 @@ export const fill_emerald_arb = (value: string) => `fill-emerald-[${value}]`;
  *
  * @type utility
  */
-export const fill_teal_arbitrary = (value: string) => `fill-teal-[${value}]`;
+export const fill_teal_arbitrary = (value: string) => `fill-teal-["${value}"]`;
 
 
 /**
- * fill-teal-[{value}]
+ * fill-teal-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3557,11 +3557,11 @@ export const fill_teal_arbitrary = (value: string) => `fill-teal-[${value}]`;
  *
  * @type utility
  */
-export const fill_teal_arb = (value: string) => `fill-teal-[${value}]`;
+export const fill_teal_arb = (value: string) => `fill-teal-["${value}"]`;
 
 
 /**
- * fill-cyan-[{value}]
+ * fill-cyan-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3569,11 +3569,11 @@ export const fill_teal_arb = (value: string) => `fill-teal-[${value}]`;
  *
  * @type utility
  */
-export const fill_cyan_arbitrary = (value: string) => `fill-cyan-[${value}]`;
+export const fill_cyan_arbitrary = (value: string) => `fill-cyan-["${value}"]`;
 
 
 /**
- * fill-cyan-[{value}]
+ * fill-cyan-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3581,11 +3581,11 @@ export const fill_cyan_arbitrary = (value: string) => `fill-cyan-[${value}]`;
  *
  * @type utility
  */
-export const fill_cyan_arb = (value: string) => `fill-cyan-[${value}]`;
+export const fill_cyan_arb = (value: string) => `fill-cyan-["${value}"]`;
 
 
 /**
- * fill-sky-[{value}]
+ * fill-sky-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3593,11 +3593,11 @@ export const fill_cyan_arb = (value: string) => `fill-cyan-[${value}]`;
  *
  * @type utility
  */
-export const fill_sky_arbitrary = (value: string) => `fill-sky-[${value}]`;
+export const fill_sky_arbitrary = (value: string) => `fill-sky-["${value}"]`;
 
 
 /**
- * fill-sky-[{value}]
+ * fill-sky-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3605,11 +3605,11 @@ export const fill_sky_arbitrary = (value: string) => `fill-sky-[${value}]`;
  *
  * @type utility
  */
-export const fill_sky_arb = (value: string) => `fill-sky-[${value}]`;
+export const fill_sky_arb = (value: string) => `fill-sky-["${value}"]`;
 
 
 /**
- * fill-blue-[{value}]
+ * fill-blue-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3617,11 +3617,11 @@ export const fill_sky_arb = (value: string) => `fill-sky-[${value}]`;
  *
  * @type utility
  */
-export const fill_blue_arbitrary = (value: string) => `fill-blue-[${value}]`;
+export const fill_blue_arbitrary = (value: string) => `fill-blue-["${value}"]`;
 
 
 /**
- * fill-blue-[{value}]
+ * fill-blue-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3629,11 +3629,11 @@ export const fill_blue_arbitrary = (value: string) => `fill-blue-[${value}]`;
  *
  * @type utility
  */
-export const fill_blue_arb = (value: string) => `fill-blue-[${value}]`;
+export const fill_blue_arb = (value: string) => `fill-blue-["${value}"]`;
 
 
 /**
- * fill-indigo-[{value}]
+ * fill-indigo-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3641,11 +3641,11 @@ export const fill_blue_arb = (value: string) => `fill-blue-[${value}]`;
  *
  * @type utility
  */
-export const fill_indigo_arbitrary = (value: string) => `fill-indigo-[${value}]`;
+export const fill_indigo_arbitrary = (value: string) => `fill-indigo-["${value}"]`;
 
 
 /**
- * fill-indigo-[{value}]
+ * fill-indigo-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3653,11 +3653,11 @@ export const fill_indigo_arbitrary = (value: string) => `fill-indigo-[${value}]`
  *
  * @type utility
  */
-export const fill_indigo_arb = (value: string) => `fill-indigo-[${value}]`;
+export const fill_indigo_arb = (value: string) => `fill-indigo-["${value}"]`;
 
 
 /**
- * fill-violet-[{value}]
+ * fill-violet-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3665,11 +3665,11 @@ export const fill_indigo_arb = (value: string) => `fill-indigo-[${value}]`;
  *
  * @type utility
  */
-export const fill_violet_arbitrary = (value: string) => `fill-violet-[${value}]`;
+export const fill_violet_arbitrary = (value: string) => `fill-violet-["${value}"]`;
 
 
 /**
- * fill-violet-[{value}]
+ * fill-violet-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3677,11 +3677,11 @@ export const fill_violet_arbitrary = (value: string) => `fill-violet-[${value}]`
  *
  * @type utility
  */
-export const fill_violet_arb = (value: string) => `fill-violet-[${value}]`;
+export const fill_violet_arb = (value: string) => `fill-violet-["${value}"]`;
 
 
 /**
- * fill-purple-[{value}]
+ * fill-purple-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3689,11 +3689,11 @@ export const fill_violet_arb = (value: string) => `fill-violet-[${value}]`;
  *
  * @type utility
  */
-export const fill_purple_arbitrary = (value: string) => `fill-purple-[${value}]`;
+export const fill_purple_arbitrary = (value: string) => `fill-purple-["${value}"]`;
 
 
 /**
- * fill-purple-[{value}]
+ * fill-purple-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3701,11 +3701,11 @@ export const fill_purple_arbitrary = (value: string) => `fill-purple-[${value}]`
  *
  * @type utility
  */
-export const fill_purple_arb = (value: string) => `fill-purple-[${value}]`;
+export const fill_purple_arb = (value: string) => `fill-purple-["${value}"]`;
 
 
 /**
- * fill-fuchsia-[{value}]
+ * fill-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3713,11 +3713,11 @@ export const fill_purple_arb = (value: string) => `fill-purple-[${value}]`;
  *
  * @type utility
  */
-export const fill_fuchsia_arbitrary = (value: string) => `fill-fuchsia-[${value}]`;
+export const fill_fuchsia_arbitrary = (value: string) => `fill-fuchsia-["${value}"]`;
 
 
 /**
- * fill-fuchsia-[{value}]
+ * fill-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3725,11 +3725,11 @@ export const fill_fuchsia_arbitrary = (value: string) => `fill-fuchsia-[${value}
  *
  * @type utility
  */
-export const fill_fuchsia_arb = (value: string) => `fill-fuchsia-[${value}]`;
+export const fill_fuchsia_arb = (value: string) => `fill-fuchsia-["${value}"]`;
 
 
 /**
- * fill-pink-[{value}]
+ * fill-pink-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3737,11 +3737,11 @@ export const fill_fuchsia_arb = (value: string) => `fill-fuchsia-[${value}]`;
  *
  * @type utility
  */
-export const fill_pink_arbitrary = (value: string) => `fill-pink-[${value}]`;
+export const fill_pink_arbitrary = (value: string) => `fill-pink-["${value}"]`;
 
 
 /**
- * fill-pink-[{value}]
+ * fill-pink-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3749,11 +3749,11 @@ export const fill_pink_arbitrary = (value: string) => `fill-pink-[${value}]`;
  *
  * @type utility
  */
-export const fill_pink_arb = (value: string) => `fill-pink-[${value}]`;
+export const fill_pink_arb = (value: string) => `fill-pink-["${value}"]`;
 
 
 /**
- * fill-rose-[{value}]
+ * fill-rose-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3761,11 +3761,11 @@ export const fill_pink_arb = (value: string) => `fill-pink-[${value}]`;
  *
  * @type utility
  */
-export const fill_rose_arbitrary = (value: string) => `fill-rose-[${value}]`;
+export const fill_rose_arbitrary = (value: string) => `fill-rose-["${value}"]`;
 
 
 /**
- * fill-rose-[{value}]
+ * fill-rose-[…]-[{value}]
  *
  * If you need to use a one-off fill value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3773,7 +3773,7 @@ export const fill_rose_arbitrary = (value: string) => `fill-rose-[${value}]`;
  *
  * @type utility
  */
-export const fill_rose_arb = (value: string) => `fill-rose-[${value}]`;
+export const fill_rose_arb = (value: string) => `fill-rose-["${value}"]`;
 
 
 /**

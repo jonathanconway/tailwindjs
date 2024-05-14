@@ -391,7 +391,7 @@ export const scale_y_150 = "scale-y-150";
 
 
 /**
- * scale-[{value}]
+ * scale-[…]-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -399,11 +399,11 @@ export const scale_y_150 = "scale-y-150";
  *
  * @type utility
  */
-export const scale_arbitrary = (value: string) => `scale-[${value}]`;
+export const scale_arbitrary = (value: string) => `scale-["${value}"]`;
 
 
 /**
- * scale-[{value}]
+ * scale-[…]-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -411,11 +411,11 @@ export const scale_arbitrary = (value: string) => `scale-[${value}]`;
  *
  * @type utility
  */
-export const scale_arb = (value: string) => `scale-[${value}]`;
+export const scale_arb = (value: string) => `scale-["${value}"]`;
 
 
 /**
- * scale-x-[{value}]
+ * scale-x-[…]-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -423,11 +423,11 @@ export const scale_arb = (value: string) => `scale-[${value}]`;
  *
  * @type utility
  */
-export const scale_x_arbitrary = (value: string) => `scale-x-[${value}]`;
+export const scale_x_arbitrary = (value: string) => `scale-x-["${value}"]`;
 
 
 /**
- * scale-x-[{value}]
+ * scale-x-[…]-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -435,11 +435,11 @@ export const scale_x_arbitrary = (value: string) => `scale-x-[${value}]`;
  *
  * @type utility
  */
-export const scale_x_arb = (value: string) => `scale-x-[${value}]`;
+export const scale_x_arb = (value: string) => `scale-x-["${value}"]`;
 
 
 /**
- * scale-y-[{value}]
+ * scale-y-[…]-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -447,11 +447,11 @@ export const scale_x_arb = (value: string) => `scale-x-[${value}]`;
  *
  * @type utility
  */
-export const scale_y_arbitrary = (value: string) => `scale-y-[${value}]`;
+export const scale_y_arbitrary = (value: string) => `scale-y-["${value}"]`;
 
 
 /**
- * scale-y-[{value}]
+ * scale-y-[…]-[{value}]
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -459,7 +459,7 @@ export const scale_y_arbitrary = (value: string) => `scale-y-[${value}]`;
  *
  * @type utility
  */
-export const scale_y_arb = (value: string) => `scale-y-[${value}]`;
+export const scale_y_arb = (value: string) => `scale-y-["${value}"]`;
 
 
 /**

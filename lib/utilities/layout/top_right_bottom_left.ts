@@ -5118,7 +5118,7 @@ export const left_full = "left-full";
 
 
 /**
- * inset-[{value}]
+ * inset-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5126,11 +5126,11 @@ export const left_full = "left-full";
  *
  * @type utility
  */
-export const inset_arbitrary = (value: string) => `inset-[${value}]`;
+export const inset_arbitrary = (value: string) => `inset-["${value}"]`;
 
 
 /**
- * inset-[{value}]
+ * inset-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5138,11 +5138,11 @@ export const inset_arbitrary = (value: string) => `inset-[${value}]`;
  *
  * @type utility
  */
-export const inset_arb = (value: string) => `inset-[${value}]`;
+export const inset_arb = (value: string) => `inset-["${value}"]`;
 
 
 /**
- * inset-x-[{value}]
+ * inset-x-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5150,11 +5150,11 @@ export const inset_arb = (value: string) => `inset-[${value}]`;
  *
  * @type utility
  */
-export const inset_x_arbitrary = (value: string) => `inset-x-[${value}]`;
+export const inset_x_arbitrary = (value: string) => `inset-x-["${value}"]`;
 
 
 /**
- * inset-x-[{value}]
+ * inset-x-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5162,11 +5162,11 @@ export const inset_x_arbitrary = (value: string) => `inset-x-[${value}]`;
  *
  * @type utility
  */
-export const inset_x_arb = (value: string) => `inset-x-[${value}]`;
+export const inset_x_arb = (value: string) => `inset-x-["${value}"]`;
 
 
 /**
- * inset-y-[{value}]
+ * inset-y-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5174,11 +5174,11 @@ export const inset_x_arb = (value: string) => `inset-x-[${value}]`;
  *
  * @type utility
  */
-export const inset_y_arbitrary = (value: string) => `inset-y-[${value}]`;
+export const inset_y_arbitrary = (value: string) => `inset-y-["${value}"]`;
 
 
 /**
- * inset-y-[{value}]
+ * inset-y-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5186,11 +5186,11 @@ export const inset_y_arbitrary = (value: string) => `inset-y-[${value}]`;
  *
  * @type utility
  */
-export const inset_y_arb = (value: string) => `inset-y-[${value}]`;
+export const inset_y_arb = (value: string) => `inset-y-["${value}"]`;
 
 
 /**
- * start-[{value}]
+ * start-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5198,11 +5198,11 @@ export const inset_y_arb = (value: string) => `inset-y-[${value}]`;
  *
  * @type utility
  */
-export const start_arbitrary = (value: string) => `start-[${value}]`;
+export const start_arbitrary = (value: string) => `start-["${value}"]`;
 
 
 /**
- * start-[{value}]
+ * start-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5210,11 +5210,11 @@ export const start_arbitrary = (value: string) => `start-[${value}]`;
  *
  * @type utility
  */
-export const start_arb = (value: string) => `start-[${value}]`;
+export const start_arb = (value: string) => `start-["${value}"]`;
 
 
 /**
- * end-[{value}]
+ * end-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5222,11 +5222,11 @@ export const start_arb = (value: string) => `start-[${value}]`;
  *
  * @type utility
  */
-export const end_arbitrary = (value: string) => `end-[${value}]`;
+export const end_arbitrary = (value: string) => `end-["${value}"]`;
 
 
 /**
- * end-[{value}]
+ * end-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5234,11 +5234,11 @@ export const end_arbitrary = (value: string) => `end-[${value}]`;
  *
  * @type utility
  */
-export const end_arb = (value: string) => `end-[${value}]`;
+export const end_arb = (value: string) => `end-["${value}"]`;
 
 
 /**
- * top-[{value}]
+ * top-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5246,11 +5246,11 @@ export const end_arb = (value: string) => `end-[${value}]`;
  *
  * @type utility
  */
-export const top_arbitrary = (value: string) => `top-[${value}]`;
+export const top_arbitrary = (value: string) => `top-["${value}"]`;
 
 
 /**
- * top-[{value}]
+ * top-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5258,11 +5258,11 @@ export const top_arbitrary = (value: string) => `top-[${value}]`;
  *
  * @type utility
  */
-export const top_arb = (value: string) => `top-[${value}]`;
+export const top_arb = (value: string) => `top-["${value}"]`;
 
 
 /**
- * right-[{value}]
+ * right-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5270,11 +5270,11 @@ export const top_arb = (value: string) => `top-[${value}]`;
  *
  * @type utility
  */
-export const right_arbitrary = (value: string) => `right-[${value}]`;
+export const right_arbitrary = (value: string) => `right-["${value}"]`;
 
 
 /**
- * right-[{value}]
+ * right-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5282,11 +5282,11 @@ export const right_arbitrary = (value: string) => `right-[${value}]`;
  *
  * @type utility
  */
-export const right_arb = (value: string) => `right-[${value}]`;
+export const right_arb = (value: string) => `right-["${value}"]`;
 
 
 /**
- * bottom-[{value}]
+ * bottom-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5294,11 +5294,11 @@ export const right_arb = (value: string) => `right-[${value}]`;
  *
  * @type utility
  */
-export const bottom_arbitrary = (value: string) => `bottom-[${value}]`;
+export const bottom_arbitrary = (value: string) => `bottom-["${value}"]`;
 
 
 /**
- * bottom-[{value}]
+ * bottom-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5306,11 +5306,11 @@ export const bottom_arbitrary = (value: string) => `bottom-[${value}]`;
  *
  * @type utility
  */
-export const bottom_arb = (value: string) => `bottom-[${value}]`;
+export const bottom_arb = (value: string) => `bottom-["${value}"]`;
 
 
 /**
- * left-[{value}]
+ * left-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5318,11 +5318,11 @@ export const bottom_arb = (value: string) => `bottom-[${value}]`;
  *
  * @type utility
  */
-export const left_arbitrary = (value: string) => `left-[${value}]`;
+export const left_arbitrary = (value: string) => `left-["${value}"]`;
 
 
 /**
- * left-[{value}]
+ * left-[…]-[{value}]
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -5330,7 +5330,7 @@ export const left_arbitrary = (value: string) => `left-[${value}]`;
  *
  * @type utility
  */
-export const left_arb = (value: string) => `left-[${value}]`;
+export const left_arb = (value: string) => `left-["${value}"]`;
 
 
 /**

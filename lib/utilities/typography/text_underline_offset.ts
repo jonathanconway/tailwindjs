@@ -79,7 +79,7 @@ export const underline_offset_8 = "underline-offset-8";
 
 
 /**
- * underline-offset-[{value}]
+ * underline-offset-[…]-[{value}]
  *
  * If you need to use a one-off text-underline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -87,11 +87,11 @@ export const underline_offset_8 = "underline-offset-8";
  *
  * @type utility
  */
-export const underline_offset_arbitrary = (value: string) => `underline-offset-[${value}]`;
+export const underline_offset_arbitrary = (value: string) => `underline-offset-["${value}"]`;
 
 
 /**
- * underline-offset-[{value}]
+ * underline-offset-[…]-[{value}]
  *
  * If you need to use a one-off text-underline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -99,7 +99,7 @@ export const underline_offset_arbitrary = (value: string) => `underline-offset-[
  *
  * @type utility
  */
-export const underline_offset_arb = (value: string) => `underline-offset-[${value}]`;
+export const underline_offset_arb = (value: string) => `underline-offset-["${value}"]`;
 
 
 /**

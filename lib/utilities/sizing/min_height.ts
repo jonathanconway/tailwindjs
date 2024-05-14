@@ -560,7 +560,7 @@ export const min_h_fit = "min-h-fit";
 
 
 /**
- * min-h-[{value}]
+ * min-h-[…]-[{value}]
  *
  * If you need to use a one-off min-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -568,11 +568,11 @@ export const min_h_fit = "min-h-fit";
  *
  * @type utility
  */
-export const min_h_arbitrary = (value: string) => `min-h-[${value}]`;
+export const min_h_arbitrary = (value: string) => `min-h-["${value}"]`;
 
 
 /**
- * min-h-[{value}]
+ * min-h-[…]-[{value}]
  *
  * If you need to use a one-off min-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -580,7 +580,7 @@ export const min_h_arbitrary = (value: string) => `min-h-[${value}]`;
  *
  * @type utility
  */
-export const min_h_arb = (value: string) => `min-h-[${value}]`;
+export const min_h_arb = (value: string) => `min-h-["${value}"]`;
 
 
 /**

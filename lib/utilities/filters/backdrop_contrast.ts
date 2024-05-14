@@ -92,7 +92,7 @@ export const backdrop_contrast_200 = "backdrop-contrast-200";
 
 
 /**
- * backdrop-contrast-[{value}]
+ * backdrop-contrast-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-contrast value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -100,11 +100,11 @@ export const backdrop_contrast_200 = "backdrop-contrast-200";
  *
  * @type utility
  */
-export const backdrop_contrast_arbitrary = (value: string) => `backdrop-contrast-[${value}]`;
+export const backdrop_contrast_arbitrary = (value: string) => `backdrop-contrast-["${value}"]`;
 
 
 /**
- * backdrop-contrast-[{value}]
+ * backdrop-contrast-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-contrast value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -112,7 +112,7 @@ export const backdrop_contrast_arbitrary = (value: string) => `backdrop-contrast
  *
  * @type utility
  */
-export const backdrop_contrast_arb = (value: string) => `backdrop-contrast-[${value}]`;
+export const backdrop_contrast_arb = (value: string) => `backdrop-contrast-["${value}"]`;
 
 
 /**

@@ -27,7 +27,7 @@ export const sepia = "sepia";
 
 
 /**
- * sepia-[{value}]
+ * sepia-[…]-[{value}]
  *
  * If you need to use a one-off sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const sepia = "sepia";
  *
  * @type utility
  */
-export const sepia_arbitrary = (value: string) => `sepia-[${value}]`;
+export const sepia_arbitrary = (value: string) => `sepia-["${value}"]`;
 
 
 /**
- * sepia-[{value}]
+ * sepia-[…]-[{value}]
  *
  * If you need to use a one-off sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const sepia_arbitrary = (value: string) => `sepia-[${value}]`;
  *
  * @type utility
  */
-export const sepia_arb = (value: string) => `sepia-[${value}]`;
+export const sepia_arb = (value: string) => `sepia-["${value}"]`;
 
 
 /**

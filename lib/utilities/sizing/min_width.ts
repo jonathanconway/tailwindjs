@@ -508,7 +508,7 @@ export const min_w_fit = "min-w-fit";
 
 
 /**
- * min-w-[{value}]
+ * min-w-[…]-[{value}]
  *
  * If you need to use a one-off min-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -516,11 +516,11 @@ export const min_w_fit = "min-w-fit";
  *
  * @type utility
  */
-export const min_w_arbitrary = (value: string) => `min-w-[${value}]`;
+export const min_w_arbitrary = (value: string) => `min-w-["${value}"]`;
 
 
 /**
- * min-w-[{value}]
+ * min-w-[…]-[{value}]
  *
  * If you need to use a one-off min-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -528,7 +528,7 @@ export const min_w_arbitrary = (value: string) => `min-w-[${value}]`;
  *
  * @type utility
  */
-export const min_w_arb = (value: string) => `min-w-[${value}]`;
+export const min_w_arb = (value: string) => `min-w-["${value}"]`;
 
 
 /**

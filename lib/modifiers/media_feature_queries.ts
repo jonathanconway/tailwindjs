@@ -319,7 +319,7 @@ export const print = (suffix: string) => `print:${suffix}`;
   *
   * @type modifier
   */
-export const min_arbitrary = (arbitrary: string, suffix: string) => `min-[${arbitrary}]:${suffix}`;
+export const min_arbitrary = (arbitrary: string, suffix: string) => `min-["${arbitrary}"]:${suffix}`;
 
 
 /**
@@ -335,7 +335,7 @@ export const min_arbitrary = (arbitrary: string, suffix: string) => `min-[${arbi
   *
   * @type modifier
   */
-export const min_arb = (arbitrary: string, suffix: string) => `min-[${arbitrary}]:${suffix}`;
+export const min_arb = (arbitrary: string, suffix: string) => `min-["${arbitrary}"]:${suffix}`;
 
 
 /**
@@ -351,7 +351,7 @@ export const min_arb = (arbitrary: string, suffix: string) => `min-[${arbitrary}
   *
   * @type modifier
   */
-export const max_arbitrary = (arbitrary: string, suffix: string) => `max-[${arbitrary}]:${suffix}`;
+export const max_arbitrary = (arbitrary: string, suffix: string) => `max-["${arbitrary}"]:${suffix}`;
 
 
 /**
@@ -367,7 +367,7 @@ export const max_arbitrary = (arbitrary: string, suffix: string) => `max-[${arbi
   *
   * @type modifier
   */
-export const max_arb = (arbitrary: string, suffix: string) => `max-[${arbitrary}]:${suffix}`;
+export const max_arb = (arbitrary: string, suffix: string) => `max-["${arbitrary}"]:${suffix}`;
 
 
 /**
@@ -383,7 +383,7 @@ export const max_arb = (arbitrary: string, suffix: string) => `max-[${arbitrary}
   *
   * @type modifier
   */
-export const supports_arbitrary = (arbitrary: string, suffix: string) => `supports-[${arbitrary}]:${suffix}`;
+export const supports_arbitrary = (arbitrary: string, suffix: string) => `supports-["${arbitrary}"]:${suffix}`;
 
 
 /**
@@ -399,7 +399,7 @@ export const supports_arbitrary = (arbitrary: string, suffix: string) => `suppor
   *
   * @type modifier
   */
-export const supports_arb = (arbitrary: string, suffix: string) => `supports-[${arbitrary}]:${suffix}`;
+export const supports_arb = (arbitrary: string, suffix: string) => `supports-["${arbitrary}"]:${suffix}`;
 
 
 /**

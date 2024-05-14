@@ -66,7 +66,7 @@ export const outline_offset_8 = "outline-offset-8";
 
 
 /**
- * outline-offset-[{value}]
+ * outline-offset-[…]-[{value}]
  *
  * If you need to use a one-off outline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -74,11 +74,11 @@ export const outline_offset_8 = "outline-offset-8";
  *
  * @type utility
  */
-export const outline_offset_arbitrary = (value: string) => `outline-offset-[${value}]`;
+export const outline_offset_arbitrary = (value: string) => `outline-offset-["${value}"]`;
 
 
 /**
- * outline-offset-[{value}]
+ * outline-offset-[…]-[{value}]
  *
  * If you need to use a one-off outline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -86,7 +86,7 @@ export const outline_offset_arbitrary = (value: string) => `outline-offset-[${va
  *
  * @type utility
  */
-export const outline_offset_arb = (value: string) => `outline-offset-[${value}]`;
+export const outline_offset_arb = (value: string) => `outline-offset-["${value}"]`;
 
 
 /**

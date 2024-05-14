@@ -3225,7 +3225,7 @@ export const accent_auto = "accent-auto";
 
 
 /**
- * accent-[{value}]
+ * accent-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3233,11 +3233,11 @@ export const accent_auto = "accent-auto";
  *
  * @type utility
  */
-export const accent_arbitrary = (value: string) => `accent-[${value}]`;
+export const accent_arbitrary = (value: string) => `accent-["${value}"]`;
 
 
 /**
- * accent-[{value}]
+ * accent-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3245,11 +3245,11 @@ export const accent_arbitrary = (value: string) => `accent-[${value}]`;
  *
  * @type utility
  */
-export const accent_arb = (value: string) => `accent-[${value}]`;
+export const accent_arb = (value: string) => `accent-["${value}"]`;
 
 
 /**
- * accent-slate-[{value}]
+ * accent-slate-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3257,11 +3257,11 @@ export const accent_arb = (value: string) => `accent-[${value}]`;
  *
  * @type utility
  */
-export const accent_slate_arbitrary = (value: string) => `accent-slate-[${value}]`;
+export const accent_slate_arbitrary = (value: string) => `accent-slate-["${value}"]`;
 
 
 /**
- * accent-slate-[{value}]
+ * accent-slate-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3269,11 +3269,11 @@ export const accent_slate_arbitrary = (value: string) => `accent-slate-[${value}
  *
  * @type utility
  */
-export const accent_slate_arb = (value: string) => `accent-slate-[${value}]`;
+export const accent_slate_arb = (value: string) => `accent-slate-["${value}"]`;
 
 
 /**
- * accent-gray-[{value}]
+ * accent-gray-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3281,11 +3281,11 @@ export const accent_slate_arb = (value: string) => `accent-slate-[${value}]`;
  *
  * @type utility
  */
-export const accent_gray_arbitrary = (value: string) => `accent-gray-[${value}]`;
+export const accent_gray_arbitrary = (value: string) => `accent-gray-["${value}"]`;
 
 
 /**
- * accent-gray-[{value}]
+ * accent-gray-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3293,11 +3293,11 @@ export const accent_gray_arbitrary = (value: string) => `accent-gray-[${value}]`
  *
  * @type utility
  */
-export const accent_gray_arb = (value: string) => `accent-gray-[${value}]`;
+export const accent_gray_arb = (value: string) => `accent-gray-["${value}"]`;
 
 
 /**
- * accent-zinc-[{value}]
+ * accent-zinc-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3305,11 +3305,11 @@ export const accent_gray_arb = (value: string) => `accent-gray-[${value}]`;
  *
  * @type utility
  */
-export const accent_zinc_arbitrary = (value: string) => `accent-zinc-[${value}]`;
+export const accent_zinc_arbitrary = (value: string) => `accent-zinc-["${value}"]`;
 
 
 /**
- * accent-zinc-[{value}]
+ * accent-zinc-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3317,11 +3317,11 @@ export const accent_zinc_arbitrary = (value: string) => `accent-zinc-[${value}]`
  *
  * @type utility
  */
-export const accent_zinc_arb = (value: string) => `accent-zinc-[${value}]`;
+export const accent_zinc_arb = (value: string) => `accent-zinc-["${value}"]`;
 
 
 /**
- * accent-neutral-[{value}]
+ * accent-neutral-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3329,11 +3329,11 @@ export const accent_zinc_arb = (value: string) => `accent-zinc-[${value}]`;
  *
  * @type utility
  */
-export const accent_neutral_arbitrary = (value: string) => `accent-neutral-[${value}]`;
+export const accent_neutral_arbitrary = (value: string) => `accent-neutral-["${value}"]`;
 
 
 /**
- * accent-neutral-[{value}]
+ * accent-neutral-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3341,11 +3341,11 @@ export const accent_neutral_arbitrary = (value: string) => `accent-neutral-[${va
  *
  * @type utility
  */
-export const accent_neutral_arb = (value: string) => `accent-neutral-[${value}]`;
+export const accent_neutral_arb = (value: string) => `accent-neutral-["${value}"]`;
 
 
 /**
- * accent-stone-[{value}]
+ * accent-stone-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3353,11 +3353,11 @@ export const accent_neutral_arb = (value: string) => `accent-neutral-[${value}]`
  *
  * @type utility
  */
-export const accent_stone_arbitrary = (value: string) => `accent-stone-[${value}]`;
+export const accent_stone_arbitrary = (value: string) => `accent-stone-["${value}"]`;
 
 
 /**
- * accent-stone-[{value}]
+ * accent-stone-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3365,11 +3365,11 @@ export const accent_stone_arbitrary = (value: string) => `accent-stone-[${value}
  *
  * @type utility
  */
-export const accent_stone_arb = (value: string) => `accent-stone-[${value}]`;
+export const accent_stone_arb = (value: string) => `accent-stone-["${value}"]`;
 
 
 /**
- * accent-red-[{value}]
+ * accent-red-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3377,11 +3377,11 @@ export const accent_stone_arb = (value: string) => `accent-stone-[${value}]`;
  *
  * @type utility
  */
-export const accent_red_arbitrary = (value: string) => `accent-red-[${value}]`;
+export const accent_red_arbitrary = (value: string) => `accent-red-["${value}"]`;
 
 
 /**
- * accent-red-[{value}]
+ * accent-red-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3389,11 +3389,11 @@ export const accent_red_arbitrary = (value: string) => `accent-red-[${value}]`;
  *
  * @type utility
  */
-export const accent_red_arb = (value: string) => `accent-red-[${value}]`;
+export const accent_red_arb = (value: string) => `accent-red-["${value}"]`;
 
 
 /**
- * accent-orange-[{value}]
+ * accent-orange-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3401,11 +3401,11 @@ export const accent_red_arb = (value: string) => `accent-red-[${value}]`;
  *
  * @type utility
  */
-export const accent_orange_arbitrary = (value: string) => `accent-orange-[${value}]`;
+export const accent_orange_arbitrary = (value: string) => `accent-orange-["${value}"]`;
 
 
 /**
- * accent-orange-[{value}]
+ * accent-orange-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3413,11 +3413,11 @@ export const accent_orange_arbitrary = (value: string) => `accent-orange-[${valu
  *
  * @type utility
  */
-export const accent_orange_arb = (value: string) => `accent-orange-[${value}]`;
+export const accent_orange_arb = (value: string) => `accent-orange-["${value}"]`;
 
 
 /**
- * accent-amber-[{value}]
+ * accent-amber-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3425,11 +3425,11 @@ export const accent_orange_arb = (value: string) => `accent-orange-[${value}]`;
  *
  * @type utility
  */
-export const accent_amber_arbitrary = (value: string) => `accent-amber-[${value}]`;
+export const accent_amber_arbitrary = (value: string) => `accent-amber-["${value}"]`;
 
 
 /**
- * accent-amber-[{value}]
+ * accent-amber-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3437,11 +3437,11 @@ export const accent_amber_arbitrary = (value: string) => `accent-amber-[${value}
  *
  * @type utility
  */
-export const accent_amber_arb = (value: string) => `accent-amber-[${value}]`;
+export const accent_amber_arb = (value: string) => `accent-amber-["${value}"]`;
 
 
 /**
- * accent-yellow-[{value}]
+ * accent-yellow-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3449,11 +3449,11 @@ export const accent_amber_arb = (value: string) => `accent-amber-[${value}]`;
  *
  * @type utility
  */
-export const accent_yellow_arbitrary = (value: string) => `accent-yellow-[${value}]`;
+export const accent_yellow_arbitrary = (value: string) => `accent-yellow-["${value}"]`;
 
 
 /**
- * accent-yellow-[{value}]
+ * accent-yellow-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3461,11 +3461,11 @@ export const accent_yellow_arbitrary = (value: string) => `accent-yellow-[${valu
  *
  * @type utility
  */
-export const accent_yellow_arb = (value: string) => `accent-yellow-[${value}]`;
+export const accent_yellow_arb = (value: string) => `accent-yellow-["${value}"]`;
 
 
 /**
- * accent-lime-[{value}]
+ * accent-lime-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3473,11 +3473,11 @@ export const accent_yellow_arb = (value: string) => `accent-yellow-[${value}]`;
  *
  * @type utility
  */
-export const accent_lime_arbitrary = (value: string) => `accent-lime-[${value}]`;
+export const accent_lime_arbitrary = (value: string) => `accent-lime-["${value}"]`;
 
 
 /**
- * accent-lime-[{value}]
+ * accent-lime-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3485,11 +3485,11 @@ export const accent_lime_arbitrary = (value: string) => `accent-lime-[${value}]`
  *
  * @type utility
  */
-export const accent_lime_arb = (value: string) => `accent-lime-[${value}]`;
+export const accent_lime_arb = (value: string) => `accent-lime-["${value}"]`;
 
 
 /**
- * accent-green-[{value}]
+ * accent-green-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3497,11 +3497,11 @@ export const accent_lime_arb = (value: string) => `accent-lime-[${value}]`;
  *
  * @type utility
  */
-export const accent_green_arbitrary = (value: string) => `accent-green-[${value}]`;
+export const accent_green_arbitrary = (value: string) => `accent-green-["${value}"]`;
 
 
 /**
- * accent-green-[{value}]
+ * accent-green-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3509,11 +3509,11 @@ export const accent_green_arbitrary = (value: string) => `accent-green-[${value}
  *
  * @type utility
  */
-export const accent_green_arb = (value: string) => `accent-green-[${value}]`;
+export const accent_green_arb = (value: string) => `accent-green-["${value}"]`;
 
 
 /**
- * accent-emerald-[{value}]
+ * accent-emerald-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3521,11 +3521,11 @@ export const accent_green_arb = (value: string) => `accent-green-[${value}]`;
  *
  * @type utility
  */
-export const accent_emerald_arbitrary = (value: string) => `accent-emerald-[${value}]`;
+export const accent_emerald_arbitrary = (value: string) => `accent-emerald-["${value}"]`;
 
 
 /**
- * accent-emerald-[{value}]
+ * accent-emerald-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3533,11 +3533,11 @@ export const accent_emerald_arbitrary = (value: string) => `accent-emerald-[${va
  *
  * @type utility
  */
-export const accent_emerald_arb = (value: string) => `accent-emerald-[${value}]`;
+export const accent_emerald_arb = (value: string) => `accent-emerald-["${value}"]`;
 
 
 /**
- * accent-teal-[{value}]
+ * accent-teal-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3545,11 +3545,11 @@ export const accent_emerald_arb = (value: string) => `accent-emerald-[${value}]`
  *
  * @type utility
  */
-export const accent_teal_arbitrary = (value: string) => `accent-teal-[${value}]`;
+export const accent_teal_arbitrary = (value: string) => `accent-teal-["${value}"]`;
 
 
 /**
- * accent-teal-[{value}]
+ * accent-teal-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3557,11 +3557,11 @@ export const accent_teal_arbitrary = (value: string) => `accent-teal-[${value}]`
  *
  * @type utility
  */
-export const accent_teal_arb = (value: string) => `accent-teal-[${value}]`;
+export const accent_teal_arb = (value: string) => `accent-teal-["${value}"]`;
 
 
 /**
- * accent-cyan-[{value}]
+ * accent-cyan-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3569,11 +3569,11 @@ export const accent_teal_arb = (value: string) => `accent-teal-[${value}]`;
  *
  * @type utility
  */
-export const accent_cyan_arbitrary = (value: string) => `accent-cyan-[${value}]`;
+export const accent_cyan_arbitrary = (value: string) => `accent-cyan-["${value}"]`;
 
 
 /**
- * accent-cyan-[{value}]
+ * accent-cyan-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3581,11 +3581,11 @@ export const accent_cyan_arbitrary = (value: string) => `accent-cyan-[${value}]`
  *
  * @type utility
  */
-export const accent_cyan_arb = (value: string) => `accent-cyan-[${value}]`;
+export const accent_cyan_arb = (value: string) => `accent-cyan-["${value}"]`;
 
 
 /**
- * accent-sky-[{value}]
+ * accent-sky-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3593,11 +3593,11 @@ export const accent_cyan_arb = (value: string) => `accent-cyan-[${value}]`;
  *
  * @type utility
  */
-export const accent_sky_arbitrary = (value: string) => `accent-sky-[${value}]`;
+export const accent_sky_arbitrary = (value: string) => `accent-sky-["${value}"]`;
 
 
 /**
- * accent-sky-[{value}]
+ * accent-sky-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3605,11 +3605,11 @@ export const accent_sky_arbitrary = (value: string) => `accent-sky-[${value}]`;
  *
  * @type utility
  */
-export const accent_sky_arb = (value: string) => `accent-sky-[${value}]`;
+export const accent_sky_arb = (value: string) => `accent-sky-["${value}"]`;
 
 
 /**
- * accent-blue-[{value}]
+ * accent-blue-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3617,11 +3617,11 @@ export const accent_sky_arb = (value: string) => `accent-sky-[${value}]`;
  *
  * @type utility
  */
-export const accent_blue_arbitrary = (value: string) => `accent-blue-[${value}]`;
+export const accent_blue_arbitrary = (value: string) => `accent-blue-["${value}"]`;
 
 
 /**
- * accent-blue-[{value}]
+ * accent-blue-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3629,11 +3629,11 @@ export const accent_blue_arbitrary = (value: string) => `accent-blue-[${value}]`
  *
  * @type utility
  */
-export const accent_blue_arb = (value: string) => `accent-blue-[${value}]`;
+export const accent_blue_arb = (value: string) => `accent-blue-["${value}"]`;
 
 
 /**
- * accent-indigo-[{value}]
+ * accent-indigo-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3641,11 +3641,11 @@ export const accent_blue_arb = (value: string) => `accent-blue-[${value}]`;
  *
  * @type utility
  */
-export const accent_indigo_arbitrary = (value: string) => `accent-indigo-[${value}]`;
+export const accent_indigo_arbitrary = (value: string) => `accent-indigo-["${value}"]`;
 
 
 /**
- * accent-indigo-[{value}]
+ * accent-indigo-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3653,11 +3653,11 @@ export const accent_indigo_arbitrary = (value: string) => `accent-indigo-[${valu
  *
  * @type utility
  */
-export const accent_indigo_arb = (value: string) => `accent-indigo-[${value}]`;
+export const accent_indigo_arb = (value: string) => `accent-indigo-["${value}"]`;
 
 
 /**
- * accent-violet-[{value}]
+ * accent-violet-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3665,11 +3665,11 @@ export const accent_indigo_arb = (value: string) => `accent-indigo-[${value}]`;
  *
  * @type utility
  */
-export const accent_violet_arbitrary = (value: string) => `accent-violet-[${value}]`;
+export const accent_violet_arbitrary = (value: string) => `accent-violet-["${value}"]`;
 
 
 /**
- * accent-violet-[{value}]
+ * accent-violet-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3677,11 +3677,11 @@ export const accent_violet_arbitrary = (value: string) => `accent-violet-[${valu
  *
  * @type utility
  */
-export const accent_violet_arb = (value: string) => `accent-violet-[${value}]`;
+export const accent_violet_arb = (value: string) => `accent-violet-["${value}"]`;
 
 
 /**
- * accent-purple-[{value}]
+ * accent-purple-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3689,11 +3689,11 @@ export const accent_violet_arb = (value: string) => `accent-violet-[${value}]`;
  *
  * @type utility
  */
-export const accent_purple_arbitrary = (value: string) => `accent-purple-[${value}]`;
+export const accent_purple_arbitrary = (value: string) => `accent-purple-["${value}"]`;
 
 
 /**
- * accent-purple-[{value}]
+ * accent-purple-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3701,11 +3701,11 @@ export const accent_purple_arbitrary = (value: string) => `accent-purple-[${valu
  *
  * @type utility
  */
-export const accent_purple_arb = (value: string) => `accent-purple-[${value}]`;
+export const accent_purple_arb = (value: string) => `accent-purple-["${value}"]`;
 
 
 /**
- * accent-fuchsia-[{value}]
+ * accent-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3713,11 +3713,11 @@ export const accent_purple_arb = (value: string) => `accent-purple-[${value}]`;
  *
  * @type utility
  */
-export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-[${value}]`;
+export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-["${value}"]`;
 
 
 /**
- * accent-fuchsia-[{value}]
+ * accent-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3725,11 +3725,11 @@ export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-[${va
  *
  * @type utility
  */
-export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-[${value}]`;
+export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-["${value}"]`;
 
 
 /**
- * accent-pink-[{value}]
+ * accent-pink-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3737,11 +3737,11 @@ export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-[${value}]`
  *
  * @type utility
  */
-export const accent_pink_arbitrary = (value: string) => `accent-pink-[${value}]`;
+export const accent_pink_arbitrary = (value: string) => `accent-pink-["${value}"]`;
 
 
 /**
- * accent-pink-[{value}]
+ * accent-pink-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3749,11 +3749,11 @@ export const accent_pink_arbitrary = (value: string) => `accent-pink-[${value}]`
  *
  * @type utility
  */
-export const accent_pink_arb = (value: string) => `accent-pink-[${value}]`;
+export const accent_pink_arb = (value: string) => `accent-pink-["${value}"]`;
 
 
 /**
- * accent-rose-[{value}]
+ * accent-rose-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3761,11 +3761,11 @@ export const accent_pink_arb = (value: string) => `accent-pink-[${value}]`;
  *
  * @type utility
  */
-export const accent_rose_arbitrary = (value: string) => `accent-rose-[${value}]`;
+export const accent_rose_arbitrary = (value: string) => `accent-rose-["${value}"]`;
 
 
 /**
- * accent-rose-[{value}]
+ * accent-rose-[…]-[{value}]
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3773,7 +3773,7 @@ export const accent_rose_arbitrary = (value: string) => `accent-rose-[${value}]`
  *
  * @type utility
  */
-export const accent_rose_arb = (value: string) => `accent-rose-[${value}]`;
+export const accent_rose_arb = (value: string) => `accent-rose-["${value}"]`;
 
 
 /**

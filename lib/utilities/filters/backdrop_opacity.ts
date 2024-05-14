@@ -274,7 +274,7 @@ export const backdrop_opacity_100 = "backdrop-opacity-100";
 
 
 /**
- * backdrop-opacity-[{value}]
+ * backdrop-opacity-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -282,11 +282,11 @@ export const backdrop_opacity_100 = "backdrop-opacity-100";
  *
  * @type utility
  */
-export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-[${value}]`;
+export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-["${value}"]`;
 
 
 /**
- * backdrop-opacity-[{value}]
+ * backdrop-opacity-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -294,7 +294,7 @@ export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-[
  *
  * @type utility
  */
-export const backdrop_opacity_arb = (value: string) => `backdrop-opacity-[${value}]`;
+export const backdrop_opacity_arb = (value: string) => `backdrop-opacity-["${value}"]`;
 
 
 /**

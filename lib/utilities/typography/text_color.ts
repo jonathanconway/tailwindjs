@@ -3212,7 +3212,7 @@ export const text_rose_950 = "text-rose-950";
 
 
 /**
- * text-slate-[{value}]
+ * text-slate-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3220,11 +3220,11 @@ export const text_rose_950 = "text-rose-950";
  *
  * @type utility
  */
-export const text_slate_arbitrary = (value: string) => `text-slate-[${value}]`;
+export const text_slate_arbitrary = (value: string) => `text-slate-["${value}"]`;
 
 
 /**
- * text-slate-[{value}]
+ * text-slate-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3232,11 +3232,11 @@ export const text_slate_arbitrary = (value: string) => `text-slate-[${value}]`;
  *
  * @type utility
  */
-export const text_slate_arb = (value: string) => `text-slate-[${value}]`;
+export const text_slate_arb = (value: string) => `text-slate-["${value}"]`;
 
 
 /**
- * text-gray-[{value}]
+ * text-gray-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3244,11 +3244,11 @@ export const text_slate_arb = (value: string) => `text-slate-[${value}]`;
  *
  * @type utility
  */
-export const text_gray_arbitrary = (value: string) => `text-gray-[${value}]`;
+export const text_gray_arbitrary = (value: string) => `text-gray-["${value}"]`;
 
 
 /**
- * text-gray-[{value}]
+ * text-gray-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3256,11 +3256,11 @@ export const text_gray_arbitrary = (value: string) => `text-gray-[${value}]`;
  *
  * @type utility
  */
-export const text_gray_arb = (value: string) => `text-gray-[${value}]`;
+export const text_gray_arb = (value: string) => `text-gray-["${value}"]`;
 
 
 /**
- * text-zinc-[{value}]
+ * text-zinc-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3268,11 +3268,11 @@ export const text_gray_arb = (value: string) => `text-gray-[${value}]`;
  *
  * @type utility
  */
-export const text_zinc_arbitrary = (value: string) => `text-zinc-[${value}]`;
+export const text_zinc_arbitrary = (value: string) => `text-zinc-["${value}"]`;
 
 
 /**
- * text-zinc-[{value}]
+ * text-zinc-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3280,11 +3280,11 @@ export const text_zinc_arbitrary = (value: string) => `text-zinc-[${value}]`;
  *
  * @type utility
  */
-export const text_zinc_arb = (value: string) => `text-zinc-[${value}]`;
+export const text_zinc_arb = (value: string) => `text-zinc-["${value}"]`;
 
 
 /**
- * text-neutral-[{value}]
+ * text-neutral-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3292,11 +3292,11 @@ export const text_zinc_arb = (value: string) => `text-zinc-[${value}]`;
  *
  * @type utility
  */
-export const text_neutral_arbitrary = (value: string) => `text-neutral-[${value}]`;
+export const text_neutral_arbitrary = (value: string) => `text-neutral-["${value}"]`;
 
 
 /**
- * text-neutral-[{value}]
+ * text-neutral-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3304,11 +3304,11 @@ export const text_neutral_arbitrary = (value: string) => `text-neutral-[${value}
  *
  * @type utility
  */
-export const text_neutral_arb = (value: string) => `text-neutral-[${value}]`;
+export const text_neutral_arb = (value: string) => `text-neutral-["${value}"]`;
 
 
 /**
- * text-stone-[{value}]
+ * text-stone-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3316,11 +3316,11 @@ export const text_neutral_arb = (value: string) => `text-neutral-[${value}]`;
  *
  * @type utility
  */
-export const text_stone_arbitrary = (value: string) => `text-stone-[${value}]`;
+export const text_stone_arbitrary = (value: string) => `text-stone-["${value}"]`;
 
 
 /**
- * text-stone-[{value}]
+ * text-stone-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3328,11 +3328,11 @@ export const text_stone_arbitrary = (value: string) => `text-stone-[${value}]`;
  *
  * @type utility
  */
-export const text_stone_arb = (value: string) => `text-stone-[${value}]`;
+export const text_stone_arb = (value: string) => `text-stone-["${value}"]`;
 
 
 /**
- * text-red-[{value}]
+ * text-red-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3340,11 +3340,11 @@ export const text_stone_arb = (value: string) => `text-stone-[${value}]`;
  *
  * @type utility
  */
-export const text_red_arbitrary = (value: string) => `text-red-[${value}]`;
+export const text_red_arbitrary = (value: string) => `text-red-["${value}"]`;
 
 
 /**
- * text-red-[{value}]
+ * text-red-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3352,11 +3352,11 @@ export const text_red_arbitrary = (value: string) => `text-red-[${value}]`;
  *
  * @type utility
  */
-export const text_red_arb = (value: string) => `text-red-[${value}]`;
+export const text_red_arb = (value: string) => `text-red-["${value}"]`;
 
 
 /**
- * text-orange-[{value}]
+ * text-orange-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3364,11 +3364,11 @@ export const text_red_arb = (value: string) => `text-red-[${value}]`;
  *
  * @type utility
  */
-export const text_orange_arbitrary = (value: string) => `text-orange-[${value}]`;
+export const text_orange_arbitrary = (value: string) => `text-orange-["${value}"]`;
 
 
 /**
- * text-orange-[{value}]
+ * text-orange-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3376,11 +3376,11 @@ export const text_orange_arbitrary = (value: string) => `text-orange-[${value}]`
  *
  * @type utility
  */
-export const text_orange_arb = (value: string) => `text-orange-[${value}]`;
+export const text_orange_arb = (value: string) => `text-orange-["${value}"]`;
 
 
 /**
- * text-amber-[{value}]
+ * text-amber-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3388,11 +3388,11 @@ export const text_orange_arb = (value: string) => `text-orange-[${value}]`;
  *
  * @type utility
  */
-export const text_amber_arbitrary = (value: string) => `text-amber-[${value}]`;
+export const text_amber_arbitrary = (value: string) => `text-amber-["${value}"]`;
 
 
 /**
- * text-amber-[{value}]
+ * text-amber-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3400,11 +3400,11 @@ export const text_amber_arbitrary = (value: string) => `text-amber-[${value}]`;
  *
  * @type utility
  */
-export const text_amber_arb = (value: string) => `text-amber-[${value}]`;
+export const text_amber_arb = (value: string) => `text-amber-["${value}"]`;
 
 
 /**
- * text-yellow-[{value}]
+ * text-yellow-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3412,11 +3412,11 @@ export const text_amber_arb = (value: string) => `text-amber-[${value}]`;
  *
  * @type utility
  */
-export const text_yellow_arbitrary = (value: string) => `text-yellow-[${value}]`;
+export const text_yellow_arbitrary = (value: string) => `text-yellow-["${value}"]`;
 
 
 /**
- * text-yellow-[{value}]
+ * text-yellow-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3424,11 +3424,11 @@ export const text_yellow_arbitrary = (value: string) => `text-yellow-[${value}]`
  *
  * @type utility
  */
-export const text_yellow_arb = (value: string) => `text-yellow-[${value}]`;
+export const text_yellow_arb = (value: string) => `text-yellow-["${value}"]`;
 
 
 /**
- * text-lime-[{value}]
+ * text-lime-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3436,11 +3436,11 @@ export const text_yellow_arb = (value: string) => `text-yellow-[${value}]`;
  *
  * @type utility
  */
-export const text_lime_arbitrary = (value: string) => `text-lime-[${value}]`;
+export const text_lime_arbitrary = (value: string) => `text-lime-["${value}"]`;
 
 
 /**
- * text-lime-[{value}]
+ * text-lime-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3448,11 +3448,11 @@ export const text_lime_arbitrary = (value: string) => `text-lime-[${value}]`;
  *
  * @type utility
  */
-export const text_lime_arb = (value: string) => `text-lime-[${value}]`;
+export const text_lime_arb = (value: string) => `text-lime-["${value}"]`;
 
 
 /**
- * text-green-[{value}]
+ * text-green-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3460,11 +3460,11 @@ export const text_lime_arb = (value: string) => `text-lime-[${value}]`;
  *
  * @type utility
  */
-export const text_green_arbitrary = (value: string) => `text-green-[${value}]`;
+export const text_green_arbitrary = (value: string) => `text-green-["${value}"]`;
 
 
 /**
- * text-green-[{value}]
+ * text-green-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3472,11 +3472,11 @@ export const text_green_arbitrary = (value: string) => `text-green-[${value}]`;
  *
  * @type utility
  */
-export const text_green_arb = (value: string) => `text-green-[${value}]`;
+export const text_green_arb = (value: string) => `text-green-["${value}"]`;
 
 
 /**
- * text-emerald-[{value}]
+ * text-emerald-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3484,11 +3484,11 @@ export const text_green_arb = (value: string) => `text-green-[${value}]`;
  *
  * @type utility
  */
-export const text_emerald_arbitrary = (value: string) => `text-emerald-[${value}]`;
+export const text_emerald_arbitrary = (value: string) => `text-emerald-["${value}"]`;
 
 
 /**
- * text-emerald-[{value}]
+ * text-emerald-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3496,11 +3496,11 @@ export const text_emerald_arbitrary = (value: string) => `text-emerald-[${value}
  *
  * @type utility
  */
-export const text_emerald_arb = (value: string) => `text-emerald-[${value}]`;
+export const text_emerald_arb = (value: string) => `text-emerald-["${value}"]`;
 
 
 /**
- * text-teal-[{value}]
+ * text-teal-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3508,11 +3508,11 @@ export const text_emerald_arb = (value: string) => `text-emerald-[${value}]`;
  *
  * @type utility
  */
-export const text_teal_arbitrary = (value: string) => `text-teal-[${value}]`;
+export const text_teal_arbitrary = (value: string) => `text-teal-["${value}"]`;
 
 
 /**
- * text-teal-[{value}]
+ * text-teal-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3520,11 +3520,11 @@ export const text_teal_arbitrary = (value: string) => `text-teal-[${value}]`;
  *
  * @type utility
  */
-export const text_teal_arb = (value: string) => `text-teal-[${value}]`;
+export const text_teal_arb = (value: string) => `text-teal-["${value}"]`;
 
 
 /**
- * text-cyan-[{value}]
+ * text-cyan-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3532,11 +3532,11 @@ export const text_teal_arb = (value: string) => `text-teal-[${value}]`;
  *
  * @type utility
  */
-export const text_cyan_arbitrary = (value: string) => `text-cyan-[${value}]`;
+export const text_cyan_arbitrary = (value: string) => `text-cyan-["${value}"]`;
 
 
 /**
- * text-cyan-[{value}]
+ * text-cyan-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3544,11 +3544,11 @@ export const text_cyan_arbitrary = (value: string) => `text-cyan-[${value}]`;
  *
  * @type utility
  */
-export const text_cyan_arb = (value: string) => `text-cyan-[${value}]`;
+export const text_cyan_arb = (value: string) => `text-cyan-["${value}"]`;
 
 
 /**
- * text-sky-[{value}]
+ * text-sky-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3556,11 +3556,11 @@ export const text_cyan_arb = (value: string) => `text-cyan-[${value}]`;
  *
  * @type utility
  */
-export const text_sky_arbitrary = (value: string) => `text-sky-[${value}]`;
+export const text_sky_arbitrary = (value: string) => `text-sky-["${value}"]`;
 
 
 /**
- * text-sky-[{value}]
+ * text-sky-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3568,11 +3568,11 @@ export const text_sky_arbitrary = (value: string) => `text-sky-[${value}]`;
  *
  * @type utility
  */
-export const text_sky_arb = (value: string) => `text-sky-[${value}]`;
+export const text_sky_arb = (value: string) => `text-sky-["${value}"]`;
 
 
 /**
- * text-blue-[{value}]
+ * text-blue-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3580,11 +3580,11 @@ export const text_sky_arb = (value: string) => `text-sky-[${value}]`;
  *
  * @type utility
  */
-export const text_blue_arbitrary = (value: string) => `text-blue-[${value}]`;
+export const text_blue_arbitrary = (value: string) => `text-blue-["${value}"]`;
 
 
 /**
- * text-blue-[{value}]
+ * text-blue-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3592,11 +3592,11 @@ export const text_blue_arbitrary = (value: string) => `text-blue-[${value}]`;
  *
  * @type utility
  */
-export const text_blue_arb = (value: string) => `text-blue-[${value}]`;
+export const text_blue_arb = (value: string) => `text-blue-["${value}"]`;
 
 
 /**
- * text-indigo-[{value}]
+ * text-indigo-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3604,11 +3604,11 @@ export const text_blue_arb = (value: string) => `text-blue-[${value}]`;
  *
  * @type utility
  */
-export const text_indigo_arbitrary = (value: string) => `text-indigo-[${value}]`;
+export const text_indigo_arbitrary = (value: string) => `text-indigo-["${value}"]`;
 
 
 /**
- * text-indigo-[{value}]
+ * text-indigo-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3616,11 +3616,11 @@ export const text_indigo_arbitrary = (value: string) => `text-indigo-[${value}]`
  *
  * @type utility
  */
-export const text_indigo_arb = (value: string) => `text-indigo-[${value}]`;
+export const text_indigo_arb = (value: string) => `text-indigo-["${value}"]`;
 
 
 /**
- * text-violet-[{value}]
+ * text-violet-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3628,11 +3628,11 @@ export const text_indigo_arb = (value: string) => `text-indigo-[${value}]`;
  *
  * @type utility
  */
-export const text_violet_arbitrary = (value: string) => `text-violet-[${value}]`;
+export const text_violet_arbitrary = (value: string) => `text-violet-["${value}"]`;
 
 
 /**
- * text-violet-[{value}]
+ * text-violet-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3640,11 +3640,11 @@ export const text_violet_arbitrary = (value: string) => `text-violet-[${value}]`
  *
  * @type utility
  */
-export const text_violet_arb = (value: string) => `text-violet-[${value}]`;
+export const text_violet_arb = (value: string) => `text-violet-["${value}"]`;
 
 
 /**
- * text-purple-[{value}]
+ * text-purple-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3652,11 +3652,11 @@ export const text_violet_arb = (value: string) => `text-violet-[${value}]`;
  *
  * @type utility
  */
-export const text_purple_arbitrary = (value: string) => `text-purple-[${value}]`;
+export const text_purple_arbitrary = (value: string) => `text-purple-["${value}"]`;
 
 
 /**
- * text-purple-[{value}]
+ * text-purple-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3664,11 +3664,11 @@ export const text_purple_arbitrary = (value: string) => `text-purple-[${value}]`
  *
  * @type utility
  */
-export const text_purple_arb = (value: string) => `text-purple-[${value}]`;
+export const text_purple_arb = (value: string) => `text-purple-["${value}"]`;
 
 
 /**
- * text-fuchsia-[{value}]
+ * text-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3676,11 +3676,11 @@ export const text_purple_arb = (value: string) => `text-purple-[${value}]`;
  *
  * @type utility
  */
-export const text_fuchsia_arbitrary = (value: string) => `text-fuchsia-[${value}]`;
+export const text_fuchsia_arbitrary = (value: string) => `text-fuchsia-["${value}"]`;
 
 
 /**
- * text-fuchsia-[{value}]
+ * text-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3688,11 +3688,11 @@ export const text_fuchsia_arbitrary = (value: string) => `text-fuchsia-[${value}
  *
  * @type utility
  */
-export const text_fuchsia_arb = (value: string) => `text-fuchsia-[${value}]`;
+export const text_fuchsia_arb = (value: string) => `text-fuchsia-["${value}"]`;
 
 
 /**
- * text-pink-[{value}]
+ * text-pink-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3700,11 +3700,11 @@ export const text_fuchsia_arb = (value: string) => `text-fuchsia-[${value}]`;
  *
  * @type utility
  */
-export const text_pink_arbitrary = (value: string) => `text-pink-[${value}]`;
+export const text_pink_arbitrary = (value: string) => `text-pink-["${value}"]`;
 
 
 /**
- * text-pink-[{value}]
+ * text-pink-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3712,11 +3712,11 @@ export const text_pink_arbitrary = (value: string) => `text-pink-[${value}]`;
  *
  * @type utility
  */
-export const text_pink_arb = (value: string) => `text-pink-[${value}]`;
+export const text_pink_arb = (value: string) => `text-pink-["${value}"]`;
 
 
 /**
- * text-rose-[{value}]
+ * text-rose-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3724,11 +3724,11 @@ export const text_pink_arb = (value: string) => `text-pink-[${value}]`;
  *
  * @type utility
  */
-export const text_rose_arbitrary = (value: string) => `text-rose-[${value}]`;
+export const text_rose_arbitrary = (value: string) => `text-rose-["${value}"]`;
 
 
 /**
- * text-rose-[{value}]
+ * text-rose-[…]-[{value}]
  *
  * If you need to use a one-off color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3736,7 +3736,7 @@ export const text_rose_arbitrary = (value: string) => `text-rose-[${value}]`;
  *
  * @type utility
  */
-export const text_rose_arb = (value: string) => `text-rose-[${value}]`;
+export const text_rose_arb = (value: string) => `text-rose-["${value}"]`;
 
 
 /**

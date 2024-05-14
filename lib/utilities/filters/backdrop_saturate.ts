@@ -66,7 +66,7 @@ export const backdrop_saturate_200 = "backdrop-saturate-200";
 
 
 /**
- * backdrop-saturate-[{value}]
+ * backdrop-saturate-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-saturate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -74,11 +74,11 @@ export const backdrop_saturate_200 = "backdrop-saturate-200";
  *
  * @type utility
  */
-export const backdrop_saturate_arbitrary = (value: string) => `backdrop-saturate-[${value}]`;
+export const backdrop_saturate_arbitrary = (value: string) => `backdrop-saturate-["${value}"]`;
 
 
 /**
- * backdrop-saturate-[{value}]
+ * backdrop-saturate-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-saturate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -86,7 +86,7 @@ export const backdrop_saturate_arbitrary = (value: string) => `backdrop-saturate
  *
  * @type utility
  */
-export const backdrop_saturate_arb = (value: string) => `backdrop-saturate-[${value}]`;
+export const backdrop_saturate_arb = (value: string) => `backdrop-saturate-["${value}"]`;
 
 
 /**

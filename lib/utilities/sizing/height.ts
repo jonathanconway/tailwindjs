@@ -768,7 +768,7 @@ export const h_fit = "h-fit";
 
 
 /**
- * h-[{value}]
+ * h-[…]-[{value}]
  *
  * If you need to use a one-off height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -776,11 +776,11 @@ export const h_fit = "h-fit";
  *
  * @type utility
  */
-export const h_arbitrary = (value: string) => `h-[${value}]`;
+export const h_arbitrary = (value: string) => `h-["${value}"]`;
 
 
 /**
- * h-[{value}]
+ * h-[…]-[{value}]
  *
  * If you need to use a one-off height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -788,7 +788,7 @@ export const h_arbitrary = (value: string) => `h-[${value}]`;
  *
  * @type utility
  */
-export const h_arb = (value: string) => `h-[${value}]`;
+export const h_arb = (value: string) => `h-["${value}"]`;
 
 
 /**

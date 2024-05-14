@@ -53,7 +53,7 @@ export const will_change_transform = "will-change-transform";
 
 
 /**
- * will-change-[{value}]
+ * will-change-[…]-[{value}]
  *
  * If you need to use a one-off will-change value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -61,11 +61,11 @@ export const will_change_transform = "will-change-transform";
  *
  * @type utility
  */
-export const will_change_arbitrary = (value: string) => `will-change-[${value}]`;
+export const will_change_arbitrary = (value: string) => `will-change-["${value}"]`;
 
 
 /**
- * will-change-[{value}]
+ * will-change-[…]-[{value}]
  *
  * If you need to use a one-off will-change value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -73,7 +73,7 @@ export const will_change_arbitrary = (value: string) => `will-change-[${value}]`
  *
  * @type utility
  */
-export const will_change_arb = (value: string) => `will-change-[${value}]`;
+export const will_change_arb = (value: string) => `will-change-["${value}"]`;
 
 
 /**

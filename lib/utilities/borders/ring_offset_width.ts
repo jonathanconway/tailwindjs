@@ -71,7 +71,7 @@ export const ring_offset_8 = "ring-offset-8";
 
 
 /**
- * ring-offset-[{value}]
+ * ring-offset-[…]-[{value}]
  *
  * If you need to use a one-off ring-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -79,11 +79,11 @@ export const ring_offset_8 = "ring-offset-8";
  *
  * @type utility
  */
-export const ring_offset_arbitrary = (value: string) => `ring-offset-[${value}]`;
+export const ring_offset_arbitrary = (value: string) => `ring-offset-["${value}"]`;
 
 
 /**
- * ring-offset-[{value}]
+ * ring-offset-[…]-[{value}]
  *
  * If you need to use a one-off ring-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -91,7 +91,7 @@ export const ring_offset_arbitrary = (value: string) => `ring-offset-[${value}]`
  *
  * @type utility
  */
-export const ring_offset_arb = (value: string) => `ring-offset-[${value}]`;
+export const ring_offset_arb = (value: string) => `ring-offset-["${value}"]`;
 
 
 /**

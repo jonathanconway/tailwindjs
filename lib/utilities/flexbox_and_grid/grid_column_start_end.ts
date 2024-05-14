@@ -547,7 +547,7 @@ export const col_end_auto = "col-end-auto";
 
 
 /**
- * col-[{value}]
+ * col-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -555,11 +555,11 @@ export const col_end_auto = "col-end-auto";
  *
  * @type utility
  */
-export const col_arbitrary = (value: string) => `col-[${value}]`;
+export const col_arbitrary = (value: string) => `col-["${value}"]`;
 
 
 /**
- * col-[{value}]
+ * col-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -567,11 +567,11 @@ export const col_arbitrary = (value: string) => `col-[${value}]`;
  *
  * @type utility
  */
-export const col_arb = (value: string) => `col-[${value}]`;
+export const col_arb = (value: string) => `col-["${value}"]`;
 
 
 /**
- * col-span-[{value}]
+ * col-span-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -579,11 +579,11 @@ export const col_arb = (value: string) => `col-[${value}]`;
  *
  * @type utility
  */
-export const col_span_arbitrary = (value: string) => `col-span-[${value}]`;
+export const col_span_arbitrary = (value: string) => `col-span-["${value}"]`;
 
 
 /**
- * col-span-[{value}]
+ * col-span-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -591,11 +591,11 @@ export const col_span_arbitrary = (value: string) => `col-span-[${value}]`;
  *
  * @type utility
  */
-export const col_span_arb = (value: string) => `col-span-[${value}]`;
+export const col_span_arb = (value: string) => `col-span-["${value}"]`;
 
 
 /**
- * col-start-[{value}]
+ * col-start-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -603,11 +603,11 @@ export const col_span_arb = (value: string) => `col-span-[${value}]`;
  *
  * @type utility
  */
-export const col_start_arbitrary = (value: string) => `col-start-[${value}]`;
+export const col_start_arbitrary = (value: string) => `col-start-["${value}"]`;
 
 
 /**
- * col-start-[{value}]
+ * col-start-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -615,11 +615,11 @@ export const col_start_arbitrary = (value: string) => `col-start-[${value}]`;
  *
  * @type utility
  */
-export const col_start_arb = (value: string) => `col-start-[${value}]`;
+export const col_start_arb = (value: string) => `col-start-["${value}"]`;
 
 
 /**
- * col-end-[{value}]
+ * col-end-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -627,11 +627,11 @@ export const col_start_arb = (value: string) => `col-start-[${value}]`;
  *
  * @type utility
  */
-export const col_end_arbitrary = (value: string) => `col-end-[${value}]`;
+export const col_end_arbitrary = (value: string) => `col-end-["${value}"]`;
 
 
 /**
- * col-end-[{value}]
+ * col-end-[…]-[{value}]
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -639,7 +639,7 @@ export const col_end_arbitrary = (value: string) => `col-end-[${value}]`;
  *
  * @type utility
  */
-export const col_end_arb = (value: string) => `col-end-[${value}]`;
+export const col_end_arb = (value: string) => `col-end-["${value}"]`;
 
 
 /**

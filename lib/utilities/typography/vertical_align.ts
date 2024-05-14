@@ -105,7 +105,7 @@ export const align_super = "align-super";
 
 
 /**
- * align-[{value}]
+ * align-[…]-[{value}]
  *
  * If you need to use a one-off vertical-align value that isn't included in Tailwind by default, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -113,11 +113,11 @@ export const align_super = "align-super";
  *
  * @type utility
  */
-export const align_arbitrary = (value: string) => `align-[${value}]`;
+export const align_arbitrary = (value: string) => `align-["${value}"]`;
 
 
 /**
- * align-[{value}]
+ * align-[…]-[{value}]
  *
  * If you need to use a one-off vertical-align value that isn't included in Tailwind by default, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -125,11 +125,11 @@ export const align_arbitrary = (value: string) => `align-[${value}]`;
  *
  * @type utility
  */
-export const align_arb = (value: string) => `align-[${value}]`;
+export const align_arb = (value: string) => `align-["${value}"]`;
 
 
 /**
- * align-text-[{value}]
+ * align-text-[…]-[{value}]
  *
  * If you need to use a one-off vertical-align value that isn't included in Tailwind by default, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -137,11 +137,11 @@ export const align_arb = (value: string) => `align-[${value}]`;
  *
  * @type utility
  */
-export const align_text_arbitrary = (value: string) => `align-text-[${value}]`;
+export const align_text_arbitrary = (value: string) => `align-text-["${value}"]`;
 
 
 /**
- * align-text-[{value}]
+ * align-text-[…]-[{value}]
  *
  * If you need to use a one-off vertical-align value that isn't included in Tailwind by default, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -149,7 +149,7 @@ export const align_text_arbitrary = (value: string) => `align-text-[${value}]`;
  *
  * @type utility
  */
-export const align_text_arb = (value: string) => `align-text-[${value}]`;
+export const align_text_arb = (value: string) => `align-text-["${value}"]`;
 
 
 /**

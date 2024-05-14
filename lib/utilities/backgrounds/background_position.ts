@@ -118,7 +118,7 @@ export const bg_top = "bg-top";
 
 
 /**
- * bg-left-[{value}]
+ * bg-left-[…]-[{value}]
  *
  * If you need to use a one-off background-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -126,11 +126,11 @@ export const bg_top = "bg-top";
  *
  * @type utility
  */
-export const bg_left_arbitrary = (value: string) => `bg-left-[${value}]`;
+export const bg_left_arbitrary = (value: string) => `bg-left-["${value}"]`;
 
 
 /**
- * bg-left-[{value}]
+ * bg-left-[…]-[{value}]
  *
  * If you need to use a one-off background-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -138,11 +138,11 @@ export const bg_left_arbitrary = (value: string) => `bg-left-[${value}]`;
  *
  * @type utility
  */
-export const bg_left_arb = (value: string) => `bg-left-[${value}]`;
+export const bg_left_arb = (value: string) => `bg-left-["${value}"]`;
 
 
 /**
- * bg-right-[{value}]
+ * bg-right-[…]-[{value}]
  *
  * If you need to use a one-off background-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -150,11 +150,11 @@ export const bg_left_arb = (value: string) => `bg-left-[${value}]`;
  *
  * @type utility
  */
-export const bg_right_arbitrary = (value: string) => `bg-right-[${value}]`;
+export const bg_right_arbitrary = (value: string) => `bg-right-["${value}"]`;
 
 
 /**
- * bg-right-[{value}]
+ * bg-right-[…]-[{value}]
  *
  * If you need to use a one-off background-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -162,7 +162,7 @@ export const bg_right_arbitrary = (value: string) => `bg-right-[${value}]`;
  *
  * @type utility
  */
-export const bg_right_arb = (value: string) => `bg-right-[${value}]`;
+export const bg_right_arb = (value: string) => `bg-right-["${value}"]`;
 
 
 /**

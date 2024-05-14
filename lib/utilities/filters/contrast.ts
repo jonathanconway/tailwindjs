@@ -92,7 +92,7 @@ export const contrast_200 = "contrast-200";
 
 
 /**
- * contrast-[{value}]
+ * contrast-[…]-[{value}]
  *
  * If you need to use a one-off contrast value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -100,11 +100,11 @@ export const contrast_200 = "contrast-200";
  *
  * @type utility
  */
-export const contrast_arbitrary = (value: string) => `contrast-[${value}]`;
+export const contrast_arbitrary = (value: string) => `contrast-["${value}"]`;
 
 
 /**
- * contrast-[{value}]
+ * contrast-[…]-[{value}]
  *
  * If you need to use a one-off contrast value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -112,7 +112,7 @@ export const contrast_arbitrary = (value: string) => `contrast-[${value}]`;
  *
  * @type utility
  */
-export const contrast_arb = (value: string) => `contrast-[${value}]`;
+export const contrast_arb = (value: string) => `contrast-["${value}"]`;
 
 
 /**

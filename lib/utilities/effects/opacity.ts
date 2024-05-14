@@ -274,7 +274,7 @@ export const opacity_100 = "opacity-100";
 
 
 /**
- * opacity-[{value}]
+ * opacity-[…]-[{value}]
  *
  * If you need to use a one-off opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -282,11 +282,11 @@ export const opacity_100 = "opacity-100";
  *
  * @type utility
  */
-export const opacity_arbitrary = (value: string) => `opacity-[${value}]`;
+export const opacity_arbitrary = (value: string) => `opacity-["${value}"]`;
 
 
 /**
- * opacity-[{value}]
+ * opacity-[…]-[{value}]
  *
  * If you need to use a one-off opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -294,7 +294,7 @@ export const opacity_arbitrary = (value: string) => `opacity-[${value}]`;
  *
  * @type utility
  */
-export const opacity_arb = (value: string) => `opacity-[${value}]`;
+export const opacity_arb = (value: string) => `opacity-["${value}"]`;
 
 
 /**

@@ -104,7 +104,7 @@ export const transition_transform = "transition-transform";
 
 
 /**
- * transition-[{value}]
+ * transition-[…]-[{value}]
  *
  * If you need to use a one-off transition-property value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -112,11 +112,11 @@ export const transition_transform = "transition-transform";
  *
  * @type utility
  */
-export const transition_arbitrary = (value: string) => `transition-[${value}]`;
+export const transition_arbitrary = (value: string) => `transition-["${value}"]`;
 
 
 /**
- * transition-[{value}]
+ * transition-[…]-[{value}]
  *
  * If you need to use a one-off transition-property value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -124,7 +124,7 @@ export const transition_arbitrary = (value: string) => `transition-[${value}]`;
  *
  * @type utility
  */
-export const transition_arb = (value: string) => `transition-[${value}]`;
+export const transition_arb = (value: string) => `transition-["${value}"]`;
 
 
 /**

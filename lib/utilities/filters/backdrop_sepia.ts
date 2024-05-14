@@ -27,7 +27,7 @@ export const backdrop_sepia = "backdrop-sepia";
 
 
 /**
- * backdrop-sepia-[{value}]
+ * backdrop-sepia-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const backdrop_sepia = "backdrop-sepia";
  *
  * @type utility
  */
-export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-[${value}]`;
+export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-["${value}"]`;
 
 
 /**
- * backdrop-sepia-[{value}]
+ * backdrop-sepia-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-[${va
  *
  * @type utility
  */
-export const backdrop_sepia_arb = (value: string) => `backdrop-sepia-[${value}]`;
+export const backdrop_sepia_arb = (value: string) => `backdrop-sepia-["${value}"]`;
 
 
 /**

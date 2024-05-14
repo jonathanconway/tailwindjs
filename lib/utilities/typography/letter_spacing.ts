@@ -79,7 +79,7 @@ export const tracking_widest = "tracking-widest";
 
 
 /**
- * tracking-[{value}]
+ * tracking-[…]-[{value}]
  *
  * If you need to use a one-off letter-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -87,11 +87,11 @@ export const tracking_widest = "tracking-widest";
  *
  * @type utility
  */
-export const tracking_arbitrary = (value: string) => `tracking-[${value}]`;
+export const tracking_arbitrary = (value: string) => `tracking-["${value}"]`;
 
 
 /**
- * tracking-[{value}]
+ * tracking-[…]-[{value}]
  *
  * If you need to use a one-off letter-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -99,7 +99,7 @@ export const tracking_arbitrary = (value: string) => `tracking-[${value}]`;
  *
  * @type utility
  */
-export const tracking_arb = (value: string) => `tracking-[${value}]`;
+export const tracking_arb = (value: string) => `tracking-["${value}"]`;
 
 
 /**

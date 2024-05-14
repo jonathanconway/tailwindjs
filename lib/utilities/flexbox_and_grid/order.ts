@@ -196,7 +196,7 @@ export const order_none = "order-none";
 
 
 /**
- * order-[{value}]
+ * order-[…]-[{value}]
  *
  * If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -204,11 +204,11 @@ export const order_none = "order-none";
  *
  * @type utility
  */
-export const order_arbitrary = (value: string) => `order-[${value}]`;
+export const order_arbitrary = (value: string) => `order-["${value}"]`;
 
 
 /**
- * order-[{value}]
+ * order-[…]-[{value}]
  *
  * If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -216,7 +216,7 @@ export const order_arbitrary = (value: string) => `order-[${value}]`;
  *
  * @type utility
  */
-export const order_arb = (value: string) => `order-[${value}]`;
+export const order_arb = (value: string) => `order-["${value}"]`;
 
 
 /**

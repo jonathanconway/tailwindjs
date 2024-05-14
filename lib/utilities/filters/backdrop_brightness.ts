@@ -144,7 +144,7 @@ export const backdrop_brightness_200 = "backdrop-brightness-200";
 
 
 /**
- * backdrop-brightness-[{value}]
+ * backdrop-brightness-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -152,11 +152,11 @@ export const backdrop_brightness_200 = "backdrop-brightness-200";
  *
  * @type utility
  */
-export const backdrop_brightness_arbitrary = (value: string) => `backdrop-brightness-[${value}]`;
+export const backdrop_brightness_arbitrary = (value: string) => `backdrop-brightness-["${value}"]`;
 
 
 /**
- * backdrop-brightness-[{value}]
+ * backdrop-brightness-[…]-[{value}]
  *
  * If you need to use a one-off backdrop-brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -164,7 +164,7 @@ export const backdrop_brightness_arbitrary = (value: string) => `backdrop-bright
  *
  * @type utility
  */
-export const backdrop_brightness_arb = (value: string) => `backdrop-brightness-[${value}]`;
+export const backdrop_brightness_arb = (value: string) => `backdrop-brightness-["${value}"]`;
 
 
 /**

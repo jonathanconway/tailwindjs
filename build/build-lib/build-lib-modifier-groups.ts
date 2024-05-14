@@ -75,7 +75,7 @@ function genLibModifierGroupObject({
 export const ${name}_modifiers = {
 ${[
   ...modifiers.map((modifier) => modifier.name),
-  ...arbitraries.map((arbitrary) => arbitrary.name),
+  ...arbitraries.map((arbitrary) => `${arbitrary.name}_arbitrary`),
 ]
   .filter(Boolean)
   .map((name) => `  ${name}`)

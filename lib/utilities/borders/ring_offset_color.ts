@@ -3459,7 +3459,7 @@ export const ring_offset_rose_950 = "ring-offset-rose-950";
 
 
 /**
- * ring-offset-slate-[{value}]
+ * ring-offset-slate-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3467,11 +3467,11 @@ export const ring_offset_rose_950 = "ring-offset-rose-950";
  *
  * @type utility
  */
-export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate-[${value}]`;
+export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate-["${value}"]`;
 
 
 /**
- * ring-offset-slate-[{value}]
+ * ring-offset-slate-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3479,11 +3479,11 @@ export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate
  *
  * @type utility
  */
-export const ring_offset_slate_arb = (value: string) => `ring-offset-slate-[${value}]`;
+export const ring_offset_slate_arb = (value: string) => `ring-offset-slate-["${value}"]`;
 
 
 /**
- * ring-offset-gray-[{value}]
+ * ring-offset-gray-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3491,11 +3491,11 @@ export const ring_offset_slate_arb = (value: string) => `ring-offset-slate-[${va
  *
  * @type utility
  */
-export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-[${value}]`;
+export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-["${value}"]`;
 
 
 /**
- * ring-offset-gray-[{value}]
+ * ring-offset-gray-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3503,11 +3503,11 @@ export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-[
  *
  * @type utility
  */
-export const ring_offset_gray_arb = (value: string) => `ring-offset-gray-[${value}]`;
+export const ring_offset_gray_arb = (value: string) => `ring-offset-gray-["${value}"]`;
 
 
 /**
- * ring-offset-zinc-[{value}]
+ * ring-offset-zinc-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3515,11 +3515,11 @@ export const ring_offset_gray_arb = (value: string) => `ring-offset-gray-[${valu
  *
  * @type utility
  */
-export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-[${value}]`;
+export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-["${value}"]`;
 
 
 /**
- * ring-offset-zinc-[{value}]
+ * ring-offset-zinc-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3527,11 +3527,11 @@ export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-[
  *
  * @type utility
  */
-export const ring_offset_zinc_arb = (value: string) => `ring-offset-zinc-[${value}]`;
+export const ring_offset_zinc_arb = (value: string) => `ring-offset-zinc-["${value}"]`;
 
 
 /**
- * ring-offset-neutral-[{value}]
+ * ring-offset-neutral-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3539,11 +3539,11 @@ export const ring_offset_zinc_arb = (value: string) => `ring-offset-zinc-[${valu
  *
  * @type utility
  */
-export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neutral-[${value}]`;
+export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neutral-["${value}"]`;
 
 
 /**
- * ring-offset-neutral-[{value}]
+ * ring-offset-neutral-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3551,11 +3551,11 @@ export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neu
  *
  * @type utility
  */
-export const ring_offset_neutral_arb = (value: string) => `ring-offset-neutral-[${value}]`;
+export const ring_offset_neutral_arb = (value: string) => `ring-offset-neutral-["${value}"]`;
 
 
 /**
- * ring-offset-stone-[{value}]
+ * ring-offset-stone-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3563,11 +3563,11 @@ export const ring_offset_neutral_arb = (value: string) => `ring-offset-neutral-[
  *
  * @type utility
  */
-export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone-[${value}]`;
+export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone-["${value}"]`;
 
 
 /**
- * ring-offset-stone-[{value}]
+ * ring-offset-stone-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3575,11 +3575,11 @@ export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone
  *
  * @type utility
  */
-export const ring_offset_stone_arb = (value: string) => `ring-offset-stone-[${value}]`;
+export const ring_offset_stone_arb = (value: string) => `ring-offset-stone-["${value}"]`;
 
 
 /**
- * ring-offset-red-[{value}]
+ * ring-offset-red-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3587,11 +3587,11 @@ export const ring_offset_stone_arb = (value: string) => `ring-offset-stone-[${va
  *
  * @type utility
  */
-export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-[${value}]`;
+export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-["${value}"]`;
 
 
 /**
- * ring-offset-red-[{value}]
+ * ring-offset-red-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3599,11 +3599,11 @@ export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-[${
  *
  * @type utility
  */
-export const ring_offset_red_arb = (value: string) => `ring-offset-red-[${value}]`;
+export const ring_offset_red_arb = (value: string) => `ring-offset-red-["${value}"]`;
 
 
 /**
- * ring-offset-orange-[{value}]
+ * ring-offset-orange-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3611,11 +3611,11 @@ export const ring_offset_red_arb = (value: string) => `ring-offset-red-[${value}
  *
  * @type utility
  */
-export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-orange-[${value}]`;
+export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-orange-["${value}"]`;
 
 
 /**
- * ring-offset-orange-[{value}]
+ * ring-offset-orange-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3623,11 +3623,11 @@ export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-oran
  *
  * @type utility
  */
-export const ring_offset_orange_arb = (value: string) => `ring-offset-orange-[${value}]`;
+export const ring_offset_orange_arb = (value: string) => `ring-offset-orange-["${value}"]`;
 
 
 /**
- * ring-offset-amber-[{value}]
+ * ring-offset-amber-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3635,11 +3635,11 @@ export const ring_offset_orange_arb = (value: string) => `ring-offset-orange-[${
  *
  * @type utility
  */
-export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber-[${value}]`;
+export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber-["${value}"]`;
 
 
 /**
- * ring-offset-amber-[{value}]
+ * ring-offset-amber-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3647,11 +3647,11 @@ export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber
  *
  * @type utility
  */
-export const ring_offset_amber_arb = (value: string) => `ring-offset-amber-[${value}]`;
+export const ring_offset_amber_arb = (value: string) => `ring-offset-amber-["${value}"]`;
 
 
 /**
- * ring-offset-yellow-[{value}]
+ * ring-offset-yellow-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3659,11 +3659,11 @@ export const ring_offset_amber_arb = (value: string) => `ring-offset-amber-[${va
  *
  * @type utility
  */
-export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yellow-[${value}]`;
+export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yellow-["${value}"]`;
 
 
 /**
- * ring-offset-yellow-[{value}]
+ * ring-offset-yellow-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3671,11 +3671,11 @@ export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yell
  *
  * @type utility
  */
-export const ring_offset_yellow_arb = (value: string) => `ring-offset-yellow-[${value}]`;
+export const ring_offset_yellow_arb = (value: string) => `ring-offset-yellow-["${value}"]`;
 
 
 /**
- * ring-offset-lime-[{value}]
+ * ring-offset-lime-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3683,11 +3683,11 @@ export const ring_offset_yellow_arb = (value: string) => `ring-offset-yellow-[${
  *
  * @type utility
  */
-export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-[${value}]`;
+export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-["${value}"]`;
 
 
 /**
- * ring-offset-lime-[{value}]
+ * ring-offset-lime-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3695,11 +3695,11 @@ export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-[
  *
  * @type utility
  */
-export const ring_offset_lime_arb = (value: string) => `ring-offset-lime-[${value}]`;
+export const ring_offset_lime_arb = (value: string) => `ring-offset-lime-["${value}"]`;
 
 
 /**
- * ring-offset-green-[{value}]
+ * ring-offset-green-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3707,11 +3707,11 @@ export const ring_offset_lime_arb = (value: string) => `ring-offset-lime-[${valu
  *
  * @type utility
  */
-export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green-[${value}]`;
+export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green-["${value}"]`;
 
 
 /**
- * ring-offset-green-[{value}]
+ * ring-offset-green-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3719,11 +3719,11 @@ export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green
  *
  * @type utility
  */
-export const ring_offset_green_arb = (value: string) => `ring-offset-green-[${value}]`;
+export const ring_offset_green_arb = (value: string) => `ring-offset-green-["${value}"]`;
 
 
 /**
- * ring-offset-emerald-[{value}]
+ * ring-offset-emerald-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3731,11 +3731,11 @@ export const ring_offset_green_arb = (value: string) => `ring-offset-green-[${va
  *
  * @type utility
  */
-export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-emerald-[${value}]`;
+export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-emerald-["${value}"]`;
 
 
 /**
- * ring-offset-emerald-[{value}]
+ * ring-offset-emerald-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3743,11 +3743,11 @@ export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-eme
  *
  * @type utility
  */
-export const ring_offset_emerald_arb = (value: string) => `ring-offset-emerald-[${value}]`;
+export const ring_offset_emerald_arb = (value: string) => `ring-offset-emerald-["${value}"]`;
 
 
 /**
- * ring-offset-teal-[{value}]
+ * ring-offset-teal-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3755,11 +3755,11 @@ export const ring_offset_emerald_arb = (value: string) => `ring-offset-emerald-[
  *
  * @type utility
  */
-export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-[${value}]`;
+export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-["${value}"]`;
 
 
 /**
- * ring-offset-teal-[{value}]
+ * ring-offset-teal-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3767,11 +3767,11 @@ export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-[
  *
  * @type utility
  */
-export const ring_offset_teal_arb = (value: string) => `ring-offset-teal-[${value}]`;
+export const ring_offset_teal_arb = (value: string) => `ring-offset-teal-["${value}"]`;
 
 
 /**
- * ring-offset-cyan-[{value}]
+ * ring-offset-cyan-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3779,11 +3779,11 @@ export const ring_offset_teal_arb = (value: string) => `ring-offset-teal-[${valu
  *
  * @type utility
  */
-export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-[${value}]`;
+export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-["${value}"]`;
 
 
 /**
- * ring-offset-cyan-[{value}]
+ * ring-offset-cyan-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3791,11 +3791,11 @@ export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-[
  *
  * @type utility
  */
-export const ring_offset_cyan_arb = (value: string) => `ring-offset-cyan-[${value}]`;
+export const ring_offset_cyan_arb = (value: string) => `ring-offset-cyan-["${value}"]`;
 
 
 /**
- * ring-offset-sky-[{value}]
+ * ring-offset-sky-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3803,11 +3803,11 @@ export const ring_offset_cyan_arb = (value: string) => `ring-offset-cyan-[${valu
  *
  * @type utility
  */
-export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-[${value}]`;
+export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-["${value}"]`;
 
 
 /**
- * ring-offset-sky-[{value}]
+ * ring-offset-sky-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3815,11 +3815,11 @@ export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-[${
  *
  * @type utility
  */
-export const ring_offset_sky_arb = (value: string) => `ring-offset-sky-[${value}]`;
+export const ring_offset_sky_arb = (value: string) => `ring-offset-sky-["${value}"]`;
 
 
 /**
- * ring-offset-blue-[{value}]
+ * ring-offset-blue-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3827,11 +3827,11 @@ export const ring_offset_sky_arb = (value: string) => `ring-offset-sky-[${value}
  *
  * @type utility
  */
-export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-[${value}]`;
+export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-["${value}"]`;
 
 
 /**
- * ring-offset-blue-[{value}]
+ * ring-offset-blue-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3839,11 +3839,11 @@ export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-[
  *
  * @type utility
  */
-export const ring_offset_blue_arb = (value: string) => `ring-offset-blue-[${value}]`;
+export const ring_offset_blue_arb = (value: string) => `ring-offset-blue-["${value}"]`;
 
 
 /**
- * ring-offset-indigo-[{value}]
+ * ring-offset-indigo-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3851,11 +3851,11 @@ export const ring_offset_blue_arb = (value: string) => `ring-offset-blue-[${valu
  *
  * @type utility
  */
-export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indigo-[${value}]`;
+export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indigo-["${value}"]`;
 
 
 /**
- * ring-offset-indigo-[{value}]
+ * ring-offset-indigo-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3863,11 +3863,11 @@ export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indi
  *
  * @type utility
  */
-export const ring_offset_indigo_arb = (value: string) => `ring-offset-indigo-[${value}]`;
+export const ring_offset_indigo_arb = (value: string) => `ring-offset-indigo-["${value}"]`;
 
 
 /**
- * ring-offset-violet-[{value}]
+ * ring-offset-violet-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3875,11 +3875,11 @@ export const ring_offset_indigo_arb = (value: string) => `ring-offset-indigo-[${
  *
  * @type utility
  */
-export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-violet-[${value}]`;
+export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-violet-["${value}"]`;
 
 
 /**
- * ring-offset-violet-[{value}]
+ * ring-offset-violet-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3887,11 +3887,11 @@ export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-viol
  *
  * @type utility
  */
-export const ring_offset_violet_arb = (value: string) => `ring-offset-violet-[${value}]`;
+export const ring_offset_violet_arb = (value: string) => `ring-offset-violet-["${value}"]`;
 
 
 /**
- * ring-offset-purple-[{value}]
+ * ring-offset-purple-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3899,11 +3899,11 @@ export const ring_offset_violet_arb = (value: string) => `ring-offset-violet-[${
  *
  * @type utility
  */
-export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purple-[${value}]`;
+export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purple-["${value}"]`;
 
 
 /**
- * ring-offset-purple-[{value}]
+ * ring-offset-purple-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3911,11 +3911,11 @@ export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purp
  *
  * @type utility
  */
-export const ring_offset_purple_arb = (value: string) => `ring-offset-purple-[${value}]`;
+export const ring_offset_purple_arb = (value: string) => `ring-offset-purple-["${value}"]`;
 
 
 /**
- * ring-offset-fuchsia-[{value}]
+ * ring-offset-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3923,11 +3923,11 @@ export const ring_offset_purple_arb = (value: string) => `ring-offset-purple-[${
  *
  * @type utility
  */
-export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuchsia-[${value}]`;
+export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuchsia-["${value}"]`;
 
 
 /**
- * ring-offset-fuchsia-[{value}]
+ * ring-offset-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3935,11 +3935,11 @@ export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuc
  *
  * @type utility
  */
-export const ring_offset_fuchsia_arb = (value: string) => `ring-offset-fuchsia-[${value}]`;
+export const ring_offset_fuchsia_arb = (value: string) => `ring-offset-fuchsia-["${value}"]`;
 
 
 /**
- * ring-offset-pink-[{value}]
+ * ring-offset-pink-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3947,11 +3947,11 @@ export const ring_offset_fuchsia_arb = (value: string) => `ring-offset-fuchsia-[
  *
  * @type utility
  */
-export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-[${value}]`;
+export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-["${value}"]`;
 
 
 /**
- * ring-offset-pink-[{value}]
+ * ring-offset-pink-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3959,11 +3959,11 @@ export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-[
  *
  * @type utility
  */
-export const ring_offset_pink_arb = (value: string) => `ring-offset-pink-[${value}]`;
+export const ring_offset_pink_arb = (value: string) => `ring-offset-pink-["${value}"]`;
 
 
 /**
- * ring-offset-rose-[{value}]
+ * ring-offset-rose-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3971,11 +3971,11 @@ export const ring_offset_pink_arb = (value: string) => `ring-offset-pink-[${valu
  *
  * @type utility
  */
-export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-[${value}]`;
+export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-["${value}"]`;
 
 
 /**
- * ring-offset-rose-[{value}]
+ * ring-offset-rose-[…]-[{value}]
  *
  * If you need to use a one-off ring offset color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3983,7 +3983,7 @@ export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-[
  *
  * @type utility
  */
-export const ring_offset_rose_arb = (value: string) => `ring-offset-rose-[${value}]`;
+export const ring_offset_rose_arb = (value: string) => `ring-offset-rose-["${value}"]`;
 
 
 /**

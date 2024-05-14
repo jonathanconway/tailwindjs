@@ -92,7 +92,7 @@ export const z_auto = "z-auto";
 
 
 /**
- * z-[{value}]
+ * z-[…]-[{value}]
  *
  * If you need to use a one-off z-index value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -100,11 +100,11 @@ export const z_auto = "z-auto";
  *
  * @type utility
  */
-export const z_arbitrary = (value: string) => `z-[${value}]`;
+export const z_arbitrary = (value: string) => `z-["${value}"]`;
 
 
 /**
- * z-[{value}]
+ * z-[…]-[{value}]
  *
  * If you need to use a one-off z-index value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -112,7 +112,7 @@ export const z_arbitrary = (value: string) => `z-[${value}]`;
  *
  * @type utility
  */
-export const z_arb = (value: string) => `z-[${value}]`;
+export const z_arb = (value: string) => `z-["${value}"]`;
 
 
 /**

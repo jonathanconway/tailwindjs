@@ -40,7 +40,7 @@ export const list_decimal = "list-decimal";
 
 
 /**
- * list-[{value}]
+ * list-[…]-[{value}]
  *
  * If you need to use a one-off list-style-type value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -48,11 +48,11 @@ export const list_decimal = "list-decimal";
  *
  * @type utility
  */
-export const list_arbitrary = (value: string) => `list-[${value}]`;
+export const list_arbitrary = (value: string) => `list-["${value}"]`;
 
 
 /**
- * list-[{value}]
+ * list-[…]-[{value}]
  *
  * If you need to use a one-off list-style-type value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -60,7 +60,7 @@ export const list_arbitrary = (value: string) => `list-[${value}]`;
  *
  * @type utility
  */
-export const list_arb = (value: string) => `list-[${value}]`;
+export const list_arb = (value: string) => `list-["${value}"]`;
 
 
 /**

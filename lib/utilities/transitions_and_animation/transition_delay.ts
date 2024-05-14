@@ -118,7 +118,7 @@ export const delay_1000 = "delay-1000";
 
 
 /**
- * delay-[{value}]
+ * delay-[…]-[{value}]
  *
  * If you need to use a one-off transition-delay value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -126,11 +126,11 @@ export const delay_1000 = "delay-1000";
  *
  * @type utility
  */
-export const delay_arbitrary = (value: string) => `delay-[${value}]`;
+export const delay_arbitrary = (value: string) => `delay-["${value}"]`;
 
 
 /**
- * delay-[{value}]
+ * delay-[…]-[{value}]
  *
  * If you need to use a one-off transition-delay value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -138,7 +138,7 @@ export const delay_arbitrary = (value: string) => `delay-[${value}]`;
  *
  * @type utility
  */
-export const delay_arb = (value: string) => `delay-[${value}]`;
+export const delay_arb = (value: string) => `delay-["${value}"]`;
 
 
 /**

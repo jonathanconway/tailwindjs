@@ -40,7 +40,7 @@ export const font_mono = "font-mono";
 
 
 /**
- * font-[{value}]
+ * font-[…]-[{value}]
  *
  * If you need to use a one-off font-family value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -48,11 +48,11 @@ export const font_mono = "font-mono";
  *
  * @type utility
  */
-export const font_arbitrary = (value: string) => `font-[${value}]`;
+export const font_arbitrary = (value: string) => `font-["${value}"]`;
 
 
 /**
- * font-[{value}]
+ * font-[…]-[{value}]
  *
  * If you need to use a one-off font-family value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -60,7 +60,7 @@ export const font_arbitrary = (value: string) => `font-[${value}]`;
  *
  * @type utility
  */
-export const font_arb = (value: string) => `font-[${value}]`;
+export const font_arb = (value: string) => `font-["${value}"]`;
 
 
 /**

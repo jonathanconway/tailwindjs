@@ -3212,7 +3212,7 @@ export const shadow_rose_950 = "shadow-rose-950";
 
 
 /**
- * shadow-slate-[{value}]
+ * shadow-slate-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3220,11 +3220,11 @@ export const shadow_rose_950 = "shadow-rose-950";
  *
  * @type utility
  */
-export const shadow_slate_arbitrary = (value: string) => `shadow-slate-[${value}]`;
+export const shadow_slate_arbitrary = (value: string) => `shadow-slate-["${value}"]`;
 
 
 /**
- * shadow-slate-[{value}]
+ * shadow-slate-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3232,11 +3232,11 @@ export const shadow_slate_arbitrary = (value: string) => `shadow-slate-[${value}
  *
  * @type utility
  */
-export const shadow_slate_arb = (value: string) => `shadow-slate-[${value}]`;
+export const shadow_slate_arb = (value: string) => `shadow-slate-["${value}"]`;
 
 
 /**
- * shadow-gray-[{value}]
+ * shadow-gray-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3244,11 +3244,11 @@ export const shadow_slate_arb = (value: string) => `shadow-slate-[${value}]`;
  *
  * @type utility
  */
-export const shadow_gray_arbitrary = (value: string) => `shadow-gray-[${value}]`;
+export const shadow_gray_arbitrary = (value: string) => `shadow-gray-["${value}"]`;
 
 
 /**
- * shadow-gray-[{value}]
+ * shadow-gray-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3256,11 +3256,11 @@ export const shadow_gray_arbitrary = (value: string) => `shadow-gray-[${value}]`
  *
  * @type utility
  */
-export const shadow_gray_arb = (value: string) => `shadow-gray-[${value}]`;
+export const shadow_gray_arb = (value: string) => `shadow-gray-["${value}"]`;
 
 
 /**
- * shadow-zinc-[{value}]
+ * shadow-zinc-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3268,11 +3268,11 @@ export const shadow_gray_arb = (value: string) => `shadow-gray-[${value}]`;
  *
  * @type utility
  */
-export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-[${value}]`;
+export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-["${value}"]`;
 
 
 /**
- * shadow-zinc-[{value}]
+ * shadow-zinc-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3280,11 +3280,11 @@ export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-[${value}]`
  *
  * @type utility
  */
-export const shadow_zinc_arb = (value: string) => `shadow-zinc-[${value}]`;
+export const shadow_zinc_arb = (value: string) => `shadow-zinc-["${value}"]`;
 
 
 /**
- * shadow-neutral-[{value}]
+ * shadow-neutral-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3292,11 +3292,11 @@ export const shadow_zinc_arb = (value: string) => `shadow-zinc-[${value}]`;
  *
  * @type utility
  */
-export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-[${value}]`;
+export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-["${value}"]`;
 
 
 /**
- * shadow-neutral-[{value}]
+ * shadow-neutral-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3304,11 +3304,11 @@ export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-[${va
  *
  * @type utility
  */
-export const shadow_neutral_arb = (value: string) => `shadow-neutral-[${value}]`;
+export const shadow_neutral_arb = (value: string) => `shadow-neutral-["${value}"]`;
 
 
 /**
- * shadow-stone-[{value}]
+ * shadow-stone-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3316,11 +3316,11 @@ export const shadow_neutral_arb = (value: string) => `shadow-neutral-[${value}]`
  *
  * @type utility
  */
-export const shadow_stone_arbitrary = (value: string) => `shadow-stone-[${value}]`;
+export const shadow_stone_arbitrary = (value: string) => `shadow-stone-["${value}"]`;
 
 
 /**
- * shadow-stone-[{value}]
+ * shadow-stone-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3328,11 +3328,11 @@ export const shadow_stone_arbitrary = (value: string) => `shadow-stone-[${value}
  *
  * @type utility
  */
-export const shadow_stone_arb = (value: string) => `shadow-stone-[${value}]`;
+export const shadow_stone_arb = (value: string) => `shadow-stone-["${value}"]`;
 
 
 /**
- * shadow-red-[{value}]
+ * shadow-red-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3340,11 +3340,11 @@ export const shadow_stone_arb = (value: string) => `shadow-stone-[${value}]`;
  *
  * @type utility
  */
-export const shadow_red_arbitrary = (value: string) => `shadow-red-[${value}]`;
+export const shadow_red_arbitrary = (value: string) => `shadow-red-["${value}"]`;
 
 
 /**
- * shadow-red-[{value}]
+ * shadow-red-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3352,11 +3352,11 @@ export const shadow_red_arbitrary = (value: string) => `shadow-red-[${value}]`;
  *
  * @type utility
  */
-export const shadow_red_arb = (value: string) => `shadow-red-[${value}]`;
+export const shadow_red_arb = (value: string) => `shadow-red-["${value}"]`;
 
 
 /**
- * shadow-orange-[{value}]
+ * shadow-orange-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3364,11 +3364,11 @@ export const shadow_red_arb = (value: string) => `shadow-red-[${value}]`;
  *
  * @type utility
  */
-export const shadow_orange_arbitrary = (value: string) => `shadow-orange-[${value}]`;
+export const shadow_orange_arbitrary = (value: string) => `shadow-orange-["${value}"]`;
 
 
 /**
- * shadow-orange-[{value}]
+ * shadow-orange-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3376,11 +3376,11 @@ export const shadow_orange_arbitrary = (value: string) => `shadow-orange-[${valu
  *
  * @type utility
  */
-export const shadow_orange_arb = (value: string) => `shadow-orange-[${value}]`;
+export const shadow_orange_arb = (value: string) => `shadow-orange-["${value}"]`;
 
 
 /**
- * shadow-amber-[{value}]
+ * shadow-amber-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3388,11 +3388,11 @@ export const shadow_orange_arb = (value: string) => `shadow-orange-[${value}]`;
  *
  * @type utility
  */
-export const shadow_amber_arbitrary = (value: string) => `shadow-amber-[${value}]`;
+export const shadow_amber_arbitrary = (value: string) => `shadow-amber-["${value}"]`;
 
 
 /**
- * shadow-amber-[{value}]
+ * shadow-amber-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3400,11 +3400,11 @@ export const shadow_amber_arbitrary = (value: string) => `shadow-amber-[${value}
  *
  * @type utility
  */
-export const shadow_amber_arb = (value: string) => `shadow-amber-[${value}]`;
+export const shadow_amber_arb = (value: string) => `shadow-amber-["${value}"]`;
 
 
 /**
- * shadow-yellow-[{value}]
+ * shadow-yellow-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3412,11 +3412,11 @@ export const shadow_amber_arb = (value: string) => `shadow-amber-[${value}]`;
  *
  * @type utility
  */
-export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-[${value}]`;
+export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-["${value}"]`;
 
 
 /**
- * shadow-yellow-[{value}]
+ * shadow-yellow-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3424,11 +3424,11 @@ export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-[${valu
  *
  * @type utility
  */
-export const shadow_yellow_arb = (value: string) => `shadow-yellow-[${value}]`;
+export const shadow_yellow_arb = (value: string) => `shadow-yellow-["${value}"]`;
 
 
 /**
- * shadow-lime-[{value}]
+ * shadow-lime-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3436,11 +3436,11 @@ export const shadow_yellow_arb = (value: string) => `shadow-yellow-[${value}]`;
  *
  * @type utility
  */
-export const shadow_lime_arbitrary = (value: string) => `shadow-lime-[${value}]`;
+export const shadow_lime_arbitrary = (value: string) => `shadow-lime-["${value}"]`;
 
 
 /**
- * shadow-lime-[{value}]
+ * shadow-lime-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3448,11 +3448,11 @@ export const shadow_lime_arbitrary = (value: string) => `shadow-lime-[${value}]`
  *
  * @type utility
  */
-export const shadow_lime_arb = (value: string) => `shadow-lime-[${value}]`;
+export const shadow_lime_arb = (value: string) => `shadow-lime-["${value}"]`;
 
 
 /**
- * shadow-green-[{value}]
+ * shadow-green-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3460,11 +3460,11 @@ export const shadow_lime_arb = (value: string) => `shadow-lime-[${value}]`;
  *
  * @type utility
  */
-export const shadow_green_arbitrary = (value: string) => `shadow-green-[${value}]`;
+export const shadow_green_arbitrary = (value: string) => `shadow-green-["${value}"]`;
 
 
 /**
- * shadow-green-[{value}]
+ * shadow-green-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3472,11 +3472,11 @@ export const shadow_green_arbitrary = (value: string) => `shadow-green-[${value}
  *
  * @type utility
  */
-export const shadow_green_arb = (value: string) => `shadow-green-[${value}]`;
+export const shadow_green_arb = (value: string) => `shadow-green-["${value}"]`;
 
 
 /**
- * shadow-emerald-[{value}]
+ * shadow-emerald-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3484,11 +3484,11 @@ export const shadow_green_arb = (value: string) => `shadow-green-[${value}]`;
  *
  * @type utility
  */
-export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-[${value}]`;
+export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-["${value}"]`;
 
 
 /**
- * shadow-emerald-[{value}]
+ * shadow-emerald-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3496,11 +3496,11 @@ export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-[${va
  *
  * @type utility
  */
-export const shadow_emerald_arb = (value: string) => `shadow-emerald-[${value}]`;
+export const shadow_emerald_arb = (value: string) => `shadow-emerald-["${value}"]`;
 
 
 /**
- * shadow-teal-[{value}]
+ * shadow-teal-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3508,11 +3508,11 @@ export const shadow_emerald_arb = (value: string) => `shadow-emerald-[${value}]`
  *
  * @type utility
  */
-export const shadow_teal_arbitrary = (value: string) => `shadow-teal-[${value}]`;
+export const shadow_teal_arbitrary = (value: string) => `shadow-teal-["${value}"]`;
 
 
 /**
- * shadow-teal-[{value}]
+ * shadow-teal-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3520,11 +3520,11 @@ export const shadow_teal_arbitrary = (value: string) => `shadow-teal-[${value}]`
  *
  * @type utility
  */
-export const shadow_teal_arb = (value: string) => `shadow-teal-[${value}]`;
+export const shadow_teal_arb = (value: string) => `shadow-teal-["${value}"]`;
 
 
 /**
- * shadow-cyan-[{value}]
+ * shadow-cyan-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3532,11 +3532,11 @@ export const shadow_teal_arb = (value: string) => `shadow-teal-[${value}]`;
  *
  * @type utility
  */
-export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-[${value}]`;
+export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-["${value}"]`;
 
 
 /**
- * shadow-cyan-[{value}]
+ * shadow-cyan-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3544,11 +3544,11 @@ export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-[${value}]`
  *
  * @type utility
  */
-export const shadow_cyan_arb = (value: string) => `shadow-cyan-[${value}]`;
+export const shadow_cyan_arb = (value: string) => `shadow-cyan-["${value}"]`;
 
 
 /**
- * shadow-sky-[{value}]
+ * shadow-sky-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3556,11 +3556,11 @@ export const shadow_cyan_arb = (value: string) => `shadow-cyan-[${value}]`;
  *
  * @type utility
  */
-export const shadow_sky_arbitrary = (value: string) => `shadow-sky-[${value}]`;
+export const shadow_sky_arbitrary = (value: string) => `shadow-sky-["${value}"]`;
 
 
 /**
- * shadow-sky-[{value}]
+ * shadow-sky-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3568,11 +3568,11 @@ export const shadow_sky_arbitrary = (value: string) => `shadow-sky-[${value}]`;
  *
  * @type utility
  */
-export const shadow_sky_arb = (value: string) => `shadow-sky-[${value}]`;
+export const shadow_sky_arb = (value: string) => `shadow-sky-["${value}"]`;
 
 
 /**
- * shadow-blue-[{value}]
+ * shadow-blue-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3580,11 +3580,11 @@ export const shadow_sky_arb = (value: string) => `shadow-sky-[${value}]`;
  *
  * @type utility
  */
-export const shadow_blue_arbitrary = (value: string) => `shadow-blue-[${value}]`;
+export const shadow_blue_arbitrary = (value: string) => `shadow-blue-["${value}"]`;
 
 
 /**
- * shadow-blue-[{value}]
+ * shadow-blue-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3592,11 +3592,11 @@ export const shadow_blue_arbitrary = (value: string) => `shadow-blue-[${value}]`
  *
  * @type utility
  */
-export const shadow_blue_arb = (value: string) => `shadow-blue-[${value}]`;
+export const shadow_blue_arb = (value: string) => `shadow-blue-["${value}"]`;
 
 
 /**
- * shadow-indigo-[{value}]
+ * shadow-indigo-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3604,11 +3604,11 @@ export const shadow_blue_arb = (value: string) => `shadow-blue-[${value}]`;
  *
  * @type utility
  */
-export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-[${value}]`;
+export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-["${value}"]`;
 
 
 /**
- * shadow-indigo-[{value}]
+ * shadow-indigo-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3616,11 +3616,11 @@ export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-[${valu
  *
  * @type utility
  */
-export const shadow_indigo_arb = (value: string) => `shadow-indigo-[${value}]`;
+export const shadow_indigo_arb = (value: string) => `shadow-indigo-["${value}"]`;
 
 
 /**
- * shadow-violet-[{value}]
+ * shadow-violet-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3628,11 +3628,11 @@ export const shadow_indigo_arb = (value: string) => `shadow-indigo-[${value}]`;
  *
  * @type utility
  */
-export const shadow_violet_arbitrary = (value: string) => `shadow-violet-[${value}]`;
+export const shadow_violet_arbitrary = (value: string) => `shadow-violet-["${value}"]`;
 
 
 /**
- * shadow-violet-[{value}]
+ * shadow-violet-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3640,11 +3640,11 @@ export const shadow_violet_arbitrary = (value: string) => `shadow-violet-[${valu
  *
  * @type utility
  */
-export const shadow_violet_arb = (value: string) => `shadow-violet-[${value}]`;
+export const shadow_violet_arb = (value: string) => `shadow-violet-["${value}"]`;
 
 
 /**
- * shadow-purple-[{value}]
+ * shadow-purple-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3652,11 +3652,11 @@ export const shadow_violet_arb = (value: string) => `shadow-violet-[${value}]`;
  *
  * @type utility
  */
-export const shadow_purple_arbitrary = (value: string) => `shadow-purple-[${value}]`;
+export const shadow_purple_arbitrary = (value: string) => `shadow-purple-["${value}"]`;
 
 
 /**
- * shadow-purple-[{value}]
+ * shadow-purple-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3664,11 +3664,11 @@ export const shadow_purple_arbitrary = (value: string) => `shadow-purple-[${valu
  *
  * @type utility
  */
-export const shadow_purple_arb = (value: string) => `shadow-purple-[${value}]`;
+export const shadow_purple_arb = (value: string) => `shadow-purple-["${value}"]`;
 
 
 /**
- * shadow-fuchsia-[{value}]
+ * shadow-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3676,11 +3676,11 @@ export const shadow_purple_arb = (value: string) => `shadow-purple-[${value}]`;
  *
  * @type utility
  */
-export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-[${value}]`;
+export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-["${value}"]`;
 
 
 /**
- * shadow-fuchsia-[{value}]
+ * shadow-fuchsia-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3688,11 +3688,11 @@ export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-[${va
  *
  * @type utility
  */
-export const shadow_fuchsia_arb = (value: string) => `shadow-fuchsia-[${value}]`;
+export const shadow_fuchsia_arb = (value: string) => `shadow-fuchsia-["${value}"]`;
 
 
 /**
- * shadow-pink-[{value}]
+ * shadow-pink-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3700,11 +3700,11 @@ export const shadow_fuchsia_arb = (value: string) => `shadow-fuchsia-[${value}]`
  *
  * @type utility
  */
-export const shadow_pink_arbitrary = (value: string) => `shadow-pink-[${value}]`;
+export const shadow_pink_arbitrary = (value: string) => `shadow-pink-["${value}"]`;
 
 
 /**
- * shadow-pink-[{value}]
+ * shadow-pink-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3712,11 +3712,11 @@ export const shadow_pink_arbitrary = (value: string) => `shadow-pink-[${value}]`
  *
  * @type utility
  */
-export const shadow_pink_arb = (value: string) => `shadow-pink-[${value}]`;
+export const shadow_pink_arb = (value: string) => `shadow-pink-["${value}"]`;
 
 
 /**
- * shadow-rose-[{value}]
+ * shadow-rose-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3724,11 +3724,11 @@ export const shadow_pink_arb = (value: string) => `shadow-pink-[${value}]`;
  *
  * @type utility
  */
-export const shadow_rose_arbitrary = (value: string) => `shadow-rose-[${value}]`;
+export const shadow_rose_arbitrary = (value: string) => `shadow-rose-["${value}"]`;
 
 
 /**
- * shadow-rose-[{value}]
+ * shadow-rose-[…]-[{value}]
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -3736,7 +3736,7 @@ export const shadow_rose_arbitrary = (value: string) => `shadow-rose-[${value}]`
  *
  * @type utility
  */
-export const shadow_rose_arb = (value: string) => `shadow-rose-[${value}]`;
+export const shadow_rose_arb = (value: string) => `shadow-rose-["${value}"]`;
 
 
 /**

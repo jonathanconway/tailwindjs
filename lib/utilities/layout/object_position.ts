@@ -118,7 +118,7 @@ export const object_top = "object-top";
 
 
 /**
- * object-[{value}]
+ * object-[…]-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -126,11 +126,11 @@ export const object_top = "object-top";
  *
  * @type utility
  */
-export const object_arbitrary = (value: string) => `object-[${value}]`;
+export const object_arbitrary = (value: string) => `object-["${value}"]`;
 
 
 /**
- * object-[{value}]
+ * object-[…]-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -138,11 +138,11 @@ export const object_arbitrary = (value: string) => `object-[${value}]`;
  *
  * @type utility
  */
-export const object_arb = (value: string) => `object-[${value}]`;
+export const object_arb = (value: string) => `object-["${value}"]`;
 
 
 /**
- * object-left-[{value}]
+ * object-left-[…]-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -150,11 +150,11 @@ export const object_arb = (value: string) => `object-[${value}]`;
  *
  * @type utility
  */
-export const object_left_arbitrary = (value: string) => `object-left-[${value}]`;
+export const object_left_arbitrary = (value: string) => `object-left-["${value}"]`;
 
 
 /**
- * object-left-[{value}]
+ * object-left-[…]-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -162,11 +162,11 @@ export const object_left_arbitrary = (value: string) => `object-left-[${value}]`
  *
  * @type utility
  */
-export const object_left_arb = (value: string) => `object-left-[${value}]`;
+export const object_left_arb = (value: string) => `object-left-["${value}"]`;
 
 
 /**
- * object-right-[{value}]
+ * object-right-[…]-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -174,11 +174,11 @@ export const object_left_arb = (value: string) => `object-left-[${value}]`;
  *
  * @type utility
  */
-export const object_right_arbitrary = (value: string) => `object-right-[${value}]`;
+export const object_right_arbitrary = (value: string) => `object-right-["${value}"]`;
 
 
 /**
- * object-right-[{value}]
+ * object-right-[…]-[{value}]
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -186,7 +186,7 @@ export const object_right_arbitrary = (value: string) => `object-right-[${value}
  *
  * @type utility
  */
-export const object_right_arb = (value: string) => `object-right-[${value}]`;
+export const object_right_arb = (value: string) => `object-right-["${value}"]`;
 
 
 /**

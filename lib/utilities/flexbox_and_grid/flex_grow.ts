@@ -27,7 +27,7 @@ export const grow_0 = "grow-0";
 
 
 /**
- * grow-[{value}]
+ * grow-[…]-[{value}]
  *
  * If you need to use a one-off flex-grow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const grow_0 = "grow-0";
  *
  * @type utility
  */
-export const grow_arbitrary = (value: string) => `grow-[${value}]`;
+export const grow_arbitrary = (value: string) => `grow-["${value}"]`;
 
 
 /**
- * grow-[{value}]
+ * grow-[…]-[{value}]
  *
  * If you need to use a one-off flex-grow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const grow_arbitrary = (value: string) => `grow-[${value}]`;
  *
  * @type utility
  */
-export const grow_arb = (value: string) => `grow-[${value}]`;
+export const grow_arb = (value: string) => `grow-["${value}"]`;
 
 
 /**

@@ -183,7 +183,7 @@ export const grid_cols_subgrid = "grid-cols-subgrid";
 
 
 /**
- * grid-cols-[{value}]
+ * grid-cols-[…]-[{value}]
  *
  * If you need to use a one-off grid-template-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -191,11 +191,11 @@ export const grid_cols_subgrid = "grid-cols-subgrid";
  *
  * @type utility
  */
-export const grid_cols_arbitrary = (value: string) => `grid-cols-[${value}]`;
+export const grid_cols_arbitrary = (value: string) => `grid-cols-["${value}"]`;
 
 
 /**
- * grid-cols-[{value}]
+ * grid-cols-[…]-[{value}]
  *
  * If you need to use a one-off grid-template-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -203,7 +203,7 @@ export const grid_cols_arbitrary = (value: string) => `grid-cols-[${value}]`;
  *
  * @type utility
  */
-export const grid_cols_arb = (value: string) => `grid-cols-[${value}]`;
+export const grid_cols_arb = (value: string) => `grid-cols-["${value}"]`;
 
 
 /**

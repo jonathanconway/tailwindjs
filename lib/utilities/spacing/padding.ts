@@ -4166,7 +4166,7 @@ export const pl_96 = "pl-96";
 
 
 /**
- * p-[{value}]
+ * p-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4174,11 +4174,11 @@ export const pl_96 = "pl-96";
  *
  * @type utility
  */
-export const p_arbitrary = (value: string) => `p-[${value}]`;
+export const p_arbitrary = (value: string) => `p-["${value}"]`;
 
 
 /**
- * p-[{value}]
+ * p-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4186,11 +4186,11 @@ export const p_arbitrary = (value: string) => `p-[${value}]`;
  *
  * @type utility
  */
-export const p_arb = (value: string) => `p-[${value}]`;
+export const p_arb = (value: string) => `p-["${value}"]`;
 
 
 /**
- * px-[{value}]
+ * px-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4198,11 +4198,11 @@ export const p_arb = (value: string) => `p-[${value}]`;
  *
  * @type utility
  */
-export const px_arbitrary = (value: string) => `px-[${value}]`;
+export const px_arbitrary = (value: string) => `px-["${value}"]`;
 
 
 /**
- * px-[{value}]
+ * px-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4210,11 +4210,11 @@ export const px_arbitrary = (value: string) => `px-[${value}]`;
  *
  * @type utility
  */
-export const px_arb = (value: string) => `px-[${value}]`;
+export const px_arb = (value: string) => `px-["${value}"]`;
 
 
 /**
- * py-[{value}]
+ * py-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4222,11 +4222,11 @@ export const px_arb = (value: string) => `px-[${value}]`;
  *
  * @type utility
  */
-export const py_arbitrary = (value: string) => `py-[${value}]`;
+export const py_arbitrary = (value: string) => `py-["${value}"]`;
 
 
 /**
- * py-[{value}]
+ * py-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4234,11 +4234,11 @@ export const py_arbitrary = (value: string) => `py-[${value}]`;
  *
  * @type utility
  */
-export const py_arb = (value: string) => `py-[${value}]`;
+export const py_arb = (value: string) => `py-["${value}"]`;
 
 
 /**
- * ps-[{value}]
+ * ps-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4246,11 +4246,11 @@ export const py_arb = (value: string) => `py-[${value}]`;
  *
  * @type utility
  */
-export const ps_arbitrary = (value: string) => `ps-[${value}]`;
+export const ps_arbitrary = (value: string) => `ps-["${value}"]`;
 
 
 /**
- * ps-[{value}]
+ * ps-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4258,11 +4258,11 @@ export const ps_arbitrary = (value: string) => `ps-[${value}]`;
  *
  * @type utility
  */
-export const ps_arb = (value: string) => `ps-[${value}]`;
+export const ps_arb = (value: string) => `ps-["${value}"]`;
 
 
 /**
- * pe-[{value}]
+ * pe-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4270,11 +4270,11 @@ export const ps_arb = (value: string) => `ps-[${value}]`;
  *
  * @type utility
  */
-export const pe_arbitrary = (value: string) => `pe-[${value}]`;
+export const pe_arbitrary = (value: string) => `pe-["${value}"]`;
 
 
 /**
- * pe-[{value}]
+ * pe-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4282,11 +4282,11 @@ export const pe_arbitrary = (value: string) => `pe-[${value}]`;
  *
  * @type utility
  */
-export const pe_arb = (value: string) => `pe-[${value}]`;
+export const pe_arb = (value: string) => `pe-["${value}"]`;
 
 
 /**
- * pt-[{value}]
+ * pt-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4294,11 +4294,11 @@ export const pe_arb = (value: string) => `pe-[${value}]`;
  *
  * @type utility
  */
-export const pt_arbitrary = (value: string) => `pt-[${value}]`;
+export const pt_arbitrary = (value: string) => `pt-["${value}"]`;
 
 
 /**
- * pt-[{value}]
+ * pt-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4306,11 +4306,11 @@ export const pt_arbitrary = (value: string) => `pt-[${value}]`;
  *
  * @type utility
  */
-export const pt_arb = (value: string) => `pt-[${value}]`;
+export const pt_arb = (value: string) => `pt-["${value}"]`;
 
 
 /**
- * pr-[{value}]
+ * pr-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4318,11 +4318,11 @@ export const pt_arb = (value: string) => `pt-[${value}]`;
  *
  * @type utility
  */
-export const pr_arbitrary = (value: string) => `pr-[${value}]`;
+export const pr_arbitrary = (value: string) => `pr-["${value}"]`;
 
 
 /**
- * pr-[{value}]
+ * pr-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4330,11 +4330,11 @@ export const pr_arbitrary = (value: string) => `pr-[${value}]`;
  *
  * @type utility
  */
-export const pr_arb = (value: string) => `pr-[${value}]`;
+export const pr_arb = (value: string) => `pr-["${value}"]`;
 
 
 /**
- * pb-[{value}]
+ * pb-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4342,11 +4342,11 @@ export const pr_arb = (value: string) => `pr-[${value}]`;
  *
  * @type utility
  */
-export const pb_arbitrary = (value: string) => `pb-[${value}]`;
+export const pb_arbitrary = (value: string) => `pb-["${value}"]`;
 
 
 /**
- * pb-[{value}]
+ * pb-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4354,11 +4354,11 @@ export const pb_arbitrary = (value: string) => `pb-[${value}]`;
  *
  * @type utility
  */
-export const pb_arb = (value: string) => `pb-[${value}]`;
+export const pb_arb = (value: string) => `pb-["${value}"]`;
 
 
 /**
- * pl-[{value}]
+ * pl-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4366,11 +4366,11 @@ export const pb_arb = (value: string) => `pb-[${value}]`;
  *
  * @type utility
  */
-export const pl_arbitrary = (value: string) => `pl-[${value}]`;
+export const pl_arbitrary = (value: string) => `pl-["${value}"]`;
 
 
 /**
- * pl-[{value}]
+ * pl-[…]-[{value}]
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -4378,7 +4378,7 @@ export const pl_arbitrary = (value: string) => `pl-[${value}]`;
  *
  * @type utility
  */
-export const pl_arb = (value: string) => `pl-[${value}]`;
+export const pl_arb = (value: string) => `pl-["${value}"]`;
 
 
 /**

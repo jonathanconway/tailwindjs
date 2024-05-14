@@ -27,7 +27,7 @@ export const invert = "invert";
 
 
 /**
- * invert-[{value}]
+ * invert-[…]-[{value}]
  *
  * If you need to use a one-off invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -35,11 +35,11 @@ export const invert = "invert";
  *
  * @type utility
  */
-export const invert_arbitrary = (value: string) => `invert-[${value}]`;
+export const invert_arbitrary = (value: string) => `invert-["${value}"]`;
 
 
 /**
- * invert-[{value}]
+ * invert-[…]-[{value}]
  *
  * If you need to use a one-off invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -47,7 +47,7 @@ export const invert_arbitrary = (value: string) => `invert-[${value}]`;
  *
  * @type utility
  */
-export const invert_arb = (value: string) => `invert-[${value}]`;
+export const invert_arb = (value: string) => `invert-["${value}"]`;
 
 
 /**

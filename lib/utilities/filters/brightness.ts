@@ -144,7 +144,7 @@ export const brightness_200 = "brightness-200";
 
 
 /**
- * brightness-[{value}]
+ * brightness-[…]-[{value}]
  *
  * If you need to use a one-off brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -152,11 +152,11 @@ export const brightness_200 = "brightness-200";
  *
  * @type utility
  */
-export const brightness_arbitrary = (value: string) => `brightness-[${value}]`;
+export const brightness_arbitrary = (value: string) => `brightness-["${value}"]`;
 
 
 /**
- * brightness-[{value}]
+ * brightness-[…]-[{value}]
  *
  * If you need to use a one-off brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
@@ -164,7 +164,7 @@ export const brightness_arbitrary = (value: string) => `brightness-[${value}]`;
  *
  * @type utility
  */
-export const brightness_arb = (value: string) => `brightness-[${value}]`;
+export const brightness_arb = (value: string) => `brightness-["${value}"]`;
 
 
 /**
