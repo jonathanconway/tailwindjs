@@ -35,7 +35,7 @@ export const grayscale = "grayscale";
  *
  * @type utility
  */
-export const grayscale_arbitrary = (value: string) => `grayscale-["${value}"]`;
+export const grayscale_arbitrary = (value: string) => `grayscale-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const grayscale_arbitrary = (value: string) => `grayscale-["${value}"]`;
  *
  * @type utility
  */
-export const grayscale_arb = (value: string) => `grayscale-["${value}"]`;
+export const grayscale_arb = (value: string) => `grayscale-[${value}]`;
 
 
 /**

@@ -74,7 +74,7 @@ export const saturate_200 = "saturate-200";
  *
  * @type utility
  */
-export const saturate_arbitrary = (value: string) => `saturate-["${value}"]`;
+export const saturate_arbitrary = (value: string) => `saturate-[${value}]`;
 
 
 /**
@@ -86,7 +86,7 @@ export const saturate_arbitrary = (value: string) => `saturate-["${value}"]`;
  *
  * @type utility
  */
-export const saturate_arb = (value: string) => `saturate-["${value}"]`;
+export const saturate_arb = (value: string) => `saturate-[${value}]`;
 
 
 /**

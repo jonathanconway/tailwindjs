@@ -113,7 +113,7 @@ export const shadow_none = "shadow-none";
  *
  * @type utility
  */
-export const shadow_arbitrary = (value: string) => `shadow-["${value}"]`;
+export const shadow_arbitrary = (value: string) => `shadow-[${value}]`;
 
 
 /**
@@ -125,7 +125,7 @@ export const shadow_arbitrary = (value: string) => `shadow-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_arb = (value: string) => `shadow-["${value}"]`;
+export const shadow_arb = (value: string) => `shadow-[${value}]`;
 
 
 /**

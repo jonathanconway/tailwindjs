@@ -61,7 +61,7 @@ export const will_change_transform = "will-change-transform";
  *
  * @type utility
  */
-export const will_change_arbitrary = (value: string) => `will-change-["${value}"]`;
+export const will_change_arbitrary = (value: string) => `will-change-[${value}]`;
 
 
 /**
@@ -73,7 +73,7 @@ export const will_change_arbitrary = (value: string) => `will-change-["${value}"
  *
  * @type utility
  */
-export const will_change_arb = (value: string) => `will-change-["${value}"]`;
+export const will_change_arb = (value: string) => `will-change-[${value}]`;
 
 
 /**

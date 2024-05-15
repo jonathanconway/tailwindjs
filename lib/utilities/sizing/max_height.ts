@@ -581,7 +581,7 @@ export const max_h_fit = "max-h-fit";
  *
  * @type utility
  */
-export const max_h_arbitrary = (value: string) => `max-h-["${value}"]`;
+export const max_h_arbitrary = (value: string) => `max-h-[${value}]`;
 
 
 /**
@@ -593,7 +593,7 @@ export const max_h_arbitrary = (value: string) => `max-h-["${value}"]`;
  *
  * @type utility
  */
-export const max_h_arb = (value: string) => `max-h-["${value}"]`;
+export const max_h_arb = (value: string) => `max-h-[${value}]`;
 
 
 /**

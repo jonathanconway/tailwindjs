@@ -204,7 +204,7 @@ export const order_none = "order-none";
  *
  * @type utility
  */
-export const order_arbitrary = (value: string) => `order-["${value}"]`;
+export const order_arbitrary = (value: string) => `order-[${value}]`;
 
 
 /**
@@ -216,7 +216,7 @@ export const order_arbitrary = (value: string) => `order-["${value}"]`;
  *
  * @type utility
  */
-export const order_arb = (value: string) => `order-["${value}"]`;
+export const order_arb = (value: string) => `order-[${value}]`;
 
 
 /**

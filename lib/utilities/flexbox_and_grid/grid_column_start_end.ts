@@ -555,7 +555,7 @@ export const col_end_auto = "col-end-auto";
  *
  * @type utility
  */
-export const col_arbitrary = (value: string) => `col-["${value}"]`;
+export const col_arbitrary = (value: string) => `col-[${value}]`;
 
 
 /**
@@ -567,7 +567,7 @@ export const col_arbitrary = (value: string) => `col-["${value}"]`;
  *
  * @type utility
  */
-export const col_arb = (value: string) => `col-["${value}"]`;
+export const col_arb = (value: string) => `col-[${value}]`;
 
 
 /**
@@ -579,7 +579,7 @@ export const col_arb = (value: string) => `col-["${value}"]`;
  *
  * @type utility
  */
-export const col_span_arbitrary = (value: string) => `col-span-["${value}"]`;
+export const col_span_arbitrary = (value: string) => `col-span-[${value}]`;
 
 
 /**
@@ -591,7 +591,7 @@ export const col_span_arbitrary = (value: string) => `col-span-["${value}"]`;
  *
  * @type utility
  */
-export const col_span_arb = (value: string) => `col-span-["${value}"]`;
+export const col_span_arb = (value: string) => `col-span-[${value}]`;
 
 
 /**
@@ -603,7 +603,7 @@ export const col_span_arb = (value: string) => `col-span-["${value}"]`;
  *
  * @type utility
  */
-export const col_start_arbitrary = (value: string) => `col-start-["${value}"]`;
+export const col_start_arbitrary = (value: string) => `col-start-[${value}]`;
 
 
 /**
@@ -615,7 +615,7 @@ export const col_start_arbitrary = (value: string) => `col-start-["${value}"]`;
  *
  * @type utility
  */
-export const col_start_arb = (value: string) => `col-start-["${value}"]`;
+export const col_start_arb = (value: string) => `col-start-[${value}]`;
 
 
 /**
@@ -627,7 +627,7 @@ export const col_start_arb = (value: string) => `col-start-["${value}"]`;
  *
  * @type utility
  */
-export const col_end_arbitrary = (value: string) => `col-end-["${value}"]`;
+export const col_end_arbitrary = (value: string) => `col-end-[${value}]`;
 
 
 /**
@@ -639,7 +639,7 @@ export const col_end_arbitrary = (value: string) => `col-end-["${value}"]`;
  *
  * @type utility
  */
-export const col_end_arb = (value: string) => `col-end-["${value}"]`;
+export const col_end_arb = (value: string) => `col-end-[${value}]`;
 
 
 /**

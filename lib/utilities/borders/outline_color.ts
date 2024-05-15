@@ -3220,7 +3220,7 @@ export const outline_rose_950 = "outline-rose-950";
  *
  * @type utility
  */
-export const outline_slate_arbitrary = (value: string) => `outline-slate-["${value}"]`;
+export const outline_slate_arbitrary = (value: string) => `outline-slate-[${value}]`;
 
 
 /**
@@ -3232,7 +3232,7 @@ export const outline_slate_arbitrary = (value: string) => `outline-slate-["${val
  *
  * @type utility
  */
-export const outline_slate_arb = (value: string) => `outline-slate-["${value}"]`;
+export const outline_slate_arb = (value: string) => `outline-slate-[${value}]`;
 
 
 /**
@@ -3244,7 +3244,7 @@ export const outline_slate_arb = (value: string) => `outline-slate-["${value}"]`
  *
  * @type utility
  */
-export const outline_gray_arbitrary = (value: string) => `outline-gray-["${value}"]`;
+export const outline_gray_arbitrary = (value: string) => `outline-gray-[${value}]`;
 
 
 /**
@@ -3256,7 +3256,7 @@ export const outline_gray_arbitrary = (value: string) => `outline-gray-["${value
  *
  * @type utility
  */
-export const outline_gray_arb = (value: string) => `outline-gray-["${value}"]`;
+export const outline_gray_arb = (value: string) => `outline-gray-[${value}]`;
 
 
 /**
@@ -3268,7 +3268,7 @@ export const outline_gray_arb = (value: string) => `outline-gray-["${value}"]`;
  *
  * @type utility
  */
-export const outline_zinc_arbitrary = (value: string) => `outline-zinc-["${value}"]`;
+export const outline_zinc_arbitrary = (value: string) => `outline-zinc-[${value}]`;
 
 
 /**
@@ -3280,7 +3280,7 @@ export const outline_zinc_arbitrary = (value: string) => `outline-zinc-["${value
  *
  * @type utility
  */
-export const outline_zinc_arb = (value: string) => `outline-zinc-["${value}"]`;
+export const outline_zinc_arb = (value: string) => `outline-zinc-[${value}]`;
 
 
 /**
@@ -3292,7 +3292,7 @@ export const outline_zinc_arb = (value: string) => `outline-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const outline_neutral_arbitrary = (value: string) => `outline-neutral-["${value}"]`;
+export const outline_neutral_arbitrary = (value: string) => `outline-neutral-[${value}]`;
 
 
 /**
@@ -3304,7 +3304,7 @@ export const outline_neutral_arbitrary = (value: string) => `outline-neutral-["$
  *
  * @type utility
  */
-export const outline_neutral_arb = (value: string) => `outline-neutral-["${value}"]`;
+export const outline_neutral_arb = (value: string) => `outline-neutral-[${value}]`;
 
 
 /**
@@ -3316,7 +3316,7 @@ export const outline_neutral_arb = (value: string) => `outline-neutral-["${value
  *
  * @type utility
  */
-export const outline_stone_arbitrary = (value: string) => `outline-stone-["${value}"]`;
+export const outline_stone_arbitrary = (value: string) => `outline-stone-[${value}]`;
 
 
 /**
@@ -3328,7 +3328,7 @@ export const outline_stone_arbitrary = (value: string) => `outline-stone-["${val
  *
  * @type utility
  */
-export const outline_stone_arb = (value: string) => `outline-stone-["${value}"]`;
+export const outline_stone_arb = (value: string) => `outline-stone-[${value}]`;
 
 
 /**
@@ -3340,7 +3340,7 @@ export const outline_stone_arb = (value: string) => `outline-stone-["${value}"]`
  *
  * @type utility
  */
-export const outline_red_arbitrary = (value: string) => `outline-red-["${value}"]`;
+export const outline_red_arbitrary = (value: string) => `outline-red-[${value}]`;
 
 
 /**
@@ -3352,7 +3352,7 @@ export const outline_red_arbitrary = (value: string) => `outline-red-["${value}"
  *
  * @type utility
  */
-export const outline_red_arb = (value: string) => `outline-red-["${value}"]`;
+export const outline_red_arb = (value: string) => `outline-red-[${value}]`;
 
 
 /**
@@ -3364,7 +3364,7 @@ export const outline_red_arb = (value: string) => `outline-red-["${value}"]`;
  *
  * @type utility
  */
-export const outline_orange_arbitrary = (value: string) => `outline-orange-["${value}"]`;
+export const outline_orange_arbitrary = (value: string) => `outline-orange-[${value}]`;
 
 
 /**
@@ -3376,7 +3376,7 @@ export const outline_orange_arbitrary = (value: string) => `outline-orange-["${v
  *
  * @type utility
  */
-export const outline_orange_arb = (value: string) => `outline-orange-["${value}"]`;
+export const outline_orange_arb = (value: string) => `outline-orange-[${value}]`;
 
 
 /**
@@ -3388,7 +3388,7 @@ export const outline_orange_arb = (value: string) => `outline-orange-["${value}"
  *
  * @type utility
  */
-export const outline_amber_arbitrary = (value: string) => `outline-amber-["${value}"]`;
+export const outline_amber_arbitrary = (value: string) => `outline-amber-[${value}]`;
 
 
 /**
@@ -3400,7 +3400,7 @@ export const outline_amber_arbitrary = (value: string) => `outline-amber-["${val
  *
  * @type utility
  */
-export const outline_amber_arb = (value: string) => `outline-amber-["${value}"]`;
+export const outline_amber_arb = (value: string) => `outline-amber-[${value}]`;
 
 
 /**
@@ -3412,7 +3412,7 @@ export const outline_amber_arb = (value: string) => `outline-amber-["${value}"]`
  *
  * @type utility
  */
-export const outline_yellow_arbitrary = (value: string) => `outline-yellow-["${value}"]`;
+export const outline_yellow_arbitrary = (value: string) => `outline-yellow-[${value}]`;
 
 
 /**
@@ -3424,7 +3424,7 @@ export const outline_yellow_arbitrary = (value: string) => `outline-yellow-["${v
  *
  * @type utility
  */
-export const outline_yellow_arb = (value: string) => `outline-yellow-["${value}"]`;
+export const outline_yellow_arb = (value: string) => `outline-yellow-[${value}]`;
 
 
 /**
@@ -3436,7 +3436,7 @@ export const outline_yellow_arb = (value: string) => `outline-yellow-["${value}"
  *
  * @type utility
  */
-export const outline_lime_arbitrary = (value: string) => `outline-lime-["${value}"]`;
+export const outline_lime_arbitrary = (value: string) => `outline-lime-[${value}]`;
 
 
 /**
@@ -3448,7 +3448,7 @@ export const outline_lime_arbitrary = (value: string) => `outline-lime-["${value
  *
  * @type utility
  */
-export const outline_lime_arb = (value: string) => `outline-lime-["${value}"]`;
+export const outline_lime_arb = (value: string) => `outline-lime-[${value}]`;
 
 
 /**
@@ -3460,7 +3460,7 @@ export const outline_lime_arb = (value: string) => `outline-lime-["${value}"]`;
  *
  * @type utility
  */
-export const outline_green_arbitrary = (value: string) => `outline-green-["${value}"]`;
+export const outline_green_arbitrary = (value: string) => `outline-green-[${value}]`;
 
 
 /**
@@ -3472,7 +3472,7 @@ export const outline_green_arbitrary = (value: string) => `outline-green-["${val
  *
  * @type utility
  */
-export const outline_green_arb = (value: string) => `outline-green-["${value}"]`;
+export const outline_green_arb = (value: string) => `outline-green-[${value}]`;
 
 
 /**
@@ -3484,7 +3484,7 @@ export const outline_green_arb = (value: string) => `outline-green-["${value}"]`
  *
  * @type utility
  */
-export const outline_emerald_arbitrary = (value: string) => `outline-emerald-["${value}"]`;
+export const outline_emerald_arbitrary = (value: string) => `outline-emerald-[${value}]`;
 
 
 /**
@@ -3496,7 +3496,7 @@ export const outline_emerald_arbitrary = (value: string) => `outline-emerald-["$
  *
  * @type utility
  */
-export const outline_emerald_arb = (value: string) => `outline-emerald-["${value}"]`;
+export const outline_emerald_arb = (value: string) => `outline-emerald-[${value}]`;
 
 
 /**
@@ -3508,7 +3508,7 @@ export const outline_emerald_arb = (value: string) => `outline-emerald-["${value
  *
  * @type utility
  */
-export const outline_teal_arbitrary = (value: string) => `outline-teal-["${value}"]`;
+export const outline_teal_arbitrary = (value: string) => `outline-teal-[${value}]`;
 
 
 /**
@@ -3520,7 +3520,7 @@ export const outline_teal_arbitrary = (value: string) => `outline-teal-["${value
  *
  * @type utility
  */
-export const outline_teal_arb = (value: string) => `outline-teal-["${value}"]`;
+export const outline_teal_arb = (value: string) => `outline-teal-[${value}]`;
 
 
 /**
@@ -3532,7 +3532,7 @@ export const outline_teal_arb = (value: string) => `outline-teal-["${value}"]`;
  *
  * @type utility
  */
-export const outline_cyan_arbitrary = (value: string) => `outline-cyan-["${value}"]`;
+export const outline_cyan_arbitrary = (value: string) => `outline-cyan-[${value}]`;
 
 
 /**
@@ -3544,7 +3544,7 @@ export const outline_cyan_arbitrary = (value: string) => `outline-cyan-["${value
  *
  * @type utility
  */
-export const outline_cyan_arb = (value: string) => `outline-cyan-["${value}"]`;
+export const outline_cyan_arb = (value: string) => `outline-cyan-[${value}]`;
 
 
 /**
@@ -3556,7 +3556,7 @@ export const outline_cyan_arb = (value: string) => `outline-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const outline_sky_arbitrary = (value: string) => `outline-sky-["${value}"]`;
+export const outline_sky_arbitrary = (value: string) => `outline-sky-[${value}]`;
 
 
 /**
@@ -3568,7 +3568,7 @@ export const outline_sky_arbitrary = (value: string) => `outline-sky-["${value}"
  *
  * @type utility
  */
-export const outline_sky_arb = (value: string) => `outline-sky-["${value}"]`;
+export const outline_sky_arb = (value: string) => `outline-sky-[${value}]`;
 
 
 /**
@@ -3580,7 +3580,7 @@ export const outline_sky_arb = (value: string) => `outline-sky-["${value}"]`;
  *
  * @type utility
  */
-export const outline_blue_arbitrary = (value: string) => `outline-blue-["${value}"]`;
+export const outline_blue_arbitrary = (value: string) => `outline-blue-[${value}]`;
 
 
 /**
@@ -3592,7 +3592,7 @@ export const outline_blue_arbitrary = (value: string) => `outline-blue-["${value
  *
  * @type utility
  */
-export const outline_blue_arb = (value: string) => `outline-blue-["${value}"]`;
+export const outline_blue_arb = (value: string) => `outline-blue-[${value}]`;
 
 
 /**
@@ -3604,7 +3604,7 @@ export const outline_blue_arb = (value: string) => `outline-blue-["${value}"]`;
  *
  * @type utility
  */
-export const outline_indigo_arbitrary = (value: string) => `outline-indigo-["${value}"]`;
+export const outline_indigo_arbitrary = (value: string) => `outline-indigo-[${value}]`;
 
 
 /**
@@ -3616,7 +3616,7 @@ export const outline_indigo_arbitrary = (value: string) => `outline-indigo-["${v
  *
  * @type utility
  */
-export const outline_indigo_arb = (value: string) => `outline-indigo-["${value}"]`;
+export const outline_indigo_arb = (value: string) => `outline-indigo-[${value}]`;
 
 
 /**
@@ -3628,7 +3628,7 @@ export const outline_indigo_arb = (value: string) => `outline-indigo-["${value}"
  *
  * @type utility
  */
-export const outline_violet_arbitrary = (value: string) => `outline-violet-["${value}"]`;
+export const outline_violet_arbitrary = (value: string) => `outline-violet-[${value}]`;
 
 
 /**
@@ -3640,7 +3640,7 @@ export const outline_violet_arbitrary = (value: string) => `outline-violet-["${v
  *
  * @type utility
  */
-export const outline_violet_arb = (value: string) => `outline-violet-["${value}"]`;
+export const outline_violet_arb = (value: string) => `outline-violet-[${value}]`;
 
 
 /**
@@ -3652,7 +3652,7 @@ export const outline_violet_arb = (value: string) => `outline-violet-["${value}"
  *
  * @type utility
  */
-export const outline_purple_arbitrary = (value: string) => `outline-purple-["${value}"]`;
+export const outline_purple_arbitrary = (value: string) => `outline-purple-[${value}]`;
 
 
 /**
@@ -3664,7 +3664,7 @@ export const outline_purple_arbitrary = (value: string) => `outline-purple-["${v
  *
  * @type utility
  */
-export const outline_purple_arb = (value: string) => `outline-purple-["${value}"]`;
+export const outline_purple_arb = (value: string) => `outline-purple-[${value}]`;
 
 
 /**
@@ -3676,7 +3676,7 @@ export const outline_purple_arb = (value: string) => `outline-purple-["${value}"
  *
  * @type utility
  */
-export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-["${value}"]`;
+export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-[${value}]`;
 
 
 /**
@@ -3688,7 +3688,7 @@ export const outline_fuchsia_arbitrary = (value: string) => `outline-fuchsia-["$
  *
  * @type utility
  */
-export const outline_fuchsia_arb = (value: string) => `outline-fuchsia-["${value}"]`;
+export const outline_fuchsia_arb = (value: string) => `outline-fuchsia-[${value}]`;
 
 
 /**
@@ -3700,7 +3700,7 @@ export const outline_fuchsia_arb = (value: string) => `outline-fuchsia-["${value
  *
  * @type utility
  */
-export const outline_pink_arbitrary = (value: string) => `outline-pink-["${value}"]`;
+export const outline_pink_arbitrary = (value: string) => `outline-pink-[${value}]`;
 
 
 /**
@@ -3712,7 +3712,7 @@ export const outline_pink_arbitrary = (value: string) => `outline-pink-["${value
  *
  * @type utility
  */
-export const outline_pink_arb = (value: string) => `outline-pink-["${value}"]`;
+export const outline_pink_arb = (value: string) => `outline-pink-[${value}]`;
 
 
 /**
@@ -3724,7 +3724,7 @@ export const outline_pink_arb = (value: string) => `outline-pink-["${value}"]`;
  *
  * @type utility
  */
-export const outline_rose_arbitrary = (value: string) => `outline-rose-["${value}"]`;
+export const outline_rose_arbitrary = (value: string) => `outline-rose-[${value}]`;
 
 
 /**
@@ -3736,7 +3736,7 @@ export const outline_rose_arbitrary = (value: string) => `outline-rose-["${value
  *
  * @type utility
  */
-export const outline_rose_arb = (value: string) => `outline-rose-["${value}"]`;
+export const outline_rose_arb = (value: string) => `outline-rose-[${value}]`;
 
 
 /**

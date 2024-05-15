@@ -464,7 +464,7 @@ export const indent_96 = "indent-96";
  *
  * @type utility
  */
-export const indent_arbitrary = (value: string) => `indent-["${value}"]`;
+export const indent_arbitrary = (value: string) => `indent-[${value}]`;
 
 
 /**
@@ -476,7 +476,7 @@ export const indent_arbitrary = (value: string) => `indent-["${value}"]`;
  *
  * @type utility
  */
-export const indent_arb = (value: string) => `indent-["${value}"]`;
+export const indent_arb = (value: string) => `indent-[${value}]`;
 
 
 /**

@@ -61,7 +61,7 @@ export const auto_rows_fr = "auto-rows-fr";
  *
  * @type utility
  */
-export const auto_rows_arbitrary = (value: string) => `auto-rows-["${value}"]`;
+export const auto_rows_arbitrary = (value: string) => `auto-rows-[${value}]`;
 
 
 /**
@@ -73,7 +73,7 @@ export const auto_rows_arbitrary = (value: string) => `auto-rows-["${value}"]`;
  *
  * @type utility
  */
-export const auto_rows_arb = (value: string) => `auto-rows-["${value}"]`;
+export const auto_rows_arb = (value: string) => `auto-rows-[${value}]`;
 
 
 /**

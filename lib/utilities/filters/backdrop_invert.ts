@@ -35,7 +35,7 @@ export const backdrop_invert = "backdrop-invert";
  *
  * @type utility
  */
-export const backdrop_invert_arbitrary = (value: string) => `backdrop-invert-["${value}"]`;
+export const backdrop_invert_arbitrary = (value: string) => `backdrop-invert-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const backdrop_invert_arbitrary = (value: string) => `backdrop-invert-["$
  *
  * @type utility
  */
-export const backdrop_invert_arb = (value: string) => `backdrop-invert-["${value}"]`;
+export const backdrop_invert_arb = (value: string) => `backdrop-invert-[${value}]`;
 
 
 /**

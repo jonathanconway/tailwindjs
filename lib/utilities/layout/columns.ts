@@ -347,7 +347,7 @@ export const columns_7xl = "columns-7xl";
  *
  * @type utility
  */
-export const columns_arbitrary = (value: string) => `columns-["${value}"]`;
+export const columns_arbitrary = (value: string) => `columns-[${value}]`;
 
 
 /**
@@ -359,7 +359,7 @@ export const columns_arbitrary = (value: string) => `columns-["${value}"]`;
  *
  * @type utility
  */
-export const columns_arb = (value: string) => `columns-["${value}"]`;
+export const columns_arb = (value: string) => `columns-[${value}]`;
 
 
 /**

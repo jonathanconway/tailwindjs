@@ -282,7 +282,7 @@ export const backdrop_opacity_100 = "backdrop-opacity-100";
  *
  * @type utility
  */
-export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-["${value}"]`;
+export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-[${value}]`;
 
 
 /**
@@ -294,7 +294,7 @@ export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-[
  *
  * @type utility
  */
-export const backdrop_opacity_arb = (value: string) => `backdrop-opacity-["${value}"]`;
+export const backdrop_opacity_arb = (value: string) => `backdrop-opacity-[${value}]`;
 
 
 /**

@@ -8,7 +8,7 @@ export function genLibModifierArbitrary({
   tailwindCssName,
   tailwindCssUrl,
 }: ModifierArbitrary) {
-  const prefixCode = tailwindCssName.replaceAll("[…]", '["${arbitrary}"]');
+  const prefixCode = tailwindCssName.replaceAll("[…]", "[${arbitrary}]");
 
   const descriptionCode = description.trim()
     ? ` * ${prepareDescription(description)}\n *`

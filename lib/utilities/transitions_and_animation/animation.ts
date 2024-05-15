@@ -106,7 +106,7 @@ export const animate_bounce = "animate-bounce";
  *
  * @type utility
  */
-export const animate_arbitrary = (value: string) => `animate-["${value}"]`;
+export const animate_arbitrary = (value: string) => `animate-[${value}]`;
 
 
 /**
@@ -118,7 +118,7 @@ export const animate_arbitrary = (value: string) => `animate-["${value}"]`;
  *
  * @type utility
  */
-export const animate_arb = (value: string) => `animate-["${value}"]`;
+export const animate_arb = (value: string) => `animate-[${value}]`;
 
 
 /**

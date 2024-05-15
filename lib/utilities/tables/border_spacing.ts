@@ -1374,7 +1374,7 @@ export const border_spacing_y_96 = "border-spacing-y-96";
  *
  * @type utility
  */
-export const border_spacing_arbitrary = (value: string) => `border-spacing-["${value}"]`;
+export const border_spacing_arbitrary = (value: string) => `border-spacing-[${value}]`;
 
 
 /**
@@ -1386,7 +1386,7 @@ export const border_spacing_arbitrary = (value: string) => `border-spacing-["${v
  *
  * @type utility
  */
-export const border_spacing_arb = (value: string) => `border-spacing-["${value}"]`;
+export const border_spacing_arb = (value: string) => `border-spacing-[${value}]`;
 
 
 /**
@@ -1398,7 +1398,7 @@ export const border_spacing_arb = (value: string) => `border-spacing-["${value}"
  *
  * @type utility
  */
-export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-["${value}"]`;
+export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-[${value}]`;
 
 
 /**
@@ -1410,7 +1410,7 @@ export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-[
  *
  * @type utility
  */
-export const border_spacing_x_arb = (value: string) => `border-spacing-x-["${value}"]`;
+export const border_spacing_x_arb = (value: string) => `border-spacing-x-[${value}]`;
 
 
 /**
@@ -1422,7 +1422,7 @@ export const border_spacing_x_arb = (value: string) => `border-spacing-x-["${val
  *
  * @type utility
  */
-export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-["${value}"]`;
+export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-[${value}]`;
 
 
 /**
@@ -1434,7 +1434,7 @@ export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-[
  *
  * @type utility
  */
-export const border_spacing_y_arb = (value: string) => `border-spacing-y-["${value}"]`;
+export const border_spacing_y_arb = (value: string) => `border-spacing-y-[${value}]`;
 
 
 /**

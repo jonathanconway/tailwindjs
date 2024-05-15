@@ -87,7 +87,7 @@ export const underline_offset_8 = "underline-offset-8";
  *
  * @type utility
  */
-export const underline_offset_arbitrary = (value: string) => `underline-offset-["${value}"]`;
+export const underline_offset_arbitrary = (value: string) => `underline-offset-[${value}]`;
 
 
 /**
@@ -99,7 +99,7 @@ export const underline_offset_arbitrary = (value: string) => `underline-offset-[
  *
  * @type utility
  */
-export const underline_offset_arb = (value: string) => `underline-offset-["${value}"]`;
+export const underline_offset_arb = (value: string) => `underline-offset-[${value}]`;
 
 
 /**

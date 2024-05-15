@@ -87,7 +87,7 @@ export const hue_rotate_180 = "hue-rotate-180";
  *
  * @type utility
  */
-export const hue_rotate_arbitrary = (value: string) => `hue-rotate-["${value}"]`;
+export const hue_rotate_arbitrary = (value: string) => `hue-rotate-[${value}]`;
 
 
 /**
@@ -99,7 +99,7 @@ export const hue_rotate_arbitrary = (value: string) => `hue-rotate-["${value}"]`
  *
  * @type utility
  */
-export const hue_rotate_arb = (value: string) => `hue-rotate-["${value}"]`;
+export const hue_rotate_arb = (value: string) => `hue-rotate-[${value}]`;
 
 
 /**

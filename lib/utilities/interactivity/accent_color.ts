@@ -3233,7 +3233,7 @@ export const accent_auto = "accent-auto";
  *
  * @type utility
  */
-export const accent_arbitrary = (value: string) => `accent-["${value}"]`;
+export const accent_arbitrary = (value: string) => `accent-[${value}]`;
 
 
 /**
@@ -3245,7 +3245,7 @@ export const accent_arbitrary = (value: string) => `accent-["${value}"]`;
  *
  * @type utility
  */
-export const accent_arb = (value: string) => `accent-["${value}"]`;
+export const accent_arb = (value: string) => `accent-[${value}]`;
 
 
 /**
@@ -3257,7 +3257,7 @@ export const accent_arb = (value: string) => `accent-["${value}"]`;
  *
  * @type utility
  */
-export const accent_slate_arbitrary = (value: string) => `accent-slate-["${value}"]`;
+export const accent_slate_arbitrary = (value: string) => `accent-slate-[${value}]`;
 
 
 /**
@@ -3269,7 +3269,7 @@ export const accent_slate_arbitrary = (value: string) => `accent-slate-["${value
  *
  * @type utility
  */
-export const accent_slate_arb = (value: string) => `accent-slate-["${value}"]`;
+export const accent_slate_arb = (value: string) => `accent-slate-[${value}]`;
 
 
 /**
@@ -3281,7 +3281,7 @@ export const accent_slate_arb = (value: string) => `accent-slate-["${value}"]`;
  *
  * @type utility
  */
-export const accent_gray_arbitrary = (value: string) => `accent-gray-["${value}"]`;
+export const accent_gray_arbitrary = (value: string) => `accent-gray-[${value}]`;
 
 
 /**
@@ -3293,7 +3293,7 @@ export const accent_gray_arbitrary = (value: string) => `accent-gray-["${value}"
  *
  * @type utility
  */
-export const accent_gray_arb = (value: string) => `accent-gray-["${value}"]`;
+export const accent_gray_arb = (value: string) => `accent-gray-[${value}]`;
 
 
 /**
@@ -3305,7 +3305,7 @@ export const accent_gray_arb = (value: string) => `accent-gray-["${value}"]`;
  *
  * @type utility
  */
-export const accent_zinc_arbitrary = (value: string) => `accent-zinc-["${value}"]`;
+export const accent_zinc_arbitrary = (value: string) => `accent-zinc-[${value}]`;
 
 
 /**
@@ -3317,7 +3317,7 @@ export const accent_zinc_arbitrary = (value: string) => `accent-zinc-["${value}"
  *
  * @type utility
  */
-export const accent_zinc_arb = (value: string) => `accent-zinc-["${value}"]`;
+export const accent_zinc_arb = (value: string) => `accent-zinc-[${value}]`;
 
 
 /**
@@ -3329,7 +3329,7 @@ export const accent_zinc_arb = (value: string) => `accent-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const accent_neutral_arbitrary = (value: string) => `accent-neutral-["${value}"]`;
+export const accent_neutral_arbitrary = (value: string) => `accent-neutral-[${value}]`;
 
 
 /**
@@ -3341,7 +3341,7 @@ export const accent_neutral_arbitrary = (value: string) => `accent-neutral-["${v
  *
  * @type utility
  */
-export const accent_neutral_arb = (value: string) => `accent-neutral-["${value}"]`;
+export const accent_neutral_arb = (value: string) => `accent-neutral-[${value}]`;
 
 
 /**
@@ -3353,7 +3353,7 @@ export const accent_neutral_arb = (value: string) => `accent-neutral-["${value}"
  *
  * @type utility
  */
-export const accent_stone_arbitrary = (value: string) => `accent-stone-["${value}"]`;
+export const accent_stone_arbitrary = (value: string) => `accent-stone-[${value}]`;
 
 
 /**
@@ -3365,7 +3365,7 @@ export const accent_stone_arbitrary = (value: string) => `accent-stone-["${value
  *
  * @type utility
  */
-export const accent_stone_arb = (value: string) => `accent-stone-["${value}"]`;
+export const accent_stone_arb = (value: string) => `accent-stone-[${value}]`;
 
 
 /**
@@ -3377,7 +3377,7 @@ export const accent_stone_arb = (value: string) => `accent-stone-["${value}"]`;
  *
  * @type utility
  */
-export const accent_red_arbitrary = (value: string) => `accent-red-["${value}"]`;
+export const accent_red_arbitrary = (value: string) => `accent-red-[${value}]`;
 
 
 /**
@@ -3389,7 +3389,7 @@ export const accent_red_arbitrary = (value: string) => `accent-red-["${value}"]`
  *
  * @type utility
  */
-export const accent_red_arb = (value: string) => `accent-red-["${value}"]`;
+export const accent_red_arb = (value: string) => `accent-red-[${value}]`;
 
 
 /**
@@ -3401,7 +3401,7 @@ export const accent_red_arb = (value: string) => `accent-red-["${value}"]`;
  *
  * @type utility
  */
-export const accent_orange_arbitrary = (value: string) => `accent-orange-["${value}"]`;
+export const accent_orange_arbitrary = (value: string) => `accent-orange-[${value}]`;
 
 
 /**
@@ -3413,7 +3413,7 @@ export const accent_orange_arbitrary = (value: string) => `accent-orange-["${val
  *
  * @type utility
  */
-export const accent_orange_arb = (value: string) => `accent-orange-["${value}"]`;
+export const accent_orange_arb = (value: string) => `accent-orange-[${value}]`;
 
 
 /**
@@ -3425,7 +3425,7 @@ export const accent_orange_arb = (value: string) => `accent-orange-["${value}"]`
  *
  * @type utility
  */
-export const accent_amber_arbitrary = (value: string) => `accent-amber-["${value}"]`;
+export const accent_amber_arbitrary = (value: string) => `accent-amber-[${value}]`;
 
 
 /**
@@ -3437,7 +3437,7 @@ export const accent_amber_arbitrary = (value: string) => `accent-amber-["${value
  *
  * @type utility
  */
-export const accent_amber_arb = (value: string) => `accent-amber-["${value}"]`;
+export const accent_amber_arb = (value: string) => `accent-amber-[${value}]`;
 
 
 /**
@@ -3449,7 +3449,7 @@ export const accent_amber_arb = (value: string) => `accent-amber-["${value}"]`;
  *
  * @type utility
  */
-export const accent_yellow_arbitrary = (value: string) => `accent-yellow-["${value}"]`;
+export const accent_yellow_arbitrary = (value: string) => `accent-yellow-[${value}]`;
 
 
 /**
@@ -3461,7 +3461,7 @@ export const accent_yellow_arbitrary = (value: string) => `accent-yellow-["${val
  *
  * @type utility
  */
-export const accent_yellow_arb = (value: string) => `accent-yellow-["${value}"]`;
+export const accent_yellow_arb = (value: string) => `accent-yellow-[${value}]`;
 
 
 /**
@@ -3473,7 +3473,7 @@ export const accent_yellow_arb = (value: string) => `accent-yellow-["${value}"]`
  *
  * @type utility
  */
-export const accent_lime_arbitrary = (value: string) => `accent-lime-["${value}"]`;
+export const accent_lime_arbitrary = (value: string) => `accent-lime-[${value}]`;
 
 
 /**
@@ -3485,7 +3485,7 @@ export const accent_lime_arbitrary = (value: string) => `accent-lime-["${value}"
  *
  * @type utility
  */
-export const accent_lime_arb = (value: string) => `accent-lime-["${value}"]`;
+export const accent_lime_arb = (value: string) => `accent-lime-[${value}]`;
 
 
 /**
@@ -3497,7 +3497,7 @@ export const accent_lime_arb = (value: string) => `accent-lime-["${value}"]`;
  *
  * @type utility
  */
-export const accent_green_arbitrary = (value: string) => `accent-green-["${value}"]`;
+export const accent_green_arbitrary = (value: string) => `accent-green-[${value}]`;
 
 
 /**
@@ -3509,7 +3509,7 @@ export const accent_green_arbitrary = (value: string) => `accent-green-["${value
  *
  * @type utility
  */
-export const accent_green_arb = (value: string) => `accent-green-["${value}"]`;
+export const accent_green_arb = (value: string) => `accent-green-[${value}]`;
 
 
 /**
@@ -3521,7 +3521,7 @@ export const accent_green_arb = (value: string) => `accent-green-["${value}"]`;
  *
  * @type utility
  */
-export const accent_emerald_arbitrary = (value: string) => `accent-emerald-["${value}"]`;
+export const accent_emerald_arbitrary = (value: string) => `accent-emerald-[${value}]`;
 
 
 /**
@@ -3533,7 +3533,7 @@ export const accent_emerald_arbitrary = (value: string) => `accent-emerald-["${v
  *
  * @type utility
  */
-export const accent_emerald_arb = (value: string) => `accent-emerald-["${value}"]`;
+export const accent_emerald_arb = (value: string) => `accent-emerald-[${value}]`;
 
 
 /**
@@ -3545,7 +3545,7 @@ export const accent_emerald_arb = (value: string) => `accent-emerald-["${value}"
  *
  * @type utility
  */
-export const accent_teal_arbitrary = (value: string) => `accent-teal-["${value}"]`;
+export const accent_teal_arbitrary = (value: string) => `accent-teal-[${value}]`;
 
 
 /**
@@ -3557,7 +3557,7 @@ export const accent_teal_arbitrary = (value: string) => `accent-teal-["${value}"
  *
  * @type utility
  */
-export const accent_teal_arb = (value: string) => `accent-teal-["${value}"]`;
+export const accent_teal_arb = (value: string) => `accent-teal-[${value}]`;
 
 
 /**
@@ -3569,7 +3569,7 @@ export const accent_teal_arb = (value: string) => `accent-teal-["${value}"]`;
  *
  * @type utility
  */
-export const accent_cyan_arbitrary = (value: string) => `accent-cyan-["${value}"]`;
+export const accent_cyan_arbitrary = (value: string) => `accent-cyan-[${value}]`;
 
 
 /**
@@ -3581,7 +3581,7 @@ export const accent_cyan_arbitrary = (value: string) => `accent-cyan-["${value}"
  *
  * @type utility
  */
-export const accent_cyan_arb = (value: string) => `accent-cyan-["${value}"]`;
+export const accent_cyan_arb = (value: string) => `accent-cyan-[${value}]`;
 
 
 /**
@@ -3593,7 +3593,7 @@ export const accent_cyan_arb = (value: string) => `accent-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const accent_sky_arbitrary = (value: string) => `accent-sky-["${value}"]`;
+export const accent_sky_arbitrary = (value: string) => `accent-sky-[${value}]`;
 
 
 /**
@@ -3605,7 +3605,7 @@ export const accent_sky_arbitrary = (value: string) => `accent-sky-["${value}"]`
  *
  * @type utility
  */
-export const accent_sky_arb = (value: string) => `accent-sky-["${value}"]`;
+export const accent_sky_arb = (value: string) => `accent-sky-[${value}]`;
 
 
 /**
@@ -3617,7 +3617,7 @@ export const accent_sky_arb = (value: string) => `accent-sky-["${value}"]`;
  *
  * @type utility
  */
-export const accent_blue_arbitrary = (value: string) => `accent-blue-["${value}"]`;
+export const accent_blue_arbitrary = (value: string) => `accent-blue-[${value}]`;
 
 
 /**
@@ -3629,7 +3629,7 @@ export const accent_blue_arbitrary = (value: string) => `accent-blue-["${value}"
  *
  * @type utility
  */
-export const accent_blue_arb = (value: string) => `accent-blue-["${value}"]`;
+export const accent_blue_arb = (value: string) => `accent-blue-[${value}]`;
 
 
 /**
@@ -3641,7 +3641,7 @@ export const accent_blue_arb = (value: string) => `accent-blue-["${value}"]`;
  *
  * @type utility
  */
-export const accent_indigo_arbitrary = (value: string) => `accent-indigo-["${value}"]`;
+export const accent_indigo_arbitrary = (value: string) => `accent-indigo-[${value}]`;
 
 
 /**
@@ -3653,7 +3653,7 @@ export const accent_indigo_arbitrary = (value: string) => `accent-indigo-["${val
  *
  * @type utility
  */
-export const accent_indigo_arb = (value: string) => `accent-indigo-["${value}"]`;
+export const accent_indigo_arb = (value: string) => `accent-indigo-[${value}]`;
 
 
 /**
@@ -3665,7 +3665,7 @@ export const accent_indigo_arb = (value: string) => `accent-indigo-["${value}"]`
  *
  * @type utility
  */
-export const accent_violet_arbitrary = (value: string) => `accent-violet-["${value}"]`;
+export const accent_violet_arbitrary = (value: string) => `accent-violet-[${value}]`;
 
 
 /**
@@ -3677,7 +3677,7 @@ export const accent_violet_arbitrary = (value: string) => `accent-violet-["${val
  *
  * @type utility
  */
-export const accent_violet_arb = (value: string) => `accent-violet-["${value}"]`;
+export const accent_violet_arb = (value: string) => `accent-violet-[${value}]`;
 
 
 /**
@@ -3689,7 +3689,7 @@ export const accent_violet_arb = (value: string) => `accent-violet-["${value}"]`
  *
  * @type utility
  */
-export const accent_purple_arbitrary = (value: string) => `accent-purple-["${value}"]`;
+export const accent_purple_arbitrary = (value: string) => `accent-purple-[${value}]`;
 
 
 /**
@@ -3701,7 +3701,7 @@ export const accent_purple_arbitrary = (value: string) => `accent-purple-["${val
  *
  * @type utility
  */
-export const accent_purple_arb = (value: string) => `accent-purple-["${value}"]`;
+export const accent_purple_arb = (value: string) => `accent-purple-[${value}]`;
 
 
 /**
@@ -3713,7 +3713,7 @@ export const accent_purple_arb = (value: string) => `accent-purple-["${value}"]`
  *
  * @type utility
  */
-export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-["${value}"]`;
+export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-[${value}]`;
 
 
 /**
@@ -3725,7 +3725,7 @@ export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-["${v
  *
  * @type utility
  */
-export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-["${value}"]`;
+export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-[${value}]`;
 
 
 /**
@@ -3737,7 +3737,7 @@ export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-["${value}"
  *
  * @type utility
  */
-export const accent_pink_arbitrary = (value: string) => `accent-pink-["${value}"]`;
+export const accent_pink_arbitrary = (value: string) => `accent-pink-[${value}]`;
 
 
 /**
@@ -3749,7 +3749,7 @@ export const accent_pink_arbitrary = (value: string) => `accent-pink-["${value}"
  *
  * @type utility
  */
-export const accent_pink_arb = (value: string) => `accent-pink-["${value}"]`;
+export const accent_pink_arb = (value: string) => `accent-pink-[${value}]`;
 
 
 /**
@@ -3761,7 +3761,7 @@ export const accent_pink_arb = (value: string) => `accent-pink-["${value}"]`;
  *
  * @type utility
  */
-export const accent_rose_arbitrary = (value: string) => `accent-rose-["${value}"]`;
+export const accent_rose_arbitrary = (value: string) => `accent-rose-[${value}]`;
 
 
 /**
@@ -3773,7 +3773,7 @@ export const accent_rose_arbitrary = (value: string) => `accent-rose-["${value}"
  *
  * @type utility
  */
-export const accent_rose_arb = (value: string) => `accent-rose-["${value}"]`;
+export const accent_rose_arb = (value: string) => `accent-rose-[${value}]`;
 
 
 /**

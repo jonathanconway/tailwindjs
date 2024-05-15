@@ -3220,7 +3220,7 @@ export const caret_rose_950 = "caret-rose-950";
  *
  * @type utility
  */
-export const caret_arbitrary = (value: string) => `caret-["${value}"]`;
+export const caret_arbitrary = (value: string) => `caret-[${value}]`;
 
 
 /**
@@ -3232,7 +3232,7 @@ export const caret_arbitrary = (value: string) => `caret-["${value}"]`;
  *
  * @type utility
  */
-export const caret_arb = (value: string) => `caret-["${value}"]`;
+export const caret_arb = (value: string) => `caret-[${value}]`;
 
 
 /**
@@ -3244,7 +3244,7 @@ export const caret_arb = (value: string) => `caret-["${value}"]`;
  *
  * @type utility
  */
-export const caret_slate_arbitrary = (value: string) => `caret-slate-["${value}"]`;
+export const caret_slate_arbitrary = (value: string) => `caret-slate-[${value}]`;
 
 
 /**
@@ -3256,7 +3256,7 @@ export const caret_slate_arbitrary = (value: string) => `caret-slate-["${value}"
  *
  * @type utility
  */
-export const caret_slate_arb = (value: string) => `caret-slate-["${value}"]`;
+export const caret_slate_arb = (value: string) => `caret-slate-[${value}]`;
 
 
 /**
@@ -3268,7 +3268,7 @@ export const caret_slate_arb = (value: string) => `caret-slate-["${value}"]`;
  *
  * @type utility
  */
-export const caret_gray_arbitrary = (value: string) => `caret-gray-["${value}"]`;
+export const caret_gray_arbitrary = (value: string) => `caret-gray-[${value}]`;
 
 
 /**
@@ -3280,7 +3280,7 @@ export const caret_gray_arbitrary = (value: string) => `caret-gray-["${value}"]`
  *
  * @type utility
  */
-export const caret_gray_arb = (value: string) => `caret-gray-["${value}"]`;
+export const caret_gray_arb = (value: string) => `caret-gray-[${value}]`;
 
 
 /**
@@ -3292,7 +3292,7 @@ export const caret_gray_arb = (value: string) => `caret-gray-["${value}"]`;
  *
  * @type utility
  */
-export const caret_zinc_arbitrary = (value: string) => `caret-zinc-["${value}"]`;
+export const caret_zinc_arbitrary = (value: string) => `caret-zinc-[${value}]`;
 
 
 /**
@@ -3304,7 +3304,7 @@ export const caret_zinc_arbitrary = (value: string) => `caret-zinc-["${value}"]`
  *
  * @type utility
  */
-export const caret_zinc_arb = (value: string) => `caret-zinc-["${value}"]`;
+export const caret_zinc_arb = (value: string) => `caret-zinc-[${value}]`;
 
 
 /**
@@ -3316,7 +3316,7 @@ export const caret_zinc_arb = (value: string) => `caret-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const caret_neutral_arbitrary = (value: string) => `caret-neutral-["${value}"]`;
+export const caret_neutral_arbitrary = (value: string) => `caret-neutral-[${value}]`;
 
 
 /**
@@ -3328,7 +3328,7 @@ export const caret_neutral_arbitrary = (value: string) => `caret-neutral-["${val
  *
  * @type utility
  */
-export const caret_neutral_arb = (value: string) => `caret-neutral-["${value}"]`;
+export const caret_neutral_arb = (value: string) => `caret-neutral-[${value}]`;
 
 
 /**
@@ -3340,7 +3340,7 @@ export const caret_neutral_arb = (value: string) => `caret-neutral-["${value}"]`
  *
  * @type utility
  */
-export const caret_stone_arbitrary = (value: string) => `caret-stone-["${value}"]`;
+export const caret_stone_arbitrary = (value: string) => `caret-stone-[${value}]`;
 
 
 /**
@@ -3352,7 +3352,7 @@ export const caret_stone_arbitrary = (value: string) => `caret-stone-["${value}"
  *
  * @type utility
  */
-export const caret_stone_arb = (value: string) => `caret-stone-["${value}"]`;
+export const caret_stone_arb = (value: string) => `caret-stone-[${value}]`;
 
 
 /**
@@ -3364,7 +3364,7 @@ export const caret_stone_arb = (value: string) => `caret-stone-["${value}"]`;
  *
  * @type utility
  */
-export const caret_red_arbitrary = (value: string) => `caret-red-["${value}"]`;
+export const caret_red_arbitrary = (value: string) => `caret-red-[${value}]`;
 
 
 /**
@@ -3376,7 +3376,7 @@ export const caret_red_arbitrary = (value: string) => `caret-red-["${value}"]`;
  *
  * @type utility
  */
-export const caret_red_arb = (value: string) => `caret-red-["${value}"]`;
+export const caret_red_arb = (value: string) => `caret-red-[${value}]`;
 
 
 /**
@@ -3388,7 +3388,7 @@ export const caret_red_arb = (value: string) => `caret-red-["${value}"]`;
  *
  * @type utility
  */
-export const caret_orange_arbitrary = (value: string) => `caret-orange-["${value}"]`;
+export const caret_orange_arbitrary = (value: string) => `caret-orange-[${value}]`;
 
 
 /**
@@ -3400,7 +3400,7 @@ export const caret_orange_arbitrary = (value: string) => `caret-orange-["${value
  *
  * @type utility
  */
-export const caret_orange_arb = (value: string) => `caret-orange-["${value}"]`;
+export const caret_orange_arb = (value: string) => `caret-orange-[${value}]`;
 
 
 /**
@@ -3412,7 +3412,7 @@ export const caret_orange_arb = (value: string) => `caret-orange-["${value}"]`;
  *
  * @type utility
  */
-export const caret_amber_arbitrary = (value: string) => `caret-amber-["${value}"]`;
+export const caret_amber_arbitrary = (value: string) => `caret-amber-[${value}]`;
 
 
 /**
@@ -3424,7 +3424,7 @@ export const caret_amber_arbitrary = (value: string) => `caret-amber-["${value}"
  *
  * @type utility
  */
-export const caret_amber_arb = (value: string) => `caret-amber-["${value}"]`;
+export const caret_amber_arb = (value: string) => `caret-amber-[${value}]`;
 
 
 /**
@@ -3436,7 +3436,7 @@ export const caret_amber_arb = (value: string) => `caret-amber-["${value}"]`;
  *
  * @type utility
  */
-export const caret_yellow_arbitrary = (value: string) => `caret-yellow-["${value}"]`;
+export const caret_yellow_arbitrary = (value: string) => `caret-yellow-[${value}]`;
 
 
 /**
@@ -3448,7 +3448,7 @@ export const caret_yellow_arbitrary = (value: string) => `caret-yellow-["${value
  *
  * @type utility
  */
-export const caret_yellow_arb = (value: string) => `caret-yellow-["${value}"]`;
+export const caret_yellow_arb = (value: string) => `caret-yellow-[${value}]`;
 
 
 /**
@@ -3460,7 +3460,7 @@ export const caret_yellow_arb = (value: string) => `caret-yellow-["${value}"]`;
  *
  * @type utility
  */
-export const caret_lime_arbitrary = (value: string) => `caret-lime-["${value}"]`;
+export const caret_lime_arbitrary = (value: string) => `caret-lime-[${value}]`;
 
 
 /**
@@ -3472,7 +3472,7 @@ export const caret_lime_arbitrary = (value: string) => `caret-lime-["${value}"]`
  *
  * @type utility
  */
-export const caret_lime_arb = (value: string) => `caret-lime-["${value}"]`;
+export const caret_lime_arb = (value: string) => `caret-lime-[${value}]`;
 
 
 /**
@@ -3484,7 +3484,7 @@ export const caret_lime_arb = (value: string) => `caret-lime-["${value}"]`;
  *
  * @type utility
  */
-export const caret_green_arbitrary = (value: string) => `caret-green-["${value}"]`;
+export const caret_green_arbitrary = (value: string) => `caret-green-[${value}]`;
 
 
 /**
@@ -3496,7 +3496,7 @@ export const caret_green_arbitrary = (value: string) => `caret-green-["${value}"
  *
  * @type utility
  */
-export const caret_green_arb = (value: string) => `caret-green-["${value}"]`;
+export const caret_green_arb = (value: string) => `caret-green-[${value}]`;
 
 
 /**
@@ -3508,7 +3508,7 @@ export const caret_green_arb = (value: string) => `caret-green-["${value}"]`;
  *
  * @type utility
  */
-export const caret_emerald_arbitrary = (value: string) => `caret-emerald-["${value}"]`;
+export const caret_emerald_arbitrary = (value: string) => `caret-emerald-[${value}]`;
 
 
 /**
@@ -3520,7 +3520,7 @@ export const caret_emerald_arbitrary = (value: string) => `caret-emerald-["${val
  *
  * @type utility
  */
-export const caret_emerald_arb = (value: string) => `caret-emerald-["${value}"]`;
+export const caret_emerald_arb = (value: string) => `caret-emerald-[${value}]`;
 
 
 /**
@@ -3532,7 +3532,7 @@ export const caret_emerald_arb = (value: string) => `caret-emerald-["${value}"]`
  *
  * @type utility
  */
-export const caret_teal_arbitrary = (value: string) => `caret-teal-["${value}"]`;
+export const caret_teal_arbitrary = (value: string) => `caret-teal-[${value}]`;
 
 
 /**
@@ -3544,7 +3544,7 @@ export const caret_teal_arbitrary = (value: string) => `caret-teal-["${value}"]`
  *
  * @type utility
  */
-export const caret_teal_arb = (value: string) => `caret-teal-["${value}"]`;
+export const caret_teal_arb = (value: string) => `caret-teal-[${value}]`;
 
 
 /**
@@ -3556,7 +3556,7 @@ export const caret_teal_arb = (value: string) => `caret-teal-["${value}"]`;
  *
  * @type utility
  */
-export const caret_cyan_arbitrary = (value: string) => `caret-cyan-["${value}"]`;
+export const caret_cyan_arbitrary = (value: string) => `caret-cyan-[${value}]`;
 
 
 /**
@@ -3568,7 +3568,7 @@ export const caret_cyan_arbitrary = (value: string) => `caret-cyan-["${value}"]`
  *
  * @type utility
  */
-export const caret_cyan_arb = (value: string) => `caret-cyan-["${value}"]`;
+export const caret_cyan_arb = (value: string) => `caret-cyan-[${value}]`;
 
 
 /**
@@ -3580,7 +3580,7 @@ export const caret_cyan_arb = (value: string) => `caret-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const caret_sky_arbitrary = (value: string) => `caret-sky-["${value}"]`;
+export const caret_sky_arbitrary = (value: string) => `caret-sky-[${value}]`;
 
 
 /**
@@ -3592,7 +3592,7 @@ export const caret_sky_arbitrary = (value: string) => `caret-sky-["${value}"]`;
  *
  * @type utility
  */
-export const caret_sky_arb = (value: string) => `caret-sky-["${value}"]`;
+export const caret_sky_arb = (value: string) => `caret-sky-[${value}]`;
 
 
 /**
@@ -3604,7 +3604,7 @@ export const caret_sky_arb = (value: string) => `caret-sky-["${value}"]`;
  *
  * @type utility
  */
-export const caret_blue_arbitrary = (value: string) => `caret-blue-["${value}"]`;
+export const caret_blue_arbitrary = (value: string) => `caret-blue-[${value}]`;
 
 
 /**
@@ -3616,7 +3616,7 @@ export const caret_blue_arbitrary = (value: string) => `caret-blue-["${value}"]`
  *
  * @type utility
  */
-export const caret_blue_arb = (value: string) => `caret-blue-["${value}"]`;
+export const caret_blue_arb = (value: string) => `caret-blue-[${value}]`;
 
 
 /**
@@ -3628,7 +3628,7 @@ export const caret_blue_arb = (value: string) => `caret-blue-["${value}"]`;
  *
  * @type utility
  */
-export const caret_indigo_arbitrary = (value: string) => `caret-indigo-["${value}"]`;
+export const caret_indigo_arbitrary = (value: string) => `caret-indigo-[${value}]`;
 
 
 /**
@@ -3640,7 +3640,7 @@ export const caret_indigo_arbitrary = (value: string) => `caret-indigo-["${value
  *
  * @type utility
  */
-export const caret_indigo_arb = (value: string) => `caret-indigo-["${value}"]`;
+export const caret_indigo_arb = (value: string) => `caret-indigo-[${value}]`;
 
 
 /**
@@ -3652,7 +3652,7 @@ export const caret_indigo_arb = (value: string) => `caret-indigo-["${value}"]`;
  *
  * @type utility
  */
-export const caret_violet_arbitrary = (value: string) => `caret-violet-["${value}"]`;
+export const caret_violet_arbitrary = (value: string) => `caret-violet-[${value}]`;
 
 
 /**
@@ -3664,7 +3664,7 @@ export const caret_violet_arbitrary = (value: string) => `caret-violet-["${value
  *
  * @type utility
  */
-export const caret_violet_arb = (value: string) => `caret-violet-["${value}"]`;
+export const caret_violet_arb = (value: string) => `caret-violet-[${value}]`;
 
 
 /**
@@ -3676,7 +3676,7 @@ export const caret_violet_arb = (value: string) => `caret-violet-["${value}"]`;
  *
  * @type utility
  */
-export const caret_purple_arbitrary = (value: string) => `caret-purple-["${value}"]`;
+export const caret_purple_arbitrary = (value: string) => `caret-purple-[${value}]`;
 
 
 /**
@@ -3688,7 +3688,7 @@ export const caret_purple_arbitrary = (value: string) => `caret-purple-["${value
  *
  * @type utility
  */
-export const caret_purple_arb = (value: string) => `caret-purple-["${value}"]`;
+export const caret_purple_arb = (value: string) => `caret-purple-[${value}]`;
 
 
 /**
@@ -3700,7 +3700,7 @@ export const caret_purple_arb = (value: string) => `caret-purple-["${value}"]`;
  *
  * @type utility
  */
-export const caret_fuchsia_arbitrary = (value: string) => `caret-fuchsia-["${value}"]`;
+export const caret_fuchsia_arbitrary = (value: string) => `caret-fuchsia-[${value}]`;
 
 
 /**
@@ -3712,7 +3712,7 @@ export const caret_fuchsia_arbitrary = (value: string) => `caret-fuchsia-["${val
  *
  * @type utility
  */
-export const caret_fuchsia_arb = (value: string) => `caret-fuchsia-["${value}"]`;
+export const caret_fuchsia_arb = (value: string) => `caret-fuchsia-[${value}]`;
 
 
 /**
@@ -3724,7 +3724,7 @@ export const caret_fuchsia_arb = (value: string) => `caret-fuchsia-["${value}"]`
  *
  * @type utility
  */
-export const caret_pink_arbitrary = (value: string) => `caret-pink-["${value}"]`;
+export const caret_pink_arbitrary = (value: string) => `caret-pink-[${value}]`;
 
 
 /**
@@ -3736,7 +3736,7 @@ export const caret_pink_arbitrary = (value: string) => `caret-pink-["${value}"]`
  *
  * @type utility
  */
-export const caret_pink_arb = (value: string) => `caret-pink-["${value}"]`;
+export const caret_pink_arb = (value: string) => `caret-pink-[${value}]`;
 
 
 /**
@@ -3748,7 +3748,7 @@ export const caret_pink_arb = (value: string) => `caret-pink-["${value}"]`;
  *
  * @type utility
  */
-export const caret_rose_arbitrary = (value: string) => `caret-rose-["${value}"]`;
+export const caret_rose_arbitrary = (value: string) => `caret-rose-[${value}]`;
 
 
 /**
@@ -3760,7 +3760,7 @@ export const caret_rose_arbitrary = (value: string) => `caret-rose-["${value}"]`
  *
  * @type utility
  */
-export const caret_rose_arb = (value: string) => `caret-rose-["${value}"]`;
+export const caret_rose_arb = (value: string) => `caret-rose-[${value}]`;
 
 
 /**

@@ -35,7 +35,7 @@ export const backdrop_sepia = "backdrop-sepia";
  *
  * @type utility
  */
-export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-["${value}"]`;
+export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const backdrop_sepia_arbitrary = (value: string) => `backdrop-sepia-["${v
  *
  * @type utility
  */
-export const backdrop_sepia_arb = (value: string) => `backdrop-sepia-["${value}"]`;
+export const backdrop_sepia_arb = (value: string) => `backdrop-sepia-[${value}]`;
 
 
 /**

@@ -113,7 +113,7 @@ export const blur_3xl = "blur-3xl";
  *
  * @type utility
  */
-export const blur_arbitrary = (value: string) => `blur-["${value}"]`;
+export const blur_arbitrary = (value: string) => `blur-[${value}]`;
 
 
 /**
@@ -125,7 +125,7 @@ export const blur_arbitrary = (value: string) => `blur-["${value}"]`;
  *
  * @type utility
  */
-export const blur_arb = (value: string) => `blur-["${value}"]`;
+export const blur_arb = (value: string) => `blur-[${value}]`;
 
 
 /**

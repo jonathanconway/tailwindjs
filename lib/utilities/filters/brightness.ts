@@ -152,7 +152,7 @@ export const brightness_200 = "brightness-200";
  *
  * @type utility
  */
-export const brightness_arbitrary = (value: string) => `brightness-["${value}"]`;
+export const brightness_arbitrary = (value: string) => `brightness-[${value}]`;
 
 
 /**
@@ -164,7 +164,7 @@ export const brightness_arbitrary = (value: string) => `brightness-["${value}"]`
  *
  * @type utility
  */
-export const brightness_arb = (value: string) => `brightness-["${value}"]`;
+export const brightness_arb = (value: string) => `brightness-[${value}]`;
 
 
 /**

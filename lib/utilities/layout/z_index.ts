@@ -100,7 +100,7 @@ export const z_auto = "z-auto";
  *
  * @type utility
  */
-export const z_arbitrary = (value: string) => `z-["${value}"]`;
+export const z_arbitrary = (value: string) => `z-[${value}]`;
 
 
 /**
@@ -112,7 +112,7 @@ export const z_arbitrary = (value: string) => `z-["${value}"]`;
  *
  * @type utility
  */
-export const z_arb = (value: string) => `z-["${value}"]`;
+export const z_arb = (value: string) => `z-[${value}]`;
 
 
 /**

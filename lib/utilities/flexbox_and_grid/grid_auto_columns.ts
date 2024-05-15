@@ -61,7 +61,7 @@ export const auto_cols_fr = "auto-cols-fr";
  *
  * @type utility
  */
-export const auto_cols_arbitrary = (value: string) => `auto-cols-["${value}"]`;
+export const auto_cols_arbitrary = (value: string) => `auto-cols-[${value}]`;
 
 
 /**
@@ -73,7 +73,7 @@ export const auto_cols_arbitrary = (value: string) => `auto-cols-["${value}"]`;
  *
  * @type utility
  */
-export const auto_cols_arb = (value: string) => `auto-cols-["${value}"]`;
+export const auto_cols_arb = (value: string) => `auto-cols-[${value}]`;
 
 
 /**

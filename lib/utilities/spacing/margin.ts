@@ -4293,7 +4293,7 @@ export const ml_auto = "ml-auto";
  *
  * @type utility
  */
-export const m_arbitrary = (value: string) => `m-["${value}"]`;
+export const m_arbitrary = (value: string) => `m-[${value}]`;
 
 
 /**
@@ -4305,7 +4305,7 @@ export const m_arbitrary = (value: string) => `m-["${value}"]`;
  *
  * @type utility
  */
-export const m_arb = (value: string) => `m-["${value}"]`;
+export const m_arb = (value: string) => `m-[${value}]`;
 
 
 /**
@@ -4317,7 +4317,7 @@ export const m_arb = (value: string) => `m-["${value}"]`;
  *
  * @type utility
  */
-export const mx_arbitrary = (value: string) => `mx-["${value}"]`;
+export const mx_arbitrary = (value: string) => `mx-[${value}]`;
 
 
 /**
@@ -4329,7 +4329,7 @@ export const mx_arbitrary = (value: string) => `mx-["${value}"]`;
  *
  * @type utility
  */
-export const mx_arb = (value: string) => `mx-["${value}"]`;
+export const mx_arb = (value: string) => `mx-[${value}]`;
 
 
 /**
@@ -4341,7 +4341,7 @@ export const mx_arb = (value: string) => `mx-["${value}"]`;
  *
  * @type utility
  */
-export const my_arbitrary = (value: string) => `my-["${value}"]`;
+export const my_arbitrary = (value: string) => `my-[${value}]`;
 
 
 /**
@@ -4353,7 +4353,7 @@ export const my_arbitrary = (value: string) => `my-["${value}"]`;
  *
  * @type utility
  */
-export const my_arb = (value: string) => `my-["${value}"]`;
+export const my_arb = (value: string) => `my-[${value}]`;
 
 
 /**
@@ -4365,7 +4365,7 @@ export const my_arb = (value: string) => `my-["${value}"]`;
  *
  * @type utility
  */
-export const ms_arbitrary = (value: string) => `ms-["${value}"]`;
+export const ms_arbitrary = (value: string) => `ms-[${value}]`;
 
 
 /**
@@ -4377,7 +4377,7 @@ export const ms_arbitrary = (value: string) => `ms-["${value}"]`;
  *
  * @type utility
  */
-export const ms_arb = (value: string) => `ms-["${value}"]`;
+export const ms_arb = (value: string) => `ms-[${value}]`;
 
 
 /**
@@ -4389,7 +4389,7 @@ export const ms_arb = (value: string) => `ms-["${value}"]`;
  *
  * @type utility
  */
-export const me_arbitrary = (value: string) => `me-["${value}"]`;
+export const me_arbitrary = (value: string) => `me-[${value}]`;
 
 
 /**
@@ -4401,7 +4401,7 @@ export const me_arbitrary = (value: string) => `me-["${value}"]`;
  *
  * @type utility
  */
-export const me_arb = (value: string) => `me-["${value}"]`;
+export const me_arb = (value: string) => `me-[${value}]`;
 
 
 /**
@@ -4413,7 +4413,7 @@ export const me_arb = (value: string) => `me-["${value}"]`;
  *
  * @type utility
  */
-export const mt_arbitrary = (value: string) => `mt-["${value}"]`;
+export const mt_arbitrary = (value: string) => `mt-[${value}]`;
 
 
 /**
@@ -4425,7 +4425,7 @@ export const mt_arbitrary = (value: string) => `mt-["${value}"]`;
  *
  * @type utility
  */
-export const mt_arb = (value: string) => `mt-["${value}"]`;
+export const mt_arb = (value: string) => `mt-[${value}]`;
 
 
 /**
@@ -4437,7 +4437,7 @@ export const mt_arb = (value: string) => `mt-["${value}"]`;
  *
  * @type utility
  */
-export const mr_arbitrary = (value: string) => `mr-["${value}"]`;
+export const mr_arbitrary = (value: string) => `mr-[${value}]`;
 
 
 /**
@@ -4449,7 +4449,7 @@ export const mr_arbitrary = (value: string) => `mr-["${value}"]`;
  *
  * @type utility
  */
-export const mr_arb = (value: string) => `mr-["${value}"]`;
+export const mr_arb = (value: string) => `mr-[${value}]`;
 
 
 /**
@@ -4461,7 +4461,7 @@ export const mr_arb = (value: string) => `mr-["${value}"]`;
  *
  * @type utility
  */
-export const mb_arbitrary = (value: string) => `mb-["${value}"]`;
+export const mb_arbitrary = (value: string) => `mb-[${value}]`;
 
 
 /**
@@ -4473,7 +4473,7 @@ export const mb_arbitrary = (value: string) => `mb-["${value}"]`;
  *
  * @type utility
  */
-export const mb_arb = (value: string) => `mb-["${value}"]`;
+export const mb_arb = (value: string) => `mb-[${value}]`;
 
 
 /**
@@ -4485,7 +4485,7 @@ export const mb_arb = (value: string) => `mb-["${value}"]`;
  *
  * @type utility
  */
-export const ml_arbitrary = (value: string) => `ml-["${value}"]`;
+export const ml_arbitrary = (value: string) => `ml-[${value}]`;
 
 
 /**
@@ -4497,7 +4497,7 @@ export const ml_arbitrary = (value: string) => `ml-["${value}"]`;
  *
  * @type utility
  */
-export const ml_arb = (value: string) => `ml-["${value}"]`;
+export const ml_arb = (value: string) => `ml-[${value}]`;
 
 
 /**

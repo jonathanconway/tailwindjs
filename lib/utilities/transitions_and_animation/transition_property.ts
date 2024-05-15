@@ -112,7 +112,7 @@ export const transition_transform = "transition-transform";
  *
  * @type utility
  */
-export const transition_arbitrary = (value: string) => `transition-["${value}"]`;
+export const transition_arbitrary = (value: string) => `transition-[${value}]`;
 
 
 /**
@@ -124,7 +124,7 @@ export const transition_arbitrary = (value: string) => `transition-["${value}"]`
  *
  * @type utility
  */
-export const transition_arb = (value: string) => `transition-["${value}"]`;
+export const transition_arb = (value: string) => `transition-[${value}]`;
 
 
 /**

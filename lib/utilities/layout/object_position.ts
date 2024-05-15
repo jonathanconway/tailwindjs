@@ -126,7 +126,7 @@ export const object_top = "object-top";
  *
  * @type utility
  */
-export const object_arbitrary = (value: string) => `object-["${value}"]`;
+export const object_arbitrary = (value: string) => `object-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const object_arbitrary = (value: string) => `object-["${value}"]`;
  *
  * @type utility
  */
-export const object_arb = (value: string) => `object-["${value}"]`;
+export const object_arb = (value: string) => `object-[${value}]`;
 
 
 /**
@@ -150,7 +150,7 @@ export const object_arb = (value: string) => `object-["${value}"]`;
  *
  * @type utility
  */
-export const object_left_arbitrary = (value: string) => `object-left-["${value}"]`;
+export const object_left_arbitrary = (value: string) => `object-left-[${value}]`;
 
 
 /**
@@ -162,7 +162,7 @@ export const object_left_arbitrary = (value: string) => `object-left-["${value}"
  *
  * @type utility
  */
-export const object_left_arb = (value: string) => `object-left-["${value}"]`;
+export const object_left_arb = (value: string) => `object-left-[${value}]`;
 
 
 /**
@@ -174,7 +174,7 @@ export const object_left_arb = (value: string) => `object-left-["${value}"]`;
  *
  * @type utility
  */
-export const object_right_arbitrary = (value: string) => `object-right-["${value}"]`;
+export const object_right_arbitrary = (value: string) => `object-right-[${value}]`;
 
 
 /**
@@ -186,7 +186,7 @@ export const object_right_arbitrary = (value: string) => `object-right-["${value
  *
  * @type utility
  */
-export const object_right_arb = (value: string) => `object-right-["${value}"]`;
+export const object_right_arb = (value: string) => `object-right-[${value}]`;
 
 
 /**

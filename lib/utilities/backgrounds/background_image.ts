@@ -126,7 +126,7 @@ export const bg_gradient_to_tl = "bg-gradient-to-tl";
  *
  * @type utility
  */
-export const bg_gradient_to_arbitrary = (value: string) => `bg-gradient-to-["${value}"]`;
+export const bg_gradient_to_arbitrary = (value: string) => `bg-gradient-to-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const bg_gradient_to_arbitrary = (value: string) => `bg-gradient-to-["${v
  *
  * @type utility
  */
-export const bg_gradient_to_arb = (value: string) => `bg-gradient-to-["${value}"]`;
+export const bg_gradient_to_arb = (value: string) => `bg-gradient-to-[${value}]`;
 
 
 /**

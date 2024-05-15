@@ -165,7 +165,7 @@ export const skew_y_12 = "skew-y-12";
  *
  * @type utility
  */
-export const skew_x_arbitrary = (value: string) => `skew-x-["${value}"]`;
+export const skew_x_arbitrary = (value: string) => `skew-x-[${value}]`;
 
 
 /**
@@ -177,7 +177,7 @@ export const skew_x_arbitrary = (value: string) => `skew-x-["${value}"]`;
  *
  * @type utility
  */
-export const skew_x_arb = (value: string) => `skew-x-["${value}"]`;
+export const skew_x_arb = (value: string) => `skew-x-[${value}]`;
 
 
 /**
@@ -189,7 +189,7 @@ export const skew_x_arb = (value: string) => `skew-x-["${value}"]`;
  *
  * @type utility
  */
-export const skew_y_arbitrary = (value: string) => `skew-y-["${value}"]`;
+export const skew_y_arbitrary = (value: string) => `skew-y-[${value}]`;
 
 
 /**
@@ -201,7 +201,7 @@ export const skew_y_arbitrary = (value: string) => `skew-y-["${value}"]`;
  *
  * @type utility
  */
-export const skew_y_arb = (value: string) => `skew-y-["${value}"]`;
+export const skew_y_arb = (value: string) => `skew-y-[${value}]`;
 
 
 /**

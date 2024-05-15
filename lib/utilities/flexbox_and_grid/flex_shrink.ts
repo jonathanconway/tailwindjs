@@ -35,7 +35,7 @@ export const shrink_0 = "shrink-0";
  *
  * @type utility
  */
-export const shrink_arbitrary = (value: string) => `shrink-["${value}"]`;
+export const shrink_arbitrary = (value: string) => `shrink-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const shrink_arbitrary = (value: string) => `shrink-["${value}"]`;
  *
  * @type utility
  */
-export const shrink_arb = (value: string) => `shrink-["${value}"]`;
+export const shrink_arb = (value: string) => `shrink-[${value}]`;
 
 
 /**

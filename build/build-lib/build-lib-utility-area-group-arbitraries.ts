@@ -12,7 +12,7 @@ export function genLibUtilityGroupArbitraryCode({
   tailwindCssName,
   tailwindCssUrl,
 }: UtilityArbitrary): string {
-  const templateString = tailwindCssName.replaceAll("[…]", '["${value}"]');
+  const templateString = tailwindCssName.replaceAll("[…]", "[${value}]");
 
   return ARBITRARY_FUNCTION_NAME_SUFFIX_VARIANTS.map(
     (arbitraryFunctionNameSuffix) => `
@@ -21,6 +21,8 @@ export function genLibUtilityGroupArbitraryCode({
  *
  * ${prepareDescription(description)}
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see ${tailwindCssUrl}
  *
  * @type utility

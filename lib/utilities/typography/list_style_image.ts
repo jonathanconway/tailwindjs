@@ -22,7 +22,7 @@ export const list_image_none = "list-image-none";
  *
  * @type utility
  */
-export const list_image_arbitrary = (value: string) => `list-image-["${value}"]`;
+export const list_image_arbitrary = (value: string) => `list-image-[${value}]`;
 
 
 /**
@@ -34,7 +34,7 @@ export const list_image_arbitrary = (value: string) => `list-image-["${value}"]`
  *
  * @type utility
  */
-export const list_image_arb = (value: string) => `list-image-["${value}"]`;
+export const list_image_arb = (value: string) => `list-image-[${value}]`;
 
 
 /**

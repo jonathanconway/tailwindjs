@@ -100,7 +100,7 @@ export const drop_shadow_none = "drop-shadow-none";
  *
  * @type utility
  */
-export const drop_shadow_arbitrary = (value: string) => `drop-shadow-["${value}"]`;
+export const drop_shadow_arbitrary = (value: string) => `drop-shadow-[${value}]`;
 
 
 /**
@@ -112,7 +112,7 @@ export const drop_shadow_arbitrary = (value: string) => `drop-shadow-["${value}"
  *
  * @type utility
  */
-export const drop_shadow_arb = (value: string) => `drop-shadow-["${value}"]`;
+export const drop_shadow_arb = (value: string) => `drop-shadow-[${value}]`;
 
 
 /**
@@ -124,7 +124,7 @@ export const drop_shadow_arb = (value: string) => `drop-shadow-["${value}"]`;
  *
  * @type utility
  */
-export const drop_arbitrary = (value: string) => `drop-["${value}"]`;
+export const drop_arbitrary = (value: string) => `drop-[${value}]`;
 
 
 /**
@@ -136,7 +136,7 @@ export const drop_arbitrary = (value: string) => `drop-["${value}"]`;
  *
  * @type utility
  */
-export const drop_arb = (value: string) => `drop-["${value}"]`;
+export const drop_arb = (value: string) => `drop-[${value}]`;
 
 
 /**

@@ -11202,7 +11202,7 @@ export const to_100_pc = "to-100%";
  *
  * @type utility
  */
-export const from_arbitrary = (value: string) => `from-["${value}"]`;
+export const from_arbitrary = (value: string) => `from-[${value}]`;
 
 
 /**
@@ -11214,7 +11214,7 @@ export const from_arbitrary = (value: string) => `from-["${value}"]`;
  *
  * @type utility
  */
-export const from_arb = (value: string) => `from-["${value}"]`;
+export const from_arb = (value: string) => `from-[${value}]`;
 
 
 /**
@@ -11226,7 +11226,7 @@ export const from_arb = (value: string) => `from-["${value}"]`;
  *
  * @type utility
  */
-export const from_slate_arbitrary = (value: string) => `from-slate-["${value}"]`;
+export const from_slate_arbitrary = (value: string) => `from-slate-[${value}]`;
 
 
 /**
@@ -11238,7 +11238,7 @@ export const from_slate_arbitrary = (value: string) => `from-slate-["${value}"]`
  *
  * @type utility
  */
-export const from_slate_arb = (value: string) => `from-slate-["${value}"]`;
+export const from_slate_arb = (value: string) => `from-slate-[${value}]`;
 
 
 /**
@@ -11250,7 +11250,7 @@ export const from_slate_arb = (value: string) => `from-slate-["${value}"]`;
  *
  * @type utility
  */
-export const from_gray_arbitrary = (value: string) => `from-gray-["${value}"]`;
+export const from_gray_arbitrary = (value: string) => `from-gray-[${value}]`;
 
 
 /**
@@ -11262,7 +11262,7 @@ export const from_gray_arbitrary = (value: string) => `from-gray-["${value}"]`;
  *
  * @type utility
  */
-export const from_gray_arb = (value: string) => `from-gray-["${value}"]`;
+export const from_gray_arb = (value: string) => `from-gray-[${value}]`;
 
 
 /**
@@ -11274,7 +11274,7 @@ export const from_gray_arb = (value: string) => `from-gray-["${value}"]`;
  *
  * @type utility
  */
-export const from_zinc_arbitrary = (value: string) => `from-zinc-["${value}"]`;
+export const from_zinc_arbitrary = (value: string) => `from-zinc-[${value}]`;
 
 
 /**
@@ -11286,7 +11286,7 @@ export const from_zinc_arbitrary = (value: string) => `from-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const from_zinc_arb = (value: string) => `from-zinc-["${value}"]`;
+export const from_zinc_arb = (value: string) => `from-zinc-[${value}]`;
 
 
 /**
@@ -11298,7 +11298,7 @@ export const from_zinc_arb = (value: string) => `from-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const from_neutral_arbitrary = (value: string) => `from-neutral-["${value}"]`;
+export const from_neutral_arbitrary = (value: string) => `from-neutral-[${value}]`;
 
 
 /**
@@ -11310,7 +11310,7 @@ export const from_neutral_arbitrary = (value: string) => `from-neutral-["${value
  *
  * @type utility
  */
-export const from_neutral_arb = (value: string) => `from-neutral-["${value}"]`;
+export const from_neutral_arb = (value: string) => `from-neutral-[${value}]`;
 
 
 /**
@@ -11322,7 +11322,7 @@ export const from_neutral_arb = (value: string) => `from-neutral-["${value}"]`;
  *
  * @type utility
  */
-export const from_stone_arbitrary = (value: string) => `from-stone-["${value}"]`;
+export const from_stone_arbitrary = (value: string) => `from-stone-[${value}]`;
 
 
 /**
@@ -11334,7 +11334,7 @@ export const from_stone_arbitrary = (value: string) => `from-stone-["${value}"]`
  *
  * @type utility
  */
-export const from_stone_arb = (value: string) => `from-stone-["${value}"]`;
+export const from_stone_arb = (value: string) => `from-stone-[${value}]`;
 
 
 /**
@@ -11346,7 +11346,7 @@ export const from_stone_arb = (value: string) => `from-stone-["${value}"]`;
  *
  * @type utility
  */
-export const from_red_arbitrary = (value: string) => `from-red-["${value}"]`;
+export const from_red_arbitrary = (value: string) => `from-red-[${value}]`;
 
 
 /**
@@ -11358,7 +11358,7 @@ export const from_red_arbitrary = (value: string) => `from-red-["${value}"]`;
  *
  * @type utility
  */
-export const from_red_arb = (value: string) => `from-red-["${value}"]`;
+export const from_red_arb = (value: string) => `from-red-[${value}]`;
 
 
 /**
@@ -11370,7 +11370,7 @@ export const from_red_arb = (value: string) => `from-red-["${value}"]`;
  *
  * @type utility
  */
-export const from_orange_arbitrary = (value: string) => `from-orange-["${value}"]`;
+export const from_orange_arbitrary = (value: string) => `from-orange-[${value}]`;
 
 
 /**
@@ -11382,7 +11382,7 @@ export const from_orange_arbitrary = (value: string) => `from-orange-["${value}"
  *
  * @type utility
  */
-export const from_orange_arb = (value: string) => `from-orange-["${value}"]`;
+export const from_orange_arb = (value: string) => `from-orange-[${value}]`;
 
 
 /**
@@ -11394,7 +11394,7 @@ export const from_orange_arb = (value: string) => `from-orange-["${value}"]`;
  *
  * @type utility
  */
-export const from_amber_arbitrary = (value: string) => `from-amber-["${value}"]`;
+export const from_amber_arbitrary = (value: string) => `from-amber-[${value}]`;
 
 
 /**
@@ -11406,7 +11406,7 @@ export const from_amber_arbitrary = (value: string) => `from-amber-["${value}"]`
  *
  * @type utility
  */
-export const from_amber_arb = (value: string) => `from-amber-["${value}"]`;
+export const from_amber_arb = (value: string) => `from-amber-[${value}]`;
 
 
 /**
@@ -11418,7 +11418,7 @@ export const from_amber_arb = (value: string) => `from-amber-["${value}"]`;
  *
  * @type utility
  */
-export const from_yellow_arbitrary = (value: string) => `from-yellow-["${value}"]`;
+export const from_yellow_arbitrary = (value: string) => `from-yellow-[${value}]`;
 
 
 /**
@@ -11430,7 +11430,7 @@ export const from_yellow_arbitrary = (value: string) => `from-yellow-["${value}"
  *
  * @type utility
  */
-export const from_yellow_arb = (value: string) => `from-yellow-["${value}"]`;
+export const from_yellow_arb = (value: string) => `from-yellow-[${value}]`;
 
 
 /**
@@ -11442,7 +11442,7 @@ export const from_yellow_arb = (value: string) => `from-yellow-["${value}"]`;
  *
  * @type utility
  */
-export const from_lime_arbitrary = (value: string) => `from-lime-["${value}"]`;
+export const from_lime_arbitrary = (value: string) => `from-lime-[${value}]`;
 
 
 /**
@@ -11454,7 +11454,7 @@ export const from_lime_arbitrary = (value: string) => `from-lime-["${value}"]`;
  *
  * @type utility
  */
-export const from_lime_arb = (value: string) => `from-lime-["${value}"]`;
+export const from_lime_arb = (value: string) => `from-lime-[${value}]`;
 
 
 /**
@@ -11466,7 +11466,7 @@ export const from_lime_arb = (value: string) => `from-lime-["${value}"]`;
  *
  * @type utility
  */
-export const from_green_arbitrary = (value: string) => `from-green-["${value}"]`;
+export const from_green_arbitrary = (value: string) => `from-green-[${value}]`;
 
 
 /**
@@ -11478,7 +11478,7 @@ export const from_green_arbitrary = (value: string) => `from-green-["${value}"]`
  *
  * @type utility
  */
-export const from_green_arb = (value: string) => `from-green-["${value}"]`;
+export const from_green_arb = (value: string) => `from-green-[${value}]`;
 
 
 /**
@@ -11490,7 +11490,7 @@ export const from_green_arb = (value: string) => `from-green-["${value}"]`;
  *
  * @type utility
  */
-export const from_emerald_arbitrary = (value: string) => `from-emerald-["${value}"]`;
+export const from_emerald_arbitrary = (value: string) => `from-emerald-[${value}]`;
 
 
 /**
@@ -11502,7 +11502,7 @@ export const from_emerald_arbitrary = (value: string) => `from-emerald-["${value
  *
  * @type utility
  */
-export const from_emerald_arb = (value: string) => `from-emerald-["${value}"]`;
+export const from_emerald_arb = (value: string) => `from-emerald-[${value}]`;
 
 
 /**
@@ -11514,7 +11514,7 @@ export const from_emerald_arb = (value: string) => `from-emerald-["${value}"]`;
  *
  * @type utility
  */
-export const from_teal_arbitrary = (value: string) => `from-teal-["${value}"]`;
+export const from_teal_arbitrary = (value: string) => `from-teal-[${value}]`;
 
 
 /**
@@ -11526,7 +11526,7 @@ export const from_teal_arbitrary = (value: string) => `from-teal-["${value}"]`;
  *
  * @type utility
  */
-export const from_teal_arb = (value: string) => `from-teal-["${value}"]`;
+export const from_teal_arb = (value: string) => `from-teal-[${value}]`;
 
 
 /**
@@ -11538,7 +11538,7 @@ export const from_teal_arb = (value: string) => `from-teal-["${value}"]`;
  *
  * @type utility
  */
-export const from_cyan_arbitrary = (value: string) => `from-cyan-["${value}"]`;
+export const from_cyan_arbitrary = (value: string) => `from-cyan-[${value}]`;
 
 
 /**
@@ -11550,7 +11550,7 @@ export const from_cyan_arbitrary = (value: string) => `from-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const from_cyan_arb = (value: string) => `from-cyan-["${value}"]`;
+export const from_cyan_arb = (value: string) => `from-cyan-[${value}]`;
 
 
 /**
@@ -11562,7 +11562,7 @@ export const from_cyan_arb = (value: string) => `from-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const from_sky_arbitrary = (value: string) => `from-sky-["${value}"]`;
+export const from_sky_arbitrary = (value: string) => `from-sky-[${value}]`;
 
 
 /**
@@ -11574,7 +11574,7 @@ export const from_sky_arbitrary = (value: string) => `from-sky-["${value}"]`;
  *
  * @type utility
  */
-export const from_sky_arb = (value: string) => `from-sky-["${value}"]`;
+export const from_sky_arb = (value: string) => `from-sky-[${value}]`;
 
 
 /**
@@ -11586,7 +11586,7 @@ export const from_sky_arb = (value: string) => `from-sky-["${value}"]`;
  *
  * @type utility
  */
-export const from_blue_arbitrary = (value: string) => `from-blue-["${value}"]`;
+export const from_blue_arbitrary = (value: string) => `from-blue-[${value}]`;
 
 
 /**
@@ -11598,7 +11598,7 @@ export const from_blue_arbitrary = (value: string) => `from-blue-["${value}"]`;
  *
  * @type utility
  */
-export const from_blue_arb = (value: string) => `from-blue-["${value}"]`;
+export const from_blue_arb = (value: string) => `from-blue-[${value}]`;
 
 
 /**
@@ -11610,7 +11610,7 @@ export const from_blue_arb = (value: string) => `from-blue-["${value}"]`;
  *
  * @type utility
  */
-export const from_indigo_arbitrary = (value: string) => `from-indigo-["${value}"]`;
+export const from_indigo_arbitrary = (value: string) => `from-indigo-[${value}]`;
 
 
 /**
@@ -11622,7 +11622,7 @@ export const from_indigo_arbitrary = (value: string) => `from-indigo-["${value}"
  *
  * @type utility
  */
-export const from_indigo_arb = (value: string) => `from-indigo-["${value}"]`;
+export const from_indigo_arb = (value: string) => `from-indigo-[${value}]`;
 
 
 /**
@@ -11634,7 +11634,7 @@ export const from_indigo_arb = (value: string) => `from-indigo-["${value}"]`;
  *
  * @type utility
  */
-export const from_violet_arbitrary = (value: string) => `from-violet-["${value}"]`;
+export const from_violet_arbitrary = (value: string) => `from-violet-[${value}]`;
 
 
 /**
@@ -11646,7 +11646,7 @@ export const from_violet_arbitrary = (value: string) => `from-violet-["${value}"
  *
  * @type utility
  */
-export const from_violet_arb = (value: string) => `from-violet-["${value}"]`;
+export const from_violet_arb = (value: string) => `from-violet-[${value}]`;
 
 
 /**
@@ -11658,7 +11658,7 @@ export const from_violet_arb = (value: string) => `from-violet-["${value}"]`;
  *
  * @type utility
  */
-export const from_purple_arbitrary = (value: string) => `from-purple-["${value}"]`;
+export const from_purple_arbitrary = (value: string) => `from-purple-[${value}]`;
 
 
 /**
@@ -11670,7 +11670,7 @@ export const from_purple_arbitrary = (value: string) => `from-purple-["${value}"
  *
  * @type utility
  */
-export const from_purple_arb = (value: string) => `from-purple-["${value}"]`;
+export const from_purple_arb = (value: string) => `from-purple-[${value}]`;
 
 
 /**
@@ -11682,7 +11682,7 @@ export const from_purple_arb = (value: string) => `from-purple-["${value}"]`;
  *
  * @type utility
  */
-export const from_fuchsia_arbitrary = (value: string) => `from-fuchsia-["${value}"]`;
+export const from_fuchsia_arbitrary = (value: string) => `from-fuchsia-[${value}]`;
 
 
 /**
@@ -11694,7 +11694,7 @@ export const from_fuchsia_arbitrary = (value: string) => `from-fuchsia-["${value
  *
  * @type utility
  */
-export const from_fuchsia_arb = (value: string) => `from-fuchsia-["${value}"]`;
+export const from_fuchsia_arb = (value: string) => `from-fuchsia-[${value}]`;
 
 
 /**
@@ -11706,7 +11706,7 @@ export const from_fuchsia_arb = (value: string) => `from-fuchsia-["${value}"]`;
  *
  * @type utility
  */
-export const from_pink_arbitrary = (value: string) => `from-pink-["${value}"]`;
+export const from_pink_arbitrary = (value: string) => `from-pink-[${value}]`;
 
 
 /**
@@ -11718,7 +11718,7 @@ export const from_pink_arbitrary = (value: string) => `from-pink-["${value}"]`;
  *
  * @type utility
  */
-export const from_pink_arb = (value: string) => `from-pink-["${value}"]`;
+export const from_pink_arb = (value: string) => `from-pink-[${value}]`;
 
 
 /**
@@ -11730,7 +11730,7 @@ export const from_pink_arb = (value: string) => `from-pink-["${value}"]`;
  *
  * @type utility
  */
-export const from_rose_arbitrary = (value: string) => `from-rose-["${value}"]`;
+export const from_rose_arbitrary = (value: string) => `from-rose-[${value}]`;
 
 
 /**
@@ -11742,7 +11742,7 @@ export const from_rose_arbitrary = (value: string) => `from-rose-["${value}"]`;
  *
  * @type utility
  */
-export const from_rose_arb = (value: string) => `from-rose-["${value}"]`;
+export const from_rose_arb = (value: string) => `from-rose-[${value}]`;
 
 
 /**
@@ -11754,7 +11754,7 @@ export const from_rose_arb = (value: string) => `from-rose-["${value}"]`;
  *
  * @type utility
  */
-export const via_arbitrary = (value: string) => `via-["${value}"]`;
+export const via_arbitrary = (value: string) => `via-[${value}]`;
 
 
 /**
@@ -11766,7 +11766,7 @@ export const via_arbitrary = (value: string) => `via-["${value}"]`;
  *
  * @type utility
  */
-export const via_arb = (value: string) => `via-["${value}"]`;
+export const via_arb = (value: string) => `via-[${value}]`;
 
 
 /**
@@ -11778,7 +11778,7 @@ export const via_arb = (value: string) => `via-["${value}"]`;
  *
  * @type utility
  */
-export const via_slate_arbitrary = (value: string) => `via-slate-["${value}"]`;
+export const via_slate_arbitrary = (value: string) => `via-slate-[${value}]`;
 
 
 /**
@@ -11790,7 +11790,7 @@ export const via_slate_arbitrary = (value: string) => `via-slate-["${value}"]`;
  *
  * @type utility
  */
-export const via_slate_arb = (value: string) => `via-slate-["${value}"]`;
+export const via_slate_arb = (value: string) => `via-slate-[${value}]`;
 
 
 /**
@@ -11802,7 +11802,7 @@ export const via_slate_arb = (value: string) => `via-slate-["${value}"]`;
  *
  * @type utility
  */
-export const via_gray_arbitrary = (value: string) => `via-gray-["${value}"]`;
+export const via_gray_arbitrary = (value: string) => `via-gray-[${value}]`;
 
 
 /**
@@ -11814,7 +11814,7 @@ export const via_gray_arbitrary = (value: string) => `via-gray-["${value}"]`;
  *
  * @type utility
  */
-export const via_gray_arb = (value: string) => `via-gray-["${value}"]`;
+export const via_gray_arb = (value: string) => `via-gray-[${value}]`;
 
 
 /**
@@ -11826,7 +11826,7 @@ export const via_gray_arb = (value: string) => `via-gray-["${value}"]`;
  *
  * @type utility
  */
-export const via_zinc_arbitrary = (value: string) => `via-zinc-["${value}"]`;
+export const via_zinc_arbitrary = (value: string) => `via-zinc-[${value}]`;
 
 
 /**
@@ -11838,7 +11838,7 @@ export const via_zinc_arbitrary = (value: string) => `via-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const via_zinc_arb = (value: string) => `via-zinc-["${value}"]`;
+export const via_zinc_arb = (value: string) => `via-zinc-[${value}]`;
 
 
 /**
@@ -11850,7 +11850,7 @@ export const via_zinc_arb = (value: string) => `via-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const via_neutral_arbitrary = (value: string) => `via-neutral-["${value}"]`;
+export const via_neutral_arbitrary = (value: string) => `via-neutral-[${value}]`;
 
 
 /**
@@ -11862,7 +11862,7 @@ export const via_neutral_arbitrary = (value: string) => `via-neutral-["${value}"
  *
  * @type utility
  */
-export const via_neutral_arb = (value: string) => `via-neutral-["${value}"]`;
+export const via_neutral_arb = (value: string) => `via-neutral-[${value}]`;
 
 
 /**
@@ -11874,7 +11874,7 @@ export const via_neutral_arb = (value: string) => `via-neutral-["${value}"]`;
  *
  * @type utility
  */
-export const via_stone_arbitrary = (value: string) => `via-stone-["${value}"]`;
+export const via_stone_arbitrary = (value: string) => `via-stone-[${value}]`;
 
 
 /**
@@ -11886,7 +11886,7 @@ export const via_stone_arbitrary = (value: string) => `via-stone-["${value}"]`;
  *
  * @type utility
  */
-export const via_stone_arb = (value: string) => `via-stone-["${value}"]`;
+export const via_stone_arb = (value: string) => `via-stone-[${value}]`;
 
 
 /**
@@ -11898,7 +11898,7 @@ export const via_stone_arb = (value: string) => `via-stone-["${value}"]`;
  *
  * @type utility
  */
-export const via_red_arbitrary = (value: string) => `via-red-["${value}"]`;
+export const via_red_arbitrary = (value: string) => `via-red-[${value}]`;
 
 
 /**
@@ -11910,7 +11910,7 @@ export const via_red_arbitrary = (value: string) => `via-red-["${value}"]`;
  *
  * @type utility
  */
-export const via_red_arb = (value: string) => `via-red-["${value}"]`;
+export const via_red_arb = (value: string) => `via-red-[${value}]`;
 
 
 /**
@@ -11922,7 +11922,7 @@ export const via_red_arb = (value: string) => `via-red-["${value}"]`;
  *
  * @type utility
  */
-export const via_orange_arbitrary = (value: string) => `via-orange-["${value}"]`;
+export const via_orange_arbitrary = (value: string) => `via-orange-[${value}]`;
 
 
 /**
@@ -11934,7 +11934,7 @@ export const via_orange_arbitrary = (value: string) => `via-orange-["${value}"]`
  *
  * @type utility
  */
-export const via_orange_arb = (value: string) => `via-orange-["${value}"]`;
+export const via_orange_arb = (value: string) => `via-orange-[${value}]`;
 
 
 /**
@@ -11946,7 +11946,7 @@ export const via_orange_arb = (value: string) => `via-orange-["${value}"]`;
  *
  * @type utility
  */
-export const via_amber_arbitrary = (value: string) => `via-amber-["${value}"]`;
+export const via_amber_arbitrary = (value: string) => `via-amber-[${value}]`;
 
 
 /**
@@ -11958,7 +11958,7 @@ export const via_amber_arbitrary = (value: string) => `via-amber-["${value}"]`;
  *
  * @type utility
  */
-export const via_amber_arb = (value: string) => `via-amber-["${value}"]`;
+export const via_amber_arb = (value: string) => `via-amber-[${value}]`;
 
 
 /**
@@ -11970,7 +11970,7 @@ export const via_amber_arb = (value: string) => `via-amber-["${value}"]`;
  *
  * @type utility
  */
-export const via_yellow_arbitrary = (value: string) => `via-yellow-["${value}"]`;
+export const via_yellow_arbitrary = (value: string) => `via-yellow-[${value}]`;
 
 
 /**
@@ -11982,7 +11982,7 @@ export const via_yellow_arbitrary = (value: string) => `via-yellow-["${value}"]`
  *
  * @type utility
  */
-export const via_yellow_arb = (value: string) => `via-yellow-["${value}"]`;
+export const via_yellow_arb = (value: string) => `via-yellow-[${value}]`;
 
 
 /**
@@ -11994,7 +11994,7 @@ export const via_yellow_arb = (value: string) => `via-yellow-["${value}"]`;
  *
  * @type utility
  */
-export const via_lime_arbitrary = (value: string) => `via-lime-["${value}"]`;
+export const via_lime_arbitrary = (value: string) => `via-lime-[${value}]`;
 
 
 /**
@@ -12006,7 +12006,7 @@ export const via_lime_arbitrary = (value: string) => `via-lime-["${value}"]`;
  *
  * @type utility
  */
-export const via_lime_arb = (value: string) => `via-lime-["${value}"]`;
+export const via_lime_arb = (value: string) => `via-lime-[${value}]`;
 
 
 /**
@@ -12018,7 +12018,7 @@ export const via_lime_arb = (value: string) => `via-lime-["${value}"]`;
  *
  * @type utility
  */
-export const via_green_arbitrary = (value: string) => `via-green-["${value}"]`;
+export const via_green_arbitrary = (value: string) => `via-green-[${value}]`;
 
 
 /**
@@ -12030,7 +12030,7 @@ export const via_green_arbitrary = (value: string) => `via-green-["${value}"]`;
  *
  * @type utility
  */
-export const via_green_arb = (value: string) => `via-green-["${value}"]`;
+export const via_green_arb = (value: string) => `via-green-[${value}]`;
 
 
 /**
@@ -12042,7 +12042,7 @@ export const via_green_arb = (value: string) => `via-green-["${value}"]`;
  *
  * @type utility
  */
-export const via_emerald_arbitrary = (value: string) => `via-emerald-["${value}"]`;
+export const via_emerald_arbitrary = (value: string) => `via-emerald-[${value}]`;
 
 
 /**
@@ -12054,7 +12054,7 @@ export const via_emerald_arbitrary = (value: string) => `via-emerald-["${value}"
  *
  * @type utility
  */
-export const via_emerald_arb = (value: string) => `via-emerald-["${value}"]`;
+export const via_emerald_arb = (value: string) => `via-emerald-[${value}]`;
 
 
 /**
@@ -12066,7 +12066,7 @@ export const via_emerald_arb = (value: string) => `via-emerald-["${value}"]`;
  *
  * @type utility
  */
-export const via_teal_arbitrary = (value: string) => `via-teal-["${value}"]`;
+export const via_teal_arbitrary = (value: string) => `via-teal-[${value}]`;
 
 
 /**
@@ -12078,7 +12078,7 @@ export const via_teal_arbitrary = (value: string) => `via-teal-["${value}"]`;
  *
  * @type utility
  */
-export const via_teal_arb = (value: string) => `via-teal-["${value}"]`;
+export const via_teal_arb = (value: string) => `via-teal-[${value}]`;
 
 
 /**
@@ -12090,7 +12090,7 @@ export const via_teal_arb = (value: string) => `via-teal-["${value}"]`;
  *
  * @type utility
  */
-export const via_cyan_arbitrary = (value: string) => `via-cyan-["${value}"]`;
+export const via_cyan_arbitrary = (value: string) => `via-cyan-[${value}]`;
 
 
 /**
@@ -12102,7 +12102,7 @@ export const via_cyan_arbitrary = (value: string) => `via-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const via_cyan_arb = (value: string) => `via-cyan-["${value}"]`;
+export const via_cyan_arb = (value: string) => `via-cyan-[${value}]`;
 
 
 /**
@@ -12114,7 +12114,7 @@ export const via_cyan_arb = (value: string) => `via-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const via_sky_arbitrary = (value: string) => `via-sky-["${value}"]`;
+export const via_sky_arbitrary = (value: string) => `via-sky-[${value}]`;
 
 
 /**
@@ -12126,7 +12126,7 @@ export const via_sky_arbitrary = (value: string) => `via-sky-["${value}"]`;
  *
  * @type utility
  */
-export const via_sky_arb = (value: string) => `via-sky-["${value}"]`;
+export const via_sky_arb = (value: string) => `via-sky-[${value}]`;
 
 
 /**
@@ -12138,7 +12138,7 @@ export const via_sky_arb = (value: string) => `via-sky-["${value}"]`;
  *
  * @type utility
  */
-export const via_blue_arbitrary = (value: string) => `via-blue-["${value}"]`;
+export const via_blue_arbitrary = (value: string) => `via-blue-[${value}]`;
 
 
 /**
@@ -12150,7 +12150,7 @@ export const via_blue_arbitrary = (value: string) => `via-blue-["${value}"]`;
  *
  * @type utility
  */
-export const via_blue_arb = (value: string) => `via-blue-["${value}"]`;
+export const via_blue_arb = (value: string) => `via-blue-[${value}]`;
 
 
 /**
@@ -12162,7 +12162,7 @@ export const via_blue_arb = (value: string) => `via-blue-["${value}"]`;
  *
  * @type utility
  */
-export const via_indigo_arbitrary = (value: string) => `via-indigo-["${value}"]`;
+export const via_indigo_arbitrary = (value: string) => `via-indigo-[${value}]`;
 
 
 /**
@@ -12174,7 +12174,7 @@ export const via_indigo_arbitrary = (value: string) => `via-indigo-["${value}"]`
  *
  * @type utility
  */
-export const via_indigo_arb = (value: string) => `via-indigo-["${value}"]`;
+export const via_indigo_arb = (value: string) => `via-indigo-[${value}]`;
 
 
 /**
@@ -12186,7 +12186,7 @@ export const via_indigo_arb = (value: string) => `via-indigo-["${value}"]`;
  *
  * @type utility
  */
-export const via_violet_arbitrary = (value: string) => `via-violet-["${value}"]`;
+export const via_violet_arbitrary = (value: string) => `via-violet-[${value}]`;
 
 
 /**
@@ -12198,7 +12198,7 @@ export const via_violet_arbitrary = (value: string) => `via-violet-["${value}"]`
  *
  * @type utility
  */
-export const via_violet_arb = (value: string) => `via-violet-["${value}"]`;
+export const via_violet_arb = (value: string) => `via-violet-[${value}]`;
 
 
 /**
@@ -12210,7 +12210,7 @@ export const via_violet_arb = (value: string) => `via-violet-["${value}"]`;
  *
  * @type utility
  */
-export const via_purple_arbitrary = (value: string) => `via-purple-["${value}"]`;
+export const via_purple_arbitrary = (value: string) => `via-purple-[${value}]`;
 
 
 /**
@@ -12222,7 +12222,7 @@ export const via_purple_arbitrary = (value: string) => `via-purple-["${value}"]`
  *
  * @type utility
  */
-export const via_purple_arb = (value: string) => `via-purple-["${value}"]`;
+export const via_purple_arb = (value: string) => `via-purple-[${value}]`;
 
 
 /**
@@ -12234,7 +12234,7 @@ export const via_purple_arb = (value: string) => `via-purple-["${value}"]`;
  *
  * @type utility
  */
-export const via_fuchsia_arbitrary = (value: string) => `via-fuchsia-["${value}"]`;
+export const via_fuchsia_arbitrary = (value: string) => `via-fuchsia-[${value}]`;
 
 
 /**
@@ -12246,7 +12246,7 @@ export const via_fuchsia_arbitrary = (value: string) => `via-fuchsia-["${value}"
  *
  * @type utility
  */
-export const via_fuchsia_arb = (value: string) => `via-fuchsia-["${value}"]`;
+export const via_fuchsia_arb = (value: string) => `via-fuchsia-[${value}]`;
 
 
 /**
@@ -12258,7 +12258,7 @@ export const via_fuchsia_arb = (value: string) => `via-fuchsia-["${value}"]`;
  *
  * @type utility
  */
-export const via_pink_arbitrary = (value: string) => `via-pink-["${value}"]`;
+export const via_pink_arbitrary = (value: string) => `via-pink-[${value}]`;
 
 
 /**
@@ -12270,7 +12270,7 @@ export const via_pink_arbitrary = (value: string) => `via-pink-["${value}"]`;
  *
  * @type utility
  */
-export const via_pink_arb = (value: string) => `via-pink-["${value}"]`;
+export const via_pink_arb = (value: string) => `via-pink-[${value}]`;
 
 
 /**
@@ -12282,7 +12282,7 @@ export const via_pink_arb = (value: string) => `via-pink-["${value}"]`;
  *
  * @type utility
  */
-export const via_rose_arbitrary = (value: string) => `via-rose-["${value}"]`;
+export const via_rose_arbitrary = (value: string) => `via-rose-[${value}]`;
 
 
 /**
@@ -12294,7 +12294,7 @@ export const via_rose_arbitrary = (value: string) => `via-rose-["${value}"]`;
  *
  * @type utility
  */
-export const via_rose_arb = (value: string) => `via-rose-["${value}"]`;
+export const via_rose_arb = (value: string) => `via-rose-[${value}]`;
 
 
 /**
@@ -12306,7 +12306,7 @@ export const via_rose_arb = (value: string) => `via-rose-["${value}"]`;
  *
  * @type utility
  */
-export const to_arbitrary = (value: string) => `to-["${value}"]`;
+export const to_arbitrary = (value: string) => `to-[${value}]`;
 
 
 /**
@@ -12318,7 +12318,7 @@ export const to_arbitrary = (value: string) => `to-["${value}"]`;
  *
  * @type utility
  */
-export const to_arb = (value: string) => `to-["${value}"]`;
+export const to_arb = (value: string) => `to-[${value}]`;
 
 
 /**
@@ -12330,7 +12330,7 @@ export const to_arb = (value: string) => `to-["${value}"]`;
  *
  * @type utility
  */
-export const to_slate_arbitrary = (value: string) => `to-slate-["${value}"]`;
+export const to_slate_arbitrary = (value: string) => `to-slate-[${value}]`;
 
 
 /**
@@ -12342,7 +12342,7 @@ export const to_slate_arbitrary = (value: string) => `to-slate-["${value}"]`;
  *
  * @type utility
  */
-export const to_slate_arb = (value: string) => `to-slate-["${value}"]`;
+export const to_slate_arb = (value: string) => `to-slate-[${value}]`;
 
 
 /**
@@ -12354,7 +12354,7 @@ export const to_slate_arb = (value: string) => `to-slate-["${value}"]`;
  *
  * @type utility
  */
-export const to_gray_arbitrary = (value: string) => `to-gray-["${value}"]`;
+export const to_gray_arbitrary = (value: string) => `to-gray-[${value}]`;
 
 
 /**
@@ -12366,7 +12366,7 @@ export const to_gray_arbitrary = (value: string) => `to-gray-["${value}"]`;
  *
  * @type utility
  */
-export const to_gray_arb = (value: string) => `to-gray-["${value}"]`;
+export const to_gray_arb = (value: string) => `to-gray-[${value}]`;
 
 
 /**
@@ -12378,7 +12378,7 @@ export const to_gray_arb = (value: string) => `to-gray-["${value}"]`;
  *
  * @type utility
  */
-export const to_zinc_arbitrary = (value: string) => `to-zinc-["${value}"]`;
+export const to_zinc_arbitrary = (value: string) => `to-zinc-[${value}]`;
 
 
 /**
@@ -12390,7 +12390,7 @@ export const to_zinc_arbitrary = (value: string) => `to-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const to_zinc_arb = (value: string) => `to-zinc-["${value}"]`;
+export const to_zinc_arb = (value: string) => `to-zinc-[${value}]`;
 
 
 /**
@@ -12402,7 +12402,7 @@ export const to_zinc_arb = (value: string) => `to-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const to_neutral_arbitrary = (value: string) => `to-neutral-["${value}"]`;
+export const to_neutral_arbitrary = (value: string) => `to-neutral-[${value}]`;
 
 
 /**
@@ -12414,7 +12414,7 @@ export const to_neutral_arbitrary = (value: string) => `to-neutral-["${value}"]`
  *
  * @type utility
  */
-export const to_neutral_arb = (value: string) => `to-neutral-["${value}"]`;
+export const to_neutral_arb = (value: string) => `to-neutral-[${value}]`;
 
 
 /**
@@ -12426,7 +12426,7 @@ export const to_neutral_arb = (value: string) => `to-neutral-["${value}"]`;
  *
  * @type utility
  */
-export const to_stone_arbitrary = (value: string) => `to-stone-["${value}"]`;
+export const to_stone_arbitrary = (value: string) => `to-stone-[${value}]`;
 
 
 /**
@@ -12438,7 +12438,7 @@ export const to_stone_arbitrary = (value: string) => `to-stone-["${value}"]`;
  *
  * @type utility
  */
-export const to_stone_arb = (value: string) => `to-stone-["${value}"]`;
+export const to_stone_arb = (value: string) => `to-stone-[${value}]`;
 
 
 /**
@@ -12450,7 +12450,7 @@ export const to_stone_arb = (value: string) => `to-stone-["${value}"]`;
  *
  * @type utility
  */
-export const to_red_arbitrary = (value: string) => `to-red-["${value}"]`;
+export const to_red_arbitrary = (value: string) => `to-red-[${value}]`;
 
 
 /**
@@ -12462,7 +12462,7 @@ export const to_red_arbitrary = (value: string) => `to-red-["${value}"]`;
  *
  * @type utility
  */
-export const to_red_arb = (value: string) => `to-red-["${value}"]`;
+export const to_red_arb = (value: string) => `to-red-[${value}]`;
 
 
 /**
@@ -12474,7 +12474,7 @@ export const to_red_arb = (value: string) => `to-red-["${value}"]`;
  *
  * @type utility
  */
-export const to_orange_arbitrary = (value: string) => `to-orange-["${value}"]`;
+export const to_orange_arbitrary = (value: string) => `to-orange-[${value}]`;
 
 
 /**
@@ -12486,7 +12486,7 @@ export const to_orange_arbitrary = (value: string) => `to-orange-["${value}"]`;
  *
  * @type utility
  */
-export const to_orange_arb = (value: string) => `to-orange-["${value}"]`;
+export const to_orange_arb = (value: string) => `to-orange-[${value}]`;
 
 
 /**
@@ -12498,7 +12498,7 @@ export const to_orange_arb = (value: string) => `to-orange-["${value}"]`;
  *
  * @type utility
  */
-export const to_amber_arbitrary = (value: string) => `to-amber-["${value}"]`;
+export const to_amber_arbitrary = (value: string) => `to-amber-[${value}]`;
 
 
 /**
@@ -12510,7 +12510,7 @@ export const to_amber_arbitrary = (value: string) => `to-amber-["${value}"]`;
  *
  * @type utility
  */
-export const to_amber_arb = (value: string) => `to-amber-["${value}"]`;
+export const to_amber_arb = (value: string) => `to-amber-[${value}]`;
 
 
 /**
@@ -12522,7 +12522,7 @@ export const to_amber_arb = (value: string) => `to-amber-["${value}"]`;
  *
  * @type utility
  */
-export const to_yellow_arbitrary = (value: string) => `to-yellow-["${value}"]`;
+export const to_yellow_arbitrary = (value: string) => `to-yellow-[${value}]`;
 
 
 /**
@@ -12534,7 +12534,7 @@ export const to_yellow_arbitrary = (value: string) => `to-yellow-["${value}"]`;
  *
  * @type utility
  */
-export const to_yellow_arb = (value: string) => `to-yellow-["${value}"]`;
+export const to_yellow_arb = (value: string) => `to-yellow-[${value}]`;
 
 
 /**
@@ -12546,7 +12546,7 @@ export const to_yellow_arb = (value: string) => `to-yellow-["${value}"]`;
  *
  * @type utility
  */
-export const to_lime_arbitrary = (value: string) => `to-lime-["${value}"]`;
+export const to_lime_arbitrary = (value: string) => `to-lime-[${value}]`;
 
 
 /**
@@ -12558,7 +12558,7 @@ export const to_lime_arbitrary = (value: string) => `to-lime-["${value}"]`;
  *
  * @type utility
  */
-export const to_lime_arb = (value: string) => `to-lime-["${value}"]`;
+export const to_lime_arb = (value: string) => `to-lime-[${value}]`;
 
 
 /**
@@ -12570,7 +12570,7 @@ export const to_lime_arb = (value: string) => `to-lime-["${value}"]`;
  *
  * @type utility
  */
-export const to_green_arbitrary = (value: string) => `to-green-["${value}"]`;
+export const to_green_arbitrary = (value: string) => `to-green-[${value}]`;
 
 
 /**
@@ -12582,7 +12582,7 @@ export const to_green_arbitrary = (value: string) => `to-green-["${value}"]`;
  *
  * @type utility
  */
-export const to_green_arb = (value: string) => `to-green-["${value}"]`;
+export const to_green_arb = (value: string) => `to-green-[${value}]`;
 
 
 /**
@@ -12594,7 +12594,7 @@ export const to_green_arb = (value: string) => `to-green-["${value}"]`;
  *
  * @type utility
  */
-export const to_emerald_arbitrary = (value: string) => `to-emerald-["${value}"]`;
+export const to_emerald_arbitrary = (value: string) => `to-emerald-[${value}]`;
 
 
 /**
@@ -12606,7 +12606,7 @@ export const to_emerald_arbitrary = (value: string) => `to-emerald-["${value}"]`
  *
  * @type utility
  */
-export const to_emerald_arb = (value: string) => `to-emerald-["${value}"]`;
+export const to_emerald_arb = (value: string) => `to-emerald-[${value}]`;
 
 
 /**
@@ -12618,7 +12618,7 @@ export const to_emerald_arb = (value: string) => `to-emerald-["${value}"]`;
  *
  * @type utility
  */
-export const to_teal_arbitrary = (value: string) => `to-teal-["${value}"]`;
+export const to_teal_arbitrary = (value: string) => `to-teal-[${value}]`;
 
 
 /**
@@ -12630,7 +12630,7 @@ export const to_teal_arbitrary = (value: string) => `to-teal-["${value}"]`;
  *
  * @type utility
  */
-export const to_teal_arb = (value: string) => `to-teal-["${value}"]`;
+export const to_teal_arb = (value: string) => `to-teal-[${value}]`;
 
 
 /**
@@ -12642,7 +12642,7 @@ export const to_teal_arb = (value: string) => `to-teal-["${value}"]`;
  *
  * @type utility
  */
-export const to_cyan_arbitrary = (value: string) => `to-cyan-["${value}"]`;
+export const to_cyan_arbitrary = (value: string) => `to-cyan-[${value}]`;
 
 
 /**
@@ -12654,7 +12654,7 @@ export const to_cyan_arbitrary = (value: string) => `to-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const to_cyan_arb = (value: string) => `to-cyan-["${value}"]`;
+export const to_cyan_arb = (value: string) => `to-cyan-[${value}]`;
 
 
 /**
@@ -12666,7 +12666,7 @@ export const to_cyan_arb = (value: string) => `to-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const to_sky_arbitrary = (value: string) => `to-sky-["${value}"]`;
+export const to_sky_arbitrary = (value: string) => `to-sky-[${value}]`;
 
 
 /**
@@ -12678,7 +12678,7 @@ export const to_sky_arbitrary = (value: string) => `to-sky-["${value}"]`;
  *
  * @type utility
  */
-export const to_sky_arb = (value: string) => `to-sky-["${value}"]`;
+export const to_sky_arb = (value: string) => `to-sky-[${value}]`;
 
 
 /**
@@ -12690,7 +12690,7 @@ export const to_sky_arb = (value: string) => `to-sky-["${value}"]`;
  *
  * @type utility
  */
-export const to_blue_arbitrary = (value: string) => `to-blue-["${value}"]`;
+export const to_blue_arbitrary = (value: string) => `to-blue-[${value}]`;
 
 
 /**
@@ -12702,7 +12702,7 @@ export const to_blue_arbitrary = (value: string) => `to-blue-["${value}"]`;
  *
  * @type utility
  */
-export const to_blue_arb = (value: string) => `to-blue-["${value}"]`;
+export const to_blue_arb = (value: string) => `to-blue-[${value}]`;
 
 
 /**
@@ -12714,7 +12714,7 @@ export const to_blue_arb = (value: string) => `to-blue-["${value}"]`;
  *
  * @type utility
  */
-export const to_indigo_arbitrary = (value: string) => `to-indigo-["${value}"]`;
+export const to_indigo_arbitrary = (value: string) => `to-indigo-[${value}]`;
 
 
 /**
@@ -12726,7 +12726,7 @@ export const to_indigo_arbitrary = (value: string) => `to-indigo-["${value}"]`;
  *
  * @type utility
  */
-export const to_indigo_arb = (value: string) => `to-indigo-["${value}"]`;
+export const to_indigo_arb = (value: string) => `to-indigo-[${value}]`;
 
 
 /**
@@ -12738,7 +12738,7 @@ export const to_indigo_arb = (value: string) => `to-indigo-["${value}"]`;
  *
  * @type utility
  */
-export const to_violet_arbitrary = (value: string) => `to-violet-["${value}"]`;
+export const to_violet_arbitrary = (value: string) => `to-violet-[${value}]`;
 
 
 /**
@@ -12750,7 +12750,7 @@ export const to_violet_arbitrary = (value: string) => `to-violet-["${value}"]`;
  *
  * @type utility
  */
-export const to_violet_arb = (value: string) => `to-violet-["${value}"]`;
+export const to_violet_arb = (value: string) => `to-violet-[${value}]`;
 
 
 /**
@@ -12762,7 +12762,7 @@ export const to_violet_arb = (value: string) => `to-violet-["${value}"]`;
  *
  * @type utility
  */
-export const to_purple_arbitrary = (value: string) => `to-purple-["${value}"]`;
+export const to_purple_arbitrary = (value: string) => `to-purple-[${value}]`;
 
 
 /**
@@ -12774,7 +12774,7 @@ export const to_purple_arbitrary = (value: string) => `to-purple-["${value}"]`;
  *
  * @type utility
  */
-export const to_purple_arb = (value: string) => `to-purple-["${value}"]`;
+export const to_purple_arb = (value: string) => `to-purple-[${value}]`;
 
 
 /**
@@ -12786,7 +12786,7 @@ export const to_purple_arb = (value: string) => `to-purple-["${value}"]`;
  *
  * @type utility
  */
-export const to_fuchsia_arbitrary = (value: string) => `to-fuchsia-["${value}"]`;
+export const to_fuchsia_arbitrary = (value: string) => `to-fuchsia-[${value}]`;
 
 
 /**
@@ -12798,7 +12798,7 @@ export const to_fuchsia_arbitrary = (value: string) => `to-fuchsia-["${value}"]`
  *
  * @type utility
  */
-export const to_fuchsia_arb = (value: string) => `to-fuchsia-["${value}"]`;
+export const to_fuchsia_arb = (value: string) => `to-fuchsia-[${value}]`;
 
 
 /**
@@ -12810,7 +12810,7 @@ export const to_fuchsia_arb = (value: string) => `to-fuchsia-["${value}"]`;
  *
  * @type utility
  */
-export const to_pink_arbitrary = (value: string) => `to-pink-["${value}"]`;
+export const to_pink_arbitrary = (value: string) => `to-pink-[${value}]`;
 
 
 /**
@@ -12822,7 +12822,7 @@ export const to_pink_arbitrary = (value: string) => `to-pink-["${value}"]`;
  *
  * @type utility
  */
-export const to_pink_arb = (value: string) => `to-pink-["${value}"]`;
+export const to_pink_arb = (value: string) => `to-pink-[${value}]`;
 
 
 /**
@@ -12834,7 +12834,7 @@ export const to_pink_arb = (value: string) => `to-pink-["${value}"]`;
  *
  * @type utility
  */
-export const to_rose_arbitrary = (value: string) => `to-rose-["${value}"]`;
+export const to_rose_arbitrary = (value: string) => `to-rose-[${value}]`;
 
 
 /**
@@ -12846,7 +12846,7 @@ export const to_rose_arbitrary = (value: string) => `to-rose-["${value}"]`;
  *
  * @type utility
  */
-export const to_rose_arb = (value: string) => `to-rose-["${value}"]`;
+export const to_rose_arb = (value: string) => `to-rose-[${value}]`;
 
 
 /**

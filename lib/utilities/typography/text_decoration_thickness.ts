@@ -100,7 +100,7 @@ export const decoration_8 = "decoration-8";
  *
  * @type utility
  */
-export const decoration_from_arbitrary = (value: string) => `decoration-from-["${value}"]`;
+export const decoration_from_arbitrary = (value: string) => `decoration-from-[${value}]`;
 
 
 /**
@@ -112,7 +112,7 @@ export const decoration_from_arbitrary = (value: string) => `decoration-from-["$
  *
  * @type utility
  */
-export const decoration_from_arb = (value: string) => `decoration-from-["${value}"]`;
+export const decoration_from_arb = (value: string) => `decoration-from-[${value}]`;
 
 
 /**

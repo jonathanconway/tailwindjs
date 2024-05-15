@@ -61,7 +61,7 @@ export const flex_none = "flex-none";
  *
  * @type utility
  */
-export const flex_arbitrary = (value: string) => `flex-["${value}"]`;
+export const flex_arbitrary = (value: string) => `flex-[${value}]`;
 
 
 /**
@@ -73,7 +73,7 @@ export const flex_arbitrary = (value: string) => `flex-["${value}"]`;
  *
  * @type utility
  */
-export const flex_arb = (value: string) => `flex-["${value}"]`;
+export const flex_arb = (value: string) => `flex-[${value}]`;
 
 
 /**

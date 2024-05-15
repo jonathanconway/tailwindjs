@@ -126,7 +126,7 @@ export const duration_1000 = "duration-1000";
  *
  * @type utility
  */
-export const duration_arbitrary = (value: string) => `duration-["${value}"]`;
+export const duration_arbitrary = (value: string) => `duration-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const duration_arbitrary = (value: string) => `duration-["${value}"]`;
  *
  * @type utility
  */
-export const duration_arb = (value: string) => `duration-["${value}"]`;
+export const duration_arb = (value: string) => `duration-[${value}]`;
 
 
 /**

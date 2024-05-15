@@ -29402,7 +29402,7 @@ export const border_l_rose_950 = "border-l-rose-950";
  *
  * @type utility
  */
-export const border_slate_arbitrary = (value: string) => `border-slate-["${value}"]`;
+export const border_slate_arbitrary = (value: string) => `border-slate-[${value}]`;
 
 
 /**
@@ -29414,7 +29414,7 @@ export const border_slate_arbitrary = (value: string) => `border-slate-["${value
  *
  * @type utility
  */
-export const border_slate_arb = (value: string) => `border-slate-["${value}"]`;
+export const border_slate_arb = (value: string) => `border-slate-[${value}]`;
 
 
 /**
@@ -29426,7 +29426,7 @@ export const border_slate_arb = (value: string) => `border-slate-["${value}"]`;
  *
  * @type utility
  */
-export const border_gray_arbitrary = (value: string) => `border-gray-["${value}"]`;
+export const border_gray_arbitrary = (value: string) => `border-gray-[${value}]`;
 
 
 /**
@@ -29438,7 +29438,7 @@ export const border_gray_arbitrary = (value: string) => `border-gray-["${value}"
  *
  * @type utility
  */
-export const border_gray_arb = (value: string) => `border-gray-["${value}"]`;
+export const border_gray_arb = (value: string) => `border-gray-[${value}]`;
 
 
 /**
@@ -29450,7 +29450,7 @@ export const border_gray_arb = (value: string) => `border-gray-["${value}"]`;
  *
  * @type utility
  */
-export const border_zinc_arbitrary = (value: string) => `border-zinc-["${value}"]`;
+export const border_zinc_arbitrary = (value: string) => `border-zinc-[${value}]`;
 
 
 /**
@@ -29462,7 +29462,7 @@ export const border_zinc_arbitrary = (value: string) => `border-zinc-["${value}"
  *
  * @type utility
  */
-export const border_zinc_arb = (value: string) => `border-zinc-["${value}"]`;
+export const border_zinc_arb = (value: string) => `border-zinc-[${value}]`;
 
 
 /**
@@ -29474,7 +29474,7 @@ export const border_zinc_arb = (value: string) => `border-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const border_neutral_arbitrary = (value: string) => `border-neutral-["${value}"]`;
+export const border_neutral_arbitrary = (value: string) => `border-neutral-[${value}]`;
 
 
 /**
@@ -29486,7 +29486,7 @@ export const border_neutral_arbitrary = (value: string) => `border-neutral-["${v
  *
  * @type utility
  */
-export const border_neutral_arb = (value: string) => `border-neutral-["${value}"]`;
+export const border_neutral_arb = (value: string) => `border-neutral-[${value}]`;
 
 
 /**
@@ -29498,7 +29498,7 @@ export const border_neutral_arb = (value: string) => `border-neutral-["${value}"
  *
  * @type utility
  */
-export const border_stone_arbitrary = (value: string) => `border-stone-["${value}"]`;
+export const border_stone_arbitrary = (value: string) => `border-stone-[${value}]`;
 
 
 /**
@@ -29510,7 +29510,7 @@ export const border_stone_arbitrary = (value: string) => `border-stone-["${value
  *
  * @type utility
  */
-export const border_stone_arb = (value: string) => `border-stone-["${value}"]`;
+export const border_stone_arb = (value: string) => `border-stone-[${value}]`;
 
 
 /**
@@ -29522,7 +29522,7 @@ export const border_stone_arb = (value: string) => `border-stone-["${value}"]`;
  *
  * @type utility
  */
-export const border_red_arbitrary = (value: string) => `border-red-["${value}"]`;
+export const border_red_arbitrary = (value: string) => `border-red-[${value}]`;
 
 
 /**
@@ -29534,7 +29534,7 @@ export const border_red_arbitrary = (value: string) => `border-red-["${value}"]`
  *
  * @type utility
  */
-export const border_red_arb = (value: string) => `border-red-["${value}"]`;
+export const border_red_arb = (value: string) => `border-red-[${value}]`;
 
 
 /**
@@ -29546,7 +29546,7 @@ export const border_red_arb = (value: string) => `border-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_orange_arbitrary = (value: string) => `border-orange-["${value}"]`;
+export const border_orange_arbitrary = (value: string) => `border-orange-[${value}]`;
 
 
 /**
@@ -29558,7 +29558,7 @@ export const border_orange_arbitrary = (value: string) => `border-orange-["${val
  *
  * @type utility
  */
-export const border_orange_arb = (value: string) => `border-orange-["${value}"]`;
+export const border_orange_arb = (value: string) => `border-orange-[${value}]`;
 
 
 /**
@@ -29570,7 +29570,7 @@ export const border_orange_arb = (value: string) => `border-orange-["${value}"]`
  *
  * @type utility
  */
-export const border_amber_arbitrary = (value: string) => `border-amber-["${value}"]`;
+export const border_amber_arbitrary = (value: string) => `border-amber-[${value}]`;
 
 
 /**
@@ -29582,7 +29582,7 @@ export const border_amber_arbitrary = (value: string) => `border-amber-["${value
  *
  * @type utility
  */
-export const border_amber_arb = (value: string) => `border-amber-["${value}"]`;
+export const border_amber_arb = (value: string) => `border-amber-[${value}]`;
 
 
 /**
@@ -29594,7 +29594,7 @@ export const border_amber_arb = (value: string) => `border-amber-["${value}"]`;
  *
  * @type utility
  */
-export const border_yellow_arbitrary = (value: string) => `border-yellow-["${value}"]`;
+export const border_yellow_arbitrary = (value: string) => `border-yellow-[${value}]`;
 
 
 /**
@@ -29606,7 +29606,7 @@ export const border_yellow_arbitrary = (value: string) => `border-yellow-["${val
  *
  * @type utility
  */
-export const border_yellow_arb = (value: string) => `border-yellow-["${value}"]`;
+export const border_yellow_arb = (value: string) => `border-yellow-[${value}]`;
 
 
 /**
@@ -29618,7 +29618,7 @@ export const border_yellow_arb = (value: string) => `border-yellow-["${value}"]`
  *
  * @type utility
  */
-export const border_lime_arbitrary = (value: string) => `border-lime-["${value}"]`;
+export const border_lime_arbitrary = (value: string) => `border-lime-[${value}]`;
 
 
 /**
@@ -29630,7 +29630,7 @@ export const border_lime_arbitrary = (value: string) => `border-lime-["${value}"
  *
  * @type utility
  */
-export const border_lime_arb = (value: string) => `border-lime-["${value}"]`;
+export const border_lime_arb = (value: string) => `border-lime-[${value}]`;
 
 
 /**
@@ -29642,7 +29642,7 @@ export const border_lime_arb = (value: string) => `border-lime-["${value}"]`;
  *
  * @type utility
  */
-export const border_green_arbitrary = (value: string) => `border-green-["${value}"]`;
+export const border_green_arbitrary = (value: string) => `border-green-[${value}]`;
 
 
 /**
@@ -29654,7 +29654,7 @@ export const border_green_arbitrary = (value: string) => `border-green-["${value
  *
  * @type utility
  */
-export const border_green_arb = (value: string) => `border-green-["${value}"]`;
+export const border_green_arb = (value: string) => `border-green-[${value}]`;
 
 
 /**
@@ -29666,7 +29666,7 @@ export const border_green_arb = (value: string) => `border-green-["${value}"]`;
  *
  * @type utility
  */
-export const border_emerald_arbitrary = (value: string) => `border-emerald-["${value}"]`;
+export const border_emerald_arbitrary = (value: string) => `border-emerald-[${value}]`;
 
 
 /**
@@ -29678,7 +29678,7 @@ export const border_emerald_arbitrary = (value: string) => `border-emerald-["${v
  *
  * @type utility
  */
-export const border_emerald_arb = (value: string) => `border-emerald-["${value}"]`;
+export const border_emerald_arb = (value: string) => `border-emerald-[${value}]`;
 
 
 /**
@@ -29690,7 +29690,7 @@ export const border_emerald_arb = (value: string) => `border-emerald-["${value}"
  *
  * @type utility
  */
-export const border_teal_arbitrary = (value: string) => `border-teal-["${value}"]`;
+export const border_teal_arbitrary = (value: string) => `border-teal-[${value}]`;
 
 
 /**
@@ -29702,7 +29702,7 @@ export const border_teal_arbitrary = (value: string) => `border-teal-["${value}"
  *
  * @type utility
  */
-export const border_teal_arb = (value: string) => `border-teal-["${value}"]`;
+export const border_teal_arb = (value: string) => `border-teal-[${value}]`;
 
 
 /**
@@ -29714,7 +29714,7 @@ export const border_teal_arb = (value: string) => `border-teal-["${value}"]`;
  *
  * @type utility
  */
-export const border_cyan_arbitrary = (value: string) => `border-cyan-["${value}"]`;
+export const border_cyan_arbitrary = (value: string) => `border-cyan-[${value}]`;
 
 
 /**
@@ -29726,7 +29726,7 @@ export const border_cyan_arbitrary = (value: string) => `border-cyan-["${value}"
  *
  * @type utility
  */
-export const border_cyan_arb = (value: string) => `border-cyan-["${value}"]`;
+export const border_cyan_arb = (value: string) => `border-cyan-[${value}]`;
 
 
 /**
@@ -29738,7 +29738,7 @@ export const border_cyan_arb = (value: string) => `border-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const border_sky_arbitrary = (value: string) => `border-sky-["${value}"]`;
+export const border_sky_arbitrary = (value: string) => `border-sky-[${value}]`;
 
 
 /**
@@ -29750,7 +29750,7 @@ export const border_sky_arbitrary = (value: string) => `border-sky-["${value}"]`
  *
  * @type utility
  */
-export const border_sky_arb = (value: string) => `border-sky-["${value}"]`;
+export const border_sky_arb = (value: string) => `border-sky-[${value}]`;
 
 
 /**
@@ -29762,7 +29762,7 @@ export const border_sky_arb = (value: string) => `border-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_blue_arbitrary = (value: string) => `border-blue-["${value}"]`;
+export const border_blue_arbitrary = (value: string) => `border-blue-[${value}]`;
 
 
 /**
@@ -29774,7 +29774,7 @@ export const border_blue_arbitrary = (value: string) => `border-blue-["${value}"
  *
  * @type utility
  */
-export const border_blue_arb = (value: string) => `border-blue-["${value}"]`;
+export const border_blue_arb = (value: string) => `border-blue-[${value}]`;
 
 
 /**
@@ -29786,7 +29786,7 @@ export const border_blue_arb = (value: string) => `border-blue-["${value}"]`;
  *
  * @type utility
  */
-export const border_indigo_arbitrary = (value: string) => `border-indigo-["${value}"]`;
+export const border_indigo_arbitrary = (value: string) => `border-indigo-[${value}]`;
 
 
 /**
@@ -29798,7 +29798,7 @@ export const border_indigo_arbitrary = (value: string) => `border-indigo-["${val
  *
  * @type utility
  */
-export const border_indigo_arb = (value: string) => `border-indigo-["${value}"]`;
+export const border_indigo_arb = (value: string) => `border-indigo-[${value}]`;
 
 
 /**
@@ -29810,7 +29810,7 @@ export const border_indigo_arb = (value: string) => `border-indigo-["${value}"]`
  *
  * @type utility
  */
-export const border_violet_arbitrary = (value: string) => `border-violet-["${value}"]`;
+export const border_violet_arbitrary = (value: string) => `border-violet-[${value}]`;
 
 
 /**
@@ -29822,7 +29822,7 @@ export const border_violet_arbitrary = (value: string) => `border-violet-["${val
  *
  * @type utility
  */
-export const border_violet_arb = (value: string) => `border-violet-["${value}"]`;
+export const border_violet_arb = (value: string) => `border-violet-[${value}]`;
 
 
 /**
@@ -29834,7 +29834,7 @@ export const border_violet_arb = (value: string) => `border-violet-["${value}"]`
  *
  * @type utility
  */
-export const border_purple_arbitrary = (value: string) => `border-purple-["${value}"]`;
+export const border_purple_arbitrary = (value: string) => `border-purple-[${value}]`;
 
 
 /**
@@ -29846,7 +29846,7 @@ export const border_purple_arbitrary = (value: string) => `border-purple-["${val
  *
  * @type utility
  */
-export const border_purple_arb = (value: string) => `border-purple-["${value}"]`;
+export const border_purple_arb = (value: string) => `border-purple-[${value}]`;
 
 
 /**
@@ -29858,7 +29858,7 @@ export const border_purple_arb = (value: string) => `border-purple-["${value}"]`
  *
  * @type utility
  */
-export const border_fuchsia_arbitrary = (value: string) => `border-fuchsia-["${value}"]`;
+export const border_fuchsia_arbitrary = (value: string) => `border-fuchsia-[${value}]`;
 
 
 /**
@@ -29870,7 +29870,7 @@ export const border_fuchsia_arbitrary = (value: string) => `border-fuchsia-["${v
  *
  * @type utility
  */
-export const border_fuchsia_arb = (value: string) => `border-fuchsia-["${value}"]`;
+export const border_fuchsia_arb = (value: string) => `border-fuchsia-[${value}]`;
 
 
 /**
@@ -29882,7 +29882,7 @@ export const border_fuchsia_arb = (value: string) => `border-fuchsia-["${value}"
  *
  * @type utility
  */
-export const border_pink_arbitrary = (value: string) => `border-pink-["${value}"]`;
+export const border_pink_arbitrary = (value: string) => `border-pink-[${value}]`;
 
 
 /**
@@ -29894,7 +29894,7 @@ export const border_pink_arbitrary = (value: string) => `border-pink-["${value}"
  *
  * @type utility
  */
-export const border_pink_arb = (value: string) => `border-pink-["${value}"]`;
+export const border_pink_arb = (value: string) => `border-pink-[${value}]`;
 
 
 /**
@@ -29906,7 +29906,7 @@ export const border_pink_arb = (value: string) => `border-pink-["${value}"]`;
  *
  * @type utility
  */
-export const border_rose_arbitrary = (value: string) => `border-rose-["${value}"]`;
+export const border_rose_arbitrary = (value: string) => `border-rose-[${value}]`;
 
 
 /**
@@ -29918,7 +29918,7 @@ export const border_rose_arbitrary = (value: string) => `border-rose-["${value}"
  *
  * @type utility
  */
-export const border_rose_arb = (value: string) => `border-rose-["${value}"]`;
+export const border_rose_arb = (value: string) => `border-rose-[${value}]`;
 
 
 /**
@@ -29930,7 +29930,7 @@ export const border_rose_arb = (value: string) => `border-rose-["${value}"]`;
  *
  * @type utility
  */
-export const border_x_slate_arbitrary = (value: string) => `border-x-slate-["${value}"]`;
+export const border_x_slate_arbitrary = (value: string) => `border-x-slate-[${value}]`;
 
 
 /**
@@ -29942,7 +29942,7 @@ export const border_x_slate_arbitrary = (value: string) => `border-x-slate-["${v
  *
  * @type utility
  */
-export const border_x_slate_arb = (value: string) => `border-x-slate-["${value}"]`;
+export const border_x_slate_arb = (value: string) => `border-x-slate-[${value}]`;
 
 
 /**
@@ -29954,7 +29954,7 @@ export const border_x_slate_arb = (value: string) => `border-x-slate-["${value}"
  *
  * @type utility
  */
-export const border_x_gray_arbitrary = (value: string) => `border-x-gray-["${value}"]`;
+export const border_x_gray_arbitrary = (value: string) => `border-x-gray-[${value}]`;
 
 
 /**
@@ -29966,7 +29966,7 @@ export const border_x_gray_arbitrary = (value: string) => `border-x-gray-["${val
  *
  * @type utility
  */
-export const border_x_gray_arb = (value: string) => `border-x-gray-["${value}"]`;
+export const border_x_gray_arb = (value: string) => `border-x-gray-[${value}]`;
 
 
 /**
@@ -29978,7 +29978,7 @@ export const border_x_gray_arb = (value: string) => `border-x-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_x_zinc_arbitrary = (value: string) => `border-x-zinc-["${value}"]`;
+export const border_x_zinc_arbitrary = (value: string) => `border-x-zinc-[${value}]`;
 
 
 /**
@@ -29990,7 +29990,7 @@ export const border_x_zinc_arbitrary = (value: string) => `border-x-zinc-["${val
  *
  * @type utility
  */
-export const border_x_zinc_arb = (value: string) => `border-x-zinc-["${value}"]`;
+export const border_x_zinc_arb = (value: string) => `border-x-zinc-[${value}]`;
 
 
 /**
@@ -30002,7 +30002,7 @@ export const border_x_zinc_arb = (value: string) => `border-x-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_x_neutral_arbitrary = (value: string) => `border-x-neutral-["${value}"]`;
+export const border_x_neutral_arbitrary = (value: string) => `border-x-neutral-[${value}]`;
 
 
 /**
@@ -30014,7 +30014,7 @@ export const border_x_neutral_arbitrary = (value: string) => `border-x-neutral-[
  *
  * @type utility
  */
-export const border_x_neutral_arb = (value: string) => `border-x-neutral-["${value}"]`;
+export const border_x_neutral_arb = (value: string) => `border-x-neutral-[${value}]`;
 
 
 /**
@@ -30026,7 +30026,7 @@ export const border_x_neutral_arb = (value: string) => `border-x-neutral-["${val
  *
  * @type utility
  */
-export const border_x_stone_arbitrary = (value: string) => `border-x-stone-["${value}"]`;
+export const border_x_stone_arbitrary = (value: string) => `border-x-stone-[${value}]`;
 
 
 /**
@@ -30038,7 +30038,7 @@ export const border_x_stone_arbitrary = (value: string) => `border-x-stone-["${v
  *
  * @type utility
  */
-export const border_x_stone_arb = (value: string) => `border-x-stone-["${value}"]`;
+export const border_x_stone_arb = (value: string) => `border-x-stone-[${value}]`;
 
 
 /**
@@ -30050,7 +30050,7 @@ export const border_x_stone_arb = (value: string) => `border-x-stone-["${value}"
  *
  * @type utility
  */
-export const border_x_red_arbitrary = (value: string) => `border-x-red-["${value}"]`;
+export const border_x_red_arbitrary = (value: string) => `border-x-red-[${value}]`;
 
 
 /**
@@ -30062,7 +30062,7 @@ export const border_x_red_arbitrary = (value: string) => `border-x-red-["${value
  *
  * @type utility
  */
-export const border_x_red_arb = (value: string) => `border-x-red-["${value}"]`;
+export const border_x_red_arb = (value: string) => `border-x-red-[${value}]`;
 
 
 /**
@@ -30074,7 +30074,7 @@ export const border_x_red_arb = (value: string) => `border-x-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_x_orange_arbitrary = (value: string) => `border-x-orange-["${value}"]`;
+export const border_x_orange_arbitrary = (value: string) => `border-x-orange-[${value}]`;
 
 
 /**
@@ -30086,7 +30086,7 @@ export const border_x_orange_arbitrary = (value: string) => `border-x-orange-["$
  *
  * @type utility
  */
-export const border_x_orange_arb = (value: string) => `border-x-orange-["${value}"]`;
+export const border_x_orange_arb = (value: string) => `border-x-orange-[${value}]`;
 
 
 /**
@@ -30098,7 +30098,7 @@ export const border_x_orange_arb = (value: string) => `border-x-orange-["${value
  *
  * @type utility
  */
-export const border_x_amber_arbitrary = (value: string) => `border-x-amber-["${value}"]`;
+export const border_x_amber_arbitrary = (value: string) => `border-x-amber-[${value}]`;
 
 
 /**
@@ -30110,7 +30110,7 @@ export const border_x_amber_arbitrary = (value: string) => `border-x-amber-["${v
  *
  * @type utility
  */
-export const border_x_amber_arb = (value: string) => `border-x-amber-["${value}"]`;
+export const border_x_amber_arb = (value: string) => `border-x-amber-[${value}]`;
 
 
 /**
@@ -30122,7 +30122,7 @@ export const border_x_amber_arb = (value: string) => `border-x-amber-["${value}"
  *
  * @type utility
  */
-export const border_x_yellow_arbitrary = (value: string) => `border-x-yellow-["${value}"]`;
+export const border_x_yellow_arbitrary = (value: string) => `border-x-yellow-[${value}]`;
 
 
 /**
@@ -30134,7 +30134,7 @@ export const border_x_yellow_arbitrary = (value: string) => `border-x-yellow-["$
  *
  * @type utility
  */
-export const border_x_yellow_arb = (value: string) => `border-x-yellow-["${value}"]`;
+export const border_x_yellow_arb = (value: string) => `border-x-yellow-[${value}]`;
 
 
 /**
@@ -30146,7 +30146,7 @@ export const border_x_yellow_arb = (value: string) => `border-x-yellow-["${value
  *
  * @type utility
  */
-export const border_x_lime_arbitrary = (value: string) => `border-x-lime-["${value}"]`;
+export const border_x_lime_arbitrary = (value: string) => `border-x-lime-[${value}]`;
 
 
 /**
@@ -30158,7 +30158,7 @@ export const border_x_lime_arbitrary = (value: string) => `border-x-lime-["${val
  *
  * @type utility
  */
-export const border_x_lime_arb = (value: string) => `border-x-lime-["${value}"]`;
+export const border_x_lime_arb = (value: string) => `border-x-lime-[${value}]`;
 
 
 /**
@@ -30170,7 +30170,7 @@ export const border_x_lime_arb = (value: string) => `border-x-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_x_green_arbitrary = (value: string) => `border-x-green-["${value}"]`;
+export const border_x_green_arbitrary = (value: string) => `border-x-green-[${value}]`;
 
 
 /**
@@ -30182,7 +30182,7 @@ export const border_x_green_arbitrary = (value: string) => `border-x-green-["${v
  *
  * @type utility
  */
-export const border_x_green_arb = (value: string) => `border-x-green-["${value}"]`;
+export const border_x_green_arb = (value: string) => `border-x-green-[${value}]`;
 
 
 /**
@@ -30194,7 +30194,7 @@ export const border_x_green_arb = (value: string) => `border-x-green-["${value}"
  *
  * @type utility
  */
-export const border_x_emerald_arbitrary = (value: string) => `border-x-emerald-["${value}"]`;
+export const border_x_emerald_arbitrary = (value: string) => `border-x-emerald-[${value}]`;
 
 
 /**
@@ -30206,7 +30206,7 @@ export const border_x_emerald_arbitrary = (value: string) => `border-x-emerald-[
  *
  * @type utility
  */
-export const border_x_emerald_arb = (value: string) => `border-x-emerald-["${value}"]`;
+export const border_x_emerald_arb = (value: string) => `border-x-emerald-[${value}]`;
 
 
 /**
@@ -30218,7 +30218,7 @@ export const border_x_emerald_arb = (value: string) => `border-x-emerald-["${val
  *
  * @type utility
  */
-export const border_x_teal_arbitrary = (value: string) => `border-x-teal-["${value}"]`;
+export const border_x_teal_arbitrary = (value: string) => `border-x-teal-[${value}]`;
 
 
 /**
@@ -30230,7 +30230,7 @@ export const border_x_teal_arbitrary = (value: string) => `border-x-teal-["${val
  *
  * @type utility
  */
-export const border_x_teal_arb = (value: string) => `border-x-teal-["${value}"]`;
+export const border_x_teal_arb = (value: string) => `border-x-teal-[${value}]`;
 
 
 /**
@@ -30242,7 +30242,7 @@ export const border_x_teal_arb = (value: string) => `border-x-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_x_cyan_arbitrary = (value: string) => `border-x-cyan-["${value}"]`;
+export const border_x_cyan_arbitrary = (value: string) => `border-x-cyan-[${value}]`;
 
 
 /**
@@ -30254,7 +30254,7 @@ export const border_x_cyan_arbitrary = (value: string) => `border-x-cyan-["${val
  *
  * @type utility
  */
-export const border_x_cyan_arb = (value: string) => `border-x-cyan-["${value}"]`;
+export const border_x_cyan_arb = (value: string) => `border-x-cyan-[${value}]`;
 
 
 /**
@@ -30266,7 +30266,7 @@ export const border_x_cyan_arb = (value: string) => `border-x-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_x_sky_arbitrary = (value: string) => `border-x-sky-["${value}"]`;
+export const border_x_sky_arbitrary = (value: string) => `border-x-sky-[${value}]`;
 
 
 /**
@@ -30278,7 +30278,7 @@ export const border_x_sky_arbitrary = (value: string) => `border-x-sky-["${value
  *
  * @type utility
  */
-export const border_x_sky_arb = (value: string) => `border-x-sky-["${value}"]`;
+export const border_x_sky_arb = (value: string) => `border-x-sky-[${value}]`;
 
 
 /**
@@ -30290,7 +30290,7 @@ export const border_x_sky_arb = (value: string) => `border-x-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_x_blue_arbitrary = (value: string) => `border-x-blue-["${value}"]`;
+export const border_x_blue_arbitrary = (value: string) => `border-x-blue-[${value}]`;
 
 
 /**
@@ -30302,7 +30302,7 @@ export const border_x_blue_arbitrary = (value: string) => `border-x-blue-["${val
  *
  * @type utility
  */
-export const border_x_blue_arb = (value: string) => `border-x-blue-["${value}"]`;
+export const border_x_blue_arb = (value: string) => `border-x-blue-[${value}]`;
 
 
 /**
@@ -30314,7 +30314,7 @@ export const border_x_blue_arb = (value: string) => `border-x-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_x_indigo_arbitrary = (value: string) => `border-x-indigo-["${value}"]`;
+export const border_x_indigo_arbitrary = (value: string) => `border-x-indigo-[${value}]`;
 
 
 /**
@@ -30326,7 +30326,7 @@ export const border_x_indigo_arbitrary = (value: string) => `border-x-indigo-["$
  *
  * @type utility
  */
-export const border_x_indigo_arb = (value: string) => `border-x-indigo-["${value}"]`;
+export const border_x_indigo_arb = (value: string) => `border-x-indigo-[${value}]`;
 
 
 /**
@@ -30338,7 +30338,7 @@ export const border_x_indigo_arb = (value: string) => `border-x-indigo-["${value
  *
  * @type utility
  */
-export const border_x_violet_arbitrary = (value: string) => `border-x-violet-["${value}"]`;
+export const border_x_violet_arbitrary = (value: string) => `border-x-violet-[${value}]`;
 
 
 /**
@@ -30350,7 +30350,7 @@ export const border_x_violet_arbitrary = (value: string) => `border-x-violet-["$
  *
  * @type utility
  */
-export const border_x_violet_arb = (value: string) => `border-x-violet-["${value}"]`;
+export const border_x_violet_arb = (value: string) => `border-x-violet-[${value}]`;
 
 
 /**
@@ -30362,7 +30362,7 @@ export const border_x_violet_arb = (value: string) => `border-x-violet-["${value
  *
  * @type utility
  */
-export const border_x_purple_arbitrary = (value: string) => `border-x-purple-["${value}"]`;
+export const border_x_purple_arbitrary = (value: string) => `border-x-purple-[${value}]`;
 
 
 /**
@@ -30374,7 +30374,7 @@ export const border_x_purple_arbitrary = (value: string) => `border-x-purple-["$
  *
  * @type utility
  */
-export const border_x_purple_arb = (value: string) => `border-x-purple-["${value}"]`;
+export const border_x_purple_arb = (value: string) => `border-x-purple-[${value}]`;
 
 
 /**
@@ -30386,7 +30386,7 @@ export const border_x_purple_arb = (value: string) => `border-x-purple-["${value
  *
  * @type utility
  */
-export const border_x_fuchsia_arbitrary = (value: string) => `border-x-fuchsia-["${value}"]`;
+export const border_x_fuchsia_arbitrary = (value: string) => `border-x-fuchsia-[${value}]`;
 
 
 /**
@@ -30398,7 +30398,7 @@ export const border_x_fuchsia_arbitrary = (value: string) => `border-x-fuchsia-[
  *
  * @type utility
  */
-export const border_x_fuchsia_arb = (value: string) => `border-x-fuchsia-["${value}"]`;
+export const border_x_fuchsia_arb = (value: string) => `border-x-fuchsia-[${value}]`;
 
 
 /**
@@ -30410,7 +30410,7 @@ export const border_x_fuchsia_arb = (value: string) => `border-x-fuchsia-["${val
  *
  * @type utility
  */
-export const border_x_pink_arbitrary = (value: string) => `border-x-pink-["${value}"]`;
+export const border_x_pink_arbitrary = (value: string) => `border-x-pink-[${value}]`;
 
 
 /**
@@ -30422,7 +30422,7 @@ export const border_x_pink_arbitrary = (value: string) => `border-x-pink-["${val
  *
  * @type utility
  */
-export const border_x_pink_arb = (value: string) => `border-x-pink-["${value}"]`;
+export const border_x_pink_arb = (value: string) => `border-x-pink-[${value}]`;
 
 
 /**
@@ -30434,7 +30434,7 @@ export const border_x_pink_arb = (value: string) => `border-x-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_x_rose_arbitrary = (value: string) => `border-x-rose-["${value}"]`;
+export const border_x_rose_arbitrary = (value: string) => `border-x-rose-[${value}]`;
 
 
 /**
@@ -30446,7 +30446,7 @@ export const border_x_rose_arbitrary = (value: string) => `border-x-rose-["${val
  *
  * @type utility
  */
-export const border_x_rose_arb = (value: string) => `border-x-rose-["${value}"]`;
+export const border_x_rose_arb = (value: string) => `border-x-rose-[${value}]`;
 
 
 /**
@@ -30458,7 +30458,7 @@ export const border_x_rose_arb = (value: string) => `border-x-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_y_slate_arbitrary = (value: string) => `border-y-slate-["${value}"]`;
+export const border_y_slate_arbitrary = (value: string) => `border-y-slate-[${value}]`;
 
 
 /**
@@ -30470,7 +30470,7 @@ export const border_y_slate_arbitrary = (value: string) => `border-y-slate-["${v
  *
  * @type utility
  */
-export const border_y_slate_arb = (value: string) => `border-y-slate-["${value}"]`;
+export const border_y_slate_arb = (value: string) => `border-y-slate-[${value}]`;
 
 
 /**
@@ -30482,7 +30482,7 @@ export const border_y_slate_arb = (value: string) => `border-y-slate-["${value}"
  *
  * @type utility
  */
-export const border_y_gray_arbitrary = (value: string) => `border-y-gray-["${value}"]`;
+export const border_y_gray_arbitrary = (value: string) => `border-y-gray-[${value}]`;
 
 
 /**
@@ -30494,7 +30494,7 @@ export const border_y_gray_arbitrary = (value: string) => `border-y-gray-["${val
  *
  * @type utility
  */
-export const border_y_gray_arb = (value: string) => `border-y-gray-["${value}"]`;
+export const border_y_gray_arb = (value: string) => `border-y-gray-[${value}]`;
 
 
 /**
@@ -30506,7 +30506,7 @@ export const border_y_gray_arb = (value: string) => `border-y-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_y_zinc_arbitrary = (value: string) => `border-y-zinc-["${value}"]`;
+export const border_y_zinc_arbitrary = (value: string) => `border-y-zinc-[${value}]`;
 
 
 /**
@@ -30518,7 +30518,7 @@ export const border_y_zinc_arbitrary = (value: string) => `border-y-zinc-["${val
  *
  * @type utility
  */
-export const border_y_zinc_arb = (value: string) => `border-y-zinc-["${value}"]`;
+export const border_y_zinc_arb = (value: string) => `border-y-zinc-[${value}]`;
 
 
 /**
@@ -30530,7 +30530,7 @@ export const border_y_zinc_arb = (value: string) => `border-y-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_y_neutral_arbitrary = (value: string) => `border-y-neutral-["${value}"]`;
+export const border_y_neutral_arbitrary = (value: string) => `border-y-neutral-[${value}]`;
 
 
 /**
@@ -30542,7 +30542,7 @@ export const border_y_neutral_arbitrary = (value: string) => `border-y-neutral-[
  *
  * @type utility
  */
-export const border_y_neutral_arb = (value: string) => `border-y-neutral-["${value}"]`;
+export const border_y_neutral_arb = (value: string) => `border-y-neutral-[${value}]`;
 
 
 /**
@@ -30554,7 +30554,7 @@ export const border_y_neutral_arb = (value: string) => `border-y-neutral-["${val
  *
  * @type utility
  */
-export const border_y_stone_arbitrary = (value: string) => `border-y-stone-["${value}"]`;
+export const border_y_stone_arbitrary = (value: string) => `border-y-stone-[${value}]`;
 
 
 /**
@@ -30566,7 +30566,7 @@ export const border_y_stone_arbitrary = (value: string) => `border-y-stone-["${v
  *
  * @type utility
  */
-export const border_y_stone_arb = (value: string) => `border-y-stone-["${value}"]`;
+export const border_y_stone_arb = (value: string) => `border-y-stone-[${value}]`;
 
 
 /**
@@ -30578,7 +30578,7 @@ export const border_y_stone_arb = (value: string) => `border-y-stone-["${value}"
  *
  * @type utility
  */
-export const border_y_red_arbitrary = (value: string) => `border-y-red-["${value}"]`;
+export const border_y_red_arbitrary = (value: string) => `border-y-red-[${value}]`;
 
 
 /**
@@ -30590,7 +30590,7 @@ export const border_y_red_arbitrary = (value: string) => `border-y-red-["${value
  *
  * @type utility
  */
-export const border_y_red_arb = (value: string) => `border-y-red-["${value}"]`;
+export const border_y_red_arb = (value: string) => `border-y-red-[${value}]`;
 
 
 /**
@@ -30602,7 +30602,7 @@ export const border_y_red_arb = (value: string) => `border-y-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_y_orange_arbitrary = (value: string) => `border-y-orange-["${value}"]`;
+export const border_y_orange_arbitrary = (value: string) => `border-y-orange-[${value}]`;
 
 
 /**
@@ -30614,7 +30614,7 @@ export const border_y_orange_arbitrary = (value: string) => `border-y-orange-["$
  *
  * @type utility
  */
-export const border_y_orange_arb = (value: string) => `border-y-orange-["${value}"]`;
+export const border_y_orange_arb = (value: string) => `border-y-orange-[${value}]`;
 
 
 /**
@@ -30626,7 +30626,7 @@ export const border_y_orange_arb = (value: string) => `border-y-orange-["${value
  *
  * @type utility
  */
-export const border_y_amber_arbitrary = (value: string) => `border-y-amber-["${value}"]`;
+export const border_y_amber_arbitrary = (value: string) => `border-y-amber-[${value}]`;
 
 
 /**
@@ -30638,7 +30638,7 @@ export const border_y_amber_arbitrary = (value: string) => `border-y-amber-["${v
  *
  * @type utility
  */
-export const border_y_amber_arb = (value: string) => `border-y-amber-["${value}"]`;
+export const border_y_amber_arb = (value: string) => `border-y-amber-[${value}]`;
 
 
 /**
@@ -30650,7 +30650,7 @@ export const border_y_amber_arb = (value: string) => `border-y-amber-["${value}"
  *
  * @type utility
  */
-export const border_y_yellow_arbitrary = (value: string) => `border-y-yellow-["${value}"]`;
+export const border_y_yellow_arbitrary = (value: string) => `border-y-yellow-[${value}]`;
 
 
 /**
@@ -30662,7 +30662,7 @@ export const border_y_yellow_arbitrary = (value: string) => `border-y-yellow-["$
  *
  * @type utility
  */
-export const border_y_yellow_arb = (value: string) => `border-y-yellow-["${value}"]`;
+export const border_y_yellow_arb = (value: string) => `border-y-yellow-[${value}]`;
 
 
 /**
@@ -30674,7 +30674,7 @@ export const border_y_yellow_arb = (value: string) => `border-y-yellow-["${value
  *
  * @type utility
  */
-export const border_y_lime_arbitrary = (value: string) => `border-y-lime-["${value}"]`;
+export const border_y_lime_arbitrary = (value: string) => `border-y-lime-[${value}]`;
 
 
 /**
@@ -30686,7 +30686,7 @@ export const border_y_lime_arbitrary = (value: string) => `border-y-lime-["${val
  *
  * @type utility
  */
-export const border_y_lime_arb = (value: string) => `border-y-lime-["${value}"]`;
+export const border_y_lime_arb = (value: string) => `border-y-lime-[${value}]`;
 
 
 /**
@@ -30698,7 +30698,7 @@ export const border_y_lime_arb = (value: string) => `border-y-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_y_green_arbitrary = (value: string) => `border-y-green-["${value}"]`;
+export const border_y_green_arbitrary = (value: string) => `border-y-green-[${value}]`;
 
 
 /**
@@ -30710,7 +30710,7 @@ export const border_y_green_arbitrary = (value: string) => `border-y-green-["${v
  *
  * @type utility
  */
-export const border_y_green_arb = (value: string) => `border-y-green-["${value}"]`;
+export const border_y_green_arb = (value: string) => `border-y-green-[${value}]`;
 
 
 /**
@@ -30722,7 +30722,7 @@ export const border_y_green_arb = (value: string) => `border-y-green-["${value}"
  *
  * @type utility
  */
-export const border_y_emerald_arbitrary = (value: string) => `border-y-emerald-["${value}"]`;
+export const border_y_emerald_arbitrary = (value: string) => `border-y-emerald-[${value}]`;
 
 
 /**
@@ -30734,7 +30734,7 @@ export const border_y_emerald_arbitrary = (value: string) => `border-y-emerald-[
  *
  * @type utility
  */
-export const border_y_emerald_arb = (value: string) => `border-y-emerald-["${value}"]`;
+export const border_y_emerald_arb = (value: string) => `border-y-emerald-[${value}]`;
 
 
 /**
@@ -30746,7 +30746,7 @@ export const border_y_emerald_arb = (value: string) => `border-y-emerald-["${val
  *
  * @type utility
  */
-export const border_y_teal_arbitrary = (value: string) => `border-y-teal-["${value}"]`;
+export const border_y_teal_arbitrary = (value: string) => `border-y-teal-[${value}]`;
 
 
 /**
@@ -30758,7 +30758,7 @@ export const border_y_teal_arbitrary = (value: string) => `border-y-teal-["${val
  *
  * @type utility
  */
-export const border_y_teal_arb = (value: string) => `border-y-teal-["${value}"]`;
+export const border_y_teal_arb = (value: string) => `border-y-teal-[${value}]`;
 
 
 /**
@@ -30770,7 +30770,7 @@ export const border_y_teal_arb = (value: string) => `border-y-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_y_cyan_arbitrary = (value: string) => `border-y-cyan-["${value}"]`;
+export const border_y_cyan_arbitrary = (value: string) => `border-y-cyan-[${value}]`;
 
 
 /**
@@ -30782,7 +30782,7 @@ export const border_y_cyan_arbitrary = (value: string) => `border-y-cyan-["${val
  *
  * @type utility
  */
-export const border_y_cyan_arb = (value: string) => `border-y-cyan-["${value}"]`;
+export const border_y_cyan_arb = (value: string) => `border-y-cyan-[${value}]`;
 
 
 /**
@@ -30794,7 +30794,7 @@ export const border_y_cyan_arb = (value: string) => `border-y-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_y_sky_arbitrary = (value: string) => `border-y-sky-["${value}"]`;
+export const border_y_sky_arbitrary = (value: string) => `border-y-sky-[${value}]`;
 
 
 /**
@@ -30806,7 +30806,7 @@ export const border_y_sky_arbitrary = (value: string) => `border-y-sky-["${value
  *
  * @type utility
  */
-export const border_y_sky_arb = (value: string) => `border-y-sky-["${value}"]`;
+export const border_y_sky_arb = (value: string) => `border-y-sky-[${value}]`;
 
 
 /**
@@ -30818,7 +30818,7 @@ export const border_y_sky_arb = (value: string) => `border-y-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_y_blue_arbitrary = (value: string) => `border-y-blue-["${value}"]`;
+export const border_y_blue_arbitrary = (value: string) => `border-y-blue-[${value}]`;
 
 
 /**
@@ -30830,7 +30830,7 @@ export const border_y_blue_arbitrary = (value: string) => `border-y-blue-["${val
  *
  * @type utility
  */
-export const border_y_blue_arb = (value: string) => `border-y-blue-["${value}"]`;
+export const border_y_blue_arb = (value: string) => `border-y-blue-[${value}]`;
 
 
 /**
@@ -30842,7 +30842,7 @@ export const border_y_blue_arb = (value: string) => `border-y-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_y_indigo_arbitrary = (value: string) => `border-y-indigo-["${value}"]`;
+export const border_y_indigo_arbitrary = (value: string) => `border-y-indigo-[${value}]`;
 
 
 /**
@@ -30854,7 +30854,7 @@ export const border_y_indigo_arbitrary = (value: string) => `border-y-indigo-["$
  *
  * @type utility
  */
-export const border_y_indigo_arb = (value: string) => `border-y-indigo-["${value}"]`;
+export const border_y_indigo_arb = (value: string) => `border-y-indigo-[${value}]`;
 
 
 /**
@@ -30866,7 +30866,7 @@ export const border_y_indigo_arb = (value: string) => `border-y-indigo-["${value
  *
  * @type utility
  */
-export const border_y_violet_arbitrary = (value: string) => `border-y-violet-["${value}"]`;
+export const border_y_violet_arbitrary = (value: string) => `border-y-violet-[${value}]`;
 
 
 /**
@@ -30878,7 +30878,7 @@ export const border_y_violet_arbitrary = (value: string) => `border-y-violet-["$
  *
  * @type utility
  */
-export const border_y_violet_arb = (value: string) => `border-y-violet-["${value}"]`;
+export const border_y_violet_arb = (value: string) => `border-y-violet-[${value}]`;
 
 
 /**
@@ -30890,7 +30890,7 @@ export const border_y_violet_arb = (value: string) => `border-y-violet-["${value
  *
  * @type utility
  */
-export const border_y_purple_arbitrary = (value: string) => `border-y-purple-["${value}"]`;
+export const border_y_purple_arbitrary = (value: string) => `border-y-purple-[${value}]`;
 
 
 /**
@@ -30902,7 +30902,7 @@ export const border_y_purple_arbitrary = (value: string) => `border-y-purple-["$
  *
  * @type utility
  */
-export const border_y_purple_arb = (value: string) => `border-y-purple-["${value}"]`;
+export const border_y_purple_arb = (value: string) => `border-y-purple-[${value}]`;
 
 
 /**
@@ -30914,7 +30914,7 @@ export const border_y_purple_arb = (value: string) => `border-y-purple-["${value
  *
  * @type utility
  */
-export const border_y_fuchsia_arbitrary = (value: string) => `border-y-fuchsia-["${value}"]`;
+export const border_y_fuchsia_arbitrary = (value: string) => `border-y-fuchsia-[${value}]`;
 
 
 /**
@@ -30926,7 +30926,7 @@ export const border_y_fuchsia_arbitrary = (value: string) => `border-y-fuchsia-[
  *
  * @type utility
  */
-export const border_y_fuchsia_arb = (value: string) => `border-y-fuchsia-["${value}"]`;
+export const border_y_fuchsia_arb = (value: string) => `border-y-fuchsia-[${value}]`;
 
 
 /**
@@ -30938,7 +30938,7 @@ export const border_y_fuchsia_arb = (value: string) => `border-y-fuchsia-["${val
  *
  * @type utility
  */
-export const border_y_pink_arbitrary = (value: string) => `border-y-pink-["${value}"]`;
+export const border_y_pink_arbitrary = (value: string) => `border-y-pink-[${value}]`;
 
 
 /**
@@ -30950,7 +30950,7 @@ export const border_y_pink_arbitrary = (value: string) => `border-y-pink-["${val
  *
  * @type utility
  */
-export const border_y_pink_arb = (value: string) => `border-y-pink-["${value}"]`;
+export const border_y_pink_arb = (value: string) => `border-y-pink-[${value}]`;
 
 
 /**
@@ -30962,7 +30962,7 @@ export const border_y_pink_arb = (value: string) => `border-y-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_y_rose_arbitrary = (value: string) => `border-y-rose-["${value}"]`;
+export const border_y_rose_arbitrary = (value: string) => `border-y-rose-[${value}]`;
 
 
 /**
@@ -30974,7 +30974,7 @@ export const border_y_rose_arbitrary = (value: string) => `border-y-rose-["${val
  *
  * @type utility
  */
-export const border_y_rose_arb = (value: string) => `border-y-rose-["${value}"]`;
+export const border_y_rose_arb = (value: string) => `border-y-rose-[${value}]`;
 
 
 /**
@@ -30986,7 +30986,7 @@ export const border_y_rose_arb = (value: string) => `border-y-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_s_slate_arbitrary = (value: string) => `border-s-slate-["${value}"]`;
+export const border_s_slate_arbitrary = (value: string) => `border-s-slate-[${value}]`;
 
 
 /**
@@ -30998,7 +30998,7 @@ export const border_s_slate_arbitrary = (value: string) => `border-s-slate-["${v
  *
  * @type utility
  */
-export const border_s_slate_arb = (value: string) => `border-s-slate-["${value}"]`;
+export const border_s_slate_arb = (value: string) => `border-s-slate-[${value}]`;
 
 
 /**
@@ -31010,7 +31010,7 @@ export const border_s_slate_arb = (value: string) => `border-s-slate-["${value}"
  *
  * @type utility
  */
-export const border_s_gray_arbitrary = (value: string) => `border-s-gray-["${value}"]`;
+export const border_s_gray_arbitrary = (value: string) => `border-s-gray-[${value}]`;
 
 
 /**
@@ -31022,7 +31022,7 @@ export const border_s_gray_arbitrary = (value: string) => `border-s-gray-["${val
  *
  * @type utility
  */
-export const border_s_gray_arb = (value: string) => `border-s-gray-["${value}"]`;
+export const border_s_gray_arb = (value: string) => `border-s-gray-[${value}]`;
 
 
 /**
@@ -31034,7 +31034,7 @@ export const border_s_gray_arb = (value: string) => `border-s-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_s_zinc_arbitrary = (value: string) => `border-s-zinc-["${value}"]`;
+export const border_s_zinc_arbitrary = (value: string) => `border-s-zinc-[${value}]`;
 
 
 /**
@@ -31046,7 +31046,7 @@ export const border_s_zinc_arbitrary = (value: string) => `border-s-zinc-["${val
  *
  * @type utility
  */
-export const border_s_zinc_arb = (value: string) => `border-s-zinc-["${value}"]`;
+export const border_s_zinc_arb = (value: string) => `border-s-zinc-[${value}]`;
 
 
 /**
@@ -31058,7 +31058,7 @@ export const border_s_zinc_arb = (value: string) => `border-s-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_s_neutral_arbitrary = (value: string) => `border-s-neutral-["${value}"]`;
+export const border_s_neutral_arbitrary = (value: string) => `border-s-neutral-[${value}]`;
 
 
 /**
@@ -31070,7 +31070,7 @@ export const border_s_neutral_arbitrary = (value: string) => `border-s-neutral-[
  *
  * @type utility
  */
-export const border_s_neutral_arb = (value: string) => `border-s-neutral-["${value}"]`;
+export const border_s_neutral_arb = (value: string) => `border-s-neutral-[${value}]`;
 
 
 /**
@@ -31082,7 +31082,7 @@ export const border_s_neutral_arb = (value: string) => `border-s-neutral-["${val
  *
  * @type utility
  */
-export const border_s_stone_arbitrary = (value: string) => `border-s-stone-["${value}"]`;
+export const border_s_stone_arbitrary = (value: string) => `border-s-stone-[${value}]`;
 
 
 /**
@@ -31094,7 +31094,7 @@ export const border_s_stone_arbitrary = (value: string) => `border-s-stone-["${v
  *
  * @type utility
  */
-export const border_s_stone_arb = (value: string) => `border-s-stone-["${value}"]`;
+export const border_s_stone_arb = (value: string) => `border-s-stone-[${value}]`;
 
 
 /**
@@ -31106,7 +31106,7 @@ export const border_s_stone_arb = (value: string) => `border-s-stone-["${value}"
  *
  * @type utility
  */
-export const border_s_red_arbitrary = (value: string) => `border-s-red-["${value}"]`;
+export const border_s_red_arbitrary = (value: string) => `border-s-red-[${value}]`;
 
 
 /**
@@ -31118,7 +31118,7 @@ export const border_s_red_arbitrary = (value: string) => `border-s-red-["${value
  *
  * @type utility
  */
-export const border_s_red_arb = (value: string) => `border-s-red-["${value}"]`;
+export const border_s_red_arb = (value: string) => `border-s-red-[${value}]`;
 
 
 /**
@@ -31130,7 +31130,7 @@ export const border_s_red_arb = (value: string) => `border-s-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_s_orange_arbitrary = (value: string) => `border-s-orange-["${value}"]`;
+export const border_s_orange_arbitrary = (value: string) => `border-s-orange-[${value}]`;
 
 
 /**
@@ -31142,7 +31142,7 @@ export const border_s_orange_arbitrary = (value: string) => `border-s-orange-["$
  *
  * @type utility
  */
-export const border_s_orange_arb = (value: string) => `border-s-orange-["${value}"]`;
+export const border_s_orange_arb = (value: string) => `border-s-orange-[${value}]`;
 
 
 /**
@@ -31154,7 +31154,7 @@ export const border_s_orange_arb = (value: string) => `border-s-orange-["${value
  *
  * @type utility
  */
-export const border_s_amber_arbitrary = (value: string) => `border-s-amber-["${value}"]`;
+export const border_s_amber_arbitrary = (value: string) => `border-s-amber-[${value}]`;
 
 
 /**
@@ -31166,7 +31166,7 @@ export const border_s_amber_arbitrary = (value: string) => `border-s-amber-["${v
  *
  * @type utility
  */
-export const border_s_amber_arb = (value: string) => `border-s-amber-["${value}"]`;
+export const border_s_amber_arb = (value: string) => `border-s-amber-[${value}]`;
 
 
 /**
@@ -31178,7 +31178,7 @@ export const border_s_amber_arb = (value: string) => `border-s-amber-["${value}"
  *
  * @type utility
  */
-export const border_s_yellow_arbitrary = (value: string) => `border-s-yellow-["${value}"]`;
+export const border_s_yellow_arbitrary = (value: string) => `border-s-yellow-[${value}]`;
 
 
 /**
@@ -31190,7 +31190,7 @@ export const border_s_yellow_arbitrary = (value: string) => `border-s-yellow-["$
  *
  * @type utility
  */
-export const border_s_yellow_arb = (value: string) => `border-s-yellow-["${value}"]`;
+export const border_s_yellow_arb = (value: string) => `border-s-yellow-[${value}]`;
 
 
 /**
@@ -31202,7 +31202,7 @@ export const border_s_yellow_arb = (value: string) => `border-s-yellow-["${value
  *
  * @type utility
  */
-export const border_s_lime_arbitrary = (value: string) => `border-s-lime-["${value}"]`;
+export const border_s_lime_arbitrary = (value: string) => `border-s-lime-[${value}]`;
 
 
 /**
@@ -31214,7 +31214,7 @@ export const border_s_lime_arbitrary = (value: string) => `border-s-lime-["${val
  *
  * @type utility
  */
-export const border_s_lime_arb = (value: string) => `border-s-lime-["${value}"]`;
+export const border_s_lime_arb = (value: string) => `border-s-lime-[${value}]`;
 
 
 /**
@@ -31226,7 +31226,7 @@ export const border_s_lime_arb = (value: string) => `border-s-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_s_green_arbitrary = (value: string) => `border-s-green-["${value}"]`;
+export const border_s_green_arbitrary = (value: string) => `border-s-green-[${value}]`;
 
 
 /**
@@ -31238,7 +31238,7 @@ export const border_s_green_arbitrary = (value: string) => `border-s-green-["${v
  *
  * @type utility
  */
-export const border_s_green_arb = (value: string) => `border-s-green-["${value}"]`;
+export const border_s_green_arb = (value: string) => `border-s-green-[${value}]`;
 
 
 /**
@@ -31250,7 +31250,7 @@ export const border_s_green_arb = (value: string) => `border-s-green-["${value}"
  *
  * @type utility
  */
-export const border_s_emerald_arbitrary = (value: string) => `border-s-emerald-["${value}"]`;
+export const border_s_emerald_arbitrary = (value: string) => `border-s-emerald-[${value}]`;
 
 
 /**
@@ -31262,7 +31262,7 @@ export const border_s_emerald_arbitrary = (value: string) => `border-s-emerald-[
  *
  * @type utility
  */
-export const border_s_emerald_arb = (value: string) => `border-s-emerald-["${value}"]`;
+export const border_s_emerald_arb = (value: string) => `border-s-emerald-[${value}]`;
 
 
 /**
@@ -31274,7 +31274,7 @@ export const border_s_emerald_arb = (value: string) => `border-s-emerald-["${val
  *
  * @type utility
  */
-export const border_s_teal_arbitrary = (value: string) => `border-s-teal-["${value}"]`;
+export const border_s_teal_arbitrary = (value: string) => `border-s-teal-[${value}]`;
 
 
 /**
@@ -31286,7 +31286,7 @@ export const border_s_teal_arbitrary = (value: string) => `border-s-teal-["${val
  *
  * @type utility
  */
-export const border_s_teal_arb = (value: string) => `border-s-teal-["${value}"]`;
+export const border_s_teal_arb = (value: string) => `border-s-teal-[${value}]`;
 
 
 /**
@@ -31298,7 +31298,7 @@ export const border_s_teal_arb = (value: string) => `border-s-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_s_cyan_arbitrary = (value: string) => `border-s-cyan-["${value}"]`;
+export const border_s_cyan_arbitrary = (value: string) => `border-s-cyan-[${value}]`;
 
 
 /**
@@ -31310,7 +31310,7 @@ export const border_s_cyan_arbitrary = (value: string) => `border-s-cyan-["${val
  *
  * @type utility
  */
-export const border_s_cyan_arb = (value: string) => `border-s-cyan-["${value}"]`;
+export const border_s_cyan_arb = (value: string) => `border-s-cyan-[${value}]`;
 
 
 /**
@@ -31322,7 +31322,7 @@ export const border_s_cyan_arb = (value: string) => `border-s-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_s_sky_arbitrary = (value: string) => `border-s-sky-["${value}"]`;
+export const border_s_sky_arbitrary = (value: string) => `border-s-sky-[${value}]`;
 
 
 /**
@@ -31334,7 +31334,7 @@ export const border_s_sky_arbitrary = (value: string) => `border-s-sky-["${value
  *
  * @type utility
  */
-export const border_s_sky_arb = (value: string) => `border-s-sky-["${value}"]`;
+export const border_s_sky_arb = (value: string) => `border-s-sky-[${value}]`;
 
 
 /**
@@ -31346,7 +31346,7 @@ export const border_s_sky_arb = (value: string) => `border-s-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_s_blue_arbitrary = (value: string) => `border-s-blue-["${value}"]`;
+export const border_s_blue_arbitrary = (value: string) => `border-s-blue-[${value}]`;
 
 
 /**
@@ -31358,7 +31358,7 @@ export const border_s_blue_arbitrary = (value: string) => `border-s-blue-["${val
  *
  * @type utility
  */
-export const border_s_blue_arb = (value: string) => `border-s-blue-["${value}"]`;
+export const border_s_blue_arb = (value: string) => `border-s-blue-[${value}]`;
 
 
 /**
@@ -31370,7 +31370,7 @@ export const border_s_blue_arb = (value: string) => `border-s-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_s_indigo_arbitrary = (value: string) => `border-s-indigo-["${value}"]`;
+export const border_s_indigo_arbitrary = (value: string) => `border-s-indigo-[${value}]`;
 
 
 /**
@@ -31382,7 +31382,7 @@ export const border_s_indigo_arbitrary = (value: string) => `border-s-indigo-["$
  *
  * @type utility
  */
-export const border_s_indigo_arb = (value: string) => `border-s-indigo-["${value}"]`;
+export const border_s_indigo_arb = (value: string) => `border-s-indigo-[${value}]`;
 
 
 /**
@@ -31394,7 +31394,7 @@ export const border_s_indigo_arb = (value: string) => `border-s-indigo-["${value
  *
  * @type utility
  */
-export const border_s_violet_arbitrary = (value: string) => `border-s-violet-["${value}"]`;
+export const border_s_violet_arbitrary = (value: string) => `border-s-violet-[${value}]`;
 
 
 /**
@@ -31406,7 +31406,7 @@ export const border_s_violet_arbitrary = (value: string) => `border-s-violet-["$
  *
  * @type utility
  */
-export const border_s_violet_arb = (value: string) => `border-s-violet-["${value}"]`;
+export const border_s_violet_arb = (value: string) => `border-s-violet-[${value}]`;
 
 
 /**
@@ -31418,7 +31418,7 @@ export const border_s_violet_arb = (value: string) => `border-s-violet-["${value
  *
  * @type utility
  */
-export const border_s_purple_arbitrary = (value: string) => `border-s-purple-["${value}"]`;
+export const border_s_purple_arbitrary = (value: string) => `border-s-purple-[${value}]`;
 
 
 /**
@@ -31430,7 +31430,7 @@ export const border_s_purple_arbitrary = (value: string) => `border-s-purple-["$
  *
  * @type utility
  */
-export const border_s_purple_arb = (value: string) => `border-s-purple-["${value}"]`;
+export const border_s_purple_arb = (value: string) => `border-s-purple-[${value}]`;
 
 
 /**
@@ -31442,7 +31442,7 @@ export const border_s_purple_arb = (value: string) => `border-s-purple-["${value
  *
  * @type utility
  */
-export const border_s_fuchsia_arbitrary = (value: string) => `border-s-fuchsia-["${value}"]`;
+export const border_s_fuchsia_arbitrary = (value: string) => `border-s-fuchsia-[${value}]`;
 
 
 /**
@@ -31454,7 +31454,7 @@ export const border_s_fuchsia_arbitrary = (value: string) => `border-s-fuchsia-[
  *
  * @type utility
  */
-export const border_s_fuchsia_arb = (value: string) => `border-s-fuchsia-["${value}"]`;
+export const border_s_fuchsia_arb = (value: string) => `border-s-fuchsia-[${value}]`;
 
 
 /**
@@ -31466,7 +31466,7 @@ export const border_s_fuchsia_arb = (value: string) => `border-s-fuchsia-["${val
  *
  * @type utility
  */
-export const border_s_pink_arbitrary = (value: string) => `border-s-pink-["${value}"]`;
+export const border_s_pink_arbitrary = (value: string) => `border-s-pink-[${value}]`;
 
 
 /**
@@ -31478,7 +31478,7 @@ export const border_s_pink_arbitrary = (value: string) => `border-s-pink-["${val
  *
  * @type utility
  */
-export const border_s_pink_arb = (value: string) => `border-s-pink-["${value}"]`;
+export const border_s_pink_arb = (value: string) => `border-s-pink-[${value}]`;
 
 
 /**
@@ -31490,7 +31490,7 @@ export const border_s_pink_arb = (value: string) => `border-s-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_s_rose_arbitrary = (value: string) => `border-s-rose-["${value}"]`;
+export const border_s_rose_arbitrary = (value: string) => `border-s-rose-[${value}]`;
 
 
 /**
@@ -31502,7 +31502,7 @@ export const border_s_rose_arbitrary = (value: string) => `border-s-rose-["${val
  *
  * @type utility
  */
-export const border_s_rose_arb = (value: string) => `border-s-rose-["${value}"]`;
+export const border_s_rose_arb = (value: string) => `border-s-rose-[${value}]`;
 
 
 /**
@@ -31514,7 +31514,7 @@ export const border_s_rose_arb = (value: string) => `border-s-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_e_slate_arbitrary = (value: string) => `border-e-slate-["${value}"]`;
+export const border_e_slate_arbitrary = (value: string) => `border-e-slate-[${value}]`;
 
 
 /**
@@ -31526,7 +31526,7 @@ export const border_e_slate_arbitrary = (value: string) => `border-e-slate-["${v
  *
  * @type utility
  */
-export const border_e_slate_arb = (value: string) => `border-e-slate-["${value}"]`;
+export const border_e_slate_arb = (value: string) => `border-e-slate-[${value}]`;
 
 
 /**
@@ -31538,7 +31538,7 @@ export const border_e_slate_arb = (value: string) => `border-e-slate-["${value}"
  *
  * @type utility
  */
-export const border_e_gray_arbitrary = (value: string) => `border-e-gray-["${value}"]`;
+export const border_e_gray_arbitrary = (value: string) => `border-e-gray-[${value}]`;
 
 
 /**
@@ -31550,7 +31550,7 @@ export const border_e_gray_arbitrary = (value: string) => `border-e-gray-["${val
  *
  * @type utility
  */
-export const border_e_gray_arb = (value: string) => `border-e-gray-["${value}"]`;
+export const border_e_gray_arb = (value: string) => `border-e-gray-[${value}]`;
 
 
 /**
@@ -31562,7 +31562,7 @@ export const border_e_gray_arb = (value: string) => `border-e-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_e_zinc_arbitrary = (value: string) => `border-e-zinc-["${value}"]`;
+export const border_e_zinc_arbitrary = (value: string) => `border-e-zinc-[${value}]`;
 
 
 /**
@@ -31574,7 +31574,7 @@ export const border_e_zinc_arbitrary = (value: string) => `border-e-zinc-["${val
  *
  * @type utility
  */
-export const border_e_zinc_arb = (value: string) => `border-e-zinc-["${value}"]`;
+export const border_e_zinc_arb = (value: string) => `border-e-zinc-[${value}]`;
 
 
 /**
@@ -31586,7 +31586,7 @@ export const border_e_zinc_arb = (value: string) => `border-e-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_e_neutral_arbitrary = (value: string) => `border-e-neutral-["${value}"]`;
+export const border_e_neutral_arbitrary = (value: string) => `border-e-neutral-[${value}]`;
 
 
 /**
@@ -31598,7 +31598,7 @@ export const border_e_neutral_arbitrary = (value: string) => `border-e-neutral-[
  *
  * @type utility
  */
-export const border_e_neutral_arb = (value: string) => `border-e-neutral-["${value}"]`;
+export const border_e_neutral_arb = (value: string) => `border-e-neutral-[${value}]`;
 
 
 /**
@@ -31610,7 +31610,7 @@ export const border_e_neutral_arb = (value: string) => `border-e-neutral-["${val
  *
  * @type utility
  */
-export const border_e_stone_arbitrary = (value: string) => `border-e-stone-["${value}"]`;
+export const border_e_stone_arbitrary = (value: string) => `border-e-stone-[${value}]`;
 
 
 /**
@@ -31622,7 +31622,7 @@ export const border_e_stone_arbitrary = (value: string) => `border-e-stone-["${v
  *
  * @type utility
  */
-export const border_e_stone_arb = (value: string) => `border-e-stone-["${value}"]`;
+export const border_e_stone_arb = (value: string) => `border-e-stone-[${value}]`;
 
 
 /**
@@ -31634,7 +31634,7 @@ export const border_e_stone_arb = (value: string) => `border-e-stone-["${value}"
  *
  * @type utility
  */
-export const border_e_red_arbitrary = (value: string) => `border-e-red-["${value}"]`;
+export const border_e_red_arbitrary = (value: string) => `border-e-red-[${value}]`;
 
 
 /**
@@ -31646,7 +31646,7 @@ export const border_e_red_arbitrary = (value: string) => `border-e-red-["${value
  *
  * @type utility
  */
-export const border_e_red_arb = (value: string) => `border-e-red-["${value}"]`;
+export const border_e_red_arb = (value: string) => `border-e-red-[${value}]`;
 
 
 /**
@@ -31658,7 +31658,7 @@ export const border_e_red_arb = (value: string) => `border-e-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_e_orange_arbitrary = (value: string) => `border-e-orange-["${value}"]`;
+export const border_e_orange_arbitrary = (value: string) => `border-e-orange-[${value}]`;
 
 
 /**
@@ -31670,7 +31670,7 @@ export const border_e_orange_arbitrary = (value: string) => `border-e-orange-["$
  *
  * @type utility
  */
-export const border_e_orange_arb = (value: string) => `border-e-orange-["${value}"]`;
+export const border_e_orange_arb = (value: string) => `border-e-orange-[${value}]`;
 
 
 /**
@@ -31682,7 +31682,7 @@ export const border_e_orange_arb = (value: string) => `border-e-orange-["${value
  *
  * @type utility
  */
-export const border_e_amber_arbitrary = (value: string) => `border-e-amber-["${value}"]`;
+export const border_e_amber_arbitrary = (value: string) => `border-e-amber-[${value}]`;
 
 
 /**
@@ -31694,7 +31694,7 @@ export const border_e_amber_arbitrary = (value: string) => `border-e-amber-["${v
  *
  * @type utility
  */
-export const border_e_amber_arb = (value: string) => `border-e-amber-["${value}"]`;
+export const border_e_amber_arb = (value: string) => `border-e-amber-[${value}]`;
 
 
 /**
@@ -31706,7 +31706,7 @@ export const border_e_amber_arb = (value: string) => `border-e-amber-["${value}"
  *
  * @type utility
  */
-export const border_e_yellow_arbitrary = (value: string) => `border-e-yellow-["${value}"]`;
+export const border_e_yellow_arbitrary = (value: string) => `border-e-yellow-[${value}]`;
 
 
 /**
@@ -31718,7 +31718,7 @@ export const border_e_yellow_arbitrary = (value: string) => `border-e-yellow-["$
  *
  * @type utility
  */
-export const border_e_yellow_arb = (value: string) => `border-e-yellow-["${value}"]`;
+export const border_e_yellow_arb = (value: string) => `border-e-yellow-[${value}]`;
 
 
 /**
@@ -31730,7 +31730,7 @@ export const border_e_yellow_arb = (value: string) => `border-e-yellow-["${value
  *
  * @type utility
  */
-export const border_e_lime_arbitrary = (value: string) => `border-e-lime-["${value}"]`;
+export const border_e_lime_arbitrary = (value: string) => `border-e-lime-[${value}]`;
 
 
 /**
@@ -31742,7 +31742,7 @@ export const border_e_lime_arbitrary = (value: string) => `border-e-lime-["${val
  *
  * @type utility
  */
-export const border_e_lime_arb = (value: string) => `border-e-lime-["${value}"]`;
+export const border_e_lime_arb = (value: string) => `border-e-lime-[${value}]`;
 
 
 /**
@@ -31754,7 +31754,7 @@ export const border_e_lime_arb = (value: string) => `border-e-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_e_green_arbitrary = (value: string) => `border-e-green-["${value}"]`;
+export const border_e_green_arbitrary = (value: string) => `border-e-green-[${value}]`;
 
 
 /**
@@ -31766,7 +31766,7 @@ export const border_e_green_arbitrary = (value: string) => `border-e-green-["${v
  *
  * @type utility
  */
-export const border_e_green_arb = (value: string) => `border-e-green-["${value}"]`;
+export const border_e_green_arb = (value: string) => `border-e-green-[${value}]`;
 
 
 /**
@@ -31778,7 +31778,7 @@ export const border_e_green_arb = (value: string) => `border-e-green-["${value}"
  *
  * @type utility
  */
-export const border_e_emerald_arbitrary = (value: string) => `border-e-emerald-["${value}"]`;
+export const border_e_emerald_arbitrary = (value: string) => `border-e-emerald-[${value}]`;
 
 
 /**
@@ -31790,7 +31790,7 @@ export const border_e_emerald_arbitrary = (value: string) => `border-e-emerald-[
  *
  * @type utility
  */
-export const border_e_emerald_arb = (value: string) => `border-e-emerald-["${value}"]`;
+export const border_e_emerald_arb = (value: string) => `border-e-emerald-[${value}]`;
 
 
 /**
@@ -31802,7 +31802,7 @@ export const border_e_emerald_arb = (value: string) => `border-e-emerald-["${val
  *
  * @type utility
  */
-export const border_e_teal_arbitrary = (value: string) => `border-e-teal-["${value}"]`;
+export const border_e_teal_arbitrary = (value: string) => `border-e-teal-[${value}]`;
 
 
 /**
@@ -31814,7 +31814,7 @@ export const border_e_teal_arbitrary = (value: string) => `border-e-teal-["${val
  *
  * @type utility
  */
-export const border_e_teal_arb = (value: string) => `border-e-teal-["${value}"]`;
+export const border_e_teal_arb = (value: string) => `border-e-teal-[${value}]`;
 
 
 /**
@@ -31826,7 +31826,7 @@ export const border_e_teal_arb = (value: string) => `border-e-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_e_cyan_arbitrary = (value: string) => `border-e-cyan-["${value}"]`;
+export const border_e_cyan_arbitrary = (value: string) => `border-e-cyan-[${value}]`;
 
 
 /**
@@ -31838,7 +31838,7 @@ export const border_e_cyan_arbitrary = (value: string) => `border-e-cyan-["${val
  *
  * @type utility
  */
-export const border_e_cyan_arb = (value: string) => `border-e-cyan-["${value}"]`;
+export const border_e_cyan_arb = (value: string) => `border-e-cyan-[${value}]`;
 
 
 /**
@@ -31850,7 +31850,7 @@ export const border_e_cyan_arb = (value: string) => `border-e-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_e_sky_arbitrary = (value: string) => `border-e-sky-["${value}"]`;
+export const border_e_sky_arbitrary = (value: string) => `border-e-sky-[${value}]`;
 
 
 /**
@@ -31862,7 +31862,7 @@ export const border_e_sky_arbitrary = (value: string) => `border-e-sky-["${value
  *
  * @type utility
  */
-export const border_e_sky_arb = (value: string) => `border-e-sky-["${value}"]`;
+export const border_e_sky_arb = (value: string) => `border-e-sky-[${value}]`;
 
 
 /**
@@ -31874,7 +31874,7 @@ export const border_e_sky_arb = (value: string) => `border-e-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_e_blue_arbitrary = (value: string) => `border-e-blue-["${value}"]`;
+export const border_e_blue_arbitrary = (value: string) => `border-e-blue-[${value}]`;
 
 
 /**
@@ -31886,7 +31886,7 @@ export const border_e_blue_arbitrary = (value: string) => `border-e-blue-["${val
  *
  * @type utility
  */
-export const border_e_blue_arb = (value: string) => `border-e-blue-["${value}"]`;
+export const border_e_blue_arb = (value: string) => `border-e-blue-[${value}]`;
 
 
 /**
@@ -31898,7 +31898,7 @@ export const border_e_blue_arb = (value: string) => `border-e-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_e_indigo_arbitrary = (value: string) => `border-e-indigo-["${value}"]`;
+export const border_e_indigo_arbitrary = (value: string) => `border-e-indigo-[${value}]`;
 
 
 /**
@@ -31910,7 +31910,7 @@ export const border_e_indigo_arbitrary = (value: string) => `border-e-indigo-["$
  *
  * @type utility
  */
-export const border_e_indigo_arb = (value: string) => `border-e-indigo-["${value}"]`;
+export const border_e_indigo_arb = (value: string) => `border-e-indigo-[${value}]`;
 
 
 /**
@@ -31922,7 +31922,7 @@ export const border_e_indigo_arb = (value: string) => `border-e-indigo-["${value
  *
  * @type utility
  */
-export const border_e_violet_arbitrary = (value: string) => `border-e-violet-["${value}"]`;
+export const border_e_violet_arbitrary = (value: string) => `border-e-violet-[${value}]`;
 
 
 /**
@@ -31934,7 +31934,7 @@ export const border_e_violet_arbitrary = (value: string) => `border-e-violet-["$
  *
  * @type utility
  */
-export const border_e_violet_arb = (value: string) => `border-e-violet-["${value}"]`;
+export const border_e_violet_arb = (value: string) => `border-e-violet-[${value}]`;
 
 
 /**
@@ -31946,7 +31946,7 @@ export const border_e_violet_arb = (value: string) => `border-e-violet-["${value
  *
  * @type utility
  */
-export const border_e_purple_arbitrary = (value: string) => `border-e-purple-["${value}"]`;
+export const border_e_purple_arbitrary = (value: string) => `border-e-purple-[${value}]`;
 
 
 /**
@@ -31958,7 +31958,7 @@ export const border_e_purple_arbitrary = (value: string) => `border-e-purple-["$
  *
  * @type utility
  */
-export const border_e_purple_arb = (value: string) => `border-e-purple-["${value}"]`;
+export const border_e_purple_arb = (value: string) => `border-e-purple-[${value}]`;
 
 
 /**
@@ -31970,7 +31970,7 @@ export const border_e_purple_arb = (value: string) => `border-e-purple-["${value
  *
  * @type utility
  */
-export const border_e_fuchsia_arbitrary = (value: string) => `border-e-fuchsia-["${value}"]`;
+export const border_e_fuchsia_arbitrary = (value: string) => `border-e-fuchsia-[${value}]`;
 
 
 /**
@@ -31982,7 +31982,7 @@ export const border_e_fuchsia_arbitrary = (value: string) => `border-e-fuchsia-[
  *
  * @type utility
  */
-export const border_e_fuchsia_arb = (value: string) => `border-e-fuchsia-["${value}"]`;
+export const border_e_fuchsia_arb = (value: string) => `border-e-fuchsia-[${value}]`;
 
 
 /**
@@ -31994,7 +31994,7 @@ export const border_e_fuchsia_arb = (value: string) => `border-e-fuchsia-["${val
  *
  * @type utility
  */
-export const border_e_pink_arbitrary = (value: string) => `border-e-pink-["${value}"]`;
+export const border_e_pink_arbitrary = (value: string) => `border-e-pink-[${value}]`;
 
 
 /**
@@ -32006,7 +32006,7 @@ export const border_e_pink_arbitrary = (value: string) => `border-e-pink-["${val
  *
  * @type utility
  */
-export const border_e_pink_arb = (value: string) => `border-e-pink-["${value}"]`;
+export const border_e_pink_arb = (value: string) => `border-e-pink-[${value}]`;
 
 
 /**
@@ -32018,7 +32018,7 @@ export const border_e_pink_arb = (value: string) => `border-e-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_e_rose_arbitrary = (value: string) => `border-e-rose-["${value}"]`;
+export const border_e_rose_arbitrary = (value: string) => `border-e-rose-[${value}]`;
 
 
 /**
@@ -32030,7 +32030,7 @@ export const border_e_rose_arbitrary = (value: string) => `border-e-rose-["${val
  *
  * @type utility
  */
-export const border_e_rose_arb = (value: string) => `border-e-rose-["${value}"]`;
+export const border_e_rose_arb = (value: string) => `border-e-rose-[${value}]`;
 
 
 /**
@@ -32042,7 +32042,7 @@ export const border_e_rose_arb = (value: string) => `border-e-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_t_slate_arbitrary = (value: string) => `border-t-slate-["${value}"]`;
+export const border_t_slate_arbitrary = (value: string) => `border-t-slate-[${value}]`;
 
 
 /**
@@ -32054,7 +32054,7 @@ export const border_t_slate_arbitrary = (value: string) => `border-t-slate-["${v
  *
  * @type utility
  */
-export const border_t_slate_arb = (value: string) => `border-t-slate-["${value}"]`;
+export const border_t_slate_arb = (value: string) => `border-t-slate-[${value}]`;
 
 
 /**
@@ -32066,7 +32066,7 @@ export const border_t_slate_arb = (value: string) => `border-t-slate-["${value}"
  *
  * @type utility
  */
-export const border_t_gray_arbitrary = (value: string) => `border-t-gray-["${value}"]`;
+export const border_t_gray_arbitrary = (value: string) => `border-t-gray-[${value}]`;
 
 
 /**
@@ -32078,7 +32078,7 @@ export const border_t_gray_arbitrary = (value: string) => `border-t-gray-["${val
  *
  * @type utility
  */
-export const border_t_gray_arb = (value: string) => `border-t-gray-["${value}"]`;
+export const border_t_gray_arb = (value: string) => `border-t-gray-[${value}]`;
 
 
 /**
@@ -32090,7 +32090,7 @@ export const border_t_gray_arb = (value: string) => `border-t-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_t_zinc_arbitrary = (value: string) => `border-t-zinc-["${value}"]`;
+export const border_t_zinc_arbitrary = (value: string) => `border-t-zinc-[${value}]`;
 
 
 /**
@@ -32102,7 +32102,7 @@ export const border_t_zinc_arbitrary = (value: string) => `border-t-zinc-["${val
  *
  * @type utility
  */
-export const border_t_zinc_arb = (value: string) => `border-t-zinc-["${value}"]`;
+export const border_t_zinc_arb = (value: string) => `border-t-zinc-[${value}]`;
 
 
 /**
@@ -32114,7 +32114,7 @@ export const border_t_zinc_arb = (value: string) => `border-t-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_t_neutral_arbitrary = (value: string) => `border-t-neutral-["${value}"]`;
+export const border_t_neutral_arbitrary = (value: string) => `border-t-neutral-[${value}]`;
 
 
 /**
@@ -32126,7 +32126,7 @@ export const border_t_neutral_arbitrary = (value: string) => `border-t-neutral-[
  *
  * @type utility
  */
-export const border_t_neutral_arb = (value: string) => `border-t-neutral-["${value}"]`;
+export const border_t_neutral_arb = (value: string) => `border-t-neutral-[${value}]`;
 
 
 /**
@@ -32138,7 +32138,7 @@ export const border_t_neutral_arb = (value: string) => `border-t-neutral-["${val
  *
  * @type utility
  */
-export const border_t_stone_arbitrary = (value: string) => `border-t-stone-["${value}"]`;
+export const border_t_stone_arbitrary = (value: string) => `border-t-stone-[${value}]`;
 
 
 /**
@@ -32150,7 +32150,7 @@ export const border_t_stone_arbitrary = (value: string) => `border-t-stone-["${v
  *
  * @type utility
  */
-export const border_t_stone_arb = (value: string) => `border-t-stone-["${value}"]`;
+export const border_t_stone_arb = (value: string) => `border-t-stone-[${value}]`;
 
 
 /**
@@ -32162,7 +32162,7 @@ export const border_t_stone_arb = (value: string) => `border-t-stone-["${value}"
  *
  * @type utility
  */
-export const border_t_red_arbitrary = (value: string) => `border-t-red-["${value}"]`;
+export const border_t_red_arbitrary = (value: string) => `border-t-red-[${value}]`;
 
 
 /**
@@ -32174,7 +32174,7 @@ export const border_t_red_arbitrary = (value: string) => `border-t-red-["${value
  *
  * @type utility
  */
-export const border_t_red_arb = (value: string) => `border-t-red-["${value}"]`;
+export const border_t_red_arb = (value: string) => `border-t-red-[${value}]`;
 
 
 /**
@@ -32186,7 +32186,7 @@ export const border_t_red_arb = (value: string) => `border-t-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_t_orange_arbitrary = (value: string) => `border-t-orange-["${value}"]`;
+export const border_t_orange_arbitrary = (value: string) => `border-t-orange-[${value}]`;
 
 
 /**
@@ -32198,7 +32198,7 @@ export const border_t_orange_arbitrary = (value: string) => `border-t-orange-["$
  *
  * @type utility
  */
-export const border_t_orange_arb = (value: string) => `border-t-orange-["${value}"]`;
+export const border_t_orange_arb = (value: string) => `border-t-orange-[${value}]`;
 
 
 /**
@@ -32210,7 +32210,7 @@ export const border_t_orange_arb = (value: string) => `border-t-orange-["${value
  *
  * @type utility
  */
-export const border_t_amber_arbitrary = (value: string) => `border-t-amber-["${value}"]`;
+export const border_t_amber_arbitrary = (value: string) => `border-t-amber-[${value}]`;
 
 
 /**
@@ -32222,7 +32222,7 @@ export const border_t_amber_arbitrary = (value: string) => `border-t-amber-["${v
  *
  * @type utility
  */
-export const border_t_amber_arb = (value: string) => `border-t-amber-["${value}"]`;
+export const border_t_amber_arb = (value: string) => `border-t-amber-[${value}]`;
 
 
 /**
@@ -32234,7 +32234,7 @@ export const border_t_amber_arb = (value: string) => `border-t-amber-["${value}"
  *
  * @type utility
  */
-export const border_t_yellow_arbitrary = (value: string) => `border-t-yellow-["${value}"]`;
+export const border_t_yellow_arbitrary = (value: string) => `border-t-yellow-[${value}]`;
 
 
 /**
@@ -32246,7 +32246,7 @@ export const border_t_yellow_arbitrary = (value: string) => `border-t-yellow-["$
  *
  * @type utility
  */
-export const border_t_yellow_arb = (value: string) => `border-t-yellow-["${value}"]`;
+export const border_t_yellow_arb = (value: string) => `border-t-yellow-[${value}]`;
 
 
 /**
@@ -32258,7 +32258,7 @@ export const border_t_yellow_arb = (value: string) => `border-t-yellow-["${value
  *
  * @type utility
  */
-export const border_t_lime_arbitrary = (value: string) => `border-t-lime-["${value}"]`;
+export const border_t_lime_arbitrary = (value: string) => `border-t-lime-[${value}]`;
 
 
 /**
@@ -32270,7 +32270,7 @@ export const border_t_lime_arbitrary = (value: string) => `border-t-lime-["${val
  *
  * @type utility
  */
-export const border_t_lime_arb = (value: string) => `border-t-lime-["${value}"]`;
+export const border_t_lime_arb = (value: string) => `border-t-lime-[${value}]`;
 
 
 /**
@@ -32282,7 +32282,7 @@ export const border_t_lime_arb = (value: string) => `border-t-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_t_green_arbitrary = (value: string) => `border-t-green-["${value}"]`;
+export const border_t_green_arbitrary = (value: string) => `border-t-green-[${value}]`;
 
 
 /**
@@ -32294,7 +32294,7 @@ export const border_t_green_arbitrary = (value: string) => `border-t-green-["${v
  *
  * @type utility
  */
-export const border_t_green_arb = (value: string) => `border-t-green-["${value}"]`;
+export const border_t_green_arb = (value: string) => `border-t-green-[${value}]`;
 
 
 /**
@@ -32306,7 +32306,7 @@ export const border_t_green_arb = (value: string) => `border-t-green-["${value}"
  *
  * @type utility
  */
-export const border_t_emerald_arbitrary = (value: string) => `border-t-emerald-["${value}"]`;
+export const border_t_emerald_arbitrary = (value: string) => `border-t-emerald-[${value}]`;
 
 
 /**
@@ -32318,7 +32318,7 @@ export const border_t_emerald_arbitrary = (value: string) => `border-t-emerald-[
  *
  * @type utility
  */
-export const border_t_emerald_arb = (value: string) => `border-t-emerald-["${value}"]`;
+export const border_t_emerald_arb = (value: string) => `border-t-emerald-[${value}]`;
 
 
 /**
@@ -32330,7 +32330,7 @@ export const border_t_emerald_arb = (value: string) => `border-t-emerald-["${val
  *
  * @type utility
  */
-export const border_t_teal_arbitrary = (value: string) => `border-t-teal-["${value}"]`;
+export const border_t_teal_arbitrary = (value: string) => `border-t-teal-[${value}]`;
 
 
 /**
@@ -32342,7 +32342,7 @@ export const border_t_teal_arbitrary = (value: string) => `border-t-teal-["${val
  *
  * @type utility
  */
-export const border_t_teal_arb = (value: string) => `border-t-teal-["${value}"]`;
+export const border_t_teal_arb = (value: string) => `border-t-teal-[${value}]`;
 
 
 /**
@@ -32354,7 +32354,7 @@ export const border_t_teal_arb = (value: string) => `border-t-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_t_cyan_arbitrary = (value: string) => `border-t-cyan-["${value}"]`;
+export const border_t_cyan_arbitrary = (value: string) => `border-t-cyan-[${value}]`;
 
 
 /**
@@ -32366,7 +32366,7 @@ export const border_t_cyan_arbitrary = (value: string) => `border-t-cyan-["${val
  *
  * @type utility
  */
-export const border_t_cyan_arb = (value: string) => `border-t-cyan-["${value}"]`;
+export const border_t_cyan_arb = (value: string) => `border-t-cyan-[${value}]`;
 
 
 /**
@@ -32378,7 +32378,7 @@ export const border_t_cyan_arb = (value: string) => `border-t-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_t_sky_arbitrary = (value: string) => `border-t-sky-["${value}"]`;
+export const border_t_sky_arbitrary = (value: string) => `border-t-sky-[${value}]`;
 
 
 /**
@@ -32390,7 +32390,7 @@ export const border_t_sky_arbitrary = (value: string) => `border-t-sky-["${value
  *
  * @type utility
  */
-export const border_t_sky_arb = (value: string) => `border-t-sky-["${value}"]`;
+export const border_t_sky_arb = (value: string) => `border-t-sky-[${value}]`;
 
 
 /**
@@ -32402,7 +32402,7 @@ export const border_t_sky_arb = (value: string) => `border-t-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_t_blue_arbitrary = (value: string) => `border-t-blue-["${value}"]`;
+export const border_t_blue_arbitrary = (value: string) => `border-t-blue-[${value}]`;
 
 
 /**
@@ -32414,7 +32414,7 @@ export const border_t_blue_arbitrary = (value: string) => `border-t-blue-["${val
  *
  * @type utility
  */
-export const border_t_blue_arb = (value: string) => `border-t-blue-["${value}"]`;
+export const border_t_blue_arb = (value: string) => `border-t-blue-[${value}]`;
 
 
 /**
@@ -32426,7 +32426,7 @@ export const border_t_blue_arb = (value: string) => `border-t-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_t_indigo_arbitrary = (value: string) => `border-t-indigo-["${value}"]`;
+export const border_t_indigo_arbitrary = (value: string) => `border-t-indigo-[${value}]`;
 
 
 /**
@@ -32438,7 +32438,7 @@ export const border_t_indigo_arbitrary = (value: string) => `border-t-indigo-["$
  *
  * @type utility
  */
-export const border_t_indigo_arb = (value: string) => `border-t-indigo-["${value}"]`;
+export const border_t_indigo_arb = (value: string) => `border-t-indigo-[${value}]`;
 
 
 /**
@@ -32450,7 +32450,7 @@ export const border_t_indigo_arb = (value: string) => `border-t-indigo-["${value
  *
  * @type utility
  */
-export const border_t_violet_arbitrary = (value: string) => `border-t-violet-["${value}"]`;
+export const border_t_violet_arbitrary = (value: string) => `border-t-violet-[${value}]`;
 
 
 /**
@@ -32462,7 +32462,7 @@ export const border_t_violet_arbitrary = (value: string) => `border-t-violet-["$
  *
  * @type utility
  */
-export const border_t_violet_arb = (value: string) => `border-t-violet-["${value}"]`;
+export const border_t_violet_arb = (value: string) => `border-t-violet-[${value}]`;
 
 
 /**
@@ -32474,7 +32474,7 @@ export const border_t_violet_arb = (value: string) => `border-t-violet-["${value
  *
  * @type utility
  */
-export const border_t_purple_arbitrary = (value: string) => `border-t-purple-["${value}"]`;
+export const border_t_purple_arbitrary = (value: string) => `border-t-purple-[${value}]`;
 
 
 /**
@@ -32486,7 +32486,7 @@ export const border_t_purple_arbitrary = (value: string) => `border-t-purple-["$
  *
  * @type utility
  */
-export const border_t_purple_arb = (value: string) => `border-t-purple-["${value}"]`;
+export const border_t_purple_arb = (value: string) => `border-t-purple-[${value}]`;
 
 
 /**
@@ -32498,7 +32498,7 @@ export const border_t_purple_arb = (value: string) => `border-t-purple-["${value
  *
  * @type utility
  */
-export const border_t_fuchsia_arbitrary = (value: string) => `border-t-fuchsia-["${value}"]`;
+export const border_t_fuchsia_arbitrary = (value: string) => `border-t-fuchsia-[${value}]`;
 
 
 /**
@@ -32510,7 +32510,7 @@ export const border_t_fuchsia_arbitrary = (value: string) => `border-t-fuchsia-[
  *
  * @type utility
  */
-export const border_t_fuchsia_arb = (value: string) => `border-t-fuchsia-["${value}"]`;
+export const border_t_fuchsia_arb = (value: string) => `border-t-fuchsia-[${value}]`;
 
 
 /**
@@ -32522,7 +32522,7 @@ export const border_t_fuchsia_arb = (value: string) => `border-t-fuchsia-["${val
  *
  * @type utility
  */
-export const border_t_pink_arbitrary = (value: string) => `border-t-pink-["${value}"]`;
+export const border_t_pink_arbitrary = (value: string) => `border-t-pink-[${value}]`;
 
 
 /**
@@ -32534,7 +32534,7 @@ export const border_t_pink_arbitrary = (value: string) => `border-t-pink-["${val
  *
  * @type utility
  */
-export const border_t_pink_arb = (value: string) => `border-t-pink-["${value}"]`;
+export const border_t_pink_arb = (value: string) => `border-t-pink-[${value}]`;
 
 
 /**
@@ -32546,7 +32546,7 @@ export const border_t_pink_arb = (value: string) => `border-t-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_t_rose_arbitrary = (value: string) => `border-t-rose-["${value}"]`;
+export const border_t_rose_arbitrary = (value: string) => `border-t-rose-[${value}]`;
 
 
 /**
@@ -32558,7 +32558,7 @@ export const border_t_rose_arbitrary = (value: string) => `border-t-rose-["${val
  *
  * @type utility
  */
-export const border_t_rose_arb = (value: string) => `border-t-rose-["${value}"]`;
+export const border_t_rose_arb = (value: string) => `border-t-rose-[${value}]`;
 
 
 /**
@@ -32570,7 +32570,7 @@ export const border_t_rose_arb = (value: string) => `border-t-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_r_slate_arbitrary = (value: string) => `border-r-slate-["${value}"]`;
+export const border_r_slate_arbitrary = (value: string) => `border-r-slate-[${value}]`;
 
 
 /**
@@ -32582,7 +32582,7 @@ export const border_r_slate_arbitrary = (value: string) => `border-r-slate-["${v
  *
  * @type utility
  */
-export const border_r_slate_arb = (value: string) => `border-r-slate-["${value}"]`;
+export const border_r_slate_arb = (value: string) => `border-r-slate-[${value}]`;
 
 
 /**
@@ -32594,7 +32594,7 @@ export const border_r_slate_arb = (value: string) => `border-r-slate-["${value}"
  *
  * @type utility
  */
-export const border_r_gray_arbitrary = (value: string) => `border-r-gray-["${value}"]`;
+export const border_r_gray_arbitrary = (value: string) => `border-r-gray-[${value}]`;
 
 
 /**
@@ -32606,7 +32606,7 @@ export const border_r_gray_arbitrary = (value: string) => `border-r-gray-["${val
  *
  * @type utility
  */
-export const border_r_gray_arb = (value: string) => `border-r-gray-["${value}"]`;
+export const border_r_gray_arb = (value: string) => `border-r-gray-[${value}]`;
 
 
 /**
@@ -32618,7 +32618,7 @@ export const border_r_gray_arb = (value: string) => `border-r-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_r_zinc_arbitrary = (value: string) => `border-r-zinc-["${value}"]`;
+export const border_r_zinc_arbitrary = (value: string) => `border-r-zinc-[${value}]`;
 
 
 /**
@@ -32630,7 +32630,7 @@ export const border_r_zinc_arbitrary = (value: string) => `border-r-zinc-["${val
  *
  * @type utility
  */
-export const border_r_zinc_arb = (value: string) => `border-r-zinc-["${value}"]`;
+export const border_r_zinc_arb = (value: string) => `border-r-zinc-[${value}]`;
 
 
 /**
@@ -32642,7 +32642,7 @@ export const border_r_zinc_arb = (value: string) => `border-r-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_r_neutral_arbitrary = (value: string) => `border-r-neutral-["${value}"]`;
+export const border_r_neutral_arbitrary = (value: string) => `border-r-neutral-[${value}]`;
 
 
 /**
@@ -32654,7 +32654,7 @@ export const border_r_neutral_arbitrary = (value: string) => `border-r-neutral-[
  *
  * @type utility
  */
-export const border_r_neutral_arb = (value: string) => `border-r-neutral-["${value}"]`;
+export const border_r_neutral_arb = (value: string) => `border-r-neutral-[${value}]`;
 
 
 /**
@@ -32666,7 +32666,7 @@ export const border_r_neutral_arb = (value: string) => `border-r-neutral-["${val
  *
  * @type utility
  */
-export const border_r_stone_arbitrary = (value: string) => `border-r-stone-["${value}"]`;
+export const border_r_stone_arbitrary = (value: string) => `border-r-stone-[${value}]`;
 
 
 /**
@@ -32678,7 +32678,7 @@ export const border_r_stone_arbitrary = (value: string) => `border-r-stone-["${v
  *
  * @type utility
  */
-export const border_r_stone_arb = (value: string) => `border-r-stone-["${value}"]`;
+export const border_r_stone_arb = (value: string) => `border-r-stone-[${value}]`;
 
 
 /**
@@ -32690,7 +32690,7 @@ export const border_r_stone_arb = (value: string) => `border-r-stone-["${value}"
  *
  * @type utility
  */
-export const border_r_red_arbitrary = (value: string) => `border-r-red-["${value}"]`;
+export const border_r_red_arbitrary = (value: string) => `border-r-red-[${value}]`;
 
 
 /**
@@ -32702,7 +32702,7 @@ export const border_r_red_arbitrary = (value: string) => `border-r-red-["${value
  *
  * @type utility
  */
-export const border_r_red_arb = (value: string) => `border-r-red-["${value}"]`;
+export const border_r_red_arb = (value: string) => `border-r-red-[${value}]`;
 
 
 /**
@@ -32714,7 +32714,7 @@ export const border_r_red_arb = (value: string) => `border-r-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_r_orange_arbitrary = (value: string) => `border-r-orange-["${value}"]`;
+export const border_r_orange_arbitrary = (value: string) => `border-r-orange-[${value}]`;
 
 
 /**
@@ -32726,7 +32726,7 @@ export const border_r_orange_arbitrary = (value: string) => `border-r-orange-["$
  *
  * @type utility
  */
-export const border_r_orange_arb = (value: string) => `border-r-orange-["${value}"]`;
+export const border_r_orange_arb = (value: string) => `border-r-orange-[${value}]`;
 
 
 /**
@@ -32738,7 +32738,7 @@ export const border_r_orange_arb = (value: string) => `border-r-orange-["${value
  *
  * @type utility
  */
-export const border_r_amber_arbitrary = (value: string) => `border-r-amber-["${value}"]`;
+export const border_r_amber_arbitrary = (value: string) => `border-r-amber-[${value}]`;
 
 
 /**
@@ -32750,7 +32750,7 @@ export const border_r_amber_arbitrary = (value: string) => `border-r-amber-["${v
  *
  * @type utility
  */
-export const border_r_amber_arb = (value: string) => `border-r-amber-["${value}"]`;
+export const border_r_amber_arb = (value: string) => `border-r-amber-[${value}]`;
 
 
 /**
@@ -32762,7 +32762,7 @@ export const border_r_amber_arb = (value: string) => `border-r-amber-["${value}"
  *
  * @type utility
  */
-export const border_r_yellow_arbitrary = (value: string) => `border-r-yellow-["${value}"]`;
+export const border_r_yellow_arbitrary = (value: string) => `border-r-yellow-[${value}]`;
 
 
 /**
@@ -32774,7 +32774,7 @@ export const border_r_yellow_arbitrary = (value: string) => `border-r-yellow-["$
  *
  * @type utility
  */
-export const border_r_yellow_arb = (value: string) => `border-r-yellow-["${value}"]`;
+export const border_r_yellow_arb = (value: string) => `border-r-yellow-[${value}]`;
 
 
 /**
@@ -32786,7 +32786,7 @@ export const border_r_yellow_arb = (value: string) => `border-r-yellow-["${value
  *
  * @type utility
  */
-export const border_r_lime_arbitrary = (value: string) => `border-r-lime-["${value}"]`;
+export const border_r_lime_arbitrary = (value: string) => `border-r-lime-[${value}]`;
 
 
 /**
@@ -32798,7 +32798,7 @@ export const border_r_lime_arbitrary = (value: string) => `border-r-lime-["${val
  *
  * @type utility
  */
-export const border_r_lime_arb = (value: string) => `border-r-lime-["${value}"]`;
+export const border_r_lime_arb = (value: string) => `border-r-lime-[${value}]`;
 
 
 /**
@@ -32810,7 +32810,7 @@ export const border_r_lime_arb = (value: string) => `border-r-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_r_green_arbitrary = (value: string) => `border-r-green-["${value}"]`;
+export const border_r_green_arbitrary = (value: string) => `border-r-green-[${value}]`;
 
 
 /**
@@ -32822,7 +32822,7 @@ export const border_r_green_arbitrary = (value: string) => `border-r-green-["${v
  *
  * @type utility
  */
-export const border_r_green_arb = (value: string) => `border-r-green-["${value}"]`;
+export const border_r_green_arb = (value: string) => `border-r-green-[${value}]`;
 
 
 /**
@@ -32834,7 +32834,7 @@ export const border_r_green_arb = (value: string) => `border-r-green-["${value}"
  *
  * @type utility
  */
-export const border_r_emerald_arbitrary = (value: string) => `border-r-emerald-["${value}"]`;
+export const border_r_emerald_arbitrary = (value: string) => `border-r-emerald-[${value}]`;
 
 
 /**
@@ -32846,7 +32846,7 @@ export const border_r_emerald_arbitrary = (value: string) => `border-r-emerald-[
  *
  * @type utility
  */
-export const border_r_emerald_arb = (value: string) => `border-r-emerald-["${value}"]`;
+export const border_r_emerald_arb = (value: string) => `border-r-emerald-[${value}]`;
 
 
 /**
@@ -32858,7 +32858,7 @@ export const border_r_emerald_arb = (value: string) => `border-r-emerald-["${val
  *
  * @type utility
  */
-export const border_r_teal_arbitrary = (value: string) => `border-r-teal-["${value}"]`;
+export const border_r_teal_arbitrary = (value: string) => `border-r-teal-[${value}]`;
 
 
 /**
@@ -32870,7 +32870,7 @@ export const border_r_teal_arbitrary = (value: string) => `border-r-teal-["${val
  *
  * @type utility
  */
-export const border_r_teal_arb = (value: string) => `border-r-teal-["${value}"]`;
+export const border_r_teal_arb = (value: string) => `border-r-teal-[${value}]`;
 
 
 /**
@@ -32882,7 +32882,7 @@ export const border_r_teal_arb = (value: string) => `border-r-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_r_cyan_arbitrary = (value: string) => `border-r-cyan-["${value}"]`;
+export const border_r_cyan_arbitrary = (value: string) => `border-r-cyan-[${value}]`;
 
 
 /**
@@ -32894,7 +32894,7 @@ export const border_r_cyan_arbitrary = (value: string) => `border-r-cyan-["${val
  *
  * @type utility
  */
-export const border_r_cyan_arb = (value: string) => `border-r-cyan-["${value}"]`;
+export const border_r_cyan_arb = (value: string) => `border-r-cyan-[${value}]`;
 
 
 /**
@@ -32906,7 +32906,7 @@ export const border_r_cyan_arb = (value: string) => `border-r-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_r_sky_arbitrary = (value: string) => `border-r-sky-["${value}"]`;
+export const border_r_sky_arbitrary = (value: string) => `border-r-sky-[${value}]`;
 
 
 /**
@@ -32918,7 +32918,7 @@ export const border_r_sky_arbitrary = (value: string) => `border-r-sky-["${value
  *
  * @type utility
  */
-export const border_r_sky_arb = (value: string) => `border-r-sky-["${value}"]`;
+export const border_r_sky_arb = (value: string) => `border-r-sky-[${value}]`;
 
 
 /**
@@ -32930,7 +32930,7 @@ export const border_r_sky_arb = (value: string) => `border-r-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_r_blue_arbitrary = (value: string) => `border-r-blue-["${value}"]`;
+export const border_r_blue_arbitrary = (value: string) => `border-r-blue-[${value}]`;
 
 
 /**
@@ -32942,7 +32942,7 @@ export const border_r_blue_arbitrary = (value: string) => `border-r-blue-["${val
  *
  * @type utility
  */
-export const border_r_blue_arb = (value: string) => `border-r-blue-["${value}"]`;
+export const border_r_blue_arb = (value: string) => `border-r-blue-[${value}]`;
 
 
 /**
@@ -32954,7 +32954,7 @@ export const border_r_blue_arb = (value: string) => `border-r-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_r_indigo_arbitrary = (value: string) => `border-r-indigo-["${value}"]`;
+export const border_r_indigo_arbitrary = (value: string) => `border-r-indigo-[${value}]`;
 
 
 /**
@@ -32966,7 +32966,7 @@ export const border_r_indigo_arbitrary = (value: string) => `border-r-indigo-["$
  *
  * @type utility
  */
-export const border_r_indigo_arb = (value: string) => `border-r-indigo-["${value}"]`;
+export const border_r_indigo_arb = (value: string) => `border-r-indigo-[${value}]`;
 
 
 /**
@@ -32978,7 +32978,7 @@ export const border_r_indigo_arb = (value: string) => `border-r-indigo-["${value
  *
  * @type utility
  */
-export const border_r_violet_arbitrary = (value: string) => `border-r-violet-["${value}"]`;
+export const border_r_violet_arbitrary = (value: string) => `border-r-violet-[${value}]`;
 
 
 /**
@@ -32990,7 +32990,7 @@ export const border_r_violet_arbitrary = (value: string) => `border-r-violet-["$
  *
  * @type utility
  */
-export const border_r_violet_arb = (value: string) => `border-r-violet-["${value}"]`;
+export const border_r_violet_arb = (value: string) => `border-r-violet-[${value}]`;
 
 
 /**
@@ -33002,7 +33002,7 @@ export const border_r_violet_arb = (value: string) => `border-r-violet-["${value
  *
  * @type utility
  */
-export const border_r_purple_arbitrary = (value: string) => `border-r-purple-["${value}"]`;
+export const border_r_purple_arbitrary = (value: string) => `border-r-purple-[${value}]`;
 
 
 /**
@@ -33014,7 +33014,7 @@ export const border_r_purple_arbitrary = (value: string) => `border-r-purple-["$
  *
  * @type utility
  */
-export const border_r_purple_arb = (value: string) => `border-r-purple-["${value}"]`;
+export const border_r_purple_arb = (value: string) => `border-r-purple-[${value}]`;
 
 
 /**
@@ -33026,7 +33026,7 @@ export const border_r_purple_arb = (value: string) => `border-r-purple-["${value
  *
  * @type utility
  */
-export const border_r_fuchsia_arbitrary = (value: string) => `border-r-fuchsia-["${value}"]`;
+export const border_r_fuchsia_arbitrary = (value: string) => `border-r-fuchsia-[${value}]`;
 
 
 /**
@@ -33038,7 +33038,7 @@ export const border_r_fuchsia_arbitrary = (value: string) => `border-r-fuchsia-[
  *
  * @type utility
  */
-export const border_r_fuchsia_arb = (value: string) => `border-r-fuchsia-["${value}"]`;
+export const border_r_fuchsia_arb = (value: string) => `border-r-fuchsia-[${value}]`;
 
 
 /**
@@ -33050,7 +33050,7 @@ export const border_r_fuchsia_arb = (value: string) => `border-r-fuchsia-["${val
  *
  * @type utility
  */
-export const border_r_pink_arbitrary = (value: string) => `border-r-pink-["${value}"]`;
+export const border_r_pink_arbitrary = (value: string) => `border-r-pink-[${value}]`;
 
 
 /**
@@ -33062,7 +33062,7 @@ export const border_r_pink_arbitrary = (value: string) => `border-r-pink-["${val
  *
  * @type utility
  */
-export const border_r_pink_arb = (value: string) => `border-r-pink-["${value}"]`;
+export const border_r_pink_arb = (value: string) => `border-r-pink-[${value}]`;
 
 
 /**
@@ -33074,7 +33074,7 @@ export const border_r_pink_arb = (value: string) => `border-r-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_r_rose_arbitrary = (value: string) => `border-r-rose-["${value}"]`;
+export const border_r_rose_arbitrary = (value: string) => `border-r-rose-[${value}]`;
 
 
 /**
@@ -33086,7 +33086,7 @@ export const border_r_rose_arbitrary = (value: string) => `border-r-rose-["${val
  *
  * @type utility
  */
-export const border_r_rose_arb = (value: string) => `border-r-rose-["${value}"]`;
+export const border_r_rose_arb = (value: string) => `border-r-rose-[${value}]`;
 
 
 /**
@@ -33098,7 +33098,7 @@ export const border_r_rose_arb = (value: string) => `border-r-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_b_slate_arbitrary = (value: string) => `border-b-slate-["${value}"]`;
+export const border_b_slate_arbitrary = (value: string) => `border-b-slate-[${value}]`;
 
 
 /**
@@ -33110,7 +33110,7 @@ export const border_b_slate_arbitrary = (value: string) => `border-b-slate-["${v
  *
  * @type utility
  */
-export const border_b_slate_arb = (value: string) => `border-b-slate-["${value}"]`;
+export const border_b_slate_arb = (value: string) => `border-b-slate-[${value}]`;
 
 
 /**
@@ -33122,7 +33122,7 @@ export const border_b_slate_arb = (value: string) => `border-b-slate-["${value}"
  *
  * @type utility
  */
-export const border_b_gray_arbitrary = (value: string) => `border-b-gray-["${value}"]`;
+export const border_b_gray_arbitrary = (value: string) => `border-b-gray-[${value}]`;
 
 
 /**
@@ -33134,7 +33134,7 @@ export const border_b_gray_arbitrary = (value: string) => `border-b-gray-["${val
  *
  * @type utility
  */
-export const border_b_gray_arb = (value: string) => `border-b-gray-["${value}"]`;
+export const border_b_gray_arb = (value: string) => `border-b-gray-[${value}]`;
 
 
 /**
@@ -33146,7 +33146,7 @@ export const border_b_gray_arb = (value: string) => `border-b-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_b_zinc_arbitrary = (value: string) => `border-b-zinc-["${value}"]`;
+export const border_b_zinc_arbitrary = (value: string) => `border-b-zinc-[${value}]`;
 
 
 /**
@@ -33158,7 +33158,7 @@ export const border_b_zinc_arbitrary = (value: string) => `border-b-zinc-["${val
  *
  * @type utility
  */
-export const border_b_zinc_arb = (value: string) => `border-b-zinc-["${value}"]`;
+export const border_b_zinc_arb = (value: string) => `border-b-zinc-[${value}]`;
 
 
 /**
@@ -33170,7 +33170,7 @@ export const border_b_zinc_arb = (value: string) => `border-b-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_b_neutral_arbitrary = (value: string) => `border-b-neutral-["${value}"]`;
+export const border_b_neutral_arbitrary = (value: string) => `border-b-neutral-[${value}]`;
 
 
 /**
@@ -33182,7 +33182,7 @@ export const border_b_neutral_arbitrary = (value: string) => `border-b-neutral-[
  *
  * @type utility
  */
-export const border_b_neutral_arb = (value: string) => `border-b-neutral-["${value}"]`;
+export const border_b_neutral_arb = (value: string) => `border-b-neutral-[${value}]`;
 
 
 /**
@@ -33194,7 +33194,7 @@ export const border_b_neutral_arb = (value: string) => `border-b-neutral-["${val
  *
  * @type utility
  */
-export const border_b_stone_arbitrary = (value: string) => `border-b-stone-["${value}"]`;
+export const border_b_stone_arbitrary = (value: string) => `border-b-stone-[${value}]`;
 
 
 /**
@@ -33206,7 +33206,7 @@ export const border_b_stone_arbitrary = (value: string) => `border-b-stone-["${v
  *
  * @type utility
  */
-export const border_b_stone_arb = (value: string) => `border-b-stone-["${value}"]`;
+export const border_b_stone_arb = (value: string) => `border-b-stone-[${value}]`;
 
 
 /**
@@ -33218,7 +33218,7 @@ export const border_b_stone_arb = (value: string) => `border-b-stone-["${value}"
  *
  * @type utility
  */
-export const border_b_red_arbitrary = (value: string) => `border-b-red-["${value}"]`;
+export const border_b_red_arbitrary = (value: string) => `border-b-red-[${value}]`;
 
 
 /**
@@ -33230,7 +33230,7 @@ export const border_b_red_arbitrary = (value: string) => `border-b-red-["${value
  *
  * @type utility
  */
-export const border_b_red_arb = (value: string) => `border-b-red-["${value}"]`;
+export const border_b_red_arb = (value: string) => `border-b-red-[${value}]`;
 
 
 /**
@@ -33242,7 +33242,7 @@ export const border_b_red_arb = (value: string) => `border-b-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_b_orange_arbitrary = (value: string) => `border-b-orange-["${value}"]`;
+export const border_b_orange_arbitrary = (value: string) => `border-b-orange-[${value}]`;
 
 
 /**
@@ -33254,7 +33254,7 @@ export const border_b_orange_arbitrary = (value: string) => `border-b-orange-["$
  *
  * @type utility
  */
-export const border_b_orange_arb = (value: string) => `border-b-orange-["${value}"]`;
+export const border_b_orange_arb = (value: string) => `border-b-orange-[${value}]`;
 
 
 /**
@@ -33266,7 +33266,7 @@ export const border_b_orange_arb = (value: string) => `border-b-orange-["${value
  *
  * @type utility
  */
-export const border_b_amber_arbitrary = (value: string) => `border-b-amber-["${value}"]`;
+export const border_b_amber_arbitrary = (value: string) => `border-b-amber-[${value}]`;
 
 
 /**
@@ -33278,7 +33278,7 @@ export const border_b_amber_arbitrary = (value: string) => `border-b-amber-["${v
  *
  * @type utility
  */
-export const border_b_amber_arb = (value: string) => `border-b-amber-["${value}"]`;
+export const border_b_amber_arb = (value: string) => `border-b-amber-[${value}]`;
 
 
 /**
@@ -33290,7 +33290,7 @@ export const border_b_amber_arb = (value: string) => `border-b-amber-["${value}"
  *
  * @type utility
  */
-export const border_b_yellow_arbitrary = (value: string) => `border-b-yellow-["${value}"]`;
+export const border_b_yellow_arbitrary = (value: string) => `border-b-yellow-[${value}]`;
 
 
 /**
@@ -33302,7 +33302,7 @@ export const border_b_yellow_arbitrary = (value: string) => `border-b-yellow-["$
  *
  * @type utility
  */
-export const border_b_yellow_arb = (value: string) => `border-b-yellow-["${value}"]`;
+export const border_b_yellow_arb = (value: string) => `border-b-yellow-[${value}]`;
 
 
 /**
@@ -33314,7 +33314,7 @@ export const border_b_yellow_arb = (value: string) => `border-b-yellow-["${value
  *
  * @type utility
  */
-export const border_b_lime_arbitrary = (value: string) => `border-b-lime-["${value}"]`;
+export const border_b_lime_arbitrary = (value: string) => `border-b-lime-[${value}]`;
 
 
 /**
@@ -33326,7 +33326,7 @@ export const border_b_lime_arbitrary = (value: string) => `border-b-lime-["${val
  *
  * @type utility
  */
-export const border_b_lime_arb = (value: string) => `border-b-lime-["${value}"]`;
+export const border_b_lime_arb = (value: string) => `border-b-lime-[${value}]`;
 
 
 /**
@@ -33338,7 +33338,7 @@ export const border_b_lime_arb = (value: string) => `border-b-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_b_green_arbitrary = (value: string) => `border-b-green-["${value}"]`;
+export const border_b_green_arbitrary = (value: string) => `border-b-green-[${value}]`;
 
 
 /**
@@ -33350,7 +33350,7 @@ export const border_b_green_arbitrary = (value: string) => `border-b-green-["${v
  *
  * @type utility
  */
-export const border_b_green_arb = (value: string) => `border-b-green-["${value}"]`;
+export const border_b_green_arb = (value: string) => `border-b-green-[${value}]`;
 
 
 /**
@@ -33362,7 +33362,7 @@ export const border_b_green_arb = (value: string) => `border-b-green-["${value}"
  *
  * @type utility
  */
-export const border_b_emerald_arbitrary = (value: string) => `border-b-emerald-["${value}"]`;
+export const border_b_emerald_arbitrary = (value: string) => `border-b-emerald-[${value}]`;
 
 
 /**
@@ -33374,7 +33374,7 @@ export const border_b_emerald_arbitrary = (value: string) => `border-b-emerald-[
  *
  * @type utility
  */
-export const border_b_emerald_arb = (value: string) => `border-b-emerald-["${value}"]`;
+export const border_b_emerald_arb = (value: string) => `border-b-emerald-[${value}]`;
 
 
 /**
@@ -33386,7 +33386,7 @@ export const border_b_emerald_arb = (value: string) => `border-b-emerald-["${val
  *
  * @type utility
  */
-export const border_b_teal_arbitrary = (value: string) => `border-b-teal-["${value}"]`;
+export const border_b_teal_arbitrary = (value: string) => `border-b-teal-[${value}]`;
 
 
 /**
@@ -33398,7 +33398,7 @@ export const border_b_teal_arbitrary = (value: string) => `border-b-teal-["${val
  *
  * @type utility
  */
-export const border_b_teal_arb = (value: string) => `border-b-teal-["${value}"]`;
+export const border_b_teal_arb = (value: string) => `border-b-teal-[${value}]`;
 
 
 /**
@@ -33410,7 +33410,7 @@ export const border_b_teal_arb = (value: string) => `border-b-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_b_cyan_arbitrary = (value: string) => `border-b-cyan-["${value}"]`;
+export const border_b_cyan_arbitrary = (value: string) => `border-b-cyan-[${value}]`;
 
 
 /**
@@ -33422,7 +33422,7 @@ export const border_b_cyan_arbitrary = (value: string) => `border-b-cyan-["${val
  *
  * @type utility
  */
-export const border_b_cyan_arb = (value: string) => `border-b-cyan-["${value}"]`;
+export const border_b_cyan_arb = (value: string) => `border-b-cyan-[${value}]`;
 
 
 /**
@@ -33434,7 +33434,7 @@ export const border_b_cyan_arb = (value: string) => `border-b-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_b_sky_arbitrary = (value: string) => `border-b-sky-["${value}"]`;
+export const border_b_sky_arbitrary = (value: string) => `border-b-sky-[${value}]`;
 
 
 /**
@@ -33446,7 +33446,7 @@ export const border_b_sky_arbitrary = (value: string) => `border-b-sky-["${value
  *
  * @type utility
  */
-export const border_b_sky_arb = (value: string) => `border-b-sky-["${value}"]`;
+export const border_b_sky_arb = (value: string) => `border-b-sky-[${value}]`;
 
 
 /**
@@ -33458,7 +33458,7 @@ export const border_b_sky_arb = (value: string) => `border-b-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_b_blue_arbitrary = (value: string) => `border-b-blue-["${value}"]`;
+export const border_b_blue_arbitrary = (value: string) => `border-b-blue-[${value}]`;
 
 
 /**
@@ -33470,7 +33470,7 @@ export const border_b_blue_arbitrary = (value: string) => `border-b-blue-["${val
  *
  * @type utility
  */
-export const border_b_blue_arb = (value: string) => `border-b-blue-["${value}"]`;
+export const border_b_blue_arb = (value: string) => `border-b-blue-[${value}]`;
 
 
 /**
@@ -33482,7 +33482,7 @@ export const border_b_blue_arb = (value: string) => `border-b-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_b_indigo_arbitrary = (value: string) => `border-b-indigo-["${value}"]`;
+export const border_b_indigo_arbitrary = (value: string) => `border-b-indigo-[${value}]`;
 
 
 /**
@@ -33494,7 +33494,7 @@ export const border_b_indigo_arbitrary = (value: string) => `border-b-indigo-["$
  *
  * @type utility
  */
-export const border_b_indigo_arb = (value: string) => `border-b-indigo-["${value}"]`;
+export const border_b_indigo_arb = (value: string) => `border-b-indigo-[${value}]`;
 
 
 /**
@@ -33506,7 +33506,7 @@ export const border_b_indigo_arb = (value: string) => `border-b-indigo-["${value
  *
  * @type utility
  */
-export const border_b_violet_arbitrary = (value: string) => `border-b-violet-["${value}"]`;
+export const border_b_violet_arbitrary = (value: string) => `border-b-violet-[${value}]`;
 
 
 /**
@@ -33518,7 +33518,7 @@ export const border_b_violet_arbitrary = (value: string) => `border-b-violet-["$
  *
  * @type utility
  */
-export const border_b_violet_arb = (value: string) => `border-b-violet-["${value}"]`;
+export const border_b_violet_arb = (value: string) => `border-b-violet-[${value}]`;
 
 
 /**
@@ -33530,7 +33530,7 @@ export const border_b_violet_arb = (value: string) => `border-b-violet-["${value
  *
  * @type utility
  */
-export const border_b_purple_arbitrary = (value: string) => `border-b-purple-["${value}"]`;
+export const border_b_purple_arbitrary = (value: string) => `border-b-purple-[${value}]`;
 
 
 /**
@@ -33542,7 +33542,7 @@ export const border_b_purple_arbitrary = (value: string) => `border-b-purple-["$
  *
  * @type utility
  */
-export const border_b_purple_arb = (value: string) => `border-b-purple-["${value}"]`;
+export const border_b_purple_arb = (value: string) => `border-b-purple-[${value}]`;
 
 
 /**
@@ -33554,7 +33554,7 @@ export const border_b_purple_arb = (value: string) => `border-b-purple-["${value
  *
  * @type utility
  */
-export const border_b_fuchsia_arbitrary = (value: string) => `border-b-fuchsia-["${value}"]`;
+export const border_b_fuchsia_arbitrary = (value: string) => `border-b-fuchsia-[${value}]`;
 
 
 /**
@@ -33566,7 +33566,7 @@ export const border_b_fuchsia_arbitrary = (value: string) => `border-b-fuchsia-[
  *
  * @type utility
  */
-export const border_b_fuchsia_arb = (value: string) => `border-b-fuchsia-["${value}"]`;
+export const border_b_fuchsia_arb = (value: string) => `border-b-fuchsia-[${value}]`;
 
 
 /**
@@ -33578,7 +33578,7 @@ export const border_b_fuchsia_arb = (value: string) => `border-b-fuchsia-["${val
  *
  * @type utility
  */
-export const border_b_pink_arbitrary = (value: string) => `border-b-pink-["${value}"]`;
+export const border_b_pink_arbitrary = (value: string) => `border-b-pink-[${value}]`;
 
 
 /**
@@ -33590,7 +33590,7 @@ export const border_b_pink_arbitrary = (value: string) => `border-b-pink-["${val
  *
  * @type utility
  */
-export const border_b_pink_arb = (value: string) => `border-b-pink-["${value}"]`;
+export const border_b_pink_arb = (value: string) => `border-b-pink-[${value}]`;
 
 
 /**
@@ -33602,7 +33602,7 @@ export const border_b_pink_arb = (value: string) => `border-b-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_b_rose_arbitrary = (value: string) => `border-b-rose-["${value}"]`;
+export const border_b_rose_arbitrary = (value: string) => `border-b-rose-[${value}]`;
 
 
 /**
@@ -33614,7 +33614,7 @@ export const border_b_rose_arbitrary = (value: string) => `border-b-rose-["${val
  *
  * @type utility
  */
-export const border_b_rose_arb = (value: string) => `border-b-rose-["${value}"]`;
+export const border_b_rose_arb = (value: string) => `border-b-rose-[${value}]`;
 
 
 /**
@@ -33626,7 +33626,7 @@ export const border_b_rose_arb = (value: string) => `border-b-rose-["${value}"]`
  *
  * @type utility
  */
-export const border_l_slate_arbitrary = (value: string) => `border-l-slate-["${value}"]`;
+export const border_l_slate_arbitrary = (value: string) => `border-l-slate-[${value}]`;
 
 
 /**
@@ -33638,7 +33638,7 @@ export const border_l_slate_arbitrary = (value: string) => `border-l-slate-["${v
  *
  * @type utility
  */
-export const border_l_slate_arb = (value: string) => `border-l-slate-["${value}"]`;
+export const border_l_slate_arb = (value: string) => `border-l-slate-[${value}]`;
 
 
 /**
@@ -33650,7 +33650,7 @@ export const border_l_slate_arb = (value: string) => `border-l-slate-["${value}"
  *
  * @type utility
  */
-export const border_l_gray_arbitrary = (value: string) => `border-l-gray-["${value}"]`;
+export const border_l_gray_arbitrary = (value: string) => `border-l-gray-[${value}]`;
 
 
 /**
@@ -33662,7 +33662,7 @@ export const border_l_gray_arbitrary = (value: string) => `border-l-gray-["${val
  *
  * @type utility
  */
-export const border_l_gray_arb = (value: string) => `border-l-gray-["${value}"]`;
+export const border_l_gray_arb = (value: string) => `border-l-gray-[${value}]`;
 
 
 /**
@@ -33674,7 +33674,7 @@ export const border_l_gray_arb = (value: string) => `border-l-gray-["${value}"]`
  *
  * @type utility
  */
-export const border_l_zinc_arbitrary = (value: string) => `border-l-zinc-["${value}"]`;
+export const border_l_zinc_arbitrary = (value: string) => `border-l-zinc-[${value}]`;
 
 
 /**
@@ -33686,7 +33686,7 @@ export const border_l_zinc_arbitrary = (value: string) => `border-l-zinc-["${val
  *
  * @type utility
  */
-export const border_l_zinc_arb = (value: string) => `border-l-zinc-["${value}"]`;
+export const border_l_zinc_arb = (value: string) => `border-l-zinc-[${value}]`;
 
 
 /**
@@ -33698,7 +33698,7 @@ export const border_l_zinc_arb = (value: string) => `border-l-zinc-["${value}"]`
  *
  * @type utility
  */
-export const border_l_neutral_arbitrary = (value: string) => `border-l-neutral-["${value}"]`;
+export const border_l_neutral_arbitrary = (value: string) => `border-l-neutral-[${value}]`;
 
 
 /**
@@ -33710,7 +33710,7 @@ export const border_l_neutral_arbitrary = (value: string) => `border-l-neutral-[
  *
  * @type utility
  */
-export const border_l_neutral_arb = (value: string) => `border-l-neutral-["${value}"]`;
+export const border_l_neutral_arb = (value: string) => `border-l-neutral-[${value}]`;
 
 
 /**
@@ -33722,7 +33722,7 @@ export const border_l_neutral_arb = (value: string) => `border-l-neutral-["${val
  *
  * @type utility
  */
-export const border_l_stone_arbitrary = (value: string) => `border-l-stone-["${value}"]`;
+export const border_l_stone_arbitrary = (value: string) => `border-l-stone-[${value}]`;
 
 
 /**
@@ -33734,7 +33734,7 @@ export const border_l_stone_arbitrary = (value: string) => `border-l-stone-["${v
  *
  * @type utility
  */
-export const border_l_stone_arb = (value: string) => `border-l-stone-["${value}"]`;
+export const border_l_stone_arb = (value: string) => `border-l-stone-[${value}]`;
 
 
 /**
@@ -33746,7 +33746,7 @@ export const border_l_stone_arb = (value: string) => `border-l-stone-["${value}"
  *
  * @type utility
  */
-export const border_l_red_arbitrary = (value: string) => `border-l-red-["${value}"]`;
+export const border_l_red_arbitrary = (value: string) => `border-l-red-[${value}]`;
 
 
 /**
@@ -33758,7 +33758,7 @@ export const border_l_red_arbitrary = (value: string) => `border-l-red-["${value
  *
  * @type utility
  */
-export const border_l_red_arb = (value: string) => `border-l-red-["${value}"]`;
+export const border_l_red_arb = (value: string) => `border-l-red-[${value}]`;
 
 
 /**
@@ -33770,7 +33770,7 @@ export const border_l_red_arb = (value: string) => `border-l-red-["${value}"]`;
  *
  * @type utility
  */
-export const border_l_orange_arbitrary = (value: string) => `border-l-orange-["${value}"]`;
+export const border_l_orange_arbitrary = (value: string) => `border-l-orange-[${value}]`;
 
 
 /**
@@ -33782,7 +33782,7 @@ export const border_l_orange_arbitrary = (value: string) => `border-l-orange-["$
  *
  * @type utility
  */
-export const border_l_orange_arb = (value: string) => `border-l-orange-["${value}"]`;
+export const border_l_orange_arb = (value: string) => `border-l-orange-[${value}]`;
 
 
 /**
@@ -33794,7 +33794,7 @@ export const border_l_orange_arb = (value: string) => `border-l-orange-["${value
  *
  * @type utility
  */
-export const border_l_amber_arbitrary = (value: string) => `border-l-amber-["${value}"]`;
+export const border_l_amber_arbitrary = (value: string) => `border-l-amber-[${value}]`;
 
 
 /**
@@ -33806,7 +33806,7 @@ export const border_l_amber_arbitrary = (value: string) => `border-l-amber-["${v
  *
  * @type utility
  */
-export const border_l_amber_arb = (value: string) => `border-l-amber-["${value}"]`;
+export const border_l_amber_arb = (value: string) => `border-l-amber-[${value}]`;
 
 
 /**
@@ -33818,7 +33818,7 @@ export const border_l_amber_arb = (value: string) => `border-l-amber-["${value}"
  *
  * @type utility
  */
-export const border_l_yellow_arbitrary = (value: string) => `border-l-yellow-["${value}"]`;
+export const border_l_yellow_arbitrary = (value: string) => `border-l-yellow-[${value}]`;
 
 
 /**
@@ -33830,7 +33830,7 @@ export const border_l_yellow_arbitrary = (value: string) => `border-l-yellow-["$
  *
  * @type utility
  */
-export const border_l_yellow_arb = (value: string) => `border-l-yellow-["${value}"]`;
+export const border_l_yellow_arb = (value: string) => `border-l-yellow-[${value}]`;
 
 
 /**
@@ -33842,7 +33842,7 @@ export const border_l_yellow_arb = (value: string) => `border-l-yellow-["${value
  *
  * @type utility
  */
-export const border_l_lime_arbitrary = (value: string) => `border-l-lime-["${value}"]`;
+export const border_l_lime_arbitrary = (value: string) => `border-l-lime-[${value}]`;
 
 
 /**
@@ -33854,7 +33854,7 @@ export const border_l_lime_arbitrary = (value: string) => `border-l-lime-["${val
  *
  * @type utility
  */
-export const border_l_lime_arb = (value: string) => `border-l-lime-["${value}"]`;
+export const border_l_lime_arb = (value: string) => `border-l-lime-[${value}]`;
 
 
 /**
@@ -33866,7 +33866,7 @@ export const border_l_lime_arb = (value: string) => `border-l-lime-["${value}"]`
  *
  * @type utility
  */
-export const border_l_green_arbitrary = (value: string) => `border-l-green-["${value}"]`;
+export const border_l_green_arbitrary = (value: string) => `border-l-green-[${value}]`;
 
 
 /**
@@ -33878,7 +33878,7 @@ export const border_l_green_arbitrary = (value: string) => `border-l-green-["${v
  *
  * @type utility
  */
-export const border_l_green_arb = (value: string) => `border-l-green-["${value}"]`;
+export const border_l_green_arb = (value: string) => `border-l-green-[${value}]`;
 
 
 /**
@@ -33890,7 +33890,7 @@ export const border_l_green_arb = (value: string) => `border-l-green-["${value}"
  *
  * @type utility
  */
-export const border_l_emerald_arbitrary = (value: string) => `border-l-emerald-["${value}"]`;
+export const border_l_emerald_arbitrary = (value: string) => `border-l-emerald-[${value}]`;
 
 
 /**
@@ -33902,7 +33902,7 @@ export const border_l_emerald_arbitrary = (value: string) => `border-l-emerald-[
  *
  * @type utility
  */
-export const border_l_emerald_arb = (value: string) => `border-l-emerald-["${value}"]`;
+export const border_l_emerald_arb = (value: string) => `border-l-emerald-[${value}]`;
 
 
 /**
@@ -33914,7 +33914,7 @@ export const border_l_emerald_arb = (value: string) => `border-l-emerald-["${val
  *
  * @type utility
  */
-export const border_l_teal_arbitrary = (value: string) => `border-l-teal-["${value}"]`;
+export const border_l_teal_arbitrary = (value: string) => `border-l-teal-[${value}]`;
 
 
 /**
@@ -33926,7 +33926,7 @@ export const border_l_teal_arbitrary = (value: string) => `border-l-teal-["${val
  *
  * @type utility
  */
-export const border_l_teal_arb = (value: string) => `border-l-teal-["${value}"]`;
+export const border_l_teal_arb = (value: string) => `border-l-teal-[${value}]`;
 
 
 /**
@@ -33938,7 +33938,7 @@ export const border_l_teal_arb = (value: string) => `border-l-teal-["${value}"]`
  *
  * @type utility
  */
-export const border_l_cyan_arbitrary = (value: string) => `border-l-cyan-["${value}"]`;
+export const border_l_cyan_arbitrary = (value: string) => `border-l-cyan-[${value}]`;
 
 
 /**
@@ -33950,7 +33950,7 @@ export const border_l_cyan_arbitrary = (value: string) => `border-l-cyan-["${val
  *
  * @type utility
  */
-export const border_l_cyan_arb = (value: string) => `border-l-cyan-["${value}"]`;
+export const border_l_cyan_arb = (value: string) => `border-l-cyan-[${value}]`;
 
 
 /**
@@ -33962,7 +33962,7 @@ export const border_l_cyan_arb = (value: string) => `border-l-cyan-["${value}"]`
  *
  * @type utility
  */
-export const border_l_sky_arbitrary = (value: string) => `border-l-sky-["${value}"]`;
+export const border_l_sky_arbitrary = (value: string) => `border-l-sky-[${value}]`;
 
 
 /**
@@ -33974,7 +33974,7 @@ export const border_l_sky_arbitrary = (value: string) => `border-l-sky-["${value
  *
  * @type utility
  */
-export const border_l_sky_arb = (value: string) => `border-l-sky-["${value}"]`;
+export const border_l_sky_arb = (value: string) => `border-l-sky-[${value}]`;
 
 
 /**
@@ -33986,7 +33986,7 @@ export const border_l_sky_arb = (value: string) => `border-l-sky-["${value}"]`;
  *
  * @type utility
  */
-export const border_l_blue_arbitrary = (value: string) => `border-l-blue-["${value}"]`;
+export const border_l_blue_arbitrary = (value: string) => `border-l-blue-[${value}]`;
 
 
 /**
@@ -33998,7 +33998,7 @@ export const border_l_blue_arbitrary = (value: string) => `border-l-blue-["${val
  *
  * @type utility
  */
-export const border_l_blue_arb = (value: string) => `border-l-blue-["${value}"]`;
+export const border_l_blue_arb = (value: string) => `border-l-blue-[${value}]`;
 
 
 /**
@@ -34010,7 +34010,7 @@ export const border_l_blue_arb = (value: string) => `border-l-blue-["${value}"]`
  *
  * @type utility
  */
-export const border_l_indigo_arbitrary = (value: string) => `border-l-indigo-["${value}"]`;
+export const border_l_indigo_arbitrary = (value: string) => `border-l-indigo-[${value}]`;
 
 
 /**
@@ -34022,7 +34022,7 @@ export const border_l_indigo_arbitrary = (value: string) => `border-l-indigo-["$
  *
  * @type utility
  */
-export const border_l_indigo_arb = (value: string) => `border-l-indigo-["${value}"]`;
+export const border_l_indigo_arb = (value: string) => `border-l-indigo-[${value}]`;
 
 
 /**
@@ -34034,7 +34034,7 @@ export const border_l_indigo_arb = (value: string) => `border-l-indigo-["${value
  *
  * @type utility
  */
-export const border_l_violet_arbitrary = (value: string) => `border-l-violet-["${value}"]`;
+export const border_l_violet_arbitrary = (value: string) => `border-l-violet-[${value}]`;
 
 
 /**
@@ -34046,7 +34046,7 @@ export const border_l_violet_arbitrary = (value: string) => `border-l-violet-["$
  *
  * @type utility
  */
-export const border_l_violet_arb = (value: string) => `border-l-violet-["${value}"]`;
+export const border_l_violet_arb = (value: string) => `border-l-violet-[${value}]`;
 
 
 /**
@@ -34058,7 +34058,7 @@ export const border_l_violet_arb = (value: string) => `border-l-violet-["${value
  *
  * @type utility
  */
-export const border_l_purple_arbitrary = (value: string) => `border-l-purple-["${value}"]`;
+export const border_l_purple_arbitrary = (value: string) => `border-l-purple-[${value}]`;
 
 
 /**
@@ -34070,7 +34070,7 @@ export const border_l_purple_arbitrary = (value: string) => `border-l-purple-["$
  *
  * @type utility
  */
-export const border_l_purple_arb = (value: string) => `border-l-purple-["${value}"]`;
+export const border_l_purple_arb = (value: string) => `border-l-purple-[${value}]`;
 
 
 /**
@@ -34082,7 +34082,7 @@ export const border_l_purple_arb = (value: string) => `border-l-purple-["${value
  *
  * @type utility
  */
-export const border_l_fuchsia_arbitrary = (value: string) => `border-l-fuchsia-["${value}"]`;
+export const border_l_fuchsia_arbitrary = (value: string) => `border-l-fuchsia-[${value}]`;
 
 
 /**
@@ -34094,7 +34094,7 @@ export const border_l_fuchsia_arbitrary = (value: string) => `border-l-fuchsia-[
  *
  * @type utility
  */
-export const border_l_fuchsia_arb = (value: string) => `border-l-fuchsia-["${value}"]`;
+export const border_l_fuchsia_arb = (value: string) => `border-l-fuchsia-[${value}]`;
 
 
 /**
@@ -34106,7 +34106,7 @@ export const border_l_fuchsia_arb = (value: string) => `border-l-fuchsia-["${val
  *
  * @type utility
  */
-export const border_l_pink_arbitrary = (value: string) => `border-l-pink-["${value}"]`;
+export const border_l_pink_arbitrary = (value: string) => `border-l-pink-[${value}]`;
 
 
 /**
@@ -34118,7 +34118,7 @@ export const border_l_pink_arbitrary = (value: string) => `border-l-pink-["${val
  *
  * @type utility
  */
-export const border_l_pink_arb = (value: string) => `border-l-pink-["${value}"]`;
+export const border_l_pink_arb = (value: string) => `border-l-pink-[${value}]`;
 
 
 /**
@@ -34130,7 +34130,7 @@ export const border_l_pink_arb = (value: string) => `border-l-pink-["${value}"]`
  *
  * @type utility
  */
-export const border_l_rose_arbitrary = (value: string) => `border-l-rose-["${value}"]`;
+export const border_l_rose_arbitrary = (value: string) => `border-l-rose-[${value}]`;
 
 
 /**
@@ -34142,7 +34142,7 @@ export const border_l_rose_arbitrary = (value: string) => `border-l-rose-["${val
  *
  * @type utility
  */
-export const border_l_rose_arb = (value: string) => `border-l-rose-["${value}"]`;
+export const border_l_rose_arb = (value: string) => `border-l-rose-[${value}]`;
 
 
 /**

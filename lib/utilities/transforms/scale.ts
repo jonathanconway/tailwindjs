@@ -399,7 +399,7 @@ export const scale_y_150 = "scale-y-150";
  *
  * @type utility
  */
-export const scale_arbitrary = (value: string) => `scale-["${value}"]`;
+export const scale_arbitrary = (value: string) => `scale-[${value}]`;
 
 
 /**
@@ -411,7 +411,7 @@ export const scale_arbitrary = (value: string) => `scale-["${value}"]`;
  *
  * @type utility
  */
-export const scale_arb = (value: string) => `scale-["${value}"]`;
+export const scale_arb = (value: string) => `scale-[${value}]`;
 
 
 /**
@@ -423,7 +423,7 @@ export const scale_arb = (value: string) => `scale-["${value}"]`;
  *
  * @type utility
  */
-export const scale_x_arbitrary = (value: string) => `scale-x-["${value}"]`;
+export const scale_x_arbitrary = (value: string) => `scale-x-[${value}]`;
 
 
 /**
@@ -435,7 +435,7 @@ export const scale_x_arbitrary = (value: string) => `scale-x-["${value}"]`;
  *
  * @type utility
  */
-export const scale_x_arb = (value: string) => `scale-x-["${value}"]`;
+export const scale_x_arb = (value: string) => `scale-x-[${value}]`;
 
 
 /**
@@ -447,7 +447,7 @@ export const scale_x_arb = (value: string) => `scale-x-["${value}"]`;
  *
  * @type utility
  */
-export const scale_y_arbitrary = (value: string) => `scale-y-["${value}"]`;
+export const scale_y_arbitrary = (value: string) => `scale-y-[${value}]`;
 
 
 /**
@@ -459,7 +459,7 @@ export const scale_y_arbitrary = (value: string) => `scale-y-["${value}"]`;
  *
  * @type utility
  */
-export const scale_y_arb = (value: string) => `scale-y-["${value}"]`;
+export const scale_y_arb = (value: string) => `scale-y-[${value}]`;
 
 
 /**

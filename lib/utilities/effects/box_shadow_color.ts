@@ -3220,7 +3220,7 @@ export const shadow_rose_950 = "shadow-rose-950";
  *
  * @type utility
  */
-export const shadow_slate_arbitrary = (value: string) => `shadow-slate-["${value}"]`;
+export const shadow_slate_arbitrary = (value: string) => `shadow-slate-[${value}]`;
 
 
 /**
@@ -3232,7 +3232,7 @@ export const shadow_slate_arbitrary = (value: string) => `shadow-slate-["${value
  *
  * @type utility
  */
-export const shadow_slate_arb = (value: string) => `shadow-slate-["${value}"]`;
+export const shadow_slate_arb = (value: string) => `shadow-slate-[${value}]`;
 
 
 /**
@@ -3244,7 +3244,7 @@ export const shadow_slate_arb = (value: string) => `shadow-slate-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_gray_arbitrary = (value: string) => `shadow-gray-["${value}"]`;
+export const shadow_gray_arbitrary = (value: string) => `shadow-gray-[${value}]`;
 
 
 /**
@@ -3256,7 +3256,7 @@ export const shadow_gray_arbitrary = (value: string) => `shadow-gray-["${value}"
  *
  * @type utility
  */
-export const shadow_gray_arb = (value: string) => `shadow-gray-["${value}"]`;
+export const shadow_gray_arb = (value: string) => `shadow-gray-[${value}]`;
 
 
 /**
@@ -3268,7 +3268,7 @@ export const shadow_gray_arb = (value: string) => `shadow-gray-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-["${value}"]`;
+export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-[${value}]`;
 
 
 /**
@@ -3280,7 +3280,7 @@ export const shadow_zinc_arbitrary = (value: string) => `shadow-zinc-["${value}"
  *
  * @type utility
  */
-export const shadow_zinc_arb = (value: string) => `shadow-zinc-["${value}"]`;
+export const shadow_zinc_arb = (value: string) => `shadow-zinc-[${value}]`;
 
 
 /**
@@ -3292,7 +3292,7 @@ export const shadow_zinc_arb = (value: string) => `shadow-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-["${value}"]`;
+export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-[${value}]`;
 
 
 /**
@@ -3304,7 +3304,7 @@ export const shadow_neutral_arbitrary = (value: string) => `shadow-neutral-["${v
  *
  * @type utility
  */
-export const shadow_neutral_arb = (value: string) => `shadow-neutral-["${value}"]`;
+export const shadow_neutral_arb = (value: string) => `shadow-neutral-[${value}]`;
 
 
 /**
@@ -3316,7 +3316,7 @@ export const shadow_neutral_arb = (value: string) => `shadow-neutral-["${value}"
  *
  * @type utility
  */
-export const shadow_stone_arbitrary = (value: string) => `shadow-stone-["${value}"]`;
+export const shadow_stone_arbitrary = (value: string) => `shadow-stone-[${value}]`;
 
 
 /**
@@ -3328,7 +3328,7 @@ export const shadow_stone_arbitrary = (value: string) => `shadow-stone-["${value
  *
  * @type utility
  */
-export const shadow_stone_arb = (value: string) => `shadow-stone-["${value}"]`;
+export const shadow_stone_arb = (value: string) => `shadow-stone-[${value}]`;
 
 
 /**
@@ -3340,7 +3340,7 @@ export const shadow_stone_arb = (value: string) => `shadow-stone-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_red_arbitrary = (value: string) => `shadow-red-["${value}"]`;
+export const shadow_red_arbitrary = (value: string) => `shadow-red-[${value}]`;
 
 
 /**
@@ -3352,7 +3352,7 @@ export const shadow_red_arbitrary = (value: string) => `shadow-red-["${value}"]`
  *
  * @type utility
  */
-export const shadow_red_arb = (value: string) => `shadow-red-["${value}"]`;
+export const shadow_red_arb = (value: string) => `shadow-red-[${value}]`;
 
 
 /**
@@ -3364,7 +3364,7 @@ export const shadow_red_arb = (value: string) => `shadow-red-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_orange_arbitrary = (value: string) => `shadow-orange-["${value}"]`;
+export const shadow_orange_arbitrary = (value: string) => `shadow-orange-[${value}]`;
 
 
 /**
@@ -3376,7 +3376,7 @@ export const shadow_orange_arbitrary = (value: string) => `shadow-orange-["${val
  *
  * @type utility
  */
-export const shadow_orange_arb = (value: string) => `shadow-orange-["${value}"]`;
+export const shadow_orange_arb = (value: string) => `shadow-orange-[${value}]`;
 
 
 /**
@@ -3388,7 +3388,7 @@ export const shadow_orange_arb = (value: string) => `shadow-orange-["${value}"]`
  *
  * @type utility
  */
-export const shadow_amber_arbitrary = (value: string) => `shadow-amber-["${value}"]`;
+export const shadow_amber_arbitrary = (value: string) => `shadow-amber-[${value}]`;
 
 
 /**
@@ -3400,7 +3400,7 @@ export const shadow_amber_arbitrary = (value: string) => `shadow-amber-["${value
  *
  * @type utility
  */
-export const shadow_amber_arb = (value: string) => `shadow-amber-["${value}"]`;
+export const shadow_amber_arb = (value: string) => `shadow-amber-[${value}]`;
 
 
 /**
@@ -3412,7 +3412,7 @@ export const shadow_amber_arb = (value: string) => `shadow-amber-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-["${value}"]`;
+export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-[${value}]`;
 
 
 /**
@@ -3424,7 +3424,7 @@ export const shadow_yellow_arbitrary = (value: string) => `shadow-yellow-["${val
  *
  * @type utility
  */
-export const shadow_yellow_arb = (value: string) => `shadow-yellow-["${value}"]`;
+export const shadow_yellow_arb = (value: string) => `shadow-yellow-[${value}]`;
 
 
 /**
@@ -3436,7 +3436,7 @@ export const shadow_yellow_arb = (value: string) => `shadow-yellow-["${value}"]`
  *
  * @type utility
  */
-export const shadow_lime_arbitrary = (value: string) => `shadow-lime-["${value}"]`;
+export const shadow_lime_arbitrary = (value: string) => `shadow-lime-[${value}]`;
 
 
 /**
@@ -3448,7 +3448,7 @@ export const shadow_lime_arbitrary = (value: string) => `shadow-lime-["${value}"
  *
  * @type utility
  */
-export const shadow_lime_arb = (value: string) => `shadow-lime-["${value}"]`;
+export const shadow_lime_arb = (value: string) => `shadow-lime-[${value}]`;
 
 
 /**
@@ -3460,7 +3460,7 @@ export const shadow_lime_arb = (value: string) => `shadow-lime-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_green_arbitrary = (value: string) => `shadow-green-["${value}"]`;
+export const shadow_green_arbitrary = (value: string) => `shadow-green-[${value}]`;
 
 
 /**
@@ -3472,7 +3472,7 @@ export const shadow_green_arbitrary = (value: string) => `shadow-green-["${value
  *
  * @type utility
  */
-export const shadow_green_arb = (value: string) => `shadow-green-["${value}"]`;
+export const shadow_green_arb = (value: string) => `shadow-green-[${value}]`;
 
 
 /**
@@ -3484,7 +3484,7 @@ export const shadow_green_arb = (value: string) => `shadow-green-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-["${value}"]`;
+export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-[${value}]`;
 
 
 /**
@@ -3496,7 +3496,7 @@ export const shadow_emerald_arbitrary = (value: string) => `shadow-emerald-["${v
  *
  * @type utility
  */
-export const shadow_emerald_arb = (value: string) => `shadow-emerald-["${value}"]`;
+export const shadow_emerald_arb = (value: string) => `shadow-emerald-[${value}]`;
 
 
 /**
@@ -3508,7 +3508,7 @@ export const shadow_emerald_arb = (value: string) => `shadow-emerald-["${value}"
  *
  * @type utility
  */
-export const shadow_teal_arbitrary = (value: string) => `shadow-teal-["${value}"]`;
+export const shadow_teal_arbitrary = (value: string) => `shadow-teal-[${value}]`;
 
 
 /**
@@ -3520,7 +3520,7 @@ export const shadow_teal_arbitrary = (value: string) => `shadow-teal-["${value}"
  *
  * @type utility
  */
-export const shadow_teal_arb = (value: string) => `shadow-teal-["${value}"]`;
+export const shadow_teal_arb = (value: string) => `shadow-teal-[${value}]`;
 
 
 /**
@@ -3532,7 +3532,7 @@ export const shadow_teal_arb = (value: string) => `shadow-teal-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-["${value}"]`;
+export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-[${value}]`;
 
 
 /**
@@ -3544,7 +3544,7 @@ export const shadow_cyan_arbitrary = (value: string) => `shadow-cyan-["${value}"
  *
  * @type utility
  */
-export const shadow_cyan_arb = (value: string) => `shadow-cyan-["${value}"]`;
+export const shadow_cyan_arb = (value: string) => `shadow-cyan-[${value}]`;
 
 
 /**
@@ -3556,7 +3556,7 @@ export const shadow_cyan_arb = (value: string) => `shadow-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_sky_arbitrary = (value: string) => `shadow-sky-["${value}"]`;
+export const shadow_sky_arbitrary = (value: string) => `shadow-sky-[${value}]`;
 
 
 /**
@@ -3568,7 +3568,7 @@ export const shadow_sky_arbitrary = (value: string) => `shadow-sky-["${value}"]`
  *
  * @type utility
  */
-export const shadow_sky_arb = (value: string) => `shadow-sky-["${value}"]`;
+export const shadow_sky_arb = (value: string) => `shadow-sky-[${value}]`;
 
 
 /**
@@ -3580,7 +3580,7 @@ export const shadow_sky_arb = (value: string) => `shadow-sky-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_blue_arbitrary = (value: string) => `shadow-blue-["${value}"]`;
+export const shadow_blue_arbitrary = (value: string) => `shadow-blue-[${value}]`;
 
 
 /**
@@ -3592,7 +3592,7 @@ export const shadow_blue_arbitrary = (value: string) => `shadow-blue-["${value}"
  *
  * @type utility
  */
-export const shadow_blue_arb = (value: string) => `shadow-blue-["${value}"]`;
+export const shadow_blue_arb = (value: string) => `shadow-blue-[${value}]`;
 
 
 /**
@@ -3604,7 +3604,7 @@ export const shadow_blue_arb = (value: string) => `shadow-blue-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-["${value}"]`;
+export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-[${value}]`;
 
 
 /**
@@ -3616,7 +3616,7 @@ export const shadow_indigo_arbitrary = (value: string) => `shadow-indigo-["${val
  *
  * @type utility
  */
-export const shadow_indigo_arb = (value: string) => `shadow-indigo-["${value}"]`;
+export const shadow_indigo_arb = (value: string) => `shadow-indigo-[${value}]`;
 
 
 /**
@@ -3628,7 +3628,7 @@ export const shadow_indigo_arb = (value: string) => `shadow-indigo-["${value}"]`
  *
  * @type utility
  */
-export const shadow_violet_arbitrary = (value: string) => `shadow-violet-["${value}"]`;
+export const shadow_violet_arbitrary = (value: string) => `shadow-violet-[${value}]`;
 
 
 /**
@@ -3640,7 +3640,7 @@ export const shadow_violet_arbitrary = (value: string) => `shadow-violet-["${val
  *
  * @type utility
  */
-export const shadow_violet_arb = (value: string) => `shadow-violet-["${value}"]`;
+export const shadow_violet_arb = (value: string) => `shadow-violet-[${value}]`;
 
 
 /**
@@ -3652,7 +3652,7 @@ export const shadow_violet_arb = (value: string) => `shadow-violet-["${value}"]`
  *
  * @type utility
  */
-export const shadow_purple_arbitrary = (value: string) => `shadow-purple-["${value}"]`;
+export const shadow_purple_arbitrary = (value: string) => `shadow-purple-[${value}]`;
 
 
 /**
@@ -3664,7 +3664,7 @@ export const shadow_purple_arbitrary = (value: string) => `shadow-purple-["${val
  *
  * @type utility
  */
-export const shadow_purple_arb = (value: string) => `shadow-purple-["${value}"]`;
+export const shadow_purple_arb = (value: string) => `shadow-purple-[${value}]`;
 
 
 /**
@@ -3676,7 +3676,7 @@ export const shadow_purple_arb = (value: string) => `shadow-purple-["${value}"]`
  *
  * @type utility
  */
-export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-["${value}"]`;
+export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-[${value}]`;
 
 
 /**
@@ -3688,7 +3688,7 @@ export const shadow_fuchsia_arbitrary = (value: string) => `shadow-fuchsia-["${v
  *
  * @type utility
  */
-export const shadow_fuchsia_arb = (value: string) => `shadow-fuchsia-["${value}"]`;
+export const shadow_fuchsia_arb = (value: string) => `shadow-fuchsia-[${value}]`;
 
 
 /**
@@ -3700,7 +3700,7 @@ export const shadow_fuchsia_arb = (value: string) => `shadow-fuchsia-["${value}"
  *
  * @type utility
  */
-export const shadow_pink_arbitrary = (value: string) => `shadow-pink-["${value}"]`;
+export const shadow_pink_arbitrary = (value: string) => `shadow-pink-[${value}]`;
 
 
 /**
@@ -3712,7 +3712,7 @@ export const shadow_pink_arbitrary = (value: string) => `shadow-pink-["${value}"
  *
  * @type utility
  */
-export const shadow_pink_arb = (value: string) => `shadow-pink-["${value}"]`;
+export const shadow_pink_arb = (value: string) => `shadow-pink-[${value}]`;
 
 
 /**
@@ -3724,7 +3724,7 @@ export const shadow_pink_arb = (value: string) => `shadow-pink-["${value}"]`;
  *
  * @type utility
  */
-export const shadow_rose_arbitrary = (value: string) => `shadow-rose-["${value}"]`;
+export const shadow_rose_arbitrary = (value: string) => `shadow-rose-[${value}]`;
 
 
 /**
@@ -3736,7 +3736,7 @@ export const shadow_rose_arbitrary = (value: string) => `shadow-rose-["${value}"
  *
  * @type utility
  */
-export const shadow_rose_arb = (value: string) => `shadow-rose-["${value}"]`;
+export const shadow_rose_arb = (value: string) => `shadow-rose-[${value}]`;
 
 
 /**

@@ -828,7 +828,7 @@ export const basis_full = "basis-full";
  *
  * @type utility
  */
-export const basis_arbitrary = (value: string) => `basis-["${value}"]`;
+export const basis_arbitrary = (value: string) => `basis-[${value}]`;
 
 
 /**
@@ -840,7 +840,7 @@ export const basis_arbitrary = (value: string) => `basis-["${value}"]`;
  *
  * @type utility
  */
-export const basis_arb = (value: string) => `basis-["${value}"]`;
+export const basis_arb = (value: string) => `basis-[${value}]`;
 
 
 /**

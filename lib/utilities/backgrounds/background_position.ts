@@ -126,7 +126,7 @@ export const bg_top = "bg-top";
  *
  * @type utility
  */
-export const bg_left_arbitrary = (value: string) => `bg-left-["${value}"]`;
+export const bg_left_arbitrary = (value: string) => `bg-left-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const bg_left_arbitrary = (value: string) => `bg-left-["${value}"]`;
  *
  * @type utility
  */
-export const bg_left_arb = (value: string) => `bg-left-["${value}"]`;
+export const bg_left_arb = (value: string) => `bg-left-[${value}]`;
 
 
 /**
@@ -150,7 +150,7 @@ export const bg_left_arb = (value: string) => `bg-left-["${value}"]`;
  *
  * @type utility
  */
-export const bg_right_arbitrary = (value: string) => `bg-right-["${value}"]`;
+export const bg_right_arbitrary = (value: string) => `bg-right-[${value}]`;
 
 
 /**
@@ -162,7 +162,7 @@ export const bg_right_arbitrary = (value: string) => `bg-right-["${value}"]`;
  *
  * @type utility
  */
-export const bg_right_arb = (value: string) => `bg-right-["${value}"]`;
+export const bg_right_arb = (value: string) => `bg-right-[${value}]`;
 
 
 /**

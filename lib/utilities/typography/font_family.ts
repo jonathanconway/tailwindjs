@@ -48,7 +48,7 @@ export const font_mono = "font-mono";
  *
  * @type utility
  */
-export const font_arbitrary = (value: string) => `font-["${value}"]`;
+export const font_arbitrary = (value: string) => `font-[${value}]`;
 
 
 /**
@@ -60,7 +60,7 @@ export const font_arbitrary = (value: string) => `font-["${value}"]`;
  *
  * @type utility
  */
-export const font_arb = (value: string) => `font-["${value}"]`;
+export const font_arb = (value: string) => `font-[${value}]`;
 
 
 /**

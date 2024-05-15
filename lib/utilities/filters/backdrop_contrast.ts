@@ -100,7 +100,7 @@ export const backdrop_contrast_200 = "backdrop-contrast-200";
  *
  * @type utility
  */
-export const backdrop_contrast_arbitrary = (value: string) => `backdrop-contrast-["${value}"]`;
+export const backdrop_contrast_arbitrary = (value: string) => `backdrop-contrast-[${value}]`;
 
 
 /**
@@ -112,7 +112,7 @@ export const backdrop_contrast_arbitrary = (value: string) => `backdrop-contrast
  *
  * @type utility
  */
-export const backdrop_contrast_arb = (value: string) => `backdrop-contrast-["${value}"]`;
+export const backdrop_contrast_arb = (value: string) => `backdrop-contrast-[${value}]`;
 
 
 /**

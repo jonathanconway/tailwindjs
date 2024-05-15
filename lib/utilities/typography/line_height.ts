@@ -191,7 +191,7 @@ export const leading_loose = "leading-loose";
  *
  * @type utility
  */
-export const leading_arbitrary = (value: string) => `leading-["${value}"]`;
+export const leading_arbitrary = (value: string) => `leading-[${value}]`;
 
 
 /**
@@ -203,7 +203,7 @@ export const leading_arbitrary = (value: string) => `leading-["${value}"]`;
  *
  * @type utility
  */
-export const leading_arb = (value: string) => `leading-["${value}"]`;
+export const leading_arb = (value: string) => `leading-[${value}]`;
 
 
 /**

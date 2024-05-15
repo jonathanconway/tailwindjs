@@ -100,7 +100,7 @@ export const contrast_200 = "contrast-200";
  *
  * @type utility
  */
-export const contrast_arbitrary = (value: string) => `contrast-["${value}"]`;
+export const contrast_arbitrary = (value: string) => `contrast-[${value}]`;
 
 
 /**
@@ -112,7 +112,7 @@ export const contrast_arbitrary = (value: string) => `contrast-["${value}"]`;
  *
  * @type utility
  */
-export const contrast_arb = (value: string) => `contrast-["${value}"]`;
+export const contrast_arb = (value: string) => `contrast-[${value}]`;
 
 
 /**

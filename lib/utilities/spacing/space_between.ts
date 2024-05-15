@@ -945,7 +945,7 @@ export const space_x_reverse = "space-x-reverse";
  *
  * @type utility
  */
-export const space_x_arbitrary = (value: string) => `space-x-["${value}"]`;
+export const space_x_arbitrary = (value: string) => `space-x-[${value}]`;
 
 
 /**
@@ -957,7 +957,7 @@ export const space_x_arbitrary = (value: string) => `space-x-["${value}"]`;
  *
  * @type utility
  */
-export const space_x_arb = (value: string) => `space-x-["${value}"]`;
+export const space_x_arb = (value: string) => `space-x-[${value}]`;
 
 
 /**
@@ -969,7 +969,7 @@ export const space_x_arb = (value: string) => `space-x-["${value}"]`;
  *
  * @type utility
  */
-export const space_y_arbitrary = (value: string) => `space-y-["${value}"]`;
+export const space_y_arbitrary = (value: string) => `space-y-[${value}]`;
 
 
 /**
@@ -981,7 +981,7 @@ export const space_y_arbitrary = (value: string) => `space-y-["${value}"]`;
  *
  * @type utility
  */
-export const space_y_arb = (value: string) => `space-y-["${value}"]`;
+export const space_y_arb = (value: string) => `space-y-[${value}]`;
 
 
 /**

@@ -87,7 +87,7 @@ export const backdrop_hue_rotate_180 = "backdrop-hue-rotate-180";
  *
  * @type utility
  */
-export const backdrop_hue_rotate_arbitrary = (value: string) => `backdrop-hue-rotate-["${value}"]`;
+export const backdrop_hue_rotate_arbitrary = (value: string) => `backdrop-hue-rotate-[${value}]`;
 
 
 /**
@@ -99,7 +99,7 @@ export const backdrop_hue_rotate_arbitrary = (value: string) => `backdrop-hue-ro
  *
  * @type utility
  */
-export const backdrop_hue_rotate_arb = (value: string) => `backdrop-hue-rotate-["${value}"]`;
+export const backdrop_hue_rotate_arb = (value: string) => `backdrop-hue-rotate-[${value}]`;
 
 
 /**

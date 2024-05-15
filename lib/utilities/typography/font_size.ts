@@ -191,7 +191,7 @@ export const text_9xl = "text-9xl";
  *
  * @type utility
  */
-export const text_arbitrary = (value: string) => `text-["${value}"]`;
+export const text_arbitrary = (value: string) => `text-[${value}]`;
 
 
 /**
@@ -203,7 +203,7 @@ export const text_arbitrary = (value: string) => `text-["${value}"]`;
  *
  * @type utility
  */
-export const text_arb = (value: string) => `text-["${value}"]`;
+export const text_arb = (value: string) => `text-[${value}]`;
 
 
 /**

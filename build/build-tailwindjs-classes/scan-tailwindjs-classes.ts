@@ -189,7 +189,8 @@ function parseExpression(
   // e.g. "0.95rem"
   if (isArgument && isLiteralExpression(node)) {
     const literalText = node.getText(sourceFile);
-    return literalText;
+    const argumentText = literalText.replaceAll('"', "");
+    return argumentText;
   }
 
   // e.g. dark(text_stone_50)

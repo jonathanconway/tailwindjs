@@ -919,7 +919,7 @@ export const w_fit = "w-fit";
  *
  * @type utility
  */
-export const w_arbitrary = (value: string) => `w-["${value}"]`;
+export const w_arbitrary = (value: string) => `w-[${value}]`;
 
 
 /**
@@ -931,7 +931,7 @@ export const w_arbitrary = (value: string) => `w-["${value}"]`;
  *
  * @type utility
  */
-export const w_arb = (value: string) => `w-["${value}"]`;
+export const w_arb = (value: string) => `w-[${value}]`;
 
 
 /**

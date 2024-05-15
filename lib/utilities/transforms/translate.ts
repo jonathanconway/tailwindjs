@@ -1101,7 +1101,7 @@ export const translate_y_full = "translate-y-full";
  *
  * @type utility
  */
-export const translate_x_arbitrary = (value: string) => `translate-x-["${value}"]`;
+export const translate_x_arbitrary = (value: string) => `translate-x-[${value}]`;
 
 
 /**
@@ -1113,7 +1113,7 @@ export const translate_x_arbitrary = (value: string) => `translate-x-["${value}"
  *
  * @type utility
  */
-export const translate_x_arb = (value: string) => `translate-x-["${value}"]`;
+export const translate_x_arb = (value: string) => `translate-x-[${value}]`;
 
 
 /**
@@ -1125,7 +1125,7 @@ export const translate_x_arb = (value: string) => `translate-x-["${value}"]`;
  *
  * @type utility
  */
-export const translate_y_arbitrary = (value: string) => `translate-y-["${value}"]`;
+export const translate_y_arbitrary = (value: string) => `translate-y-[${value}]`;
 
 
 /**
@@ -1137,7 +1137,7 @@ export const translate_y_arbitrary = (value: string) => `translate-y-["${value}"
  *
  * @type utility
  */
-export const translate_y_arb = (value: string) => `translate-y-["${value}"]`;
+export const translate_y_arb = (value: string) => `translate-y-[${value}]`;
 
 
 /**

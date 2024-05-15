@@ -4174,7 +4174,7 @@ export const scroll_pl_96 = "scroll-pl-96";
  *
  * @type utility
  */
-export const scroll_p_arbitrary = (value: string) => `scroll-p-["${value}"]`;
+export const scroll_p_arbitrary = (value: string) => `scroll-p-[${value}]`;
 
 
 /**
@@ -4186,7 +4186,7 @@ export const scroll_p_arbitrary = (value: string) => `scroll-p-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_p_arb = (value: string) => `scroll-p-["${value}"]`;
+export const scroll_p_arb = (value: string) => `scroll-p-[${value}]`;
 
 
 /**
@@ -4198,7 +4198,7 @@ export const scroll_p_arb = (value: string) => `scroll-p-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_px_arbitrary = (value: string) => `scroll-px-["${value}"]`;
+export const scroll_px_arbitrary = (value: string) => `scroll-px-[${value}]`;
 
 
 /**
@@ -4210,7 +4210,7 @@ export const scroll_px_arbitrary = (value: string) => `scroll-px-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_px_arb = (value: string) => `scroll-px-["${value}"]`;
+export const scroll_px_arb = (value: string) => `scroll-px-[${value}]`;
 
 
 /**
@@ -4222,7 +4222,7 @@ export const scroll_px_arb = (value: string) => `scroll-px-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_py_arbitrary = (value: string) => `scroll-py-["${value}"]`;
+export const scroll_py_arbitrary = (value: string) => `scroll-py-[${value}]`;
 
 
 /**
@@ -4234,7 +4234,7 @@ export const scroll_py_arbitrary = (value: string) => `scroll-py-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_py_arb = (value: string) => `scroll-py-["${value}"]`;
+export const scroll_py_arb = (value: string) => `scroll-py-[${value}]`;
 
 
 /**
@@ -4246,7 +4246,7 @@ export const scroll_py_arb = (value: string) => `scroll-py-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_ps_arbitrary = (value: string) => `scroll-ps-["${value}"]`;
+export const scroll_ps_arbitrary = (value: string) => `scroll-ps-[${value}]`;
 
 
 /**
@@ -4258,7 +4258,7 @@ export const scroll_ps_arbitrary = (value: string) => `scroll-ps-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_ps_arb = (value: string) => `scroll-ps-["${value}"]`;
+export const scroll_ps_arb = (value: string) => `scroll-ps-[${value}]`;
 
 
 /**
@@ -4270,7 +4270,7 @@ export const scroll_ps_arb = (value: string) => `scroll-ps-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pe_arbitrary = (value: string) => `scroll-pe-["${value}"]`;
+export const scroll_pe_arbitrary = (value: string) => `scroll-pe-[${value}]`;
 
 
 /**
@@ -4282,7 +4282,7 @@ export const scroll_pe_arbitrary = (value: string) => `scroll-pe-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pe_arb = (value: string) => `scroll-pe-["${value}"]`;
+export const scroll_pe_arb = (value: string) => `scroll-pe-[${value}]`;
 
 
 /**
@@ -4294,7 +4294,7 @@ export const scroll_pe_arb = (value: string) => `scroll-pe-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pt_arbitrary = (value: string) => `scroll-pt-["${value}"]`;
+export const scroll_pt_arbitrary = (value: string) => `scroll-pt-[${value}]`;
 
 
 /**
@@ -4306,7 +4306,7 @@ export const scroll_pt_arbitrary = (value: string) => `scroll-pt-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pt_arb = (value: string) => `scroll-pt-["${value}"]`;
+export const scroll_pt_arb = (value: string) => `scroll-pt-[${value}]`;
 
 
 /**
@@ -4318,7 +4318,7 @@ export const scroll_pt_arb = (value: string) => `scroll-pt-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pr_arbitrary = (value: string) => `scroll-pr-["${value}"]`;
+export const scroll_pr_arbitrary = (value: string) => `scroll-pr-[${value}]`;
 
 
 /**
@@ -4330,7 +4330,7 @@ export const scroll_pr_arbitrary = (value: string) => `scroll-pr-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pr_arb = (value: string) => `scroll-pr-["${value}"]`;
+export const scroll_pr_arb = (value: string) => `scroll-pr-[${value}]`;
 
 
 /**
@@ -4342,7 +4342,7 @@ export const scroll_pr_arb = (value: string) => `scroll-pr-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pb_arbitrary = (value: string) => `scroll-pb-["${value}"]`;
+export const scroll_pb_arbitrary = (value: string) => `scroll-pb-[${value}]`;
 
 
 /**
@@ -4354,7 +4354,7 @@ export const scroll_pb_arbitrary = (value: string) => `scroll-pb-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pb_arb = (value: string) => `scroll-pb-["${value}"]`;
+export const scroll_pb_arb = (value: string) => `scroll-pb-[${value}]`;
 
 
 /**
@@ -4366,7 +4366,7 @@ export const scroll_pb_arb = (value: string) => `scroll-pb-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pl_arbitrary = (value: string) => `scroll-pl-["${value}"]`;
+export const scroll_pl_arbitrary = (value: string) => `scroll-pl-[${value}]`;
 
 
 /**
@@ -4378,7 +4378,7 @@ export const scroll_pl_arbitrary = (value: string) => `scroll-pl-["${value}"]`;
  *
  * @type utility
  */
-export const scroll_pl_arb = (value: string) => `scroll-pl-["${value}"]`;
+export const scroll_pl_arb = (value: string) => `scroll-pl-[${value}]`;
 
 
 /**

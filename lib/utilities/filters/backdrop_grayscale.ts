@@ -35,7 +35,7 @@ export const backdrop_grayscale = "backdrop-grayscale";
  *
  * @type utility
  */
-export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-grayscale-["${value}"]`;
+export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-grayscale-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-graysca
  *
  * @type utility
  */
-export const backdrop_grayscale_arb = (value: string) => `backdrop-grayscale-["${value}"]`;
+export const backdrop_grayscale_arb = (value: string) => `backdrop-grayscale-[${value}]`;
 
 
 /**

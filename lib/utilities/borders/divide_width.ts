@@ -175,7 +175,7 @@ export const divide_x_reverse = "divide-x-reverse";
  *
  * @type utility
  */
-export const divide_x_arbitrary = (value: string) => `divide-x-["${value}"]`;
+export const divide_x_arbitrary = (value: string) => `divide-x-[${value}]`;
 
 
 /**
@@ -187,7 +187,7 @@ export const divide_x_arbitrary = (value: string) => `divide-x-["${value}"]`;
  *
  * @type utility
  */
-export const divide_x_arb = (value: string) => `divide-x-["${value}"]`;
+export const divide_x_arb = (value: string) => `divide-x-[${value}]`;
 
 
 /**
@@ -199,7 +199,7 @@ export const divide_x_arb = (value: string) => `divide-x-["${value}"]`;
  *
  * @type utility
  */
-export const divide_arbitrary = (value: string) => `divide-["${value}"]`;
+export const divide_arbitrary = (value: string) => `divide-[${value}]`;
 
 
 /**
@@ -211,7 +211,7 @@ export const divide_arbitrary = (value: string) => `divide-["${value}"]`;
  *
  * @type utility
  */
-export const divide_arb = (value: string) => `divide-["${value}"]`;
+export const divide_arb = (value: string) => `divide-[${value}]`;
 
 
 /**
@@ -223,7 +223,7 @@ export const divide_arb = (value: string) => `divide-["${value}"]`;
  *
  * @type utility
  */
-export const divide_y_arbitrary = (value: string) => `divide-y-["${value}"]`;
+export const divide_y_arbitrary = (value: string) => `divide-y-[${value}]`;
 
 
 /**
@@ -235,7 +235,7 @@ export const divide_y_arbitrary = (value: string) => `divide-y-["${value}"]`;
  *
  * @type utility
  */
-export const divide_y_arb = (value: string) => `divide-y-["${value}"]`;
+export const divide_y_arb = (value: string) => `divide-y-[${value}]`;
 
 
 /**

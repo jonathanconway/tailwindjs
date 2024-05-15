@@ -22,7 +22,7 @@ export const content_none = "content-none";
  *
  * @type utility
  */
-export const content_arbitrary = (value: string) => `content-["${value}"]`;
+export const content_arbitrary = (value: string) => `content-[${value}]`;
 
 
 /**
@@ -34,7 +34,7 @@ export const content_arbitrary = (value: string) => `content-["${value}"]`;
  *
  * @type utility
  */
-export const content_arb = (value: string) => `content-["${value}"]`;
+export const content_arb = (value: string) => `content-[${value}]`;
 
 
 /**

@@ -61,7 +61,7 @@ export const ease_in_out = "ease-in-out";
  *
  * @type utility
  */
-export const ease_arbitrary = (value: string) => `ease-["${value}"]`;
+export const ease_arbitrary = (value: string) => `ease-[${value}]`;
 
 
 /**
@@ -73,7 +73,7 @@ export const ease_arbitrary = (value: string) => `ease-["${value}"]`;
  *
  * @type utility
  */
-export const ease_arb = (value: string) => `ease-["${value}"]`;
+export const ease_arb = (value: string) => `ease-[${value}]`;
 
 
 /**
@@ -85,7 +85,7 @@ export const ease_arb = (value: string) => `ease-["${value}"]`;
  *
  * @type utility
  */
-export const ease_in_arbitrary = (value: string) => `ease-in-["${value}"]`;
+export const ease_in_arbitrary = (value: string) => `ease-in-[${value}]`;
 
 
 /**
@@ -97,7 +97,7 @@ export const ease_in_arbitrary = (value: string) => `ease-in-["${value}"]`;
  *
  * @type utility
  */
-export const ease_in_arb = (value: string) => `ease-in-["${value}"]`;
+export const ease_in_arb = (value: string) => `ease-in-[${value}]`;
 
 
 /**

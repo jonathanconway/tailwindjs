@@ -48,7 +48,7 @@ export const aspect_video = "aspect-video";
  *
  * @type utility
  */
-export const aspect_arbitrary = (value: string) => `aspect-["${value}"]`;
+export const aspect_arbitrary = (value: string) => `aspect-[${value}]`;
 
 
 /**
@@ -60,7 +60,7 @@ export const aspect_arbitrary = (value: string) => `aspect-["${value}"]`;
  *
  * @type utility
  */
-export const aspect_arb = (value: string) => `aspect-["${value}"]`;
+export const aspect_arb = (value: string) => `aspect-[${value}]`;
 
 
 /**

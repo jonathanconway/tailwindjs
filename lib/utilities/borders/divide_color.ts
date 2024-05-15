@@ -3220,7 +3220,7 @@ export const divide_rose_950 = "divide-rose-950";
  *
  * @type utility
  */
-export const divide_slate_arbitrary = (value: string) => `divide-slate-["${value}"]`;
+export const divide_slate_arbitrary = (value: string) => `divide-slate-[${value}]`;
 
 
 /**
@@ -3232,7 +3232,7 @@ export const divide_slate_arbitrary = (value: string) => `divide-slate-["${value
  *
  * @type utility
  */
-export const divide_slate_arb = (value: string) => `divide-slate-["${value}"]`;
+export const divide_slate_arb = (value: string) => `divide-slate-[${value}]`;
 
 
 /**
@@ -3244,7 +3244,7 @@ export const divide_slate_arb = (value: string) => `divide-slate-["${value}"]`;
  *
  * @type utility
  */
-export const divide_gray_arbitrary = (value: string) => `divide-gray-["${value}"]`;
+export const divide_gray_arbitrary = (value: string) => `divide-gray-[${value}]`;
 
 
 /**
@@ -3256,7 +3256,7 @@ export const divide_gray_arbitrary = (value: string) => `divide-gray-["${value}"
  *
  * @type utility
  */
-export const divide_gray_arb = (value: string) => `divide-gray-["${value}"]`;
+export const divide_gray_arb = (value: string) => `divide-gray-[${value}]`;
 
 
 /**
@@ -3268,7 +3268,7 @@ export const divide_gray_arb = (value: string) => `divide-gray-["${value}"]`;
  *
  * @type utility
  */
-export const divide_zinc_arbitrary = (value: string) => `divide-zinc-["${value}"]`;
+export const divide_zinc_arbitrary = (value: string) => `divide-zinc-[${value}]`;
 
 
 /**
@@ -3280,7 +3280,7 @@ export const divide_zinc_arbitrary = (value: string) => `divide-zinc-["${value}"
  *
  * @type utility
  */
-export const divide_zinc_arb = (value: string) => `divide-zinc-["${value}"]`;
+export const divide_zinc_arb = (value: string) => `divide-zinc-[${value}]`;
 
 
 /**
@@ -3292,7 +3292,7 @@ export const divide_zinc_arb = (value: string) => `divide-zinc-["${value}"]`;
  *
  * @type utility
  */
-export const divide_neutral_arbitrary = (value: string) => `divide-neutral-["${value}"]`;
+export const divide_neutral_arbitrary = (value: string) => `divide-neutral-[${value}]`;
 
 
 /**
@@ -3304,7 +3304,7 @@ export const divide_neutral_arbitrary = (value: string) => `divide-neutral-["${v
  *
  * @type utility
  */
-export const divide_neutral_arb = (value: string) => `divide-neutral-["${value}"]`;
+export const divide_neutral_arb = (value: string) => `divide-neutral-[${value}]`;
 
 
 /**
@@ -3316,7 +3316,7 @@ export const divide_neutral_arb = (value: string) => `divide-neutral-["${value}"
  *
  * @type utility
  */
-export const divide_stone_arbitrary = (value: string) => `divide-stone-["${value}"]`;
+export const divide_stone_arbitrary = (value: string) => `divide-stone-[${value}]`;
 
 
 /**
@@ -3328,7 +3328,7 @@ export const divide_stone_arbitrary = (value: string) => `divide-stone-["${value
  *
  * @type utility
  */
-export const divide_stone_arb = (value: string) => `divide-stone-["${value}"]`;
+export const divide_stone_arb = (value: string) => `divide-stone-[${value}]`;
 
 
 /**
@@ -3340,7 +3340,7 @@ export const divide_stone_arb = (value: string) => `divide-stone-["${value}"]`;
  *
  * @type utility
  */
-export const divide_red_arbitrary = (value: string) => `divide-red-["${value}"]`;
+export const divide_red_arbitrary = (value: string) => `divide-red-[${value}]`;
 
 
 /**
@@ -3352,7 +3352,7 @@ export const divide_red_arbitrary = (value: string) => `divide-red-["${value}"]`
  *
  * @type utility
  */
-export const divide_red_arb = (value: string) => `divide-red-["${value}"]`;
+export const divide_red_arb = (value: string) => `divide-red-[${value}]`;
 
 
 /**
@@ -3364,7 +3364,7 @@ export const divide_red_arb = (value: string) => `divide-red-["${value}"]`;
  *
  * @type utility
  */
-export const divide_orange_arbitrary = (value: string) => `divide-orange-["${value}"]`;
+export const divide_orange_arbitrary = (value: string) => `divide-orange-[${value}]`;
 
 
 /**
@@ -3376,7 +3376,7 @@ export const divide_orange_arbitrary = (value: string) => `divide-orange-["${val
  *
  * @type utility
  */
-export const divide_orange_arb = (value: string) => `divide-orange-["${value}"]`;
+export const divide_orange_arb = (value: string) => `divide-orange-[${value}]`;
 
 
 /**
@@ -3388,7 +3388,7 @@ export const divide_orange_arb = (value: string) => `divide-orange-["${value}"]`
  *
  * @type utility
  */
-export const divide_amber_arbitrary = (value: string) => `divide-amber-["${value}"]`;
+export const divide_amber_arbitrary = (value: string) => `divide-amber-[${value}]`;
 
 
 /**
@@ -3400,7 +3400,7 @@ export const divide_amber_arbitrary = (value: string) => `divide-amber-["${value
  *
  * @type utility
  */
-export const divide_amber_arb = (value: string) => `divide-amber-["${value}"]`;
+export const divide_amber_arb = (value: string) => `divide-amber-[${value}]`;
 
 
 /**
@@ -3412,7 +3412,7 @@ export const divide_amber_arb = (value: string) => `divide-amber-["${value}"]`;
  *
  * @type utility
  */
-export const divide_yellow_arbitrary = (value: string) => `divide-yellow-["${value}"]`;
+export const divide_yellow_arbitrary = (value: string) => `divide-yellow-[${value}]`;
 
 
 /**
@@ -3424,7 +3424,7 @@ export const divide_yellow_arbitrary = (value: string) => `divide-yellow-["${val
  *
  * @type utility
  */
-export const divide_yellow_arb = (value: string) => `divide-yellow-["${value}"]`;
+export const divide_yellow_arb = (value: string) => `divide-yellow-[${value}]`;
 
 
 /**
@@ -3436,7 +3436,7 @@ export const divide_yellow_arb = (value: string) => `divide-yellow-["${value}"]`
  *
  * @type utility
  */
-export const divide_lime_arbitrary = (value: string) => `divide-lime-["${value}"]`;
+export const divide_lime_arbitrary = (value: string) => `divide-lime-[${value}]`;
 
 
 /**
@@ -3448,7 +3448,7 @@ export const divide_lime_arbitrary = (value: string) => `divide-lime-["${value}"
  *
  * @type utility
  */
-export const divide_lime_arb = (value: string) => `divide-lime-["${value}"]`;
+export const divide_lime_arb = (value: string) => `divide-lime-[${value}]`;
 
 
 /**
@@ -3460,7 +3460,7 @@ export const divide_lime_arb = (value: string) => `divide-lime-["${value}"]`;
  *
  * @type utility
  */
-export const divide_green_arbitrary = (value: string) => `divide-green-["${value}"]`;
+export const divide_green_arbitrary = (value: string) => `divide-green-[${value}]`;
 
 
 /**
@@ -3472,7 +3472,7 @@ export const divide_green_arbitrary = (value: string) => `divide-green-["${value
  *
  * @type utility
  */
-export const divide_green_arb = (value: string) => `divide-green-["${value}"]`;
+export const divide_green_arb = (value: string) => `divide-green-[${value}]`;
 
 
 /**
@@ -3484,7 +3484,7 @@ export const divide_green_arb = (value: string) => `divide-green-["${value}"]`;
  *
  * @type utility
  */
-export const divide_emerald_arbitrary = (value: string) => `divide-emerald-["${value}"]`;
+export const divide_emerald_arbitrary = (value: string) => `divide-emerald-[${value}]`;
 
 
 /**
@@ -3496,7 +3496,7 @@ export const divide_emerald_arbitrary = (value: string) => `divide-emerald-["${v
  *
  * @type utility
  */
-export const divide_emerald_arb = (value: string) => `divide-emerald-["${value}"]`;
+export const divide_emerald_arb = (value: string) => `divide-emerald-[${value}]`;
 
 
 /**
@@ -3508,7 +3508,7 @@ export const divide_emerald_arb = (value: string) => `divide-emerald-["${value}"
  *
  * @type utility
  */
-export const divide_teal_arbitrary = (value: string) => `divide-teal-["${value}"]`;
+export const divide_teal_arbitrary = (value: string) => `divide-teal-[${value}]`;
 
 
 /**
@@ -3520,7 +3520,7 @@ export const divide_teal_arbitrary = (value: string) => `divide-teal-["${value}"
  *
  * @type utility
  */
-export const divide_teal_arb = (value: string) => `divide-teal-["${value}"]`;
+export const divide_teal_arb = (value: string) => `divide-teal-[${value}]`;
 
 
 /**
@@ -3532,7 +3532,7 @@ export const divide_teal_arb = (value: string) => `divide-teal-["${value}"]`;
  *
  * @type utility
  */
-export const divide_cyan_arbitrary = (value: string) => `divide-cyan-["${value}"]`;
+export const divide_cyan_arbitrary = (value: string) => `divide-cyan-[${value}]`;
 
 
 /**
@@ -3544,7 +3544,7 @@ export const divide_cyan_arbitrary = (value: string) => `divide-cyan-["${value}"
  *
  * @type utility
  */
-export const divide_cyan_arb = (value: string) => `divide-cyan-["${value}"]`;
+export const divide_cyan_arb = (value: string) => `divide-cyan-[${value}]`;
 
 
 /**
@@ -3556,7 +3556,7 @@ export const divide_cyan_arb = (value: string) => `divide-cyan-["${value}"]`;
  *
  * @type utility
  */
-export const divide_sky_arbitrary = (value: string) => `divide-sky-["${value}"]`;
+export const divide_sky_arbitrary = (value: string) => `divide-sky-[${value}]`;
 
 
 /**
@@ -3568,7 +3568,7 @@ export const divide_sky_arbitrary = (value: string) => `divide-sky-["${value}"]`
  *
  * @type utility
  */
-export const divide_sky_arb = (value: string) => `divide-sky-["${value}"]`;
+export const divide_sky_arb = (value: string) => `divide-sky-[${value}]`;
 
 
 /**
@@ -3580,7 +3580,7 @@ export const divide_sky_arb = (value: string) => `divide-sky-["${value}"]`;
  *
  * @type utility
  */
-export const divide_blue_arbitrary = (value: string) => `divide-blue-["${value}"]`;
+export const divide_blue_arbitrary = (value: string) => `divide-blue-[${value}]`;
 
 
 /**
@@ -3592,7 +3592,7 @@ export const divide_blue_arbitrary = (value: string) => `divide-blue-["${value}"
  *
  * @type utility
  */
-export const divide_blue_arb = (value: string) => `divide-blue-["${value}"]`;
+export const divide_blue_arb = (value: string) => `divide-blue-[${value}]`;
 
 
 /**
@@ -3604,7 +3604,7 @@ export const divide_blue_arb = (value: string) => `divide-blue-["${value}"]`;
  *
  * @type utility
  */
-export const divide_indigo_arbitrary = (value: string) => `divide-indigo-["${value}"]`;
+export const divide_indigo_arbitrary = (value: string) => `divide-indigo-[${value}]`;
 
 
 /**
@@ -3616,7 +3616,7 @@ export const divide_indigo_arbitrary = (value: string) => `divide-indigo-["${val
  *
  * @type utility
  */
-export const divide_indigo_arb = (value: string) => `divide-indigo-["${value}"]`;
+export const divide_indigo_arb = (value: string) => `divide-indigo-[${value}]`;
 
 
 /**
@@ -3628,7 +3628,7 @@ export const divide_indigo_arb = (value: string) => `divide-indigo-["${value}"]`
  *
  * @type utility
  */
-export const divide_violet_arbitrary = (value: string) => `divide-violet-["${value}"]`;
+export const divide_violet_arbitrary = (value: string) => `divide-violet-[${value}]`;
 
 
 /**
@@ -3640,7 +3640,7 @@ export const divide_violet_arbitrary = (value: string) => `divide-violet-["${val
  *
  * @type utility
  */
-export const divide_violet_arb = (value: string) => `divide-violet-["${value}"]`;
+export const divide_violet_arb = (value: string) => `divide-violet-[${value}]`;
 
 
 /**
@@ -3652,7 +3652,7 @@ export const divide_violet_arb = (value: string) => `divide-violet-["${value}"]`
  *
  * @type utility
  */
-export const divide_purple_arbitrary = (value: string) => `divide-purple-["${value}"]`;
+export const divide_purple_arbitrary = (value: string) => `divide-purple-[${value}]`;
 
 
 /**
@@ -3664,7 +3664,7 @@ export const divide_purple_arbitrary = (value: string) => `divide-purple-["${val
  *
  * @type utility
  */
-export const divide_purple_arb = (value: string) => `divide-purple-["${value}"]`;
+export const divide_purple_arb = (value: string) => `divide-purple-[${value}]`;
 
 
 /**
@@ -3676,7 +3676,7 @@ export const divide_purple_arb = (value: string) => `divide-purple-["${value}"]`
  *
  * @type utility
  */
-export const divide_fuchsia_arbitrary = (value: string) => `divide-fuchsia-["${value}"]`;
+export const divide_fuchsia_arbitrary = (value: string) => `divide-fuchsia-[${value}]`;
 
 
 /**
@@ -3688,7 +3688,7 @@ export const divide_fuchsia_arbitrary = (value: string) => `divide-fuchsia-["${v
  *
  * @type utility
  */
-export const divide_fuchsia_arb = (value: string) => `divide-fuchsia-["${value}"]`;
+export const divide_fuchsia_arb = (value: string) => `divide-fuchsia-[${value}]`;
 
 
 /**
@@ -3700,7 +3700,7 @@ export const divide_fuchsia_arb = (value: string) => `divide-fuchsia-["${value}"
  *
  * @type utility
  */
-export const divide_pink_arbitrary = (value: string) => `divide-pink-["${value}"]`;
+export const divide_pink_arbitrary = (value: string) => `divide-pink-[${value}]`;
 
 
 /**
@@ -3712,7 +3712,7 @@ export const divide_pink_arbitrary = (value: string) => `divide-pink-["${value}"
  *
  * @type utility
  */
-export const divide_pink_arb = (value: string) => `divide-pink-["${value}"]`;
+export const divide_pink_arb = (value: string) => `divide-pink-[${value}]`;
 
 
 /**
@@ -3724,7 +3724,7 @@ export const divide_pink_arb = (value: string) => `divide-pink-["${value}"]`;
  *
  * @type utility
  */
-export const divide_rose_arbitrary = (value: string) => `divide-rose-["${value}"]`;
+export const divide_rose_arbitrary = (value: string) => `divide-rose-[${value}]`;
 
 
 /**
@@ -3736,7 +3736,7 @@ export const divide_rose_arbitrary = (value: string) => `divide-rose-["${value}"
  *
  * @type utility
  */
-export const divide_rose_arb = (value: string) => `divide-rose-["${value}"]`;
+export const divide_rose_arb = (value: string) => `divide-rose-[${value}]`;
 
 
 /**

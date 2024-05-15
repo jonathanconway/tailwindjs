@@ -1374,7 +1374,7 @@ export const gap_y_96 = "gap-y-96";
  *
  * @type utility
  */
-export const gap_arbitrary = (value: string) => `gap-["${value}"]`;
+export const gap_arbitrary = (value: string) => `gap-[${value}]`;
 
 
 /**
@@ -1386,7 +1386,7 @@ export const gap_arbitrary = (value: string) => `gap-["${value}"]`;
  *
  * @type utility
  */
-export const gap_arb = (value: string) => `gap-["${value}"]`;
+export const gap_arb = (value: string) => `gap-[${value}]`;
 
 
 /**
@@ -1398,7 +1398,7 @@ export const gap_arb = (value: string) => `gap-["${value}"]`;
  *
  * @type utility
  */
-export const gap_x_arbitrary = (value: string) => `gap-x-["${value}"]`;
+export const gap_x_arbitrary = (value: string) => `gap-x-[${value}]`;
 
 
 /**
@@ -1410,7 +1410,7 @@ export const gap_x_arbitrary = (value: string) => `gap-x-["${value}"]`;
  *
  * @type utility
  */
-export const gap_x_arb = (value: string) => `gap-x-["${value}"]`;
+export const gap_x_arb = (value: string) => `gap-x-[${value}]`;
 
 
 /**
@@ -1422,7 +1422,7 @@ export const gap_x_arb = (value: string) => `gap-x-["${value}"]`;
  *
  * @type utility
  */
-export const gap_y_arbitrary = (value: string) => `gap-y-["${value}"]`;
+export const gap_y_arbitrary = (value: string) => `gap-y-[${value}]`;
 
 
 /**
@@ -1434,7 +1434,7 @@ export const gap_y_arbitrary = (value: string) => `gap-y-["${value}"]`;
  *
  * @type utility
  */
-export const gap_y_arb = (value: string) => `gap-y-["${value}"]`;
+export const gap_y_arb = (value: string) => `gap-y-[${value}]`;
 
 
 /**

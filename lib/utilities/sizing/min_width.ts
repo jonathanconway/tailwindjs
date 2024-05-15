@@ -516,7 +516,7 @@ export const min_w_fit = "min-w-fit";
  *
  * @type utility
  */
-export const min_w_arbitrary = (value: string) => `min-w-["${value}"]`;
+export const min_w_arbitrary = (value: string) => `min-w-[${value}]`;
 
 
 /**
@@ -528,7 +528,7 @@ export const min_w_arbitrary = (value: string) => `min-w-["${value}"]`;
  *
  * @type utility
  */
-export const min_w_arb = (value: string) => `min-w-["${value}"]`;
+export const min_w_arb = (value: string) => `min-w-[${value}]`;
 
 
 /**

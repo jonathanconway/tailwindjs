@@ -48,7 +48,7 @@ export const list_decimal = "list-decimal";
  *
  * @type utility
  */
-export const list_arbitrary = (value: string) => `list-["${value}"]`;
+export const list_arbitrary = (value: string) => `list-[${value}]`;
 
 
 /**
@@ -60,7 +60,7 @@ export const list_arbitrary = (value: string) => `list-["${value}"]`;
  *
  * @type utility
  */
-export const list_arb = (value: string) => `list-["${value}"]`;
+export const list_arb = (value: string) => `list-[${value}]`;
 
 
 /**

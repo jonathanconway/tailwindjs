@@ -35,7 +35,7 @@ export const invert = "invert";
  *
  * @type utility
  */
-export const invert_arbitrary = (value: string) => `invert-["${value}"]`;
+export const invert_arbitrary = (value: string) => `invert-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const invert_arbitrary = (value: string) => `invert-["${value}"]`;
  *
  * @type utility
  */
-export const invert_arb = (value: string) => `invert-["${value}"]`;
+export const invert_arb = (value: string) => `invert-[${value}]`;
 
 
 /**

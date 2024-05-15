@@ -282,7 +282,7 @@ export const opacity_100 = "opacity-100";
  *
  * @type utility
  */
-export const opacity_arbitrary = (value: string) => `opacity-["${value}"]`;
+export const opacity_arbitrary = (value: string) => `opacity-[${value}]`;
 
 
 /**
@@ -294,7 +294,7 @@ export const opacity_arbitrary = (value: string) => `opacity-["${value}"]`;
  *
  * @type utility
  */
-export const opacity_arb = (value: string) => `opacity-["${value}"]`;
+export const opacity_arb = (value: string) => `opacity-[${value}]`;
 
 
 /**

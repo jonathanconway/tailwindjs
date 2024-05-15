@@ -100,7 +100,7 @@ export const ring_inset = "ring-inset";
  *
  * @type utility
  */
-export const ring_arbitrary = (value: string) => `ring-["${value}"]`;
+export const ring_arbitrary = (value: string) => `ring-[${value}]`;
 
 
 /**
@@ -112,7 +112,7 @@ export const ring_arbitrary = (value: string) => `ring-["${value}"]`;
  *
  * @type utility
  */
-export const ring_arb = (value: string) => `ring-["${value}"]`;
+export const ring_arb = (value: string) => `ring-[${value}]`;
 
 
 /**

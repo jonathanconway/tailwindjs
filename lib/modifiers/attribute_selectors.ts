@@ -200,7 +200,7 @@ export const open = (suffix: string) => `open:${suffix}`;
   *
   * @type modifier
   */
-export const aria_arbitrary = (arbitrary: string, suffix: string) => `aria-["${arbitrary}"]:${suffix}`;
+export const aria_arbitrary = (arbitrary: string, suffix: string) => `aria-[${arbitrary}]:${suffix}`;
 
 
 /**
@@ -216,7 +216,7 @@ export const aria_arbitrary = (arbitrary: string, suffix: string) => `aria-["${a
   *
   * @type modifier
   */
-export const aria_arb = (arbitrary: string, suffix: string) => `aria-["${arbitrary}"]:${suffix}`;
+export const aria_arb = (arbitrary: string, suffix: string) => `aria-[${arbitrary}]:${suffix}`;
 
 
 /**
@@ -232,7 +232,7 @@ export const aria_arb = (arbitrary: string, suffix: string) => `aria-["${arbitra
   *
   * @type modifier
   */
-export const data_arbitrary = (arbitrary: string, suffix: string) => `data-["${arbitrary}"]:${suffix}`;
+export const data_arbitrary = (arbitrary: string, suffix: string) => `data-[${arbitrary}]:${suffix}`;
 
 
 /**
@@ -248,7 +248,7 @@ export const data_arbitrary = (arbitrary: string, suffix: string) => `data-["${a
   *
   * @type modifier
   */
-export const data_arb = (arbitrary: string, suffix: string) => `data-["${arbitrary}"]:${suffix}`;
+export const data_arb = (arbitrary: string, suffix: string) => `data-[${arbitrary}]:${suffix}`;
 
 
 /**

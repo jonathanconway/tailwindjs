@@ -3467,7 +3467,7 @@ export const ring_offset_rose_950 = "ring-offset-rose-950";
  *
  * @type utility
  */
-export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate-["${value}"]`;
+export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate-[${value}]`;
 
 
 /**
@@ -3479,7 +3479,7 @@ export const ring_offset_slate_arbitrary = (value: string) => `ring-offset-slate
  *
  * @type utility
  */
-export const ring_offset_slate_arb = (value: string) => `ring-offset-slate-["${value}"]`;
+export const ring_offset_slate_arb = (value: string) => `ring-offset-slate-[${value}]`;
 
 
 /**
@@ -3491,7 +3491,7 @@ export const ring_offset_slate_arb = (value: string) => `ring-offset-slate-["${v
  *
  * @type utility
  */
-export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-["${value}"]`;
+export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-[${value}]`;
 
 
 /**
@@ -3503,7 +3503,7 @@ export const ring_offset_gray_arbitrary = (value: string) => `ring-offset-gray-[
  *
  * @type utility
  */
-export const ring_offset_gray_arb = (value: string) => `ring-offset-gray-["${value}"]`;
+export const ring_offset_gray_arb = (value: string) => `ring-offset-gray-[${value}]`;
 
 
 /**
@@ -3515,7 +3515,7 @@ export const ring_offset_gray_arb = (value: string) => `ring-offset-gray-["${val
  *
  * @type utility
  */
-export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-["${value}"]`;
+export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-[${value}]`;
 
 
 /**
@@ -3527,7 +3527,7 @@ export const ring_offset_zinc_arbitrary = (value: string) => `ring-offset-zinc-[
  *
  * @type utility
  */
-export const ring_offset_zinc_arb = (value: string) => `ring-offset-zinc-["${value}"]`;
+export const ring_offset_zinc_arb = (value: string) => `ring-offset-zinc-[${value}]`;
 
 
 /**
@@ -3539,7 +3539,7 @@ export const ring_offset_zinc_arb = (value: string) => `ring-offset-zinc-["${val
  *
  * @type utility
  */
-export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neutral-["${value}"]`;
+export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neutral-[${value}]`;
 
 
 /**
@@ -3551,7 +3551,7 @@ export const ring_offset_neutral_arbitrary = (value: string) => `ring-offset-neu
  *
  * @type utility
  */
-export const ring_offset_neutral_arb = (value: string) => `ring-offset-neutral-["${value}"]`;
+export const ring_offset_neutral_arb = (value: string) => `ring-offset-neutral-[${value}]`;
 
 
 /**
@@ -3563,7 +3563,7 @@ export const ring_offset_neutral_arb = (value: string) => `ring-offset-neutral-[
  *
  * @type utility
  */
-export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone-["${value}"]`;
+export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone-[${value}]`;
 
 
 /**
@@ -3575,7 +3575,7 @@ export const ring_offset_stone_arbitrary = (value: string) => `ring-offset-stone
  *
  * @type utility
  */
-export const ring_offset_stone_arb = (value: string) => `ring-offset-stone-["${value}"]`;
+export const ring_offset_stone_arb = (value: string) => `ring-offset-stone-[${value}]`;
 
 
 /**
@@ -3587,7 +3587,7 @@ export const ring_offset_stone_arb = (value: string) => `ring-offset-stone-["${v
  *
  * @type utility
  */
-export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-["${value}"]`;
+export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-[${value}]`;
 
 
 /**
@@ -3599,7 +3599,7 @@ export const ring_offset_red_arbitrary = (value: string) => `ring-offset-red-["$
  *
  * @type utility
  */
-export const ring_offset_red_arb = (value: string) => `ring-offset-red-["${value}"]`;
+export const ring_offset_red_arb = (value: string) => `ring-offset-red-[${value}]`;
 
 
 /**
@@ -3611,7 +3611,7 @@ export const ring_offset_red_arb = (value: string) => `ring-offset-red-["${value
  *
  * @type utility
  */
-export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-orange-["${value}"]`;
+export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-orange-[${value}]`;
 
 
 /**
@@ -3623,7 +3623,7 @@ export const ring_offset_orange_arbitrary = (value: string) => `ring-offset-oran
  *
  * @type utility
  */
-export const ring_offset_orange_arb = (value: string) => `ring-offset-orange-["${value}"]`;
+export const ring_offset_orange_arb = (value: string) => `ring-offset-orange-[${value}]`;
 
 
 /**
@@ -3635,7 +3635,7 @@ export const ring_offset_orange_arb = (value: string) => `ring-offset-orange-["$
  *
  * @type utility
  */
-export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber-["${value}"]`;
+export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber-[${value}]`;
 
 
 /**
@@ -3647,7 +3647,7 @@ export const ring_offset_amber_arbitrary = (value: string) => `ring-offset-amber
  *
  * @type utility
  */
-export const ring_offset_amber_arb = (value: string) => `ring-offset-amber-["${value}"]`;
+export const ring_offset_amber_arb = (value: string) => `ring-offset-amber-[${value}]`;
 
 
 /**
@@ -3659,7 +3659,7 @@ export const ring_offset_amber_arb = (value: string) => `ring-offset-amber-["${v
  *
  * @type utility
  */
-export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yellow-["${value}"]`;
+export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yellow-[${value}]`;
 
 
 /**
@@ -3671,7 +3671,7 @@ export const ring_offset_yellow_arbitrary = (value: string) => `ring-offset-yell
  *
  * @type utility
  */
-export const ring_offset_yellow_arb = (value: string) => `ring-offset-yellow-["${value}"]`;
+export const ring_offset_yellow_arb = (value: string) => `ring-offset-yellow-[${value}]`;
 
 
 /**
@@ -3683,7 +3683,7 @@ export const ring_offset_yellow_arb = (value: string) => `ring-offset-yellow-["$
  *
  * @type utility
  */
-export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-["${value}"]`;
+export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-[${value}]`;
 
 
 /**
@@ -3695,7 +3695,7 @@ export const ring_offset_lime_arbitrary = (value: string) => `ring-offset-lime-[
  *
  * @type utility
  */
-export const ring_offset_lime_arb = (value: string) => `ring-offset-lime-["${value}"]`;
+export const ring_offset_lime_arb = (value: string) => `ring-offset-lime-[${value}]`;
 
 
 /**
@@ -3707,7 +3707,7 @@ export const ring_offset_lime_arb = (value: string) => `ring-offset-lime-["${val
  *
  * @type utility
  */
-export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green-["${value}"]`;
+export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green-[${value}]`;
 
 
 /**
@@ -3719,7 +3719,7 @@ export const ring_offset_green_arbitrary = (value: string) => `ring-offset-green
  *
  * @type utility
  */
-export const ring_offset_green_arb = (value: string) => `ring-offset-green-["${value}"]`;
+export const ring_offset_green_arb = (value: string) => `ring-offset-green-[${value}]`;
 
 
 /**
@@ -3731,7 +3731,7 @@ export const ring_offset_green_arb = (value: string) => `ring-offset-green-["${v
  *
  * @type utility
  */
-export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-emerald-["${value}"]`;
+export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-emerald-[${value}]`;
 
 
 /**
@@ -3743,7 +3743,7 @@ export const ring_offset_emerald_arbitrary = (value: string) => `ring-offset-eme
  *
  * @type utility
  */
-export const ring_offset_emerald_arb = (value: string) => `ring-offset-emerald-["${value}"]`;
+export const ring_offset_emerald_arb = (value: string) => `ring-offset-emerald-[${value}]`;
 
 
 /**
@@ -3755,7 +3755,7 @@ export const ring_offset_emerald_arb = (value: string) => `ring-offset-emerald-[
  *
  * @type utility
  */
-export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-["${value}"]`;
+export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-[${value}]`;
 
 
 /**
@@ -3767,7 +3767,7 @@ export const ring_offset_teal_arbitrary = (value: string) => `ring-offset-teal-[
  *
  * @type utility
  */
-export const ring_offset_teal_arb = (value: string) => `ring-offset-teal-["${value}"]`;
+export const ring_offset_teal_arb = (value: string) => `ring-offset-teal-[${value}]`;
 
 
 /**
@@ -3779,7 +3779,7 @@ export const ring_offset_teal_arb = (value: string) => `ring-offset-teal-["${val
  *
  * @type utility
  */
-export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-["${value}"]`;
+export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-[${value}]`;
 
 
 /**
@@ -3791,7 +3791,7 @@ export const ring_offset_cyan_arbitrary = (value: string) => `ring-offset-cyan-[
  *
  * @type utility
  */
-export const ring_offset_cyan_arb = (value: string) => `ring-offset-cyan-["${value}"]`;
+export const ring_offset_cyan_arb = (value: string) => `ring-offset-cyan-[${value}]`;
 
 
 /**
@@ -3803,7 +3803,7 @@ export const ring_offset_cyan_arb = (value: string) => `ring-offset-cyan-["${val
  *
  * @type utility
  */
-export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-["${value}"]`;
+export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-[${value}]`;
 
 
 /**
@@ -3815,7 +3815,7 @@ export const ring_offset_sky_arbitrary = (value: string) => `ring-offset-sky-["$
  *
  * @type utility
  */
-export const ring_offset_sky_arb = (value: string) => `ring-offset-sky-["${value}"]`;
+export const ring_offset_sky_arb = (value: string) => `ring-offset-sky-[${value}]`;
 
 
 /**
@@ -3827,7 +3827,7 @@ export const ring_offset_sky_arb = (value: string) => `ring-offset-sky-["${value
  *
  * @type utility
  */
-export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-["${value}"]`;
+export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-[${value}]`;
 
 
 /**
@@ -3839,7 +3839,7 @@ export const ring_offset_blue_arbitrary = (value: string) => `ring-offset-blue-[
  *
  * @type utility
  */
-export const ring_offset_blue_arb = (value: string) => `ring-offset-blue-["${value}"]`;
+export const ring_offset_blue_arb = (value: string) => `ring-offset-blue-[${value}]`;
 
 
 /**
@@ -3851,7 +3851,7 @@ export const ring_offset_blue_arb = (value: string) => `ring-offset-blue-["${val
  *
  * @type utility
  */
-export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indigo-["${value}"]`;
+export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indigo-[${value}]`;
 
 
 /**
@@ -3863,7 +3863,7 @@ export const ring_offset_indigo_arbitrary = (value: string) => `ring-offset-indi
  *
  * @type utility
  */
-export const ring_offset_indigo_arb = (value: string) => `ring-offset-indigo-["${value}"]`;
+export const ring_offset_indigo_arb = (value: string) => `ring-offset-indigo-[${value}]`;
 
 
 /**
@@ -3875,7 +3875,7 @@ export const ring_offset_indigo_arb = (value: string) => `ring-offset-indigo-["$
  *
  * @type utility
  */
-export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-violet-["${value}"]`;
+export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-violet-[${value}]`;
 
 
 /**
@@ -3887,7 +3887,7 @@ export const ring_offset_violet_arbitrary = (value: string) => `ring-offset-viol
  *
  * @type utility
  */
-export const ring_offset_violet_arb = (value: string) => `ring-offset-violet-["${value}"]`;
+export const ring_offset_violet_arb = (value: string) => `ring-offset-violet-[${value}]`;
 
 
 /**
@@ -3899,7 +3899,7 @@ export const ring_offset_violet_arb = (value: string) => `ring-offset-violet-["$
  *
  * @type utility
  */
-export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purple-["${value}"]`;
+export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purple-[${value}]`;
 
 
 /**
@@ -3911,7 +3911,7 @@ export const ring_offset_purple_arbitrary = (value: string) => `ring-offset-purp
  *
  * @type utility
  */
-export const ring_offset_purple_arb = (value: string) => `ring-offset-purple-["${value}"]`;
+export const ring_offset_purple_arb = (value: string) => `ring-offset-purple-[${value}]`;
 
 
 /**
@@ -3923,7 +3923,7 @@ export const ring_offset_purple_arb = (value: string) => `ring-offset-purple-["$
  *
  * @type utility
  */
-export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuchsia-["${value}"]`;
+export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuchsia-[${value}]`;
 
 
 /**
@@ -3935,7 +3935,7 @@ export const ring_offset_fuchsia_arbitrary = (value: string) => `ring-offset-fuc
  *
  * @type utility
  */
-export const ring_offset_fuchsia_arb = (value: string) => `ring-offset-fuchsia-["${value}"]`;
+export const ring_offset_fuchsia_arb = (value: string) => `ring-offset-fuchsia-[${value}]`;
 
 
 /**
@@ -3947,7 +3947,7 @@ export const ring_offset_fuchsia_arb = (value: string) => `ring-offset-fuchsia-[
  *
  * @type utility
  */
-export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-["${value}"]`;
+export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-[${value}]`;
 
 
 /**
@@ -3959,7 +3959,7 @@ export const ring_offset_pink_arbitrary = (value: string) => `ring-offset-pink-[
  *
  * @type utility
  */
-export const ring_offset_pink_arb = (value: string) => `ring-offset-pink-["${value}"]`;
+export const ring_offset_pink_arb = (value: string) => `ring-offset-pink-[${value}]`;
 
 
 /**
@@ -3971,7 +3971,7 @@ export const ring_offset_pink_arb = (value: string) => `ring-offset-pink-["${val
  *
  * @type utility
  */
-export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-["${value}"]`;
+export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-[${value}]`;
 
 
 /**
@@ -3983,7 +3983,7 @@ export const ring_offset_rose_arbitrary = (value: string) => `ring-offset-rose-[
  *
  * @type utility
  */
-export const ring_offset_rose_arb = (value: string) => `ring-offset-rose-["${value}"]`;
+export const ring_offset_rose_arb = (value: string) => `ring-offset-rose-[${value}]`;
 
 
 /**

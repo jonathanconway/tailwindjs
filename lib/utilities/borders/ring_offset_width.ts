@@ -79,7 +79,7 @@ export const ring_offset_8 = "ring-offset-8";
  *
  * @type utility
  */
-export const ring_offset_arbitrary = (value: string) => `ring-offset-["${value}"]`;
+export const ring_offset_arbitrary = (value: string) => `ring-offset-[${value}]`;
 
 
 /**
@@ -91,7 +91,7 @@ export const ring_offset_arbitrary = (value: string) => `ring-offset-["${value}"
  *
  * @type utility
  */
-export const ring_offset_arb = (value: string) => `ring-offset-["${value}"]`;
+export const ring_offset_arb = (value: string) => `ring-offset-[${value}]`;
 
 
 /**

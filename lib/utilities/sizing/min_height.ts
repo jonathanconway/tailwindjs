@@ -568,7 +568,7 @@ export const min_h_fit = "min-h-fit";
  *
  * @type utility
  */
-export const min_h_arbitrary = (value: string) => `min-h-["${value}"]`;
+export const min_h_arbitrary = (value: string) => `min-h-[${value}]`;
 
 
 /**
@@ -580,7 +580,7 @@ export const min_h_arbitrary = (value: string) => `min-h-["${value}"]`;
  *
  * @type utility
  */
-export const min_h_arb = (value: string) => `min-h-["${value}"]`;
+export const min_h_arb = (value: string) => `min-h-[${value}]`;
 
 
 /**

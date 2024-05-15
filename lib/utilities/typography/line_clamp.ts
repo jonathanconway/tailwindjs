@@ -121,7 +121,7 @@ export const line_clamp_none = "line-clamp-none";
  *
  * @type utility
  */
-export const line_clamp_arbitrary = (value: string) => `line-clamp-["${value}"]`;
+export const line_clamp_arbitrary = (value: string) => `line-clamp-[${value}]`;
 
 
 /**
@@ -133,7 +133,7 @@ export const line_clamp_arbitrary = (value: string) => `line-clamp-["${value}"]`
  *
  * @type utility
  */
-export const line_clamp_arb = (value: string) => `line-clamp-["${value}"]`;
+export const line_clamp_arb = (value: string) => `line-clamp-[${value}]`;
 
 
 /**

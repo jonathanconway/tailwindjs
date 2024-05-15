@@ -126,7 +126,7 @@ export const origin_top_left = "origin-top-left";
  *
  * @type utility
  */
-export const origin_arbitrary = (value: string) => `origin-["${value}"]`;
+export const origin_arbitrary = (value: string) => `origin-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const origin_arbitrary = (value: string) => `origin-["${value}"]`;
  *
  * @type utility
  */
-export const origin_arb = (value: string) => `origin-["${value}"]`;
+export const origin_arb = (value: string) => `origin-[${value}]`;
 
 
 /**
@@ -150,7 +150,7 @@ export const origin_arb = (value: string) => `origin-["${value}"]`;
  *
  * @type utility
  */
-export const origin_top_arbitrary = (value: string) => `origin-top-["${value}"]`;
+export const origin_top_arbitrary = (value: string) => `origin-top-[${value}]`;
 
 
 /**
@@ -162,7 +162,7 @@ export const origin_top_arbitrary = (value: string) => `origin-top-["${value}"]`
  *
  * @type utility
  */
-export const origin_top_arb = (value: string) => `origin-top-["${value}"]`;
+export const origin_top_arb = (value: string) => `origin-top-[${value}]`;
 
 
 /**
@@ -174,7 +174,7 @@ export const origin_top_arb = (value: string) => `origin-top-["${value}"]`;
  *
  * @type utility
  */
-export const origin_bottom_arbitrary = (value: string) => `origin-bottom-["${value}"]`;
+export const origin_bottom_arbitrary = (value: string) => `origin-bottom-[${value}]`;
 
 
 /**
@@ -186,7 +186,7 @@ export const origin_bottom_arbitrary = (value: string) => `origin-bottom-["${val
  *
  * @type utility
  */
-export const origin_bottom_arb = (value: string) => `origin-bottom-["${value}"]`;
+export const origin_bottom_arb = (value: string) => `origin-bottom-[${value}]`;
 
 
 /**

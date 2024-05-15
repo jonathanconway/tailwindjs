@@ -3220,7 +3220,7 @@ export const decoration_rose_950 = "decoration-rose-950";
  *
  * @type utility
  */
-export const decoration_arbitrary = (value: string) => `decoration-["${value}"]`;
+export const decoration_arbitrary = (value: string) => `decoration-[${value}]`;
 
 
 /**
@@ -3232,7 +3232,7 @@ export const decoration_arbitrary = (value: string) => `decoration-["${value}"]`
  *
  * @type utility
  */
-export const decoration_arb = (value: string) => `decoration-["${value}"]`;
+export const decoration_arb = (value: string) => `decoration-[${value}]`;
 
 
 /**
@@ -3244,7 +3244,7 @@ export const decoration_arb = (value: string) => `decoration-["${value}"]`;
  *
  * @type utility
  */
-export const decoration_slate_arbitrary = (value: string) => `decoration-slate-["${value}"]`;
+export const decoration_slate_arbitrary = (value: string) => `decoration-slate-[${value}]`;
 
 
 /**
@@ -3256,7 +3256,7 @@ export const decoration_slate_arbitrary = (value: string) => `decoration-slate-[
  *
  * @type utility
  */
-export const decoration_slate_arb = (value: string) => `decoration-slate-["${value}"]`;
+export const decoration_slate_arb = (value: string) => `decoration-slate-[${value}]`;
 
 
 /**
@@ -3268,7 +3268,7 @@ export const decoration_slate_arb = (value: string) => `decoration-slate-["${val
  *
  * @type utility
  */
-export const decoration_gray_arbitrary = (value: string) => `decoration-gray-["${value}"]`;
+export const decoration_gray_arbitrary = (value: string) => `decoration-gray-[${value}]`;
 
 
 /**
@@ -3280,7 +3280,7 @@ export const decoration_gray_arbitrary = (value: string) => `decoration-gray-["$
  *
  * @type utility
  */
-export const decoration_gray_arb = (value: string) => `decoration-gray-["${value}"]`;
+export const decoration_gray_arb = (value: string) => `decoration-gray-[${value}]`;
 
 
 /**
@@ -3292,7 +3292,7 @@ export const decoration_gray_arb = (value: string) => `decoration-gray-["${value
  *
  * @type utility
  */
-export const decoration_zinc_arbitrary = (value: string) => `decoration-zinc-["${value}"]`;
+export const decoration_zinc_arbitrary = (value: string) => `decoration-zinc-[${value}]`;
 
 
 /**
@@ -3304,7 +3304,7 @@ export const decoration_zinc_arbitrary = (value: string) => `decoration-zinc-["$
  *
  * @type utility
  */
-export const decoration_zinc_arb = (value: string) => `decoration-zinc-["${value}"]`;
+export const decoration_zinc_arb = (value: string) => `decoration-zinc-[${value}]`;
 
 
 /**
@@ -3316,7 +3316,7 @@ export const decoration_zinc_arb = (value: string) => `decoration-zinc-["${value
  *
  * @type utility
  */
-export const decoration_neutral_arbitrary = (value: string) => `decoration-neutral-["${value}"]`;
+export const decoration_neutral_arbitrary = (value: string) => `decoration-neutral-[${value}]`;
 
 
 /**
@@ -3328,7 +3328,7 @@ export const decoration_neutral_arbitrary = (value: string) => `decoration-neutr
  *
  * @type utility
  */
-export const decoration_neutral_arb = (value: string) => `decoration-neutral-["${value}"]`;
+export const decoration_neutral_arb = (value: string) => `decoration-neutral-[${value}]`;
 
 
 /**
@@ -3340,7 +3340,7 @@ export const decoration_neutral_arb = (value: string) => `decoration-neutral-["$
  *
  * @type utility
  */
-export const decoration_stone_arbitrary = (value: string) => `decoration-stone-["${value}"]`;
+export const decoration_stone_arbitrary = (value: string) => `decoration-stone-[${value}]`;
 
 
 /**
@@ -3352,7 +3352,7 @@ export const decoration_stone_arbitrary = (value: string) => `decoration-stone-[
  *
  * @type utility
  */
-export const decoration_stone_arb = (value: string) => `decoration-stone-["${value}"]`;
+export const decoration_stone_arb = (value: string) => `decoration-stone-[${value}]`;
 
 
 /**
@@ -3364,7 +3364,7 @@ export const decoration_stone_arb = (value: string) => `decoration-stone-["${val
  *
  * @type utility
  */
-export const decoration_red_arbitrary = (value: string) => `decoration-red-["${value}"]`;
+export const decoration_red_arbitrary = (value: string) => `decoration-red-[${value}]`;
 
 
 /**
@@ -3376,7 +3376,7 @@ export const decoration_red_arbitrary = (value: string) => `decoration-red-["${v
  *
  * @type utility
  */
-export const decoration_red_arb = (value: string) => `decoration-red-["${value}"]`;
+export const decoration_red_arb = (value: string) => `decoration-red-[${value}]`;
 
 
 /**
@@ -3388,7 +3388,7 @@ export const decoration_red_arb = (value: string) => `decoration-red-["${value}"
  *
  * @type utility
  */
-export const decoration_orange_arbitrary = (value: string) => `decoration-orange-["${value}"]`;
+export const decoration_orange_arbitrary = (value: string) => `decoration-orange-[${value}]`;
 
 
 /**
@@ -3400,7 +3400,7 @@ export const decoration_orange_arbitrary = (value: string) => `decoration-orange
  *
  * @type utility
  */
-export const decoration_orange_arb = (value: string) => `decoration-orange-["${value}"]`;
+export const decoration_orange_arb = (value: string) => `decoration-orange-[${value}]`;
 
 
 /**
@@ -3412,7 +3412,7 @@ export const decoration_orange_arb = (value: string) => `decoration-orange-["${v
  *
  * @type utility
  */
-export const decoration_amber_arbitrary = (value: string) => `decoration-amber-["${value}"]`;
+export const decoration_amber_arbitrary = (value: string) => `decoration-amber-[${value}]`;
 
 
 /**
@@ -3424,7 +3424,7 @@ export const decoration_amber_arbitrary = (value: string) => `decoration-amber-[
  *
  * @type utility
  */
-export const decoration_amber_arb = (value: string) => `decoration-amber-["${value}"]`;
+export const decoration_amber_arb = (value: string) => `decoration-amber-[${value}]`;
 
 
 /**
@@ -3436,7 +3436,7 @@ export const decoration_amber_arb = (value: string) => `decoration-amber-["${val
  *
  * @type utility
  */
-export const decoration_yellow_arbitrary = (value: string) => `decoration-yellow-["${value}"]`;
+export const decoration_yellow_arbitrary = (value: string) => `decoration-yellow-[${value}]`;
 
 
 /**
@@ -3448,7 +3448,7 @@ export const decoration_yellow_arbitrary = (value: string) => `decoration-yellow
  *
  * @type utility
  */
-export const decoration_yellow_arb = (value: string) => `decoration-yellow-["${value}"]`;
+export const decoration_yellow_arb = (value: string) => `decoration-yellow-[${value}]`;
 
 
 /**
@@ -3460,7 +3460,7 @@ export const decoration_yellow_arb = (value: string) => `decoration-yellow-["${v
  *
  * @type utility
  */
-export const decoration_lime_arbitrary = (value: string) => `decoration-lime-["${value}"]`;
+export const decoration_lime_arbitrary = (value: string) => `decoration-lime-[${value}]`;
 
 
 /**
@@ -3472,7 +3472,7 @@ export const decoration_lime_arbitrary = (value: string) => `decoration-lime-["$
  *
  * @type utility
  */
-export const decoration_lime_arb = (value: string) => `decoration-lime-["${value}"]`;
+export const decoration_lime_arb = (value: string) => `decoration-lime-[${value}]`;
 
 
 /**
@@ -3484,7 +3484,7 @@ export const decoration_lime_arb = (value: string) => `decoration-lime-["${value
  *
  * @type utility
  */
-export const decoration_green_arbitrary = (value: string) => `decoration-green-["${value}"]`;
+export const decoration_green_arbitrary = (value: string) => `decoration-green-[${value}]`;
 
 
 /**
@@ -3496,7 +3496,7 @@ export const decoration_green_arbitrary = (value: string) => `decoration-green-[
  *
  * @type utility
  */
-export const decoration_green_arb = (value: string) => `decoration-green-["${value}"]`;
+export const decoration_green_arb = (value: string) => `decoration-green-[${value}]`;
 
 
 /**
@@ -3508,7 +3508,7 @@ export const decoration_green_arb = (value: string) => `decoration-green-["${val
  *
  * @type utility
  */
-export const decoration_emerald_arbitrary = (value: string) => `decoration-emerald-["${value}"]`;
+export const decoration_emerald_arbitrary = (value: string) => `decoration-emerald-[${value}]`;
 
 
 /**
@@ -3520,7 +3520,7 @@ export const decoration_emerald_arbitrary = (value: string) => `decoration-emera
  *
  * @type utility
  */
-export const decoration_emerald_arb = (value: string) => `decoration-emerald-["${value}"]`;
+export const decoration_emerald_arb = (value: string) => `decoration-emerald-[${value}]`;
 
 
 /**
@@ -3532,7 +3532,7 @@ export const decoration_emerald_arb = (value: string) => `decoration-emerald-["$
  *
  * @type utility
  */
-export const decoration_teal_arbitrary = (value: string) => `decoration-teal-["${value}"]`;
+export const decoration_teal_arbitrary = (value: string) => `decoration-teal-[${value}]`;
 
 
 /**
@@ -3544,7 +3544,7 @@ export const decoration_teal_arbitrary = (value: string) => `decoration-teal-["$
  *
  * @type utility
  */
-export const decoration_teal_arb = (value: string) => `decoration-teal-["${value}"]`;
+export const decoration_teal_arb = (value: string) => `decoration-teal-[${value}]`;
 
 
 /**
@@ -3556,7 +3556,7 @@ export const decoration_teal_arb = (value: string) => `decoration-teal-["${value
  *
  * @type utility
  */
-export const decoration_cyan_arbitrary = (value: string) => `decoration-cyan-["${value}"]`;
+export const decoration_cyan_arbitrary = (value: string) => `decoration-cyan-[${value}]`;
 
 
 /**
@@ -3568,7 +3568,7 @@ export const decoration_cyan_arbitrary = (value: string) => `decoration-cyan-["$
  *
  * @type utility
  */
-export const decoration_cyan_arb = (value: string) => `decoration-cyan-["${value}"]`;
+export const decoration_cyan_arb = (value: string) => `decoration-cyan-[${value}]`;
 
 
 /**
@@ -3580,7 +3580,7 @@ export const decoration_cyan_arb = (value: string) => `decoration-cyan-["${value
  *
  * @type utility
  */
-export const decoration_sky_arbitrary = (value: string) => `decoration-sky-["${value}"]`;
+export const decoration_sky_arbitrary = (value: string) => `decoration-sky-[${value}]`;
 
 
 /**
@@ -3592,7 +3592,7 @@ export const decoration_sky_arbitrary = (value: string) => `decoration-sky-["${v
  *
  * @type utility
  */
-export const decoration_sky_arb = (value: string) => `decoration-sky-["${value}"]`;
+export const decoration_sky_arb = (value: string) => `decoration-sky-[${value}]`;
 
 
 /**
@@ -3604,7 +3604,7 @@ export const decoration_sky_arb = (value: string) => `decoration-sky-["${value}"
  *
  * @type utility
  */
-export const decoration_blue_arbitrary = (value: string) => `decoration-blue-["${value}"]`;
+export const decoration_blue_arbitrary = (value: string) => `decoration-blue-[${value}]`;
 
 
 /**
@@ -3616,7 +3616,7 @@ export const decoration_blue_arbitrary = (value: string) => `decoration-blue-["$
  *
  * @type utility
  */
-export const decoration_blue_arb = (value: string) => `decoration-blue-["${value}"]`;
+export const decoration_blue_arb = (value: string) => `decoration-blue-[${value}]`;
 
 
 /**
@@ -3628,7 +3628,7 @@ export const decoration_blue_arb = (value: string) => `decoration-blue-["${value
  *
  * @type utility
  */
-export const decoration_indigo_arbitrary = (value: string) => `decoration-indigo-["${value}"]`;
+export const decoration_indigo_arbitrary = (value: string) => `decoration-indigo-[${value}]`;
 
 
 /**
@@ -3640,7 +3640,7 @@ export const decoration_indigo_arbitrary = (value: string) => `decoration-indigo
  *
  * @type utility
  */
-export const decoration_indigo_arb = (value: string) => `decoration-indigo-["${value}"]`;
+export const decoration_indigo_arb = (value: string) => `decoration-indigo-[${value}]`;
 
 
 /**
@@ -3652,7 +3652,7 @@ export const decoration_indigo_arb = (value: string) => `decoration-indigo-["${v
  *
  * @type utility
  */
-export const decoration_violet_arbitrary = (value: string) => `decoration-violet-["${value}"]`;
+export const decoration_violet_arbitrary = (value: string) => `decoration-violet-[${value}]`;
 
 
 /**
@@ -3664,7 +3664,7 @@ export const decoration_violet_arbitrary = (value: string) => `decoration-violet
  *
  * @type utility
  */
-export const decoration_violet_arb = (value: string) => `decoration-violet-["${value}"]`;
+export const decoration_violet_arb = (value: string) => `decoration-violet-[${value}]`;
 
 
 /**
@@ -3676,7 +3676,7 @@ export const decoration_violet_arb = (value: string) => `decoration-violet-["${v
  *
  * @type utility
  */
-export const decoration_purple_arbitrary = (value: string) => `decoration-purple-["${value}"]`;
+export const decoration_purple_arbitrary = (value: string) => `decoration-purple-[${value}]`;
 
 
 /**
@@ -3688,7 +3688,7 @@ export const decoration_purple_arbitrary = (value: string) => `decoration-purple
  *
  * @type utility
  */
-export const decoration_purple_arb = (value: string) => `decoration-purple-["${value}"]`;
+export const decoration_purple_arb = (value: string) => `decoration-purple-[${value}]`;
 
 
 /**
@@ -3700,7 +3700,7 @@ export const decoration_purple_arb = (value: string) => `decoration-purple-["${v
  *
  * @type utility
  */
-export const decoration_fuchsia_arbitrary = (value: string) => `decoration-fuchsia-["${value}"]`;
+export const decoration_fuchsia_arbitrary = (value: string) => `decoration-fuchsia-[${value}]`;
 
 
 /**
@@ -3712,7 +3712,7 @@ export const decoration_fuchsia_arbitrary = (value: string) => `decoration-fuchs
  *
  * @type utility
  */
-export const decoration_fuchsia_arb = (value: string) => `decoration-fuchsia-["${value}"]`;
+export const decoration_fuchsia_arb = (value: string) => `decoration-fuchsia-[${value}]`;
 
 
 /**
@@ -3724,7 +3724,7 @@ export const decoration_fuchsia_arb = (value: string) => `decoration-fuchsia-["$
  *
  * @type utility
  */
-export const decoration_pink_arbitrary = (value: string) => `decoration-pink-["${value}"]`;
+export const decoration_pink_arbitrary = (value: string) => `decoration-pink-[${value}]`;
 
 
 /**
@@ -3736,7 +3736,7 @@ export const decoration_pink_arbitrary = (value: string) => `decoration-pink-["$
  *
  * @type utility
  */
-export const decoration_pink_arb = (value: string) => `decoration-pink-["${value}"]`;
+export const decoration_pink_arb = (value: string) => `decoration-pink-[${value}]`;
 
 
 /**
@@ -3748,7 +3748,7 @@ export const decoration_pink_arb = (value: string) => `decoration-pink-["${value
  *
  * @type utility
  */
-export const decoration_rose_arbitrary = (value: string) => `decoration-rose-["${value}"]`;
+export const decoration_rose_arbitrary = (value: string) => `decoration-rose-[${value}]`;
 
 
 /**
@@ -3760,7 +3760,7 @@ export const decoration_rose_arbitrary = (value: string) => `decoration-rose-["$
  *
  * @type utility
  */
-export const decoration_rose_arb = (value: string) => `decoration-rose-["${value}"]`;
+export const decoration_rose_arb = (value: string) => `decoration-rose-[${value}]`;
 
 
 /**

@@ -87,7 +87,7 @@ export const tracking_widest = "tracking-widest";
  *
  * @type utility
  */
-export const tracking_arbitrary = (value: string) => `tracking-["${value}"]`;
+export const tracking_arbitrary = (value: string) => `tracking-[${value}]`;
 
 
 /**
@@ -99,7 +99,7 @@ export const tracking_arbitrary = (value: string) => `tracking-["${value}"]`;
  *
  * @type utility
  */
-export const tracking_arb = (value: string) => `tracking-["${value}"]`;
+export const tracking_arb = (value: string) => `tracking-[${value}]`;
 
 
 /**

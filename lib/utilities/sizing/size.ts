@@ -933,7 +933,7 @@ export const size_fit = "size-fit";
  *
  * @type utility
  */
-export const size_arbitrary = (value: string) => `size-["${value}"]`;
+export const size_arbitrary = (value: string) => `size-[${value}]`;
 
 
 /**
@@ -945,7 +945,7 @@ export const size_arbitrary = (value: string) => `size-["${value}"]`;
  *
  * @type utility
  */
-export const size_arb = (value: string) => `size-["${value}"]`;
+export const size_arb = (value: string) => `size-[${value}]`;
 
 
 /**

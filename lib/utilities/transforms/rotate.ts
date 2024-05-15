@@ -126,7 +126,7 @@ export const rotate_180 = "rotate-180";
  *
  * @type utility
  */
-export const rotate_arbitrary = (value: string) => `rotate-["${value}"]`;
+export const rotate_arbitrary = (value: string) => `rotate-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const rotate_arbitrary = (value: string) => `rotate-["${value}"]`;
  *
  * @type utility
  */
-export const rotate_arb = (value: string) => `rotate-["${value}"]`;
+export const rotate_arb = (value: string) => `rotate-[${value}]`;
 
 
 /**

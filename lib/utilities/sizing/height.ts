@@ -776,7 +776,7 @@ export const h_fit = "h-fit";
  *
  * @type utility
  */
-export const h_arbitrary = (value: string) => `h-["${value}"]`;
+export const h_arbitrary = (value: string) => `h-[${value}]`;
 
 
 /**
@@ -788,7 +788,7 @@ export const h_arbitrary = (value: string) => `h-["${value}"]`;
  *
  * @type utility
  */
-export const h_arb = (value: string) => `h-["${value}"]`;
+export const h_arb = (value: string) => `h-[${value}]`;
 
 
 /**

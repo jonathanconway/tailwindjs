@@ -126,7 +126,7 @@ export const delay_1000 = "delay-1000";
  *
  * @type utility
  */
-export const delay_arbitrary = (value: string) => `delay-["${value}"]`;
+export const delay_arbitrary = (value: string) => `delay-[${value}]`;
 
 
 /**
@@ -138,7 +138,7 @@ export const delay_arbitrary = (value: string) => `delay-["${value}"]`;
  *
  * @type utility
  */
-export const delay_arb = (value: string) => `delay-["${value}"]`;
+export const delay_arb = (value: string) => `delay-[${value}]`;
 
 
 /**

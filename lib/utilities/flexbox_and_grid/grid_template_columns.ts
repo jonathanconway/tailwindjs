@@ -191,7 +191,7 @@ export const grid_cols_subgrid = "grid-cols-subgrid";
  *
  * @type utility
  */
-export const grid_cols_arbitrary = (value: string) => `grid-cols-["${value}"]`;
+export const grid_cols_arbitrary = (value: string) => `grid-cols-[${value}]`;
 
 
 /**
@@ -203,7 +203,7 @@ export const grid_cols_arbitrary = (value: string) => `grid-cols-["${value}"]`;
  *
  * @type utility
  */
-export const grid_cols_arb = (value: string) => `grid-cols-["${value}"]`;
+export const grid_cols_arb = (value: string) => `grid-cols-[${value}]`;
 
 
 /**

@@ -35,7 +35,7 @@ export const grow_0 = "grow-0";
  *
  * @type utility
  */
-export const grow_arbitrary = (value: string) => `grow-["${value}"]`;
+export const grow_arbitrary = (value: string) => `grow-[${value}]`;
 
 
 /**
@@ -47,7 +47,7 @@ export const grow_arbitrary = (value: string) => `grow-["${value}"]`;
  *
  * @type utility
  */
-export const grow_arb = (value: string) => `grow-["${value}"]`;
+export const grow_arb = (value: string) => `grow-[${value}]`;
 
 
 /**
