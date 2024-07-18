@@ -4,13 +4,7 @@
 
 <img src="docs/demo.mp4.gif" alt="Screen recording of developer using TailwindJS" />
 
-```tsx
-import { cn, p_4, text_lg } from "@jonathanconway/tailwindjs";
-
-...
-
-<span className={cn(p_4, text_lg)}>TailwindJS!</span>
-```
+<img src="docs/screenshot.png" alt="Screenshot of developer using TailwindJS" />
 
 ## Table of contents
 
