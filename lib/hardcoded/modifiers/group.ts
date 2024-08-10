@@ -14,7 +14,7 @@ const group_ = "group";
  *
  * @see https://tailwindcss.com/docs/hover-focus-and-other-states#styling-based-on-parent-state
  */
-export const group = (modifierOrSuffix: string, suffix?: string) =>
+export const group = (modifierOrSuffix?: string, suffix?: string) =>
   `${group_}${modifierOrSuffix && suffix ? `-${modifierOrSuffix}` : ""}:${
     suffix ?? modifierOrSuffix
   }`;
@@ -52,7 +52,7 @@ export const group_arbitrary = (arbitrary: string, suffix: string) =>
  */
 export const group_name = (
   name: string,
-  modifierOrSuffix: string,
+  modifierOrSuffix?: string,
   suffix?: string
 ) =>
   `${group_}${

@@ -1,6 +1,6 @@
 {
   "name": "@jonathanconway/tailwindjs",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Tailwind as Javascript functions for code completion and type safety.",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -13,6 +13,7 @@
     "build-lib": "ts-node ./build/build-lib/run-build-lib",
     "build-docs": "ts-node ./build/build-docs/run-build-docs",
     "build": "tsc",
+    "build-all": "npm run build && npm run build-lib && npm run build-docs && npm run build-tailwindcss-pages",
     "test": "jest"
   },
   "repository": {
