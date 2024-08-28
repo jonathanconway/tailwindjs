@@ -200,6 +200,8 @@ export const order_none = "order-none";
  *
  * If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/order#arbitrary-values
  *
  * @type utility
@@ -212,6 +214,8 @@ export const order_arbitrary = (value: string) => `order-[${value}]`;
  *
  * If you need to use a one-off order value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/order#arbitrary-values
  *
  * @type utility

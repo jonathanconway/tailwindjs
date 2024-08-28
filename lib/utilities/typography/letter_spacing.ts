@@ -83,6 +83,8 @@ export const tracking_widest = "tracking-widest";
  *
  * If you need to use a one-off letter-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/letter-spacing#arbitrary-values
  *
  * @type utility
@@ -95,6 +97,8 @@ export const tracking_arbitrary = (value: string) => `tracking-[${value}]`;
  *
  * If you need to use a one-off letter-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/letter-spacing#arbitrary-values
  *
  * @type utility

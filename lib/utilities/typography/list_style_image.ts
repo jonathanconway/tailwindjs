@@ -18,6 +18,8 @@ export const list_image_none = "list-image-none";
  *
  * If you need to use a one-off list-style-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/list-style-image#arbitrary-values
  *
  * @type utility
@@ -30,6 +32,8 @@ export const list_image_arbitrary = (value: string) => `list-image-[${value}]`;
  *
  * If you need to use a one-off list-style-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/list-style-image#arbitrary-values
  *
  * @type utility

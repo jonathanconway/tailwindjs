@@ -1,4 +1,10 @@
-import { readdirSync, statSync, writeFileSync } from "fs";
+import {
+  existsSync,
+  readFileSync,
+  readdirSync,
+  statSync,
+  writeFileSync,
+} from "fs";
 import { resolve } from "path";
 import {
   JsxEmit,
@@ -22,11 +28,14 @@ import * as tailwindjsModifiersGenerated from "../../lib/modifiers";
 import * as tailwindjsUtilitiesGenerated from "../../lib/utilities";
 import { PROJECT_NAME } from "../constants";
 import {
+  generateChecksum,
   ImportedFunctionMap,
   ImportedModifier,
   ImportedModifierMap,
   ImportedUtilityMap,
   isNotNil,
+  uniq,
+  verifyChecksum,
 } from "../utils";
 import "../utils/array.utils";
 
@@ -63,6 +72,20 @@ const modifierOrUtilityFunctionNames = [
   ...helperNames,
 ].filter((objectName) => typeof tailwindjsAll[objectName] === "function");
 
+export interface TailwindJSClasses {
+  readonly [filePathName: string]: {
+    readonly checksum: string;
+    readonly classNames: readonly string[];
+  };
+}
+
+function readTailwindJSClasses(filePathName: string) {
+  if (!existsSync(filePathName)) {
+    return {} as TailwindJSClasses;
+  }
+  return JSON.parse(readFileSync(filePathName).toString()) as TailwindJSClasses;
+}
+
 export function scanTailwindJSClasses(
   inputDir: string,
   outputDirFilename?: string
@@ -71,11 +94,28 @@ export function scanTailwindJSClasses(
     outputDirFilename = `${inputDir}/tailwind-js-classes.json`;
   }
 
+  const previousCache = readTailwindJSClasses(outputDirFilename);
+  const newCache = { ...previousCache };
+
   const files = getFiles(inputDir, ["ts", "js"]);
 
-  const tailwindCSSClasses = [];
+  const tailwindCSSClasses: string[] = [];
 
   for (const file of files) {
+    // Is the file unchanged? If so, skip.
+    const fileContents = readFileSync(file).toString().trim();
+
+    if (
+      previousCache[file] &&
+      verifyChecksum(fileContents, previousCache[file].checksum)
+    ) {
+      console.log(`${file} is unchanged.`);
+
+      tailwindCSSClasses.push(...previousCache[file].classNames);
+
+      continue;
+    }
+
     const contentsAst = createProgram([file], {
       allowJs: true,
       jsx: JsxEmit.React,
@@ -102,21 +142,24 @@ export function scanTailwindJSClasses(
       .filter(isImportSpecifier)
       .map((importSpecifier) => importSpecifier.name.escapedText.toString());
 
-    tailwindCSSClasses.push(
-      ...walkNodes(
+    const classNames = uniq(
+      walkNodes(
         sourceFile,
         tailwindJSImportSpecifiers,
         sourceFile.getChildren(sourceFile)
-      )
+      ).filter((className) => !tailwindCSSClasses.includes(className))
     );
+
+    tailwindCSSClasses.push(...classNames);
+
+    newCache[file] = {
+      ...(previousCache[file] ?? {}),
+      checksum: generateChecksum(fileContents),
+      classNames,
+    };
   }
 
-  const tailwindCSSClassesUniqSorted = tailwindCSSClasses.uniq().sort();
-
-  writeFileSync(
-    outputDirFilename,
-    JSON.stringify(tailwindCSSClassesUniqSorted)
-  );
+  writeFileSync(outputDirFilename, JSON.stringify(newCache, null, 2));
 }
 
 function getFiles(dir: string, extensions: readonly string[]): string[] {

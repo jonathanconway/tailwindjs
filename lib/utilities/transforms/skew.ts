@@ -161,6 +161,8 @@ export const skew_y_12 = "skew-y-12";
  *
  * If you need to use a one-off skew value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/skew#arbitrary-values
  *
  * @type utility
@@ -173,6 +175,8 @@ export const skew_x_arbitrary = (value: string) => `skew-x-[${value}]`;
  *
  * If you need to use a one-off skew value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/skew#arbitrary-values
  *
  * @type utility
@@ -185,6 +189,8 @@ export const skew_x_arb = (value: string) => `skew-x-[${value}]`;
  *
  * If you need to use a one-off skew value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/skew#arbitrary-values
  *
  * @type utility
@@ -197,6 +203,8 @@ export const skew_y_arbitrary = (value: string) => `skew-y-[${value}]`;
  *
  * If you need to use a one-off skew value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/skew#arbitrary-values
  *
  * @type utility

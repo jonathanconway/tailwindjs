@@ -70,6 +70,8 @@ export const backdrop_saturate_200 = "backdrop-saturate-200";
  *
  * If you need to use a one-off backdrop-saturate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-saturate#arbitrary-values
  *
  * @type utility
@@ -82,6 +84,8 @@ export const backdrop_saturate_arbitrary = (value: string) => `backdrop-saturate
  *
  * If you need to use a one-off backdrop-saturate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-saturate#arbitrary-values
  *
  * @type utility

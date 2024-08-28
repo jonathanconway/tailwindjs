@@ -31,6 +31,8 @@ export const sepia = "sepia";
  *
  * If you need to use a one-off sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/sepia#arbitrary-values
  *
  * @type utility
@@ -43,6 +45,8 @@ export const sepia_arbitrary = (value: string) => `sepia-[${value}]`;
  *
  * If you need to use a one-off sepia value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/sepia#arbitrary-values
  *
  * @type utility

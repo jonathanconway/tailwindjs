@@ -941,6 +941,8 @@ export const space_x_reverse = "space-x-reverse";
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/space#arbitrary-values
  *
  * @type utility
@@ -953,6 +955,8 @@ export const space_x_arbitrary = (value: string) => `space-x-[${value}]`;
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/space#arbitrary-values
  *
  * @type utility
@@ -965,6 +969,8 @@ export const space_x_arb = (value: string) => `space-x-[${value}]`;
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/space#arbitrary-values
  *
  * @type utility
@@ -977,6 +983,8 @@ export const space_y_arbitrary = (value: string) => `space-y-[${value}]`;
  *
  * If you need to use a one-off space value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/space#arbitrary-values
  *
  * @type utility

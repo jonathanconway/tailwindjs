@@ -31,6 +31,8 @@ export const invert = "invert";
  *
  * If you need to use a one-off invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/invert#arbitrary-values
  *
  * @type utility
@@ -43,6 +45,8 @@ export const invert_arbitrary = (value: string) => `invert-[${value}]`;
  *
  * If you need to use a one-off invert value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/invert#arbitrary-values
  *
  * @type utility

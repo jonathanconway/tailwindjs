@@ -83,6 +83,8 @@ export const backdrop_hue_rotate_180 = "backdrop-hue-rotate-180";
  *
  * If you need to use a one-off backdrop-hue-rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-hue-rotate#arbitrary-values
  *
  * @type utility
@@ -95,6 +97,8 @@ export const backdrop_hue_rotate_arbitrary = (value: string) => `backdrop-hue-ro
  *
  * If you need to use a one-off backdrop-hue-rotate value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-hue-rotate#arbitrary-values
  *
  * @type utility

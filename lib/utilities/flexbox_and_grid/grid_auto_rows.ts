@@ -57,6 +57,8 @@ export const auto_rows_fr = "auto-rows-fr";
  *
  * If you need to use a one-off grid-auto-rows value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-auto-rows#arbitrary-values
  *
  * @type utility
@@ -69,6 +71,8 @@ export const auto_rows_arbitrary = (value: string) => `auto-rows-[${value}]`;
  *
  * If you need to use a one-off grid-auto-rows value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-auto-rows#arbitrary-values
  *
  * @type utility

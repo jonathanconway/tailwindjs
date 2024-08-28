@@ -187,6 +187,8 @@ export const grid_cols_subgrid = "grid-cols-subgrid";
  *
  * If you need to use a one-off grid-template-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-template-columns#arbitrary-values
  *
  * @type utility
@@ -199,6 +201,8 @@ export const grid_cols_arbitrary = (value: string) => `grid-cols-[${value}]`;
  *
  * If you need to use a one-off grid-template-columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-template-columns#arbitrary-values
  *
  * @type utility

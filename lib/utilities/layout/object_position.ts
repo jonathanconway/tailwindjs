@@ -122,6 +122,8 @@ export const object_top = "object-top";
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/object-position#arbitrary-values
  *
  * @type utility
@@ -134,6 +136,8 @@ export const object_arbitrary = (value: string) => `object-[${value}]`;
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/object-position#arbitrary-values
  *
  * @type utility
@@ -146,6 +150,8 @@ export const object_arb = (value: string) => `object-[${value}]`;
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/object-position#arbitrary-values
  *
  * @type utility
@@ -158,6 +164,8 @@ export const object_left_arbitrary = (value: string) => `object-left-[${value}]`
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/object-position#arbitrary-values
  *
  * @type utility
@@ -170,6 +178,8 @@ export const object_left_arb = (value: string) => `object-left-[${value}]`;
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/object-position#arbitrary-values
  *
  * @type utility
@@ -182,6 +192,8 @@ export const object_right_arbitrary = (value: string) => `object-right-[${value}
  *
  * If you need to use a one-off object-position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/object-position#arbitrary-values
  *
  * @type utility

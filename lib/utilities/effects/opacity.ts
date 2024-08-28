@@ -278,6 +278,8 @@ export const opacity_100 = "opacity-100";
  *
  * If you need to use a one-off opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/opacity#arbitrary-values
  *
  * @type utility
@@ -290,6 +292,8 @@ export const opacity_arbitrary = (value: string) => `opacity-[${value}]`;
  *
  * If you need to use a one-off opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/opacity#arbitrary-values
  *
  * @type utility

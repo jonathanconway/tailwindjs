@@ -57,6 +57,8 @@ export const flex_none = "flex-none";
  *
  * If you need to use a one-off flex value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/flex#arbitrary-values
  *
  * @type utility
@@ -69,6 +71,8 @@ export const flex_arbitrary = (value: string) => `flex-[${value}]`;
  *
  * If you need to use a one-off flex value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/flex#arbitrary-values
  *
  * @type utility

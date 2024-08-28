@@ -117,6 +117,8 @@ export const line_clamp_none = "line-clamp-none";
  *
  * If you need to use a one-off line-clamp value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/line-clamp#arbitrary-values
  *
  * @type utility
@@ -129,6 +131,8 @@ export const line_clamp_arbitrary = (value: string) => `line-clamp-[${value}]`;
  *
  * If you need to use a one-off line-clamp value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/line-clamp#arbitrary-values
  *
  * @type utility

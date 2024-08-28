@@ -3216,6 +3216,8 @@ export const ring_rose_950 = "ring-rose-950";
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3228,6 +3230,8 @@ export const ring_slate_arbitrary = (value: string) => `ring-slate-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3240,6 +3244,8 @@ export const ring_slate_arb = (value: string) => `ring-slate-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3252,6 +3258,8 @@ export const ring_gray_arbitrary = (value: string) => `ring-gray-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3264,6 +3272,8 @@ export const ring_gray_arb = (value: string) => `ring-gray-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3276,6 +3286,8 @@ export const ring_zinc_arbitrary = (value: string) => `ring-zinc-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3288,6 +3300,8 @@ export const ring_zinc_arb = (value: string) => `ring-zinc-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3300,6 +3314,8 @@ export const ring_neutral_arbitrary = (value: string) => `ring-neutral-[${value}
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3312,6 +3328,8 @@ export const ring_neutral_arb = (value: string) => `ring-neutral-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3324,6 +3342,8 @@ export const ring_stone_arbitrary = (value: string) => `ring-stone-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3336,6 +3356,8 @@ export const ring_stone_arb = (value: string) => `ring-stone-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3348,6 +3370,8 @@ export const ring_red_arbitrary = (value: string) => `ring-red-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3360,6 +3384,8 @@ export const ring_red_arb = (value: string) => `ring-red-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3372,6 +3398,8 @@ export const ring_orange_arbitrary = (value: string) => `ring-orange-[${value}]`
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3384,6 +3412,8 @@ export const ring_orange_arb = (value: string) => `ring-orange-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3396,6 +3426,8 @@ export const ring_amber_arbitrary = (value: string) => `ring-amber-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3408,6 +3440,8 @@ export const ring_amber_arb = (value: string) => `ring-amber-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3420,6 +3454,8 @@ export const ring_yellow_arbitrary = (value: string) => `ring-yellow-[${value}]`
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3432,6 +3468,8 @@ export const ring_yellow_arb = (value: string) => `ring-yellow-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3444,6 +3482,8 @@ export const ring_lime_arbitrary = (value: string) => `ring-lime-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3456,6 +3496,8 @@ export const ring_lime_arb = (value: string) => `ring-lime-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3468,6 +3510,8 @@ export const ring_green_arbitrary = (value: string) => `ring-green-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3480,6 +3524,8 @@ export const ring_green_arb = (value: string) => `ring-green-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3492,6 +3538,8 @@ export const ring_emerald_arbitrary = (value: string) => `ring-emerald-[${value}
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3504,6 +3552,8 @@ export const ring_emerald_arb = (value: string) => `ring-emerald-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3516,6 +3566,8 @@ export const ring_teal_arbitrary = (value: string) => `ring-teal-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3528,6 +3580,8 @@ export const ring_teal_arb = (value: string) => `ring-teal-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3540,6 +3594,8 @@ export const ring_cyan_arbitrary = (value: string) => `ring-cyan-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3552,6 +3608,8 @@ export const ring_cyan_arb = (value: string) => `ring-cyan-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3564,6 +3622,8 @@ export const ring_sky_arbitrary = (value: string) => `ring-sky-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3576,6 +3636,8 @@ export const ring_sky_arb = (value: string) => `ring-sky-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3588,6 +3650,8 @@ export const ring_blue_arbitrary = (value: string) => `ring-blue-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3600,6 +3664,8 @@ export const ring_blue_arb = (value: string) => `ring-blue-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3612,6 +3678,8 @@ export const ring_indigo_arbitrary = (value: string) => `ring-indigo-[${value}]`
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3624,6 +3692,8 @@ export const ring_indigo_arb = (value: string) => `ring-indigo-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3636,6 +3706,8 @@ export const ring_violet_arbitrary = (value: string) => `ring-violet-[${value}]`
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3648,6 +3720,8 @@ export const ring_violet_arb = (value: string) => `ring-violet-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3660,6 +3734,8 @@ export const ring_purple_arbitrary = (value: string) => `ring-purple-[${value}]`
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3672,6 +3748,8 @@ export const ring_purple_arb = (value: string) => `ring-purple-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3684,6 +3762,8 @@ export const ring_fuchsia_arbitrary = (value: string) => `ring-fuchsia-[${value}
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3696,6 +3776,8 @@ export const ring_fuchsia_arb = (value: string) => `ring-fuchsia-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3708,6 +3790,8 @@ export const ring_pink_arbitrary = (value: string) => `ring-pink-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3720,6 +3804,8 @@ export const ring_pink_arb = (value: string) => `ring-pink-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility
@@ -3732,6 +3818,8 @@ export const ring_rose_arbitrary = (value: string) => `ring-rose-[${value}]`;
  *
  * If you need to use a one-off ring color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-color#arbitrary-values
  *
  * @type utility

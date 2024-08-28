@@ -929,6 +929,8 @@ export const size_fit = "size-fit";
  *
  * If you need to use a one-off size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/size#arbitrary-values
  *
  * @type utility
@@ -941,6 +943,8 @@ export const size_arbitrary = (value: string) => `size-[${value}]`;
  *
  * If you need to use a one-off size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/size#arbitrary-values
  *
  * @type utility

@@ -1,5 +1,6 @@
 export * from "./array.utils";
 export * from "./assertion.utils";
+export * from "./checksum.utils";
 export * from "./code-gen.utils";
 export * from "./dir.utils";
 export * from "./imported.utils";

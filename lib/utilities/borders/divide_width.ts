@@ -171,6 +171,8 @@ export const divide_x_reverse = "divide-x-reverse";
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
  *
  * @type utility
@@ -183,6 +185,8 @@ export const divide_x_arbitrary = (value: string) => `divide-x-[${value}]`;
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
  *
  * @type utility
@@ -195,6 +199,8 @@ export const divide_x_arb = (value: string) => `divide-x-[${value}]`;
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
  *
  * @type utility
@@ -207,6 +213,8 @@ export const divide_arbitrary = (value: string) => `divide-[${value}]`;
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
  *
  * @type utility
@@ -219,6 +227,8 @@ export const divide_arb = (value: string) => `divide-[${value}]`;
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
  *
  * @type utility
@@ -231,6 +241,8 @@ export const divide_y_arbitrary = (value: string) => `divide-y-[${value}]`;
  *
  * If you need to use a one-off divide width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/divide-width#arbitrary-values
  *
  * @type utility

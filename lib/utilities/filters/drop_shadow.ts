@@ -96,6 +96,8 @@ export const drop_shadow_none = "drop-shadow-none";
  *
  * If you need to use a one-off drop-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/drop-shadow#arbitrary-values
  *
  * @type utility
@@ -108,6 +110,8 @@ export const drop_shadow_arbitrary = (value: string) => `drop-shadow-[${value}]`
  *
  * If you need to use a one-off drop-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/drop-shadow#arbitrary-values
  *
  * @type utility
@@ -120,6 +124,8 @@ export const drop_shadow_arb = (value: string) => `drop-shadow-[${value}]`;
  *
  * If you need to use a one-off drop-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/drop-shadow#arbitrary-values
  *
  * @type utility
@@ -132,6 +138,8 @@ export const drop_arbitrary = (value: string) => `drop-[${value}]`;
  *
  * If you need to use a one-off drop-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/drop-shadow#arbitrary-values
  *
  * @type utility

@@ -1,8 +1,8 @@
 
 # Accessibility
 
-- [Forced Color Adjust](forced-color-adjust)
-- [Screen Readers](screen-readers)
+- [Forced Color Adjust](#forced-color-adjust)
+- [Screen Readers](#screen-readers)
 
 -----
 
@@ -22,8 +22,8 @@ Utilities for opting in and out of forced colors.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `forced_color_adjust_auto` | [forced-color-adjust-auto](forced_color_adjust) |
-| `forced_color_adjust_none` | [forced-color-adjust-none](forced_color_adjust) |
+| `forced_color_adjust_auto` | [forced-color-adjust-auto](#forced_color_adjust) |
+| `forced_color_adjust_none` | [forced-color-adjust-none](#forced_color_adjust) |
 
 
 
@@ -44,8 +44,8 @@ Utilities for improving accessibility with screen readers.
 
 | TailwindJS token | TailwindCSS token |
 | ----- | ----- |
-| `not_sr_only` | [not-sr-only](screen_readers) |
-| `sr_only` | [sr-only](screen_readers) |
+| `not_sr_only` | [not-sr-only](#screen_readers) |
+| `sr_only` | [sr-only](#screen_readers) |
 
 
 

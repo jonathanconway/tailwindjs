@@ -109,6 +109,8 @@ export const shadow_none = "shadow-none";
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/box-shadow#arbitrary-values
  *
  * @type utility
@@ -121,6 +123,8 @@ export const shadow_arbitrary = (value: string) => `shadow-[${value}]`;
  *
  * If you need to use a one-off box-shadow value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/box-shadow#arbitrary-values
  *
  * @type utility

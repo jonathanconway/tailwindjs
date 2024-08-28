@@ -473,6 +473,8 @@ export const cursor_zoom_out = "cursor-zoom-out";
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -485,6 +487,8 @@ export const cursor_arbitrary = (value: string) => `cursor-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -497,6 +501,8 @@ export const cursor_arb = (value: string) => `cursor-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -509,6 +515,8 @@ export const cursor_not_arbitrary = (value: string) => `cursor-not-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -521,6 +529,8 @@ export const cursor_not_arb = (value: string) => `cursor-not-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -533,6 +543,8 @@ export const cursor_context_arbitrary = (value: string) => `cursor-context-[${va
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -545,6 +557,8 @@ export const cursor_context_arb = (value: string) => `cursor-context-[${value}]`
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -557,6 +571,8 @@ export const cursor_vertical_arbitrary = (value: string) => `cursor-vertical-[${
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -569,6 +585,8 @@ export const cursor_vertical_arb = (value: string) => `cursor-vertical-[${value}
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -581,6 +599,8 @@ export const cursor_no_arbitrary = (value: string) => `cursor-no-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -593,6 +613,8 @@ export const cursor_no_arb = (value: string) => `cursor-no-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -605,6 +627,8 @@ export const cursor_all_arbitrary = (value: string) => `cursor-all-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -617,6 +641,8 @@ export const cursor_all_arb = (value: string) => `cursor-all-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -629,6 +655,8 @@ export const cursor_col_arbitrary = (value: string) => `cursor-col-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -641,6 +669,8 @@ export const cursor_col_arb = (value: string) => `cursor-col-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -653,6 +683,8 @@ export const cursor_row_arbitrary = (value: string) => `cursor-row-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -665,6 +697,8 @@ export const cursor_row_arb = (value: string) => `cursor-row-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -677,6 +711,8 @@ export const cursor_n_arbitrary = (value: string) => `cursor-n-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -689,6 +725,8 @@ export const cursor_n_arb = (value: string) => `cursor-n-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -701,6 +739,8 @@ export const cursor_e_arbitrary = (value: string) => `cursor-e-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -713,6 +753,8 @@ export const cursor_e_arb = (value: string) => `cursor-e-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -725,6 +767,8 @@ export const cursor_s_arbitrary = (value: string) => `cursor-s-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -737,6 +781,8 @@ export const cursor_s_arb = (value: string) => `cursor-s-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -749,6 +795,8 @@ export const cursor_w_arbitrary = (value: string) => `cursor-w-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -761,6 +809,8 @@ export const cursor_w_arb = (value: string) => `cursor-w-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -773,6 +823,8 @@ export const cursor_ne_arbitrary = (value: string) => `cursor-ne-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -785,6 +837,8 @@ export const cursor_ne_arb = (value: string) => `cursor-ne-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -797,6 +851,8 @@ export const cursor_nw_arbitrary = (value: string) => `cursor-nw-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -809,6 +865,8 @@ export const cursor_nw_arb = (value: string) => `cursor-nw-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -821,6 +879,8 @@ export const cursor_se_arbitrary = (value: string) => `cursor-se-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -833,6 +893,8 @@ export const cursor_se_arb = (value: string) => `cursor-se-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -845,6 +907,8 @@ export const cursor_sw_arbitrary = (value: string) => `cursor-sw-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -857,6 +921,8 @@ export const cursor_sw_arb = (value: string) => `cursor-sw-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -869,6 +935,8 @@ export const cursor_ew_arbitrary = (value: string) => `cursor-ew-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -881,6 +949,8 @@ export const cursor_ew_arb = (value: string) => `cursor-ew-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -893,6 +963,8 @@ export const cursor_ns_arbitrary = (value: string) => `cursor-ns-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -905,6 +977,8 @@ export const cursor_ns_arb = (value: string) => `cursor-ns-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -917,6 +991,8 @@ export const cursor_nesw_arbitrary = (value: string) => `cursor-nesw-[${value}]`
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -929,6 +1005,8 @@ export const cursor_nesw_arb = (value: string) => `cursor-nesw-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -941,6 +1019,8 @@ export const cursor_nwse_arbitrary = (value: string) => `cursor-nwse-[${value}]`
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -953,6 +1033,8 @@ export const cursor_nwse_arb = (value: string) => `cursor-nwse-[${value}]`;
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility
@@ -965,6 +1047,8 @@ export const cursor_zoom_arbitrary = (value: string) => `cursor-zoom-[${value}]`
  *
  * If you need to use a one-off cursor value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/cursor#arbitrary-values
  *
  * @type utility

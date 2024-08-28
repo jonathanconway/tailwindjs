@@ -20,7 +20,7 @@ export function genMdTable(cells: readonly Record<string, string>[]) {
   return [columnHeader, ...rows].join("\n");
 }
 
-export function convertTitleToMdLinkHashName(title: string) {
+export function convertTitleToMdLinkName(title: string) {
   return title
     .toLowerCase()
     .replaceAll("&", "")
@@ -31,6 +31,10 @@ export function convertTitleToMdLinkHashName(title: string) {
     .map((word) => word.trim())
     .filter(Boolean)
     .join("-");
+}
+
+export function convertTitleToMdLinkHashName(title: string) {
+  return `#${convertTitleToMdLinkName(title)}`;
 }
 
 export function genMdBlock(heading: string, content?: string) {
@@ -51,7 +55,7 @@ export function genMdPrimitivesTable(primitives: readonly Primitive[]) {
       .sortBy("name")
       .map(({ name, tailwindCssName, tailwindCssUrl }) => ({
         "TailwindJS token": `\`${name}\``,
-        "TailwindCSS token": `[${tailwindCssName}](${tailwindCssUrl})`,
+        "TailwindCSS token": `[${tailwindCssName}](#${tailwindCssUrl})`,
       }))
   );
 }
@@ -62,7 +66,7 @@ export function genMdArbitrariesTable(primitives: readonly Arbitrary[]) {
       .sortBy("name")
       .map(({ name, tailwindCssName, tailwindCssUrl }) => ({
         "TailwindJS token": `\`${name}_arbitrary\`, \`${name}_arb\``,
-        "TailwindCSS token": `[${tailwindCssName}](${tailwindCssUrl})`,
+        "TailwindCSS token": `[${tailwindCssName}](#${tailwindCssUrl})`,
       }))
   );
 }

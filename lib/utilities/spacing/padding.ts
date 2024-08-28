@@ -4170,6 +4170,8 @@ export const pl_96 = "pl-96";
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4182,6 +4184,8 @@ export const p_arbitrary = (value: string) => `p-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4194,6 +4198,8 @@ export const p_arb = (value: string) => `p-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4206,6 +4212,8 @@ export const px_arbitrary = (value: string) => `px-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4218,6 +4226,8 @@ export const px_arb = (value: string) => `px-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4230,6 +4240,8 @@ export const py_arbitrary = (value: string) => `py-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4242,6 +4254,8 @@ export const py_arb = (value: string) => `py-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4254,6 +4268,8 @@ export const ps_arbitrary = (value: string) => `ps-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4266,6 +4282,8 @@ export const ps_arb = (value: string) => `ps-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4278,6 +4296,8 @@ export const pe_arbitrary = (value: string) => `pe-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4290,6 +4310,8 @@ export const pe_arb = (value: string) => `pe-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4302,6 +4324,8 @@ export const pt_arbitrary = (value: string) => `pt-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4314,6 +4338,8 @@ export const pt_arb = (value: string) => `pt-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4326,6 +4352,8 @@ export const pr_arbitrary = (value: string) => `pr-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4338,6 +4366,8 @@ export const pr_arb = (value: string) => `pr-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4350,6 +4380,8 @@ export const pb_arbitrary = (value: string) => `pb-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4362,6 +4394,8 @@ export const pb_arb = (value: string) => `pb-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility
@@ -4374,6 +4408,8 @@ export const pl_arbitrary = (value: string) => `pl-[${value}]`;
  *
  * If you need to use a one-off padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/padding#arbitrary-values
  *
  * @type utility

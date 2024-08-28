@@ -1370,6 +1370,8 @@ export const gap_y_96 = "gap-y-96";
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/gap#arbitrary-values
  *
  * @type utility
@@ -1382,6 +1384,8 @@ export const gap_arbitrary = (value: string) => `gap-[${value}]`;
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/gap#arbitrary-values
  *
  * @type utility
@@ -1394,6 +1398,8 @@ export const gap_arb = (value: string) => `gap-[${value}]`;
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/gap#arbitrary-values
  *
  * @type utility
@@ -1406,6 +1412,8 @@ export const gap_x_arbitrary = (value: string) => `gap-x-[${value}]`;
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/gap#arbitrary-values
  *
  * @type utility
@@ -1418,6 +1426,8 @@ export const gap_x_arb = (value: string) => `gap-x-[${value}]`;
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/gap#arbitrary-values
  *
  * @type utility
@@ -1430,6 +1440,8 @@ export const gap_y_arbitrary = (value: string) => `gap-y-[${value}]`;
  *
  * If you need to use a one-off gap value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/gap#arbitrary-values
  *
  * @type utility

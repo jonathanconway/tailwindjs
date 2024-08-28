@@ -1370,6 +1370,8 @@ export const border_spacing_y_96 = "border-spacing-y-96";
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
  *
  * @type utility
@@ -1382,6 +1384,8 @@ export const border_spacing_arbitrary = (value: string) => `border-spacing-[${va
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
  *
  * @type utility
@@ -1394,6 +1398,8 @@ export const border_spacing_arb = (value: string) => `border-spacing-[${value}]`
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
  *
  * @type utility
@@ -1406,6 +1412,8 @@ export const border_spacing_x_arbitrary = (value: string) => `border-spacing-x-[
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
  *
  * @type utility
@@ -1418,6 +1426,8 @@ export const border_spacing_x_arb = (value: string) => `border-spacing-x-[${valu
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
  *
  * @type utility
@@ -1430,6 +1440,8 @@ export const border_spacing_y_arbitrary = (value: string) => `border-spacing-y-[
  *
  * If you need to use a one-off border-spacing value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-spacing#arbitrary-values
  *
  * @type utility

@@ -551,6 +551,8 @@ export const row_end_auto = "row-end-auto";
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -563,6 +565,8 @@ export const row_arbitrary = (value: string) => `row-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -575,6 +579,8 @@ export const row_arb = (value: string) => `row-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -587,6 +593,8 @@ export const row_span_arbitrary = (value: string) => `row-span-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -599,6 +607,8 @@ export const row_span_arb = (value: string) => `row-span-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -611,6 +621,8 @@ export const row_start_arbitrary = (value: string) => `row-start-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -623,6 +635,8 @@ export const row_start_arb = (value: string) => `row-start-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility
@@ -635,6 +649,8 @@ export const row_end_arbitrary = (value: string) => `row-end-[${value}]`;
  *
  * If you need to use a one-off grid row value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-row#arbitrary-values
  *
  * @type utility

@@ -915,6 +915,8 @@ export const w_fit = "w-fit";
  *
  * If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/width#arbitrary-values
  *
  * @type utility
@@ -927,6 +929,8 @@ export const w_arbitrary = (value: string) => `w-[${value}]`;
  *
  * If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/width#arbitrary-values
  *
  * @type utility

@@ -4170,6 +4170,8 @@ export const scroll_pl_96 = "scroll-pl-96";
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4182,6 +4184,8 @@ export const scroll_p_arbitrary = (value: string) => `scroll-p-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4194,6 +4198,8 @@ export const scroll_p_arb = (value: string) => `scroll-p-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4206,6 +4212,8 @@ export const scroll_px_arbitrary = (value: string) => `scroll-px-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4218,6 +4226,8 @@ export const scroll_px_arb = (value: string) => `scroll-px-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4230,6 +4240,8 @@ export const scroll_py_arbitrary = (value: string) => `scroll-py-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4242,6 +4254,8 @@ export const scroll_py_arb = (value: string) => `scroll-py-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4254,6 +4268,8 @@ export const scroll_ps_arbitrary = (value: string) => `scroll-ps-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4266,6 +4282,8 @@ export const scroll_ps_arb = (value: string) => `scroll-ps-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4278,6 +4296,8 @@ export const scroll_pe_arbitrary = (value: string) => `scroll-pe-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4290,6 +4310,8 @@ export const scroll_pe_arb = (value: string) => `scroll-pe-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4302,6 +4324,8 @@ export const scroll_pt_arbitrary = (value: string) => `scroll-pt-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4314,6 +4338,8 @@ export const scroll_pt_arb = (value: string) => `scroll-pt-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4326,6 +4352,8 @@ export const scroll_pr_arbitrary = (value: string) => `scroll-pr-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4338,6 +4366,8 @@ export const scroll_pr_arb = (value: string) => `scroll-pr-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4350,6 +4380,8 @@ export const scroll_pb_arbitrary = (value: string) => `scroll-pb-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4362,6 +4394,8 @@ export const scroll_pb_arb = (value: string) => `scroll-pb-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility
@@ -4374,6 +4408,8 @@ export const scroll_pl_arbitrary = (value: string) => `scroll-pl-[${value}]`;
  *
  * If you need to use a one-off scroll-padding value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scroll-padding#arbitrary-values
  *
  * @type utility

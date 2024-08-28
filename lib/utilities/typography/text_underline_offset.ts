@@ -83,6 +83,8 @@ export const underline_offset_8 = "underline-offset-8";
  *
  * If you need to use a one-off text-underline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/text-underline-offset#arbitrary-values
  *
  * @type utility
@@ -95,6 +97,8 @@ export const underline_offset_arbitrary = (value: string) => `underline-offset-[
  *
  * If you need to use a one-off text-underline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/text-underline-offset#arbitrary-values
  *
  * @type utility

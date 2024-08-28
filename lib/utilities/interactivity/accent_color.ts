@@ -3229,6 +3229,8 @@ export const accent_auto = "accent-auto";
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3241,6 +3243,8 @@ export const accent_arbitrary = (value: string) => `accent-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3253,6 +3257,8 @@ export const accent_arb = (value: string) => `accent-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3265,6 +3271,8 @@ export const accent_slate_arbitrary = (value: string) => `accent-slate-[${value}
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3277,6 +3285,8 @@ export const accent_slate_arb = (value: string) => `accent-slate-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3289,6 +3299,8 @@ export const accent_gray_arbitrary = (value: string) => `accent-gray-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3301,6 +3313,8 @@ export const accent_gray_arb = (value: string) => `accent-gray-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3313,6 +3327,8 @@ export const accent_zinc_arbitrary = (value: string) => `accent-zinc-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3325,6 +3341,8 @@ export const accent_zinc_arb = (value: string) => `accent-zinc-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3337,6 +3355,8 @@ export const accent_neutral_arbitrary = (value: string) => `accent-neutral-[${va
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3349,6 +3369,8 @@ export const accent_neutral_arb = (value: string) => `accent-neutral-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3361,6 +3383,8 @@ export const accent_stone_arbitrary = (value: string) => `accent-stone-[${value}
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3373,6 +3397,8 @@ export const accent_stone_arb = (value: string) => `accent-stone-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3385,6 +3411,8 @@ export const accent_red_arbitrary = (value: string) => `accent-red-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3397,6 +3425,8 @@ export const accent_red_arb = (value: string) => `accent-red-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3409,6 +3439,8 @@ export const accent_orange_arbitrary = (value: string) => `accent-orange-[${valu
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3421,6 +3453,8 @@ export const accent_orange_arb = (value: string) => `accent-orange-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3433,6 +3467,8 @@ export const accent_amber_arbitrary = (value: string) => `accent-amber-[${value}
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3445,6 +3481,8 @@ export const accent_amber_arb = (value: string) => `accent-amber-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3457,6 +3495,8 @@ export const accent_yellow_arbitrary = (value: string) => `accent-yellow-[${valu
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3469,6 +3509,8 @@ export const accent_yellow_arb = (value: string) => `accent-yellow-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3481,6 +3523,8 @@ export const accent_lime_arbitrary = (value: string) => `accent-lime-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3493,6 +3537,8 @@ export const accent_lime_arb = (value: string) => `accent-lime-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3505,6 +3551,8 @@ export const accent_green_arbitrary = (value: string) => `accent-green-[${value}
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3517,6 +3565,8 @@ export const accent_green_arb = (value: string) => `accent-green-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3529,6 +3579,8 @@ export const accent_emerald_arbitrary = (value: string) => `accent-emerald-[${va
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3541,6 +3593,8 @@ export const accent_emerald_arb = (value: string) => `accent-emerald-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3553,6 +3607,8 @@ export const accent_teal_arbitrary = (value: string) => `accent-teal-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3565,6 +3621,8 @@ export const accent_teal_arb = (value: string) => `accent-teal-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3577,6 +3635,8 @@ export const accent_cyan_arbitrary = (value: string) => `accent-cyan-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3589,6 +3649,8 @@ export const accent_cyan_arb = (value: string) => `accent-cyan-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3601,6 +3663,8 @@ export const accent_sky_arbitrary = (value: string) => `accent-sky-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3613,6 +3677,8 @@ export const accent_sky_arb = (value: string) => `accent-sky-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3625,6 +3691,8 @@ export const accent_blue_arbitrary = (value: string) => `accent-blue-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3637,6 +3705,8 @@ export const accent_blue_arb = (value: string) => `accent-blue-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3649,6 +3719,8 @@ export const accent_indigo_arbitrary = (value: string) => `accent-indigo-[${valu
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3661,6 +3733,8 @@ export const accent_indigo_arb = (value: string) => `accent-indigo-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3673,6 +3747,8 @@ export const accent_violet_arbitrary = (value: string) => `accent-violet-[${valu
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3685,6 +3761,8 @@ export const accent_violet_arb = (value: string) => `accent-violet-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3697,6 +3775,8 @@ export const accent_purple_arbitrary = (value: string) => `accent-purple-[${valu
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3709,6 +3789,8 @@ export const accent_purple_arb = (value: string) => `accent-purple-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3721,6 +3803,8 @@ export const accent_fuchsia_arbitrary = (value: string) => `accent-fuchsia-[${va
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3733,6 +3817,8 @@ export const accent_fuchsia_arb = (value: string) => `accent-fuchsia-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3745,6 +3831,8 @@ export const accent_pink_arbitrary = (value: string) => `accent-pink-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3757,6 +3845,8 @@ export const accent_pink_arb = (value: string) => `accent-pink-[${value}]`;
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility
@@ -3769,6 +3859,8 @@ export const accent_rose_arbitrary = (value: string) => `accent-rose-[${value}]`
  *
  * If you need to use a one-off accent-color value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/accent-color#arbitrary-values
  *
  * @type utility

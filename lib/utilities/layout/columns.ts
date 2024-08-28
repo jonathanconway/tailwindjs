@@ -343,6 +343,8 @@ export const columns_7xl = "columns-7xl";
  *
  * If you need to use a one-off columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/columns#arbitrary-values
  *
  * @type utility
@@ -355,6 +357,8 @@ export const columns_arbitrary = (value: string) => `columns-[${value}]`;
  *
  * If you need to use a one-off columns value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/columns#arbitrary-values
  *
  * @type utility

@@ -57,6 +57,8 @@ export const will_change_transform = "will-change-transform";
  *
  * If you need to use a one-off will-change value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/will-change#arbitrary-values
  *
  * @type utility
@@ -69,6 +71,8 @@ export const will_change_arbitrary = (value: string) => `will-change-[${value}]`
  *
  * If you need to use a one-off will-change value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/will-change#arbitrary-values
  *
  * @type utility

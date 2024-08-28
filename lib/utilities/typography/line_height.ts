@@ -187,6 +187,8 @@ export const leading_loose = "leading-loose";
  *
  * If you need to use a one-off line-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/line-height#arbitrary-values
  *
  * @type utility
@@ -199,6 +201,8 @@ export const leading_arbitrary = (value: string) => `leading-[${value}]`;
  *
  * If you need to use a one-off line-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/line-height#arbitrary-values
  *
  * @type utility

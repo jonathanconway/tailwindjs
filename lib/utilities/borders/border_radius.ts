@@ -1814,6 +1814,8 @@ export const rounded_bl_full = "rounded-bl-full";
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1826,6 +1828,8 @@ export const rounded_arbitrary = (value: string) => `rounded-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1838,6 +1842,8 @@ export const rounded_arb = (value: string) => `rounded-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1850,6 +1856,8 @@ export const rounded_s_arbitrary = (value: string) => `rounded-s-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1862,6 +1870,8 @@ export const rounded_s_arb = (value: string) => `rounded-s-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1874,6 +1884,8 @@ export const rounded_e_arbitrary = (value: string) => `rounded-e-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1886,6 +1898,8 @@ export const rounded_e_arb = (value: string) => `rounded-e-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1898,6 +1912,8 @@ export const rounded_t_arbitrary = (value: string) => `rounded-t-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1910,6 +1926,8 @@ export const rounded_t_arb = (value: string) => `rounded-t-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1922,6 +1940,8 @@ export const rounded_r_arbitrary = (value: string) => `rounded-r-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1934,6 +1954,8 @@ export const rounded_r_arb = (value: string) => `rounded-r-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1946,6 +1968,8 @@ export const rounded_b_arbitrary = (value: string) => `rounded-b-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1958,6 +1982,8 @@ export const rounded_b_arb = (value: string) => `rounded-b-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1970,6 +1996,8 @@ export const rounded_l_arbitrary = (value: string) => `rounded-l-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1982,6 +2010,8 @@ export const rounded_l_arb = (value: string) => `rounded-l-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -1994,6 +2024,8 @@ export const rounded_ss_arbitrary = (value: string) => `rounded-ss-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2006,6 +2038,8 @@ export const rounded_ss_arb = (value: string) => `rounded-ss-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2018,6 +2052,8 @@ export const rounded_se_arbitrary = (value: string) => `rounded-se-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2030,6 +2066,8 @@ export const rounded_se_arb = (value: string) => `rounded-se-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2042,6 +2080,8 @@ export const rounded_ee_arbitrary = (value: string) => `rounded-ee-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2054,6 +2094,8 @@ export const rounded_ee_arb = (value: string) => `rounded-ee-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2066,6 +2108,8 @@ export const rounded_es_arbitrary = (value: string) => `rounded-es-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2078,6 +2122,8 @@ export const rounded_es_arb = (value: string) => `rounded-es-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2090,6 +2136,8 @@ export const rounded_tl_arbitrary = (value: string) => `rounded-tl-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2102,6 +2150,8 @@ export const rounded_tl_arb = (value: string) => `rounded-tl-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2114,6 +2164,8 @@ export const rounded_tr_arbitrary = (value: string) => `rounded-tr-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2126,6 +2178,8 @@ export const rounded_tr_arb = (value: string) => `rounded-tr-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2138,6 +2192,8 @@ export const rounded_br_arbitrary = (value: string) => `rounded-br-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2150,6 +2206,8 @@ export const rounded_br_arb = (value: string) => `rounded-br-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility
@@ -2162,6 +2220,8 @@ export const rounded_bl_arbitrary = (value: string) => `rounded-bl-[${value}]`;
  *
  * If you need to use a one-off border-radius value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-radius#arbitrary-values
  *
  * @type utility

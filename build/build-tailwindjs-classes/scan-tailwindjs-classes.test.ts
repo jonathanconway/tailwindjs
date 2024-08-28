@@ -1,62 +1,81 @@
 import * as fs from "fs";
+import * as typescript from "typescript";
 
 import { scanTailwindJSClasses } from "./scan-tailwindjs-classes";
+import { MOCK_TAILWINDJS_CLASSES } from "./scan-tailwindjs-classes.mocks";
+
+const actualFs = jest.requireActual("fs");
 
 jest.mock("fs", () => ({
   ...jest.requireActual("fs"),
+  existsSync: jest.fn(),
   writeFileSync: jest.fn(),
+  readFileSync: jest.fn(),
 }));
 
+const existsSyncSpy = jest.spyOn(fs, "existsSync").mockImplementation();
 const writeFileSyncSpy = jest.spyOn(fs, "writeFileSync").mockImplementation();
+const readFileSyncSpy = jest.spyOn(fs, "readFileSync").mockImplementation();
+
+const actualTypescript = jest.requireActual("typescript");
+
+jest.mock("typescript", () => ({
+  ...jest.requireActual("typescript"),
+  createProgram: jest.fn(),
+}));
+
+const createProgramSpy = jest.spyOn(typescript, "createProgram");
+createProgramSpy.mockImplementation((...args) =>
+  actualTypescript.createProgram(...args)
+);
 
 describe("scan-tailwindjs-classes", () => {
+  beforeEach(() => {
+    createProgramSpy.mockClear();
+  });
+
   describe("scanTailwindJSClasses", () => {
     it("builds a list of tailwind classes used in js/ts code files including utilities, modifiers and arbitraries", () => {
+      existsSyncSpy.mockReturnValue(false);
+      readFileSyncSpy.mockImplementation((filename) =>
+        actualFs.readFileSync(filename)
+      );
+
       scanTailwindJSClasses(`${__dirname}/mocks`);
 
       expect(writeFileSyncSpy).toBeCalledWith(
         `${__dirname}/mocks/tailwind-js-classes.json`,
-        JSON.stringify([
-          "absolute",
-          "bottom-3",
-          "container",
-          "dark:text-stone-50",
-          "dark:text-stone-500",
-          "dark:w-[30rem]",
-          "dark:xl:font-bold",
-          "flex",
-          "flex-col",
-          "font-bold",
-          "font-medium",
-          "gap-1",
-          "gap-3",
-          "gap-4",
-          "group:undefined",
-          "h-14",
-          "h-[25rem]",
-          "inline-block",
-          "lg:h-[25rem]",
-          "list-none",
-          "m-2.5",
-          "md:dark:w-[30rem]",
-          "overflow-hidden",
-          "right-3",
-          "rounded-md",
-          "size-[0.95rem]",
-          "text-ellipsis",
-          "text-sm",
-          "text-stone-400",
-          "text-stone-50",
-          "text-stone-500",
-          "text-stone-950",
-          "text-xs",
-          "underline",
-          "uppercase",
-          "w-16",
-          "w-[30rem]",
-          "whitespace-nowrap",
-          "xl:font-bold",
-        ])
+        JSON.stringify(MOCK_TAILWINDJS_CLASSES, null, 2)
+      );
+    });
+
+    it("skips parsing files that have already been scanned, by comparing the recorded checksum", () => {
+      existsSyncSpy.mockReturnValue(true);
+
+      readFileSyncSpy.mockImplementation((filename) => {
+        if (filename.toString().endsWith("tailwind-js-classes.json")) {
+          return JSON.stringify({
+            [`${__dirname}/mocks/mock_1.ts`]:
+              MOCK_TAILWINDJS_CLASSES[`${__dirname}/mocks/mock_1.ts`],
+          });
+        }
+        return actualFs.readFileSync(filename);
+      });
+
+      scanTailwindJSClasses(`${__dirname}/mocks`);
+
+      expect(createProgramSpy).not.toBeCalledWith(
+        [`${__dirname}/mocks/mock_1.ts`],
+        expect.any(Object)
+      );
+      expect(createProgramSpy).toBeCalledWith(
+        [`${__dirname}/mocks/mock_2/mock_1_1.ts`],
+        expect.any(Object)
+      );
+
+      expect(writeFileSyncSpy).toBeCalledWith(
+        `${__dirname}/mocks/tailwind-js-classes.json`,
+        JSON.stringify(MOCK_TAILWINDJS_CLASSES, null, 2)
       );
     });
   });

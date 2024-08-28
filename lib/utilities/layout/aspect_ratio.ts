@@ -44,6 +44,8 @@ export const aspect_video = "aspect-video";
  *
  * If you need to use a one-off aspect-ratio value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/aspect-ratio#arbitrary-values
  *
  * @type utility
@@ -56,6 +58,8 @@ export const aspect_arbitrary = (value: string) => `aspect-[${value}]`;
  *
  * If you need to use a one-off aspect-ratio value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/aspect-ratio#arbitrary-values
  *
  * @type utility

@@ -3229,6 +3229,8 @@ export const stroke_rose_950 = "stroke-rose-950";
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3241,6 +3243,8 @@ export const stroke_arbitrary = (value: string) => `stroke-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3253,6 +3257,8 @@ export const stroke_arb = (value: string) => `stroke-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3265,6 +3271,8 @@ export const stroke_slate_arbitrary = (value: string) => `stroke-slate-[${value}
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3277,6 +3285,8 @@ export const stroke_slate_arb = (value: string) => `stroke-slate-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3289,6 +3299,8 @@ export const stroke_gray_arbitrary = (value: string) => `stroke-gray-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3301,6 +3313,8 @@ export const stroke_gray_arb = (value: string) => `stroke-gray-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3313,6 +3327,8 @@ export const stroke_zinc_arbitrary = (value: string) => `stroke-zinc-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3325,6 +3341,8 @@ export const stroke_zinc_arb = (value: string) => `stroke-zinc-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3337,6 +3355,8 @@ export const stroke_neutral_arbitrary = (value: string) => `stroke-neutral-[${va
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3349,6 +3369,8 @@ export const stroke_neutral_arb = (value: string) => `stroke-neutral-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3361,6 +3383,8 @@ export const stroke_stone_arbitrary = (value: string) => `stroke-stone-[${value}
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3373,6 +3397,8 @@ export const stroke_stone_arb = (value: string) => `stroke-stone-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3385,6 +3411,8 @@ export const stroke_red_arbitrary = (value: string) => `stroke-red-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3397,6 +3425,8 @@ export const stroke_red_arb = (value: string) => `stroke-red-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3409,6 +3439,8 @@ export const stroke_orange_arbitrary = (value: string) => `stroke-orange-[${valu
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3421,6 +3453,8 @@ export const stroke_orange_arb = (value: string) => `stroke-orange-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3433,6 +3467,8 @@ export const stroke_amber_arbitrary = (value: string) => `stroke-amber-[${value}
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3445,6 +3481,8 @@ export const stroke_amber_arb = (value: string) => `stroke-amber-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3457,6 +3495,8 @@ export const stroke_yellow_arbitrary = (value: string) => `stroke-yellow-[${valu
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3469,6 +3509,8 @@ export const stroke_yellow_arb = (value: string) => `stroke-yellow-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3481,6 +3523,8 @@ export const stroke_lime_arbitrary = (value: string) => `stroke-lime-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3493,6 +3537,8 @@ export const stroke_lime_arb = (value: string) => `stroke-lime-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3505,6 +3551,8 @@ export const stroke_green_arbitrary = (value: string) => `stroke-green-[${value}
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3517,6 +3565,8 @@ export const stroke_green_arb = (value: string) => `stroke-green-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3529,6 +3579,8 @@ export const stroke_emerald_arbitrary = (value: string) => `stroke-emerald-[${va
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3541,6 +3593,8 @@ export const stroke_emerald_arb = (value: string) => `stroke-emerald-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3553,6 +3607,8 @@ export const stroke_teal_arbitrary = (value: string) => `stroke-teal-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3565,6 +3621,8 @@ export const stroke_teal_arb = (value: string) => `stroke-teal-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3577,6 +3635,8 @@ export const stroke_cyan_arbitrary = (value: string) => `stroke-cyan-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3589,6 +3649,8 @@ export const stroke_cyan_arb = (value: string) => `stroke-cyan-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3601,6 +3663,8 @@ export const stroke_sky_arbitrary = (value: string) => `stroke-sky-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3613,6 +3677,8 @@ export const stroke_sky_arb = (value: string) => `stroke-sky-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3625,6 +3691,8 @@ export const stroke_blue_arbitrary = (value: string) => `stroke-blue-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3637,6 +3705,8 @@ export const stroke_blue_arb = (value: string) => `stroke-blue-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3649,6 +3719,8 @@ export const stroke_indigo_arbitrary = (value: string) => `stroke-indigo-[${valu
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3661,6 +3733,8 @@ export const stroke_indigo_arb = (value: string) => `stroke-indigo-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3673,6 +3747,8 @@ export const stroke_violet_arbitrary = (value: string) => `stroke-violet-[${valu
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3685,6 +3761,8 @@ export const stroke_violet_arb = (value: string) => `stroke-violet-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3697,6 +3775,8 @@ export const stroke_purple_arbitrary = (value: string) => `stroke-purple-[${valu
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3709,6 +3789,8 @@ export const stroke_purple_arb = (value: string) => `stroke-purple-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3721,6 +3803,8 @@ export const stroke_fuchsia_arbitrary = (value: string) => `stroke-fuchsia-[${va
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3733,6 +3817,8 @@ export const stroke_fuchsia_arb = (value: string) => `stroke-fuchsia-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3745,6 +3831,8 @@ export const stroke_pink_arbitrary = (value: string) => `stroke-pink-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3757,6 +3845,8 @@ export const stroke_pink_arb = (value: string) => `stroke-pink-[${value}]`;
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility
@@ -3769,6 +3859,8 @@ export const stroke_rose_arbitrary = (value: string) => `stroke-rose-[${value}]`
  *
  * If you need to use a one-off stroke value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/stroke#arbitrary-values
  *
  * @type utility

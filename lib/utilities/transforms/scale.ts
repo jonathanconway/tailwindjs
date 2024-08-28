@@ -395,6 +395,8 @@ export const scale_y_150 = "scale-y-150";
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scale#arbitrary-values
  *
  * @type utility
@@ -407,6 +409,8 @@ export const scale_arbitrary = (value: string) => `scale-[${value}]`;
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scale#arbitrary-values
  *
  * @type utility
@@ -419,6 +423,8 @@ export const scale_arb = (value: string) => `scale-[${value}]`;
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scale#arbitrary-values
  *
  * @type utility
@@ -431,6 +437,8 @@ export const scale_x_arbitrary = (value: string) => `scale-x-[${value}]`;
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scale#arbitrary-values
  *
  * @type utility
@@ -443,6 +451,8 @@ export const scale_x_arb = (value: string) => `scale-x-[${value}]`;
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scale#arbitrary-values
  *
  * @type utility
@@ -455,6 +465,8 @@ export const scale_y_arbitrary = (value: string) => `scale-y-[${value}]`;
  *
  * If you need to use a one-off scale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/scale#arbitrary-values
  *
  * @type utility

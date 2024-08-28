@@ -148,6 +148,8 @@ export const backdrop_brightness_200 = "backdrop-brightness-200";
  *
  * If you need to use a one-off backdrop-brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-brightness#arbitrary-values
  *
  * @type utility
@@ -160,6 +162,8 @@ export const backdrop_brightness_arbitrary = (value: string) => `backdrop-bright
  *
  * If you need to use a one-off backdrop-brightness value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-brightness#arbitrary-values
  *
  * @type utility

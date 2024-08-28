@@ -109,6 +109,8 @@ export const blur_3xl = "blur-3xl";
  *
  * If you need to use a one-off blur value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/blur#arbitrary-values
  *
  * @type utility
@@ -121,6 +123,8 @@ export const blur_arbitrary = (value: string) => `blur-[${value}]`;
  *
  * If you need to use a one-off blur value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/blur#arbitrary-values
  *
  * @type utility

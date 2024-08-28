@@ -70,6 +70,8 @@ export const outline_offset_8 = "outline-offset-8";
  *
  * If you need to use a one-off outline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/outline-offset#arbitrary-values
  *
  * @type utility
@@ -82,6 +84,8 @@ export const outline_offset_arbitrary = (value: string) => `outline-offset-[${va
  *
  * If you need to use a one-off outline-offset value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/outline-offset#arbitrary-values
  *
  * @type utility

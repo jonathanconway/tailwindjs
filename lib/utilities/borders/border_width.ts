@@ -600,6 +600,8 @@ export const border_l = "border-l";
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -612,6 +614,8 @@ export const border_arbitrary = (value: string) => `border-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -624,6 +628,8 @@ export const border_arb = (value: string) => `border-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -636,6 +642,8 @@ export const border_x_arbitrary = (value: string) => `border-x-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -648,6 +656,8 @@ export const border_x_arb = (value: string) => `border-x-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -660,6 +670,8 @@ export const border_y_arbitrary = (value: string) => `border-y-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -672,6 +684,8 @@ export const border_y_arb = (value: string) => `border-y-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -684,6 +698,8 @@ export const border_s_arbitrary = (value: string) => `border-s-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -696,6 +712,8 @@ export const border_s_arb = (value: string) => `border-s-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -708,6 +726,8 @@ export const border_e_arbitrary = (value: string) => `border-e-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -720,6 +740,8 @@ export const border_e_arb = (value: string) => `border-e-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -732,6 +754,8 @@ export const border_t_arbitrary = (value: string) => `border-t-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -744,6 +768,8 @@ export const border_t_arb = (value: string) => `border-t-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -756,6 +782,8 @@ export const border_r_arbitrary = (value: string) => `border-r-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -768,6 +796,8 @@ export const border_r_arb = (value: string) => `border-r-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -780,6 +810,8 @@ export const border_b_arbitrary = (value: string) => `border-b-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -792,6 +824,8 @@ export const border_b_arb = (value: string) => `border-b-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility
@@ -804,6 +838,8 @@ export const border_l_arbitrary = (value: string) => `border-l-[${value}]`;
  *
  * If you need to use a one-off border-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/border-width#arbitrary-values
  *
  * @type utility

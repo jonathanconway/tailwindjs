@@ -96,6 +96,8 @@ export const ring_inset = "ring-inset";
  *
  * If you need to use a one-off ring value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-width#arbitrary-values
  *
  * @type utility
@@ -108,6 +110,8 @@ export const ring_arbitrary = (value: string) => `ring-[${value}]`;
  *
  * If you need to use a one-off ring value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/ring-width#arbitrary-values
  *
  * @type utility

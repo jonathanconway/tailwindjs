@@ -278,6 +278,8 @@ export const backdrop_opacity_100 = "backdrop-opacity-100";
  *
  * If you need to use a one-off backdrop-opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-opacity#arbitrary-values
  *
  * @type utility
@@ -290,6 +292,8 @@ export const backdrop_opacity_arbitrary = (value: string) => `backdrop-opacity-[
  *
  * If you need to use a one-off backdrop-opacity value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-opacity#arbitrary-values
  *
  * @type utility

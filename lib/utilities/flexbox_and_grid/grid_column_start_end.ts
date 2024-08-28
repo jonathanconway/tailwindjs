@@ -551,6 +551,8 @@ export const col_end_auto = "col-end-auto";
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -563,6 +565,8 @@ export const col_arbitrary = (value: string) => `col-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -575,6 +579,8 @@ export const col_arb = (value: string) => `col-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -587,6 +593,8 @@ export const col_span_arbitrary = (value: string) => `col-span-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -599,6 +607,8 @@ export const col_span_arb = (value: string) => `col-span-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -611,6 +621,8 @@ export const col_start_arbitrary = (value: string) => `col-start-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -623,6 +635,8 @@ export const col_start_arb = (value: string) => `col-start-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility
@@ -635,6 +649,8 @@ export const col_end_arbitrary = (value: string) => `col-end-[${value}]`;
  *
  * If you need to use a one-off grid column value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/grid-column#arbitrary-values
  *
  * @type utility

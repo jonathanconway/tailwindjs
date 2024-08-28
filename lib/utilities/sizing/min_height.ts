@@ -564,6 +564,8 @@ export const min_h_fit = "min-h-fit";
  *
  * If you need to use a one-off min-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/min-height#arbitrary-values
  *
  * @type utility
@@ -576,6 +578,8 @@ export const min_h_arbitrary = (value: string) => `min-h-[${value}]`;
  *
  * If you need to use a one-off min-height value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/min-height#arbitrary-values
  *
  * @type utility

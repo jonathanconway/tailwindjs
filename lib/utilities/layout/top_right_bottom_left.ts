@@ -5122,6 +5122,8 @@ export const left_full = "left-full";
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5134,6 +5136,8 @@ export const inset_arbitrary = (value: string) => `inset-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5146,6 +5150,8 @@ export const inset_arb = (value: string) => `inset-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5158,6 +5164,8 @@ export const inset_x_arbitrary = (value: string) => `inset-x-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5170,6 +5178,8 @@ export const inset_x_arb = (value: string) => `inset-x-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5182,6 +5192,8 @@ export const inset_y_arbitrary = (value: string) => `inset-y-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5194,6 +5206,8 @@ export const inset_y_arb = (value: string) => `inset-y-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5206,6 +5220,8 @@ export const start_arbitrary = (value: string) => `start-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5218,6 +5234,8 @@ export const start_arb = (value: string) => `start-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5230,6 +5248,8 @@ export const end_arbitrary = (value: string) => `end-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5242,6 +5262,8 @@ export const end_arb = (value: string) => `end-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5254,6 +5276,8 @@ export const top_arbitrary = (value: string) => `top-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5266,6 +5290,8 @@ export const top_arb = (value: string) => `top-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5278,6 +5304,8 @@ export const right_arbitrary = (value: string) => `right-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5290,6 +5318,8 @@ export const right_arb = (value: string) => `right-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5302,6 +5332,8 @@ export const bottom_arbitrary = (value: string) => `bottom-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5314,6 +5346,8 @@ export const bottom_arb = (value: string) => `bottom-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility
@@ -5326,6 +5360,8 @@ export const left_arbitrary = (value: string) => `left-[${value}]`;
  *
  * If you need to use a one-off position value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/top-right-bottom-left#arbitrary-values
  *
  * @type utility

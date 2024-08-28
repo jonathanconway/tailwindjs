@@ -70,6 +70,8 @@ export const outline_8 = "outline-8";
  *
  * If you need to use a one-off outline-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/outline-width#arbitrary-values
  *
  * @type utility
@@ -82,6 +84,8 @@ export const outline_arbitrary = (value: string) => `outline-[${value}]`;
  *
  * If you need to use a one-off outline-width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/outline-width#arbitrary-values
  *
  * @type utility

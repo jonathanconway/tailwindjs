@@ -31,6 +31,8 @@ export const backdrop_grayscale = "backdrop-grayscale";
  *
  * If you need to use a one-off backdrop-grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-grayscale#arbitrary-values
  *
  * @type utility
@@ -43,6 +45,8 @@ export const backdrop_grayscale_arbitrary = (value: string) => `backdrop-graysca
  *
  * If you need to use a one-off backdrop-grayscale value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/backdrop-grayscale#arbitrary-values
  *
  * @type utility

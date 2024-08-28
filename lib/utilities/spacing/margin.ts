@@ -4289,6 +4289,8 @@ export const ml_auto = "ml-auto";
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4301,6 +4303,8 @@ export const m_arbitrary = (value: string) => `m-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4313,6 +4317,8 @@ export const m_arb = (value: string) => `m-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4325,6 +4331,8 @@ export const mx_arbitrary = (value: string) => `mx-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4337,6 +4345,8 @@ export const mx_arb = (value: string) => `mx-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4349,6 +4359,8 @@ export const my_arbitrary = (value: string) => `my-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4361,6 +4373,8 @@ export const my_arb = (value: string) => `my-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4373,6 +4387,8 @@ export const ms_arbitrary = (value: string) => `ms-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4385,6 +4401,8 @@ export const ms_arb = (value: string) => `ms-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4397,6 +4415,8 @@ export const me_arbitrary = (value: string) => `me-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4409,6 +4429,8 @@ export const me_arb = (value: string) => `me-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4421,6 +4443,8 @@ export const mt_arbitrary = (value: string) => `mt-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4433,6 +4457,8 @@ export const mt_arb = (value: string) => `mt-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4445,6 +4471,8 @@ export const mr_arbitrary = (value: string) => `mr-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4457,6 +4485,8 @@ export const mr_arb = (value: string) => `mr-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4469,6 +4499,8 @@ export const mb_arbitrary = (value: string) => `mb-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4481,6 +4513,8 @@ export const mb_arb = (value: string) => `mb-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility
@@ -4493,6 +4527,8 @@ export const ml_arbitrary = (value: string) => `ml-[${value}]`;
  *
  * If you need to use a one-off margin value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/margin#arbitrary-values
  *
  * @type utility

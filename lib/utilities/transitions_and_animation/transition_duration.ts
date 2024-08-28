@@ -122,6 +122,8 @@ export const duration_1000 = "duration-1000";
  *
  * If you need to use a one-off transition-duration value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/transition-duration#arbitrary-values
  *
  * @type utility
@@ -134,6 +136,8 @@ export const duration_arbitrary = (value: string) => `duration-[${value}]`;
  *
  * If you need to use a one-off transition-duration value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/transition-duration#arbitrary-values
  *
  * @type utility

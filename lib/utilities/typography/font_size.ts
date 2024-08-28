@@ -187,6 +187,8 @@ export const text_9xl = "text-9xl";
  *
  * If you need to use a one-off font-size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/font-size#arbitrary-values
  *
  * @type utility
@@ -199,6 +201,8 @@ export const text_arbitrary = (value: string) => `text-[${value}]`;
  *
  * If you need to use a one-off font-size value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.
  *
+ * @param arbitrary Custom value for utility
+ * 
  * @see https://tailwindcss.com/docs/font-size#arbitrary-values
  *
  * @type utility
