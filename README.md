@@ -1,6 +1,6 @@
 # tailwindjs
 
-> Tailwind as Javascript functions for code completion and type safety.
+> Tailwind as Typescript/Javascript functions for code completion and type safety.
 
 <img src="docs/demo.mp4.gif" alt="Screen recording of developer using TailwindJS" />
 
