@@ -155,8 +155,8 @@ This will produce markup like the following:
 ```
 
 ## API reference
-
 <!-- insert api start -->
+
 
 ### Utilities
 
@@ -176,6 +176,8 @@ This will produce markup like the following:
 - [Transitions and animation](./docs/utilities/transitions_and_animation.md)
 - [Typography](./docs/utilities/typography.md)
 
+
+
 ### Modifiers
 
 - [Attribute selectors](./docs/modifiers/attribute_selectors.md)
@@ -183,8 +185,8 @@ This will produce markup like the following:
 - [Pseudo classes](./docs/modifiers/pseudo_classes.md)
 - [Pseudo elements](./docs/modifiers/pseudo_elements.md)
 
-<!-- insert api end -->
 
+<!-- insert api end -->
 ### Helpers
 
 - [Negative](./docs/helpers/negative.md)

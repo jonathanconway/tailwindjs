@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, writeFileSync } from "fs";
 
-import "../utils";
+import "./array.utils";
 
 function genIndexExportLine(
   exportRelativePathFilename: string,

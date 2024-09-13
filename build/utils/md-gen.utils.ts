@@ -1,8 +1,7 @@
 import {
   Arbitrary,
   Primitive,
-  UtilityArbitrary,
-} from "../parse-tailwindcss-pages";
+} from "../parse-tailwindcss-pages/parse-tailwindcss-pages.types";
 
 export function genMdTable(cells: readonly Record<string, string>[]) {
   if (cells.length === 0) {

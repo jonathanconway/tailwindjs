@@ -9,9 +9,9 @@
  *
  * @see https://tailwindcss.com/docs/adding-custom-styles#arbitrary-properties
  */
-export function arb(expression: string) {
+export const arb = (expression: string) => {
   return `[${expression}]`;
-}
+};
 
 /**
  * [{expression}]
@@ -24,6 +24,6 @@ export function arb(expression: string) {
  *
  * @see https://tailwindcss.com/docs/adding-custom-styles#arbitrary-properties
  */
-export function arbitrary(expression: string) {
+export const arbitrary = (expression: string) => {
   return arb(expression);
-}
+};

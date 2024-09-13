@@ -1,6 +1,6 @@
 export type ImportedConstant = string;
 
-export type ImportedFunction = (...inputs: string[]) => string;
+export type ImportedFunction = (...inputs: any) => string;
 
 export type ImportedFunctionMap = Record<string, ImportedFunction>;
 

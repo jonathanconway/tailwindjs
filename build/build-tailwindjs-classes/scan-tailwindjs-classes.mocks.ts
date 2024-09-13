@@ -2,10 +2,11 @@ import { TailwindJSClasses } from "./scan-tailwindjs-classes";
 
 export const MOCK_TAILWINDJS_CLASSES: TailwindJSClasses = {
   [`${__dirname}/mocks/mock_1.ts`]: {
-    checksum: "31e35e98761eb582ab93add5c921fe9d",
+    checksum: "18e45bbe53cdb0cf40a687947ccb1266",
     classNames: [
       "absolute",
       "bottom-3",
+      "container",
       "flex",
       "flex-col",
       "font-bold",
@@ -22,9 +23,8 @@ export const MOCK_TAILWINDJS_CLASSES: TailwindJSClasses = {
       "underline",
       "uppercase",
       "w-16",
-      "container",
       "dark:text-stone-500",
-      "group:undefined",
+      "group/undefined:undefined",
       "dark:xl:font-bold",
       "lg:h-[25rem]",
       "md:dark:w-[30rem]",

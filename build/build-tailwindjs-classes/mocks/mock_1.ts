@@ -2,18 +2,23 @@ import {
   absolute,
   bottom_3,
   cn,
+  container,
   dark,
   flex,
   flex_col,
   font_bold,
   font_medium,
   gap_3,
-  group,
+  group_name,
   h_14,
+  h_arb,
   hover,
   inline_block,
+  lg,
+  md,
   right_3,
   rounded_md,
+  size_arb,
   text_sm,
   text_stone_400,
   text_stone_500,
@@ -21,20 +26,15 @@ import {
   underline,
   uppercase,
   w_16,
-  h_arb,
-  lg,
-  xl,
-  md,
   w_arb,
-  size_arb,
-  container,
+  xl,
 } from "@jonathanconway/tailwindjs";
 
 export const asideColumn = cn(w_16, flex, flex_col, gap_3);
 
 export const image = cn(rounded_md, h_14, text_stone_400, dark(text_stone_500));
 
-export const title = cn(font_bold, group(hover.name, underline));
+export const title = cn(font_bold, group_name(hover.name, underline));
 
 export const date = cn(text_xs);
 

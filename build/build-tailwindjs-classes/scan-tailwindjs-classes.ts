@@ -7,17 +7,17 @@ import {
 } from "fs";
 import { resolve } from "path";
 import {
+  CallExpression,
   JsxEmit,
-  createProgram,
-  isImportDeclaration,
-  isImportSpecifier,
-  isNamedImports,
   Node,
   SourceFile,
+  createProgram,
   isCallExpression,
   isIdentifier,
-  CallExpression,
+  isImportDeclaration,
+  isImportSpecifier,
   isLiteralExpression,
+  isNamedImports,
 } from "typescript";
 
 import * as tailwindjs from "../../lib";
@@ -28,11 +28,11 @@ import * as tailwindjsModifiersGenerated from "../../lib/modifiers";
 import * as tailwindjsUtilitiesGenerated from "../../lib/utilities";
 import { PROJECT_NAME } from "../constants";
 import {
-  generateChecksum,
   ImportedFunctionMap,
   ImportedModifier,
   ImportedModifierMap,
   ImportedUtilityMap,
+  generateChecksum,
   isNotNil,
   uniq,
   verifyChecksum,
@@ -109,8 +109,6 @@ export function scanTailwindJSClasses(
       previousCache[file] &&
       verifyChecksum(fileContents, previousCache[file].checksum)
     ) {
-      console.log(`${file} is unchanged.`);
-
       tailwindCSSClasses.push(...previousCache[file].classNames);
 
       continue;
@@ -157,6 +155,8 @@ export function scanTailwindJSClasses(
       checksum: generateChecksum(fileContents),
       classNames,
     };
+
+    console.log(`${file} is changed.`);
   }
 
   writeFileSync(outputDirFilename, JSON.stringify(newCache, null, 2));
